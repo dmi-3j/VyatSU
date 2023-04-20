@@ -1,0 +1,22 @@
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб 5.csprojAssemblyReference.cache
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\sorting.Form1.resources
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб_5.Form2.resources
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб_5.Properties.Resources.resources
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб 5.csproj.GenerateResource.cache
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб 5.csproj.CoreCompileInputs.cache
+C:\Users\alhim\source\repos\лаб 5\bin\Debug\лаб 5.exe.config
+C:\Users\alhim\source\repos\лаб 5\bin\Debug\лаб 5.exe
+C:\Users\alhim\source\repos\лаб 5\bin\Debug\лаб 5.pdb
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб 5.exe
+C:\Users\alhim\source\repos\лаб 5\obj\Debug\лаб 5.pdb
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\bin\Debug\лаб 5.exe.config
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\bin\Debug\лаб 5.exe
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\bin\Debug\лаб 5.pdb
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб 5.csprojAssemblyReference.cache
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\sorting.Form1.resources
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб_5.Form2.resources
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб_5.Properties.Resources.resources
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб 5.csproj.GenerateResource.cache
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб 5.csproj.CoreCompileInputs.cache
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб 5.exe
+G:\Программирование Настя\Programming_Lab\Programming_Lab\Лабораторная работа 3\Лаб_3\obj\Debug\лаб 5.pdb
