@@ -1,0 +1,7 @@
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\bin\Debug\4_3.exe.config
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\bin\Debug\4_3.exe
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\bin\Debug\4_3.pdb
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\obj\Debug\4_3.csproj.AssemblyReference.cache
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\obj\Debug\4_3.csproj.CoreCompileInputs.cache
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\obj\Debug\4_3.exe
+D:\Проекты C# Субботин Д.Л\АСД\lab4\4_3\obj\Debug\4_3.pdb
