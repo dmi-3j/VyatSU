@@ -20,7 +20,7 @@
                 sum += q;
                 n++;
             }
-            while (sum < V);
+            while (sum <= V);
             Console.WriteLine("Номер члена, после которого сумма больше " + V + " = " + (n-1));
         }
     }
