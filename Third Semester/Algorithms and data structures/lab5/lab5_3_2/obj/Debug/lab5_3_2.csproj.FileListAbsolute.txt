@@ -1,0 +1,7 @@
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\bin\Debug\lab5_3_2.exe.config
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\bin\Debug\lab5_3_2.exe
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\bin\Debug\lab5_3_2.pdb
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\obj\Debug\lab5_3_2.csproj.AssemblyReference.cache
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\obj\Debug\lab5_3_2.csproj.CoreCompileInputs.cache
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\obj\Debug\lab5_3_2.exe
+D:\Проекты C# Субботин Д.Л\АСД\lab5\lab5_3_2\obj\Debug\lab5_3_2.pdb
