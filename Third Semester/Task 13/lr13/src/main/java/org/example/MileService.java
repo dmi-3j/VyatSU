@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 public class MileService {
     @Autowired
     TravelersCard travelersCard;
-    public void sendEmail(String email) {
+    public void sendEmail() {
+        String email = "test@mail.ru";
         if (!travelersCard.card.isEmpty()) {
             StringBuilder message = new StringBuilder();
             for (Trip trip : travelersCard.card) {

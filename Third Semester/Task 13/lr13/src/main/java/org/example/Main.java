@@ -9,10 +9,7 @@ public class Main {
         TravelService service = context.getBean("travelService", TravelService.class);
         service.printAll();
         System.out.println("===========");
-        service.addToRequest("2023-11-28", "Иннополис");
-        service.addToRequest("2023-11-30",  "Самара");
-        service.order();
-        System.out.println("===========");
-        service.sendEmail("test@mail.ru");
+        //service.order("2023-11-28", "Иннополис");
+        service.order("2023-11-28", "Киров");
     }
 }

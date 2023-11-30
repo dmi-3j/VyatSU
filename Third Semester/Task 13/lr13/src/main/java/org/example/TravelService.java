@@ -52,33 +52,9 @@ public class TravelService {
     @Autowired
     MileService mileService;
 
-    private int count = 0;
-
     public void order(String date, String arrival) {
-        request.add(date, arrival);
-        travelersCard.addToCard();
-
-    }
-
-    public void order() {
-        if(!request.tripList.isEmpty()) {
-            System.out.println("В карту путешественника добавлены туры: ");
-            for (Trip p : request.tripList) {
-                travelersCard.addToCard(p);
-                System.out.println(p.printInfo());
-                count++;
-            }
-            System.out.println("Итоговое количество туров: " + count);
-            System.out.println("Дата оформления: 2023-11-30");
+        if(request.add(date, arrival)) {
+           if(travelersCard.addToCard()) mileService.sendEmail();
         }
-        else System.out.println("В заявке нет туров");
     }
-//    public void addToRequest(String date,String arrival){
-//        request.add(date,arrival);
-//    }
-//    public void sendEmail(String email) {
-//        mileService.sendEmail(email);
-//    }
-
-
 }

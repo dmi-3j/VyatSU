@@ -1,6 +1,5 @@
 package org.example;
 
-
 public class Trip {
     final private int id;
     private final String date;
