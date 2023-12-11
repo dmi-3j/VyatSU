@@ -1,6 +1,5 @@
 package com.example.lr14.controllers;
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.ui.Model;
 import com.example.lr14.entities.MedicalOrganization;
 import com.example.lr14.services.OrganizationService;
@@ -27,7 +26,7 @@ public class OrganizationController {
     @PostMapping("/add")
     public String addOrganization(@ModelAttribute(value = "medicalorganization")MedicalOrganization medicalorganization) {
         organizationService.add(medicalorganization);
-        return "redirect:/organizations";
+        return "redirect:/organizations/add-modify";
     }
     @GetMapping("/show/{id}")
     public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id) {
@@ -40,5 +39,12 @@ public class OrganizationController {
         MedicalOrganization medicalOrganization = organizationService.getById(id);
         organizationService.delete(medicalOrganization);
         return "redirect:/organizations";
+    }
+    @GetMapping("/add-modify")
+    public String test(Model model) {
+        MedicalOrganization organization = new MedicalOrganization();
+        model.addAttribute("organizations", organizationService.getAllOrganizations());
+        model.addAttribute("organization", organization);
+        return "add-modify";
     }
 }
