@@ -1,11 +1,14 @@
 package com.example.lr14.controllers;
 
+import jakarta.servlet.Filter;
 import org.springframework.ui.Model;
 import com.example.lr14.entities.MedicalOrganization;
 import com.example.lr14.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 @RequestMapping("/organizations")
@@ -47,17 +50,25 @@ public class OrganizationController {
         model.addAttribute("organization", organization);
         return "add-modify";
     }
-//    @GetMapping("/update/{id}")
-//    public String showUpdateForm(@PathVariable(value = "id") Integer id, Model model) {
-//        MedicalOrganization existingOrganization = organizationService.getById(id);
-//        model.addAttribute("organization", existingOrganization);
-//        return "add-modify";
-//    }
     @PostMapping("/update/")
     public String updateOrganization(@ModelAttribute(value = "updatedOrganization") MedicalOrganization updatedOrganization) {
         MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
             organizationService.update(organization, updatedOrganization);
         return "redirect:/organizations/add-modify";
+    }
+    @GetMapping("/filter")
+    public String filterOrganizations(Model model,
+                                      @RequestParam(value = "name", required = false)String name,
+                                      @RequestParam(value = "address", required = false) String address,
+                                      @RequestParam(value = "timeofwork", required = false) String timeofwork) {
+        MedicalOrganization medicalOrganization = new MedicalOrganization();
+        model.addAttribute("organizations", organizationService.getAllOrganizations(name, address, timeofwork));
+        model.addAttribute("organization", medicalOrganization);
+        model.addAttribute("name", name);
+        model.addAttribute("address", address);
+        model.addAttribute("timeofwork", timeofwork);
+        return "organizations";
+
     }
 
 }

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Component
 public class OrganizationRepository {
@@ -24,6 +25,13 @@ public class OrganizationRepository {
     }
     public List<MedicalOrganization> getAllOrganizations() {
         return organizations;
+    }
+    public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
+        return organizations.stream()
+                .filter(o -> name == null || o.getName().contains(name))
+                .filter(o -> address == null || o.getAddress().contains(address))
+                .filter(o -> timeofwork == null || o.getTimeOfWork().equals(timeofwork))
+                .collect(Collectors.toList());
     }
     public void save(MedicalOrganization medicalOrganization) {
         organizations.add(medicalOrganization);
