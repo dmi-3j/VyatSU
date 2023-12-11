@@ -34,8 +34,9 @@
         </tr>
         </tbody>
     </table>
-    <span th:text="${'Всего организаций ' + organizations.size()}"/>
+<!--    <span th:text="${'Всего организаций: ' + organizations.size()}"/>-->
     <br>
+    <h3>Отфильтровать</h3>
     <form th:action="@{/organizations/add-modify}">
         <button type="submit" class="btn btn-primary">Добавить или изменить строки таблицы</button>
     </form>
