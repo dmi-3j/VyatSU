@@ -16,8 +16,8 @@ public class OrganizationRepository {
     private void init() {
         organizations = new ArrayList<>();
         organizations.add(new MedicalOrganization(1,"Больница №1", "Кирова 1", "88005553535", "8-20" ));
-        organizations.add(new MedicalOrganization(2, "Больница №5", "Ленина 76", "88005294535", "7-17" ));
-        organizations.add(new MedicalOrganization(3, "Травмпункт", "Менделеева 16", "88332553535", "10-20" ));
+        organizations.add(new MedicalOrganization(2,"Больница №5", "Ленина 76", "88005294535", "7-17" ));
+        organizations.add(new MedicalOrganization(3,"Травмпункт", "Менделеева 16", "88332553535", "10-20" ));
     }
     public MedicalOrganization findById(Integer id) {
         return organizations.stream().filter(o -> o.getId().equals(id)).findFirst().get();
@@ -25,10 +25,17 @@ public class OrganizationRepository {
     public List<MedicalOrganization> getAllOrganizations() {
         return organizations;
     }
-    public void save (MedicalOrganization medicalOrganization) {
+    public void save(MedicalOrganization medicalOrganization) {
         organizations.add(medicalOrganization);
     }
     public void delete(MedicalOrganization medicalOrganization) {
         organizations.remove(medicalOrganization);
+    }
+    public void update(MedicalOrganization exist, MedicalOrganization updated) {
+            exist.setName(updated.getName());
+            exist.setAddress(updated.getAddress());
+            exist.setPhone(updated.getPhone());
+            exist.setTimeOfWork(updated.getTimeOfWork());
+
     }
 }

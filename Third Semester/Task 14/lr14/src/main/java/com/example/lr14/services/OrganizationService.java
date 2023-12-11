@@ -27,6 +27,9 @@ public class OrganizationService {
     public void delete(MedicalOrganization medicalOrganization) {
         repository.delete(medicalOrganization);
     }
+    public void update(MedicalOrganization medicalOrganization, MedicalOrganization updated) {
+        repository.update(medicalOrganization, updated);
+    }
 
 
 }

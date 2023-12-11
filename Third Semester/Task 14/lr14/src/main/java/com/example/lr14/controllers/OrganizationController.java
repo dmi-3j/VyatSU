@@ -47,4 +47,17 @@ public class OrganizationController {
         model.addAttribute("organization", organization);
         return "add-modify";
     }
+//    @GetMapping("/update/{id}")
+//    public String showUpdateForm(@PathVariable(value = "id") Integer id, Model model) {
+//        MedicalOrganization existingOrganization = organizationService.getById(id);
+//        model.addAttribute("organization", existingOrganization);
+//        return "add-modify";
+//    }
+    @PostMapping("/update/")
+    public String updateOrganization(@ModelAttribute(value = "updatedOrganization") MedicalOrganization updatedOrganization) {
+        MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
+            organizationService.update(organization, updatedOrganization);
+        return "redirect:/organizations/add-modify";
+    }
+
 }
