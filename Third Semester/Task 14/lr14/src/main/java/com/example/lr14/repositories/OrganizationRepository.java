@@ -19,10 +19,16 @@ public class OrganizationRepository {
         organizations.add(new MedicalOrganization(2, "Больница №5", "Ленина 76", "88005294535", "7-17" ));
         organizations.add(new MedicalOrganization(3, "Травмпункт", "Менделеева 16", "88332553535", "10-20" ));
     }
+    public MedicalOrganization findById(Integer id) {
+        return organizations.stream().filter(o -> o.getId().equals(id)).findFirst().get();
+    }
     public List<MedicalOrganization> getAllOrganizations() {
         return organizations;
     }
     public void save (MedicalOrganization medicalOrganization) {
         organizations.add(medicalOrganization);
+    }
+    public void delete(MedicalOrganization medicalOrganization) {
+        organizations.remove(medicalOrganization);
     }
 }

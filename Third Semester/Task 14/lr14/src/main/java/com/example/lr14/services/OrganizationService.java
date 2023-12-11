@@ -15,11 +15,17 @@ public class OrganizationService {
     public void setRepository(OrganizationRepository repository) {
         this.repository = repository;
     }
+    public MedicalOrganization getById(Integer id) {
+        return repository.findById(id);
+    }
     public List<MedicalOrganization> getAllOrganizations() {
         return repository.getAllOrganizations();
     }
     public void add(MedicalOrganization medicalOrganization) {
         repository.save(medicalOrganization);
+    }
+    public void delete(MedicalOrganization medicalOrganization) {
+        repository.delete(medicalOrganization);
     }
 
 

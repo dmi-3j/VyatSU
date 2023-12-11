@@ -29,4 +29,16 @@ public class OrganizationController {
         organizationService.add(medicalorganization);
         return "redirect:/organizations";
     }
+    @GetMapping("/show/{id}")
+    public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id) {
+        MedicalOrganization medicalOrganization = organizationService.getById(id);
+        model.addAttribute("organization", medicalOrganization);
+        return "organization-info";
+    }
+    @GetMapping("/delete/{id}")
+    public String deleteOrganizations(Model model, @PathVariable(value = "id") Integer id) {
+        MedicalOrganization medicalOrganization = organizationService.getById(id);
+        organizationService.delete(medicalOrganization);
+        return "redirect:/organizations";
+    }
 }
