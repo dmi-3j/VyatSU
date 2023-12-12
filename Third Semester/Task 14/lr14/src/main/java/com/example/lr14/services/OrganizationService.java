@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 @Service
 public class OrganizationService {
@@ -23,9 +24,14 @@ public class OrganizationService {
     public List<MedicalOrganization> getAllOrganizations() {
         return repository.findAll();
     }
-//    public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
-//        return repository.getAllOrganizations(name, address, timeofwork);
-//    }
+    public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
+//        return repository.findByNameContainingAndAddressContainingAndTimeOfWorkContaining(name, address, timeofwork);
+        return repository.findAll().stream()
+                .filter(o -> name == null || o.getName().contains(name))
+                .filter(o -> address == null || o.getAddress().contains(address))
+                .filter(o -> timeofwork == null || o.getTimeOfWork().equals(timeofwork))
+                .collect(Collectors.toList());
+    }
     public void add(MedicalOrganization medicalOrganization) {
         repository.save(medicalOrganization);
     }
