@@ -10,16 +10,16 @@ public class MedicalOrganization {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "organizationname")
+    @Column(name = "name")
     private String name;
 
     @Column(name = "address")
     private String address;
 
-    @Column(name = "phonenumber")
+    @Column(name = "phone")
     private String phone;
 
-    @Column(name = "worktime")
+    @Column(name = "timeofwork")
     private String timeOfWork;
 
     public MedicalOrganization() {
@@ -35,10 +35,6 @@ public class MedicalOrganization {
 
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public String getName() {

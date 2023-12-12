@@ -35,5 +35,4 @@ public class OrganizationService {
     public void update(MedicalOrganization medicalOrganization, MedicalOrganization updated) {
         repository.update(medicalOrganization, updated);
     }
-
 }

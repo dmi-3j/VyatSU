@@ -1,14 +1,11 @@
 package com.example.lr14.controllers;
 
-import jakarta.servlet.Filter;
 import org.springframework.ui.Model;
 import com.example.lr14.entities.MedicalOrganization;
 import com.example.lr14.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @Controller
 @RequestMapping("/organizations")
@@ -68,6 +65,5 @@ public class OrganizationController {
         model.addAttribute("address", address);
         model.addAttribute("timeofwork", timeofwork);
         return "organizations";
-
     }
 }
