@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 
 //@Component
 public interface OrganizationRepository extends JpaRepository<MedicalOrganization, Integer> {
-    List<MedicalOrganization> findByNameContainingAndAddressContainingAndTimeOfWorkContaining(String name, String address, String timeofwork);
 
 //    private List<MedicalOrganization> organizations;
 //

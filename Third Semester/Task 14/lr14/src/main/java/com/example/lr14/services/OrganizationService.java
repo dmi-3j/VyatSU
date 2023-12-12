@@ -25,7 +25,6 @@ public class OrganizationService {
         return repository.findAll();
     }
     public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
-//        return repository.findByNameContainingAndAddressContainingAndTimeOfWorkContaining(name, address, timeofwork);
         return repository.findAll().stream()
                 .filter(o -> name == null || o.getName().contains(name))
                 .filter(o -> address == null || o.getAddress().contains(address))
@@ -39,10 +38,10 @@ public class OrganizationService {
         repository.delete(medicalOrganization);
     }
     public void update(MedicalOrganization exist, MedicalOrganization updated) {
-        exist.setName(updated.getName());
-        exist.setAddress(updated.getAddress());
-        exist.setPhone(updated.getPhone());
-        exist.setTimeOfWork(updated.getTimeOfWork());
+        if (!updated.getName().isBlank()) exist.setName(updated.getName());
+        if(!updated.getAddress().isBlank()) exist.setAddress(updated.getAddress());
+        if (!updated.getPhone().isBlank()) exist.setPhone(updated.getPhone());
+        if(!updated.getTimeOfWork().isBlank()) exist.setTimeOfWork(updated.getTimeOfWork());
         repository.save(exist);
     }
 }
