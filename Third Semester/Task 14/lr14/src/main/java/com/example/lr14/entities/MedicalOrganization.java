@@ -33,10 +33,13 @@ public class MedicalOrganization {
         this.timeOfWork = timeOfWork;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public Integer getId() {
         return id;
     }
-
     public String getName() {
         return name;
     }
@@ -68,4 +71,5 @@ public class MedicalOrganization {
     public void setTimeOfWork(String timeOfWork) {
         this.timeOfWork = timeOfWork;
     }
+
 }

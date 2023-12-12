@@ -47,23 +47,23 @@ public class OrganizationController {
         model.addAttribute("organization", organization);
         return "add-modify";
     }
-    @PostMapping("/update/")
+    @PostMapping("/add-modify/update")
     public String updateOrganization(@ModelAttribute(value = "updatedOrganization") MedicalOrganization updatedOrganization) {
         MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
-            organizationService.update(organization, updatedOrganization);
+        organizationService.update(organization, updatedOrganization);
         return "redirect:/organizations/add-modify";
     }
-    @GetMapping("/filter")
-    public String filterOrganizations(Model model,
-                                      @RequestParam(value = "name", required = false)String name,
-                                      @RequestParam(value = "address", required = false) String address,
-                                      @RequestParam(value = "timeofwork", required = false) String timeofwork) {
-        MedicalOrganization medicalOrganization = new MedicalOrganization();
-        model.addAttribute("organizations", organizationService.getAllOrganizations(name, address, timeofwork));
-        model.addAttribute("organization", medicalOrganization);
-        model.addAttribute("name", name);
-        model.addAttribute("address", address);
-        model.addAttribute("timeofwork", timeofwork);
-        return "organizations";
-    }
+//    @GetMapping("/filter")
+//    public String filterOrganizations(Model model,
+//                                      @RequestParam(value = "name", required = false)String name,
+//                                      @RequestParam(value = "address", required = false) String address,
+//                                      @RequestParam(value = "timeofwork", required = false) String timeofwork) {
+//        MedicalOrganization medicalOrganization = new MedicalOrganization();
+//        model.addAttribute("organizations", organizationService.getAllOrganizations(name, address, timeofwork));
+//        model.addAttribute("organization", medicalOrganization);
+//        model.addAttribute("name", name);
+//        model.addAttribute("address", address);
+//        model.addAttribute("timeofwork", timeofwork);
+//        return "organizations";
+//    }
 }
