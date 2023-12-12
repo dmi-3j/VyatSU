@@ -1,21 +1,29 @@
 package com.example.lr14.configuration;
 
+import com.example.lr14.services.JdbcUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.web.SecurityFilterChain;
 //import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.userdetails.User;
+
 
 import javax.sql.DataSource;
+
+import static org.springframework.security.config.Customizer.withDefaults;
 
 
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class SecurityConfig { // extends WebSecurityConfigurerAdapter {
+public class SecurityConfig {
+
     private DataSource dataSource;
 
     @Autowired
@@ -23,18 +31,32 @@ public class SecurityConfig { // extends WebSecurityConfigurerAdapter {
         this.dataSource = dataSource;
     }
 
+    @Bean
+    public UserDetailsService userDetailsService() {
 
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception { // (1)
-        auth.jdbcAuthentication().dataSource(dataSource);
+        return new JdbcUserDetailsService(dataSource);
     }
 
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+                .authorizeRequests()
+                .anyRequest().authenticated()
+                .and()
+                .formLogin(withDefaults());
+        return http.build();
+    }
+
+
+
+//    @Override
 //    protected void configure(AuthenticationManagerBuilder auth) throws Exception { // (2)
 //        User.UserBuilder users = User.withDefaultPasswordEncoder();
 //        auth.inMemoryAuthentication()
-//                .withUser(users.username("admin").password("123").roles("USER", "ADMIN"))
-//                .withUser(users.username("user").password("456").roles("USER"));
+//                .withUser(users.username("user1").password("pass1").roles("USER", "ADMIN"))
+//                .withUser(users.username("user2").password("pass2").roles("USER"));
 //    }
-//
+
 //    @Override
 //    protected void configure(HttpSecurity http) throws Exception {
 //        http.authorizeRequests()

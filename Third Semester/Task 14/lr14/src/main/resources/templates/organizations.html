@@ -36,10 +36,11 @@
     </table>
 <!--    <span th:text="${'Всего организаций: ' + organizations.size()}"/>-->
     <br>
-    <h3>Отфильтровать</h3>
+
     <form th:action="@{/organizations/add-modify}">
         <button type="submit" class="btn btn-primary">Добавить или изменить строки таблицы</button>
     </form>
+    <h3 style="margin-top: 20px">Отфильтровать</h3>
     <form th:action="@{/organizations/filter}" method="get">
         <div class="form-group">
             <label for="name">Название организации:</label>
@@ -57,7 +58,7 @@
 
     </form>
     <form th:action="@{/organizations}">
-        <button type="submit" class="btn btn-danger">Сбросить</button>
+        <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
     </form>
 </div>
 </body>

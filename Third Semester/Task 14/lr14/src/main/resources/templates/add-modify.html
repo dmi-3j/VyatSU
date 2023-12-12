@@ -30,7 +30,6 @@
     </tr>
     </tbody>
   </table>
-  <span th:text="${'Всего организаций ' + organizations.size()}"/>
   <br>
   <form th:action="@{/organizations/add}"
         th:object="${organization}" method="post" class="form-horizontal">
@@ -63,7 +62,7 @@
 
     <div style="margin-top: 10px" class="form-group">
       <div class="col-sm-6 controls">
-        <button type="submit" class="btn btn-primary">Добавить</button>
+        <button  style='margin-left: 0' type="submit" class="btn btn-primary">Добавить</button>
       </div>
     </div>
   </form>
@@ -99,9 +98,12 @@
 
     <div style="margin-top: 10px" class="form-group">
       <div class="col-sm-6 controls">
-        <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+        <button style='margin-left: 0' type="submit" class="btn btn-primary">Сохранить изменения</button>
       </div>
     </div>
+  </form>
+  <form th:action="@{/organizations}">
+    <button style='margin: 10px 15px' type="submit" class="btn btn-danger">Назад на главную</button>
   </form>
 </div>
 </body>

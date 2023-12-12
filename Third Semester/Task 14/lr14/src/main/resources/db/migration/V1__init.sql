@@ -22,8 +22,8 @@ CREATE TABLE users
 );
 
 INSERT INTO users
-VALUES ('admin', '123', true),
-       ('user', '456', true);
+VALUES ('admin', '{noop}123', true),
+       ('user', '{noop}456', true);
 
 CREATE TABLE authorities
 (
