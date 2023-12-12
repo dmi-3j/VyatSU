@@ -28,7 +28,7 @@ public class OrganizationService {
         return repository.findAll().stream()
                 .filter(o -> name == null || o.getName().contains(name))
                 .filter(o -> address == null || o.getAddress().contains(address))
-                .filter(o -> timeofwork == null || o.getTimeOfWork().equals(timeofwork))
+                .filter(o -> timeofwork == null || o.getTimeOfWork().contains(timeofwork))
                 .collect(Collectors.toList());
     }
     public void add(MedicalOrganization medicalOrganization) {
