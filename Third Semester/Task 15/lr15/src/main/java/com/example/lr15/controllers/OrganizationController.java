@@ -23,11 +23,32 @@ public class OrganizationController {
         model.addAttribute("organization", organization);
         return "organizations";
     }
-    @PostMapping("/add")
+
+    @PostMapping("/addOrUpdate/add")
     public String addOrganization(@ModelAttribute(value = "medicalorganization")MedicalOrganization medicalorganization) {
         organizationService.add(medicalorganization);
         return "redirect:/organizations";
     }
+    @GetMapping("/addOrUpdate/add")
+    public String test(Model model) {
+        MedicalOrganization organization = new MedicalOrganization();
+        model.addAttribute("organizations", organizationService.getAllOrganizations());
+        model.addAttribute("organization", organization);
+        return "addOrUpdate";
+    }
+    @GetMapping("/addOrUpdate/edit/{id}")
+    public String editOrganization(Model model, @PathVariable(value = "id") Integer id) {
+        MedicalOrganization medicalOrganization = organizationService.getById(id);
+        model.addAttribute("organization", medicalOrganization);
+        return "addOrUpdate";
+    }
+    @PostMapping("/addOrUpdate/edit/update")
+    public String updateOrganization(@ModelAttribute(value = "organization") MedicalOrganization updatedOrganization) {
+        MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
+        organizationService.update(organization, updatedOrganization);
+        return "redirect:/organizations";
+    }
+
     @GetMapping("/show/{id}")
     public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id) {
         MedicalOrganization medicalOrganization = organizationService.getById(id);
@@ -40,13 +61,7 @@ public class OrganizationController {
         organizationService.delete(medicalOrganization);
         return "redirect:/organizations";
     }
-    @GetMapping("/add")
-    public String test(Model model) {
-        MedicalOrganization organization = new MedicalOrganization();
-        model.addAttribute("organizations", organizationService.getAllOrganizations());
-        model.addAttribute("organization", organization);
-        return "add";
-    }
+
     @GetMapping("/filter")
     public String filterOrganizations(Model model,
                                       @RequestParam(value = "name", required = false)String name,
@@ -59,17 +74,5 @@ public class OrganizationController {
         model.addAttribute("address", address);
         model.addAttribute("timeofwork", timeofwork);
         return "organizations";
-    }
-    @GetMapping("/edit/{id}")
-    public String editOrganization(Model model, @PathVariable(value = "id") Integer id) {
-        MedicalOrganization medicalOrganization = organizationService.getById(id);
-        model.addAttribute("organization", medicalOrganization);
-        return "edit";
-    }
-    @PostMapping("/edit/update")
-    public String updateOrganization(@ModelAttribute(value = "organization") MedicalOrganization updatedOrganization) {
-        MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
-        organizationService.update(organization, updatedOrganization);
-        return "redirect:/organizations";
     }
 }
