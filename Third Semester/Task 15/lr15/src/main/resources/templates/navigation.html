@@ -36,7 +36,7 @@
                 </li>
                 <li sec:authorize="hasRole('ADMIN')" class="nav-item"
                     th:classappend="${activeTab == 'Products' ? 'active' : ''}">
-                    <a class="nav-link" th:href="@{/product/edit/0}">Добавить товар</a>
+                    <a class="nav-link" th:href="@{/organizations/addOrUpdate/add}">Добавить организацию</a>
                 </li>
                 <li class="nav-item"
                     th:classappend="${activeTab == 'Cart' ? 'active' : ''}">
