@@ -18,12 +18,27 @@
             return true;
         }
     </script>
+    <script>
+        function validateTimeOfWork() {
+            var timeOfWork = document.getElementById('timeOfWork').value;
+            var timeRegex = /^(0?[0-9]|1[0-9]|2[0-3])\D(0?[0-9]|1[0-9]|2[0-3])$/;
+            var errorMessageElement = document.getElementById('time-error-message');
+
+            if (!timeRegex.test(timeOfWork)) {
+                errorMessageElement.textContent = 'Пожалуйста, введите корректное время работы (два числа от 0 до 23, разделенных любыми разделителями).';
+                return false;
+            }
+
+            errorMessageElement.textContent = ''; // Очистка сообщения об ошибке, если время корректно
+            return true;
+        }
+    </script>
 </head>
 
 <body>
 <div class="container">
     <form th:if="${organization.id == null}" th:action=" @{/organizations/addOrUpdate/add}"
-          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber();">
+          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeOfWork();">
         <h3>Добавить организацию</h3>
 
         <div style="margin-bottom: 25px" class="input-group">
@@ -49,17 +64,18 @@
 
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input th:field="*{timeOfWork}" placeholder="Время работы (*)" required class="form-control"/>
+            <input th:field="*{timeOfWork}" id="timeOfWork" placeholder="Время работы (*)" required class="form-control"/>
+            <span id="time-error-message" style="color: red;margin-left: 10px"></span>
         </div>
 
         <div style="margin-top: 10px" class="form-group">
             <div class="col-sm-6 controls">
-                <button  style='margin-left: 0' type="submit" class="btn btn-primary" >Добавить</button>
+                <button style='margin-left: 0' type="submit" class="btn btn-primary">Добавить</button>
             </div>
         </div>
     </form>
     <form th:if="${organization.id != null}" th:action=" @{/organizations/addOrUpdate/edit/update}"
-          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber();">
+          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeOfWork();">
         <h3>Изменить данные организации</h3>
 
         <div style="margin-bottom: 25px" class="input-group">
@@ -85,7 +101,8 @@
 
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input th:field="*{timeOfWork}" placeholder="Время работы (*)" class="form-control"/>
+            <input th:field="*{timeOfWork}" id="timeOfWork" placeholder="Время работы (*)" required class="form-control"/>
+            <span id="time-error-message" style="color: red;margin-left: 10px"></span>
         </div>
 
         <div style="margin-top: 10px" class="form-group">

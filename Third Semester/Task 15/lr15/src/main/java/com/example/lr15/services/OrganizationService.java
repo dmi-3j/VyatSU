@@ -33,7 +33,7 @@ public class OrganizationService {
         if (time == null || time.isBlank()) {
             return false;
         }
-        String[] hours = timeOfWork.split("-");
+        String[] hours = timeOfWork.split("\\D+");
         if (hours.length != 2) {
             return false;
         }
