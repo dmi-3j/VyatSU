@@ -30,14 +30,14 @@
             <td th:text="${organization.timeOfWork}"/>
             <td>
                 <a th:href="@{'/organizations/show/' + ${organization.id}}" th:text="Просмотреть"/>
-                <a th:href="@{'/organizations/addOrUpdate/edit/' + ${organization.id}}" th:text="Редактировать" class="text-info" style="margin-left: 15px"/>
-                <a th:href="@{'/organizations/delete/' + ${organization.id}}" th:text="Удалить" class="text-danger" style="margin-left: 15px"/>
+                <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}" th:href="@{'/organizations/addOrUpdate/edit/' + ${organization.id}}" th:text="Редактировать" class="text-info" style="margin-left: 15px"/>
+                <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}" th:href="@{'/organizations/delete/' + ${organization.id}}" th:text="Удалить" class="text-danger" style="margin-left: 15px"/>
             </td>
         </tr>
         </tbody>
     </table>
     <br>
-    <form th:action="@{/organizations/addOrUpdate/add}">
+    <form th:action="@{/organizations/addOrUpdate/add}" th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
         <button type="submit" class="btn btn-primary">Добавить организацию</button>
     </form>
     <h3 style="margin-top: 20px">Отфильтровать</h3>

@@ -38,7 +38,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
+                .authorizeRequests().requestMatchers("/organizations/addOrUpdate/**").hasRole("ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin(withDefaults());

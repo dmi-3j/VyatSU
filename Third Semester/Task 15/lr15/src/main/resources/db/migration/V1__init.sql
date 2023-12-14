@@ -39,5 +39,4 @@ CREATE TABLE authorities
 
 INSERT INTO authorities
 VALUES ('admin', 'ROLE_ADMIN'),
-       ('admin', 'ROLE_USER'),
        ('user', 'ROLE_USER');
