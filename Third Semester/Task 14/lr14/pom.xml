@@ -57,6 +57,10 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -65,7 +69,27 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+
+				<plugin>
+					<groupId>org.flywaydb</groupId>
+					<artifactId>flyway-maven-plugin</artifactId>
+					<version>5.2.4</version>
+					<configuration>
+						<url>jdbc:postgresql://localhost:5432/med?currentSchema=public</url>
+						<user>postgres</user>
+						<password>1</password>
+						<schemas>
+							<schema>public</schema>
+						</schemas>
+					</configuration>
+				</plugin>
+			</plugins>
 	</build>
+
 
 </project>

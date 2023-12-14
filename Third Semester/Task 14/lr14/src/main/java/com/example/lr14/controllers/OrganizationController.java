@@ -26,7 +26,7 @@ public class OrganizationController {
     @PostMapping("/add")
     public String addOrganization(@ModelAttribute(value = "medicalorganization")MedicalOrganization medicalorganization) {
         organizationService.add(medicalorganization);
-        return "redirect:/organizations/add-modify";
+        return "redirect:/organizations";
     }
     @GetMapping("/show/{id}")
     public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id) {
@@ -40,18 +40,12 @@ public class OrganizationController {
         organizationService.delete(medicalOrganization);
         return "redirect:/organizations";
     }
-    @GetMapping("/add-modify")
+    @GetMapping("/add")
     public String test(Model model) {
         MedicalOrganization organization = new MedicalOrganization();
         model.addAttribute("organizations", organizationService.getAllOrganizations());
         model.addAttribute("organization", organization);
-        return "add-modify";
-    }
-    @PostMapping("/add-modify/update")
-    public String updateOrganization(@ModelAttribute(value = "updatedOrganization") MedicalOrganization updatedOrganization) {
-        MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
-        organizationService.update(organization, updatedOrganization);
-        return "redirect:/organizations/add-modify";
+        return "add";
     }
     @GetMapping("/filter")
     public String filterOrganizations(Model model,
@@ -65,5 +59,17 @@ public class OrganizationController {
         model.addAttribute("address", address);
         model.addAttribute("timeofwork", timeofwork);
         return "organizations";
+    }
+    @GetMapping("/edit/{id}")
+    public String editOrganization(Model model, @PathVariable(value = "id") Integer id) {
+        MedicalOrganization medicalOrganization = organizationService.getById(id);
+        model.addAttribute("organization", medicalOrganization);
+        return "edit";
+    }
+    @PostMapping("/edit/update")
+    public String updateOrganization(@ModelAttribute(value = "organization") MedicalOrganization updatedOrganization) {
+        MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
+        organizationService.update(organization, updatedOrganization);
+        return "redirect:/organizations";
     }
 }

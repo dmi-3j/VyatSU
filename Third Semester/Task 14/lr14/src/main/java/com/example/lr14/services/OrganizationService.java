@@ -26,10 +26,27 @@ public class OrganizationService {
     }
     public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
         return repository.findAll().stream()
-                .filter(o -> name == null || o.getName().contains(name))
-                .filter(o -> address == null || o.getAddress().contains(address))
-                .filter(o -> timeofwork == null || o.getTimeOfWork().contains(timeofwork))
+                .filter(o -> name.isBlank()|| o.getName().contains(name))
+                .filter(o -> address.isBlank()|| o.getAddress().contains(address))
+                .filter(o -> timeofwork.isBlank() || isTimeInRange(o.getTimeOfWork(), timeofwork))
                 .collect(Collectors.toList());
+    }
+    private boolean isTimeInRange(String timeOfWork, String time) {
+        if (time == null || time.isBlank()) {
+            return false;
+        }
+        String[] hours = timeOfWork.split("-");
+        if (hours.length != 2) {
+            return false;
+        }
+        try {
+            int startTime = Integer.parseInt(hours[0].trim());
+            int endTime = Integer.parseInt(hours[1].trim());
+            int eatTime = Integer.parseInt(time.trim());
+            return startTime <= eatTime && endTime >= eatTime;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
     public void add(MedicalOrganization medicalOrganization) {
         repository.save(medicalOrganization);
