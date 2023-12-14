@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Список медицинских организаций</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Название организации</th>
+            <th>Адрес</th>
+            <th>Телефон</th>
+            <th>Время работы</th>
+            <th>Действия</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="organization : ${organizations}">
+            <td th:text="${organization.id}"/>
+            <td th:text="${organization.name}"/>
+            <td th:text="${organization.address}"/>
+            <td th:text="${organization.phone}"/>
+            <td th:text="${organization.timeOfWork}"/>
+            <td>
+                <a th:href="@{'/organizations/show/' + ${organization.id}}" th:text="Просмотреть"/>
+                <a th:href="@{'/organizations/edit/' + ${organization.id}}" th:text="Редактировать" class="text-info" style="margin-left: 15px"/>
+                <a th:href="@{'/organizations/delete/' + ${organization.id}}" th:text="Удалить" class="text-danger" style="margin-left: 15px"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+<!--    <span th:text="${'Всего организаций: ' + organizations.size()}"/>-->
+    <br>
+    <form th:action="@{/organizations/add}">
+        <button type="submit" class="btn btn-primary">Добавить организацию</button>
+    </form>
+    <h3 style="margin-top: 20px">Отфильтровать</h3>
+    <form th:action="@{/organizations/filter}" method="get">
+        <div class="form-group">
+            <label for="name">Название организации:</label>
+            <input type="text" class="form-control" id="name" name="name" th:value="${name}">
+        </div>
+        <div class="form-group">
+            <label for="address">Адрес:</label>
+            <input type="text" class="form-control" id="address" name="address" th:value="${address}">
+        </div>
+        <div class="form-group">
+            <label for="timeofwork">Время работы:</label>
+            <input type="text" class="form-control" id="timeofwork" name="timeofwork" th:value="${timeofwork}">
+        </div>
+        <button type="submit" class="btn btn-primary">Отфильтровать</button>
+
+    </form>
+    <form th:action="@{/organizations}">
+        <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
+    </form>
+</div>
+</body>
+</html>
