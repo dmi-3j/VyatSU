@@ -6,6 +6,9 @@ import com.example.lr15.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import jakarta.servlet.http.HttpServletRequest;
+
+import static org.springframework.security.web.context.HttpSessionSecurityContextRepository.SPRING_SECURITY_CONTEXT_KEY;
 
 @Controller
 @RequestMapping("/organizations")
@@ -75,4 +78,5 @@ public class OrganizationController {
         model.addAttribute("timeofwork", timeofwork);
         return "organizations";
     }
+
 }
