@@ -1,8 +1,8 @@
-package com.example.lr14.controllers;
+package com.example.lr15.controllers;
 
 import org.springframework.ui.Model;
-import com.example.lr14.entities.MedicalOrganization;
-import com.example.lr14.services.OrganizationService;
+import com.example.lr15.entities.MedicalOrganization;
+import com.example.lr15.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

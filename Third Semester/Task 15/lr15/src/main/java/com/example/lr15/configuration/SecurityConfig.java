@@ -1,6 +1,6 @@
-package com.example.lr14.configuration;
+package com.example.lr15.configuration;
 
-import com.example.lr14.services.JdbcUserDetailsService;
+import com.example.lr15.services.JdbcUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

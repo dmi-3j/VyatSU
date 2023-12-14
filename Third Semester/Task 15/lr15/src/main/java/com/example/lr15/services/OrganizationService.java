@@ -1,13 +1,11 @@
-package com.example.lr14.services;
+package com.example.lr15.services;
 
-import com.example.lr14.entities.MedicalOrganization;
-import com.example.lr14.repositories.OrganizationRepository;
-import jakarta.servlet.Filter;
+import com.example.lr15.entities.MedicalOrganization;
+import com.example.lr15.repositories.OrganizationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 @Service
