@@ -4,10 +4,13 @@ package com.example.lr15.configuration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.JdbcUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import javax.sql.DataSource;
@@ -19,12 +22,30 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig {
 
+    @Autowired
     private DataSource dataSource;
 
-    @Autowired
-    public void setDataSource(DataSource dataSource) {
-        this.dataSource = dataSource;
+
+
+
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+                .authorizeRequests()
+                .requestMatchers("/organizations/addOrUpdate/**").hasAnyRole("ADMIN")
+                .anyRequest().permitAll()
+                .and()
+                .formLogin((form) -> form
+                        .loginPage("/")
+                        .loginProcessingUrl("/authenticateTheUser")
+                        .permitAll())
+                .logout((logout) -> logout
+                        .logoutSuccessUrl("/").permitAll());
+        return http.build();
     }
+
+
+
 
     @Bean
     public UserDetailsService userDetailsService(DataSource dataSource) {
@@ -36,20 +57,6 @@ public class SecurityConfig {
     }
 
 
-    @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-                .authorizeRequests().requestMatchers("/organizations/addOrUpdate/**").hasRole("ADMIN")
-                .anyRequest().authenticated()
-                .and()
-                .formLogin(withDefaults());
-        return http.build();
-    }
-
-//    @Bean
-//    public PasswordEncoder passwordEncoder() {
-//        return new BCryptPasswordEncoder();
-//    }
 
 //    @Autowired
 //    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
@@ -81,9 +88,9 @@ public class SecurityConfig {
 //                .antMatchers("/secured/**").hasAnyRole("ADMIN")
 //                .and()
 //                .formLogin()
-////                .loginPage("/login")
-////                .loginProcessingUrl("/authenticateTheUser")
-//                .permitAll();
+//                .loginPage("/login")
+//                .loginProcessingUrl("/authenticateTheUser")
+////                .permitAll();
 //    }
 }
 

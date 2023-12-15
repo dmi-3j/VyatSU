@@ -17,7 +17,7 @@
 
 <div class="fluid-container" th:fragment="navi(activeTab)">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary ">
-        <a class="navbar-brand" th:href="@{/organizations}">Project</a>
+        <a class="navbar-brand" th:href="@{/}">ООО "Медицинские организации"</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,26 +25,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item" th:classappend="${activeTab == 'Home' ? 'active' : ''}">
-                    <a class="nav-link" th:href="@{/organizations}">Главная страница<span
+                    <a class="nav-link" th:href="@{/}">Главная страница<span
                             class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item" th:classappend="${activeTab == 'Shop' ? 'active' : ''}">
-                    <a class="nav-link" th:href="@{/organizations}">Каталог товаров<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item" th:classappend="${activeTab == 'Info' ? 'active' : ''}">
-                    <a class="nav-link" th:href="@{/info}">Информация<span class="sr-only">(current)</span></a>
                 </li>
                 <li sec:authorize="hasRole('ADMIN')" class="nav-item"
                     th:classappend="${activeTab == 'Products' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/organizations/addOrUpdate/add}">Добавить организацию</a>
                 </li>
-                <li class="nav-item"
-                    th:classappend="${activeTab == 'Cart' ? 'active' : ''}">
-                    <a class="nav-link" th:href="@{/shop/cart}">Корзина</a>
+                <li sec:authorize="isAuthenticated()" class="nav-item">
+                    <a class="nav-link" style="color: white" th:text="${#authentication.name}"></a>
                 </li>
                 <li sec:authorize="isAuthenticated()" class="nav-item">
                     <form th:action="@{/logout}" method="POST">
-                        <input type="submit" class="btn btn-danger" value="Logout"/>
+                        <button class="btn btn-danger" type="submit">Logout</button>
                     </form>
                 </li>
                 <li sec:authorize="isAnonymous()" class="nav-item">
@@ -57,6 +50,17 @@
                             <button class="btn btn-secondary btn-sm" type="submit">Войти</button>
                         </div>
                     </form>
+                </li>
+                <li class="nav-item">
+                    <div class="col-xs-10">
+                        <div class="align-middle">
+                            <div th:if="${param.error} != null">
+
+                                    <span class="align-middle" style="color: red; background-color: #f8d7da;margin-left: 10px">Invalid username and password.</span>
+<!--                                <span id="error-message" style="color: red;margin-left: 10px">Invalid username and password.</span>-->
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
