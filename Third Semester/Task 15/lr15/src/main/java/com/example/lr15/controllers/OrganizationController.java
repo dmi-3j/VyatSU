@@ -1,20 +1,13 @@
 package com.example.lr15.controllers;
 
-import jakarta.servlet.http.HttpServletResponse;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.ui.Model;
 import com.example.lr15.entities.MedicalOrganization;
 import com.example.lr15.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import jakarta.servlet.http.HttpServletRequest;
-
-import static org.springframework.security.web.context.HttpSessionSecurityContextRepository.SPRING_SECURITY_CONTEXT_KEY;
 
 @Controller
 public class OrganizationController {
@@ -100,7 +93,12 @@ public class OrganizationController {
                 return "redirect:/organizations";
             }
         }
-        model.addAttribute("error", "Invalid username or password");
+       // model.addAttribute("error", "Invalid username or password");
+        return "organizations";
+    }
+
+    @PostMapping("/error")
+    public String error() {
         return "error";
     }
 }
