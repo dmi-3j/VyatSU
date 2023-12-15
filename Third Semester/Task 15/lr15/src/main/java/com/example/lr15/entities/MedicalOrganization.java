@@ -25,5 +25,4 @@ public class MedicalOrganization {
 
     @Column(name = "timeofwork")
     private String timeOfWork;
-
 }

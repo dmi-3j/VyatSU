@@ -22,9 +22,6 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig {
 
-    @Autowired
-    private DataSource dataSource;
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
@@ -48,19 +45,4 @@ public class SecurityConfig {
         manager.setAuthoritiesByUsernameQuery("SELECT username, authority FROM authorities WHERE username = ?");
         return manager;
     }
-
-
-
-//    @Autowired
-//    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-//        auth.userDetailsService(userDetailsService()).passwordEncoder(passwordEncoder());
-//    }
-
-//    @Bean
-//    public AuthenticationManager customAuthenticationManager() throws Exception {
-//        return authenticationManagerBuilder.getObject();
-//    }
-
-
 }
-
