@@ -25,16 +25,12 @@ public class SecurityConfig {
     @Autowired
     private DataSource dataSource;
 
-
-
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
+                .authorizeHttpRequests(authorize -> authorize
                 .requestMatchers("/organizations/addOrUpdate/**").hasAnyRole("ADMIN")
-                .anyRequest().permitAll()
-                .and()
+                .anyRequest().permitAll())
                 .formLogin((form) -> form
                         .loginPage("/")
                         .loginProcessingUrl("/authenticateTheUser")
@@ -43,9 +39,6 @@ public class SecurityConfig {
                         .logoutSuccessUrl("/").permitAll());
         return http.build();
     }
-
-
-
 
     @Bean
     public UserDetailsService userDetailsService(DataSource dataSource) {
@@ -69,28 +62,5 @@ public class SecurityConfig {
 //    }
 
 
-
-
-
-
-//    @Override
-//    protected void configure(AuthenticationManagerBuilder auth) throws Exception { // (2)
-//        User.UserBuilder users = User.withDefaultPasswordEncoder();
-//        auth.inMemoryAuthentication()
-//                .withUser(users.username("user1").password("pass1").roles("USER", "ADMIN"))
-//                .withUser(users.username("user2").password("pass2").roles("USER"));
-//    }
-
-//    @Override
-//    protected void configure(HttpSecurity http) throws Exception {
-//        http.authorizeRequests()
-//                .anyRequest().permitAll()
-//                .antMatchers("/secured/**").hasAnyRole("ADMIN")
-//                .and()
-//                .formLogin()
-//                .loginPage("/login")
-//                .loginProcessingUrl("/authenticateTheUser")
-////                .permitAll();
-//    }
 }
 
