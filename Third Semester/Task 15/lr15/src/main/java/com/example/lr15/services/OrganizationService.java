@@ -4,6 +4,8 @@ import com.example.lr15.Specifications.OrganizationSpecifications;
 import com.example.lr15.entities.MedicalOrganization;
 import com.example.lr15.repositories.OrganizationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -20,15 +22,15 @@ public class OrganizationService {
         return repository.findById(id).orElse(null);
     }
 
-    public List<MedicalOrganization> getAllOrganizations() {
-        return repository.findAll();
+    public Page<MedicalOrganization> getAllOrganizations(Pageable pageable) {
+        return repository.findAll(pageable);
     }
-    public List<MedicalOrganization> getAllOrganizations(String name, String address, Integer timeofwork) {
+    public Page<MedicalOrganization> getAllOrganizations(String name, String address, Integer timeofwork, Pageable pageable) {
         Specification<MedicalOrganization> specification = Specification
                 .where(OrganizationSpecifications.hasName(name))
                 .and(OrganizationSpecifications.hasAddress(address))
                 .and(OrganizationSpecifications.hasTimeOfWork(timeofwork));
-        return repository.findAll(specification);
+        return repository.findAll(specification, pageable);
     }
     public void add(MedicalOrganization medicalOrganization) {
         repository.save(medicalOrganization);

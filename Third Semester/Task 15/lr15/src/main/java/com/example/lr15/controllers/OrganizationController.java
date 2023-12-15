@@ -1,5 +1,8 @@
 package com.example.lr15.controllers;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.ui.Model;
@@ -8,7 +11,6 @@ import com.example.lr15.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
 @Controller
 public class OrganizationController {
     private OrganizationService organizationService;
@@ -20,10 +22,13 @@ public class OrganizationController {
     }
 
     @GetMapping("")
-    public String showOrganizationsList(Model model) {
-        MedicalOrganization organization = new MedicalOrganization();
-        model.addAttribute("organizations", organizationService.getAllOrganizations());
-        model.addAttribute("organization", organization);
+    public String showOrganizationsList(Model model, @RequestParam(defaultValue = "0") int page) {
+        Pageable pageable = PageRequest.of(page, 5);
+        Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(pageable);
+        model.addAttribute("organizations", organizationPage.getContent());
+        model.addAttribute("organization", new MedicalOrganization());
+        model.addAttribute("currentPage", page);
+        model.addAttribute("totalPages", organizationPage.getTotalPages());
         return "organizations";
     }
 
@@ -35,9 +40,9 @@ public class OrganizationController {
 
     @GetMapping("/organizations/addOrUpdate/add")
     public String test(Model model) {
-        MedicalOrganization organization = new MedicalOrganization();
-        model.addAttribute("organizations", organizationService.getAllOrganizations());
-        model.addAttribute("organization", organization);
+        Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(PageRequest.of(0,5));
+        model.addAttribute("organizations", organizationPage.getContent());
+        model.addAttribute("organization", new MedicalOrganization());
         return "addOrUpdate";
     }
 
@@ -73,13 +78,28 @@ public class OrganizationController {
     public String filterOrganizations(Model model,
                                       @RequestParam(value = "name", required = false) String name,
                                       @RequestParam(value = "address", required = false) String address,
-                                      @RequestParam(value = "openingtime", required = false) Integer openingtime) {
+                                      @RequestParam(value = "openingtime", required = false) Integer openingtime,
+                                      @RequestParam(defaultValue = "0") int page) {
         MedicalOrganization medicalOrganization = new MedicalOrganization();
-        model.addAttribute("organizations", organizationService.getAllOrganizations(name, address, openingtime));
+
+        Pageable pageable = PageRequest.of(page, 5);
+        Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(name, address, openingtime, pageable);
+
+        model.addAttribute("organizations", organizationPage.getContent());
         model.addAttribute("organization", medicalOrganization);
         model.addAttribute("name", name);
         model.addAttribute("address", address);
         model.addAttribute("openingtime", openingtime);
+        model.addAttribute("currentPage", page);
+        model.addAttribute("totalPages", organizationPage.getTotalPages());
+
+        StringBuilder queryParams = new StringBuilder();
+        if (name != null && !name.isEmpty()) queryParams.append("&name=").append(name);
+        if (address != null && !address.isEmpty()) queryParams.append("&address=").append(address);
+        if (openingtime != null) queryParams.append("&openingtime=").append(openingtime);
+        String filterUrl = "/organizations/filter";
+        if (!queryParams.isEmpty()) filterUrl += "?" + queryParams.substring(1);
+        model.addAttribute("filterUrl", filterUrl);
         return "organizations";
     }
 
@@ -93,7 +113,6 @@ public class OrganizationController {
                 return "redirect:/organizations";
             }
         }
-       // model.addAttribute("error", "Invalid username or password");
         return "organizations";
     }
 
