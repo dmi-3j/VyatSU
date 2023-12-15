@@ -4,14 +4,15 @@ CREATE TABLE medicalorganization
     name varchar(100),
     address varchar(250),
     phone varchar(13),
-    timeofwork varchar (13)
+    openingtime numeric(2),
+    closingtime numeric(2)
 );
 
-INSERT INTO medicalorganization (name, address, phone, timeofwork)
+INSERT INTO medicalorganization (name, address, phone, openingtime, closingtime)
 VALUES
-('Травмпункт', 'Менделеева 16','88005553535', '7-21'),
-('Больница №1', 'Кирова 8','88001000101', '10-17'),
-('Центр крови', 'Красноармейская 47','88124360736', '7-13');
+('Травмпункт', 'Менделеева 16','88005553535', 7, 21),
+('Больница №1', 'Кирова 8','88001000101', 10, 21),
+('Центр крови', 'Красноармейская 47','88124360736', 7, 13);
 
 CREATE TABLE users
 (

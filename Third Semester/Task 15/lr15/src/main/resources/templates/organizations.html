@@ -9,7 +9,7 @@
 </head>
 <body>
 <div th:replace="navigation :: navi('Home')"></div>
-<div class="container">
+<div style="margin-left: 50px;margin-right: 50px">
     <table class="table table-hover">
         <thead>
         <tr>
@@ -27,7 +27,7 @@
             <td th:text="${organization.name}"/>
             <td th:text="${organization.address}"/>
             <td th:text="${organization.phone}"/>
-            <td th:text="${organization.timeOfWork}"/>
+            <td th:text="${organization.openingtime + ' - ' + organization.closingtime}"></td>
             <td>
                 <a th:href="@{'/organizations/show/' + ${organization.id}}" th:text="Просмотреть"/>
                 <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}" th:href="@{'/organizations/addOrUpdate/edit/' + ${organization.id}}" th:text="Редактировать" class="text-info" style="margin-left: 15px"/>
@@ -51,8 +51,8 @@
             <input type="text" class="form-control" id="address" name="address" th:value="${address}">
         </div>
         <div class="form-group">
-            <label for="timeofwork">Время работы:</label>
-            <input type="text" class="form-control" id="timeofwork" name="timeofwork" th:value="${timeofwork}">
+            <label for="openingtime">Работает в этот час:</label>
+            <input type="text" class="form-control" id="openingtime" name="openingtime" th:value="${openingtime}">
         </div>
         <button type="submit" class="btn btn-primary">Отфильтровать</button>
 

@@ -30,7 +30,7 @@
     </tr>
     <tr>
       <th>Время работы</th>
-      <td th:text="${organization.timeOfWork}"></td>
+      <td th:text="${organization.openingtime + ' - ' + organization.closingtime}"></td>
     </tr>
     </tbody>
   </table>

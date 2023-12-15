@@ -23,6 +23,9 @@ public class MedicalOrganization {
     @Column(name = "phone")
     private String phone;
 
-    @Column(name = "timeofwork")
-    private String timeOfWork;
+    @Column(name = "openingtime")
+    private Integer openingtime;
+
+    @Column(name = "closingtime")
+    private Integer closingtime;
 }

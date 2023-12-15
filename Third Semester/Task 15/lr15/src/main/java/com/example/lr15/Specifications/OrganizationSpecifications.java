@@ -1,13 +1,8 @@
 package com.example.lr15.Specifications;
 
 import com.example.lr15.entities.MedicalOrganization;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.Expression;
-import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.jpa.domain.Specification;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class OrganizationSpecifications {
     public static Specification<MedicalOrganization> hasName(String name) {
@@ -27,14 +22,15 @@ public class OrganizationSpecifications {
             return criteriaBuilder.like(root.get("address"), "%" + address + "%");
         });
     }
-
-    public static Specification<MedicalOrganization> hasTimeOfWork(String timeOfWork) {
+    public static Specification<MedicalOrganization> hasTimeOfWork(Integer openingTime) {
         return ((root, query, criteriaBuilder) -> {
-            if (timeOfWork == null || timeOfWork.isBlank()) {
+            if (openingTime == null) {
                 return criteriaBuilder.conjunction();
             }
-            String test = String.valueOf(root.get("timeOfWork").as(String.class).toString());
-            return criteriaBuilder.equal(root.get("timeOfWork"), timeOfWork);
+            return criteriaBuilder.and(
+                    criteriaBuilder.lessThanOrEqualTo(root.get("openingtime").as(Integer.class), openingTime),
+                    criteriaBuilder.greaterThan(root.get("closingtime").as(Integer.class), openingTime)
+            );
         });
     }
 }

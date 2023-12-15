@@ -80,13 +80,13 @@ public class OrganizationController {
     public String filterOrganizations(Model model,
                                       @RequestParam(value = "name", required = false) String name,
                                       @RequestParam(value = "address", required = false) String address,
-                                      @RequestParam(value = "timeofwork", required = false) String timeofwork) {
+                                      @RequestParam(value = "openingtime", required = false) Integer openingtime) {
         MedicalOrganization medicalOrganization = new MedicalOrganization();
-        model.addAttribute("organizations", organizationService.getAllOrganizations(name, address, timeofwork));
+        model.addAttribute("organizations", organizationService.getAllOrganizations(name, address, openingtime));
         model.addAttribute("organization", medicalOrganization);
         model.addAttribute("name", name);
         model.addAttribute("address", address);
-        model.addAttribute("timeofwork", timeofwork);
+        model.addAttribute("openingtime", openingtime);
         return "organizations";
     }
 
@@ -102,6 +102,5 @@ public class OrganizationController {
         }
         model.addAttribute("error", "Invalid username or password");
         return "error";
-
     }
 }

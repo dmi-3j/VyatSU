@@ -6,10 +6,7 @@ import com.example.lr15.repositories.OrganizationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-import java.util.stream.Collectors;
-
 @Service
 public class OrganizationService {
     private final OrganizationRepository repository;
@@ -26,22 +23,13 @@ public class OrganizationService {
     public List<MedicalOrganization> getAllOrganizations() {
         return repository.findAll();
     }
-
-    //    public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
-//        return repository.findAll().stream()
-//                .filter(o -> name.isBlank()|| o.getName().contains(name))
-//                .filter(o -> address.isBlank()|| o.getAddress().contains(address))
-//                .filter(o -> timeofwork.isBlank() || isTimeInRange(o.getTimeOfWork(), timeofwork))
-//                .collect(Collectors.toList());
-//    }
-    public List<MedicalOrganization> getAllOrganizations(String name, String address, String timeofwork) {
+    public List<MedicalOrganization> getAllOrganizations(String name, String address, Integer timeofwork) {
         Specification<MedicalOrganization> specification = Specification
                 .where(OrganizationSpecifications.hasName(name))
                 .and(OrganizationSpecifications.hasAddress(address))
                 .and(OrganizationSpecifications.hasTimeOfWork(timeofwork));
         return repository.findAll(specification);
     }
-
     public void add(MedicalOrganization medicalOrganization) {
         repository.save(medicalOrganization);
     }
@@ -54,7 +42,8 @@ public class OrganizationService {
         if (!updated.getName().isBlank()) exist.setName(updated.getName());
         if (!updated.getAddress().isBlank()) exist.setAddress(updated.getAddress());
         if (!updated.getPhone().isBlank()) exist.setPhone(updated.getPhone());
-        if (!updated.getTimeOfWork().isBlank()) exist.setTimeOfWork(updated.getTimeOfWork());
+        if (updated.getOpeningtime() != null) exist.setOpeningtime(updated.getOpeningtime());
+        if (updated.getClosingtime() != null) exist.setClosingtime(updated.getClosingtime());
         repository.save(exist);
     }
 }

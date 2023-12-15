@@ -17,28 +17,31 @@
             }
             return true;
         }
-    </script>
-    <script>
-        function validateTimeOfWork() {
-            var timeOfWork = document.getElementById('timeOfWork').value;
-            var timeRegex = /^(0?[0-9]|1[0-9]|2[0-3])\D(0?[0-9]|1[0-9]|2[0-3])$/;
-            var errorMessageElement = document.getElementById('time-error-message');
-
-            if (!timeRegex.test(timeOfWork)) {
-                errorMessageElement.textContent = 'Пожалуйста, введите корректное время работы (два числа от 0 до 23, разделенных любыми разделителями).';
+        function validateTimeInput(inputId, errorMessageId) {
+            var timeInput1 = document.getElementById('timeOfWork1').value;
+            var timeInput2 = document.getElementById('timeOfWork2').value;
+            var timeRegex = /^(0?[0-9]|1[0-9]|2[0-3])$/;
+            var errorMessageElement1 = document.getElementById('time-error-message1');
+            var errorMessageElement2 = document.getElementById('time-error-message2');
+            if (!timeRegex.test(timeInput1)) {
+                errorMessageElement1.textContent = 'Пожалуйста, введите корректное время (час от 0 до 23).';
+                return false;
+            }
+            if (!timeRegex.test(timeInput2)) {
+                errorMessageElement2.textContent = 'Пожалуйста, введите корректное время (час от 0 до 23).';
                 return false;
             }
 
-            errorMessageElement.textContent = ''; // Очистка сообщения об ошибке, если время корректно
             return true;
         }
+
     </script>
 </head>
 
 <body>
 <div class="container">
     <form th:if="${organization.id == null}" th:action=" @{/organizations/addOrUpdate/add}"
-          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeOfWork();">
+          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeInput();">
         <h3>Добавить организацию</h3>
 
         <div style="margin-bottom: 25px" class="input-group">
@@ -64,8 +67,13 @@
 
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input th:field="*{timeOfWork}" id="timeOfWork" placeholder="Время работы (*)" required class="form-control"/>
-            <span id="time-error-message" style="color: red;margin-left: 10px"></span>
+            <input th:field="*{openingtime}" id="timeOfWork1" placeholder="Время открытия (*)" required class="form-control"/>
+            <span id="time-error-message1" style="color: red;margin-left: 10px"></span>
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input th:field="*{closingtime}" id="timeOfWork2" placeholder="Время закрытия (*)" required class="form-control"/>
+            <span id="time-error-message2" style="color: red;margin-left: 10px"></span>
         </div>
 
         <div style="margin-top: 10px" class="form-group">
@@ -75,7 +83,7 @@
         </div>
     </form>
     <form th:if="${organization.id != null}" th:action=" @{/organizations/addOrUpdate/edit/update}"
-          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeOfWork();">
+          th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeInput();">
         <h3>Изменить данные организации</h3>
 
         <div style="margin-bottom: 25px" class="input-group">
@@ -101,8 +109,13 @@
 
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input th:field="*{timeOfWork}" id="timeOfWork" placeholder="Время работы (*)" required class="form-control"/>
-            <span id="time-error-message" style="color: red;margin-left: 10px"></span>
+            <input th:field="*{openingtime}" id="timeOfWork1" placeholder="Время открытия (*)" required class="form-control"/>
+            <span id="time-error-message1" style="color: red;margin-left: 10px"></span>
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input th:field="*{closingtime}" id="timeOfWork2" placeholder="Время закрытия (*)" required class="form-control"/>
+            <span id="time-error-message2" style="color: red;margin-left: 10px"></span>
         </div>
 
         <div style="margin-top: 10px" class="form-group">
