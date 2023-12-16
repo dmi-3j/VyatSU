@@ -3,9 +3,6 @@ package com.example.lr15.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @Entity
@@ -13,9 +10,6 @@ import java.util.List;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-
     private String username;
 
     private String password;
@@ -24,6 +18,6 @@ public class User {
 
     private Boolean enabled;
 
-    @OneToMany(mappedBy = "user")
-    private List<Authority> authorityList;
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Authority authority;
 }

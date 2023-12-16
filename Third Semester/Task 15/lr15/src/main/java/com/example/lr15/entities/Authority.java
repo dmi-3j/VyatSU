@@ -1,6 +1,5 @@
 package com.example.lr15.entities;
 
-
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,12 +11,13 @@ import lombok.NoArgsConstructor;
 public class Authority {
 
     @Id
-    @ManyToOne
-    @JoinColumn(name = "username",
-    foreignKey = @ForeignKey(name = "username"))
-    private User user;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-    private String username;
     private String authority;
 
+    @OneToOne
+    @JoinColumn(name = "username", referencedColumnName = "username")
+    private User user;
 }
+
