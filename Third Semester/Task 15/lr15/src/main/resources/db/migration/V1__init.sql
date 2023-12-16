@@ -23,8 +23,8 @@ CREATE TABLE users
 );
 
 INSERT INTO users
-VALUES ('admin', '{noop}123', 'Дмитрий',true),
-       ('user', '{noop}456','Бесправный Юзер', true);
+VALUES ('admin', '$2a$10$dYJ9JcdxtCIc6jnJYNTDFOs1tdPt1te25Gf5JKIEc7uRBvJiSk6JO', 'Дмитрий',true),
+       ('user', '$2a$10$zxVS3muLezmSlzipO76OVuUsEPwxBzgYrMMBXu.b383sFiaO.rB5m','Бесправный Юзер', true);
 
 CREATE TABLE authorities
 (
