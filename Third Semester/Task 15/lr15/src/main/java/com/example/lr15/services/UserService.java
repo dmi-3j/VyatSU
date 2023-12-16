@@ -1,6 +1,5 @@
 package com.example.lr15.services;
 
-import com.example.lr15.entities.Authority;
 import com.example.lr15.entities.User;
 import com.example.lr15.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
