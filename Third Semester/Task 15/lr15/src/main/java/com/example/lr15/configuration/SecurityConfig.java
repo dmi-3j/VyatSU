@@ -38,8 +38,8 @@ public class SecurityConfig {
 
 
 
-    @Autowired
-    private DataSource dataSource;
+//    @Autowired
+//    private DataSource dataSource;
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
@@ -58,13 +58,24 @@ public class SecurityConfig {
 //    public PasswordEncoder passwordEncoder() {
 //        return new BCryptPasswordEncoder();
 //    }
+//    @Bean
+//    public UserDetailsService userDetailsService(DataSource dataSource) {
+//        JdbcUserDetailsManager manager = new JdbcUserDetailsManager();
+//        manager.setDataSource(dataSource);
+//        manager.setUsersByUsernameQuery("SELECT username, password, enabled FROM users WHERE username = ?");
+//        manager.setAuthoritiesByUsernameQuery("SELECT username, authority FROM authorities WHERE username = ?");
+//        return manager;
+//    }
     @Bean
-    public UserDetailsService userDetailsService(DataSource dataSource) {
-        JdbcUserDetailsManager manager = new JdbcUserDetailsManager();
-        manager.setDataSource(dataSource);
-        manager.setUsersByUsernameQuery("SELECT username, password, enabled FROM users WHERE username = ?");
-        manager.setAuthoritiesByUsernameQuery("SELECT username, authority FROM authorities WHERE username = ?");
-        return manager;
+    public UserDetailsService userDetailsService(UserService userService) {
+        return username -> {
+            User user = userService.getUserByUserName(username);
+            return org.springframework.security.core.userdetails.User
+                    .withUsername(username)
+                    .password(user.getPassword())
+                    .roles("ADMIN")
+                    .build();
+        };
     }
 
 }
