@@ -33,8 +33,9 @@
                     <a class="nav-link" th:href="@{/organizations/addOrUpdate/add}">Добавить организацию</a>
                 </li>
                 <li sec:authorize="isAuthenticated()" class="nav-item">
-                    <a class="nav-link" style="color: white" th:text="${#authentication.name}"></a>
+                    <a class="nav-link" style="color: white" th:text="${@userService.getRealNameByUsername(#authentication.name)}"></a>
                 </li>
+
                 <li sec:authorize="isAuthenticated()" class="nav-item">
                     <form th:action="@{/logout}" method="POST">
                         <button class="btn btn-danger" type="submit">Logout</button>

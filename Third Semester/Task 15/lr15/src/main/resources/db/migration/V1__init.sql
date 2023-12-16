@@ -1,30 +1,30 @@
 CREATE TABLE medicalorganization
 (
-    id    serial primary key,
-    name varchar(100),
-    address varchar(250),
-    phone varchar(13),
+    id          serial primary key,
+    name        varchar(100),
+    address     varchar(250),
+    phone       varchar(13),
     openingtime numeric(2),
     closingtime numeric(2)
 );
 
 INSERT INTO medicalorganization (name, address, phone, openingtime, closingtime)
-VALUES
-('Травмпункт', 'Менделеева 16','88005553535', 7, 21),
-('Больница №1', 'Кирова 8','88001000101', 10, 21),
-('Центр крови', 'Красноармейская 47','88124360736', 7, 13);
+VALUES ('Травмпункт', 'Менделеева 16', '88005553535', 7, 21),
+       ('Больница №1', 'Кирова 8', '88001000101', 10, 21),
+       ('Центр крови', 'Красноармейская 47', '88124360736', 7, 13);
 
 CREATE TABLE users
 (
     username VARCHAR(50)  NOT NULL,
     password VARCHAR(100) NOT NULL,
+    name     VARCHAR(20)  NOT NULL,
     enabled  boolean      NOT NULL,
     PRIMARY KEY (username)
 );
 
 INSERT INTO users
-VALUES ('admin', '{noop}123', true),
-       ('user', '{noop}456', true);
+VALUES ('admin', '{noop}123', 'Дмитрий',true),
+       ('user', '{noop}456','Бесправный Юзер', true);
 
 CREATE TABLE authorities
 (

@@ -1,5 +1,6 @@
 package com.example.lr15.controllers;
 
+import com.example.lr15.services.UserService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -29,6 +30,7 @@ public class OrganizationController {
         model.addAttribute("organization", new MedicalOrganization());
         model.addAttribute("currentPage", page);
         model.addAttribute("totalPages", organizationPage.getTotalPages());
+
         return "organizations";
     }
 
