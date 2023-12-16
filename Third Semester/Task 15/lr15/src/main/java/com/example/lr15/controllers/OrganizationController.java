@@ -12,6 +12,9 @@ import com.example.lr15.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Comparator;
+
 @Controller
 public class OrganizationController {
     private OrganizationService organizationService;
@@ -30,6 +33,9 @@ public class OrganizationController {
         model.addAttribute("organization", new MedicalOrganization());
         model.addAttribute("currentPage", page);
         model.addAttribute("totalPages", organizationPage.getTotalPages());
+
+        Comparator<MedicalOrganization> comparator = Comparator.comparing(MedicalOrganization::getViews).reversed();
+        model.addAttribute("comparator", comparator);
 
         return "organizations";
     }
@@ -65,6 +71,7 @@ public class OrganizationController {
     @GetMapping("/organizations/show/{id}")
     public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id) {
         MedicalOrganization medicalOrganization = organizationService.getById(id);
+        organizationService.incViews(medicalOrganization);
         model.addAttribute("organization", medicalOrganization);
         return "organization-info";
     }

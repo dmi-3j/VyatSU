@@ -5,13 +5,14 @@ CREATE TABLE medicalorganization
     address     varchar(250),
     phone       varchar(13),
     openingtime numeric(2),
-    closingtime numeric(2)
+    closingtime numeric(2),
+    views       int default 0
 );
 
-INSERT INTO medicalorganization (name, address, phone, openingtime, closingtime)
-VALUES ('Травмпункт', 'Менделеева 16', '88005553535', 7, 21),
-       ('Больница №1', 'Кирова 8', '88001000101', 10, 21),
-       ('Центр крови', 'Красноармейская 47', '88124360736', 7, 13);
+INSERT INTO medicalorganization (name, address, phone, openingtime, closingtime, views)
+VALUES ('Травмпункт', 'Менделеева 16', '88005553535', 7, 21, 0),
+       ('Больница №1', 'Кирова 8', '88001000101', 10, 21, 0),
+       ('Центр крови', 'Красноармейская 47', '88124360736', 7, 13, 0);
 
 CREATE TABLE users
 (
@@ -23,8 +24,8 @@ CREATE TABLE users
 );
 
 INSERT INTO users
-VALUES ('admin', '$2a$10$dYJ9JcdxtCIc6jnJYNTDFOs1tdPt1te25Gf5JKIEc7uRBvJiSk6JO', 'Дмитрий',true),
-       ('user', '$2a$10$zxVS3muLezmSlzipO76OVuUsEPwxBzgYrMMBXu.b383sFiaO.rB5m','Бесправный Юзер', true);
+VALUES ('admin', '$2a$10$dYJ9JcdxtCIc6jnJYNTDFOs1tdPt1te25Gf5JKIEc7uRBvJiSk6JO', 'Дмитрий', true),
+       ('user', '$2a$10$zxVS3muLezmSlzipO76OVuUsEPwxBzgYrMMBXu.b383sFiaO.rB5m', 'Бесправный Юзер', true);
 
 CREATE TABLE authorities
 (

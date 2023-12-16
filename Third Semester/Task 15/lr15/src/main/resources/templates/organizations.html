@@ -71,6 +71,17 @@
     <form th:action="@{/}">
         <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
     </form>
+    <br>
+    <h4>Топ 3 по просмотрам</h4>
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+        <li th:each="organization, iterStat : ${#lists.sort(organizations, comparator)}"
+            th:if="${iterStat.index < 3}"
+            style="text-align: left;">
+            <span th:text="${organization.name}"></span>
+            <span th:text="' - ' + ${organization.views} + ' просмотр(ов)'"></span>
+        </li>
+    </ul>
+
 </div>
 </body>
 </html>

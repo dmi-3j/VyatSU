@@ -47,4 +47,8 @@ public class OrganizationService {
         if (updated.getClosingtime() != null) exist.setClosingtime(updated.getClosingtime());
         repository.save(exist);
     }
+    public void incViews(MedicalOrganization medicalOrganization){
+        medicalOrganization.setViews(medicalOrganization.getViews() + 1);
+        repository.save(medicalOrganization);
+    }
 }

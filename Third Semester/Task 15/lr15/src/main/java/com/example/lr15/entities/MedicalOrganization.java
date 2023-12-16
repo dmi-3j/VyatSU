@@ -28,4 +28,7 @@ public class MedicalOrganization {
 
     @Column(name = "closingtime")
     private Integer closingtime;
+
+    @Column(name = "views")
+    private Integer views;
 }
