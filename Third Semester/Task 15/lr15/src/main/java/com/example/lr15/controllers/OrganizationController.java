@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Comparator;
 
 @Controller
@@ -125,8 +126,10 @@ public class OrganizationController {
         return "organizations";
     }
 
-    @PostMapping("/error")
-    public String error() {
-        return "error";
-    }
+//    @PostMapping("/error")
+//    public String error(HttpServletRequest request, Model model) {
+//        Integer code  = (Integer) request.getAttribute("javax.servlet.error.status_code");
+//        model.addAttribute("statusCode", code);
+//        return "error";
+//    }
 }

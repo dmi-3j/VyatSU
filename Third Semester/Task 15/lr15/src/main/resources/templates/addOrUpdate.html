@@ -39,6 +39,7 @@
 </head>
 
 <body>
+<div th:replace="navigation :: navi('Home')"></div>
 <div class="container">
     <form th:if="${organization.id == null}" th:action=" @{/organizations/addOrUpdate/add}"
           th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeInput();">

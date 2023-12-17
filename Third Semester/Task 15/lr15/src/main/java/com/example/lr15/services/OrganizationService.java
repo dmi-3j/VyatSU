@@ -3,10 +3,12 @@ package com.example.lr15.services;
 import com.example.lr15.Specifications.OrganizationSpecifications;
 import com.example.lr15.entities.MedicalOrganization;
 import com.example.lr15.repositories.OrganizationRepository;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 @Service
 public class OrganizationService {
@@ -18,7 +20,9 @@ public class OrganizationService {
     }
 
     public MedicalOrganization getById(Integer id) {
-        return repository.findById(id).orElse(null);
+        MedicalOrganization organization = repository.findById(id).orElse(null);
+        if(organization == null) throw new UsernameNotFoundException("");
+        return organization;
     }
 
     public Page<MedicalOrganization> getAllOrganizations(Pageable pageable) {
