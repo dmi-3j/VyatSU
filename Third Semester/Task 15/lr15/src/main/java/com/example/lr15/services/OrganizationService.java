@@ -3,7 +3,6 @@ package com.example.lr15.services;
 import com.example.lr15.Specifications.OrganizationSpecifications;
 import com.example.lr15.entities.MedicalOrganization;
 import com.example.lr15.repositories.OrganizationRepository;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

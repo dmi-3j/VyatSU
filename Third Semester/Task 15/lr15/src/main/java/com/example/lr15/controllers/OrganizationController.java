@@ -26,7 +26,7 @@ public class OrganizationController {
     }
 
     @GetMapping("")
-    public String showOrganizationsList(Model model, @RequestParam(defaultValue = "0") int page, Model top) {
+    public String showOrganizationsList(Model model, @RequestParam(defaultValue = "0") int page) {
         Pageable pageable = PageRequest.of(page, 5);
         Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(pageable);
         model.addAttribute("organizations", organizationPage.getContent());
@@ -75,7 +75,7 @@ public class OrganizationController {
     }
 
     @GetMapping("/organizations/delete/{id}")
-    public String deleteOrganizations(Model model, @PathVariable(value = "id") Integer id) {
+    public String deleteOrganizations(@PathVariable(value = "id") Integer id) {
         MedicalOrganization medicalOrganization = organizationService.getById(id);
         organizationService.delete(medicalOrganization);
         return "redirect:/";
