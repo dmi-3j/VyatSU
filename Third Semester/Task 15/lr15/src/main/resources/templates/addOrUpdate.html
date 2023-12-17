@@ -31,10 +31,8 @@
                 errorMessageElement2.textContent = 'Пожалуйста, введите корректное время (час от 0 до 23).';
                 return false;
             }
-
             return true;
         }
-
     </script>
 </head>
 
@@ -76,6 +74,10 @@
             <input th:field="*{closingtime}" id="timeOfWork2" placeholder="Время закрытия (*)" required class="form-control"/>
             <span id="time-error-message2" style="color: red;margin-left: 10px"></span>
         </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input th:field="*{views}" th:value="0" placeholder="views (*)" class="form-control" type="hidden"/>
+        </div>
 
         <div style="margin-top: 10px" class="form-group">
             <div class="col-sm-6 controls">
@@ -86,28 +88,23 @@
     <form th:if="${organization.id != null}" th:action=" @{/organizations/addOrUpdate/edit/update}"
           th:object="${organization}" method="post" class="form-horizontal" onsubmit="return validatePhoneNumber() && validateTimeInput();">
         <h3>Изменить данные организации</h3>
-
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input th:field="*{id}" placeholder="ID (*)" class="form-control" type="hidden"/>
         </div>
-
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input th:field="*{name}" placeholder="Название организации (*)" class="form-control"/>
         </div>
-
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input th:field="*{address}" placeholder="Адрес (*)" class="form-control"/>
         </div>
-
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input th:field="*{phone}" id="phone" placeholder="Телефон (*)" class="form-control"/>
             <span id="error-message" style="color: red;margin-left: 10px"></span>
         </div>
-
         <div style="margin-bottom: 25px" class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <input th:field="*{openingtime}" id="timeOfWork1" placeholder="Время открытия (*)" required class="form-control"/>
@@ -118,7 +115,6 @@
             <input th:field="*{closingtime}" id="timeOfWork2" placeholder="Время закрытия (*)" required class="form-control"/>
             <span id="time-error-message2" style="color: red;margin-left: 10px"></span>
         </div>
-
         <div style="margin-top: 10px" class="form-group">
             <div class="col-sm-6 controls">
                 <button style='margin-left: 0' type="submit" class="btn btn-primary">Сохранить изменения</button>

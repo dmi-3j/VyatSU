@@ -6,7 +6,7 @@ CREATE TABLE medicalorganization
     phone       varchar(13),
     openingtime numeric(2),
     closingtime numeric(2),
-    views       int default 0
+    views       int not null default 0
 );
 
 INSERT INTO medicalorganization (name, address, phone, openingtime, closingtime, views)

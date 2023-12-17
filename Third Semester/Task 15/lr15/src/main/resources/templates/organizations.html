@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script th:inline="javascript">
+        function insertCurrentHour() {
+            var openingTimeInput = document.getElementById('openingtime');
+            var now = new Date();
+            var hours = now.getHours();
+            openingTimeInput.value = hours;
+        }
+    </script>
 </head>
 <body>
 <div th:replace="navigation :: navi('Home')"></div>
@@ -40,7 +48,7 @@
         </tr>
         </tbody>
     </table>
-    <nav aria-label="Page navigation">
+    <nav aria-label="Page navigation" th:if="${totalPages > 0}">
         <ul class="pagination">
             <li class="page-item" th:each="i : ${#numbers.sequence(0, totalPages - 1)}">
                 <a class="page-link" th:href="@{${filterUrl}(page=${i})}" th:text="${i + 1}"></a>
@@ -64,6 +72,7 @@
         <div class="form-group">
             <label for="openingtime">Работает в этот час:</label>
             <input type="text" class="form-control" id="openingtime" name="openingtime" th:value="${openingtime}">
+            <button type="button" onclick="insertCurrentHour()">Вставить текущий час</button>
         </div>
         <button type="submit" class="btn btn-primary">Отфильтровать</button>
 
@@ -72,16 +81,13 @@
         <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
     </form>
     <br>
-    <h4>Топ 3 по просмотрам</h4>
-    <ul style="list-style-type: none; padding: 0; margin: 0;">
-        <li th:each="organization, iterStat : ${#lists.sort(organizations, comparator)}"
-            th:if="${iterStat.index < 3}"
-            style="text-align: left;">
-            <span th:text="${organization.name}"></span>
-            <span th:text="' - ' + ${organization.views} + ' просмотр(ов)'"></span>
+    <h4>Топ-3 по просмотрам</h4>
+    <ul th:if="${topOrganizations != null}" style="list-style-type: none; padding: 0; margin: 0;">
+        <li th:each="topOrganization : ${topOrganizations}">
+            <span th:text="${topOrganization.name}"></span>
+            <span th:text="' - ' + ${topOrganization.views} + ' просмотр(ов)'"></span>
         </li>
     </ul>
-
 </div>
 </body>
 </html>

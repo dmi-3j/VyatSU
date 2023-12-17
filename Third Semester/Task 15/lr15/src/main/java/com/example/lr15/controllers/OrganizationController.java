@@ -1,6 +1,5 @@
 package com.example.lr15.controllers;
 
-import com.example.lr15.services.UserService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -12,9 +11,9 @@ import com.example.lr15.services.OrganizationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponentsBuilder;
 
-import javax.servlet.http.HttpServletRequest;
-import java.util.Comparator;
+import java.util.List;
 
 @Controller
 public class OrganizationController {
@@ -27,17 +26,15 @@ public class OrganizationController {
     }
 
     @GetMapping("")
-    public String showOrganizationsList(Model model, @RequestParam(defaultValue = "0") int page) {
+    public String showOrganizationsList(Model model, @RequestParam(defaultValue = "0") int page, Model top) {
         Pageable pageable = PageRequest.of(page, 5);
         Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(pageable);
         model.addAttribute("organizations", organizationPage.getContent());
         model.addAttribute("organization", new MedicalOrganization());
         model.addAttribute("currentPage", page);
         model.addAttribute("totalPages", organizationPage.getTotalPages());
-
-        Comparator<MedicalOrganization> comparator = Comparator.comparing(MedicalOrganization::getViews).reversed();
-        model.addAttribute("comparator", comparator);
-
+        List<MedicalOrganization> topOrganizations = organizationService.getTopOrganizations();
+        model.addAttribute("topOrganizations", topOrganizations);
         return "organizations";
     }
 
@@ -49,7 +46,7 @@ public class OrganizationController {
 
     @GetMapping("/organizations/addOrUpdate/add")
     public String test(Model model) {
-        Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(PageRequest.of(0,5));
+        Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(PageRequest.of(0, 5));
         model.addAttribute("organizations", organizationPage.getContent());
         model.addAttribute("organization", new MedicalOrganization());
         return "addOrUpdate";
@@ -103,13 +100,15 @@ public class OrganizationController {
         model.addAttribute("currentPage", page);
         model.addAttribute("totalPages", organizationPage.getTotalPages());
 
-        StringBuilder queryParams = new StringBuilder();
-        if (name != null && !name.isEmpty()) queryParams.append("&name=").append(name);
-        if (address != null && !address.isEmpty()) queryParams.append("&address=").append(address);
-        if (openingtime != null) queryParams.append("&openingtime=").append(openingtime);
-        String filterUrl = "/organizations/filter";
-        if (!queryParams.isEmpty()) filterUrl += "?" + queryParams.substring(1);
-        model.addAttribute("filterUrl", filterUrl);
+        List<MedicalOrganization> topOrganizations = organizationService.getTopOrganizations();
+        model.addAttribute("topOrganizations", topOrganizations);
+
+        UriComponentsBuilder uriBuilder = UriComponentsBuilder.fromUriString("/organizations/filter");
+        if (name != null && !name.isEmpty()) uriBuilder.queryParam("name", name);
+        if (address != null && !address.isEmpty()) uriBuilder.queryParam("address", address);
+        if (openingtime != null) uriBuilder.queryParam("openingtime", openingtime);
+        model.addAttribute("filterUrl", uriBuilder.build().toString());
+
         return "organizations";
     }
 
@@ -125,11 +124,4 @@ public class OrganizationController {
         }
         return "organizations";
     }
-
-//    @PostMapping("/error")
-//    public String error(HttpServletRequest request, Model model) {
-//        Integer code  = (Integer) request.getAttribute("javax.servlet.error.status_code");
-//        model.addAttribute("statusCode", code);
-//        return "error";
-//    }
 }

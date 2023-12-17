@@ -6,10 +6,15 @@ import com.example.lr15.repositories.OrganizationRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 @Service
 public class OrganizationService {
     private final OrganizationRepository repository;
@@ -35,7 +40,13 @@ public class OrganizationService {
                 .and(OrganizationSpecifications.hasTimeOfWork(timeofwork));
         return repository.findAll(specification, pageable);
     }
+    public List<MedicalOrganization> getTopOrganizations() {
+        Pageable topPageable = PageRequest.of(0, 3, Sort.by(Sort.Order.desc("views")));
+        Page<MedicalOrganization> topOrganizationsPage = repository.findAll(topPageable);
+        return topOrganizationsPage.getContent();
+    }
     public void add(MedicalOrganization medicalOrganization) {
+        medicalOrganization.setViews(0);
         repository.save(medicalOrganization);
     }
 
