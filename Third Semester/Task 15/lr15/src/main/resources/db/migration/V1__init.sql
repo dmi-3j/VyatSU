@@ -10,8 +10,9 @@ CREATE TABLE medicalorganization
 );
 
 INSERT INTO medicalorganization (name, address, phone, openingtime, closingtime, views)
-VALUES ('Травмпункт', 'Менделеева 16', '88005553535', 7, 21, 0),
+VALUES
        ('Больница №1', 'Кирова 8', '88001000101', 10, 21, 0),
+       ('Травмпункт "Код и костыли"', 'Багова 112','88005553535', 7, 21, 0),
        ('Центр крови', 'Красноармейская 47', '88124360736', 7, 13, 0);
 
 CREATE TABLE users
