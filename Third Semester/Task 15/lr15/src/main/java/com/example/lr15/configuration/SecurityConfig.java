@@ -12,14 +12,13 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
+        return http
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/organizations/addOrUpdate/**").hasRole("ADMIN")
                         .anyRequest().permitAll())
@@ -28,13 +27,14 @@ public class SecurityConfig {
                         .loginProcessingUrl("/authenticateTheUser")
                         .permitAll())
                 .logout((logout) -> logout
-                        .logoutSuccessUrl("/").permitAll());
-        return http.build();
+                        .logoutSuccessUrl("/").permitAll()).build();
     }
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
     @Bean
     public UserDetailsService userDetailsService(UserService userService) {
         return username -> {
