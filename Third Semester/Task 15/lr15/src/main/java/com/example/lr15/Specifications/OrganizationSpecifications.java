@@ -10,7 +10,8 @@ public class OrganizationSpecifications {
             if (name == null || name.isBlank()) {
                 return criteriaBuilder.conjunction();
             }
-            return criteriaBuilder.like(root.get("name"), "%" + name + "%");
+            return criteriaBuilder.like(
+                    criteriaBuilder.lower(root.get("name")), "%" + name.toLowerCase() + "%");
         });
     }
 
@@ -19,7 +20,8 @@ public class OrganizationSpecifications {
             if (address == null || address.isBlank()) {
                 return criteriaBuilder.conjunction();
             }
-            return criteriaBuilder.like(root.get("address"), "%" + address + "%");
+            return criteriaBuilder.like(
+                    criteriaBuilder.lower(root.get("address")), "%" + address.toLowerCase() + "%");
         });
     }
     public static Specification<MedicalOrganization> hasTimeOfWork(Integer openingTime) {
