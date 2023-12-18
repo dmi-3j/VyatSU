@@ -1,4 +1,4 @@
-package com.example.lr15.Specifications;
+package com.example.lr15.specifications;
 
 import com.example.lr15.entities.MedicalOrganization;
 import org.springframework.data.jpa.domain.Specification;
