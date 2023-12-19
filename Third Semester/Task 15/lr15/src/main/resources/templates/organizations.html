@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="utf-8"/>
+    <title>Список медицинских организаций</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script th:inline="javascript">
+        function insertCurrentHour() {
+            var openingTimeInput = document.getElementById('openingtime');
+            var now = new Date();
+            var hours = now.getHours();
+            openingTimeInput.value = hours;
+        }
+    </script>
+</head>
+<body>
+<div th:replace="navigation :: navi('Home')"></div>
+<div style="margin-left: 50px;margin-right: 50px">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Название организации</th>
+            <th>Адрес</th>
+            <th>Телефон</th>
+            <th>Время работы</th>
+            <th sec:authorize="isAuthenticated()">Действия</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="organization : ${organizations}">
+            <td th:text="${organization.id}"/>
+            <td th:text="${organization.name}"/>
+            <td th:text="${organization.address}"/>
+            <td th:text="${organization.phone}"/>
+            <td th:text="${organization.openingtime + ' - ' + organization.closingtime}"></td>
+            <td sec:authorize="isAuthenticated()">
+                <a th:href="@{'/organizations/show/' + ${organization.id}}"  th:text="Просмотреть"/>
+                <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}"
+                   th:href="@{'/organizations/addOrUpdate/edit/' + ${organization.id}}" th:text="Редактировать"
+                   class="text-info" style="margin-left: 15px"/>
+                <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}"
+                   th:href="@{'/organizations/delete/' + ${organization.id}}" th:text="Удалить" class="text-danger"
+                   style="margin-left: 15px"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <nav aria-label="Page navigation" th:if="${totalPages > 0}">
+        <ul class="pagination">
+            <li class="page-item" th:each="i : ${#numbers.sequence(0, totalPages - 1)}">
+                <a class="page-link" th:href="@{${filterUrl}(page=${i})}" th:text="${i + 1}"></a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <form th:action="@{/organizations/addOrUpdate/add}" th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
+        <button type="submit" class="btn btn-primary">Добавить организацию</button>
+    </form>
+    <h3 style="margin-top: 20px" >Отфильтровать</h3>
+    <form th:action="@{/organizations/filter}" method="get">
+        <div class="form-group">
+            <label for="name">Название организации:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Название организации" th:value="${name}">
+        </div>
+        <div class="form-group">
+            <label for="address">Адрес:</label>
+            <input type="text" class="form-control" id="address" name="address" placeholder="Адрес" th:value="${address}">
+        </div>
+        <div class="form-group">
+            <label for="openingtime">Работает в этот час:</label>
+            <input type="number" min="0" max="23" step="1" class="form-control" id="openingtime" name="openingtime" placeholder="Час работы" th:value="${openingtime}">
+            <button type="button" onclick="insertCurrentHour()">Вставить текущий час</button>
+        </div>
+        <button class="btn btn-primary" sec:authorize="isAnonymous()" disabled>Отфильтровать</button>
+        <button type="submit" class="btn btn-primary" sec:authorize="isAuthenticated()">Отфильтровать</button>
+
+    </form>
+    <form th:action="@{/}">
+        <button style='margin-top: 10px' type="submit" class="btn btn-danger" sec:authorize="isAuthenticated()">Сбросить</button>
+        <button style='margin-top: 10px' sec:authorize="isAnonymous()" disabled class="btn btn-danger">Сбросить</button>
+    </form>
+    <br>
+    <h4>Топ-3 по просмотрам</h4>
+    <ul th:if="${topOrganizations != null}" style="list-style-type: none; padding: 0; margin: 0;">
+        <li th:each="topOrganization : ${topOrganizations}">
+            <span th:text="${topOrganization.name}"></span>
+            <span th:text="' - ' + ${topOrganization.views} + ' просмотр(ов)'"></span>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
