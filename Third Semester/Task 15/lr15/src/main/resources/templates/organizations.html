@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
     <meta charset="utf-8"/>
     <title>Список медицинских организаций</title>
@@ -26,7 +27,7 @@
             <th>Адрес</th>
             <th>Телефон</th>
             <th>Время работы</th>
-            <th>Действия</th>
+            <th sec:authorize="isAuthenticated()">Действия</th>
         </tr>
         </thead>
         <tbody>
@@ -36,8 +37,8 @@
             <td th:text="${organization.address}"/>
             <td th:text="${organization.phone}"/>
             <td th:text="${organization.openingtime + ' - ' + organization.closingtime}"></td>
-            <td>
-                <a th:href="@{'/organizations/show/' + ${organization.id}}" th:text="Просмотреть"/>
+            <td sec:authorize="isAuthenticated()">
+                <a th:href="@{'/organizations/show/' + ${organization.id}}"  th:text="Просмотреть"/>
                 <a th:if="${#authorization.expression('hasRole(''ADMIN'')')}"
                    th:href="@{'/organizations/addOrUpdate/edit/' + ${organization.id}}" th:text="Редактировать"
                    class="text-info" style="margin-left: 15px"/>
@@ -59,26 +60,28 @@
     <form th:action="@{/organizations/addOrUpdate/add}" th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
         <button type="submit" class="btn btn-primary">Добавить организацию</button>
     </form>
-    <h3 style="margin-top: 20px">Отфильтровать</h3>
+    <h3 style="margin-top: 20px" >Отфильтровать</h3>
     <form th:action="@{/organizations/filter}" method="get">
         <div class="form-group">
             <label for="name">Название организации:</label>
-            <input type="text" class="form-control" id="name" name="name" th:value="${name}">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Название организации" th:value="${name}">
         </div>
         <div class="form-group">
             <label for="address">Адрес:</label>
-            <input type="text" class="form-control" id="address" name="address" th:value="${address}">
+            <input type="text" class="form-control" id="address" name="address" placeholder="Адрес" th:value="${address}">
         </div>
         <div class="form-group">
             <label for="openingtime">Работает в этот час:</label>
-            <input type="number" min="0" max="23" step="1" class="form-control" id="openingtime" name="openingtime" th:value="${openingtime}">
+            <input type="number" min="0" max="23" step="1" class="form-control" id="openingtime" name="openingtime" placeholder="Час работы" th:value="${openingtime}">
             <button type="button" onclick="insertCurrentHour()">Вставить текущий час</button>
         </div>
-        <button type="submit" class="btn btn-primary">Отфильтровать</button>
+        <button class="btn btn-primary" sec:authorize="isAnonymous()" disabled>Отфильтровать</button>
+        <button type="submit" class="btn btn-primary" sec:authorize="isAuthenticated()">Отфильтровать</button>
 
     </form>
     <form th:action="@{/}">
-        <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
+        <button style='margin-top: 10px' type="submit" class="btn btn-danger" sec:authorize="isAuthenticated()">Сбросить</button>
+        <button style='margin-top: 10px' sec:authorize="isAnonymous()" disabled class="btn btn-danger">Сбросить</button>
     </form>
     <br>
     <h4>Топ-3 по просмотрам</h4>

@@ -21,6 +21,8 @@ public class SecurityConfig {
         return http
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/organizations/addOrUpdate/**").hasRole("ADMIN")
+                        .requestMatchers("/organizations/show/**").authenticated()
+                        .requestMatchers("/organizations/filter/**").authenticated()
                         .anyRequest().permitAll())
                 .formLogin((form) -> form
                         .loginPage("/")
