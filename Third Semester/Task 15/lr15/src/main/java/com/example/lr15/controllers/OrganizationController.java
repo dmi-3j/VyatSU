@@ -45,21 +45,25 @@ public class OrganizationController {
     }
 
     @GetMapping("/organizations/addOrUpdate/add")
-    public String test(Model model) {
+    public String test(Model model,
+                       @RequestHeader(value = "Referer") String referer) {
         Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(PageRequest.of(0, 5));
         model.addAttribute("organizations", organizationPage.getContent());
         model.addAttribute("organization", new MedicalOrganization());
+        model.addAttribute("referer", referer);
         return "addOrUpdate";
     }
 
     @GetMapping("/organizations/addOrUpdate/edit/{id}")
-    public String editOrganization(Model model, @PathVariable(value = "id") Integer id) {
+    public String editOrganization(Model model, @PathVariable(value = "id") Integer id,
+                                   @RequestHeader(value = "Referer") String referer) {
         MedicalOrganization medicalOrganization = organizationService.getById(id);
         model.addAttribute("organization", medicalOrganization);
+        model.addAttribute("referer", referer);
         return "addOrUpdate";
     }
 
-    @PostMapping("/organizations/addOrUpdate/edit/update")
+    @PostMapping("/organizations/addOrUpdate/edit")
     public String updateOrganization(@ModelAttribute(value = "organization") MedicalOrganization updatedOrganization) {
         MedicalOrganization organization = organizationService.getById(updatedOrganization.getId());
         organizationService.update(organization, updatedOrganization);
@@ -67,10 +71,12 @@ public class OrganizationController {
     }
 
     @GetMapping("/organizations/show/{id}")
-    public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id) {
+    public String showOneOrganization(Model model, @PathVariable(value = "id") Integer id,
+                                      @RequestHeader(value = "Referer") String referer) {
         MedicalOrganization medicalOrganization = organizationService.getById(id);
         organizationService.incViews(medicalOrganization);
         model.addAttribute("organization", medicalOrganization);
+        model.addAttribute("referer", referer);
         return "organization-info";
     }
 

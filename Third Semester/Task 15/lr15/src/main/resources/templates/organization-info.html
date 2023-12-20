@@ -35,9 +35,7 @@
     </tr>
     </tbody>
   </table>
-  <form th:action="@{/}">
-    <button style='margin: 10px 15px' type="submit" class="btn btn-danger">Назад на главную</button>
-  </form>
+  <a th:href="${referer}" style='margin: 10px 15px' class="btn btn-danger">Назад</a>
 </div>
 </body>
 </html>
