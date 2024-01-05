@@ -1,5 +1,6 @@
 package com.example.lr15.controllers;
 
+import com.example.lr15.services.UserService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -13,20 +14,26 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import java.security.Principal;
 import java.util.List;
 
 @Controller
 public class OrganizationController {
     private OrganizationService organizationService;
     private UserDetailsService userDetailsService;
+    private UserService userService;
 
     @Autowired
     public void setOrganizationService(OrganizationService organizationService) {
         this.organizationService = organizationService;
     }
+    @Autowired
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping("")
-    public String showOrganizationsList(Model model, @RequestParam(defaultValue = "0") int page) {
+    public String showOrganizationsList(Principal principal, Model model, @RequestParam(defaultValue = "0") int page) {
         Pageable pageable = PageRequest.of(page, 5);
         Page<MedicalOrganization> organizationPage = organizationService.getAllOrganizations(pageable);
         model.addAttribute("organizations", organizationPage.getContent());
@@ -35,6 +42,9 @@ public class OrganizationController {
         model.addAttribute("totalPages", organizationPage.getTotalPages());
         List<MedicalOrganization> topOrganizations = organizationService.getTopOrganizations();
         model.addAttribute("topOrganizations", topOrganizations);
+
+       // if (principal != null) System.out.println((userService.getUserByUserName(principal.getName()).getPassword()));
+
         return "organizations";
     }
 
