@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vaccinecalend", "ClassLibrary3\vaccinecalend.csproj", "{077F2D89-D5EB-4370-841C-5AE34A91A236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7688960B-C1D4-4F26-AF2D-EFDB2BD20256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{7688960B-C1D4-4F26-AF2D-EFDB2BD20256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7688960B-C1D4-4F26-AF2D-EFDB2BD20256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7688960B-C1D4-4F26-AF2D-EFDB2BD20256}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7688960B-C1D4-4F26-AF2D-EFDB2BD20256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
