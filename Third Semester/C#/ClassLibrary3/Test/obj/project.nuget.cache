@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HtaFMnfdJ+2ubKYQtHmSKlOKzK4rBZAwcPKP6ndXBigSVndvN2UHz5GjvYiZwnZioNJjcZi71GgJqMh76vNUcA==",
+  "dgSpecHash": "jwgQOBF4dFCIWQKkH/1xCkdC6fqaUCPlI9jcrYoWyYc41rjToxFI1YB9YnmzdB/pg2sTQkLz+GgE0B/1jR9wDQ==",
   "success": true,
-  "projectFilePath": "D:\\Проекты C# Субботин Д.Л\\АСД\\ClassLibrary3\\Test\\Test.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dmitry\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

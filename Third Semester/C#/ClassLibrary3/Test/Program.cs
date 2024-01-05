@@ -31,52 +31,52 @@ using (VaccineCalendarContext context = new())
     service.AddUser(user2);
 
 
-    //var child = new Child
-    //{
-    //    FirstName = "Alice",
-    //    LastName = "Doe",
-    //    DateOfBirth = new DateTime(2010, 1, 1, 0, 0, 0, DateTimeKind.Utc),
-    //    UserId = user.Id
-    //};
-    //service.AddChild(child);
+    var child = new Child
+    {
+        FirstName = "Alice",
+        LastName = "Doe",
+        DateOfBirth = new DateTime(2010, 1, 1, 0, 0, 0, DateTimeKind.Utc),
+        UserId = user.Id
+    };
+    service.AddChild(child);
 
-    //var child02 = new Child
-    //{
-    //    FirstName = "Котик",
-    //    LastName = "Doe",
-    //    DateOfBirth = new DateTime(2023, 11, 11, 0, 0, 0, DateTimeKind.Utc),
-    //    UserId = user.Id
-    //};
-    //service.AddChild(child02);
+    var child02 = new Child
+    {
+        FirstName = "Котик",
+        LastName = "Doe",
+        DateOfBirth = new DateTime(2023, 11, 11, 0, 0, 0, DateTimeKind.Utc),
+        UserId = user.Id
+    };
+    service.AddChild(child02);
 
 
     // Создание трех детей для нового пользователя
-    //var child1 = new Child
-    //{
-    //    FirstName = "Olga",
-    //    LastName = "Smith",
-    //    DateOfBirth = new DateTime(2015, 2, 10, 0, 0, 0, DateTimeKind.Utc),
-    //    UserId = user2.Id
-    //};
-    //service.AddChild(child1);
+    var child1 = new Child
+    {
+        FirstName = "Olga",
+        LastName = "Smith",
+        DateOfBirth = new DateTime(2015, 2, 10, 0, 0, 0, DateTimeKind.Utc),
+        UserId = user2.Id
+    };
+    service.AddChild(child1);
 
-    //var child2 = new Child
-    //{
-    //    FirstName = "Sally",
-    //    LastName = "Smith",
-    //    DateOfBirth = new DateTime(2017, 8, 25, 0, 0, 0, DateTimeKind.Utc),
-    //    UserId = user2.Id
-    //};
-    //service.AddChild(child2);
+    var child2 = new Child
+    {
+        FirstName = "Sally",
+        LastName = "Smith",
+        DateOfBirth = new DateTime(2017, 8, 25, 0, 0, 0, DateTimeKind.Utc),
+        UserId = user2.Id
+    };
+    service.AddChild(child2);
 
-    //var child3 = new Child
-    //{
-    //    FirstName = "Megan",
-    //    LastName = "Smith",
-    //    DateOfBirth = new DateTime(2019, 11, 3, 0, 0, 0, DateTimeKind.Utc),
-    //    UserId = user2.Id
-    //};
-    //service.AddChild(child3);
+    var child3 = new Child
+    {
+        FirstName = "Megan",
+        LastName = "Smith",
+        DateOfBirth = new DateTime(2019, 11, 3, 0, 0, 0, DateTimeKind.Utc),
+        UserId = user2.Id
+    };
+    service.AddChild(child3);
 
     var completeComponent = new CompleteComponent();
     service.AddCompleteComponent(completeComponent);
@@ -122,8 +122,28 @@ using (VaccineCalendarContext context = new())
         CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
     };
     service.AddVaccination(vaccination2);
-
-
+    Vaccination vaccination3 = new Vaccination
+    {
+        Serial = "вакцина ребенок тест",
+        FlagIsDone = false,
+        TimeInterval = "12 month",
+        OrganizationId = medicalOrganization.OrganizationId,
+        MedicalOrganization = medicalOrganization,
+        VaccineId = vaccine.VaccineId,
+        CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
+    };
+    service.AddVaccination(vaccination3);
+    Vaccination vaccination4 = new Vaccination
+    {
+        Serial = "вакцина ребенок тест2",
+        FlagIsDone = false,
+        TimeInterval = "12 month",
+        OrganizationId = medicalOrganization.OrganizationId,
+        MedicalOrganization = medicalOrganization,
+        VaccineId = vaccine.VaccineId,
+        CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
+    };
+    service.AddVaccination(vaccination4);
 
 
     //ReactionOnVaccination reactionOnVaccination = new ReactionOnVaccination
@@ -168,6 +188,28 @@ using (VaccineCalendarContext context = new())
     // Добавляем запись в дневник вакцинации в базу данных
     service.AddVaccinationDiary(vaccinationDiaryEntry2);
 
+    //добавляем записи для ребенка
+    var vaccinationDiaryEntry3 = new VaccinationDiary
+    {
+        VaccinatedId = child1.Id,
+        VaccinationId = vaccination3.VaccinationId,
+        DiseaseId = disease.DiseaseId
+    };
+    vaccinationDiaryEntry3.Vaccinations.Add(vaccination3);
+    // Добавляем запись в дневник вакцинации в базу данных
+    service.AddVaccinationDiary(vaccinationDiaryEntry3);
+
+    var vaccinationDiaryEntry4 = new VaccinationDiary
+    {
+        VaccinatedId = child1.Id,
+        VaccinationId = vaccination4.VaccinationId,
+        DiseaseId = disease2.DiseaseId
+    };
+    vaccinationDiaryEntry4.Vaccinations.Add(vaccination4);
+    // Добавляем запись в дневник вакцинации в базу данных
+    service.AddVaccinationDiary(vaccinationDiaryEntry4);
+
+
 
     //var recordToVaccination = new RecordToVaccination
     //{
@@ -180,55 +222,24 @@ using (VaccineCalendarContext context = new())
     //};
     //service.AddRecordToVaccination(recordToVaccination);
 
+    Console.WriteLine("\n////////////////////");
+    Console.WriteLine("Дети юзера");
 
+    var usersWithChildren = context.Users
+                    .Include(u => u.Children)
+                    .ToList();
 
-    //var usersWithChildren = context.Users
-    //                .Include(u => u.Children)
-    //                .ToList();
+    foreach (var u in usersWithChildren)
+    {
+        Console.WriteLine($"User: {u.FirstName} {u.LastName}");
+        foreach (var c in u.Children)
+        {
+            Console.WriteLine($"  Child: {c.FirstName} {c.LastName}");
+        }
+    }
 
-    //foreach (var u in usersWithChildren)
-    //{
-    //    Console.WriteLine($"User: {u.FirstName} {u.LastName}");
-    //    foreach (var c in u.Children)
-    //    {
-    //        Console.WriteLine($"  Child: {c.FirstName} {c.LastName}");
-    //    }
-    //}
-
-    //////////////////////////
-    //Guid userId = user.Id;
-
-    //// Найти запись в дневнике вакцинации для конкретного пользователя
-    //var diaryEntry = context.vaccinationDiary
-    //    .Where(entry => entry.VaccinatedId == userId)
-    //    .FirstOrDefault();
-
-    //// Проверка наличия записи в дневнике
-    //if (diaryEntry != null)
-    //{
-    //    Guid diaryId = diaryEntry.DiaryId;
-    //    var vaccinationsInDiary = context.Vaccinations
-    //    .Where(v => v.Vaccinations.Any(vd => vd.DiaryId == diaryId))
-    //    .ToList();
-    //    Console.WriteLine("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
-    //    // Вывести информацию о вакцинациях
-    //    foreach (var vaccinationn in vaccinationsInDiary)
-    //    {
-    //        Console.WriteLine($"VaccinationId: {vaccinationn.VaccinationId}, Serial: {vaccinationn.Serial}");
-    //        // Дополнительная информация о вакцинации, если необходимо
-    //    }
-    //    Console.WriteLine($"DiaryId for user with Id {userId}: {diaryId}");
-    //}
-    ////////////////////////
-
-
-    ////var userWithVaccinations = context.Users
-    ////.Include(u => u.VaccinationDiary)
-    ////    .ThenInclude(vd => vd.Vaccinations)
-    ////        .ThenInclude(v => v.MedicalOrganization)
-    ////.FirstOrDefault(u => u.Id == newUser.Id);
-
-    ////Console.WriteLine(newUser.Id);
+    Console.WriteLine("\n////////////////////");
+    Console.WriteLine("Только вакцинация чела");
     var userWithVaccinations = context.Users
      .Include(u => u.VaccinationDiary)
          .ThenInclude(vd => vd.Vaccinations)
@@ -247,7 +258,7 @@ using (VaccineCalendarContext context = new())
                 var vc = vaccinationItem.Vaccinations;
                 foreach (var v in vc)
                 {
-                    Console.WriteLine($"  Vaccination: {v.Serial}");
+                    Console.WriteLine($"  \nVaccination: {v.Serial}");
                     var vaccinee = v.Vaccine;
                     Console.WriteLine($"Vaccine: {vaccinee.VaccineName}");
                     var medicalOrganizationn = v.MedicalOrganization;
@@ -256,6 +267,65 @@ using (VaccineCalendarContext context = new())
             }
         }
     }
+    Console.WriteLine("\n/////////////////////////////");
+    Console.WriteLine("Вакцинация чела и детей");
+    var userVacc = context.Users
+    .Include(u => u.VaccinationDiary)
+        .ThenInclude(vd => vd.Vaccinations)
+            .ThenInclude(v => v.MedicalOrganization)
+    .Include(u => u.Children)
+        .ThenInclude(c => c.VaccinationDiary)
+            .ThenInclude(vd => vd.Vaccinations)
+                .ThenInclude(v => v.MedicalOrganization)
+    .FirstOrDefault(u => u.Id == user2.Id);
+
+    if (userVacc != null)
+    {
+        Console.WriteLine($"User: {userVacc.FirstName} {userVacc.LastName}");
+
+        // Вакцинации пользователя
+        var userVaccinationDiary = userVacc.VaccinationDiary;
+        if (userVaccinationDiary != null)
+        {
+            foreach (var vaccinationItem in userVaccinationDiary)
+            {
+                var vc = vaccinationItem.Vaccinations;
+                foreach (var v in vc)
+                {
+                    Console.WriteLine($"  \nVaccination: {v.Serial}");
+                    var vaccinee = v.Vaccine;
+                    Console.WriteLine($"Vaccine: {vaccinee.VaccineName}");
+                    var medicalOrganizationn = v.MedicalOrganization;
+                    Console.WriteLine($"Medical Organization: {medicalOrganizationn.OrganizationName}");
+                }
+            }
+        }
+
+        // Вакцинации детей пользователя
+        var children = userVacc.Children;
+        foreach (var c in children)
+        {
+            var childVaccinationDiary = c.VaccinationDiary;
+            if (childVaccinationDiary != null)
+            {
+                Console.WriteLine($"\nChild: {c.FirstName} {c.LastName}");
+                if (childVaccinationDiary.Count == 0) Console.WriteLine("Нет вакцинаций");
+                foreach (var vaccinationItem in childVaccinationDiary)
+                {
+                    var vc = vaccinationItem.Vaccinations;
+                    foreach (var v in vc)
+                    {
+                        Console.WriteLine($"  \nVaccination: {v.Serial}");
+                        var vaccinee = v.Vaccine;
+                        Console.WriteLine($"Vaccine: {vaccinee.VaccineName}");
+                        var medicalOrganizationn = v.MedicalOrganization;
+                        Console.WriteLine($"Medical Organization: {medicalOrganizationn.OrganizationName}");
+                    }
+                }
+            }
+        }
+    }
+
     //else
     //{
     //    Console.WriteLine("User not found or has no vaccinations.");

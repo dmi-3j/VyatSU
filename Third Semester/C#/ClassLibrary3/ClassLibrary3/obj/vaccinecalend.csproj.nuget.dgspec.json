@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Проекты C# Субботин Д.Л\\АСД\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {}
+    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {}
   },
   "projects": {
-    "D:\\Проекты C# Субботин Д.Л\\АСД\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
+    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Проекты C# Субботин Д.Л\\АСД\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
         "projectName": "vaccinecalend",
-        "projectPath": "D:\\Проекты C# Субботин Д.Л\\АСД\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
         "packagesPath": "C:\\Users\\dmitry\\.nuget\\packages\\",
-        "outputPath": "D:\\Проекты C# Субботин Д.Л\\АСД\\ClassLibrary3\\ClassLibrary3\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",

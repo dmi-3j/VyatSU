@@ -35,3 +35,40 @@ D:\Проекты C# Субботин Д.Л\АСД\ClassLibrary3\Test\bin\Debug\
 D:\Проекты C# Субботин Д.Л\АСД\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\Проекты C# Субботин Д.Л\АСД\ClassLibrary3\Test\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Проекты C# Субботин Д.Л\АСД\ClassLibrary3\Test\bin\Debug\net7.0\System.CodeDom.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Test.exe
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Test.deps.json
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Test.runtimeconfig.json
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Test.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Test.pdb
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Humanizer.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Npgsql.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\System.CodeDom.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\vaccinecalend.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\bin\Debug\net7.0\vaccinecalend.pdb
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.csproj.AssemblyReference.cache
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.AssemblyInfoInputs.cache
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.AssemblyInfo.cs
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.csproj.CopyComplete
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\refint\Test.dll
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.pdb
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\Test.genruntimeconfig.cache
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\Test\obj\Debug\net7.0\ref\Test.dll
