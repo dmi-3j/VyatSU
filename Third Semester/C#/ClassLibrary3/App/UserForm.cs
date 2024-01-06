@@ -24,25 +24,22 @@ namespace App
             InitializeComponent();
             currentUser = user;
             InitStatusLabel();
-
+            InitProfileTab();
+            InitUserVaccinationTab();
+            InitChildVaccinationTab();
         }
-        private void InitStatusLabel()
+        private void InitProfileTab()
         {
-            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName}";
-            statusStrip.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            userNameLabel.Alignment = ToolStripItemAlignment.Right;
+            firstNameLabel.Text = currentUser.FirstName;
+            lastNameLabel.Text = currentUser.LastName;
+            dobLabel.Text = currentUser.DateOfBirth.Date.ToString("dd.MM.yyyy");
+            phoneLabel.Text = currentUser.PhoneNumber;
+            addressLabel.Text = currentUser.Address;
         }
-
-        private void vaccinationBox_Click(object sender, EventArgs e)
+        private void InitUserVaccinationTab()
         {
-
-        }
-        private void initBox()
-        {
-            vaccinationBox.Clear();
             using (VaccineCalendarContext context = new())
             {
-
                 var userWithVaccinations = context.Users
                     .Include(u => u.VaccinationDiary)
                     .ThenInclude(vd => vd.Vaccinations)
@@ -51,10 +48,9 @@ namespace App
                     .ThenInclude(vd => vd.Vaccinations)
                     .ThenInclude(m => m.MedicalOrganization)
                     .FirstOrDefault(u => u.Id == currentUser.Id);
+
                 if (userWithVaccinations != null)
                 {
-                    vaccinationBox.AppendText($"User: {userWithVaccinations.FirstName} {userWithVaccinations.LastName}\n");
-
                     var vaccinationDiary = userWithVaccinations.VaccinationDiary;
                     if (vaccinationDiary != null)
                     {
@@ -63,100 +59,77 @@ namespace App
                             var vc = vaccinationItem.Vaccinations;
                             foreach (var v in vc)
                             {
-
-                                vaccinationBox.AppendText($"\nVaccination: {v.Serial}\n");
-                                var vaiicne = v.Vaccine;
-                                vaccinationBox.AppendText($"Vaccine: {vaiicne.VaccineName}\n");
-                                var medicalOrganizationn = v.MedicalOrganization;
-                                vaccinationBox.AppendText($"Medical Organization: {medicalOrganizationn.OrganizationName}\n");
+                                string serial = v.Serial;
+                                string vaccineName = v.Vaccine.VaccineName;
+                                string medicalOrganization = v.MedicalOrganization.OrganizationName;
+                                userVaccinationTable.Rows.Add(serial, vaccineName, medicalOrganization);
                             }
                         }
                     }
                 }
             }
         }
-        private void initBox2()
+        private void InitChildVaccinationTab()
         {
-            vaccinationBox.Clear();
             using (VaccineCalendarContext context = new())
             {
-                var userWithVaccinations = context.Users
-                .Include(u => u.VaccinationDiary)
-                    .ThenInclude(vd => vd.Vaccinations)
-                    .ThenInclude(w => w.Vaccine)
-                    .Include(u => u.VaccinationDiary)
-                    .ThenInclude(vd => vd.Vaccinations)
-                    .ThenInclude(m => m.MedicalOrganization)
-                .Include(u => u.Children)
-                    .ThenInclude(c => c.VaccinationDiary)
-                    .ThenInclude(vd => vd.Vaccinations)
-                    .ThenInclude(v => v.Vaccine)
-                    .Include(c => c.VaccinationDiary)
-                    .ThenInclude(vd => vd.Vaccinations)
-                    .ThenInclude(v => v.MedicalOrganization)
-                .FirstOrDefault(u => u.Id == currentUser.Id);
+                // Загружаем пользователя с детьми
+                var userWithChildren = context.Users
+                    .Include(u => u.Children)
+                    .FirstOrDefault(u => u.Id == currentUser.Id);
 
-                if (userWithVaccinations != null)
+                if (userWithChildren != null)
                 {
-                    vaccinationBox.Text += $"User: {userWithVaccinations.FirstName} {userWithVaccinations.LastName}\n";
+                    // Устанавливаем источник данных для ComboBox
+                    childChoiceComboBox.DataSource = userWithChildren.Children.ToList();
+                    childChoiceComboBox.DisplayMember = "FirstName"; // Используйте свойство, которое хотите отображать
+                    childChoiceComboBox.ValueMember = "Id"; // Используйте свойство, которое хотите использовать в качестве значения
+                }
+            }
+        }
+        private void InitStatusLabel()
+        {
+            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName}";
+            statusStrip.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            userNameLabel.Alignment = ToolStripItemAlignment.Right;
+        }
 
-                    // Вакцинации пользователя
-                    var userVaccinationDiary = userWithVaccinations.VaccinationDiary;
-                    if (userVaccinationDiary != null)
-                    {
-                        foreach (var vaccinationItem in userVaccinationDiary)
-                        {
-                            var vc = vaccinationItem.Vaccinations;
-                            foreach (var v in vc)
-                            {
-                                vaccinationBox.Text += $"\nVaccination: {v.Serial}\n";
-                                var vaccinee = v.Vaccine;
-                                vaccinationBox.Text += $"Vaccine: {vaccinee.VaccineName}\n";
-                                var medicalOrganizationn = v.MedicalOrganization;
-                                vaccinationBox.Text += $"Medical Organization: {medicalOrganizationn.OrganizationName}\n";
-                            }
-                        }
-                    }
 
-                    // Вакцинации детей пользователя
-                    var children = userWithVaccinations.Children;
-                    foreach (var child in children)
+        private void displayButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("======");
+            Child selectedChild = (Child)childChoiceComboBox.SelectedItem;
+            Console.WriteLine(selectedChild);
+            if (selectedChild != null)
+            {
+                using (VaccineCalendarContext context = new())
+                {
+                    var childWithVaccinations = context.Childs
+                        .Include(c => c.VaccinationDiary)
+                            .ThenInclude(vd => vd.Vaccinations)
+                                .ThenInclude(w => w.Vaccine)
+                        .Include(c => c.VaccinationDiary)
+                            .ThenInclude(vd => vd.Vaccinations)
+                                .ThenInclude(m => m.MedicalOrganization)
+                        .FirstOrDefault(c => c.Id == selectedChild.Id);
+
+                    if (childWithVaccinations != null)
                     {
-                        var childVaccinationDiary = child.VaccinationDiary;
-                        if (childVaccinationDiary != null)
+                        childVaccinationTable.Rows.Clear();
+
+                        foreach (var vaccinationItem in childWithVaccinations.VaccinationDiary)
                         {
-                            vaccinationBox.Text += $"\nChild: {child.FirstName} {child.LastName}\n";
-                            if (childVaccinationDiary.Count == 0)
+                            foreach (var v in vaccinationItem.Vaccinations)
                             {
-                                vaccinationBox.Text += "Нет вакцинаций\n";
-                            }
-                            foreach (var vaccinationItem in childVaccinationDiary)
-                            {
-                                var vc = vaccinationItem.Vaccinations;
-                                foreach (var v in vc)
-                                {
-                                    vaccinationBox.Text += $"\nVaccination: {v.Serial}\n";
-                                    var vaccinee = v.Vaccine;
-                                    vaccinationBox.Text += $"Vaccine: {vaccinee.VaccineName}\n";
-                                    var medicalOrganizationn = v.MedicalOrganization;
-                                    vaccinationBox.Text += $"Medical Organization: {medicalOrganizationn.OrganizationName}\n";
-                                }
+                                string serial = v.Serial;
+                                string vaccineName = v.Vaccine.VaccineName;
+                                string medicalOrganization = v.MedicalOrganization.OrganizationName;
+                                childVaccinationTable.Rows.Add(serial, vaccineName, medicalOrganization);
                             }
                         }
                     }
                 }
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            vaccinationBox.Clear();
-            initBox();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            initBox2();
         }
     }
 }

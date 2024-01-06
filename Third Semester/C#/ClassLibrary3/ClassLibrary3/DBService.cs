@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +18,7 @@ namespace vaccinecalend
 
         public void AddUser(User user)
         {
+            user.Password = HashPassword(user.Password);
             _context.Users.Add(user);
             _context.SaveChanges();
         }
@@ -98,5 +100,13 @@ namespace vaccinecalend
             _context.Components.Add(vaccineComponent);
             _context.SaveChanges();
         }
-    }
+        public static string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                byte[] hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+            }
+        }
+     }
 }

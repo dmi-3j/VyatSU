@@ -8,8 +8,8 @@ using (VaccineCalendarContext context = new())
 
     var user = new User
     {
-        Username = "testuser",
-        Password = "testpassword",
+        Username = "user",
+        Password = "111",
         FirstName = "John",
         LastName = "Doe",
         DateOfBirth = new DateTime(1980, 1, 1, 0, 0, 0, DateTimeKind.Utc),
@@ -20,8 +20,8 @@ using (VaccineCalendarContext context = new())
 
     var user2 = new User
     {
-        Username = "newuser",
-        Password = "newpassword",
+        Username = "user2",
+        Password = "222",
         FirstName = "Jane",
         LastName = "Smith",
         DateOfBirth = new DateTime(1990, 5, 15, 0, 0, 0, DateTimeKind.Utc),
