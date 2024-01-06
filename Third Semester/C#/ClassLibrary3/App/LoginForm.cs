@@ -13,14 +13,15 @@ namespace App
 {
     public partial class LoginForm : Form
     {
-        public LoginForm()
+
+        public User AuthenticatedUser { get; private set; }
+
+        private VaccineCalendarContext context;
+
+        public LoginForm(VaccineCalendarContext context)
         {
             InitializeComponent();
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
+            this.context = context;
         }
 
         private void loginButton_Click(object sender, EventArgs e)
@@ -28,20 +29,15 @@ namespace App
             string username = loginField.Text;
             string password = passwordField.Text;
 
-            using (var context = new VaccineCalendarContext())
+            var user = context.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
+            if (user != null)
             {
-                var user = context.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
-                if (user != null)
-                {
-                    
-                    this.Close();
-                    UserForm userForm = new UserForm(user);
-                    userForm.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Неверные учётные данные. Повторите попытку.");
-                }
+                AuthenticatedUser = user;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Неверные учётные данные. Повторите попытку.");
             }
         }
     }

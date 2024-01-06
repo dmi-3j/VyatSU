@@ -31,6 +31,9 @@
             menuStrip1 = new MenuStrip();
             statusStrip = new StatusStrip();
             userNameLabel = new ToolStripStatusLabel();
+            vaccinationBox = new RichTextBox();
+            button1 = new Button();
+            button2 = new Button();
             statusStrip.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,11 +59,43 @@
             userNameLabel.Size = new Size(89, 17);
             userNameLabel.Text = "userNameLabel";
             // 
+            // vaccinationBox
+            // 
+            vaccinationBox.Location = new Point(33, 24);
+            vaccinationBox.Name = "vaccinationBox";
+            vaccinationBox.Size = new Size(305, 354);
+            vaccinationBox.TabIndex = 2;
+            vaccinationBox.Text = "";
+            vaccinationBox.Click += vaccinationBox_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(446, 195);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 3;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(446, 233);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 4;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(vaccinationBox);
             Controls.Add(statusStrip);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -77,5 +112,8 @@
         private MenuStrip menuStrip1;
         private StatusStrip statusStrip;
         private ToolStripStatusLabel userNameLabel;
+        private RichTextBox vaccinationBox;
+        private Button button1;
+        private Button button2;
     }
 }

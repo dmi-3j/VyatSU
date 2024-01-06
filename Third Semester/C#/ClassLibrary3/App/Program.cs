@@ -1,21 +1,25 @@
+using vaccinecalend;
+
 namespace App
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+ 
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-
-
             ApplicationConfiguration.Initialize();
-            Application.Run(new LoginForm());
+            using (var context = new VaccineCalendarContext())
+            {
+                LoginForm loginForm = new LoginForm(context);
+                Application.Run(loginForm);
 
-
+                if (loginForm.AuthenticatedUser != null)
+                {
+                    UserForm userForm = new UserForm(loginForm.AuthenticatedUser);
+                    Application.Run(userForm);
+                }
+            }
         }
     }
 }

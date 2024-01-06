@@ -104,7 +104,7 @@
             Controls.Add(TitleLabel);
             Name = "LoginForm";
             Text = "LoginForm";
-            Load += LoginForm_Load;
+           // Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

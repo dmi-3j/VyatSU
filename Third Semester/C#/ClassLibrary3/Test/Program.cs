@@ -90,6 +90,15 @@ using (VaccineCalendarContext context = new())
     };
     service.AddVaccine(vaccine);
 
+    Vaccine vaccine2 = new Vaccine
+    {
+        VaccineName = "COVID-19 Vaccine",
+        ManufactorCountry = "Test Country",
+        ValidPeriod = "12 months",
+        CompleteComponentId = completeComponent.CompleteComponentId
+    };
+    service.AddVaccine(vaccine2);
+
     MedicalOrganization medicalOrganization = new MedicalOrganization
     {
         OrganizationName = "Test Hospital",
@@ -105,7 +114,7 @@ using (VaccineCalendarContext context = new())
         TimeInterval = "1 month",
         OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
-        VaccineId = vaccine.VaccineId,
+        VaccineId = vaccine2.VaccineId,
         CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
     };
     service.AddVaccination(vaccination);
@@ -244,7 +253,8 @@ using (VaccineCalendarContext context = new())
      .Include(u => u.VaccinationDiary)
          .ThenInclude(vd => vd.Vaccinations)
              .ThenInclude(v => v.MedicalOrganization)
-     .FirstOrDefault(u => u.Id == user2.Id);
+             
+             .FirstOrDefault(u => u.Id == user2.Id);
 
     if (userWithVaccinations != null)
     {
