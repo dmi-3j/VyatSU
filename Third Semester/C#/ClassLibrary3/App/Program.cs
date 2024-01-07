@@ -11,7 +11,7 @@ namespace App
             ApplicationConfiguration.Initialize();
             using (var context = new VaccineCalendarContext())
             {
-                LoginForm loginForm = new LoginForm(context);
+                LoginForm loginForm = new LoginForm();
                 Application.Run(loginForm);
 
                 if (loginForm.AuthenticatedUser != null)

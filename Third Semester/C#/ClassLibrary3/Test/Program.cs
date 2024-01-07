@@ -30,6 +30,18 @@ using (VaccineCalendarContext context = new())
     };
     service.AddUser(user2);
 
+    var user3 = new User
+    {
+        Username = "user3",
+        Password = "333",
+        FirstName = "ЧайлдФри",
+        LastName = "Петрова",
+        DateOfBirth = new DateTime(1990, 5, 15, 0, 0, 0, DateTimeKind.Utc),
+        Address = "Бездетова 1",
+        PhoneNumber = "987654321"
+    };
+    service.AddUser(user3);
+
 
     var child = new Child
     {

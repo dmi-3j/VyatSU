@@ -26,7 +26,18 @@ namespace App
             InitStatusLabel();
             InitProfileTab();
             InitUserVaccinationTab();
-            InitChildVaccinationTab();
+            CheckForChild();
+        }
+        private void CheckForChild()
+        {
+            using (var context = new VaccineCalendarContext())
+            {
+                var userWithChilds = context.Users
+                .Include(u => u.Children)
+                .FirstOrDefault(u => u.Id == currentUser.Id);
+                if (userWithChilds.Children.Count == 0) tabControl1.TabPages[2].Parent = null;
+                InitChildVaccinationTab();
+            }
         }
         private void InitProfileTab()
         {
@@ -80,10 +91,9 @@ namespace App
 
                 if (userWithChildren != null)
                 {
-                    // Устанавливаем источник данных для ComboBox
                     childChoiceComboBox.DataSource = userWithChildren.Children.ToList();
-                    childChoiceComboBox.DisplayMember = "FirstName"; // Используйте свойство, которое хотите отображать
-                    childChoiceComboBox.ValueMember = "Id"; // Используйте свойство, которое хотите использовать в качестве значения
+                    childChoiceComboBox.DisplayMember = "FirstName";
+                    childChoiceComboBox.ValueMember = "Id"; 
                 }
             }
         }
@@ -130,6 +140,11 @@ namespace App
                     }
                 }
             }
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

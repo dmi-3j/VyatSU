@@ -36,6 +36,7 @@
             userNameLabel = new ToolStripStatusLabel();
             tabControl1 = new TabControl();
             profileTab = new TabPage();
+            logoutButton = new Button();
             label2 = new Label();
             label1 = new Label();
             addressLabel = new Label();
@@ -115,6 +116,7 @@
             // 
             // profileTab
             // 
+            profileTab.Controls.Add(logoutButton);
             profileTab.Controls.Add(label2);
             profileTab.Controls.Add(label1);
             profileTab.Controls.Add(addressLabel);
@@ -129,6 +131,16 @@
             profileTab.TabIndex = 3;
             profileTab.Text = "Профиль";
             profileTab.UseVisualStyleBackColor = true;
+            // 
+            // logoutButton
+            // 
+            logoutButton.Location = new Point(749, 411);
+            logoutButton.Name = "logoutButton";
+            logoutButton.Size = new Size(139, 33);
+            logoutButton.TabIndex = 8;
+            logoutButton.Text = "Выйти из профиля";
+            logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
             // 
             // label2
             // 
@@ -373,5 +385,6 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private Button displayButton;
+        private Button logoutButton;
     }
 }

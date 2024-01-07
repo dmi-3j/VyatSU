@@ -16,14 +16,12 @@ namespace App
 
         public User AuthenticatedUser { get; private set; }
 
-        private VaccineCalendarContext context;
+        private VaccineCalendarContext context = new VaccineCalendarContext();
         
 
-        public LoginForm(VaccineCalendarContext context)
+        public LoginForm()
         {
             InitializeComponent();
-            this.context = context;
-           // service = new DBService(context);
         }
      
         private void loginButton_Click(object sender, EventArgs e)
