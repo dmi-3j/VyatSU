@@ -35,7 +35,8 @@ namespace App
                 var userWithChilds = context.Users
                 .Include(u => u.Children)
                 .FirstOrDefault(u => u.Id == currentUser.Id);
-                if (userWithChilds.Children.Count == 0) tabControl1.TabPages[2].Parent = null;
+                //if (userWithChilds.Children.Count == 0) tabControl1.TabPages[2].Parent = null;
+                if (userWithChilds.Children.Count == 0) tabControl1.TabPages.Remove(childVaccinationTab);
                 InitChildVaccinationTab();
             }
         }
@@ -165,6 +166,16 @@ namespace App
                     infoForm.ShowDialog();
                 }
             }
+        }
+
+        private void addChildForUserButton_Click(object sender, EventArgs e)
+        {
+            AddChildForUserForm childForUser = new AddChildForUserForm(currentUser);
+            childForUser.ShowDialog();
+            InitChildVaccinationTab();
+            if (!tabControl1.TabPages.Contains(childVaccinationTab)) tabControl1.TabPages.Add(childVaccinationTab);
+
+
         }
     }
 }

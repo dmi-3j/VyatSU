@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace vaccinecalend
 {
     public class RecordToVaccination
     {
         [Key]
         public Guid RecordId { get; set; }
+
+        [Column(TypeName = "date")]
         public DateTime RecordDate { get; set; }
 
         public Guid VaccinationId { get; set; }

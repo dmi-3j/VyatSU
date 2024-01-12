@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace vaccinecalend
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
         public string? MiddleName { get; set; }
+
+        [Column(TypeName = "date")]
         public DateTime DateOfBirth { get; set; }
         public ICollection<RecordToVaccination>? Records { get; set; } 
        // public Guid DiaryId {  get; set; }

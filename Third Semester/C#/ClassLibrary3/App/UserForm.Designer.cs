@@ -58,6 +58,7 @@
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
+            addChildForUserButton = new Button();
             menuStrip1.SuspendLayout();
             statusStrip.SuspendLayout();
             tabControl1.SuspendLayout();
@@ -117,6 +118,7 @@
             // 
             // profileTab
             // 
+            profileTab.Controls.Add(addChildForUserButton);
             profileTab.Controls.Add(logoutButton);
             profileTab.Controls.Add(label2);
             profileTab.Controls.Add(label1);
@@ -340,6 +342,16 @@
             dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
+            // addChildForUserButton
+            // 
+            addChildForUserButton.Location = new Point(531, 411);
+            addChildForUserButton.Name = "addChildForUserButton";
+            addChildForUserButton.Size = new Size(212, 33);
+            addChildForUserButton.TabIndex = 9;
+            addChildForUserButton.Text = "Добавить информацию о ребёнке";
+            addChildForUserButton.UseVisualStyleBackColor = true;
+            addChildForUserButton.Click += addChildForUserButton_Click;
+            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -398,5 +410,6 @@
         private DataGridViewTextBoxColumn VaccineName;
         private DataGridViewTextBoxColumn MedicalOrganizatiin;
         private DataGridViewButtonColumn infoVaccinaton;
+        private Button addChildForUserButton;
     }
 }

@@ -21,6 +21,11 @@ namespace App
                         AdminForm adminForm = new AdminForm(loginForm.AuthenticatedUser);
                         Application.Run(adminForm);                       
                     }
+                    else if (loginForm.AuthenticatedUser.UserRoles.Any(a => a.Role == "MED_PERSONAL"))
+                    {
+                        MedPersonalForm medPersonalForm = new MedPersonalForm(loginForm.AuthenticatedUser);
+                        Application.Run(medPersonalForm);
+                    }
                     else
                     {
                         UserForm userForm = new UserForm(loginForm.AuthenticatedUser);

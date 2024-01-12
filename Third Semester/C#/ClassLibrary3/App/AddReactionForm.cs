@@ -29,7 +29,7 @@ namespace App
                     string reaction = reactionTextBox.Text;
                     ReactionOnVaccination reactionOnVaccination = new ReactionOnVaccination();
                     reactionOnVaccination.DescriptionOfReaction = reaction;
-                    reactionOnVaccination.DateOfReaction = DateTime.UtcNow;
+                    reactionOnVaccination.DateOfReaction = DateTime.Now.Date;
                     reactionOnVaccination.VaccinationId = vaccination.VaccinationId;
                     reactionOnVaccination.ReactionId = Guid.NewGuid();
                     DBService service = new DBService(context);
