@@ -36,5 +36,10 @@ namespace App
         {
             Application.Restart();
         }
+        private void AddUserButton_Click(object sender, EventArgs e)
+        {
+            AddUserForm addUserForm = new AddUserForm();
+            addUserForm.ShowDialog();
+        }
     }
 }

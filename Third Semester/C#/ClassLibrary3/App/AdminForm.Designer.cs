@@ -32,7 +32,7 @@
             userNameLabel = new ToolStripStatusLabel();
             addOrganizationButton = new Button();
             logoutButton = new Button();
-            button1 = new Button();
+            AddUserButton = new Button();
             button2 = new Button();
             statusStrip.SuspendLayout();
             SuspendLayout();
@@ -71,14 +71,15 @@
             logoutButton.UseVisualStyleBackColor = true;
             logoutButton.Click += logoutButton_Click;
             // 
-            // button1
+            // AddUserButton
             // 
-            button1.Location = new Point(12, 58);
-            button1.Name = "button1";
-            button1.Size = new Size(304, 31);
-            button1.TabIndex = 3;
-            button1.Text = "Добавить пользователя";
-            button1.UseVisualStyleBackColor = true;
+            AddUserButton.Location = new Point(12, 58);
+            AddUserButton.Name = "AddUserButton";
+            AddUserButton.Size = new Size(304, 31);
+            AddUserButton.TabIndex = 3;
+            AddUserButton.Text = "Добавить пользователя";
+            AddUserButton.UseVisualStyleBackColor = true;
+            AddUserButton.Click += AddUserButton_Click;
             // 
             // button2
             // 
@@ -95,7 +96,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(327, 190);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(AddUserButton);
             Controls.Add(logoutButton);
             Controls.Add(addOrganizationButton);
             Controls.Add(statusStrip);
@@ -113,7 +114,7 @@
         private ToolStripStatusLabel userNameLabel;
         private Button addOrganizationButton;
         private Button logoutButton;
-        private Button button1;
+        private Button AddUserButton;
         private Button button2;
     }
 }
