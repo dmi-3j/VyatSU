@@ -164,6 +164,26 @@ namespace vaccinecalend.Migrations
                     b.ToTable("Records");
                 });
 
+            modelBuilder.Entity("vaccinecalend.UserRole", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserRoles");
+                });
+
             modelBuilder.Entity("vaccinecalend.Vaccinated", b =>
                 {
                     b.Property<Guid>("Id")
@@ -451,6 +471,15 @@ namespace vaccinecalend.Migrations
                     b.Navigation("Vaccination");
                 });
 
+            modelBuilder.Entity("vaccinecalend.UserRole", b =>
+                {
+                    b.HasOne("vaccinecalend.User", null)
+                        .WithMany("UserRoles")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("vaccinecalend.Vaccination", b =>
                 {
                     b.HasOne("vaccinecalend.CompleteComponent", "CompleteComponent")
@@ -605,6 +634,8 @@ namespace vaccinecalend.Migrations
             modelBuilder.Entity("vaccinecalend.User", b =>
                 {
                     b.Navigation("Children");
+
+                    b.Navigation("UserRoles");
                 });
 #pragma warning restore 612, 618
         }

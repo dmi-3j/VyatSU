@@ -14,7 +14,9 @@ using (VaccineCalendarContext context = new())
         LastName = "Doe",
         DateOfBirth = new DateTime(1980, 1, 1, 0, 0, 0, DateTimeKind.Utc),
         Address = "Test Address",
-        PhoneNumber = "123456789"
+        PhoneNumber = "123456789",
+        UserRoles =  new List<UserRole> { new UserRole { Role = "USER" } }
+
     };
     service.AddUser(user);
 
@@ -22,11 +24,12 @@ using (VaccineCalendarContext context = new())
     {
         Username = "user2",
         Password = "222",
-        FirstName = "Jane",
-        LastName = "Smith",
+        FirstName = "Алексей",
+        LastName = "Мальков",
         DateOfBirth = new DateTime(1990, 5, 15, 0, 0, 0, DateTimeKind.Utc),
-        Address = "New Address",
-        PhoneNumber = "987654321"
+        Address = "г. Киров, Ленина, д.16",
+        PhoneNumber = "+79128785538",
+        UserRoles = new List<UserRole> { new UserRole { Role = "USER" } }
     };
     service.AddUser(user2);
 
@@ -38,9 +41,22 @@ using (VaccineCalendarContext context = new())
         LastName = "Петрова",
         DateOfBirth = new DateTime(1990, 5, 15, 0, 0, 0, DateTimeKind.Utc),
         Address = "Бездетова 1",
-        PhoneNumber = "987654321"
+        PhoneNumber = "987654321",
+        UserRoles = new List<UserRole> { new UserRole { Role = "USER" } }
     };
     service.AddUser(user3);
+    var admin = new User
+    {
+        Username = "admin",
+        Password = "123",
+        FirstName = "Дмитрий",
+        LastName = "Субботин",
+        DateOfBirth = new DateTime(2001, 5, 15, 0, 0, 0, DateTimeKind.Utc),
+        Address = "Студенческий проезд, 3а",
+        PhoneNumber = "+79128285795",
+        UserRoles = new List<UserRole> { new UserRole { Role = "ADMIN" } }
+    };
+    service.AddUser(admin);
 
 
     var child = new Child
@@ -65,8 +81,8 @@ using (VaccineCalendarContext context = new())
     // Создание трех детей для нового пользователя
     var child1 = new Child
     {
-        FirstName = "Olga",
-        LastName = "Smith",
+        FirstName = "Ольга",
+        LastName = "Малькова",
         DateOfBirth = new DateTime(2015, 2, 10, 0, 0, 0, DateTimeKind.Utc),
         UserId = user2.Id
     };
@@ -74,8 +90,8 @@ using (VaccineCalendarContext context = new())
 
     var child2 = new Child
     {
-        FirstName = "Sally",
-        LastName = "Smith",
+        FirstName = "Светлана",
+        LastName = "Малькова",
         DateOfBirth = new DateTime(2017, 8, 25, 0, 0, 0, DateTimeKind.Utc),
         UserId = user2.Id
     };
@@ -83,8 +99,8 @@ using (VaccineCalendarContext context = new())
 
     var child3 = new Child
     {
-        FirstName = "Megan",
-        LastName = "Smith",
+        FirstName = "Пётр",
+        LastName = "Мальков",
         DateOfBirth = new DateTime(2019, 11, 3, 0, 0, 0, DateTimeKind.Utc),
         UserId = user2.Id
     };
@@ -95,9 +111,9 @@ using (VaccineCalendarContext context = new())
 
     Vaccine vaccine = new Vaccine
     {
-        VaccineName = "COVID-19 Vaccine",
-        ManufactorCountry = "Test Country",
-        ValidPeriod = "12 months",
+        VaccineName = "Спутник V",
+        ManufactorCountry = "Россия",
+        ValidPeriod = "12 месяцев",
         CompleteComponentId = completeComponent.CompleteComponentId
     };
     service.AddVaccine(vaccine);
@@ -113,15 +129,15 @@ using (VaccineCalendarContext context = new())
 
     MedicalOrganization medicalOrganization = new MedicalOrganization
     {
-        OrganizationName = "Test Hospital",
-        Address = "Hospital Address",
-        PhoneNumber = "987654321"
+        OrganizationName = "поликлиника #1",
+        Address = "г. Киров, Менделеева, д. 13",
+        PhoneNumber = "88332340134"
     };
     service.AddMedicalOrganization(medicalOrganization);
 
     Vaccination vaccination = new Vaccination
     {
-        Serial = "ABC123",
+        Serial = "SPTNK001",
         FlagIsDone = false,
         TimeInterval = "1 month",
         OrganizationId = medicalOrganization.OrganizationId,

@@ -38,3 +38,8 @@ D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\bin\Debug\net7.0-
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.Properties.Resources.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.VaccinationInfoForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.addReactionForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.medicalOrganizationInfoForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AdminForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AddOrganizationForm.resources

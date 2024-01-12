@@ -16,8 +16,17 @@ namespace App
 
                 if (loginForm.AuthenticatedUser != null)
                 {
-                    UserForm userForm = new UserForm(loginForm.AuthenticatedUser);
-                    Application.Run(userForm);
+                    if(loginForm.AuthenticatedUser.UserRoles.Any(a => a.Role == "ADMIN"))
+                    {
+                        AdminForm adminForm = new AdminForm(loginForm.AuthenticatedUser);
+                        Application.Run(adminForm);                       
+                    }
+                    else
+                    {
+                        UserForm userForm = new UserForm(loginForm.AuthenticatedUser);
+                        Application.Run(userForm);
+                    }
+                    
                 }
             }
         }

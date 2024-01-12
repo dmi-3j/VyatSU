@@ -59,5 +59,15 @@ namespace App.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap content_hospital_icon_png_1 {
+            get {
+                object obj = ResourceManager.GetObject("content_hospital-icon-png-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

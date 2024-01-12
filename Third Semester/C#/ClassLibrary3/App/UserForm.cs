@@ -73,6 +73,7 @@ namespace App
                                 string serial = v.Serial;
                                 string vaccineName = v.Vaccine.VaccineName;
                                 string medicalOrganization = v.MedicalOrganization.OrganizationName;
+
                                 userVaccinationTable.Rows.Add(serial, vaccineName, medicalOrganization);
                             }
                         }
@@ -93,7 +94,7 @@ namespace App
                 {
                     childChoiceComboBox.DataSource = userWithChildren.Children.ToList();
                     childChoiceComboBox.DisplayMember = "FirstName";
-                    childChoiceComboBox.ValueMember = "Id"; 
+                    childChoiceComboBox.ValueMember = "Id";
                 }
             }
         }
@@ -145,6 +146,25 @@ namespace App
         private void logoutButton_Click(object sender, EventArgs e)
         {
             Application.Restart();
+        }
+
+        private void userVaccinationTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex == userVaccinationTable.Columns["infoVaccinaton"].Index)
+            {
+                // Проверяем, что тип содержимого в ячейке - кнопка
+                if (userVaccinationTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
+                {
+                    // Обработка нажатия кнопки в столбце infoVaccinaton
+                    string serial = userVaccinationTable.Rows[e.RowIndex].Cells["VaccinationSerial"].Value.ToString();
+                    string vaccineName = userVaccinationTable.Rows[e.RowIndex].Cells["VaccineName"].Value.ToString();
+                    string medicalOrganization = userVaccinationTable.Rows[e.RowIndex].Cells["MedicalOrganizatiin"].Value.ToString();
+
+                    // Создание и отображение новой формы VaccinationInfoForm
+                    VaccinationInfoForm infoForm = new VaccinationInfoForm(serial, vaccineName, medicalOrganization);
+                    infoForm.ShowDialog();
+                }
+            }
         }
     }
 }

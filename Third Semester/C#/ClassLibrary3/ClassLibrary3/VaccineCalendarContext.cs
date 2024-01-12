@@ -27,6 +27,7 @@ namespace vaccinecalend
         public DbSet<RecordToVaccination> Records { get; set; }
 
         public DbSet<VaccinationDiary> vaccinationDiary { get; set; }
+        public DbSet<UserRole> UserRoles { get; set; }
 
 
 

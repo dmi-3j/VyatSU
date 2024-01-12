@@ -50,6 +50,7 @@
             VaccinationSerial = new DataGridViewTextBoxColumn();
             VaccineName = new DataGridViewTextBoxColumn();
             MedicalOrganizatiin = new DataGridViewTextBoxColumn();
+            infoVaccinaton = new DataGridViewButtonColumn();
             childVaccinationTab = new TabPage();
             displayButton = new Button();
             childChoiceComboBox = new ComboBox();
@@ -239,14 +240,15 @@
             userVaccinationTable.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             userVaccinationTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             userVaccinationTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            userVaccinationTable.Columns.AddRange(new DataGridViewColumn[] { VaccinationSerial, VaccineName, MedicalOrganizatiin });
+            userVaccinationTable.Columns.AddRange(new DataGridViewColumn[] { VaccinationSerial, VaccineName, MedicalOrganizatiin, infoVaccinaton });
             userVaccinationTable.Location = new Point(8, 6);
             userVaccinationTable.Name = "userVaccinationTable";
             userVaccinationTable.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             userVaccinationTable.RowHeadersVisible = false;
             userVaccinationTable.RowTemplate.Height = 25;
-            userVaccinationTable.Size = new Size(430, 150);
+            userVaccinationTable.Size = new Size(489, 150);
             userVaccinationTable.TabIndex = 5;
+            userVaccinationTable.CellContentClick += userVaccinationTable_CellContentClick;
             // 
             // VaccinationSerial
             // 
@@ -265,6 +267,15 @@
             MedicalOrganizatiin.HeaderText = "Медицинская организация";
             MedicalOrganizatiin.Name = "MedicalOrganizatiin";
             MedicalOrganizatiin.ReadOnly = true;
+            // 
+            // infoVaccinaton
+            // 
+            infoVaccinaton.HeaderText = "Действие";
+            infoVaccinaton.Name = "infoVaccinaton";
+            infoVaccinaton.Resizable = DataGridViewTriState.True;
+            infoVaccinaton.Text = "Подробнее";
+            infoVaccinaton.ToolTipText = "Подробная информация";
+            infoVaccinaton.UseColumnTextForButtonValue = true;
             // 
             // childVaccinationTab
             // 
@@ -376,9 +387,6 @@
         private Label label2;
         private Label label1;
         private DataGridView userVaccinationTable;
-        private DataGridViewTextBoxColumn VaccinationSerial;
-        private DataGridViewTextBoxColumn VaccineName;
-        private DataGridViewTextBoxColumn MedicalOrganizatiin;
         private ComboBox childChoiceComboBox;
         private DataGridView childVaccinationTable;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
@@ -386,5 +394,9 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private Button displayButton;
         private Button logoutButton;
+        private DataGridViewTextBoxColumn VaccinationSerial;
+        private DataGridViewTextBoxColumn VaccineName;
+        private DataGridViewTextBoxColumn MedicalOrganizatiin;
+        private DataGridViewButtonColumn infoVaccinaton;
     }
 }

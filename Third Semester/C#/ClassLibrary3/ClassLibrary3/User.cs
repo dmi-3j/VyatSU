@@ -16,6 +16,7 @@ namespace vaccinecalend
         public string PhoneNumber { get; set; } = null!;
 
         public ICollection<Child> Children { get; set; } = new List<Child>();
+        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
 
     }
 }
