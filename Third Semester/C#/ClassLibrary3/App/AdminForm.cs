@@ -41,5 +41,11 @@ namespace App
             AddUserForm addUserForm = new AddUserForm();
             addUserForm.ShowDialog();
         }
+
+        private void addVaccineButton_Click(object sender, EventArgs e)
+        {
+            AddVaccineForm addVaccineForm = new AddVaccineForm();
+            addVaccineForm.ShowDialog();
+        }
     }
 }

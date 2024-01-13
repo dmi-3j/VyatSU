@@ -11,8 +11,8 @@ namespace vaccinecalend
         [Key]
         public Guid CompleteComponentId { get; set; }
         public ICollection<Vaccination> Vaccinations { get; set; } = null!;
-        public ICollection<Vaccine> Vaccines { get; set; } = null!;
-        public ICollection<CompleteVaccineComponent> CompleteVaccineComponents { get; set; } = null!;
+        //public ICollection<Vaccine> Vaccines { get; set; } = null!;
+       // public ICollection<CompleteVaccineComponent> CompleteVaccineComponents { get; set; } = null!;
 
     }
 }

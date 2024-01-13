@@ -33,7 +33,7 @@
             addOrganizationButton = new Button();
             logoutButton = new Button();
             AddUserButton = new Button();
-            button2 = new Button();
+            addVaccineButton = new Button();
             statusStrip.SuspendLayout();
             SuspendLayout();
             // 
@@ -81,21 +81,22 @@
             AddUserButton.UseVisualStyleBackColor = true;
             AddUserButton.Click += AddUserButton_Click;
             // 
-            // button2
+            // addVaccineButton
             // 
-            button2.Location = new Point(12, 95);
-            button2.Name = "button2";
-            button2.Size = new Size(304, 31);
-            button2.TabIndex = 4;
-            button2.Text = "Добавить прививку";
-            button2.UseVisualStyleBackColor = true;
+            addVaccineButton.Location = new Point(12, 95);
+            addVaccineButton.Name = "addVaccineButton";
+            addVaccineButton.Size = new Size(304, 31);
+            addVaccineButton.TabIndex = 4;
+            addVaccineButton.Text = "Добавить прививку";
+            addVaccineButton.UseVisualStyleBackColor = true;
+            addVaccineButton.Click += addVaccineButton_Click;
             // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(327, 190);
-            Controls.Add(button2);
+            Controls.Add(addVaccineButton);
             Controls.Add(AddUserButton);
             Controls.Add(logoutButton);
             Controls.Add(addOrganizationButton);
@@ -115,6 +116,6 @@
         private Button addOrganizationButton;
         private Button logoutButton;
         private Button AddUserButton;
-        private Button button2;
+        private Button addVaccineButton;
     }
 }

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using vaccinecalend;
@@ -11,9 +12,11 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    partial class VaccineCalendarContextModelSnapshot : ModelSnapshot
+    [Migration("20240113131111_update15")]
+    partial class update15
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -302,6 +305,9 @@ namespace vaccinecalend.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("CompleteComponentId")
+                        .HasColumnType("uuid");
+
                     b.Property<string>("ManufactorCountry")
                         .IsRequired()
                         .HasColumnType("text");
@@ -315,6 +321,8 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("VaccineId");
+
+                    b.HasIndex("CompleteComponentId");
 
                     b.ToTable("Vaccines");
                 });
@@ -404,7 +412,7 @@ namespace vaccinecalend.Migrations
             modelBuilder.Entity("vaccinecalend.CompleteVaccineComponent", b =>
                 {
                     b.HasOne("vaccinecalend.CompleteComponent", "CompleteComponent")
-                        .WithMany()
+                        .WithMany("CompleteVaccineComponents")
                         .HasForeignKey("CompleteComponentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -540,6 +548,13 @@ namespace vaccinecalend.Migrations
                     b.Navigation("Vaccination");
                 });
 
+            modelBuilder.Entity("vaccinecalend.Vaccine", b =>
+                {
+                    b.HasOne("vaccinecalend.CompleteComponent", null)
+                        .WithMany("Vaccines")
+                        .HasForeignKey("CompleteComponentId");
+                });
+
             modelBuilder.Entity("vaccinecalend.VaccineComponent", b =>
                 {
                     b.HasOne("vaccinecalend.Vaccine", "Vaccine")
@@ -564,7 +579,11 @@ namespace vaccinecalend.Migrations
 
             modelBuilder.Entity("vaccinecalend.CompleteComponent", b =>
                 {
+                    b.Navigation("CompleteVaccineComponents");
+
                     b.Navigation("Vaccinations");
+
+                    b.Navigation("Vaccines");
                 });
 
             modelBuilder.Entity("vaccinecalend.Disease", b =>
