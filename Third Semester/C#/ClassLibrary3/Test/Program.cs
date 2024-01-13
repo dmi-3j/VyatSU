@@ -106,9 +106,6 @@ using (VaccineCalendarContext context = new())
     };
     service.AddChild(child3);
 
-    var completeComponent = new CompleteComponent();
-    service.AddCompleteComponent(completeComponent);
-
     Vaccine vaccine = new Vaccine
     {
         VaccineName = "Спутник V",
@@ -142,8 +139,7 @@ using (VaccineCalendarContext context = new())
         TimeInterval = "1 month",
         //OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
-        VaccineId = vaccine2.VaccineId,
-        CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
+        VaccineId = vaccine2.VaccineId
     };
     service.AddVaccination(vaccination);
 
@@ -155,8 +151,7 @@ using (VaccineCalendarContext context = new())
         TimeInterval = "12 month",
        // OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
-        VaccineId = vaccine.VaccineId,
-        CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
+        VaccineId = vaccine.VaccineId
     };
     service.AddVaccination(vaccination2);
     Vaccination vaccination3 = new Vaccination
@@ -166,8 +161,7 @@ using (VaccineCalendarContext context = new())
         TimeInterval = "12 month",
         //OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
-        VaccineId = vaccine.VaccineId,
-        CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
+        VaccineId = vaccine.VaccineId
     };
     service.AddVaccination(vaccination3);
     Vaccination vaccination4 = new Vaccination
@@ -177,8 +171,7 @@ using (VaccineCalendarContext context = new())
         TimeInterval = "12 month",
         //OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
-        VaccineId = vaccine.VaccineId,
-        CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
+        VaccineId = vaccine.VaccineId
     };
     service.AddVaccination(vaccination4);
 

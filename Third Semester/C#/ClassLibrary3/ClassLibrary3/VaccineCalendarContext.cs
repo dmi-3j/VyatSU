@@ -20,11 +20,10 @@ namespace vaccinecalend
         public DbSet<Vaccine> Vaccines { get; set; }
 
         public DbSet<VaccineComponent> Components { get; set; }
-        public DbSet<CompleteComponent> ComponentsComplete { get; set; }
-        public DbSet<CompleteVaccineComponent> CompleteVaccines { get; set; }
+        public DbSet<CompleteVaccineComponent> CompleteVaccineComponents { get; set; }
         public DbSet<RecordToVaccination> Records { get; set; }
 
-        public DbSet<VaccinationDiary> vaccinationDiary { get; set; }
+        public DbSet<VaccinationDiary> VaccinationDiary { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
 
 
@@ -34,10 +33,10 @@ namespace vaccinecalend
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=vac;Username=postgres;Password=1");
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<CompleteVaccineComponent>()
-                .HasKey(c => new { c.CompleteComponentId, c.ComponentId });
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<CompleteVaccineComponent>()
+        //        .HasKey(c => new { c.CompleteComponentId, c.ComponentId });
+        //}
     }
 }

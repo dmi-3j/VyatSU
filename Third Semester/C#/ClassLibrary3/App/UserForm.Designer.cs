@@ -36,6 +36,8 @@
             userNameLabel = new ToolStripStatusLabel();
             tabControl1 = new TabControl();
             profileTab = new TabPage();
+            updateUserDataButton = new Button();
+            addChildForUserButton = new Button();
             logoutButton = new Button();
             label2 = new Label();
             label1 = new Label();
@@ -46,19 +48,29 @@
             firstNameLabel = new Label();
             profilePicture = new PictureBox();
             userVaccinationTab = new TabPage();
+            addUserRecordToVaccination = new Button();
             userVaccinationTable = new DataGridView();
             VaccinationSerial = new DataGridViewTextBoxColumn();
             VaccineName = new DataGridViewTextBoxColumn();
+            countOfCompleteComponents = new DataGridViewTextBoxColumn();
+            dateLastComponent = new DataGridViewTextBoxColumn();
+            nextRecommendDate = new DataGridViewTextBoxColumn();
             MedicalOrganizatiin = new DataGridViewTextBoxColumn();
+            fllagIsDone = new DataGridViewTextBoxColumn();
             infoVaccinaton = new DataGridViewButtonColumn();
             childVaccinationTab = new TabPage();
+            addChildRecordButton = new Button();
             displayButton = new Button();
             childChoiceComboBox = new ComboBox();
             childVaccinationTable = new DataGridView();
-            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
-            addChildForUserButton = new Button();
+            childVaccinationSerial = new DataGridViewTextBoxColumn();
+            childVaccineName = new DataGridViewTextBoxColumn();
+            countOfChildCompleteComponents = new DataGridViewTextBoxColumn();
+            dateChildLastComponent = new DataGridViewTextBoxColumn();
+            nextChildRecommendDate = new DataGridViewTextBoxColumn();
+            medicalOrganization = new DataGridViewTextBoxColumn();
+            fllagChildIsDone = new DataGridViewTextBoxColumn();
+            infoChildVaccinaton = new DataGridViewButtonColumn();
             menuStrip1.SuspendLayout();
             statusStrip.SuspendLayout();
             tabControl1.SuspendLayout();
@@ -118,6 +130,7 @@
             // 
             // profileTab
             // 
+            profileTab.Controls.Add(updateUserDataButton);
             profileTab.Controls.Add(addChildForUserButton);
             profileTab.Controls.Add(logoutButton);
             profileTab.Controls.Add(label2);
@@ -134,6 +147,26 @@
             profileTab.TabIndex = 3;
             profileTab.Text = "Профиль";
             profileTab.UseVisualStyleBackColor = true;
+            // 
+            // updateUserDataButton
+            // 
+            updateUserDataButton.Location = new Point(358, 411);
+            updateUserDataButton.Name = "updateUserDataButton";
+            updateUserDataButton.Size = new Size(167, 33);
+            updateUserDataButton.TabIndex = 10;
+            updateUserDataButton.Text = "Изменить личные данные";
+            updateUserDataButton.UseVisualStyleBackColor = true;
+            updateUserDataButton.Click += updateUserDataButton_Click;
+            // 
+            // addChildForUserButton
+            // 
+            addChildForUserButton.Location = new Point(531, 411);
+            addChildForUserButton.Name = "addChildForUserButton";
+            addChildForUserButton.Size = new Size(212, 33);
+            addChildForUserButton.TabIndex = 9;
+            addChildForUserButton.Text = "Добавить информацию о ребёнке";
+            addChildForUserButton.UseVisualStyleBackColor = true;
+            addChildForUserButton.Click += addChildForUserButton_Click;
             // 
             // logoutButton
             // 
@@ -227,6 +260,7 @@
             // 
             // userVaccinationTab
             // 
+            userVaccinationTab.Controls.Add(addUserRecordToVaccination);
             userVaccinationTab.Controls.Add(userVaccinationTable);
             userVaccinationTab.Location = new Point(4, 24);
             userVaccinationTab.Name = "userVaccinationTab";
@@ -236,19 +270,29 @@
             userVaccinationTab.Text = "Мои вакцинации";
             userVaccinationTab.UseVisualStyleBackColor = true;
             // 
+            // addUserRecordToVaccination
+            // 
+            addUserRecordToVaccination.Location = new Point(699, 409);
+            addUserRecordToVaccination.Name = "addUserRecordToVaccination";
+            addUserRecordToVaccination.Size = new Size(175, 32);
+            addUserRecordToVaccination.TabIndex = 6;
+            addUserRecordToVaccination.Text = "Записаться на вакцинацию";
+            addUserRecordToVaccination.UseVisualStyleBackColor = true;
+            addUserRecordToVaccination.Click += addUserRecordToVaccination_Click;
+            // 
             // userVaccinationTable
             // 
             userVaccinationTable.AllowUserToAddRows = false;
             userVaccinationTable.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             userVaccinationTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             userVaccinationTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            userVaccinationTable.Columns.AddRange(new DataGridViewColumn[] { VaccinationSerial, VaccineName, MedicalOrganizatiin, infoVaccinaton });
+            userVaccinationTable.Columns.AddRange(new DataGridViewColumn[] { VaccinationSerial, VaccineName, countOfCompleteComponents, dateLastComponent, nextRecommendDate, MedicalOrganizatiin, fllagIsDone, infoVaccinaton });
             userVaccinationTable.Location = new Point(8, 6);
             userVaccinationTable.Name = "userVaccinationTable";
             userVaccinationTable.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             userVaccinationTable.RowHeadersVisible = false;
             userVaccinationTable.RowTemplate.Height = 25;
-            userVaccinationTable.Size = new Size(489, 150);
+            userVaccinationTable.Size = new Size(866, 369);
             userVaccinationTable.TabIndex = 5;
             userVaccinationTable.CellContentClick += userVaccinationTable_CellContentClick;
             // 
@@ -264,11 +308,35 @@
             VaccineName.Name = "VaccineName";
             VaccineName.ReadOnly = true;
             // 
+            // countOfCompleteComponents
+            // 
+            countOfCompleteComponents.HeaderText = "Поставленные компоненты";
+            countOfCompleteComponents.Name = "countOfCompleteComponents";
+            countOfCompleteComponents.ReadOnly = true;
+            // 
+            // dateLastComponent
+            // 
+            dateLastComponent.HeaderText = "Дата постановки последнего компонента";
+            dateLastComponent.Name = "dateLastComponent";
+            dateLastComponent.ReadOnly = true;
+            // 
+            // nextRecommendDate
+            // 
+            nextRecommendDate.HeaderText = "Рекомендуемая дата постановки следующего компонента";
+            nextRecommendDate.Name = "nextRecommendDate";
+            nextRecommendDate.ReadOnly = true;
+            // 
             // MedicalOrganizatiin
             // 
             MedicalOrganizatiin.HeaderText = "Медицинская организация";
             MedicalOrganizatiin.Name = "MedicalOrganizatiin";
             MedicalOrganizatiin.ReadOnly = true;
+            // 
+            // fllagIsDone
+            // 
+            fllagIsDone.HeaderText = "Завершена";
+            fllagIsDone.Name = "fllagIsDone";
+            fllagIsDone.ReadOnly = true;
             // 
             // infoVaccinaton
             // 
@@ -281,6 +349,7 @@
             // 
             // childVaccinationTab
             // 
+            childVaccinationTab.Controls.Add(addChildRecordButton);
             childVaccinationTab.Controls.Add(displayButton);
             childVaccinationTab.Controls.Add(childChoiceComboBox);
             childVaccinationTab.Controls.Add(childVaccinationTable);
@@ -290,6 +359,16 @@
             childVaccinationTab.TabIndex = 2;
             childVaccinationTab.Text = "Вакцинации моих детей";
             childVaccinationTab.UseVisualStyleBackColor = true;
+            // 
+            // addChildRecordButton
+            // 
+            addChildRecordButton.Location = new Point(685, 397);
+            addChildRecordButton.Name = "addChildRecordButton";
+            addChildRecordButton.Size = new Size(203, 36);
+            addChildRecordButton.TabIndex = 9;
+            addChildRecordButton.Text = "Записать ребёнка на вакцинацию";
+            addChildRecordButton.UseVisualStyleBackColor = true;
+            addChildRecordButton.Click += addChildRecordButton_Click;
             // 
             // displayButton
             // 
@@ -315,42 +394,67 @@
             childVaccinationTable.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             childVaccinationTable.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             childVaccinationTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            childVaccinationTable.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3 });
+            childVaccinationTable.Columns.AddRange(new DataGridViewColumn[] { childVaccinationSerial, childVaccineName, countOfChildCompleteComponents, dateChildLastComponent, nextChildRecommendDate, medicalOrganization, fllagChildIsDone, infoChildVaccinaton });
             childVaccinationTable.Location = new Point(3, 45);
             childVaccinationTable.Name = "childVaccinationTable";
             childVaccinationTable.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             childVaccinationTable.RowHeadersVisible = false;
             childVaccinationTable.RowTemplate.Height = 25;
-            childVaccinationTable.Size = new Size(430, 150);
+            childVaccinationTable.Size = new Size(885, 320);
             childVaccinationTable.TabIndex = 6;
+            childVaccinationTable.CellContentClick += childVaccinationTable_CellContentClick;
             // 
-            // dataGridViewTextBoxColumn1
+            // childVaccinationSerial
             // 
-            dataGridViewTextBoxColumn1.HeaderText = "Серия";
-            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            dataGridViewTextBoxColumn1.ReadOnly = true;
+            childVaccinationSerial.HeaderText = "Серия";
+            childVaccinationSerial.Name = "childVaccinationSerial";
+            childVaccinationSerial.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn2
+            // childVaccineName
             // 
-            dataGridViewTextBoxColumn2.HeaderText = "Вакцина";
-            dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            dataGridViewTextBoxColumn2.ReadOnly = true;
+            childVaccineName.HeaderText = "Вакцина";
+            childVaccineName.Name = "childVaccineName";
+            childVaccineName.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn3
+            // countOfChildCompleteComponents
             // 
-            dataGridViewTextBoxColumn3.HeaderText = "Медицинская организация";
-            dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            dataGridViewTextBoxColumn3.ReadOnly = true;
+            countOfChildCompleteComponents.HeaderText = "Поставленные компоненты";
+            countOfChildCompleteComponents.Name = "countOfChildCompleteComponents";
+            countOfChildCompleteComponents.ReadOnly = true;
             // 
-            // addChildForUserButton
+            // dateChildLastComponent
             // 
-            addChildForUserButton.Location = new Point(531, 411);
-            addChildForUserButton.Name = "addChildForUserButton";
-            addChildForUserButton.Size = new Size(212, 33);
-            addChildForUserButton.TabIndex = 9;
-            addChildForUserButton.Text = "Добавить информацию о ребёнке";
-            addChildForUserButton.UseVisualStyleBackColor = true;
-            addChildForUserButton.Click += addChildForUserButton_Click;
+            dateChildLastComponent.HeaderText = "Дата постановки последнего компонента";
+            dateChildLastComponent.Name = "dateChildLastComponent";
+            dateChildLastComponent.ReadOnly = true;
+            // 
+            // nextChildRecommendDate
+            // 
+            nextChildRecommendDate.HeaderText = "Рекомендуемая дата постановки следующего компонента";
+            nextChildRecommendDate.Name = "nextChildRecommendDate";
+            nextChildRecommendDate.ReadOnly = true;
+            // 
+            // medicalOrganization
+            // 
+            medicalOrganization.HeaderText = "Медицинская организация";
+            medicalOrganization.Name = "medicalOrganization";
+            medicalOrganization.ReadOnly = true;
+            // 
+            // fllagChildIsDone
+            // 
+            fllagChildIsDone.HeaderText = "Завершена";
+            fllagChildIsDone.Name = "fllagChildIsDone";
+            fllagChildIsDone.ReadOnly = true;
+            // 
+            // infoChildVaccinaton
+            // 
+            infoChildVaccinaton.HeaderText = "Действие";
+            infoChildVaccinaton.Name = "infoChildVaccinaton";
+            infoChildVaccinaton.ReadOnly = true;
+            infoChildVaccinaton.Resizable = DataGridViewTriState.True;
+            infoChildVaccinaton.SortMode = DataGridViewColumnSortMode.Automatic;
+            infoChildVaccinaton.Text = "Подробнее";
+            infoChildVaccinaton.UseColumnTextForButtonValue = true;
             // 
             // UserForm
             // 
@@ -401,15 +505,27 @@
         private DataGridView userVaccinationTable;
         private ComboBox childChoiceComboBox;
         private DataGridView childVaccinationTable;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private Button displayButton;
         private Button logoutButton;
+        private Button addChildForUserButton;
         private DataGridViewTextBoxColumn VaccinationSerial;
         private DataGridViewTextBoxColumn VaccineName;
+        private DataGridViewTextBoxColumn countOfCompleteComponents;
+        private DataGridViewTextBoxColumn dateLastComponent;
+        private DataGridViewTextBoxColumn nextRecommendDate;
         private DataGridViewTextBoxColumn MedicalOrganizatiin;
+        private DataGridViewTextBoxColumn fllagIsDone;
         private DataGridViewButtonColumn infoVaccinaton;
-        private Button addChildForUserButton;
+        private Button updateUserDataButton;
+        private Button addUserRecordToVaccination;
+        private Button addChildRecordButton;
+        private DataGridViewTextBoxColumn childVaccinationSerial;
+        private DataGridViewTextBoxColumn childVaccineName;
+        private DataGridViewTextBoxColumn countOfChildCompleteComponents;
+        private DataGridViewTextBoxColumn dateChildLastComponent;
+        private DataGridViewTextBoxColumn nextChildRecommendDate;
+        private DataGridViewTextBoxColumn medicalOrganization;
+        private DataGridViewTextBoxColumn fllagChildIsDone;
+        private DataGridViewButtonColumn infoChildVaccinaton;
     }
 }

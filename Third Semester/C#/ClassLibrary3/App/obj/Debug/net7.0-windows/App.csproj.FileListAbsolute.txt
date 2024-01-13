@@ -47,3 +47,6 @@ D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AddVaccineForm.resources
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AddChildForUserForm.resources
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.MedPersonalForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.UpdateUserForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AddRecordToVaccinationForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.vaccineInfoForm.resources

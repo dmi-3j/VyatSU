@@ -40,7 +40,6 @@ namespace App
                     service.AddUser(user);
                     MessageBox.Show("Пользователь успешно добавлен!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Close();
-
                 }
                 catch (Exception ex)
                 {

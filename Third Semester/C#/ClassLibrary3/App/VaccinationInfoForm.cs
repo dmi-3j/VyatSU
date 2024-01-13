@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,35 +15,62 @@ namespace App
 {
     public partial class VaccinationInfoForm : Form
     {
-        public VaccinationInfoForm(string serial, string vaccine, string medorg)
+        public VaccinationInfoForm(Guid id)
         {
             InitializeComponent();
-            this.serial = serial;
-            this.vaccine = vaccine;
-            this.medorg = medorg;
-            init();
+            this.vaccinationId = id;
+            InitData();
 
         }
-        private string serial;
-        private string vaccine;
+        private Guid vaccinationId;
+        private Guid vaccineId;
 
-
-        private string medorg;
-
-        private void init()
+        private void InitData()
         {
-            serialLabel.Text = serial;
-            vaccineLabel.Text = vaccine;
-            medorgLabel.Text = medorg;
-        }
+            using (var context = new VaccineCalendarContext())
+            {
+                Vaccination? vaccination = context.Vaccinations
+                    .Include(v => v.Vaccine)  // Включаем данные о вакцине
+                    .Include(v => v.MedicalOrganization)  // Включаем данные о медицинской организации
+                    .Where(v => v.VaccinationId == vaccinationId)
+                    .FirstOrDefault();
+                vaccineId = vaccination.Vaccine.VaccineId;
 
+                serialLabel.Text = vaccination.Serial;
+                vaccineLabel.Text = vaccination.Vaccine.VaccineName;
+                medorgLabel.Text = vaccination.MedicalOrganization.OrganizationName;
+
+                List<CompleteVaccineComponent> completeVaccineComponents = context.CompleteVaccineComponents
+                    .Include(cvc => cvc.VaccineComponent) // Включаем данные о компоненте
+                     .Where(cvc => cvc.VaccinationId == vaccinationId)
+                     .ToList();
+                foreach (var component in completeVaccineComponents)
+                {
+                    string componentName = component.VaccineComponent.Name;
+                    string componentStructure = component.VaccineComponent.Structure;
+                    string componentType = component.VaccineComponent.Type;
+                    string componentInterval = component.VaccineComponent.IntervalOfComponent;
+                    string date = component.VaccinationDate.Date.ToString("yyyy-MM-dd");
+                    componentsInfoTable.Rows.Add(componentName, componentStructure, componentType, componentInterval, date);
+
+                }
+
+
+            }
+
+        }
 
         private void medorgInfoButton_Click(object sender, EventArgs e)
         {
             using (var context = new VaccineCalendarContext())
             {
-                MedicalOrganization medicalOrganization = context.MedicalOrganizations
-                    .FirstOrDefault(m => m.OrganizationName == medorg);
+                Vaccination? vaccination = context.Vaccinations
+                    .Include(v => v.MedicalOrganization)  // Включаем данные о медицинской организации
+                    .Where(v => v.VaccinationId == vaccinationId)
+                    .FirstOrDefault();
+
+                MedicalOrganization? medicalOrganization = context.MedicalOrganizations
+                    .FirstOrDefault(m => m.OrganizationId == vaccination.MedicalOrganization.OrganizationId);
                 if (medicalOrganization != null)
                 {
                     medicalOrganizationInfoForm infoForm = new medicalOrganizationInfoForm(medicalOrganization);
@@ -56,14 +84,20 @@ namespace App
         {
             using (var context = new VaccineCalendarContext())
             {
-                Vaccination vaccination = context.Vaccinations
-                    .FirstOrDefault(m => m.Serial == serial);
+                Vaccination? vaccination = context.Vaccinations
+                    .FirstOrDefault(m => m.VaccinationId == vaccinationId);
                 if (vaccination != null)
                 {
                     addReactionForm addReactionForm = new addReactionForm(vaccination);
                     addReactionForm.ShowDialog();
                 }
             }
+        }
+
+        private void vaccineInfoButton_Click(object sender, EventArgs e)
+        {
+            vaccineInfoForm vaccineInfoForm = new vaccineInfoForm(vaccineId);
+            vaccineInfoForm.ShowDialog();
         }
     }
 }

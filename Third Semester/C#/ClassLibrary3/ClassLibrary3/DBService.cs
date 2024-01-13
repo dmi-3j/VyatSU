@@ -22,6 +22,11 @@ namespace vaccinecalend
             _context.Users.Add(user);
             _context.SaveChanges();
         }
+        public void UpdateUser(User user)
+        {
+            _context.Users.Update(user);
+            _context.SaveChanges();
+        }
 
         public void AddChild(Child child)
         {
@@ -29,15 +34,10 @@ namespace vaccinecalend
             _context.SaveChanges();
         }
 
-        public void AddCompleteComponent(CompleteComponent completeComponent)
-        {
-            _context.ComponentsComplete.Add(completeComponent);
-            _context.SaveChanges();
-        }
 
         public void AddCompleteVaccineComponent(CompleteVaccineComponent completeVaccineComponent)
         {
-            _context.CompleteVaccines.Add(completeVaccineComponent);
+            _context.CompleteVaccineComponents.Add(completeVaccineComponent);
             _context.SaveChanges();
         }
 
@@ -74,7 +74,7 @@ namespace vaccinecalend
 
         public void AddVaccinationDiary(VaccinationDiary vaccinationDiary)
         {
-            _context.vaccinationDiary.Add(vaccinationDiary);
+            _context.VaccinationDiary.Add(vaccinationDiary);
             _context.SaveChanges();
         }
 
