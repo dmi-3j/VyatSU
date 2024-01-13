@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using vaccinecalend;
@@ -11,9 +12,11 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    partial class VaccineCalendarContextModelSnapshot : ModelSnapshot
+    [Migration("20240113153446_update19")]
+    partial class update19
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -127,7 +130,7 @@ namespace vaccinecalend.Migrations
                     b.Property<Guid>("VaccinatedId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("VaccineId")
+                    b.Property<Guid>("VaccinationId")
                         .HasColumnType("uuid");
 
                     b.HasKey("RecordId");
@@ -136,7 +139,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinatedId");
 
-                    b.HasIndex("VaccineId");
+                    b.HasIndex("VaccinationId");
 
                     b.ToTable("Records");
                 });
@@ -399,9 +402,9 @@ namespace vaccinecalend.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("vaccinecalend.Vaccine", "Vaccine")
+                    b.HasOne("vaccinecalend.Vaccination", "Vaccination")
                         .WithMany("Records")
-                        .HasForeignKey("VaccineId")
+                        .HasForeignKey("VaccinationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -409,7 +412,7 @@ namespace vaccinecalend.Migrations
 
                     b.Navigation("Vaccinated");
 
-                    b.Navigation("Vaccine");
+                    b.Navigation("Vaccination");
                 });
 
             modelBuilder.Entity("vaccinecalend.UserRole", b =>
@@ -503,12 +506,12 @@ namespace vaccinecalend.Migrations
             modelBuilder.Entity("vaccinecalend.Vaccination", b =>
                 {
                     b.Navigation("Reactions");
+
+                    b.Navigation("Records");
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccine", b =>
                 {
-                    b.Navigation("Records");
-
                     b.Navigation("Vaccinations");
 
                     b.Navigation("VaccineComponents");

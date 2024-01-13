@@ -19,8 +19,6 @@ namespace vaccinecalend
         public Guid VaccinationId { get; set; }
        // public Vaccination Vaccinations { get; set; } = null!;
         public ICollection<Vaccination> Vaccinations { get; set; } = new List<Vaccination>();
-        public Guid DiseaseId { get; set; }
-        public Disease Diseases { get; set; } = null!;
     }
 }
  

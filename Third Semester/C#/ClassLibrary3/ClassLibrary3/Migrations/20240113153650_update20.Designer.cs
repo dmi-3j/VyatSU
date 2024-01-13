@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using vaccinecalend;
@@ -11,9 +12,11 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    partial class VaccineCalendarContextModelSnapshot : ModelSnapshot
+    [Migration("20240113153650_update20")]
+    partial class update20
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -127,6 +130,9 @@ namespace vaccinecalend.Migrations
                     b.Property<Guid>("VaccinatedId")
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("VaccinationId")
+                        .HasColumnType("uuid");
+
                     b.Property<Guid>("VaccineId")
                         .HasColumnType("uuid");
 
@@ -135,6 +141,8 @@ namespace vaccinecalend.Migrations
                     b.HasIndex("MedicalOrganizationOrganizationId");
 
                     b.HasIndex("VaccinatedId");
+
+                    b.HasIndex("VaccinationId");
 
                     b.HasIndex("VaccineId");
 
@@ -399,8 +407,12 @@ namespace vaccinecalend.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("vaccinecalend.Vaccine", "Vaccine")
+                    b.HasOne("vaccinecalend.Vaccination", null)
                         .WithMany("Records")
+                        .HasForeignKey("VaccinationId");
+
+                    b.HasOne("vaccinecalend.Vaccine", "Vaccine")
+                        .WithMany()
                         .HasForeignKey("VaccineId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -503,12 +515,12 @@ namespace vaccinecalend.Migrations
             modelBuilder.Entity("vaccinecalend.Vaccination", b =>
                 {
                     b.Navigation("Reactions");
+
+                    b.Navigation("Records");
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccine", b =>
                 {
-                    b.Navigation("Records");
-
                     b.Navigation("Vaccinations");
 
                     b.Navigation("VaccineComponents");

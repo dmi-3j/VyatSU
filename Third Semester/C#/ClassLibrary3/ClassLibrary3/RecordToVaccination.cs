@@ -16,13 +16,11 @@ namespace vaccinecalend
         [Column(TypeName = "date")]
         public DateTime RecordDate { get; set; }
 
-        public Guid VaccinationId { get; set; }
-        public Vaccination Vaccination { get; set; } = null!;
-        public Guid DiseaseId { get; set; }
-        public Disease Disease { get; set; } = null!;
+        //public Guid VaccineId { get; set; }
+        public Vaccine Vaccine { get; set; } = null!;
         public Guid VaccinatedId { get; set; }
         public Vaccinated Vaccinated { get; set; } = null!;
-        public Guid OrganizationId { get; set; }
+        //public Guid OrganizationId { get; set; }
         public MedicalOrganization MedicalOrganization { get; set; } = null!;
     }
 }

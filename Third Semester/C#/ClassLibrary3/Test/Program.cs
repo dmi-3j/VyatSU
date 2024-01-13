@@ -140,7 +140,7 @@ using (VaccineCalendarContext context = new())
         Serial = "SPTNK001",
         FlagIsDone = false,
         TimeInterval = "1 month",
-        OrganizationId = medicalOrganization.OrganizationId,
+        //OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
         VaccineId = vaccine2.VaccineId,
         CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
@@ -153,7 +153,7 @@ using (VaccineCalendarContext context = new())
         Serial = "ABC456",
         FlagIsDone = false,
         TimeInterval = "12 month",
-        OrganizationId = medicalOrganization.OrganizationId,
+       // OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
         VaccineId = vaccine.VaccineId,
         CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
@@ -164,7 +164,7 @@ using (VaccineCalendarContext context = new())
         Serial = "вакцина ребенок тест",
         FlagIsDone = false,
         TimeInterval = "12 month",
-        OrganizationId = medicalOrganization.OrganizationId,
+        //OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
         VaccineId = vaccine.VaccineId,
         CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
@@ -175,7 +175,7 @@ using (VaccineCalendarContext context = new())
         Serial = "вакцина ребенок тест2",
         FlagIsDone = false,
         TimeInterval = "12 month",
-        OrganizationId = medicalOrganization.OrganizationId,
+        //OrganizationId = medicalOrganization.OrganizationId,
         MedicalOrganization = medicalOrganization,
         VaccineId = vaccine.VaccineId,
         CompleteComponentId = completeComponent.CompleteComponentId // Убедитесь, что это значение существует
@@ -191,25 +191,12 @@ using (VaccineCalendarContext context = new())
     //};
     // service.AddReactionOnVaccination(reactionOnVaccination);
 
-    var disease = new Disease
-    {
-        IndicationsToVaccination = "Test Indications"
-    };
-    service.AddDisease(disease);
-
-    var disease2 = new Disease
-    {
-        IndicationsToVaccination = "Test Indications"
-    };
-    service.AddDisease(disease2);
-
-
     // Создаем запись в дневнике вакцинации
     var vaccinationDiaryEntry = new VaccinationDiary
     {
         VaccinatedId = user2.Id,
         VaccinationId = vaccination.VaccinationId,
-        DiseaseId = disease.DiseaseId
+        
     };
     vaccinationDiaryEntry.Vaccinations.Add(vaccination);
     // Добавляем запись в дневник вакцинации в базу данных
@@ -219,7 +206,7 @@ using (VaccineCalendarContext context = new())
     {
         VaccinatedId = user2.Id,
         VaccinationId = vaccination2.VaccinationId,
-        DiseaseId = disease2.DiseaseId
+        
     };
     vaccinationDiaryEntry2.Vaccinations.Add(vaccination2);
     // Добавляем запись в дневник вакцинации в базу данных
@@ -230,7 +217,7 @@ using (VaccineCalendarContext context = new())
     {
         VaccinatedId = child1.Id,
         VaccinationId = vaccination3.VaccinationId,
-        DiseaseId = disease.DiseaseId
+      
     };
     vaccinationDiaryEntry3.Vaccinations.Add(vaccination3);
     // Добавляем запись в дневник вакцинации в базу данных
@@ -240,7 +227,7 @@ using (VaccineCalendarContext context = new())
     {
         VaccinatedId = child1.Id,
         VaccinationId = vaccination4.VaccinationId,
-        DiseaseId = disease2.DiseaseId
+        
     };
     vaccinationDiaryEntry4.Vaccinations.Add(vaccination4);
     // Добавляем запись в дневник вакцинации в базу данных

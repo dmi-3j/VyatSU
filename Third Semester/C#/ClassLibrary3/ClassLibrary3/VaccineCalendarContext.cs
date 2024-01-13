@@ -15,7 +15,6 @@ namespace vaccinecalend
         public DbSet<User> Users { get; set; }
         public DbSet<Child> Childs { get; set; }
         public DbSet<MedicalOrganization> MedicalOrganizations {get; set;}
-        public DbSet<Disease> Diseases { get; set; }
         public DbSet<Vaccination> Vaccinations { get; set; }
         public DbSet<ReactionOnVaccination> Reactions { get; set; }
         public DbSet<Vaccine> Vaccines { get; set; }
@@ -23,7 +22,6 @@ namespace vaccinecalend
         public DbSet<VaccineComponent> Components { get; set; }
         public DbSet<CompleteComponent> ComponentsComplete { get; set; }
         public DbSet<CompleteVaccineComponent> CompleteVaccines { get; set; }
-        public DbSet<VaccinationDisease> VaccinationDiseases { get; set; }
         public DbSet<RecordToVaccination> Records { get; set; }
 
         public DbSet<VaccinationDiary> vaccinationDiary { get; set; }
@@ -40,8 +38,6 @@ namespace vaccinecalend
         {
             modelBuilder.Entity<CompleteVaccineComponent>()
                 .HasKey(c => new { c.CompleteComponentId, c.ComponentId });
-            modelBuilder.Entity<VaccinationDisease>()
-                .HasKey(c => new { c.VaccinationId, c.DiseaseId });
         }
     }
 }

@@ -41,11 +41,6 @@ namespace vaccinecalend
             _context.SaveChanges();
         }
 
-        public void AddDisease(Disease disease)
-        {
-            _context.Diseases.Add(disease);
-            _context.SaveChanges();
-        }
 
         public void AddMedicalOrganization(MedicalOrganization medicalOrganization)
         {
@@ -83,11 +78,6 @@ namespace vaccinecalend
             _context.SaveChanges();
         }
 
-        public void AddVaccinationDisease(VaccinationDisease vaccinationDisease)
-        {
-            _context.VaccinationDiseases.Add(vaccinationDisease);
-            _context.SaveChanges();
-        }
 
         public void AddVaccine(Vaccine vaccine)
         {
