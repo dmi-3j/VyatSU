@@ -46,6 +46,7 @@ namespace App
             dobLabel.Text = currentUser.DateOfBirth.Date.ToString("dd.MM.yyyy");
             phoneLabel.Text = currentUser.PhoneNumber;
             addressLabel.Text = currentUser.Address;
+            inshuranceNumberLabel.Text = currentUser.InshuranceNumber.ToString();
         }
         private void InitUserVaccinationTab()
         {
@@ -238,7 +239,8 @@ namespace App
 
                 if (userVaccinationTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
-                    using (var context = new VaccineCalendarContext()) {
+                    using (var context = new VaccineCalendarContext())
+                    {
                         Guid vaccinationId = context.Vaccinations
                             .Where(v => v.Serial == userVaccinationTable.Rows[e.RowIndex].Cells["VaccinationSerial"].Value.ToString())
                             .Select(v => v.VaccinationId)

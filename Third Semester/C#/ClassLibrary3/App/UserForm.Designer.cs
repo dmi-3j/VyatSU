@@ -71,6 +71,8 @@
             medicalOrganization = new DataGridViewTextBoxColumn();
             fllagChildIsDone = new DataGridViewTextBoxColumn();
             infoChildVaccinaton = new DataGridViewButtonColumn();
+            label3 = new Label();
+            inshuranceNumberLabel = new Label();
             menuStrip1.SuspendLayout();
             statusStrip.SuspendLayout();
             tabControl1.SuspendLayout();
@@ -130,6 +132,8 @@
             // 
             // profileTab
             // 
+            profileTab.Controls.Add(inshuranceNumberLabel);
+            profileTab.Controls.Add(label3);
             profileTab.Controls.Add(updateUserDataButton);
             profileTab.Controls.Add(addChildForUserButton);
             profileTab.Controls.Add(logoutButton);
@@ -202,7 +206,7 @@
             // 
             addressLabel.AutoSize = true;
             addressLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            addressLabel.Location = new Point(226, 259);
+            addressLabel.Location = new Point(280, 259);
             addressLabel.Name = "addressLabel";
             addressLabel.Size = new Size(71, 30);
             addressLabel.TabIndex = 5;
@@ -212,7 +216,7 @@
             // 
             phoneLabel.AutoSize = true;
             phoneLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            phoneLabel.Location = new Point(221, 197);
+            phoneLabel.Location = new Point(280, 197);
             phoneLabel.Name = "phoneLabel";
             phoneLabel.Size = new Size(175, 30);
             phoneLabel.TabIndex = 4;
@@ -456,6 +460,26 @@
             infoChildVaccinaton.Text = "Подробнее";
             infoChildVaccinaton.UseColumnTextForButtonValue = true;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(32, 314);
+            label3.Name = "label3";
+            label3.Size = new Size(211, 30);
+            label3.TabIndex = 11;
+            label3.Text = "Номер полиса ОМС:";
+            // 
+            // inshuranceNumberLabel
+            // 
+            inshuranceNumberLabel.AutoSize = true;
+            inshuranceNumberLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            inshuranceNumberLabel.Location = new Point(280, 314);
+            inshuranceNumberLabel.Name = "inshuranceNumberLabel";
+            inshuranceNumberLabel.Size = new Size(61, 30);
+            inshuranceNumberLabel.TabIndex = 12;
+            inshuranceNumberLabel.Text = "ОМС";
+            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -527,5 +551,7 @@
         private DataGridViewTextBoxColumn medicalOrganization;
         private DataGridViewTextBoxColumn fllagChildIsDone;
         private DataGridViewButtonColumn infoChildVaccinaton;
+        private Label inshuranceNumberLabel;
+        private Label label3;
     }
 }

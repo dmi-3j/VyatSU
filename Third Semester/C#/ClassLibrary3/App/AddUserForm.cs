@@ -16,6 +16,7 @@ namespace App
         public AddUserForm()
         {
             InitializeComponent();
+            roleComboBox.SelectedIndex = 0;
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -33,6 +34,7 @@ namespace App
                         DateOfBirth = DateTimeOffset.Parse(DoBTextBox.Text).Date,
                         Address = addressTextBox.Text,
                         PhoneNumber = phoneTextBox.Text,
+                        InshuranceNumber = long.Parse(inshuranceNumberTextBox.Text),
                         Username = loginTextBox.Text,
                         Password = passwordTextBox.Text,
                         UserRoles = new List<UserRole>() { new UserRole() { Role = roleComboBox.SelectedItem.ToString() } }

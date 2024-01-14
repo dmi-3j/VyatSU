@@ -48,6 +48,8 @@
             loginTextBox = new TextBox();
             passwordTextBox = new TextBox();
             roleComboBox = new ComboBox();
+            label11 = new Label();
+            inshuranceNumberTextBox = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -134,7 +136,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(22, 260);
+            label8.Location = new Point(22, 293);
             label8.Name = "label8";
             label8.Size = new Size(145, 21);
             label8.TabIndex = 8;
@@ -144,7 +146,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(22, 290);
+            label9.Location = new Point(22, 323);
             label9.Name = "label9";
             label9.Size = new Size(66, 21);
             label9.TabIndex = 9;
@@ -154,7 +156,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(22, 322);
+            label10.Location = new Point(22, 355);
             label10.Name = "label10";
             label10.Size = new Size(47, 21);
             label10.TabIndex = 10;
@@ -204,14 +206,14 @@
             // 
             // loginTextBox
             // 
-            loginTextBox.Location = new Point(216, 262);
+            loginTextBox.Location = new Point(216, 293);
             loginTextBox.Name = "loginTextBox";
             loginTextBox.Size = new Size(246, 23);
             loginTextBox.TabIndex = 17;
             // 
             // passwordTextBox
             // 
-            passwordTextBox.Location = new Point(216, 291);
+            passwordTextBox.Location = new Point(216, 324);
             passwordTextBox.Name = "passwordTextBox";
             passwordTextBox.Size = new Size(246, 23);
             passwordTextBox.TabIndex = 18;
@@ -222,16 +224,35 @@
             roleComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             roleComboBox.FormattingEnabled = true;
             roleComboBox.Items.AddRange(new object[] { "USER", "MED_PERSONAL" });
-            roleComboBox.Location = new Point(216, 320);
+            roleComboBox.Location = new Point(216, 353);
             roleComboBox.Name = "roleComboBox";
             roleComboBox.Size = new Size(246, 23);
             roleComboBox.TabIndex = 19;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Location = new Point(22, 260);
+            label11.Name = "label11";
+            label11.Size = new Size(97, 21);
+            label11.TabIndex = 20;
+            label11.Text = "Полис ОМС:";
+            // 
+            // inshuranceNumberTextBox
+            // 
+            inshuranceNumberTextBox.Location = new Point(216, 262);
+            inshuranceNumberTextBox.Name = "inshuranceNumberTextBox";
+            inshuranceNumberTextBox.Size = new Size(246, 23);
+            inshuranceNumberTextBox.TabIndex = 21;
             // 
             // AddUserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(488, 516);
+            Controls.Add(inshuranceNumberTextBox);
+            Controls.Add(label11);
             Controls.Add(roleComboBox);
             Controls.Add(passwordTextBox);
             Controls.Add(loginTextBox);
@@ -280,5 +301,7 @@
         private TextBox loginTextBox;
         private TextBox passwordTextBox;
         private ComboBox roleComboBox;
+        private Label label11;
+        private TextBox inshuranceNumberTextBox;
     }
 }
