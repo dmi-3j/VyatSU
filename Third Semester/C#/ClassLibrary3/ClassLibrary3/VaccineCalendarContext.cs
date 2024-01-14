@@ -33,10 +33,14 @@ namespace vaccinecalend
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=vac;Username=postgres;Password=1");
         }
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<CompleteVaccineComponent>()
-        //        .HasKey(c => new { c.CompleteComponentId, c.ComponentId });
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Vaccinated>()
+                .HasIndex(v => v.InshuranceNumber)
+                .IsUnique();
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Username)
+                .IsUnique();
+        }
     }
 }

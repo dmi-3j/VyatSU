@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using vaccinecalend;
@@ -11,9 +12,11 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    partial class VaccineCalendarContextModelSnapshot : ModelSnapshot
+    [Migration("20240114104348_update41")]
+    partial class update41
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -188,9 +191,6 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("InshuranceNumber")
-                        .IsUnique();
-
                     b.ToTable("Vaccinated");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Vaccinated");
@@ -335,9 +335,6 @@ namespace vaccinecalend.Migrations
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.HasIndex("Username")
-                        .IsUnique();
 
                     b.HasDiscriminator().HasValue("User");
                 });

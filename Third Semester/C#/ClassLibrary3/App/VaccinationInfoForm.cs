@@ -55,9 +55,7 @@ namespace App
 
                 }
 
-
             }
-
         }
 
         private void medorgInfoButton_Click(object sender, EventArgs e)
