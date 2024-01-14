@@ -12,8 +12,8 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    [Migration("20240112182925_update13")]
-    partial class update13
+    [Migration("20240114121340_newInit")]
+    partial class newInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,48 +40,28 @@ namespace vaccinecalend.Migrations
                     b.ToTable("VaccinationVaccinationDiary");
                 });
 
-            modelBuilder.Entity("vaccinecalend.CompleteComponent", b =>
+            modelBuilder.Entity("vaccinecalend.CompleteVaccineComponent", b =>
                 {
                     b.Property<Guid>("CompleteComponentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.HasKey("CompleteComponentId");
+                    b.Property<DateTime>("VaccinationDate")
+                        .HasColumnType("date");
 
-                    b.ToTable("ComponentsComplete");
-                });
-
-            modelBuilder.Entity("vaccinecalend.CompleteVaccineComponent", b =>
-                {
-                    b.Property<Guid>("CompleteComponentId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("ComponentId")
+                    b.Property<Guid>("VaccinationId")
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("VaccineComponentComponentId")
                         .HasColumnType("uuid");
 
-                    b.HasKey("CompleteComponentId", "ComponentId");
+                    b.HasKey("CompleteComponentId");
+
+                    b.HasIndex("VaccinationId");
 
                     b.HasIndex("VaccineComponentComponentId");
 
-                    b.ToTable("CompleteVaccines");
-                });
-
-            modelBuilder.Entity("vaccinecalend.Disease", b =>
-                {
-                    b.Property<Guid>("DiseaseId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("IndicationsToVaccination")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("DiseaseId");
-
-                    b.ToTable("Diseases");
+                    b.ToTable("CompleteVaccineComponents");
                 });
 
             modelBuilder.Entity("vaccinecalend.MedicalOrganization", b =>
@@ -136,33 +116,28 @@ namespace vaccinecalend.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("DiseaseId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("MedicalOrganizationOrganizationId")
+                    b.Property<Guid?>("MedicalOrganizationOrganizationId")
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("OrganizationId")
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("RecordDate")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("date");
 
                     b.Property<Guid>("VaccinatedId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("VaccinationId")
+                    b.Property<Guid>("VaccineId")
                         .HasColumnType("uuid");
 
                     b.HasKey("RecordId");
-
-                    b.HasIndex("DiseaseId");
 
                     b.HasIndex("MedicalOrganizationOrganizationId");
 
                     b.HasIndex("VaccinatedId");
 
-                    b.HasIndex("VaccinationId");
+                    b.HasIndex("VaccineId");
 
                     b.ToTable("Records");
                 });
@@ -194,7 +169,7 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("date");
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
@@ -204,6 +179,9 @@ namespace vaccinecalend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<long>("InshuranceNumber")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("text");
@@ -212,6 +190,9 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("InshuranceNumber")
+                        .IsUnique();
 
                     b.ToTable("Vaccinated");
 
@@ -226,16 +207,10 @@ namespace vaccinecalend.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("CompleteComponentId")
-                        .HasColumnType("uuid");
-
                     b.Property<bool>("FlagIsDone")
                         .HasColumnType("boolean");
 
                     b.Property<Guid>("MedicalOrganizationOrganizationId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("OrganizationId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Serial")
@@ -251,8 +226,6 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("VaccinationId");
 
-                    b.HasIndex("CompleteComponentId");
-
                     b.HasIndex("MedicalOrganizationOrganizationId");
 
                     b.HasIndex("VaccineId");
@@ -266,9 +239,6 @@ namespace vaccinecalend.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("DiseaseId")
-                        .HasColumnType("uuid");
-
                     b.Property<Guid>("VaccinatedId")
                         .HasColumnType("uuid");
 
@@ -277,35 +247,15 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("DiaryId");
 
-                    b.HasIndex("DiseaseId");
-
                     b.HasIndex("VaccinatedId");
 
-                    b.ToTable("vaccinationDiary");
-                });
-
-            modelBuilder.Entity("vaccinecalend.VaccinationDisease", b =>
-                {
-                    b.Property<Guid>("VaccinationId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("DiseaseId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("VaccinationId", "DiseaseId");
-
-                    b.HasIndex("DiseaseId");
-
-                    b.ToTable("VaccinationDiseases");
+                    b.ToTable("VaccinationDiary");
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccine", b =>
                 {
                     b.Property<Guid>("VaccineId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("CompleteComponentId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("ManufactorCountry")
@@ -321,8 +271,6 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("VaccineId");
-
-                    b.HasIndex("CompleteComponentId");
 
                     b.ToTable("Vaccines");
                 });
@@ -391,6 +339,9 @@ namespace vaccinecalend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.HasIndex("Username")
+                        .IsUnique();
+
                     b.HasDiscriminator().HasValue("User");
                 });
 
@@ -411,9 +362,9 @@ namespace vaccinecalend.Migrations
 
             modelBuilder.Entity("vaccinecalend.CompleteVaccineComponent", b =>
                 {
-                    b.HasOne("vaccinecalend.CompleteComponent", "CompleteComponent")
+                    b.HasOne("vaccinecalend.Vaccination", "Vaccination")
                         .WithMany("CompleteVaccineComponents")
-                        .HasForeignKey("CompleteComponentId")
+                        .HasForeignKey("VaccinationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -423,7 +374,7 @@ namespace vaccinecalend.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("CompleteComponent");
+                    b.Navigation("Vaccination");
 
                     b.Navigation("VaccineComponent");
                 });
@@ -441,37 +392,21 @@ namespace vaccinecalend.Migrations
 
             modelBuilder.Entity("vaccinecalend.RecordToVaccination", b =>
                 {
-                    b.HasOne("vaccinecalend.Disease", "Disease")
+                    b.HasOne("vaccinecalend.MedicalOrganization", null)
                         .WithMany("Records")
-                        .HasForeignKey("DiseaseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MedicalOrganizationOrganizationId");
 
-                    b.HasOne("vaccinecalend.MedicalOrganization", "MedicalOrganization")
-                        .WithMany("Records")
-                        .HasForeignKey("MedicalOrganizationOrganizationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("vaccinecalend.Vaccinated", "Vaccinated")
+                    b.HasOne("vaccinecalend.Vaccinated", null)
                         .WithMany("Records")
                         .HasForeignKey("VaccinatedId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("vaccinecalend.Vaccination", "Vaccination")
+                    b.HasOne("vaccinecalend.Vaccine", null)
                         .WithMany("Records")
-                        .HasForeignKey("VaccinationId")
+                        .HasForeignKey("VaccineId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Disease");
-
-                    b.Navigation("MedicalOrganization");
-
-                    b.Navigation("Vaccinated");
-
-                    b.Navigation("Vaccination");
                 });
 
             modelBuilder.Entity("vaccinecalend.UserRole", b =>
@@ -485,12 +420,6 @@ namespace vaccinecalend.Migrations
 
             modelBuilder.Entity("vaccinecalend.Vaccination", b =>
                 {
-                    b.HasOne("vaccinecalend.CompleteComponent", "CompleteComponent")
-                        .WithMany("Vaccinations")
-                        .HasForeignKey("CompleteComponentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("vaccinecalend.MedicalOrganization", "MedicalOrganization")
                         .WithMany("Vaccinations")
                         .HasForeignKey("MedicalOrganizationOrganizationId")
@@ -503,8 +432,6 @@ namespace vaccinecalend.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("CompleteComponent");
-
                     b.Navigation("MedicalOrganization");
 
                     b.Navigation("Vaccine");
@@ -512,51 +439,13 @@ namespace vaccinecalend.Migrations
 
             modelBuilder.Entity("vaccinecalend.VaccinationDiary", b =>
                 {
-                    b.HasOne("vaccinecalend.Disease", "Diseases")
-                        .WithMany("Diseases")
-                        .HasForeignKey("DiseaseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("vaccinecalend.Vaccinated", "Vaccinated")
                         .WithMany("VaccinationDiary")
                         .HasForeignKey("VaccinatedId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Diseases");
-
                     b.Navigation("Vaccinated");
-                });
-
-            modelBuilder.Entity("vaccinecalend.VaccinationDisease", b =>
-                {
-                    b.HasOne("vaccinecalend.Disease", "Disease")
-                        .WithMany("VaccinationDiseases")
-                        .HasForeignKey("DiseaseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("vaccinecalend.Vaccination", "Vaccination")
-                        .WithMany("VaccinationDiseases")
-                        .HasForeignKey("VaccinationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Disease");
-
-                    b.Navigation("Vaccination");
-                });
-
-            modelBuilder.Entity("vaccinecalend.Vaccine", b =>
-                {
-                    b.HasOne("vaccinecalend.CompleteComponent", "CompleteComponent")
-                        .WithMany("Vaccines")
-                        .HasForeignKey("CompleteComponentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("CompleteComponent");
                 });
 
             modelBuilder.Entity("vaccinecalend.VaccineComponent", b =>
@@ -581,24 +470,6 @@ namespace vaccinecalend.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("vaccinecalend.CompleteComponent", b =>
-                {
-                    b.Navigation("CompleteVaccineComponents");
-
-                    b.Navigation("Vaccinations");
-
-                    b.Navigation("Vaccines");
-                });
-
-            modelBuilder.Entity("vaccinecalend.Disease", b =>
-                {
-                    b.Navigation("Diseases");
-
-                    b.Navigation("Records");
-
-                    b.Navigation("VaccinationDiseases");
-                });
-
             modelBuilder.Entity("vaccinecalend.MedicalOrganization", b =>
                 {
                     b.Navigation("Records");
@@ -615,15 +486,15 @@ namespace vaccinecalend.Migrations
 
             modelBuilder.Entity("vaccinecalend.Vaccination", b =>
                 {
+                    b.Navigation("CompleteVaccineComponents");
+
                     b.Navigation("Reactions");
-
-                    b.Navigation("Records");
-
-                    b.Navigation("VaccinationDiseases");
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccine", b =>
                 {
+                    b.Navigation("Records");
+
                     b.Navigation("Vaccinations");
 
                     b.Navigation("VaccineComponents");
