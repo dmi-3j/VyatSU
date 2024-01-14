@@ -34,7 +34,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinationsVaccinationId");
 
-                    b.ToTable("VaccinationVaccinationDiary");
+                    b.ToTable("VaccinationVaccinationDiary", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.CompleteVaccineComponent", b =>
@@ -58,7 +58,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineComponentComponentId");
 
-                    b.ToTable("CompleteVaccineComponents");
+                    b.ToTable("CompleteVaccineComponents", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.MedicalOrganization", b =>
@@ -81,7 +81,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("OrganizationId");
 
-                    b.ToTable("MedicalOrganizations");
+                    b.ToTable("MedicalOrganizations", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.ReactionOnVaccination", b =>
@@ -104,7 +104,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinationId");
 
-                    b.ToTable("Reactions");
+                    b.ToTable("Reactions", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.RecordToVaccination", b =>
@@ -136,7 +136,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Records");
+                    b.ToTable("Records", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.UserRole", b =>
@@ -156,7 +156,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserRoles");
+                    b.ToTable("UserRoles", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccinated", b =>
@@ -196,7 +196,7 @@ namespace vaccinecalend.Migrations
                     b.HasIndex("InshuranceNumber")
                         .IsUnique();
 
-                    b.ToTable("Vaccinated");
+                    b.ToTable("Vaccinated", (string)null);
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Vaccinated");
 
@@ -232,7 +232,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Vaccinations");
+                    b.ToTable("Vaccinations", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.VaccinationDiary", b =>
@@ -251,7 +251,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinatedId");
 
-                    b.ToTable("VaccinationDiary");
+                    b.ToTable("VaccinationDiary", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccine", b =>
@@ -274,7 +274,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("VaccineId");
 
-                    b.ToTable("Vaccines");
+                    b.ToTable("Vaccines", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.VaccineComponent", b =>
@@ -306,7 +306,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Components");
+                    b.ToTable("Components", (string)null);
                 });
 
             modelBuilder.Entity("vaccinecalend.Child", b =>

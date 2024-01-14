@@ -40,6 +40,9 @@
     <Compile Update="RecordsForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SerialInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UpdateUserForm.cs">
       <SubType>Form</SubType>
     </Compile>

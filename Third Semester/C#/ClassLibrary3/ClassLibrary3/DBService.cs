@@ -34,7 +34,6 @@ namespace vaccinecalend
             _context.SaveChanges();
         }
 
-
         public void AddCompleteVaccineComponent(CompleteVaccineComponent completeVaccineComponent)
         {
             _context.CompleteVaccineComponents.Add(completeVaccineComponent);
@@ -74,6 +73,11 @@ namespace vaccinecalend
         public void AddVaccination(Vaccination vaccination)
         {
             _context.Vaccinations.Add(vaccination);
+            _context.SaveChanges();
+        }
+        public void UpdateVaccination(Vaccination vaccination)
+        {
+            _context.Update(vaccination);
             _context.SaveChanges();
         }
 

@@ -19,6 +19,8 @@ namespace vaccinecalend
         public ICollection<ReactionOnVaccination> Reactions { get; set; } = new List<ReactionOnVaccination>();
         public Guid VaccineId { get; set; }
         public Vaccine Vaccine { get; set; } = null!;
+
+       // public Guid VaccinationDiaryId { get; set; } ///////////----------
         public ICollection<VaccinationDiary> Vaccinations { get; set; } = null!;
         //public Guid CompleteComponentId { get; set; }
 

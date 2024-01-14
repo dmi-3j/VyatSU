@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,9 @@ namespace vaccinecalend
         public Guid VaccinatedId { get; set; }
         public Vaccinated Vaccinated { get; set; } = null!;
 
-        public Guid VaccinationId { get; set; }
+
+        [ForeignKey("VaccinationId")]
+        public Guid VaccinationId { get; set; }// --------------------------------------------
         public ICollection<Vaccination> Vaccinations { get; set; } = new List<Vaccination>();
     }
 }
