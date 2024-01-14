@@ -30,32 +30,67 @@
         {
             statusStrip = new StatusStrip();
             userNameLabel = new ToolStripStatusLabel();
+            logoutButton = new Button();
+            viewRecordsButton = new Button();
+            findUserButton = new Button();
             statusStrip.SuspendLayout();
             SuspendLayout();
             // 
             // statusStrip
             // 
             statusStrip.Items.AddRange(new ToolStripItem[] { userNameLabel });
-            statusStrip.Location = new Point(0, 428);
+            statusStrip.Location = new Point(0, 142);
             statusStrip.Name = "statusStrip";
-            statusStrip.Size = new Size(800, 22);
+            statusStrip.Size = new Size(297, 22);
             statusStrip.TabIndex = 0;
             statusStrip.Text = "statusStrip1";
             // 
             // userNameLabel
             // 
             userNameLabel.Name = "userNameLabel";
-            userNameLabel.Size = new Size(118, 17);
-            userNameLabel.Text = "toolStripStatusLabel1";
+            userNameLabel.Size = new Size(0, 17);
+            // 
+            // logoutButton
+            // 
+            logoutButton.Location = new Point(12, 94);
+            logoutButton.Name = "logoutButton";
+            logoutButton.Size = new Size(273, 35);
+            logoutButton.TabIndex = 1;
+            logoutButton.Text = "Выйти из аккаунта";
+            logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
+            // 
+            // viewRecordsButton
+            // 
+            viewRecordsButton.Location = new Point(12, 12);
+            viewRecordsButton.Name = "viewRecordsButton";
+            viewRecordsButton.Size = new Size(273, 35);
+            viewRecordsButton.TabIndex = 2;
+            viewRecordsButton.Text = "Посмотреть записи на вакцинацию";
+            viewRecordsButton.UseVisualStyleBackColor = true;
+            viewRecordsButton.Click += viewRecordsButton_Click;
+            // 
+            // findUserButton
+            // 
+            findUserButton.Location = new Point(12, 53);
+            findUserButton.Name = "findUserButton";
+            findUserButton.Size = new Size(273, 35);
+            findUserButton.TabIndex = 3;
+            findUserButton.Text = "Найти пользователя";
+            findUserButton.UseVisualStyleBackColor = true;
+            findUserButton.Click += findUserButton_Click;
             // 
             // MedPersonalForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(297, 164);
+            Controls.Add(findUserButton);
+            Controls.Add(viewRecordsButton);
+            Controls.Add(logoutButton);
             Controls.Add(statusStrip);
             Name = "MedPersonalForm";
-            Text = "MedPersonalForm";
+            Text = "Медицинский работник";
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();
             ResumeLayout(false);
@@ -66,5 +101,8 @@
 
         private StatusStrip statusStrip;
         private ToolStripStatusLabel userNameLabel;
+        private Button logoutButton;
+        private Button viewRecordsButton;
+        private Button findUserButton;
     }
 }

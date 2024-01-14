@@ -34,7 +34,7 @@ namespace App
                         DateOfBirth = DateTimeOffset.Parse(DoBTextBox.Text).Date,
                         Address = addressTextBox.Text,
                         PhoneNumber = phoneTextBox.Text,
-                        InshuranceNumber = long.Parse(inshuranceNumberTextBox.Text),
+                        InshuranceNumber = inshuranceNumberTextBox.Text,
                         Username = loginTextBox.Text,
                         Password = passwordTextBox.Text,
                         UserRoles = new List<UserRole>() { new UserRole() { Role = roleComboBox.SelectedItem.ToString() } }

@@ -21,9 +21,26 @@ namespace App
         }
         private void InitStatusLabel()
         {
-            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName}";
+            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName} (Медицинский работник)";
             statusStrip.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
             userNameLabel.Alignment = ToolStripItemAlignment.Right;
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void findUserButton_Click(object sender, EventArgs e)
+        {
+            FindUserForm findUserForm = new FindUserForm();
+            findUserForm.ShowDialog();
+        }
+
+        private void viewRecordsButton_Click(object sender, EventArgs e)
+        {
+            RecordsForm recordsForm = new RecordsForm();
+            recordsForm.ShowDialog();
         }
     }
 }

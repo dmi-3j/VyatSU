@@ -77,8 +77,6 @@ using (VaccineCalendarContext context = new())
     };
     service.AddChild(child02);
 
-
-    // Создание трех детей для нового пользователя
     var child1 = new Child
     {
         FirstName = "Ольга",
@@ -111,7 +109,6 @@ using (VaccineCalendarContext context = new())
         VaccineName = "Спутник V",
         ManufactorCountry = "Россия",
         ValidPeriod = "12 месяцев",
-        //CompleteComponentId = completeComponent.CompleteComponentId
     };
     service.AddVaccine(vaccine);
 
@@ -120,7 +117,6 @@ using (VaccineCalendarContext context = new())
         VaccineName = "COVID-19 Vaccine",
         ManufactorCountry = "Test Country",
         ValidPeriod = "12 months",
-        //CompleteComponentId = completeComponent.CompleteComponentId
     };
     service.AddVaccine(vaccine2);
 

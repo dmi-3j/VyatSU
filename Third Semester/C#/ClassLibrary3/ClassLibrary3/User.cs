@@ -13,7 +13,7 @@ namespace vaccinecalend
         public string Username { get; set; } = null!;
         public string Password { get; set; } = null!;
         public string Address { get; set; } = null!;
-        public string PhoneNumber { get; set; } = null!;
+        
 
         public ICollection<Child> Children { get; set; } = new List<Child>();
         public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();

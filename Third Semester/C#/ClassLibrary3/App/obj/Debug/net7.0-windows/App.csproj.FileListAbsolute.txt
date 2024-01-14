@@ -50,3 +50,7 @@ D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.UpdateUserForm.resources
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AddRecordToVaccinationForm.resources
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.vaccineInfoForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.FindUserForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.UserInfoForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.RecordsForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.addVaccinationForm.resources

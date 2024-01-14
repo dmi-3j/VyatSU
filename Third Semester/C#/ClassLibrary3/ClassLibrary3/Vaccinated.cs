@@ -17,10 +17,10 @@ namespace vaccinecalend
 
         [Column(TypeName = "date")]
         public DateTime DateOfBirth { get; set; }
-        public long InshuranceNumber { get; set; }
+        public string InshuranceNumber { get; set; } = null!;
+        public string PhoneNumber { get; set; } = null!;
 
         public ICollection<RecordToVaccination>? Records { get; set; } 
-       // public Guid DiaryId {  get; set; }
         public ICollection<VaccinationDiary> VaccinationDiary { get; set; } = new List<VaccinationDiary>();
     }
 }

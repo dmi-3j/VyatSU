@@ -59,6 +59,11 @@ namespace vaccinecalend
             _context.Records.Add(recordToVaccination);
             _context.SaveChanges();
         }
+        public void DeleteRecordToVaccination(RecordToVaccination recordToVaccination)
+        {
+            _context.Records.Remove(recordToVaccination);
+            _context.SaveChanges();
+        }
 
         public void AddVaccinated(Vaccinated vaccinated)
         {
