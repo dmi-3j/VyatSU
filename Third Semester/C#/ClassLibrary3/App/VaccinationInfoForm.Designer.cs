@@ -44,6 +44,7 @@
             interevalOfComponents = new DataGridViewTextBoxColumn();
             dateOfVaccinationComponent = new DataGridViewTextBoxColumn();
             vaccineInfoButton = new Button();
+            showReactionButton = new Button();
             ((System.ComponentModel.ISupportInitialize)componentsInfoTable).BeginInit();
             SuspendLayout();
             // 
@@ -109,9 +110,9 @@
             // 
             // medorgInfoButton
             // 
-            medorgInfoButton.Location = new Point(314, 365);
+            medorgInfoButton.Location = new Point(374, 350);
             medorgInfoButton.Name = "medorgInfoButton";
-            medorgInfoButton.Size = new Size(201, 38);
+            medorgInfoButton.Size = new Size(141, 53);
             medorgInfoButton.TabIndex = 6;
             medorgInfoButton.Text = "Подробнее \r\nо медицинской организации";
             medorgInfoButton.UseVisualStyleBackColor = true;
@@ -119,9 +120,9 @@
             // 
             // addReactionButton
             // 
-            addReactionButton.Location = new Point(12, 365);
+            addReactionButton.Location = new Point(12, 350);
             addReactionButton.Name = "addReactionButton";
-            addReactionButton.Size = new Size(148, 38);
+            addReactionButton.Size = new Size(114, 53);
             addReactionButton.TabIndex = 7;
             addReactionButton.Text = "Добавить реакцию";
             addReactionButton.UseVisualStyleBackColor = true;
@@ -182,19 +183,30 @@
             // 
             // vaccineInfoButton
             // 
-            vaccineInfoButton.Location = new Point(166, 365);
+            vaccineInfoButton.Location = new Point(250, 350);
             vaccineInfoButton.Name = "vaccineInfoButton";
-            vaccineInfoButton.Size = new Size(142, 38);
+            vaccineInfoButton.Size = new Size(118, 53);
             vaccineInfoButton.TabIndex = 10;
             vaccineInfoButton.Text = "Подробнее о вакцине";
             vaccineInfoButton.UseVisualStyleBackColor = true;
             vaccineInfoButton.Click += vaccineInfoButton_Click;
+            // 
+            // showReactionButton
+            // 
+            showReactionButton.Location = new Point(132, 350);
+            showReactionButton.Name = "showReactionButton";
+            showReactionButton.Size = new Size(112, 53);
+            showReactionButton.TabIndex = 11;
+            showReactionButton.Text = "Посмотреть реакции";
+            showReactionButton.UseVisualStyleBackColor = true;
+            showReactionButton.Click += showReactionButton_Click;
             // 
             // VaccinationInfoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(532, 415);
+            Controls.Add(showReactionButton);
             Controls.Add(vaccineInfoButton);
             Controls.Add(componentsInfoTable);
             Controls.Add(label4);
@@ -231,5 +243,6 @@
         private DataGridViewTextBoxColumn interevalOfComponents;
         private DataGridViewTextBoxColumn dateOfVaccinationComponent;
         private Button vaccineInfoButton;
+        private Button showReactionButton;
     }
 }

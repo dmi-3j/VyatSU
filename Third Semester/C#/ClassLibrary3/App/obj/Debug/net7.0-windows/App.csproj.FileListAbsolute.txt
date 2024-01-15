@@ -55,3 +55,4 @@ D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.RecordsForm.resources
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.addVaccinationForm.resources
 D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.SerialInputForm.resources
+D:\Documents\GitHub\VyatSu\Third Semester\C#\ClassLibrary3\App\obj\Debug\net7.0-windows\App.ReactionsForm.resources

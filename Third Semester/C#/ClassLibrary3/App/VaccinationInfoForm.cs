@@ -18,16 +18,17 @@ namespace App
         {
             InitializeComponent();
             this.vaccinationId = id;
+            this.flag = flag;
             InitData();
-            if (flag) addReactionButton.Visible = false;
-
         }
+        private bool flag;
         private Guid vaccinationId;
         private Guid vaccineId;
         private void InitData()
         {
             using (var context = new VaccineCalendarContext())
             {
+                if (flag) addReactionButton.Visible = false;
                 Vaccination? vaccination = context.Vaccinations
                     .Include(v => v.Vaccine)  // Включаем данные о вакцине
                     .Include(v => v.MedicalOrganization)  // Включаем данные о медицинской организации
@@ -95,6 +96,12 @@ namespace App
         {
             vaccineInfoForm vaccineInfoForm = new vaccineInfoForm(vaccineId);
             vaccineInfoForm.ShowDialog();
+        }
+
+        private void showReactionButton_Click(object sender, EventArgs e)
+        {
+            ReactionsForm reactionsForm = new ReactionsForm(vaccinationId, flag);
+            reactionsForm.ShowDialog();
         }
     }
 }
