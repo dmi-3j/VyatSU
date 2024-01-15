@@ -94,7 +94,7 @@ namespace App
                                     .Where(c => c.ComponentId == lastComponent)
                                     .Select(c => c.IntervalOfComponent)
                                     .FirstOrDefault();
-
+                                if (cntOfAllComponents == cntOfCompleteComponents) interval = v.TimeInterval;
                                 DateTime recommendNextDate = AddInterval(date, interval);
                                 string nextRecommendDate = recommendNextDate.Date.ToString("yyyy-MM-dd");
 
@@ -245,7 +245,7 @@ namespace App
                             .Where(v => v.Serial == userVaccinationTable.Rows[e.RowIndex].Cells["VaccinationSerial"].Value.ToString())
                             .Select(v => v.VaccinationId)
                             .FirstOrDefault();
-                        VaccinationInfoForm infoForm = new VaccinationInfoForm(vaccinationId);
+                        VaccinationInfoForm infoForm = new VaccinationInfoForm(vaccinationId, false);
                         infoForm.ShowDialog();
                     }
                 }
@@ -296,7 +296,7 @@ namespace App
                             .Where(v => v.Serial == childVaccinationTable.Rows[e.RowIndex].Cells["childVaccinationSerial"].Value.ToString())
                             .Select(v => v.VaccinationId)
                             .FirstOrDefault();
-                        VaccinationInfoForm infoForm = new VaccinationInfoForm(vaccinationId);
+                        VaccinationInfoForm infoForm = new VaccinationInfoForm(vaccinationId, false);
                         infoForm.ShowDialog();
                     }
                 }

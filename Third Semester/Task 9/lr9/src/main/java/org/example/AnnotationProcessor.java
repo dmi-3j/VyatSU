@@ -41,10 +41,22 @@ public class AnnotationProcessor {
         sql.append(");");
         Connection connection = null;
         try{
-            connection = DriverManager.getConnection("jdbc:sqlite:D:\\TP\\lr9\\lr9.db");
-            Statement statement = connection.createStatement();
-            statement.execute(sqlDEL.toString());
-            statement.execute(sql.toString());
+//            connection = DriverManager.getConnection("jdbc:sqlite:D:\\TP\\lr9\\lr9.db");
+
+            Class.forName("org.postgresql.Driver");
+
+            // Replace the connection URL with your PostgreSQL connection details
+            String url = "jdbc:postgresql://localhost:5432/test";
+            String user = "postgres";
+            String password = "1";
+
+            // Create the connection
+            connection = DriverManager.getConnection(url, user, password);
+            if (connection != null) {
+                Statement statement = connection.createStatement();
+                statement.execute(sqlDEL.toString());
+                statement.execute(sql.toString());
+            }
 
         }
         catch (Exception e) {

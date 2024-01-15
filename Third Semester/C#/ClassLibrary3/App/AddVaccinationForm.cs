@@ -169,29 +169,33 @@ namespace App
                         string serial = "";
                         SerialInputForm serialInputForm = new SerialInputForm();
                         if(serialInputForm.ShowDialog() == DialogResult.OK) serial = serialInputForm.Serial;
-                        Vaccination vaccination = new Vaccination()
+                        using (var transaction = context.Database.BeginTransaction())
                         {
-                            Serial = serial,
-                            FlagIsDone = false,
-                            MedicalOrganization = organization,
-                            TimeInterval = vaccine.ValidPeriod,
-                            Vaccine = vaccine,
-                        };
-                        service.AddVaccination(vaccination);
-                        CompleteVaccineComponent completeComponent = new CompleteVaccineComponent()
-                        {
-                            VaccinationId = vaccination.VaccinationId,
-                            VaccineComponent = component,
-                            VaccinationDate = DateTime.Now.Date,
-                        };
-                        service.AddCompleteVaccineComponent(completeComponent);
-                        var vaccinationDiary = new VaccinationDiary
-                        {
-                            VaccinatedId = vaccinatedId,
-                            VaccinationId = vaccination.VaccinationId
-                        };
-                        vaccinationDiary.Vaccinations.Add(vaccination);
-                        service.AddVaccinationDiary(vaccinationDiary);
+                            Vaccination vaccination = new Vaccination()
+                            {
+                                Serial = serial,
+                                FlagIsDone = false,
+                                MedicalOrganization = organization,
+                                TimeInterval = vaccine.ValidPeriod,
+                                Vaccine = vaccine,
+                            };
+                            service.AddVaccination(vaccination);
+                            CompleteVaccineComponent completeComponent = new CompleteVaccineComponent()
+                            {
+                                VaccinationId = vaccination.VaccinationId,
+                                VaccineComponent = component,
+                                VaccinationDate = DateTime.Now.Date,
+                            };
+                            service.AddCompleteVaccineComponent(completeComponent);
+                            var vaccinationDiary = new VaccinationDiary
+                            {
+                                VaccinatedId = vaccinatedId,
+                                VaccinationId = vaccination.VaccinationId
+                            };
+                            vaccinationDiary.Vaccinations.Add(vaccination);
+                            service.AddVaccinationDiary(vaccinationDiary);
+                            transaction.Commit();
+                        }
                         MessageBox.Show("Вакцинация успешно добавлена!");
                         Close();
                     }

@@ -14,16 +14,16 @@ namespace App
 {
     public partial class VaccinationInfoForm : Form
     {
-        public VaccinationInfoForm(Guid id)
+        public VaccinationInfoForm(Guid id, bool flag)
         {
             InitializeComponent();
             this.vaccinationId = id;
             InitData();
+            if (flag) addReactionButton.Visible = false;
 
         }
         private Guid vaccinationId;
         private Guid vaccineId;
-
         private void InitData()
         {
             using (var context = new VaccineCalendarContext())
