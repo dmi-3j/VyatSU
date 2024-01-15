@@ -56,8 +56,7 @@ namespace App
             using (var context = new VaccineCalendarContext())
             {
                 List<VaccineComponent> components = context.Components
-                    .Where(c => c.VaccineId == id)
-                    .ToList();
+                    .Where(c => c.VaccineId == id).ToList();
                 vaccineComponentComboBox.DataSource = components;
                 vaccineComponentComboBox.DisplayMember = "Name";
                 vaccineComponentComboBox.ValueMember = "ComponentId";
@@ -69,6 +68,11 @@ namespace App
         private void saveVaccineButton_Click(object sender, EventArgs e)
         {
             vaccineGroup.Enabled = false;
+            if (vaccineComboBox.SelectedItem == null)
+            {
+                MessageBox.Show("Необходимо выбрать вакцину, чтобы продолжить.");
+                return;
+            }
             Guid vaccineId = (Guid)vaccineComboBox.SelectedValue;
             InitVaccineComponentCombobox(vaccineId);
         }
@@ -83,8 +87,8 @@ namespace App
             {
                 bool hasUnfinishedVaccination = context.VaccinationDiary
                     .Include(vd => vd.Vaccinations)
-                    .ThenInclude(v => v.Vaccine)
-                    .Any(vd => vd.VaccinatedId == vaccinatedId && vd.Vaccinations.Any(v => v.VaccineId == vaccineId && !v.FlagIsDone));
+                        .ThenInclude(v => v.Vaccine)
+                            .Any(vd => vd.VaccinatedId == vaccinatedId && vd.Vaccinations.Any(v => v.VaccineId == vaccineId && !v.FlagIsDone));
                 return hasUnfinishedVaccination;
             }
         }
@@ -93,8 +97,7 @@ namespace App
             using (var context = new VaccineCalendarContext())
             {
                 bool hasComponentInVaccination = context.CompleteVaccineComponents
-                .Any(cvc => cvc.VaccinationId == vaccinationId &&
-                cvc.VaccineComponent.ComponentId == componentId);
+                    .Any(cvc => cvc.VaccinationId == vaccinationId && cvc.VaccineComponent.ComponentId == componentId);
                 return hasComponentInVaccination;
             }
         }
@@ -104,23 +107,52 @@ namespace App
             {
                 var vaccinationId = context.VaccinationDiary
                     .Where(vd => vd.VaccinatedId == vaccinatedId)
-                    .SelectMany(vd => vd.Vaccinations)
-                    .Where(v => v.VaccineId == vaccineId && !v.FlagIsDone)
-                    .Select(v => v.VaccinationId)
-                    .FirstOrDefault();
+                        .SelectMany(vd => vd.Vaccinations)
+                            .Where(v => v.VaccineId == vaccineId && !v.FlagIsDone)
+                                .Select(v => v.VaccinationId)
+                                    .FirstOrDefault();
                 return vaccinationId;
+            }
+        }
+        private void CheckForDoneAndUpdateFlagIsDone(Guid vaccinationId, Guid vaccineId)
+        {
+            using (var context = new VaccineCalendarContext())
+            {
+                DBService service = new DBService(context);
+                int cntOfCompleteComponents = context.CompleteVaccineComponents
+                                .Where(cvc => cvc.VaccinationId == vaccinationId).Count();
+                int cntOfAllComponents = context.Components
+                        .Where(c => c.VaccineId == vaccineId).Count();
+                if (cntOfCompleteComponents == cntOfAllComponents)
+                {
+                    Vaccination vaccination = context.Vaccinations
+                        .FirstOrDefault(v => v.VaccinationId == vaccinationId);
+                    vaccination.FlagIsDone = true;
+                    service.UpdateVaccination(vaccination);
+                }
             }
         }
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            using (var context = new VaccineCalendarContext()) {
+            using (var context = new VaccineCalendarContext())
+            {
+                if (vaccineComboBox.SelectedItem == null)
+                {
+                    MessageBox.Show("Необходимо выбрать вакцину, чтобы продолжить.");
+                    return;
+                }
+                if (vaccineComponentComboBox.SelectedItem == null)
+                {
+                    MessageBox.Show("Необходимо выбрать компонент вакцины, чтобы продолжить.");
+                    return;
+                }
                 DBService service = new DBService(context);
                 Guid vaccineId = (Guid)vaccineComboBox.SelectedValue;
                 Guid componentId = (Guid)vaccineComponentComboBox.SelectedValue;
                 VaccineComponent component = context.Components
-                                .Where(v => v.ComponentId == componentId)
-                                .FirstOrDefault();
+                    .Where(v => v.ComponentId == componentId)
+                        .FirstOrDefault();
                 if (vaccineGroup.Enabled == false)
                 {
                     if (CheckForExistVaccinationForThisVaccine(vaccineId, vaccinatedId))
@@ -133,7 +165,6 @@ namespace App
                         }
                         else
                         {
-                            
                             CompleteVaccineComponent completeComponent = new CompleteVaccineComponent()
                             {
                                 VaccinationId = vaccinationId,
@@ -142,33 +173,24 @@ namespace App
                             };
                             service.AddCompleteVaccineComponent(completeComponent);
 
-                            int cntOfCompleteComponents = context.CompleteVaccineComponents
-                                    .Where(cvc => cvc.VaccinationId == vaccinationId)
-                                    .Count();
-                            int cntOfAllComponents = context.Components
-                                .Where(c => c.VaccineId == vaccineId)
-                                .Count();
-                            if (cntOfAllComponents == cntOfAllComponents)
-                            {
-                                Vaccination vaccination = context.Vaccinations
-                                    .Where(v => v.VaccinationId == vaccinationId)
-                                    .FirstOrDefault();
-                                vaccination.FlagIsDone = true;
-                                service.UpdateVaccination(vaccination);
-                            }
+                            CheckForDoneAndUpdateFlagIsDone(vaccinationId, vaccineId);
                             MessageBox.Show("Вакцинация успешно добавлена!");
                             Close();
                         }
                     }
                     else
                     {
-                        // незавершенной вакцинации по такой вакцине у пользователя нет, поэтому надо создавать новую
+                        if (medOrgComboBox.SelectedItem == null)
+                        {
+                            MessageBox.Show("Необходимо выбрать медицинскую организацию, чтобы продолжить.");
+                            return;
+                        }
                         Guid organizationId = (Guid)medOrgComboBox.SelectedValue;
-                        MedicalOrganization organization = context.MedicalOrganizations.Where(o => o.OrganizationId == organizationId).FirstOrDefault();
-                        Vaccine vaccine = context.Vaccines.Where(v => v.VaccineId == vaccineId).FirstOrDefault();
+                        MedicalOrganization organization = context.MedicalOrganizations.FirstOrDefault(o => o.OrganizationId == organizationId);
+                        Vaccine vaccine = context.Vaccines.FirstOrDefault(v => v.VaccineId == vaccineId);
                         string serial = "";
                         SerialInputForm serialInputForm = new SerialInputForm();
-                        if(serialInputForm.ShowDialog() == DialogResult.OK) serial = serialInputForm.Serial;
+                        if (serialInputForm.ShowDialog() == DialogResult.OK) serial = serialInputForm.Serial;
                         using (var transaction = context.Database.BeginTransaction())
                         {
                             Vaccination vaccination = new Vaccination()
@@ -195,6 +217,8 @@ namespace App
                             vaccinationDiary.Vaccinations.Add(vaccination);
                             service.AddVaccinationDiary(vaccinationDiary);
                             transaction.Commit();
+                            CheckForDoneAndUpdateFlagIsDone(vaccination.VaccinationId, vaccineId);
+
                         }
                         MessageBox.Show("Вакцинация успешно добавлена!");
                         Close();

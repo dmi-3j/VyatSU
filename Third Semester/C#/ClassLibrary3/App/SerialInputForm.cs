@@ -15,14 +15,23 @@ namespace App
         public SerialInputForm()
         {
             InitializeComponent();
+            ControlBox = false;
         }
-        public string Serial { get; set; }
+        public string? Serial { get; set; }
 
         private void okButton_Click(object sender, EventArgs e)
         {
-            Serial = input.Text;
-            DialogResult = DialogResult.OK;
-            Close();
+            if(!string.IsNullOrWhiteSpace(input.Text.Trim()))
+            {
+                Serial = input.Text;
+                DialogResult = DialogResult.OK;
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Поле обязательно для заполнения.");
+                return;
+            }
         }
     }
 }

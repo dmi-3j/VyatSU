@@ -24,15 +24,11 @@ namespace App
         {
             using (var context = new VaccineCalendarContext())
             {
-                Vaccine? vaccine = context.Vaccines
-                    .Where(v => v.VaccineId == id)
-                    .FirstOrDefault();
+                Vaccine? vaccine = context.Vaccines.Where(v => v.VaccineId == id).FirstOrDefault();
                 validPeriodLabel.Text = vaccine.ValidPeriod;
                 nameLabel.Text = vaccine.VaccineName;
                 countryLabel.Text = vaccine.ManufactorCountry;
             }
         }
-
-
     }
 }

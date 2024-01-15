@@ -13,26 +13,23 @@ namespace App
 {
     public partial class AddRecordToVaccinationForm : Form
     {
-        public AddRecordToVaccinationForm(vaccinecalend.User user)
+        public AddRecordToVaccinationForm(User user)
         {
             InitializeComponent();
-            this.user = user;
             datePicker.MinDate = DateTime.Now;
             InitMedOrgComboBox();
             InitVaccineComboBox();
             vaccinated = user.Id;
         }
-        public AddRecordToVaccinationForm(vaccinecalend.Child child)
+        public AddRecordToVaccinationForm(Child child)
         {
             InitializeComponent();
-            this.child = child;
             datePicker.MinDate = DateTime.Now;
+            datePicker.MaxDate = DateTime.Now.AddMonths(1);
             InitMedOrgComboBox();
             InitVaccineComboBox();
             vaccinated = child.Id;
         }
-        private Child child;
-        private vaccinecalend.User user;
         private Guid vaccinated;
         private void InitMedOrgComboBox()
 
@@ -43,6 +40,8 @@ namespace App
                 medOrgComboBox.DataSource = medicalOrganizations;
                 medOrgComboBox.DisplayMember = "OrganizationName";
                 medOrgComboBox.ValueMember = "OrganizationId";
+                medOrgComboBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                medOrgComboBox.AutoCompleteSource = AutoCompleteSource.ListItems;
             }
         }
         private void InitVaccineComboBox()
@@ -53,6 +52,8 @@ namespace App
                 vaccineComboBox.DataSource = vaccines;
                 vaccineComboBox.DisplayMember = "VaccineName";
                 vaccineComboBox.ValueMember = "VaccineId";
+                vaccineComboBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                vaccineComboBox.AutoCompleteSource = AutoCompleteSource.ListItems;
             }
         }
 
@@ -62,6 +63,11 @@ namespace App
             {
                 try
                 {
+                    if (medOrgComboBox.SelectedItem == null || vaccineComboBox.SelectedItem == null)
+                    {
+                        MessageBox.Show("Необходимо выбрать медицинскую организацию и вакцину", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
                     DBService service = new DBService(context);
                     MedicalOrganization selectedMedicalOrganization = (MedicalOrganization)medOrgComboBox.SelectedItem;
                     Vaccine selectedVaccine = (Vaccine)vaccineComboBox.SelectedItem;

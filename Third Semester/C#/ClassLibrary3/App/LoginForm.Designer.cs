@@ -102,9 +102,13 @@
             Controls.Add(passwordLabel);
             Controls.Add(loginLabel);
             Controls.Add(TitleLabel);
+            MaximizeBox = false;
+            MaximumSize = new Size(341, 323);
+            MinimumSize = new Size(341, 323);
             Name = "LoginForm";
-            Text = "LoginForm";
-           // Load += LoginForm_Load;
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
+            Text = "Авторизация";
             ResumeLayout(false);
             PerformLayout();
         }

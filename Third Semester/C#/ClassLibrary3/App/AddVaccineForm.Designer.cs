@@ -44,6 +44,7 @@
             validPeriodComboBox = new ComboBox();
             mainInfoGroup = new GroupBox();
             groupBox1 = new GroupBox();
+            label9 = new Label();
             componentPreView = new DataGridView();
             compName = new DataGridViewTextBoxColumn();
             compStructure = new DataGridViewTextBoxColumn();
@@ -59,7 +60,6 @@
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
-            label9 = new Label();
             addVaccineButton = new Button();
             mainInfoGroup.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -169,6 +169,16 @@
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
             groupBox1.Text = "Компоненты вакцины";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Location = new Point(18, 239);
+            label9.Name = "label9";
+            label9.Size = new Size(218, 21);
+            label9.TabIndex = 13;
+            label9.Text = "Предварительный просмотр:";
             // 
             // componentPreView
             // 
@@ -333,16 +343,6 @@
             label5.TabIndex = 2;
             label5.Text = "Название:";
             // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(18, 239);
-            label9.Name = "label9";
-            label9.Size = new Size(218, 21);
-            label9.TabIndex = 13;
-            label9.Text = "Предварительный просмотр:";
-            // 
             // addVaccineButton
             // 
             addVaccineButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -363,7 +363,12 @@
             Controls.Add(groupBox1);
             Controls.Add(mainInfoGroup);
             Controls.Add(label2);
+            MaximizeBox = false;
+            MaximumSize = new Size(820, 777);
+            MinimumSize = new Size(820, 777);
             Name = "AddVaccineForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление вакцины";
             mainInfoGroup.ResumeLayout(false);
             mainInfoGroup.PerformLayout();

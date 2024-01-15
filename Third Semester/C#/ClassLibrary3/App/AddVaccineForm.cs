@@ -20,19 +20,38 @@ namespace App
             componentIntervalСomboBox.SelectedIndex = 0;
         }
 
-        private void componentPreView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
         private List<VaccineComponent> componentsV = new List<VaccineComponent>();
 
         private void addComponentButton_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(componentNameTextBox.Text.Trim()))
+            {
+                MessageBox.Show("Название компонента не может быть пустым", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            string componentName = componentNameTextBox.Text.Trim();
+            if (string.IsNullOrWhiteSpace(componentStructureTextBox.Text.Trim()))
+            {
+                MessageBox.Show("Состав компонента не может отсутствовать", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            string structure = componentStructureTextBox.Text.Trim();
+            if (string.IsNullOrWhiteSpace(comoonentTypeTextBox.Text.Trim()))
+            {
+                MessageBox.Show("Тип компонента не может отсутствовать", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            string type = comoonentTypeTextBox.Text.Trim();
+            if (componentIntervalСomboBox.SelectedItem == null)
+            {
+                MessageBox.Show("Необходимо выбрать период действия компонента", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
             VaccineComponent component = new VaccineComponent()
             {
-                Name = componentNameTextBox.Text,
-                Structure = componentStructureTextBox.Text,
-                Type = comoonentTypeTextBox.Text,
+                Name = componentName,
+                Structure = structure,
+                Type = type,
                 IntervalOfComponent = componentIntervalСomboBox.SelectedItem.ToString()
             };
             componentsV.Add(component);
@@ -43,13 +62,10 @@ namespace App
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == componentPreView.Columns["action"].Index)
             {
-
                 if (componentPreView.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
                     VaccineComponent componentToRemove = componentsV[e.RowIndex];
-
                     componentsV.Remove(componentToRemove);
-
                     componentPreView.Rows.RemoveAt(e.RowIndex);
                 }
             }
@@ -57,17 +73,34 @@ namespace App
 
         private void addVaccineButton_Click(object sender, EventArgs e)
         {
-            if(componentsV.Count > 0) 
+            if (componentsV.Count > 0)
             {
                 try
                 {
+                    if (string.IsNullOrWhiteSpace(vaccineNameTextBox.Text.Trim()))
+                    {
+                        MessageBox.Show("Название вакцины не может быть пустым", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+                    string vaccineName = vaccineNameTextBox.Text.Trim();
+                    if (string.IsNullOrWhiteSpace(countryTextBox.Text.Trim()))
+                    {
+                        MessageBox.Show("Страна производитель вакцины не может отсутствовать", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+                    string country = vaccineNameTextBox.Text.Trim();
+                    if (validPeriodComboBox.SelectedItem == null)
+                    {
+                        MessageBox.Show("Необходимо выбрать период действия", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
                     using (var context = new VaccineCalendarContext())
                     {
                         DBService service = new DBService(context);
                         Vaccine vaccine = new Vaccine()
                         {
-                            VaccineName = vaccineNameTextBox.Text,
-                            ManufactorCountry = countryTextBox.Text,
+                            VaccineName = vaccineName,
+                            ManufactorCountry = country,
                             ValidPeriod = validPeriodComboBox.SelectedItem.ToString()
                         };
                         service.AddVaccine(vaccine);
@@ -80,7 +113,7 @@ namespace App
                         Close();
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }

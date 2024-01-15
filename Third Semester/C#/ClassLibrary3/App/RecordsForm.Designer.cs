@@ -57,7 +57,6 @@
             // 
             // choiceOrganizationComboBox
             // 
-            choiceOrganizationComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             choiceOrganizationComboBox.FormattingEnabled = true;
             choiceOrganizationComboBox.Location = new Point(12, 82);
             choiceOrganizationComboBox.Name = "choiceOrganizationComboBox";
@@ -94,7 +93,7 @@
             recordsTable.Name = "recordsTable";
             recordsTable.RowHeadersVisible = false;
             recordsTable.RowTemplate.Height = 25;
-            recordsTable.Size = new Size(806, 276);
+            recordsTable.Size = new Size(806, 390);
             recordsTable.TabIndex = 4;
             recordsTable.CellContentClick += recordsTable_CellContentClick;
             // 
@@ -159,13 +158,18 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(940, 541);
+            ClientSize = new Size(830, 541);
             Controls.Add(recordsTable);
             Controls.Add(displayButton);
             Controls.Add(label2);
             Controls.Add(choiceOrganizationComboBox);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MaximumSize = new Size(846, 580);
+            MinimumSize = new Size(846, 580);
             Name = "RecordsForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Записи на вакцинацию";
             ((System.ComponentModel.ISupportInitialize)recordsTable).EndInit();
             ResumeLayout(false);

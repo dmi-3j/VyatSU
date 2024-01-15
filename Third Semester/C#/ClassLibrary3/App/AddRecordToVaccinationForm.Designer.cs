@@ -114,7 +114,7 @@
             recordButton.UseVisualStyleBackColor = true;
             recordButton.Click += recordButton_Click;
             // 
-            // addRecordToVaccination
+            // AddRecordToVaccinationForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -127,7 +127,12 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "addRecordToVaccination";
+            MaximizeBox = false;
+            MaximumSize = new Size(490, 297);
+            MinimumSize = new Size(490, 297);
+            Name = "AddRecordToVaccinationForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Запись на вакцинацию";
             ResumeLayout(false);
             PerformLayout();

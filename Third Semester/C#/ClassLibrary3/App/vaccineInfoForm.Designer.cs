@@ -133,7 +133,12 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MaximumSize = new Size(653, 231);
+            MinimumSize = new Size(653, 231);
             Name = "vaccineInfoForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о вакцине";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

@@ -19,18 +19,17 @@ namespace App
             reactionsTable.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
             this.flag = flag;
             this.id = id;
-            Init();
         }
         private bool flag;
         private Guid id;
         private void Init()
         {
+            reactionsTable.Rows.Clear();
             if (flag) reactionsTable.Columns["action"].Visible = false;
             using (var context = new VaccineCalendarContext())
             {
                 List<ReactionOnVaccination> reactions = context.Reactions
-                    .Where(r => r.VaccinationId == id)
-                    .ToList();
+                    .Where(r => r.VaccinationId == id).ToList();
                 if (reactions.Count != 0)
                 {
                     foreach (ReactionOnVaccination r in reactions)
@@ -42,8 +41,9 @@ namespace App
                 }
                 else
                 {
-                    MessageBox.Show("Нет реакций на данную вакцинацию");
+                    MessageBox.Show("Нет реакций на данную вакцинацию!", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Close();
+                    return;
                 }
             }
         }
@@ -52,7 +52,6 @@ namespace App
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == reactionsTable.Columns["action"].Index)
             {
-
                 if (reactionsTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
                     using (var context = new VaccineCalendarContext())
@@ -61,13 +60,17 @@ namespace App
 
                         ReactionOnVaccination? reaction = context.Reactions
                             .Where(r => r.ReactionId == Guid.Parse(reactionsTable.Rows[e.RowIndex].Cells["idr"].Value.ToString()))
-                            .FirstOrDefault();
+                                .FirstOrDefault();
                         if (reaction != null) service.DeleteReactionOnVaccination(reaction);
-                        reactionsTable.Rows.Clear();
                         Init();
                     }
                 }
             }
+        }
+
+        private void ReactionsForm_Load(object sender, EventArgs e)
+        {
+            Init();
         }
     }
 }

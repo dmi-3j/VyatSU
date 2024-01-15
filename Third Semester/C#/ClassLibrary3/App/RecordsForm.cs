@@ -27,32 +27,40 @@ namespace App
                 choiceOrganizationComboBox.DataSource = medicalOrganization;
                 choiceOrganizationComboBox.DisplayMember = "OrganizationName";
                 choiceOrganizationComboBox.ValueMember = "OrganizationId";
-
+                choiceOrganizationComboBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                choiceOrganizationComboBox.AutoCompleteSource = AutoCompleteSource.ListItems;
             }
         }
 
         private void displayButton_Click(object sender, EventArgs e)
         {
             recordsTable.Rows.Clear();
+            if (choiceOrganizationComboBox.SelectedItem == null)
+            {
+                MessageBox.Show("Необходимо выбрать медицинскую организацию");
+                return;
+            }
             Guid? organizationId = (Guid?)choiceOrganizationComboBox.SelectedValue;
             using (var context = new VaccineCalendarContext())
             {
-
+                DBService service = new DBService(context);
                 List<RecordToVaccination> records = context.Records
                     .Where(r => r.OrganizationId == organizationId)
                     .ToList();
                 foreach (RecordToVaccination record in records)
                 {
-                    if (record.RecordDate < DateTime.Now.Date) continue;
+                    if (record.RecordDate < DateTime.Now.Date)
+                    {
+                        service.DeleteRecordToVaccination(record);
+                        continue;
+                    }
                     string recordDate = record.RecordDate.ToString("yyyy-MM-dd");
                     Vaccine? vaccine = context.Vaccines
-                    .Where(v => v.VaccineId == record.VaccineId)
-                    .FirstOrDefault();
+                        .FirstOrDefault(v => v.VaccineId == record.VaccineId);
                     string vaccineName = vaccine.VaccineName;
 
                     Vaccinated? vaccinated = context.Vaccinated
-                        .Where(v => v.Id == record.VaccinatedId)
-                        .FirstOrDefault();
+                        .FirstOrDefault(v => v.Id == record.VaccinatedId);
 
                     string id = record.RecordId.ToString();
                     string firstName = vaccinated.FirstName;
@@ -69,20 +77,16 @@ namespace App
 
         private void recordsTable_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
             if (e.RowIndex >= 0 && e.ColumnIndex == recordsTable.Columns["action"].Index)
             {
-
                 if (recordsTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
                     using (var context = new VaccineCalendarContext())
                     {
                         DBService service = new DBService(context);
-                        
-
                         RecordToVaccination? record = context.Records
                             .Where(r => r.RecordId == Guid.Parse(recordsTable.Rows[e.RowIndex].Cells["RecordId"].Value.ToString()))
-                            .FirstOrDefault();
+                                .FirstOrDefault();
                         if (record != null) service.DeleteRecordToVaccination(record);
                         displayButton_Click(sender, e);
                     }

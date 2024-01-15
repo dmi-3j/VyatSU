@@ -22,7 +22,7 @@ namespace App
         private void findButton_Click(object sender, EventArgs e)
         {
             string inshuranceNumber = "";
-            if (Regex.IsMatch(inshuranceNumberTextBox.Text, @"^\d{16}$"))
+            if (!string.IsNullOrWhiteSpace(inshuranceNumberTextBox.Text.Trim()) && Regex.IsMatch(inshuranceNumberTextBox.Text, @"^\d{16}$"))
             {
                 inshuranceNumber = inshuranceNumberTextBox.Text.Trim();
                 using (var context = new VaccineCalendarContext())
@@ -30,7 +30,7 @@ namespace App
                     Vaccinated? vaccinated = context.Vaccinated
                         .Where(v => v.InshuranceNumber.Equals(inshuranceNumber))
                         .FirstOrDefault();
-                    if(vaccinated == null)
+                    if (vaccinated == null)
                     {
                         MessageBox.Show($"Пользователь с таким полисом ОМС не найден.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
@@ -38,7 +38,6 @@ namespace App
                     else
                     {
                         Guid vaccinatedId = vaccinated.Id;
-
                         UserInfoForm userInfoForm = new UserInfoForm(vaccinatedId);
                         this.Close();
                         userInfoForm.Show();
@@ -48,7 +47,7 @@ namespace App
             }
             else
             {
-                MessageBox.Show($"Введите корректный номер полиса ОМС", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Введите корректный номер полиса ОМС (16 цифр)", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -153,13 +153,18 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(724, 448);
+            ClientSize = new Size(724, 437);
             Controls.Add(label2);
             Controls.Add(nameLabel);
             Controls.Add(label1);
             Controls.Add(addVaccinationButton);
             Controls.Add(vaccinationTable);
+            MaximizeBox = false;
+            MaximumSize = new Size(740, 476);
+            MinimumSize = new Size(740, 476);
             Name = "UserInfoForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о пользователе";
             ((System.ComponentModel.ISupportInitialize)vaccinationTable).EndInit();
             ResumeLayout(false);

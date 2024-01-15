@@ -52,7 +52,7 @@
             // 
             serialLabel.AutoSize = true;
             serialLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            serialLabel.Location = new Point(285, 32);
+            serialLabel.Location = new Point(285, 23);
             serialLabel.Name = "serialLabel";
             serialLabel.Size = new Size(146, 21);
             serialLabel.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             vaccineLabel.AutoSize = true;
             vaccineLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            vaccineLabel.Location = new Point(285, 77);
+            vaccineLabel.Location = new Point(285, 59);
             vaccineLabel.Name = "vaccineLabel";
             vaccineLabel.Size = new Size(71, 21);
             vaccineLabel.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             medorgLabel.AutoSize = true;
             medorgLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            medorgLabel.Location = new Point(285, 113);
+            medorgLabel.Location = new Point(285, 95);
             medorgLabel.Name = "medorgLabel";
             medorgLabel.Size = new Size(205, 21);
             medorgLabel.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 32);
+            label1.Location = new Point(12, 23);
             label1.Name = "label1";
             label1.Size = new Size(149, 21);
             label1.TabIndex = 3;
@@ -92,7 +92,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(12, 71);
+            label2.Location = new Point(12, 53);
             label2.Name = "label2";
             label2.Size = new Size(74, 21);
             label2.TabIndex = 4;
@@ -102,7 +102,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(12, 107);
+            label3.Location = new Point(12, 89);
             label3.Name = "label3";
             label3.Size = new Size(208, 21);
             label3.TabIndex = 5;
@@ -132,7 +132,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(12, 164);
+            label4.Location = new Point(12, 138);
             label4.Name = "label4";
             label4.Size = new Size(210, 21);
             label4.TabIndex = 8;
@@ -144,11 +144,11 @@
             componentsInfoTable.AllowUserToDeleteRows = false;
             componentsInfoTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             componentsInfoTable.Columns.AddRange(new DataGridViewColumn[] { nameOfComponent, structureOfComponent, typeOfComponent, interevalOfComponents, dateOfVaccinationComponent });
-            componentsInfoTable.Location = new Point(12, 188);
+            componentsInfoTable.Location = new Point(12, 162);
             componentsInfoTable.Name = "componentsInfoTable";
             componentsInfoTable.RowHeadersVisible = false;
             componentsInfoTable.RowTemplate.Height = 25;
-            componentsInfoTable.Size = new Size(503, 146);
+            componentsInfoTable.Size = new Size(503, 169);
             componentsInfoTable.TabIndex = 9;
             // 
             // nameOfComponent
@@ -218,7 +218,12 @@
             Controls.Add(medorgLabel);
             Controls.Add(vaccineLabel);
             Controls.Add(serialLabel);
+            MaximizeBox = false;
+            MaximumSize = new Size(548, 454);
+            MinimumSize = new Size(548, 454);
             Name = "VaccinationInfoForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о вакцинации";
             ((System.ComponentModel.ISupportInitialize)componentsInfoTable).EndInit();
             ResumeLayout(false);

@@ -101,7 +101,12 @@
             Controls.Add(logoutButton);
             Controls.Add(addOrganizationButton);
             Controls.Add(statusStrip);
+            MaximizeBox = false;
+            MaximumSize = new Size(343, 229);
+            MinimumSize = new Size(343, 229);
             Name = "AdminForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Администрирование";
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();

@@ -26,7 +26,12 @@ namespace App
             {
                 try
                 {
-                    string reaction = reactionTextBox.Text;
+                    if (string.IsNullOrWhiteSpace(reactionTextBox.Text.Trim()))
+                    {
+                        MessageBox.Show($"Текст реакции не может быть пустым.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    string reaction = reactionTextBox.Text.Trim();
                     ReactionOnVaccination reactionOnVaccination = new ReactionOnVaccination();
                     reactionOnVaccination.DescriptionOfReaction = reaction;
                     reactionOnVaccination.DateOfReaction = DateTime.Now.Date;
@@ -35,7 +40,6 @@ namespace App
                     DBService service = new DBService(context);
                     service.AddReactionOnVaccination(reactionOnVaccination);
                     MessageBox.Show("Реакция успешно добавлена!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                     this.Close();
                 }
                 catch (Exception ex)

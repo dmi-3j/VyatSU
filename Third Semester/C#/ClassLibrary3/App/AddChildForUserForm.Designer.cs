@@ -37,7 +37,9 @@
             lastNameTextBox = new TextBox();
             firstNameTextBox = new TextBox();
             middleNameTextBox = new TextBox();
-            DoBTextBox = new TextBox();
+            label6 = new Label();
+            insNumTextBox = new TextBox();
+            dobPicker = new DateTimePicker();
             SuspendLayout();
             // 
             // addButton
@@ -121,19 +123,39 @@
             middleNameTextBox.Size = new Size(151, 23);
             middleNameTextBox.TabIndex = 8;
             // 
-            // DoBTextBox
+            // label6
             // 
-            DoBTextBox.Location = new Point(142, 149);
-            DoBTextBox.Name = "DoBTextBox";
-            DoBTextBox.Size = new Size(151, 23);
-            DoBTextBox.TabIndex = 9;
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(12, 186);
+            label6.Name = "label6";
+            label6.Size = new Size(97, 21);
+            label6.TabIndex = 10;
+            label6.Text = "Полис ОМС:";
+            // 
+            // insNumTextBox
+            // 
+            insNumTextBox.Location = new Point(142, 184);
+            insNumTextBox.Name = "insNumTextBox";
+            insNumTextBox.Size = new Size(151, 23);
+            insNumTextBox.TabIndex = 11;
+            // 
+            // dobPicker
+            // 
+            dobPicker.Location = new Point(142, 150);
+            dobPicker.MaxDate = new DateTime(2025, 12, 31, 0, 0, 0, 0);
+            dobPicker.Name = "dobPicker";
+            dobPicker.Size = new Size(151, 23);
+            dobPicker.TabIndex = 12;
             // 
             // AddChildForUserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(305, 274);
-            Controls.Add(DoBTextBox);
+            Controls.Add(dobPicker);
+            Controls.Add(insNumTextBox);
+            Controls.Add(label6);
             Controls.Add(middleNameTextBox);
             Controls.Add(firstNameTextBox);
             Controls.Add(lastNameTextBox);
@@ -143,7 +165,12 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(addButton);
+            MaximizeBox = false;
+            MaximumSize = new Size(321, 313);
+            MinimumSize = new Size(321, 313);
             Name = "AddChildForUserForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавить ребёнка";
             ResumeLayout(false);
             PerformLayout();
@@ -160,6 +187,8 @@
         private TextBox lastNameTextBox;
         private TextBox firstNameTextBox;
         private TextBox middleNameTextBox;
-        private TextBox DoBTextBox;
+        private Label label6;
+        private TextBox insNumTextBox;
+        private DateTimePicker dobPicker;
     }
 }

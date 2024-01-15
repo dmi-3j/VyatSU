@@ -30,8 +30,7 @@ namespace App
                     {
                         UserForm userForm = new UserForm(loginForm.AuthenticatedUser);
                         Application.Run(userForm);
-                    }
-                    
+                    }   
                 }
             }
         }

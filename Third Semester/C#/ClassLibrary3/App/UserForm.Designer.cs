@@ -29,13 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserForm));
-            menuStrip1 = new MenuStrip();
-            файлToolStripMenuItem = new ToolStripMenuItem();
-            справкаToolStripMenuItem = new ToolStripMenuItem();
             statusStrip = new StatusStrip();
             userNameLabel = new ToolStripStatusLabel();
             tabControl1 = new TabControl();
             profileTab = new TabPage();
+            inshuranceNumberLabel = new Label();
+            label3 = new Label();
             updateUserDataButton = new Button();
             addChildForUserButton = new Button();
             logoutButton = new Button();
@@ -71,9 +70,6 @@
             medicalOrganization = new DataGridViewTextBoxColumn();
             fllagChildIsDone = new DataGridViewTextBoxColumn();
             infoChildVaccinaton = new DataGridViewButtonColumn();
-            label3 = new Label();
-            inshuranceNumberLabel = new Label();
-            menuStrip1.SuspendLayout();
             statusStrip.SuspendLayout();
             tabControl1.SuspendLayout();
             profileTab.SuspendLayout();
@@ -83,27 +79,6 @@
             childVaccinationTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)childVaccinationTable).BeginInit();
             SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { файлToolStripMenuItem, справкаToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(904, 24);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // файлToolStripMenuItem
-            // 
-            файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            файлToolStripMenuItem.Size = new Size(48, 20);
-            файлToolStripMenuItem.Text = "Файл";
-            // 
-            // справкаToolStripMenuItem
-            // 
-            справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            справкаToolStripMenuItem.Size = new Size(65, 20);
-            справкаToolStripMenuItem.Text = "Справка";
             // 
             // statusStrip
             // 
@@ -124,10 +99,10 @@
             tabControl1.Controls.Add(profileTab);
             tabControl1.Controls.Add(userVaccinationTab);
             tabControl1.Controls.Add(childVaccinationTab);
-            tabControl1.Location = new Point(0, 27);
+            tabControl1.Location = new Point(0, 1);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(904, 475);
+            tabControl1.Size = new Size(904, 501);
             tabControl1.TabIndex = 5;
             // 
             // profileTab
@@ -147,14 +122,34 @@
             profileTab.Controls.Add(profilePicture);
             profileTab.Location = new Point(4, 24);
             profileTab.Name = "profileTab";
-            profileTab.Size = new Size(896, 447);
+            profileTab.Size = new Size(896, 473);
             profileTab.TabIndex = 3;
             profileTab.Text = "Профиль";
             profileTab.UseVisualStyleBackColor = true;
             // 
+            // inshuranceNumberLabel
+            // 
+            inshuranceNumberLabel.AutoSize = true;
+            inshuranceNumberLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            inshuranceNumberLabel.Location = new Point(280, 314);
+            inshuranceNumberLabel.Name = "inshuranceNumberLabel";
+            inshuranceNumberLabel.Size = new Size(61, 30);
+            inshuranceNumberLabel.TabIndex = 12;
+            inshuranceNumberLabel.Text = "ОМС";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(32, 314);
+            label3.Name = "label3";
+            label3.Size = new Size(211, 30);
+            label3.TabIndex = 11;
+            label3.Text = "Номер полиса ОМС:";
+            // 
             // updateUserDataButton
             // 
-            updateUserDataButton.Location = new Point(358, 411);
+            updateUserDataButton.Location = new Point(358, 428);
             updateUserDataButton.Name = "updateUserDataButton";
             updateUserDataButton.Size = new Size(167, 33);
             updateUserDataButton.TabIndex = 10;
@@ -164,7 +159,7 @@
             // 
             // addChildForUserButton
             // 
-            addChildForUserButton.Location = new Point(531, 411);
+            addChildForUserButton.Location = new Point(531, 428);
             addChildForUserButton.Name = "addChildForUserButton";
             addChildForUserButton.Size = new Size(212, 33);
             addChildForUserButton.TabIndex = 9;
@@ -174,7 +169,7 @@
             // 
             // logoutButton
             // 
-            logoutButton.Location = new Point(749, 411);
+            logoutButton.Location = new Point(749, 428);
             logoutButton.Name = "logoutButton";
             logoutButton.Size = new Size(139, 33);
             logoutButton.TabIndex = 8;
@@ -269,14 +264,14 @@
             userVaccinationTab.Location = new Point(4, 24);
             userVaccinationTab.Name = "userVaccinationTab";
             userVaccinationTab.Padding = new Padding(3);
-            userVaccinationTab.Size = new Size(896, 447);
+            userVaccinationTab.Size = new Size(896, 473);
             userVaccinationTab.TabIndex = 1;
             userVaccinationTab.Text = "Мои вакцинации";
             userVaccinationTab.UseVisualStyleBackColor = true;
             // 
             // addUserRecordToVaccination
             // 
-            addUserRecordToVaccination.Location = new Point(699, 409);
+            addUserRecordToVaccination.Location = new Point(699, 426);
             addUserRecordToVaccination.Name = "addUserRecordToVaccination";
             addUserRecordToVaccination.Size = new Size(175, 32);
             addUserRecordToVaccination.TabIndex = 6;
@@ -359,14 +354,14 @@
             childVaccinationTab.Controls.Add(childVaccinationTable);
             childVaccinationTab.Location = new Point(4, 24);
             childVaccinationTab.Name = "childVaccinationTab";
-            childVaccinationTab.Size = new Size(896, 447);
+            childVaccinationTab.Size = new Size(896, 473);
             childVaccinationTab.TabIndex = 2;
             childVaccinationTab.Text = "Вакцинации моих детей";
             childVaccinationTab.UseVisualStyleBackColor = true;
             // 
             // addChildRecordButton
             // 
-            addChildRecordButton.Location = new Point(685, 397);
+            addChildRecordButton.Location = new Point(685, 425);
             addChildRecordButton.Name = "addChildRecordButton";
             addChildRecordButton.Size = new Size(203, 36);
             addChildRecordButton.TabIndex = 9;
@@ -460,26 +455,6 @@
             infoChildVaccinaton.Text = "Подробнее";
             infoChildVaccinaton.UseColumnTextForButtonValue = true;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(32, 314);
-            label3.Name = "label3";
-            label3.Size = new Size(211, 30);
-            label3.TabIndex = 11;
-            label3.Text = "Номер полиса ОМС:";
-            // 
-            // inshuranceNumberLabel
-            // 
-            inshuranceNumberLabel.AutoSize = true;
-            inshuranceNumberLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            inshuranceNumberLabel.Location = new Point(280, 314);
-            inshuranceNumberLabel.Name = "inshuranceNumberLabel";
-            inshuranceNumberLabel.Size = new Size(61, 30);
-            inshuranceNumberLabel.TabIndex = 12;
-            inshuranceNumberLabel.Text = "ОМС";
-            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -487,12 +462,12 @@
             ClientSize = new Size(904, 527);
             Controls.Add(tabControl1);
             Controls.Add(statusStrip);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
+            MaximizeBox = false;
+            MaximumSize = new Size(920, 566);
+            MinimumSize = new Size(920, 566);
             Name = "UserForm";
+            ShowIcon = false;
             Text = "Вакцинации";
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();
             tabControl1.ResumeLayout(false);
@@ -508,12 +483,8 @@
         }
 
         #endregion
-
-        private MenuStrip menuStrip1;
         private StatusStrip statusStrip;
         private ToolStripStatusLabel userNameLabel;
-        private ToolStripMenuItem файлToolStripMenuItem;
-        private ToolStripMenuItem справкаToolStripMenuItem;
         private TabControl tabControl1;
         private TabPage userVaccinationTab;
         private TabPage childVaccinationTab;

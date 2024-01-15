@@ -29,11 +29,11 @@ namespace App
             using (var context = new VaccineCalendarContext())
             {
                 if (flag) addReactionButton.Visible = false;
+
                 Vaccination? vaccination = context.Vaccinations
-                    .Include(v => v.Vaccine)  // Включаем данные о вакцине
-                    .Include(v => v.MedicalOrganization)  // Включаем данные о медицинской организации
-                    .Where(v => v.VaccinationId == vaccinationId)
-                    .FirstOrDefault();
+                    .Include(v => v.Vaccine)
+                        .Include(v => v.MedicalOrganization)
+                            .FirstOrDefault(v => v.VaccinationId == vaccinationId);
                 vaccineId = vaccination.Vaccine.VaccineId;
 
                 serialLabel.Text = vaccination.Serial;
@@ -41,9 +41,9 @@ namespace App
                 medorgLabel.Text = vaccination.MedicalOrganization.OrganizationName;
 
                 List<CompleteVaccineComponent> completeVaccineComponents = context.CompleteVaccineComponents
-                    .Include(cvc => cvc.VaccineComponent) // Включаем данные о компоненте
-                     .Where(cvc => cvc.VaccinationId == vaccinationId)
-                     .ToList();
+                    .Include(cvc => cvc.VaccineComponent)
+                        .Where(cvc => cvc.VaccinationId == vaccinationId).ToList();
+
                 foreach (var component in completeVaccineComponents)
                 {
                     string componentName = component.VaccineComponent.Name;
@@ -52,9 +52,7 @@ namespace App
                     string componentInterval = component.VaccineComponent.IntervalOfComponent;
                     string date = component.VaccinationDate.Date.ToString("yyyy-MM-dd");
                     componentsInfoTable.Rows.Add(componentName, componentStructure, componentType, componentInterval, date);
-
                 }
-
             }
         }
 
@@ -63,9 +61,8 @@ namespace App
             using (var context = new VaccineCalendarContext())
             {
                 Vaccination? vaccination = context.Vaccinations
-                    .Include(v => v.MedicalOrganization)  // Включаем данные о медицинской организации
-                    .Where(v => v.VaccinationId == vaccinationId)
-                    .FirstOrDefault();
+                    .Include(v => v.MedicalOrganization)
+                        .FirstOrDefault(v => v.VaccinationId == vaccinationId);
 
                 MedicalOrganization? medicalOrganization = context.MedicalOrganizations
                     .FirstOrDefault(m => m.OrganizationId == vaccination.MedicalOrganization.OrganizationId);
@@ -75,7 +72,6 @@ namespace App
                     infoForm.ShowDialog();
                 }
             }
-
         }
 
         private void addReactionButton_Click(object sender, EventArgs e)

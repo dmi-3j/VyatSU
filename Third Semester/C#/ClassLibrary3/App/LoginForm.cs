@@ -18,13 +18,13 @@ namespace App
         public User AuthenticatedUser { get; private set; }
 
         private VaccineCalendarContext context = new VaccineCalendarContext();
-        
+
 
         public LoginForm()
         {
             InitializeComponent();
         }
-     
+
         private void loginButton_Click(object sender, EventArgs e)
         {
             string username = loginField.Text;

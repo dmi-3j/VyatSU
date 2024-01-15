@@ -16,8 +16,6 @@ namespace App
 
     public partial class UserForm : Form
     {
-
-
         private vaccinecalend.User currentUser;
         public UserForm(vaccinecalend.User user)
         {
@@ -33,8 +31,8 @@ namespace App
             using (var context = new VaccineCalendarContext())
             {
                 var userWithChilds = context.Users
-                .Include(u => u.Children)
-                .FirstOrDefault(u => u.Id == currentUser.Id);
+                    .Include(u => u.Children)
+                        .FirstOrDefault(u => u.Id == currentUser.Id);
                 if (userWithChilds.Children.Count == 0) tabControl1.TabPages.Remove(childVaccinationTab);
                 InitChildVaccinationTab();
             }
@@ -48,21 +46,23 @@ namespace App
             addressLabel.Text = currentUser.Address;
             inshuranceNumberLabel.Text = currentUser.InshuranceNumber.ToString();
         }
-        private void InitUserVaccinationTab()
+
+        private void GetVaccinationsForTab(Guid id, DataGridView dataGridView)
         {
             using (VaccineCalendarContext context = new())
             {
-                var userWithVaccinations = context.Users
+                var vaccinatedWithVaccinations = context.Vaccinated
                     .Include(u => u.VaccinationDiary)
-                    .ThenInclude(vd => vd.Vaccinations)
-                    .ThenInclude(w => w.Vaccine)
+                        .ThenInclude(vd => vd.Vaccinations)
+                            .ThenInclude(w => w.Vaccine)
                     .Include(u => u.VaccinationDiary)
-                    .ThenInclude(vd => vd.Vaccinations)
-                    .ThenInclude(m => m.MedicalOrganization)
-                    .FirstOrDefault(u => u.Id == currentUser.Id);
-                if (userWithVaccinations != null)
+                        .ThenInclude(vd => vd.Vaccinations)
+                            .ThenInclude(m => m.MedicalOrganization)
+                    .FirstOrDefault(u => u.Id == id);
+
+                if (vaccinatedWithVaccinations != null)
                 {
-                    var vaccinationDiary = userWithVaccinations.VaccinationDiary;
+                    var vaccinationDiary = vaccinatedWithVaccinations.VaccinationDiary;
                     if (vaccinationDiary != null)
                     {
                         foreach (var vaccinationItem in vaccinationDiary)
@@ -73,43 +73,40 @@ namespace App
                                 string serial = v.Serial;
                                 string vaccineName = v.Vaccine.VaccineName;
                                 int cntOfCompleteComponents = context.CompleteVaccineComponents
-                                    .Where(cvc => cvc.VaccinationId == v.VaccinationId)
-                                    .Count();
+                                    .Where(cvc => cvc.VaccinationId == v.VaccinationId).Count();
                                 int cntOfAllComponents = context.Components
-                                    .Where(c => c.VaccineId == v.VaccineId)
-                                    .Count();
+                                    .Where(c => c.VaccineId == v.VaccineId).Count();
                                 string countOfCompleteComponents = $"{cntOfCompleteComponents} / {cntOfAllComponents}";
                                 DateTime date = context.CompleteVaccineComponents
                                     .Where(cvc => cvc.VaccinationId == v.VaccinationId)
-                                    .Select(cvc => cvc.VaccinationDate)
-                                    .Max();
+                                        .Select(cvc => cvc.VaccinationDate).Max();
                                 string dateOfLastComponent = date.Date.ToString("yyyy-MM-dd");
-                                var lastComponent = context.CompleteVaccineComponents
+                                var lastComponentId = context.CompleteVaccineComponents
                                     .Where(cvc => cvc.VaccinationId == v.VaccinationId)
-                                    .OrderByDescending(cvc => cvc.VaccinationDate)
-                                    .Select(cvc => cvc.VaccineComponent.ComponentId)
-                                    .FirstOrDefault();
-
+                                        .OrderByDescending(cvc => cvc.VaccinationDate)
+                                            .Select(cvc => cvc.VaccineComponent.ComponentId).FirstOrDefault();
                                 string? interval = context.Components
-                                    .Where(c => c.ComponentId == lastComponent)
-                                    .Select(c => c.IntervalOfComponent)
-                                    .FirstOrDefault();
+                                    .Where(c => c.ComponentId == lastComponentId)
+                                        .Select(c => c.IntervalOfComponent).FirstOrDefault();
                                 if (cntOfAllComponents == cntOfCompleteComponents) interval = v.TimeInterval;
                                 DateTime recommendNextDate = AddInterval(date, interval);
                                 string nextRecommendDate = recommendNextDate.Date.ToString("yyyy-MM-dd");
-
                                 string medicalOrganization = v.MedicalOrganization.OrganizationName;
                                 string flag = "Нет";
                                 if (v.FlagIsDone == true) flag = "Да";
-                                userVaccinationTable.Rows.Add(serial, vaccineName, countOfCompleteComponents, dateOfLastComponent, nextRecommendDate, medicalOrganization, flag);
+                                dataGridView.Rows.Add(serial, vaccineName, countOfCompleteComponents, dateOfLastComponent, nextRecommendDate, medicalOrganization, flag);
                             }
                         }
                     }
                 }
             }
         }
+        private void InitUserVaccinationTab()
+        {
+            GetVaccinationsForTab(currentUser.Id, userVaccinationTable);
+        }
 
-        private static DateTime AddInterval(DateTime startDate, string intervalString)
+        private static DateTime AddInterval(DateTime startDate, string? intervalString)
         {
             if (intervalString == null) return startDate + TimeSpan.FromDays(0);
             int intervalValue = int.Parse(intervalString.Split(' ')[0]);
@@ -145,7 +142,7 @@ namespace App
             {
                 var userWithChildren = context.Users
                     .Include(u => u.Children)
-                    .FirstOrDefault(u => u.Id == currentUser.Id);
+                        .FirstOrDefault(u => u.Id == currentUser.Id);
 
                 if (userWithChildren != null)
                 {
@@ -162,68 +159,13 @@ namespace App
             userNameLabel.Alignment = ToolStripItemAlignment.Right;
         }
 
-
         private void displayButton_Click(object sender, EventArgs e)
         {
-            Child selectedChild = (Child)childChoiceComboBox.SelectedItem;
+            Vaccinated selectedChild = (Vaccinated)childChoiceComboBox.SelectedItem;
             if (selectedChild != null)
             {
-                using (VaccineCalendarContext context = new())
-                {
-                    var childWithVaccinations = context.Childs
-                        .Include(c => c.VaccinationDiary)
-                            .ThenInclude(vd => vd.Vaccinations)
-                                .ThenInclude(w => w.Vaccine)
-                        .Include(c => c.VaccinationDiary)
-                            .ThenInclude(vd => vd.Vaccinations)
-                                .ThenInclude(m => m.MedicalOrganization)
-                        .FirstOrDefault(c => c.Id == selectedChild.Id);
-
-                    if (childWithVaccinations != null)
-                    {
-                        childVaccinationTable.Rows.Clear();
-
-                        foreach (var vaccinationItem in childWithVaccinations.VaccinationDiary)
-                        {
-                            foreach (var v in vaccinationItem.Vaccinations)
-                            {
-                                string serial = v.Serial;
-                                string vaccineName = v.Vaccine.VaccineName;
-                                int cntOfCompleteComponents = context.CompleteVaccineComponents
-                                    .Where(cvc => cvc.VaccinationId == v.VaccinationId)
-                                    .Count();
-                                int cntOfAllComponents = context.Components
-                                    .Where(c => c.VaccineId == v.VaccineId)
-                                    .Count();
-                                string countOfCompleteComponents = $"{cntOfCompleteComponents} / {cntOfAllComponents}";
-                                DateTime date = context.CompleteVaccineComponents
-                                    .Where(cvc => cvc.VaccinationId == v.VaccinationId)
-                                    .Select(cvc => cvc.VaccinationDate)
-                                    .Max();
-                                string dateOfLastComponent = date.Date.ToString("yyyy-MM-dd");
-                                var lastComponent = context.CompleteVaccineComponents
-                                    .Where(cvc => cvc.VaccinationId == v.VaccinationId)
-                                    .OrderByDescending(cvc => cvc.VaccinationDate)
-                                    .Select(cvc => cvc.VaccineComponent.ComponentId)
-                                    .FirstOrDefault();
-
-                                string? interval = context.Components
-                                    .Where(c => c.ComponentId == lastComponent)
-                                    .Select(c => c.IntervalOfComponent)
-                                    .FirstOrDefault();
-
-                                DateTime recommendNextDate = AddInterval(date, interval);
-                                string nextRecommendDate = recommendNextDate.Date.ToString("yyyy-MM-dd");
-
-                                string medicalOrganization = v.MedicalOrganization.OrganizationName;
-                                string flag = "Нет";
-                                if (v.FlagIsDone == true) flag = "Да";
-                                childVaccinationTable.Rows.Add(serial, vaccineName, countOfCompleteComponents, dateOfLastComponent, nextRecommendDate, medicalOrganization, flag);
-
-                            }
-                        }
-                    }
-                }
+                childVaccinationTable.Rows.Clear();
+                GetVaccinationsForTab(selectedChild.Id, childVaccinationTable);
             }
         }
 
@@ -236,15 +178,13 @@ namespace App
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == userVaccinationTable.Columns["infoVaccinaton"].Index)
             {
-
                 if (userVaccinationTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
                     using (var context = new VaccineCalendarContext())
                     {
                         Guid vaccinationId = context.Vaccinations
                             .Where(v => v.Serial == userVaccinationTable.Rows[e.RowIndex].Cells["VaccinationSerial"].Value.ToString())
-                            .Select(v => v.VaccinationId)
-                            .FirstOrDefault();
+                                .Select(v => v.VaccinationId).FirstOrDefault();
                         VaccinationInfoForm infoForm = new VaccinationInfoForm(vaccinationId, false);
                         infoForm.ShowDialog();
                     }
@@ -258,8 +198,6 @@ namespace App
             childForUser.ShowDialog();
             InitChildVaccinationTab();
             if (!tabControl1.TabPages.Contains(childVaccinationTab)) tabControl1.TabPages.Add(childVaccinationTab);
-
-
         }
 
         private void updateUserDataButton_Click(object sender, EventArgs e)
@@ -286,16 +224,13 @@ namespace App
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == childVaccinationTable.Columns["infoChildVaccinaton"].Index)
             {
-
                 if (childVaccinationTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
-
                     using (var context = new VaccineCalendarContext())
                     {
                         Guid vaccinationId = context.Vaccinations
                             .Where(v => v.Serial == childVaccinationTable.Rows[e.RowIndex].Cells["childVaccinationSerial"].Value.ToString())
-                            .Select(v => v.VaccinationId)
-                            .FirstOrDefault();
+                                .Select(v => v.VaccinationId).FirstOrDefault();
                         VaccinationInfoForm infoForm = new VaccinationInfoForm(vaccinationId, false);
                         infoForm.ShowDialog();
                     }

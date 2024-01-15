@@ -42,7 +42,6 @@
             lastNameTextBox = new TextBox();
             firstNameTextBox = new TextBox();
             middleNameTextBox = new TextBox();
-            DoBTextBox = new TextBox();
             addressTextBox = new TextBox();
             phoneTextBox = new TextBox();
             loginTextBox = new TextBox();
@@ -50,6 +49,7 @@
             roleComboBox = new ComboBox();
             label11 = new Label();
             inshuranceNumberTextBox = new TextBox();
+            dobPicker = new DateTimePicker();
             SuspendLayout();
             // 
             // label1
@@ -183,13 +183,6 @@
             middleNameTextBox.Size = new Size(246, 23);
             middleNameTextBox.TabIndex = 13;
             // 
-            // DoBTextBox
-            // 
-            DoBTextBox.Location = new Point(216, 160);
-            DoBTextBox.Name = "DoBTextBox";
-            DoBTextBox.Size = new Size(246, 23);
-            DoBTextBox.TabIndex = 14;
-            // 
             // addressTextBox
             // 
             addressTextBox.Location = new Point(216, 195);
@@ -246,11 +239,20 @@
             inshuranceNumberTextBox.Size = new Size(246, 23);
             inshuranceNumberTextBox.TabIndex = 21;
             // 
+            // dobPicker
+            // 
+            dobPicker.Location = new Point(218, 162);
+            dobPicker.MinDate = new DateTime(1913, 1, 1, 0, 0, 0, 0);
+            dobPicker.Name = "dobPicker";
+            dobPicker.Size = new Size(244, 23);
+            dobPicker.TabIndex = 22;
+            // 
             // AddUserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(488, 516);
+            Controls.Add(dobPicker);
             Controls.Add(inshuranceNumberTextBox);
             Controls.Add(label11);
             Controls.Add(roleComboBox);
@@ -258,7 +260,6 @@
             Controls.Add(loginTextBox);
             Controls.Add(phoneTextBox);
             Controls.Add(addressTextBox);
-            Controls.Add(DoBTextBox);
             Controls.Add(middleNameTextBox);
             Controls.Add(firstNameTextBox);
             Controls.Add(lastNameTextBox);
@@ -273,7 +274,12 @@
             Controls.Add(label2);
             Controls.Add(addButton);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MaximumSize = new Size(504, 555);
+            MinimumSize = new Size(504, 555);
             Name = "AddUserForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление пользователя";
             ResumeLayout(false);
             PerformLayout();
@@ -295,7 +301,6 @@
         private TextBox lastNameTextBox;
         private TextBox firstNameTextBox;
         private TextBox middleNameTextBox;
-        private TextBox DoBTextBox;
         private TextBox addressTextBox;
         private TextBox phoneTextBox;
         private TextBox loginTextBox;
@@ -303,5 +308,6 @@
         private ComboBox roleComboBox;
         private Label label11;
         private TextBox inshuranceNumberTextBox;
+        private DateTimePicker dobPicker;
     }
 }

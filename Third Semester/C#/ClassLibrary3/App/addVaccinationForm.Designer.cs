@@ -172,7 +172,12 @@
             Controls.Add(resetButton);
             Controls.Add(addButton);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MaximumSize = new Size(636, 389);
+            MinimumSize = new Size(636, 389);
             Name = "addVaccinationForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление вакцинации";
             vaccineGroup.ResumeLayout(false);
             vaccineGroup.PerformLayout();

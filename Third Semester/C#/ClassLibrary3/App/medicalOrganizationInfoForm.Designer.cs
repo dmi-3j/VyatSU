@@ -86,7 +86,12 @@
             Controls.Add(phoneLabel);
             Controls.Add(addressLabel);
             Controls.Add(nameLabel);
+            MaximizeBox = false;
+            MaximumSize = new Size(605, 233);
+            MinimumSize = new Size(605, 233);
             Name = "medicalOrganizationInfoForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о медицинской организации";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

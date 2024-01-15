@@ -89,7 +89,12 @@
             Controls.Add(viewRecordsButton);
             Controls.Add(logoutButton);
             Controls.Add(statusStrip);
+            MaximizeBox = false;
+            MaximumSize = new Size(313, 203);
+            MinimumSize = new Size(313, 203);
             Name = "MedPersonalForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Медицинский работник";
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();

@@ -42,7 +42,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(89, 9);
+            label1.Location = new Point(118, 9);
             label1.Name = "label1";
             label1.Size = new Size(286, 30);
             label1.TabIndex = 0;
@@ -102,8 +102,14 @@
             ClientSize = new Size(525, 294);
             Controls.Add(reactionsTable);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MaximumSize = new Size(541, 333);
+            MinimumSize = new Size(541, 333);
             Name = "ReactionsForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Реакции";
+            Load += ReactionsForm_Load;
             ((System.ComponentModel.ISupportInitialize)reactionsTable).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -68,7 +68,12 @@
             Controls.Add(input);
             Controls.Add(label1);
             Controls.Add(okButton);
+            MaximizeBox = false;
+            MaximumSize = new Size(306, 161);
+            MinimumSize = new Size(306, 161);
             Name = "SerialInputForm";
+            ShowIcon = false;
+            SizeGripStyle = SizeGripStyle.Hide;
             Text = "Серия для новой вакцинации";
             ResumeLayout(false);
             PerformLayout();
