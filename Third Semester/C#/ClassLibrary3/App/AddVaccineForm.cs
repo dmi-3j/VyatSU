@@ -96,21 +96,25 @@ namespace App
                     }
                     using (var context = new VaccineCalendarContext())
                     {
-                        DBService service = new DBService(context);
-                        Vaccine vaccine = new Vaccine()
+                        using (var transaction = context.Database.BeginTransaction())
                         {
-                            VaccineName = vaccineName,
-                            ManufactorCountry = country,
-                            ValidPeriod = validPeriodComboBox.SelectedItem.ToString()
-                        };
-                        service.AddVaccine(vaccine);
-                        foreach (VaccineComponent component in componentsV)
-                        {
-                            component.VaccineId = vaccine.VaccineId;
-                            service.AddVaccineComponent(component);
+                            DBService service = new DBService(context);
+                            Vaccine vaccine = new Vaccine()
+                            {
+                                VaccineName = vaccineName,
+                                ManufactorCountry = country,
+                                ValidPeriod = validPeriodComboBox.SelectedItem.ToString()
+                            };
+                            service.AddVaccine(vaccine);
+                            foreach (VaccineComponent component in componentsV)
+                            {
+                                component.VaccineId = vaccine.VaccineId;
+                                service.AddVaccineComponent(component);
+                            }
+                            transaction.Commit();
+                            MessageBox.Show("Вакцина и её компоненты успешно добавлены!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Close();
                         }
-                        MessageBox.Show("Вакцина и её компоненты успешно добавлены!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Close();
                     }
                 }
                 catch (Exception ex)

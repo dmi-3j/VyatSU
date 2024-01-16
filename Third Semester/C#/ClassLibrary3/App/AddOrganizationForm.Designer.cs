@@ -125,7 +125,6 @@
             MaximumSize = new Size(340, 357);
             MinimumSize = new Size(340, 357);
             Name = "AddOrganizationForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление организации";
             ResumeLayout(false);

@@ -168,7 +168,6 @@
             MaximumSize = new Size(401, 322);
             MinimumSize = new Size(401, 322);
             Name = "UpdateUserForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "UpdateUserForm";
             ResumeLayout(false);

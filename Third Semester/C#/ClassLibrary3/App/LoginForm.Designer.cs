@@ -106,7 +106,6 @@
             MaximumSize = new Size(341, 323);
             MinimumSize = new Size(341, 323);
             Name = "LoginForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Авторизация";
             ResumeLayout(false);

@@ -37,7 +37,7 @@ namespace App
                 try
                 {
                     DBService service = new DBService(context);
-                    if(!string.IsNullOrWhiteSpace(firstNameTextBox.Text.Trim()))
+                    if (!string.IsNullOrWhiteSpace(firstNameTextBox.Text.Trim()))
                     {
                         user.FirstName = firstNameTextBox.Text.Trim();
                     }

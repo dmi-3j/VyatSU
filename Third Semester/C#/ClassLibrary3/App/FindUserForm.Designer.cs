@@ -84,7 +84,6 @@
             MaximumSize = new Size(316, 228);
             MinimumSize = new Size(316, 228);
             Name = "FindUserForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Найти пользователя";
             ResumeLayout(false);

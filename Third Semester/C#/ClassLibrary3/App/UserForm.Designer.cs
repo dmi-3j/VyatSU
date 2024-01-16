@@ -466,7 +466,6 @@
             MaximumSize = new Size(920, 566);
             MinimumSize = new Size(920, 566);
             Name = "UserForm";
-            ShowIcon = false;
             Text = "Вакцинации";
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();

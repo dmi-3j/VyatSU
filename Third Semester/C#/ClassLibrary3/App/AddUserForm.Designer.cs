@@ -278,7 +278,6 @@
             MaximumSize = new Size(504, 555);
             MinimumSize = new Size(504, 555);
             Name = "AddUserForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление пользователя";
             ResumeLayout(false);

@@ -163,7 +163,6 @@
             MaximumSize = new Size(740, 476);
             MinimumSize = new Size(740, 476);
             Name = "UserInfoForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о пользователе";
             ((System.ComponentModel.ISupportInitialize)vaccinationTable).EndInit();

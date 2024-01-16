@@ -27,13 +27,13 @@ namespace App
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            string username = loginField.Text;
+            string username = loginField.Text.Trim();
             string password = passwordField.Text;
             string hashPassword = DBService.HashPassword(password);
 
             var user = context.Users
                 .Include(u => u.UserRoles)
-                .FirstOrDefault(u => u.Username == username && u.Password == hashPassword);
+                    .FirstOrDefault(u => u.Username == username && u.Password == hashPassword);
             if (user != null)
             {
                 AuthenticatedUser = user;

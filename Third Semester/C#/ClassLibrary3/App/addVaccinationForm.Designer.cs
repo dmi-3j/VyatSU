@@ -37,11 +37,11 @@
             resetButton = new Button();
             vaccineGroup = new GroupBox();
             saveVaccineButton = new Button();
-            groupBox1 = new GroupBox();
+            componentGroup = new GroupBox();
             label4 = new Label();
             vaccineComponentComboBox = new ComboBox();
             vaccineGroup.SuspendLayout();
-            groupBox1.SuspendLayout();
+            componentGroup.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -132,15 +132,15 @@
             saveVaccineButton.UseVisualStyleBackColor = true;
             saveVaccineButton.Click += saveVaccineButton_Click;
             // 
-            // groupBox1
+            // componentGroup
             // 
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(vaccineComponentComboBox);
-            groupBox1.Location = new Point(12, 187);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(567, 62);
-            groupBox1.TabIndex = 9;
-            groupBox1.TabStop = false;
+            componentGroup.Controls.Add(label4);
+            componentGroup.Controls.Add(vaccineComponentComboBox);
+            componentGroup.Location = new Point(12, 187);
+            componentGroup.Name = "componentGroup";
+            componentGroup.Size = new Size(567, 62);
+            componentGroup.TabIndex = 9;
+            componentGroup.TabStop = false;
             // 
             // label4
             // 
@@ -165,7 +165,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(620, 350);
-            Controls.Add(groupBox1);
+            Controls.Add(componentGroup);
             Controls.Add(medOrgComboBox);
             Controls.Add(label2);
             Controls.Add(vaccineGroup);
@@ -176,13 +176,12 @@
             MaximumSize = new Size(636, 389);
             MinimumSize = new Size(636, 389);
             Name = "addVaccinationForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление вакцинации";
             vaccineGroup.ResumeLayout(false);
             vaccineGroup.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            componentGroup.ResumeLayout(false);
+            componentGroup.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -198,7 +197,7 @@
         private Button resetButton;
         private GroupBox vaccineGroup;
         private Button saveVaccineButton;
-        private GroupBox groupBox1;
+        private GroupBox componentGroup;
         private Label label4;
         private ComboBox vaccineComponentComboBox;
     }

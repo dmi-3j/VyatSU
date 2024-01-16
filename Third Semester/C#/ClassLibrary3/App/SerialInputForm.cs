@@ -21,7 +21,7 @@ namespace App
 
         private void okButton_Click(object sender, EventArgs e)
         {
-            if(!string.IsNullOrWhiteSpace(input.Text.Trim()))
+            if (!string.IsNullOrWhiteSpace(input.Text.Trim()))
             {
                 Serial = input.Text;
                 DialogResult = DialogResult.OK;

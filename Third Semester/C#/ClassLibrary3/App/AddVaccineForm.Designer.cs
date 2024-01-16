@@ -367,7 +367,6 @@
             MaximumSize = new Size(820, 777);
             MinimumSize = new Size(820, 777);
             Name = "AddVaccineForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление вакцины";
             mainInfoGroup.ResumeLayout(false);

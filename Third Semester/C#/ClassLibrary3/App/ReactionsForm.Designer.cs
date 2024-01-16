@@ -106,7 +106,6 @@
             MaximumSize = new Size(541, 333);
             MinimumSize = new Size(541, 333);
             Name = "ReactionsForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Реакции";
             Load += ReactionsForm_Load;

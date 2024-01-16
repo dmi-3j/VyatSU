@@ -131,7 +131,6 @@
             MaximumSize = new Size(490, 297);
             MinimumSize = new Size(490, 297);
             Name = "AddRecordToVaccinationForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Запись на вакцинацию";
             ResumeLayout(false);

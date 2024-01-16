@@ -93,7 +93,6 @@
             MaximumSize = new Size(313, 203);
             MinimumSize = new Size(313, 203);
             Name = "MedPersonalForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Медицинский работник";
             statusStrip.ResumeLayout(false);

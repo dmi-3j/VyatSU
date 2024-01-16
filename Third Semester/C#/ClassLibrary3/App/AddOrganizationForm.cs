@@ -29,7 +29,7 @@ namespace App
                     string organizationName = "";
                     string address = "";
                     string phoneNumber = "";
-                    if(!string.IsNullOrWhiteSpace(NameTextBox.Text.Trim()))
+                    if (!string.IsNullOrWhiteSpace(NameTextBox.Text.Trim()))
                     {
                         organizationName = NameTextBox.Text.Trim();
                     }

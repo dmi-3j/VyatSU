@@ -168,7 +168,6 @@
             MaximumSize = new Size(846, 580);
             MinimumSize = new Size(846, 580);
             Name = "RecordsForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Записи на вакцинацию";
             ((System.ComponentModel.ISupportInitialize)recordsTable).EndInit();

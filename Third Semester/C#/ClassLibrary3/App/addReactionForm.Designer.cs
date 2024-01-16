@@ -73,7 +73,6 @@
             MaximumSize = new Size(553, 424);
             MinimumSize = new Size(553, 424);
             Name = "addReactionForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Реакция на вакцинацию";
             ResumeLayout(false);

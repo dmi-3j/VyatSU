@@ -169,7 +169,6 @@
             MaximumSize = new Size(321, 313);
             MinimumSize = new Size(321, 313);
             Name = "AddChildForUserForm";
-            ShowIcon = false;
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавить ребёнка";
             ResumeLayout(false);
