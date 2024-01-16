@@ -27,6 +27,7 @@ namespace App
             {
                 try
                 {
+
                     if (string.IsNullOrWhiteSpace(firstNameTextBox.Text.Trim()))
                     {
                         MessageBox.Show("Поле Имя не может быть пустым", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -45,23 +46,32 @@ namespace App
                         return;
                     }
                     string address = addressTextBox.Text.Trim();
-                    if (string.IsNullOrWhiteSpace(phoneTextBox.Text.Trim()) && !Regex.IsMatch(phoneTextBox.Text.Trim(), @"^\+7\d{10}$"))
+                    if (string.IsNullOrWhiteSpace(phoneTextBox.Text.Trim()) || !Regex.IsMatch(phoneTextBox.Text.Trim(), @"^\+7\d{10}$"))
                     {
                         MessageBox.Show("Введите корректный номер телефона в формате +7XXXXXXXXXX", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return;
                     }
                     string phone = phoneTextBox.Text.Trim();
-                    if (string.IsNullOrWhiteSpace(inshuranceNumberTextBox.Text.Trim()) && !Regex.IsMatch(inshuranceNumberTextBox.Text, @"^\d{16}$"))
+                    string? insNum;
+                    if (insNumGroup.Enabled == true)
                     {
-                        MessageBox.Show("Введите корректный номер полиса ОМС (16 цифр)", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        return;
+                        if (string.IsNullOrWhiteSpace(inshuranceNumberTextBox.Text.Trim()) || !Regex.IsMatch(inshuranceNumberTextBox.Text, @"^\d{16}$"))
+                        {
+                            MessageBox.Show("Введите корректный номер полиса ОМС (16 цифр)", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            return;
+                        }
+                        if (context.Vaccinated.Any(v => v.InshuranceNumber == inshuranceNumberTextBox.Text.Trim()))
+                        {
+                            MessageBox.Show("Пользователь с таким полисом ОМС уже существует", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            return;
+                        }
+                         insNum = inshuranceNumberTextBox.Text.Trim();
                     }
-                    if (context.Vaccinated.Any(v => v.InshuranceNumber == inshuranceNumberTextBox.Text.Trim()))
+                    else
                     {
-                        MessageBox.Show("Пользователь с таким полисом ОМС уже существует", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        return;
+                        insNum = null;
                     }
-                    string insNum = inshuranceNumberTextBox.Text.Trim();
+
                     if (string.IsNullOrWhiteSpace(passwordTextBox.Text.Trim()))
                     {
                         MessageBox.Show("Поле Пароль  не может быть пустым", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -105,12 +115,20 @@ namespace App
                     service.AddUser(user);
                     MessageBox.Show("Пользователь успешно добавлен!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Close();
-                }
+            }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
+        }
+        }
+
+        private void roleComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (roleComboBox.SelectedIndex == 1)
+            {
+                insNumGroup.Enabled = false;
             }
         }
     }

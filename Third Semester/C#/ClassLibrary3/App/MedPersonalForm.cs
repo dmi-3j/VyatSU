@@ -21,7 +21,7 @@ namespace App
         }
         private void InitStatusLabel()
         {
-            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName} (Медицинский работник)";
+            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName} (Мед. работник)";
             statusStrip.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
             userNameLabel.Alignment = ToolStripItemAlignment.Right;
         }

@@ -169,7 +169,7 @@
             MinimumSize = new Size(401, 322);
             Name = "UpdateUserForm";
             SizeGripStyle = SizeGripStyle.Hide;
-            Text = "UpdateUserForm";
+            Text = "Обновление данных пользователя";
             ResumeLayout(false);
             PerformLayout();
         }

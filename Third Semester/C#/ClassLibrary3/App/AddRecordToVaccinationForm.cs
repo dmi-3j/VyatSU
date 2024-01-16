@@ -13,23 +13,19 @@ namespace App
 {
     public partial class AddRecordToVaccinationForm : Form
     {
-        public AddRecordToVaccinationForm(User user)
+        public AddRecordToVaccinationForm(Vaccinated v)
         {
             InitializeComponent();
-            datePicker.MinDate = DateTime.Now;
-            InitMedOrgComboBox();
-            InitVaccineComboBox();
-            vaccinated = user.Id;
+            vaccinated = v.Id;
         }
-        public AddRecordToVaccinationForm(Child child)
+        private void AddRecordToVaccinationForm_Load(object sender, EventArgs e)
         {
-            InitializeComponent();
             datePicker.MinDate = DateTime.Now;
             datePicker.MaxDate = DateTime.Now.AddMonths(1);
             InitMedOrgComboBox();
             InitVaccineComboBox();
-            vaccinated = child.Id;
         }
+
         private Guid vaccinated;
         private void InitMedOrgComboBox()
 
@@ -90,5 +86,7 @@ namespace App
                 }
             }
         }
+
+        
     }
 }

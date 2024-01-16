@@ -17,7 +17,7 @@ namespace vaccinecalend
 
         [Column(TypeName = "date")]
         public DateTime DateOfBirth { get; set; }
-        public string InshuranceNumber { get; set; } = null!;
+        public string? InshuranceNumber { get; set; }
         public string PhoneNumber { get; set; } = null!;
 
         public ICollection<RecordToVaccination>? Records { get; set; } 

@@ -18,10 +18,14 @@ namespace App
         public addVaccinationForm(Guid id)
         {
             InitializeComponent();
-            InitMedOrgCombobox();
-            InitVaccineComboBox();
             vaccinatedId = id;
         }
+        private void addVaccinationForm_Load(object sender, EventArgs e)
+        {
+            InitMedOrgCombobox();
+            InitVaccineComboBox();
+        }
+
         private Guid vaccinatedId;
         private void InitMedOrgCombobox()
         {
@@ -81,7 +85,7 @@ namespace App
         {
             vaccineGroup.Enabled = true;
         }
-        private bool CheckForExistVaccinationForThisVaccine(Guid vaccineId, Guid vaccinatedId)
+        private bool CheckForExistVaccinationForThisVaccine(Guid vaccineId, Guid vaccinatedId) //проверка, есть ли неавершенная вакцинация по этой вакцине у пользователя
         {
             using (var context = new VaccineCalendarContext())
             {
@@ -92,7 +96,7 @@ namespace App
                 return hasUnfinishedVaccination;
             }
         }
-        private bool ChechForAlreadyDoneComponentForThisVaccination(Guid componentId, Guid vaccinationId)
+        private bool ChechForAlreadyDoneComponentForThisVaccination(Guid componentId, Guid vaccinationId) //проверка, поставлен ли этот компонент в рамках этой вакцинации
         {
             using (var context = new VaccineCalendarContext())
             {
@@ -101,7 +105,7 @@ namespace App
                 return hasComponentInVaccination;
             }
         }
-        private Guid GetVaccinationIdForThisVaccinatedAndThisVaccine(Guid vaccineId)
+        private Guid GetVaccinationIdForThisVaccinatedAndThisVaccine(Guid vaccineId) //получение id вакцинации для этого польователя и этой вакцины
         {
             using (var context = new VaccineCalendarContext())
             {
@@ -114,7 +118,7 @@ namespace App
                 return vaccinationId;
             }
         }
-        private void CheckForDoneAndUpdateFlagIsDone(Guid vaccinationId, Guid vaccineId)
+        private void CheckForDoneAndUpdateFlagIsDone(Guid vaccinationId, Guid vaccineId) // проверка на завершение вакцинации и обновление флага о выполнении
         {
             using (var context = new VaccineCalendarContext())
             {
@@ -232,5 +236,7 @@ namespace App
                 }
             }
         }
+
+        
     }
 }

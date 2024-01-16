@@ -19,7 +19,6 @@ namespace App
             InitializeComponent();
             this.vaccinationId = id;
             this.flag = flag;
-            InitData();
         }
         private bool flag;
         private Guid vaccinationId;
@@ -82,7 +81,7 @@ namespace App
                     .FirstOrDefault(m => m.VaccinationId == vaccinationId);
                 if (vaccination != null)
                 {
-                    addReactionForm addReactionForm = new addReactionForm(vaccination);
+                    addReactionForm addReactionForm = new(vaccination);
                     addReactionForm.ShowDialog();
                 }
             }
@@ -98,6 +97,11 @@ namespace App
         {
             ReactionsForm reactionsForm = new ReactionsForm(vaccinationId, flag);
             reactionsForm.ShowDialog();
+        }
+
+        private void VaccinationInfoForm_Load(object sender, EventArgs e)
+        {
+            InitData();
         }
     }
 }

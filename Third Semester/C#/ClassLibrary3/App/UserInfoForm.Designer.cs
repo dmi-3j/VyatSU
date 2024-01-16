@@ -165,6 +165,7 @@
             Name = "UserInfoForm";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о пользователе";
+            Load += UserInfoForm_Load;
             ((System.ComponentModel.ISupportInitialize)vaccinationTable).EndInit();
             ResumeLayout(false);
             PerformLayout();

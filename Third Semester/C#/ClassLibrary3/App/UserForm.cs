@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -21,9 +22,12 @@ namespace App
         {
             InitializeComponent();
             currentUser = user;
-            InitStatusLabel();
-            InitProfileTab();
-            InitUserVaccinationTab();
+        }
+        private void UserForm_Load(object sender, EventArgs e)
+        {
+            Init(currentUser);
+            Init(currentUser, statusStrip);
+            Init(currentUser, userVaccinationTable);
             CheckForChild();
         }
         private void CheckForChild()
@@ -34,17 +38,8 @@ namespace App
                     .Include(u => u.Children)
                         .FirstOrDefault(u => u.Id == currentUser.Id);
                 if (userWithChilds.Children.Count == 0) tabControl1.TabPages.Remove(childVaccinationTab);
-                InitChildVaccinationTab();
+                Init(currentUser, childChoiceComboBox);
             }
-        }
-        private void InitProfileTab()
-        {
-            firstNameLabel.Text = currentUser.FirstName;
-            lastNameLabel.Text = currentUser.LastName;
-            dobLabel.Text = currentUser.DateOfBirth.Date.ToString("dd.MM.yyyy");
-            phoneLabel.Text = currentUser.PhoneNumber;
-            addressLabel.Text = currentUser.Address;
-            inshuranceNumberLabel.Text = currentUser.InshuranceNumber.ToString();
         }
 
         private void GetVaccinationsForTab(Guid id, DataGridView dataGridView)
@@ -89,7 +84,7 @@ namespace App
                                     .Where(c => c.ComponentId == lastComponentId)
                                         .Select(c => c.IntervalOfComponent).FirstOrDefault();
                                 if (cntOfAllComponents == cntOfCompleteComponents) interval = v.TimeInterval;
-                                DateTime recommendNextDate = AddInterval(date, interval);
+                                DateTime recommendNextDate = DBService.AddInterval(date, interval);
                                 string nextRecommendDate = recommendNextDate.Date.ToString("yyyy-MM-dd");
                                 string medicalOrganization = v.MedicalOrganization.OrganizationName;
                                 string flag = "Нет";
@@ -101,63 +96,45 @@ namespace App
                 }
             }
         }
-        private void InitUserVaccinationTab()
+
+        private void Init(vaccinecalend.User user)
         {
-            GetVaccinationsForTab(currentUser.Id, userVaccinationTable);
+            firstNameLabel.Text = user.FirstName;
+            lastNameLabel.Text = user.LastName;
+            dobLabel.Text = user.DateOfBirth.Date.ToString("dd.MM.yyyy");
+            phoneLabel.Text = user.PhoneNumber;
+            addressLabel.Text = user.Address;
+            inshuranceNumberLabel.Text = user.InshuranceNumber.ToString();
         }
-
-        private static DateTime AddInterval(DateTime startDate, string? intervalString)
+        private void Init(vaccinecalend.User user, DataGridView dataGridView)
         {
-            if (intervalString == null) return startDate + TimeSpan.FromDays(0);
-            int intervalValue = int.Parse(intervalString.Split(' ')[0]);
-            string intervalType = intervalString.Split(' ')[1];
-
-            TimeSpan interval;
-            switch (intervalType)
-            {
-                case "неделя":
-                case "недели":
-                    interval = TimeSpan.FromDays(intervalValue * 7);
-                    break;
-                case "месяц":
-                case "месяца":
-                case "месяцев":
-                    interval = TimeSpan.FromDays(intervalValue * 30);
-                    break;
-                case "год":
-                case "года":
-                case "лет":
-                    interval = TimeSpan.FromDays(intervalValue * 365);
-                    break;
-                default:
-                    throw new ArgumentException("Неподдерживаемый тип интервала");
-            }
-            DateTime endDate = startDate + interval;
-            return endDate;
+            GetVaccinationsForTab(user.Id, dataGridView);
         }
-
-        private void InitChildVaccinationTab()
+        private void Init(vaccinecalend.User user, StatusStrip status)
         {
+            userNameLabel.Text = $"Вы авторизованы за {user.FirstName}";
+            status.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            userNameLabel.Alignment = ToolStripItemAlignment.Right;
+        }
+        private void Init(vaccinecalend.User user, ComboBox combo)
+        {
+            combo.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            combo.AutoCompleteSource = AutoCompleteSource.ListItems;
             using (VaccineCalendarContext context = new())
             {
                 var userWithChildren = context.Users
                     .Include(u => u.Children)
-                        .FirstOrDefault(u => u.Id == currentUser.Id);
+                        .FirstOrDefault(u => u.Id == user.Id);
 
                 if (userWithChildren != null)
                 {
-                    childChoiceComboBox.DataSource = userWithChildren.Children.ToList();
-                    childChoiceComboBox.DisplayMember = "FirstName";
-                    childChoiceComboBox.ValueMember = "Id";
+                    combo.DataSource = userWithChildren.Children.ToList();
+                    combo.DisplayMember = "FirstName";
+                    combo.ValueMember = "Id";
                 }
             }
         }
-        private void InitStatusLabel()
-        {
-            userNameLabel.Text = $"Вы авторизованы за {currentUser.FirstName}";
-            statusStrip.LayoutStyle = ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            userNameLabel.Alignment = ToolStripItemAlignment.Right;
-        }
+
 
         private void displayButton_Click(object sender, EventArgs e)
         {
@@ -196,7 +173,7 @@ namespace App
         {
             AddChildForUserForm childForUser = new AddChildForUserForm(currentUser);
             childForUser.ShowDialog();
-            InitChildVaccinationTab();
+            Init(currentUser, childChoiceComboBox);
             if (!tabControl1.TabPages.Contains(childVaccinationTab)) tabControl1.TabPages.Add(childVaccinationTab);
         }
 
@@ -204,7 +181,7 @@ namespace App
         {
             UpdateUserForm updateUserForm = new UpdateUserForm(currentUser);
             updateUserForm.ShowDialog();
-            InitProfileTab();
+            Init(currentUser);
         }
 
         private void addUserRecordToVaccination_Click(object sender, EventArgs e)
@@ -237,5 +214,7 @@ namespace App
                 }
             }
         }
+
+       
     }
 }

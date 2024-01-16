@@ -178,6 +178,7 @@
             Name = "addVaccinationForm";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление вакцинации";
+            Load += addVaccinationForm_Load;
             vaccineGroup.ResumeLayout(false);
             vaccineGroup.PerformLayout();
             componentGroup.ResumeLayout(false);

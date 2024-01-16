@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             statusStrip = new StatusStrip();
-            userNameLabel = new ToolStripStatusLabel();
             logoutButton = new Button();
             viewRecordsButton = new Button();
             findUserButton = new Button();
+            userNameLabel = new ToolStripStatusLabel();
             statusStrip.SuspendLayout();
             SuspendLayout();
             // 
@@ -44,11 +44,6 @@
             statusStrip.Size = new Size(297, 22);
             statusStrip.TabIndex = 0;
             statusStrip.Text = "statusStrip1";
-            // 
-            // userNameLabel
-            // 
-            userNameLabel.Name = "userNameLabel";
-            userNameLabel.Size = new Size(0, 17);
             // 
             // logoutButton
             // 
@@ -80,6 +75,12 @@
             findUserButton.UseVisualStyleBackColor = true;
             findUserButton.Click += findUserButton_Click;
             // 
+            // userNameLabel
+            // 
+            userNameLabel.Name = "userNameLabel";
+            userNameLabel.Size = new Size(118, 17);
+            userNameLabel.Text = "toolStripStatusLabel1";
+            // 
             // MedPersonalForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -104,9 +105,9 @@
         #endregion
 
         private StatusStrip statusStrip;
-        private ToolStripStatusLabel userNameLabel;
         private Button logoutButton;
         private Button viewRecordsButton;
         private Button findUserButton;
+        private ToolStripStatusLabel userNameLabel;
     }
 }

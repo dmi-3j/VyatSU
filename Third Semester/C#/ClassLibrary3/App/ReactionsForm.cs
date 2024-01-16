@@ -16,7 +16,7 @@ namespace App
         public ReactionsForm(Guid id, bool flag)
         {
             InitializeComponent();
-            reactionsTable.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            
             this.flag = flag;
             this.id = id;
         }
@@ -71,6 +71,7 @@ namespace App
         private void ReactionsForm_Load(object sender, EventArgs e)
         {
             Init();
+            reactionsTable.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
         }
     }
 }

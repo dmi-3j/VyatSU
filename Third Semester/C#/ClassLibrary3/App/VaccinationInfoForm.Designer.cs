@@ -224,6 +224,7 @@
             Name = "VaccinationInfoForm";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Информация о вакцинации";
+            Load += VaccinationInfoForm_Load;
             ((System.ComponentModel.ISupportInitialize)componentsInfoTable).EndInit();
             ResumeLayout(false);
             PerformLayout();

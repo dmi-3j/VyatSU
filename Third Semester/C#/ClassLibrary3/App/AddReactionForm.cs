@@ -32,7 +32,7 @@ namespace App
                         return;
                     }
                     string reaction = reactionTextBox.Text.Trim();
-                    ReactionOnVaccination reactionOnVaccination = new ReactionOnVaccination();
+                    ReactionOnVaccination reactionOnVaccination = new();
                     reactionOnVaccination.DescriptionOfReaction = reaction;
                     reactionOnVaccination.DateOfReaction = DateTime.Now.Date;
                     reactionOnVaccination.VaccinationId = vaccination.VaccinationId;

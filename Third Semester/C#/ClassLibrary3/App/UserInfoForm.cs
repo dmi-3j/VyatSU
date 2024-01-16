@@ -18,7 +18,7 @@ namespace App
         {
             InitializeComponent();
             this.vaccinatedId = id;
-            Init();
+            
         }
         private Guid vaccinatedId;
         private Vaccinated? vaccinated;
@@ -73,7 +73,7 @@ namespace App
                                         .Select(c => c.IntervalOfComponent).FirstOrDefault();
                                 if (cntOfAllComponents == cntOfCompleteComponents) interval = v.TimeInterval;
 
-                                DateTime recommendNextDate = AddInterval(date, interval);
+                                DateTime recommendNextDate = DBService.AddInterval(date, interval);
                                 string nextRecommendDate = recommendNextDate.Date.ToString("yyyy-MM-dd");
 
                                 string medicalOrganization = v.MedicalOrganization.OrganizationName;
@@ -84,35 +84,7 @@ namespace App
                 }
             }
         }
-        private static DateTime AddInterval(DateTime startDate, string? intervalString)
-        {
-            if (intervalString == null) return startDate + TimeSpan.FromDays(0);
-            int intervalValue = int.Parse(intervalString.Split(' ')[0]);
-            string intervalType = intervalString.Split(' ')[1];
-            TimeSpan interval;
-            switch (intervalType)
-            {
-                case "неделя":
-                case "недели":
-                    interval = TimeSpan.FromDays(intervalValue * 7);
-                    break;
-                case "месяц":
-                case "месяца":
-                case "месяцев":
-                    interval = TimeSpan.FromDays(intervalValue * 30);
-                    break;
-                case "год":
-                case "года":
-                case "лет":
-                    interval = TimeSpan.FromDays(intervalValue * 365);
-                    break;
-                default:
-                    throw new ArgumentException("Неподдерживаемый тип интервала");
-            }
-            DateTime endDate = startDate + interval;
-            return endDate;
-        }
-
+        
         private void addVaccinationButton_Click(object sender, EventArgs e)
         {
             addVaccinationForm addVaccinationForm = new addVaccinationForm(vaccinatedId);
@@ -135,6 +107,11 @@ namespace App
                     }
                 }
             }
+        }
+
+        private void UserInfoForm_Load(object sender, EventArgs e)
+        {
+            Init();
         }
     }
 }

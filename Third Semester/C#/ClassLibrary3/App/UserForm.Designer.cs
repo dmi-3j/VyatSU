@@ -467,6 +467,7 @@
             MinimumSize = new Size(920, 566);
             Name = "UserForm";
             Text = "Вакцинации";
+            Load += UserForm_Load;
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();
             tabControl1.ResumeLayout(false);

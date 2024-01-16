@@ -133,6 +133,7 @@
             Name = "AddRecordToVaccinationForm";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Запись на вакцинацию";
+            Load += AddRecordToVaccinationForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
