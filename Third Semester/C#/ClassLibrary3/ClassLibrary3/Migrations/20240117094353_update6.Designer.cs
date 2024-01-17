@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using vaccinecalend;
@@ -11,9 +12,11 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    partial class VaccineCalendarContextModelSnapshot : ModelSnapshot
+    [Migration("20240117094353_update6")]
+    partial class update6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,7 +37,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinationsVaccinationId");
 
-                    b.ToTable("VaccinationVaccinationDiary", (string)null);
+                    b.ToTable("VaccinationVaccinationDiary");
                 });
 
             modelBuilder.Entity("vaccinecalend.CompleteVaccineComponent", b =>
@@ -58,7 +61,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineComponentComponentId");
 
-                    b.ToTable("CompleteVaccineComponents", (string)null);
+                    b.ToTable("CompleteVaccineComponents");
                 });
 
             modelBuilder.Entity("vaccinecalend.MedicalOrganization", b =>
@@ -81,7 +84,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("OrganizationId");
 
-                    b.ToTable("MedicalOrganizations", (string)null);
+                    b.ToTable("MedicalOrganizations");
                 });
 
             modelBuilder.Entity("vaccinecalend.ReactionOnVaccination", b =>
@@ -104,7 +107,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinationId");
 
-                    b.ToTable("Reactions", (string)null);
+                    b.ToTable("Reactions");
                 });
 
             modelBuilder.Entity("vaccinecalend.RecordToVaccination", b =>
@@ -136,7 +139,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Records", (string)null);
+                    b.ToTable("Records");
                 });
 
             modelBuilder.Entity("vaccinecalend.UserRole", b =>
@@ -156,7 +159,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserRoles", (string)null);
+                    b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccinated", b =>
@@ -195,7 +198,7 @@ namespace vaccinecalend.Migrations
                     b.HasIndex("InshuranceNumber")
                         .IsUnique();
 
-                    b.ToTable("Vaccinated", (string)null);
+                    b.ToTable("Vaccinated");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Vaccinated");
 
@@ -231,7 +234,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Vaccinations", (string)null);
+                    b.ToTable("Vaccinations");
                 });
 
             modelBuilder.Entity("vaccinecalend.VaccinationDiary", b =>
@@ -247,7 +250,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccinatedId");
 
-                    b.ToTable("VaccinationDiary", (string)null);
+                    b.ToTable("VaccinationDiary");
                 });
 
             modelBuilder.Entity("vaccinecalend.Vaccine", b =>
@@ -270,7 +273,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasKey("VaccineId");
 
-                    b.ToTable("Vaccines", (string)null);
+                    b.ToTable("Vaccines");
                 });
 
             modelBuilder.Entity("vaccinecalend.VaccineComponent", b =>
@@ -302,7 +305,7 @@ namespace vaccinecalend.Migrations
 
                     b.HasIndex("VaccineId");
 
-                    b.ToTable("Components", (string)null);
+                    b.ToTable("Components");
                 });
 
             modelBuilder.Entity("vaccinecalend.Child", b =>

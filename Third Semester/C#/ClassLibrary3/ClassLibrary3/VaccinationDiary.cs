@@ -16,8 +16,8 @@ namespace vaccinecalend
         public Vaccinated Vaccinated { get; set; } = null!;
 
 
-        [ForeignKey("VaccinationId")]
-        public Guid VaccinationId { get; set; }// --------------------------------------------
+        
+        //public Guid VaccinationId { get; set; }// --------------------------------------------
         public ICollection<Vaccination> Vaccinations { get; set; } = new List<Vaccination>();
     }
 }

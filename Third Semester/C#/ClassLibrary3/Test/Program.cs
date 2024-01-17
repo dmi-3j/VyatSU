@@ -183,8 +183,8 @@ using (VaccineCalendarContext context = new())
     // Создаем запись в дневнике вакцинации
     var vaccinationDiaryEntry = new VaccinationDiary
     {
-        VaccinatedId = user2.Id,
-        VaccinationId = vaccination.VaccinationId,
+        VaccinatedId = user2.Id
+        //VaccinationId = vaccination.VaccinationId,
 
     };
     vaccinationDiaryEntry.Vaccinations.Add(vaccination);

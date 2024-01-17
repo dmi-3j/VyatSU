@@ -10,7 +10,6 @@ namespace vaccinecalend
 {
     public class VaccineCalendarContext : DbContext
     {
-
         public DbSet<Vaccinated> Vaccinated { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Child> Childs { get; set; }

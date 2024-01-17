@@ -217,8 +217,8 @@ namespace App
                                 service.AddCompleteVaccineComponent(completeComponent);
                                 var vaccinationDiary = new VaccinationDiary
                                 {
-                                    VaccinatedId = vaccinatedId,
-                                    VaccinationId = vaccination.VaccinationId
+                                    VaccinatedId = vaccinatedId
+                                    //VaccinationId = vaccination.VaccinationId
                                 };
                                 vaccinationDiary.Vaccinations.Add(vaccination);
                                 service.AddVaccinationDiary(vaccinationDiary);
