@@ -14,10 +14,6 @@ namespace vaccinecalend
         public Guid DiaryId { get; set; }
         public Guid VaccinatedId { get; set; }
         public Vaccinated Vaccinated { get; set; } = null!;
-
-
-        
-        //public Guid VaccinationId { get; set; }// --------------------------------------------
         public ICollection<Vaccination> Vaccinations { get; set; } = new List<Vaccination>();
     }
 }

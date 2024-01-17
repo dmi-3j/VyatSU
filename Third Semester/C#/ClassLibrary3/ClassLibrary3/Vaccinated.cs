@@ -21,7 +21,9 @@ namespace vaccinecalend
         public string PhoneNumber { get; set; } = null!;
 
         public ICollection<RecordToVaccination>? Records { get; set; } 
-        public ICollection<VaccinationDiary> VaccinationDiary { get; set; } = new List<VaccinationDiary>();//------старая
-       // public VaccinationDiary VaccinationDiary { get; set; } = new VaccinationDiary();//--новая
+        public ICollection<VaccinationDiary> VaccinationDiary { get; set; } = new List<VaccinationDiary>();
+
+        
+        
     }
 }

@@ -73,18 +73,17 @@ namespace App
                         VaccinatedId = vaccinated,
                         VaccineId = selectedVaccine.VaccineId,
                         OrganizationId = selectedMedicalOrganization.OrganizationId
-
-
+                       
                     };
                     service.AddRecordToVaccination(record);
                     MessageBox.Show("Запись успешно отправлена! Ожидайте звонка с подтверждением.", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Close();
-                }
+            }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
         }
 
         

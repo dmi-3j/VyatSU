@@ -12,8 +12,8 @@ using vaccinecalend;
 namespace vaccinecalend.Migrations
 {
     [DbContext(typeof(VaccineCalendarContext))]
-    [Migration("20240114133216_update1")]
-    partial class update1
+    [Migration("20240117103732_update")]
+    partial class update
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -180,7 +180,6 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("InshuranceNumber")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("LastName")
@@ -188,6 +187,10 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("MiddleName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -241,9 +244,6 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("VaccinatedId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("VaccinationId")
                         .HasColumnType("uuid");
 
                     b.HasKey("DiaryId");
@@ -329,10 +329,6 @@ namespace vaccinecalend.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("text");
 

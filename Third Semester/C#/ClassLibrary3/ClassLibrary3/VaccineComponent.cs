@@ -18,8 +18,6 @@ namespace vaccinecalend
         public Guid VaccineId { get; set; }
         public Vaccine Vaccine { get; set; } = null!;
         
-        
-   
         public ICollection<CompleteVaccineComponent> CompleteVaccineComponents { get; set; } =  new List<CompleteVaccineComponent>();
     }
 }
