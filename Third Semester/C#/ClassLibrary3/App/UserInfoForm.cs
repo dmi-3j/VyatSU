@@ -96,7 +96,6 @@ namespace App
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == vaccinationTable.Columns["action"].Index)
             {
-
                 if (vaccinationTable.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
                 {
                     using (var context = new VaccineCalendarContext())
@@ -108,7 +107,6 @@ namespace App
                 }
             }
         }
-
         private void UserInfoForm_Load(object sender, EventArgs e)
         {
             Init();

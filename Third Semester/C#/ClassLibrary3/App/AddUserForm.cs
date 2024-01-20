@@ -65,7 +65,7 @@ namespace App
                             MessageBox.Show("Пользователь с таким полисом ОМС уже существует", "Инфо", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             return;
                         }
-                         insNum = inshuranceNumberTextBox.Text.Trim();
+                        insNum = inshuranceNumberTextBox.Text.Trim();
                     }
                     else
                     {
@@ -99,7 +99,7 @@ namespace App
                     string login = loginTextBox.Text.Trim();
 
                     DBService service = new DBService(context);
-                    User user = new User()
+                    Vaccinated user = new User()
                     {
                         FirstName = fName,
                         LastName = lName,
@@ -112,16 +112,17 @@ namespace App
                         Password = password,
                         UserRoles = new List<UserRole>() { new UserRole() { Role = roleComboBox.SelectedItem.ToString() } }
                     };
-                    service.AddUser(user);
-                    MessageBox.Show("Пользователь успешно добавлен!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    service.AddVaccinated(user);
+                    string name = user.GetName();
+                    MessageBox.Show($"Пользователь {name} успешно добавлен!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Close();
-            }
+                }
                 catch (Exception ex)
                 {
-                MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                    MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
-        }
+            }
         }
 
         private void roleComboBox_SelectedIndexChanged(object sender, EventArgs e)

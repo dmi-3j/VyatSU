@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             statusStrip = new StatusStrip();
+            userNameLabel = new ToolStripStatusLabel();
             logoutButton = new Button();
             viewRecordsButton = new Button();
             findUserButton = new Button();
-            userNameLabel = new ToolStripStatusLabel();
             statusStrip.SuspendLayout();
             SuspendLayout();
             // 
@@ -41,39 +41,9 @@
             statusStrip.Items.AddRange(new ToolStripItem[] { userNameLabel });
             statusStrip.Location = new Point(0, 142);
             statusStrip.Name = "statusStrip";
-            statusStrip.Size = new Size(297, 22);
+            statusStrip.Size = new Size(330, 22);
             statusStrip.TabIndex = 0;
             statusStrip.Text = "statusStrip1";
-            // 
-            // logoutButton
-            // 
-            logoutButton.Location = new Point(12, 94);
-            logoutButton.Name = "logoutButton";
-            logoutButton.Size = new Size(273, 35);
-            logoutButton.TabIndex = 1;
-            logoutButton.Text = "Выйти из аккаунта";
-            logoutButton.UseVisualStyleBackColor = true;
-            logoutButton.Click += logoutButton_Click;
-            // 
-            // viewRecordsButton
-            // 
-            viewRecordsButton.Location = new Point(12, 12);
-            viewRecordsButton.Name = "viewRecordsButton";
-            viewRecordsButton.Size = new Size(273, 35);
-            viewRecordsButton.TabIndex = 2;
-            viewRecordsButton.Text = "Посмотреть записи на вакцинацию";
-            viewRecordsButton.UseVisualStyleBackColor = true;
-            viewRecordsButton.Click += viewRecordsButton_Click;
-            // 
-            // findUserButton
-            // 
-            findUserButton.Location = new Point(12, 53);
-            findUserButton.Name = "findUserButton";
-            findUserButton.Size = new Size(273, 35);
-            findUserButton.TabIndex = 3;
-            findUserButton.Text = "Найти пользователя";
-            findUserButton.UseVisualStyleBackColor = true;
-            findUserButton.Click += findUserButton_Click;
             // 
             // userNameLabel
             // 
@@ -81,18 +51,46 @@
             userNameLabel.Size = new Size(118, 17);
             userNameLabel.Text = "toolStripStatusLabel1";
             // 
+            // logoutButton
+            // 
+            logoutButton.Location = new Point(25, 94);
+            logoutButton.Name = "logoutButton";
+            logoutButton.Size = new Size(274, 35);
+            logoutButton.TabIndex = 1;
+            logoutButton.Text = "Выйти из аккаунта";
+            logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
+            // 
+            // viewRecordsButton
+            // 
+            viewRecordsButton.Location = new Point(25, 12);
+            viewRecordsButton.Name = "viewRecordsButton";
+            viewRecordsButton.Size = new Size(274, 35);
+            viewRecordsButton.TabIndex = 2;
+            viewRecordsButton.Text = "Посмотреть записи на вакцинацию";
+            viewRecordsButton.UseVisualStyleBackColor = true;
+            viewRecordsButton.Click += viewRecordsButton_Click;
+            // 
+            // findUserButton
+            // 
+            findUserButton.Location = new Point(25, 53);
+            findUserButton.Name = "findUserButton";
+            findUserButton.Size = new Size(274, 35);
+            findUserButton.TabIndex = 3;
+            findUserButton.Text = "Найти пользователя";
+            findUserButton.UseVisualStyleBackColor = true;
+            findUserButton.Click += findUserButton_Click;
+            // 
             // MedPersonalForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(297, 164);
+            ClientSize = new Size(330, 164);
             Controls.Add(findUserButton);
             Controls.Add(viewRecordsButton);
             Controls.Add(logoutButton);
             Controls.Add(statusStrip);
             MaximizeBox = false;
-            MaximumSize = new Size(313, 203);
-            MinimumSize = new Size(313, 203);
             Name = "MedPersonalForm";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Медицинский работник";

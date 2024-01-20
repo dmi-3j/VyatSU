@@ -16,8 +16,6 @@ namespace vaccinecalend
 
         public Guid VaccinationId { get; set; }
         public Vaccination Vaccination { get; set; } = null!;
-
-       // public Guid ComponentId { get; set; }
         public VaccineComponent VaccineComponent { get; set; } = null!;
 
         [Column(TypeName = "date")]

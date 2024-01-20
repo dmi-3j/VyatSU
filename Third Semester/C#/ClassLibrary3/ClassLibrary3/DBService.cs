@@ -22,6 +22,7 @@ namespace vaccinecalend
             _context.Users.Add(user);
             _context.SaveChanges();
         }
+   
         public void UpdateUser(User user)
         {
             _context.Users.Update(user);
@@ -72,6 +73,7 @@ namespace vaccinecalend
 
         public void AddVaccinated(Vaccinated vaccinated)
         {
+            vaccinated.Password = HashPassword(vaccinated.Password);
             _context.Vaccinated.Add(vaccinated);
             _context.SaveChanges();
         }

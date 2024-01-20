@@ -27,8 +27,8 @@ namespace App
         {
             using (var context = new VaccineCalendarContext())
             {
-                try
-                {
+                //try
+                //{
 
                     if (string.IsNullOrWhiteSpace(lastNameTextBox.Text.Trim()))
                     {
@@ -69,12 +69,12 @@ namespace App
                     service.AddChild(child);
                     MessageBox.Show("Ребёнок успешно добавлен!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Close();
-                }
+               // }
 
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                //catch (Exception ex)
+                //{
+                //    MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //}
             }
         }
     }

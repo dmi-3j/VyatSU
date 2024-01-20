@@ -19,11 +19,16 @@ namespace vaccinecalend
         public DateTime DateOfBirth { get; set; }
         public string? InshuranceNumber { get; set; }
         public string PhoneNumber { get; set; } = null!;
+        public string? Username { get; set; }
+        public string? Password { get; set; }
 
         public ICollection<RecordToVaccination>? Records { get; set; } 
         public ICollection<VaccinationDiary> VaccinationDiary { get; set; } = new List<VaccinationDiary>();
 
-        
-        
+        //базовый класс
+        public virtual string GetName() 
+        {
+            return string.Empty;
+        }
     }
 }

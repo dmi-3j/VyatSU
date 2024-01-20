@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
             vaccineNameTextBox = new TextBox();
             label1 = new Label();
             label2 = new Label();
@@ -144,7 +144,7 @@
             mainInfoGroup.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             mainInfoGroup.Location = new Point(27, 69);
             mainInfoGroup.Name = "mainInfoGroup";
-            mainInfoGroup.Size = new Size(621, 181);
+            mainInfoGroup.Size = new Size(502, 181);
             mainInfoGroup.TabIndex = 9;
             mainInfoGroup.TabStop = false;
             mainInfoGroup.Text = "Общие данные";
@@ -165,7 +165,7 @@
             groupBox1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox1.Location = new Point(27, 273);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(621, 431);
+            groupBox1.Size = new Size(502, 431);
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
             groupBox1.Text = "Компоненты вакцины";
@@ -184,18 +184,18 @@
             // 
             componentPreView.AllowUserToAddRows = false;
             componentPreView.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            componentPreView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle8.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            componentPreView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
             componentPreView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
             componentPreView.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = SystemColors.Control;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            componentPreView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = SystemColors.Control;
+            dataGridViewCellStyle9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle9.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
+            componentPreView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             componentPreView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             componentPreView.Columns.AddRange(new DataGridViewColumn[] { compName, compStructure, compType, compInterval, action });
             componentPreView.Location = new Point(18, 263);
@@ -209,8 +209,8 @@
             // 
             // compName
             // 
-            dataGridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            compName.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle10.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            compName.DefaultCellStyle = dataGridViewCellStyle10;
             compName.HeaderText = "Название";
             compName.Name = "compName";
             compName.ReadOnly = true;
@@ -218,8 +218,8 @@
             // 
             // compStructure
             // 
-            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            compStructure.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle11.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            compStructure.DefaultCellStyle = dataGridViewCellStyle11;
             compStructure.HeaderText = "Состав";
             compStructure.Name = "compStructure";
             compStructure.ReadOnly = true;
@@ -227,8 +227,8 @@
             // 
             // compType
             // 
-            dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            compType.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle12.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            compType.DefaultCellStyle = dataGridViewCellStyle12;
             compType.HeaderText = "Тип";
             compType.Name = "compType";
             compType.ReadOnly = true;
@@ -236,8 +236,8 @@
             // 
             // compInterval
             // 
-            dataGridViewCellStyle6.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            compInterval.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle13.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            compInterval.DefaultCellStyle = dataGridViewCellStyle13;
             compInterval.HeaderText = "Интервал";
             compInterval.Name = "compInterval";
             compInterval.ReadOnly = true;
@@ -245,9 +245,9 @@
             // 
             // action
             // 
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            action.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            action.DefaultCellStyle = dataGridViewCellStyle14;
             action.HeaderText = "Действие";
             action.Name = "action";
             action.ReadOnly = true;
@@ -346,9 +346,9 @@
             // addVaccineButton
             // 
             addVaccineButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            addVaccineButton.Location = new Point(654, 665);
+            addVaccineButton.Location = new Point(342, 726);
             addVaccineButton.Name = "addVaccineButton";
-            addVaccineButton.Size = new Size(138, 61);
+            addVaccineButton.Size = new Size(187, 41);
             addVaccineButton.TabIndex = 11;
             addVaccineButton.Text = "Добавить вакцину";
             addVaccineButton.UseVisualStyleBackColor = true;
@@ -358,14 +358,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(804, 738);
+            ClientSize = new Size(553, 779);
             Controls.Add(addVaccineButton);
             Controls.Add(groupBox1);
             Controls.Add(mainInfoGroup);
             Controls.Add(label2);
             MaximizeBox = false;
-            MaximumSize = new Size(820, 777);
-            MinimumSize = new Size(820, 777);
+            MaximumSize = new Size(569, 818);
+            MinimumSize = new Size(569, 818);
             Name = "AddVaccineForm";
             SizeGripStyle = SizeGripStyle.Hide;
             Text = "Добавление вакцины";
