@@ -41,7 +41,7 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService(UserService userService) {
         return username -> {
             User user = userService.getUserByUserName(username);
-            //userService.encode(username);
+           // userService.encode(username);
             return org.springframework.security.core.userdetails.User
                     .withUsername(username)
                     .password(user.getPassword()).authorities(userService.getAuthorityByusername(username)).build();

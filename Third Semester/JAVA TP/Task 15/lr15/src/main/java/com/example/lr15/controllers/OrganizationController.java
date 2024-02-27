@@ -43,7 +43,7 @@ public class OrganizationController {
         List<MedicalOrganization> topOrganizations = organizationService.getTopOrganizations();
         model.addAttribute("topOrganizations", topOrganizations);
 
-       // if (principal != null) System.out.println((userService.getUserByUserName(principal.getName()).getPassword()));
+        if (principal != null) System.out.println(userService.getAuthorityByusername(principal.getName()));
 
         return "organizations";
     }
@@ -129,7 +129,8 @@ public class OrganizationController {
     }
 
     @PostMapping("/authenticateTheUser")
-    public String authenticateUser(@RequestParam("username") String username, @RequestParam("password") String password, Model model) {
+    public String authenticateUser(@RequestParam("username") String username,
+                                   @RequestParam("password") String password, Model model) {
         UserDetails userDetails = userDetailsService.loadUserByUsername(username);
         if (userDetails != null) {
             String storedPassword = userDetails.getPassword();

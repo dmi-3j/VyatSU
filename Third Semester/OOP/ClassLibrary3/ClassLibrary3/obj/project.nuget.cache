@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D+chqQs+FJEE2IbTeJea+5X9RqIbhHrkLbx8U7P42jcgbyYOZKWZgl9fAN1DSZvJ80MG+PNIsXo+HnsBGa9vtg==",
+  "dgSpecHash": "NFAJGXMcUHV6AR37GtSFwYlxS9X6LMFV5h+89LZqlTn5VcyVIdBcg0zEK5zwKpDe0QWLVajqSy02ntmJBZhnZA==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dmitry\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

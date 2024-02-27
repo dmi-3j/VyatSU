@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\App\\App.csproj": {}
+    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\App.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\App\\App.csproj": {
+    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\App\\App.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\App\\App.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\App.csproj",
         "packagesPath": "C:\\Users\\dmitry\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\App\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
-                "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj"
+              "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj"
               }
             }
           }
@@ -84,18 +84,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
+    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
         "projectName": "vaccinecalend",
-        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
         "packagesPath": "C:\\Users\\dmitry\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\C#\\ClassLibrary3\\ClassLibrary3\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

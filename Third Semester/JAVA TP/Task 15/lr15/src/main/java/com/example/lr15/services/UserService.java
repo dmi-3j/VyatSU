@@ -47,11 +47,11 @@ public class UserService {
         User user = userRepository.findByusername(username);
         return (user != null && user.getAuthority() != null) ? user.getAuthority().getAuthority() : null;
     }
-//    public void encode(String username) {
-//        PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-//        User user = userRepository.findByusername(username);
-//        String encr = passwordEncoder.encode(user.getPassword());
-//        user.setPassword(encr);
-//        userRepository.save(user);
-//    }
+    public void encode(String username) {
+        PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        User user = userRepository.findByusername(username);
+        String encr = passwordEncoder.encode(user.getPassword());
+        user.setPassword(encr);
+        userRepository.save(user);
+    }
 }
