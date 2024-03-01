@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>Профиль</title>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<div class="container">
+    <h2>Профиль пользователя</h2>
+    <p th:text="'Имя: ' +  ${username}"> </p>
+</div>
+</body>
+</html>

@@ -16,8 +16,8 @@
 <body>
 
 <div class="fluid-container" th:fragment="navi(activeTab)">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary ">
-        <a class="navbar-brand" th:href="@{/}">ООО "Медицинские организации"</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark badge-dark ">
+        <a class="navbar-brand" th:href="@{/}">Календарь прививок</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,12 +33,12 @@
 <!--                    <a class="nav-link" th:href="@{/organizations/addOrUpdate/add}">Добавить организацию</a>-->
 <!--                </li>-->
                 <li sec:authorize="isAuthenticated()" class="nav-item">
-                    <a class="nav-link" style="color: white" th:text="${@userService.getRealNameByUsername(#authentication.name)}"></a>
+                    <a class="nav-link" style="color: white" th:text="${@userService.getRealNameByUsername(#authentication.name)}" th:href="@{/profile}"></a>
                 </li>
 
                 <li sec:authorize="isAuthenticated()" class="nav-item">
                     <form th:action="@{/logout}" method="POST">
-                        <button class="btn btn-danger" type="submit">Logout</button>
+                        <button class="btn btn-danger" type="submit">Выйти</button>
                     </form>
                 </li>
                 <li sec:authorize="isAnonymous()" class="nav-item" style="margin-left: 15px">
@@ -48,7 +48,7 @@
                                    aria-describedby="inputGroup-sizing-sm">
                             <input class="form-control" type="password" placeholder="Пароль" name="password"
                                    aria-describedby="inputGroup-sizing-sm">
-                            <button class="btn btn-secondary btn-sm" type="submit">Войти</button>
+                            <button class="btn btn-primary btn-sm" type="submit">Войти</button>
                         </div>
                     </form>
 

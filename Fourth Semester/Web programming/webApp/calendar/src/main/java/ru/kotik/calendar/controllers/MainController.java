@@ -1,6 +1,6 @@
 package ru.kotik.calendar.controllers;
 
-import org.springframework.boot.Banner;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
@@ -8,21 +8,36 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import ru.kotik.calendar.entities.User;
+import ru.kotik.calendar.services.UserService;
+
+import java.security.Principal;
 
 @Controller
 public class MainController {
 
     private UserDetailsService userDetailsService;
-
+    private UserService userService;
+    @Autowired
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
 
     @GetMapping("")
     public String mainPage(Model model) {
         return "main";
     }
-    @GetMapping("/test")
-    public String mainP(Model model) {
-        return "test";
+    @GetMapping("/profile")
+    public String getProfile(Model model, Principal principal) {
+        String username = principal.getName();
+        User user = userService.getUserByUserName(username);
+        String name = user.getName();
+        model.addAttribute("username", name);
+        return "profile";
     }
+
+
+
     @PostMapping("/authenticateTheUser")
     public String authenticateUser(@RequestParam("username") String username,
                                    @RequestParam("password") String password,
