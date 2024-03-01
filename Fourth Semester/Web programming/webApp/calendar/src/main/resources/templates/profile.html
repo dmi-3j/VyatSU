@@ -13,5 +13,16 @@
     <h2>Профиль пользователя</h2>
     <p th:text="'Имя: ' +  ${username}"> </p>
 </div>
+<h2>Upload Photo</h2>
+<form th:action="@{/profile/uploadPhoto}" method="post" enctype="multipart/form-data">
+    <input type="hidden" th:name="username" th:value="${#authentication.getName()}">
+    <input type="file" th:name="file">
+    <button type="submit">Upload</button>
+</form>
+<div class="container">
+    <h2>Профиль пользователя</h2>
+    <p th:text="'Имя: ' + ${username}"> </p>
+    <img th:src="${photoPath}" alt="User Photo">
+</div>
 </body>
 </html>

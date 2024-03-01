@@ -32,7 +32,9 @@ public class MainController {
         String username = principal.getName();
         User user = userService.getUserByUserName(username);
         String name = user.getName();
+        String photoPath = user.getPhotoPath();
         model.addAttribute("username", name);
+        model.addAttribute("photoPath", photoPath);
         return "profile";
     }
 

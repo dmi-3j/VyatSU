@@ -18,6 +18,7 @@ public class User {
     private String name;
 
     private Boolean enabled;
+    private String photoPath;
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Authority authority;
