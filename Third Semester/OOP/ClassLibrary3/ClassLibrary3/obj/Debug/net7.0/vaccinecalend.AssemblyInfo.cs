@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vaccinecalend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2767010f46693e1c6c5d6fe73a7d2dde53adceee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cbc81b0b25f27adb5eefc660ecddf0a5eb5c356")]
 [assembly: System.Reflection.AssemblyProductAttribute("vaccinecalend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vaccinecalend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
