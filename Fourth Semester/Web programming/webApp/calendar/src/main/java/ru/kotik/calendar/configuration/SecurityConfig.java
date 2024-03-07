@@ -20,7 +20,7 @@ public class SecurityConfig {
         return http
                 .authorizeHttpRequests(auth -> auth
 //                        .requestMatchers("/profile/uploadPhoto").authenticated()
-//                        .requestMatchers("/profile").authenticated()
+                        .requestMatchers("/profile/**").authenticated()
                         .anyRequest().permitAll())
                 .formLogin((form) -> form
                         .loginPage("/")

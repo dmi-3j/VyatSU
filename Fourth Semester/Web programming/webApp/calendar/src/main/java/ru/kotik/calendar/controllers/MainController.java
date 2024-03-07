@@ -25,18 +25,11 @@ public class MainController {
 
     @GetMapping("")
     public String mainPage(Model model) {
+        model.addAttribute("user", new User());
         return "main";
     }
-    @GetMapping("/profile")
-    public String getProfile(Model model, Principal principal) {
-        String username = principal.getName();
-        User user = userService.getUserByUserName(username);
-        String name = user.getName();
-        String photoPath = user.getPhotoPath();
-        model.addAttribute("username", name);
-        model.addAttribute("photoPath", photoPath);
-        return "profile";
-    }
+
+
 
 
 

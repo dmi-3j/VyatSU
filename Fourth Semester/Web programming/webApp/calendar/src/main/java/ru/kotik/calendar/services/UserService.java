@@ -5,6 +5,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import ru.kotik.calendar.entities.Authority;
 import ru.kotik.calendar.repositories.UserRepository;
 import ru.kotik.calendar.entities.User;
 
@@ -30,6 +31,15 @@ public class UserService {
         return userRepository.findAll();
     }
 
+    public void regUser(User user) {
+        user.setEnabled(true);
+        encodePassword(user);
+        Authority authority = new Authority();
+        authority.setAuthority("ROLE_USER");
+        authority.setUser(user);
+        user.setAuthority(authority);
+        saveUser(user);
+    }
     public void saveUser(User user) {
         userRepository.save(user);
     }
@@ -40,15 +50,14 @@ public class UserService {
 
     public String getRealNameByUsername(String username) {
         User user = userRepository.findByusername(username);
-        return (user != null) ? user.getName() : "";
+        return (user != null) ? user.getFirstname() : "";
     }
     public String getAuthorityByusername(String username) {
         User user = userRepository.findByusername(username);
         return (user != null && user.getAuthority() != null) ? user.getAuthority().getAuthority() : null;
     }
-    public void encodePassword(String username) {
+    public void encodePassword(User user) {
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-        User user = userRepository.findByusername(username);
         String encodedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
         userRepository.save(user);
