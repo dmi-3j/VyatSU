@@ -29,10 +29,6 @@ public class MainController {
         return "main";
     }
 
-
-
-
-
     @PostMapping("/authenticateTheUser")
     public String authenticateUser(@RequestParam("username") String username,
                                    @RequestParam("password") String password,

@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Календарь прививок</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -10,9 +10,14 @@
 <body>
 <div th:replace="~{navigation :: navi('Home')}"></div>
 
-<button sec:authorize="isAnonymous()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrationModal">Регистрация</button>
+<div class="jumbotron text-center">
+    <h1 class="display-4">Добро пожаловать в Календарь Прививок!</h1>
+    <p class="lead">Здесь вы можете получить информацию о ваших прививках, записаться на прием и быть в курсе актуальных рекомендаций по вакцинации.</p>
+    <hr class="my-4">
+    <p>Не упустите возможность защитить себя и своих близких от опасных инфекционных заболеваний.</p>
+    <button sec:authorize="isAnonymous()" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registrationModal">Войти или зарегистрироваться</button>
+</div>
 
-<!-- Модальное окно для регистрации -->
 <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
