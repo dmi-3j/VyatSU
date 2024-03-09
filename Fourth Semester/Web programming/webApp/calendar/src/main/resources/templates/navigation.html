@@ -46,27 +46,6 @@
                         </form>
                     </div>
                 </li>
-                <li sec:authorize="isAnonymous()" class="nav-item" style="margin-left: 15px">
-                    <form class="align-middle" th:action="@{/authenticateTheUser}" method="POST">
-                        <div class="input-group-prepend">
-                            <input class="form-control" type="text" placeholder="Логин" name="username"
-                                   aria-describedby="inputGroup-sizing-sm">
-                            <input class="form-control" type="password" placeholder="Пароль" name="password"
-                                   aria-describedby="inputGroup-sizing-sm">
-                            <button class="btn btn-primary btn-sm" type="submit">Войти</button>
-                        </div>
-                    </form>
-                </li>
-                <li class="nav-item">
-                    <div class="col-xs-10">
-                        <div class="align-middle">
-                            <div th:if="${param.error} != null">
-                                <span class="align-middle"
-                                      style="color: red; background-color: #f8d7da;margin-left: 10px">Invalid username and password.</span>
-                            </div>
-                        </div>
-                    </div>
-                </li>
             </ul>
         </div>
     </nav>

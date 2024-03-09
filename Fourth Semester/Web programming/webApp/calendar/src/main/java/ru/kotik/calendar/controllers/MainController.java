@@ -9,19 +9,23 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import ru.kotik.calendar.entities.User;
+import ru.kotik.calendar.entities.Vaccine;
+import ru.kotik.calendar.repositories.VaccineRepository;
 import ru.kotik.calendar.services.UserService;
+import ru.kotik.calendar.services.VaccineService;
 
-import java.security.Principal;
 
 @Controller
 public class MainController {
 
     private UserDetailsService userDetailsService;
     private UserService userService;
+
     @Autowired
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
+
 
     @GetMapping("")
     public String mainPage(Model model) {
