@@ -6,14 +6,14 @@ CREATE TABLE users
     lastname     VARCHAR(30)  NOT NULL,
     middlename     VARCHAR(30),
     dateofbirth date NOT NULL,
-    address VARCHAR(150) not null,
+    address VARCHAR(150),
     phonenumber VARCHAR(14) not null ,
-    inshurancenumber VARCHAR(16) not null,
+    inshurancenumber VARCHAR(16),
     photopath varchar(250),
     enabled  boolean      NOT NULL,
     PRIMARY KEY (username),
-    UNIQUE (inshurancenumber),
-    UNIQUE (phonenumber)
+    UNIQUE (username, inshurancenumber),
+    UNIQUE (username, phonenumber)
 );
 
 INSERT INTO users(username, password, firstname, lastname, middlename, dateofbirth, address, phonenumber, inshurancenumber, photopath, enabled)

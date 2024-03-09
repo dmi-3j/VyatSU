@@ -1,6 +1,7 @@
 package ru.kotik.calendar.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Service;
 import ru.kotik.calendar.entities.Authority;
 import ru.kotik.calendar.repositories.UserRepository;
 import ru.kotik.calendar.entities.User;
+import ru.kotik.calendar.specifications.MedUserSpecification;
 
 import java.util.List;
 
@@ -30,12 +32,41 @@ public class UserService {
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
+    public List<User> getAllMedUsers() {
+        return userRepository.findUsersByAuthority_Authority("ROLE_MED");
+    }
+    public List<User> getAllMedUsers(String lastname, String username, String phone) {
+        Specification<User> specification = Specification
+                .where(MedUserSpecification.hasLastName(lastname))
+                .and((MedUserSpecification.hasUserName(username))
+                        .and(MedUserSpecification.hasPhone(phone)));
+        return userRepository.findAll(specification);
+    }
+    public void disableAccount(String username) {
+        User user = userRepository.findByusername(username);
+        user.setEnabled(false);
+        saveUser(user);
+    }
+    public void enableAccount(String username) {
+        User user = userRepository.findByusername(username);
+        user.setEnabled(true);
+        saveUser(user);
+    }
 
     public void regUser(User user) {
         user.setEnabled(true);
         encodePassword(user);
         Authority authority = new Authority();
         authority.setAuthority("ROLE_USER");
+        authority.setUser(user);
+        user.setAuthority(authority);
+        saveUser(user);
+    }
+    public void regMedUser(User user) {
+        user.setEnabled(true);
+        encodePassword(user);
+        Authority authority = new Authority();
+        authority.setAuthority("ROLE_MED");
         authority.setUser(user);
         user.setAuthority(authority);
         saveUser(user);
@@ -61,5 +92,12 @@ public class UserService {
         String encodedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
         userRepository.save(user);
+    }
+    public void update(User exist, User updated) {
+        if (!updated.getFirstname().isBlank()) exist.setFirstname(updated.getFirstname());
+        if(!updated.getLastname().isBlank()) exist.setLastname(updated.getLastname());
+        if (!updated.getPhonenumber().isBlank()) exist.setPhonenumber(updated.getPhonenumber());
+        if (!updated.getPassword().isBlank()) exist.setPassword(updated.getPassword());
+        userRepository.save(exist);
     }
 }
