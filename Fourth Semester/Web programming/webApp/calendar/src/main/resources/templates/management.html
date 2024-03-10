@@ -9,77 +9,95 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <style>
         .user-management-container {
-            display: none;
-            border: 1px solid #ccc; /* добавляем рамку */
-            padding: 10px; /* добавляем отступы внутри блока */
-            background-color: #f9f9f9; /* устанавливаем фоновый цвет */
+            display: flex;
+            flex-direction: row;
         }
-        .show {
-            display: block;
+        .filter-form {
+            width: 30%; /* Установите желаемую ширину для формы */
+            height: 500px; /* Фиксированная высота формы */
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-right: 20px; /* Отступ между формой и таблицей */
+        }
+        .table-container {
+            flex: 1; /* Таблица занимает все доступное пространство */
+            overflow: auto; /* Включите горизонтальную и вертикальную прокрутку при необходимости */
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px; /* Установите фиксированную высоту для таблицы */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
 <div th:replace="~{navigation :: navi('Home')}"></div>
 
-<!-- Кнопка для управления пользователями -->
-<button id="toggleUserManagement" class="btn btn-secondary">Управление пользователями</button>
-
 <!-- Блок управления пользователями -->
 <div id="userManagementContainer" class="user-management-container">
-    <button id="openAddUserModal" class="btn btn-primary">Добавить медицинского работника</button>
+    <div class="filter-form">
+        <h3>Фильтр</h3>
+        <form th:action="@{/manage/filterUsers}" method="get">
+            <div class="form-group">
+                <label for="name">Фамилия</label>
+                <input type="text" class="form-control" id="name" name="lastname" placeholder="Фамилия" th:value="${lastname}">
+            </div>
+            <div class="form-group">
+                <label for="fname">Имя</label>
+                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Имя" th:value="${firstname}">
+            </div>
+            <div class="form-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
+            </div>
+            <div class="form-group">
+                <label for="usr">Логин:</label>
+                <input type="text" class="form-control" id="usr" name="username" placeholder="Логин" th:value="${username}">
+            </div>
+            <button type="submit" class="btn btn-primary">Найти</button>
+        </form>
+        <form th:action="@{/manage}">
+            <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
+        </form>
+    </div>
 
-    <h3 style="margin-top: 20px" >Найти пользователя</h3>
-    <form th:action="@{/manage/filterUsers}" method="get">
-        <div class="form-group">
-            <label for="name">Фамилия</label>
-            <input type="text" class="form-control" id="name" name="lastname" placeholder="Фамилия" th:value="${lastname}">
-        </div>
-        <div class="form-group">
-            <label for="fname">Имя</label>
-            <input type="text" class="form-control" id="fname" name="firstname" placeholder="Имя" th:value="${firstname}">
-        </div>
-        <div class="form-group">
-            <label for="phone">Номер телефона:</label>
-            <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
-        </div>
-        <div class="form-group">
-            <label for="usr">Логин:</label>
-            <input type="text" class="form-control" id="usr" name="username" placeholder="Логин" th:value="${username}">
-        </div>
-        <button type="submit" class="btn btn-primary">Найти</button>
-
-    </form>
-    <form th:action="@{/manage}">
-        <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
-    </form>
-
-    <table class="table table-hover">
-        <thead>
-        <tr>
-            <th>Имя</th>
-            <th>Фамилия</th>
-            <th>Дата рождения</th>
-            <th>Номер телефона</th>
-            <th>Логин</th>
-            <th>Действия</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="user : ${users}">
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
-            <td th:text="${user.dateofbirth}"></td>
-            <td th:text="${user.phonenumber}"></td>
-            <td th:text="${user.username}"></td>
-            <td>
-                <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info" style="margin-left: 15px"></a>
-                <a th:if="${user.enabled == true}" th:href="@{'/manage/disable/'  + ${user.username}}" th:text="'Отключить аккаунт'" class="text-danger" style="margin-left: 15px"></a>
-                <a th:if="${user.enabled == false}" th:href="@{'/manage/enable/'  + ${user.username}}" th:text="'Включить аккаунт'" class="text-success" style="margin-left: 15px"></a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+    <!-- Таблица -->
+    <div class="table-container">
+        <h3>Пользователи  <button id="openAddUserModal" class="btn btn-primary">Добавить пользователя</button></h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Дата рождения</th>
+                <th>Номер телефона</th>
+                <th>Логин</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.firstname}"></td>
+                <td th:text="${user.lastname}"></td>
+                <td th:text="${user.dateofbirth}"></td>
+                <td th:text="${user.phonenumber}"></td>
+                <td th:text="${user.username}"></td>
+                <td>
+                    <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>
+                    <a th:if="${user.enabled == true}" th:href="@{'/manage/disable/'  + ${user.username}}" th:text="'Отключить аккаунт'" class="text-danger" style="margin-left: 15px"></a>
+                    <a th:if="${user.enabled == false}" th:href="@{'/manage/enable/'  + ${user.username}}" th:text="'Включить аккаунт'" class="text-success" style="margin-left: 15px"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <!-- Модальное окно для добавления пользователя -->
