@@ -32,6 +32,7 @@ public class MainController {
     @PostMapping("/authenticateTheUser")
     public String authenticateUser(@RequestParam("username") String username,
                                    @RequestParam("password") String password,
+                                   @RequestParam(name = "error", required = false) String error,
                                    Model model) {
         UserDetails userDetails = userDetailsService.loadUserByUsername(username);
         if (userDetails != null) {
@@ -41,6 +42,7 @@ public class MainController {
                 return "redirect:/main";
             }
         }
+        model.addAttribute("error", true);
         return "main";
     }
 }

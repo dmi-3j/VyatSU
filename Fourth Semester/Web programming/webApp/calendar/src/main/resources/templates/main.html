@@ -96,6 +96,13 @@
         </div>
     </div>
 </div>
-
+<script th:inline="javascript">
+    $(document).ready(function() {
+        var isError = /*[[${param.error}]]*/ false;
+        if (isError) {
+            $('#loginRegisterModal').modal('show');
+        }
+    });
+</script>
 </body>
 </html>
