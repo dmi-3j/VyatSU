@@ -42,6 +42,7 @@ public class SecurityConfig {
             return org.springframework.security.core.userdetails.User
                     .withUsername(username)
                     .password(user.getPassword()).authorities(userService.getAuthorityByusername(username))
+                    .disabled(!user.getEnabled())
                     .build();
         };
     }

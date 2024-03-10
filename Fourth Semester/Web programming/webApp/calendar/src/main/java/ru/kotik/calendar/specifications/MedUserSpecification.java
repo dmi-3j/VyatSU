@@ -19,6 +19,17 @@ public class MedUserSpecification {
             return predicate;
         });
     }
+    public static Specification<User> hasFirstName(String firstname) {
+        return ((root, query, criteriaBuilder) -> {
+            Predicate predicate= criteriaBuilder.conjunction();
+            if(firstname == null || firstname.isBlank()) {
+                return criteriaBuilder.and(predicate, criteriaBuilder.equal(root.join("authority").get("authority"), "ROLE_MED"));
+            }
+            predicate = criteriaBuilder.and(predicate, criteriaBuilder.like(root.get("firstname"), "%" + firstname + "%"));
+            predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.join("authority").get("authority"), "ROLE_MED"));
+            return predicate;
+        });
+    }
     public static Specification<User> hasUserName(String username) {
         return ((root, query, criteriaBuilder) -> {
             Predicate predicate= criteriaBuilder.conjunction();
@@ -41,6 +52,4 @@ public class MedUserSpecification {
             return predicate;
         });
     }
-
-
 }

@@ -35,11 +35,12 @@ public class UserService {
     public List<User> getAllMedUsers() {
         return userRepository.findUsersByAuthority_Authority("ROLE_MED");
     }
-    public List<User> getAllMedUsers(String lastname, String username, String phone) {
+    public List<User> getAllMedUsers(String lastname, String username, String phone, String firstname) {
         Specification<User> specification = Specification
                 .where(MedUserSpecification.hasLastName(lastname))
-                .and((MedUserSpecification.hasUserName(username))
-                        .and(MedUserSpecification.hasPhone(phone)));
+                .and((MedUserSpecification.hasUserName(username)))
+                .and(MedUserSpecification.hasPhone(phone))
+                .and(MedUserSpecification.hasFirstName(firstname));
         return userRepository.findAll(specification);
     }
     public void disableAccount(String username) {

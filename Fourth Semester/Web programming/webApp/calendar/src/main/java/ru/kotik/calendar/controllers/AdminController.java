@@ -33,14 +33,16 @@ public class AdminController {
     @GetMapping("/manage/filterUsers")
     public String filterUsers(Model model,
                               @RequestParam(value = "lastname", required = false) String lastname,
+                              @RequestParam(value = "firstname", required = false) String firstname,
                               @RequestParam(value = "phone", required = false) String phone,
                               @RequestParam(value = "username", required = false) String username) {
-        List<User> filtermedusers = userService.getAllMedUsers(lastname, username, phone);
+        List<User> filtermedusers = userService.getAllMedUsers(lastname, username, phone, firstname);
         model.addAttribute("users", filtermedusers);
         model.addAttribute("user", new User());
         model.addAttribute("lastname", lastname);
         model.addAttribute("username", username);
         model.addAttribute("phone", phone);
+        model.addAttribute("firstname", firstname);
         return "management";
     }
 
@@ -61,7 +63,7 @@ public class AdminController {
                               @PathVariable(value = "username") String username) {
         User user = userService.getUserByUserName(username);
         model.addAttribute("user", user);
-        return "manage";
+        return "management";
 
     }
     @PostMapping("/manage/edit/")
@@ -70,7 +72,4 @@ public class AdminController {
         userService.update(user, updateuser);
         return "redirect:/manage";
     }
-
-
-
 }
