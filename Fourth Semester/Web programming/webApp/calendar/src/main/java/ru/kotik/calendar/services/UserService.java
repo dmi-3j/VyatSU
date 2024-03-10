@@ -95,10 +95,10 @@ public class UserService {
         userRepository.save(user);
     }
     public void update(User exist, User updated) {
-        if (!updated.getFirstname().isBlank()) exist.setFirstname(updated.getFirstname());
-        if(!updated.getLastname().isBlank()) exist.setLastname(updated.getLastname());
-        if (!updated.getPhonenumber().isBlank()) exist.setPhonenumber(updated.getPhonenumber());
-        if (!updated.getPassword().isBlank()) exist.setPassword(updated.getPassword());
+        if (!(updated.getFirstname() == null) && !updated.getFirstname().isBlank()) exist.setFirstname(updated.getFirstname());
+        if(!(updated.getLastname() == null) && !updated.getLastname().isBlank()) exist.setLastname(updated.getLastname());
+        if (!(updated.getPhonenumber() == null) && !updated.getPhonenumber().isBlank()) exist.setPhonenumber(updated.getPhonenumber());
+        if (!(updated.getPassword()==null) && !updated.getPassword().isBlank()) exist.setPassword(updated.getPassword());
         userRepository.save(exist);
     }
 }

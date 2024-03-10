@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<form th:action="@{/manage/edit}" method="post" th:object="${user}">
+    <input type="hidden" id="editUsername" name="username" th:field="*{username}">
+    <div class="form-group">
+        <label for="editFirstname">Имя</label>
+        <input type="text" class="form-control" id="editFirstname" th:field="*{firstname}"/>
+    </div>
+    <div class="form-group">
+        <label for="editLastname">Фамилия</label>
+        <input type="text" class="form-control" id="editLastname" th:field="*{lastname}"/>
+    </div>
+    <div class="form-group">
+        <label for="editPhone">Номер телефона</label>
+        <input type="text" class="form-control" id="editPhone" th:field="*{phonenumber}"/>
+    </div>
+    <div class="form-group">
+        <label for="editPassword">Пароль</label>
+        <input type="password" class="form-control" id="editPassword" th:field="*{password}" required/>
+    </div>
+    <div style="margin-top: 10px" class="form-group">
+        <div class="col-sm-6 controls">
+            <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

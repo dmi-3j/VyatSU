@@ -38,12 +38,9 @@ public class UserController {
     @PostMapping("profile/uploadPhoto")
     public String uploadPhoto(@RequestParam("username") String username,
                               @RequestParam("file") MultipartFile file) {
-        // Проверка наличия файла
         if (!file.isEmpty()) {
             try {
-                // Создание учетных данных
                 BasicAWSCredentials awsCreds = new BasicAWSCredentials("r64QBDrKHTb7kZXsuRwEHy", "bVDPh71kQTgx2ZbaHYDM1A5fPsaafLDDwSaVuWMadyir");
-                // Создание клиента Amazon S3 с учетными данными
                 AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                         .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
                         .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("https://hb.ru-msk.vkcs.cloud", "ru-msk"))
@@ -77,9 +74,8 @@ public class UserController {
                 e.printStackTrace();
             }
         }
-        return "redirect:/";
+        return "redirect:/"; //сделать редирект на профиль снова
     }
-
 
     @PostMapping("/register")
     public String registerUser(User user) {
@@ -106,19 +102,14 @@ public class UserController {
         return "profile";
     }
 
-
     public static String generateRandomString(int length) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         StringBuilder randomString = new StringBuilder();
-
         Random random = new Random();
         for (int i = 0; i < length; i++) {
-            // Выбираем случайный символ из строки characters
             char randomChar = characters.charAt(random.nextInt(characters.length()));
             randomString.append(randomChar);
         }
-
         return randomString.toString();
     }
-
 }

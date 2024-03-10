@@ -29,7 +29,7 @@
             <ul class="navbar-nav">
                 <li sec:authorize="hasRole('ADMIN')" class="nav-item"
                     th:classappend="${activeTab == 'Products' ? 'active' : ''}">
-                    <a class="nav-link" th:href="@{/manage}">Администрирование</a>
+                    <a class="nav-link" th:href="@{/manage}">Управление пользователями</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

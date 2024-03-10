@@ -90,7 +90,9 @@
                 <td th:text="${user.phonenumber}"></td>
                 <td th:text="${user.username}"></td>
                 <td>
+<!--                    <a href="#" onclick="openEditModal"@{'/manage/edit/username' + ${user.username}}")" id="openEditModal" th:text="Редактировать" class="text-info"></a>-->
                     <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>
+<!--                                        <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>-->
                     <a th:if="${user.enabled == true}" th:href="@{'/manage/disable/'  + ${user.username}}" th:text="'Отключить аккаунт'" class="text-danger" style="margin-left: 15px"></a>
                     <a th:if="${user.enabled == false}" th:href="@{'/manage/enable/'  + ${user.username}}" th:text="'Включить аккаунт'" class="text-success" style="margin-left: 15px"></a>
                 </td>
@@ -151,8 +153,8 @@
         $('#openAddUserModal').click(function() {
             $('#addUserModal').modal('show');
         });
+
     });
 </script>
-
 </body>
 </html>

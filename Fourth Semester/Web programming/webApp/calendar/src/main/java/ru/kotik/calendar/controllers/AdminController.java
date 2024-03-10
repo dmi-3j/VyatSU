@@ -63,12 +63,13 @@ public class AdminController {
                               @PathVariable(value = "username") String username) {
         User user = userService.getUserByUserName(username);
         model.addAttribute("user", user);
-        return "management";
-
+        return "edit";
     }
-    @PostMapping("/manage/edit/")
-    public String editMedUser(@ModelAttribute(value = "user") User updateuser){
+    @PostMapping("/manage/edit")
+    public String editMedUserP(@ModelAttribute(value = "user") User updateuser){
+        System.out.println(updateuser);
         User user = userService.getUserByUserName(updateuser.getUsername());
+        System.out.println("hjhgjgkrgdgkggkhkfhklkrjhyklhklrflyhlfirhuilftliftjlhjgkjgjgjkgyktkg");
         userService.update(user, updateuser);
         return "redirect:/manage";
     }
