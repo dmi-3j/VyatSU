@@ -4,11 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.kotik.calendar.entities.MedicalOrganzation;
+import ru.kotik.calendar.entities.MedicalOrganization;
 import ru.kotik.calendar.entities.User;
+import ru.kotik.calendar.services.OrganizationService;
 import ru.kotik.calendar.services.UserService;
+import ru.kotik.calendar.specifications.MedOrgSpecification;
 
 import java.util.List;
+import java.util.UUID;
 
 @Controller
 public class AdminController {
@@ -16,11 +19,13 @@ public class AdminController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private OrganizationService organizationService;
+
     @GetMapping("/manage")
     public String showAdminPage(Model model) {
         model.addAttribute("user", new User());
         model.addAttribute("users", userService.getAllMedUsers());
-        model.addAttribute("medorg", new MedicalOrganzation());
         return "management";
     }
 
@@ -69,8 +74,52 @@ public class AdminController {
     public String editMedUserP(@ModelAttribute(value = "user") User updateuser){
         System.out.println(updateuser);
         User user = userService.getUserByUserName(updateuser.getUsername());
-        System.out.println("hjhgjgkrgdgkggkhkfhklkrjhyklhklrflyhlfirhuilftliftjlhjgkjgjgjkgyktkg");
         userService.update(user, updateuser);
         return "redirect:/manage";
     }
+
+    @GetMapping("/manage/organization")
+    public String showAdminOrganizationPage(Model model) {
+        model.addAttribute("organization", new MedicalOrganization());
+        model.addAttribute("organizations", organizationService.getAllOrganizations());
+        model.addAttribute("medorg", new MedicalOrganization());
+        return "manageOrganization";
+    }
+    @PostMapping("/manage/organization/regMedOrg")
+    public String regMedOrg(MedicalOrganization medicalOrganization) {
+        organizationService.saveMedicalOrganization(medicalOrganization);
+        return "redirect:/manage/organization";
+    }
+    @GetMapping("/manage/organization/filterOrganization")
+    public String filterOrganization(Model model,
+                              @RequestParam(value = "name", required = false) String name,
+                              @RequestParam(value = "address", required = false) String address,
+                              @RequestParam(value = "phone", required = false) String phone) {
+        List<MedicalOrganization> filteredOrganizations = organizationService.getAllOrganizations(name, address, phone);
+        model.addAttribute("organizations", filteredOrganizations);
+        model.addAttribute("medorg", new MedicalOrganization());
+        model.addAttribute("name", name);
+        model.addAttribute("address", address);
+        model.addAttribute("phone", phone);
+        return "manageOrganization";
+    }
+    @GetMapping("/manage/organization/edit/{id}")
+    public String editMedOrg(Model model,
+                              @PathVariable(value = "id") UUID id) {
+        MedicalOrganization medicalOrganization = organizationService.getMedicalOrganizationById(id);
+        model.addAttribute("medorg", medicalOrganization);
+        return "editMedOrg";
+    }
+    @PostMapping("/manage/organization/edit")
+    public String editMedOrgP(@ModelAttribute(value = "medorg") MedicalOrganization updatedOrganization){
+        MedicalOrganization organization = organizationService.getMedicalOrganizationById(updatedOrganization.getId());
+        organizationService.update(organization, updatedOrganization);
+        return "redirect:/manage/organization";
+    }
+
+
+
+
+
+
 }

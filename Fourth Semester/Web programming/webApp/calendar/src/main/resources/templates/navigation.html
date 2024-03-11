@@ -32,6 +32,10 @@
                     th:classappend="${activeTab == 'Products' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/manage}">Управление пользователями</a>
                 </li>
+                <li sec:authorize="hasRole('ADMIN')" class="nav-item"
+                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    <a class="nav-link" th:href="@{/manage/organization}">Управление организациями</a>
+                </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li sec:authorize="isAuthenticated()" class="nav-item dropdown" style="padding: 0">
