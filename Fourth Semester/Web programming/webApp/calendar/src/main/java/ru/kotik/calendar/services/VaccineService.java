@@ -6,6 +6,8 @@ import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.entities.Vaccine;
 import ru.kotik.calendar.repositories.VaccineRepository;
 
+import java.util.List;
+
 @Service
 public class VaccineService {
 
@@ -13,5 +15,9 @@ public class VaccineService {
     private VaccineRepository repository;
     public void saveVaccine(Vaccine vaccine) {
         repository.save(vaccine);
+    }
+
+    public List<Vaccine> getAllVaccines() {
+        return repository.findAll();
     }
 }

@@ -10,6 +10,8 @@ import ru.kotik.calendar.entities.Vaccine;
 import ru.kotik.calendar.entities.VaccineComponent;
 import ru.kotik.calendar.services.OrganizationService;
 import ru.kotik.calendar.services.UserService;
+import ru.kotik.calendar.services.VaccineComponentService;
+import ru.kotik.calendar.services.VaccineService;
 
 import java.util.List;
 import java.util.UUID;
@@ -22,6 +24,12 @@ public class AdminController {
 
     @Autowired
     private OrganizationService organizationService;
+
+    @Autowired
+    private VaccineService vaccineService;
+
+    @Autowired
+    private VaccineComponentService vaccineComponentService;
 
     @GetMapping("/manage")
     public String showAdminPage(Model model) {
@@ -71,8 +79,9 @@ public class AdminController {
         model.addAttribute("user", user);
         return "edit";
     }
+
     @PostMapping("/manage/edit")
-    public String editMedUserP(@ModelAttribute(value = "user") User updateuser){
+    public String editMedUserP(@ModelAttribute(value = "user") User updateuser) {
         System.out.println(updateuser);
         User user = userService.getUserByUserName(updateuser.getUsername());
         userService.update(user, updateuser);
@@ -86,16 +95,18 @@ public class AdminController {
         model.addAttribute("medorg", new MedicalOrganization()); //убрать одно из двух
         return "manageOrganization";
     }
+
     @PostMapping("/manage/organization/regMedOrg")
     public String regMedOrg(MedicalOrganization medicalOrganization) {
         organizationService.saveMedicalOrganization(medicalOrganization);
         return "redirect:/manage/organization";
     }
+
     @GetMapping("/manage/organization/filterOrganization")
     public String filterOrganization(Model model,
-                              @RequestParam(value = "name", required = false) String name,
-                              @RequestParam(value = "address", required = false) String address,
-                              @RequestParam(value = "phone", required = false) String phone) {
+                                     @RequestParam(value = "name", required = false) String name,
+                                     @RequestParam(value = "address", required = false) String address,
+                                     @RequestParam(value = "phone", required = false) String phone) {
         List<MedicalOrganization> filteredOrganizations = organizationService.getAllOrganizations(name, address, phone);
         model.addAttribute("organizations", filteredOrganizations);
         model.addAttribute("medorg", new MedicalOrganization());
@@ -104,15 +115,17 @@ public class AdminController {
         model.addAttribute("phone", phone);
         return "manageOrganization";
     }
+
     @GetMapping("/manage/organization/edit/{id}")
     public String editMedOrg(Model model,
-                              @PathVariable(value = "id") UUID id) {
+                             @PathVariable(value = "id") UUID id) {
         MedicalOrganization medicalOrganization = organizationService.getMedicalOrganizationById(id);
         model.addAttribute("medorg", medicalOrganization);
         return "editMedOrg";
     }
+
     @PostMapping("/manage/organization/edit")
-    public String editMedOrgP(@ModelAttribute(value = "medorg") MedicalOrganization updatedOrganization){
+    public String editMedOrgP(@ModelAttribute(value = "medorg") MedicalOrganization updatedOrganization) {
         MedicalOrganization organization = organizationService.getMedicalOrganizationById(updatedOrganization.getId());
         organizationService.update(organization, updatedOrganization);
         return "redirect:/manage/organization";
@@ -121,8 +134,26 @@ public class AdminController {
     @GetMapping("/manage/vaccine")
     public String showAdminVaccineManagePage(Model model) {
         model.addAttribute("vaccine", new Vaccine());
-//        model.addAttribute("organizations", organizationService.getAllOrganizations());
+        model.addAttribute("vaccines", vaccineService.getAllVaccines());
         model.addAttribute("component", new VaccineComponent());
         return "manageVaccine";
+    }
+
+    @GetMapping("/manage/vaccine/add")
+    public String showAddNewVaccinePage(Model model) {
+        model.addAttribute("vaccine", new Vaccine());
+        model.addAttribute("component", new VaccineComponent());
+        return "addNewVaccineWithComponents";
+    }
+
+    @PostMapping("/manage/vaccine/add")
+    public String addNewVaccineWithComponents(@ModelAttribute Vaccine vaccine) {
+        vaccineService.saveVaccine(vaccine);
+
+        for (VaccineComponent component : vaccine.getComponents()) {
+            component.setVaccine(vaccine);
+            vaccineComponentService.saveVaccineComponent(component);
+        }
+        return "redirect:/manage/vaccine";
     }
 }
