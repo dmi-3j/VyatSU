@@ -156,4 +156,17 @@ public class AdminController {
         }
         return "redirect:/manage/vaccine";
     }
+    @GetMapping("/manage/vaccine/filterVaccine")
+    public String filterVaccine(Model model,
+                                     @RequestParam(value = "name", required = false) String name,
+                                     @RequestParam(value = "country", required = false) String country,
+                                     @RequestParam(value = "valid", required = false) String valid) {
+        List<Vaccine> filteredVaccine = vaccineService.getAllVaccines(name, country, valid);
+        model.addAttribute("vaccines", filteredVaccine);
+        model.addAttribute("vaccine", new Vaccine());
+        model.addAttribute("name", name);
+        model.addAttribute("country", country);
+        model.addAttribute("valid", valid);
+        return "manageVaccine";
+    }
 }

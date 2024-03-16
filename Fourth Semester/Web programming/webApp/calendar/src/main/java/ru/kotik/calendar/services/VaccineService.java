@@ -1,10 +1,12 @@
 package ru.kotik.calendar.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.entities.Vaccine;
 import ru.kotik.calendar.repositories.VaccineRepository;
+import ru.kotik.calendar.specifications.VaccineSpecification;
 
 import java.util.List;
 
@@ -19,5 +21,13 @@ public class VaccineService {
 
     public List<Vaccine> getAllVaccines() {
         return repository.findAll();
+    }
+
+    public List<Vaccine> getAllVaccines(String name, String country, String valid) {
+        Specification<Vaccine> specification = Specification
+                .where(VaccineSpecification.hasName(name))
+                .and(VaccineSpecification.hasCountry(country))
+                .and(VaccineSpecification.hasValidPeriod(valid));
+        return repository.findAll(specification);
     }
 }

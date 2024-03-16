@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <style>
-        .medorg-management-container {
+        .vaccine-management-container {
             display: flex;
             flex-direction: row;
         }
@@ -39,25 +39,25 @@
 </head>
 <body>
 <div th:replace="~{navigation :: navi('Home')}"></div>
-<div id="medorgManagementContainer" class="medorg-management-container">
+<div id="vaccineManagementContainer" class="vaccine-management-container">
     <div class="filter-form">
         <h3>Фильтр</h3>
-        <form th:action="@{/manage/organization/filterOrganization}" method="get">
+        <form th:action="@{/manage/vaccine/filterVaccine}" method="get">
             <div class="form-group">
                 <label for="name">Название</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="Название" th:value="${name}">
             </div>
             <div class="form-group">
-                <label for="adr">Адрес</label>
-                <input type="text" class="form-control" id="adr" name="address" placeholder="Адрес" th:value="${address}">
+                <label for="adr">Страна-производитель:</label>
+                <input type="text" class="form-control" id="adr" name="country" placeholder="Страна-производитель" th:value="${country}">
             </div>
             <div class="form-group">
-                <label for="phone">Номер телефона:</label>
-                <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
+                <label for="phone">Срок действия:</label>
+                <input type="text" class="form-control" id="phone" name="valid" placeholder="Срок действия:" th:value="${valid}">
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
-        <form th:action="@{/manage/organization}">
+        <form th:action="@{/manage/vaccine}">
             <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
         </form>
     </div>
