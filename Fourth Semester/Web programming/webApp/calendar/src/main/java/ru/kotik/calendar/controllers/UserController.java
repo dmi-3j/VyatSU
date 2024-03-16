@@ -76,6 +76,7 @@ public class UserController {
         }
         return "redirect:/"; //сделать редирект на профиль снова
     }
+    //https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg
 
     @PostMapping("/register")
     public String registerUser(User user) {

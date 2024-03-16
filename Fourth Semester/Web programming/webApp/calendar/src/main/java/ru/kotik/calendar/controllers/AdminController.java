@@ -6,9 +6,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.kotik.calendar.entities.MedicalOrganization;
 import ru.kotik.calendar.entities.User;
+import ru.kotik.calendar.entities.Vaccine;
+import ru.kotik.calendar.entities.VaccineComponent;
 import ru.kotik.calendar.services.OrganizationService;
 import ru.kotik.calendar.services.UserService;
-import ru.kotik.calendar.specifications.MedOrgSpecification;
 
 import java.util.List;
 import java.util.UUID;
@@ -52,13 +53,13 @@ public class AdminController {
     }
 
     @GetMapping("/manage/disable/{username}")
-    public String disable(Model model, @PathVariable(value = "username") String username) {
+    public String disable(@PathVariable(value = "username") String username) {
         userService.disableAccount(username);
         return "redirect:/manage";
     }
 
     @GetMapping("/manage/enable/{username}")
-    public String enable(Model model, @PathVariable(value = "username") String username) {
+    public String enable(@PathVariable(value = "username") String username) {
         userService.enableAccount(username);
         return "redirect:/manage";
     }
@@ -82,7 +83,7 @@ public class AdminController {
     public String showAdminOrganizationPage(Model model) {
         model.addAttribute("organization", new MedicalOrganization());
         model.addAttribute("organizations", organizationService.getAllOrganizations());
-        model.addAttribute("medorg", new MedicalOrganization());
+        model.addAttribute("medorg", new MedicalOrganization()); //убрать одно из двух
         return "manageOrganization";
     }
     @PostMapping("/manage/organization/regMedOrg")
@@ -117,9 +118,11 @@ public class AdminController {
         return "redirect:/manage/organization";
     }
 
-
-
-
-
-
+    @GetMapping("/manage/vaccine")
+    public String showAdminVaccineManagePage(Model model) {
+        model.addAttribute("vaccine", new Vaccine());
+//        model.addAttribute("organizations", organizationService.getAllOrganizations());
+        model.addAttribute("component", new VaccineComponent());
+        return "manageVaccine";
+    }
 }

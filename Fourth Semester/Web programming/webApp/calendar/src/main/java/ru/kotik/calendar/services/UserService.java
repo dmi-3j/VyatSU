@@ -61,6 +61,7 @@ public class UserService {
         authority.setAuthority("ROLE_USER");
         authority.setUser(user);
         user.setAuthority(authority);
+        user.setPhotopath("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg");
         saveUser(user);
     }
     public void regMedUser(User user) {
@@ -70,6 +71,7 @@ public class UserService {
         authority.setAuthority("ROLE_MED");
         authority.setUser(user);
         user.setAuthority(authority);
+        user.setPhotopath("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg");
         saveUser(user);
     }
     public void saveUser(User user) {
@@ -99,6 +101,7 @@ public class UserService {
         if(!(updated.getLastname() == null) && !updated.getLastname().isBlank()) exist.setLastname(updated.getLastname());
         if (!(updated.getPhonenumber() == null) && !updated.getPhonenumber().isBlank()) exist.setPhonenumber(updated.getPhonenumber());
         if (!(updated.getPassword()==null) && !updated.getPassword().isBlank()) exist.setPassword(updated.getPassword());
+        encodePassword(exist);
         userRepository.save(exist);
     }
 }
