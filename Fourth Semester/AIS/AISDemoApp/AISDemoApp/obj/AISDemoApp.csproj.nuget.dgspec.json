@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Проекты C# Субботин Д.Л\\АСД\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj": {}
+    "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj": {}
   },
   "projects": {
-    "D:\\Проекты C# Субботин Д.Л\\АСД\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj": {
+    "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Проекты C# Субботин Д.Л\\АСД\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj",
         "projectName": "AISDemoApp",
-        "projectPath": "D:\\Проекты C# Субботин Д.Л\\АСД\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\AISDemoApp.csproj",
         "packagesPath": "C:\\Users\\dmitry\\.nuget\\packages\\",
-        "outputPath": "D:\\Проекты C# Субботин Д.Л\\АСД\\AISDemoApp\\AISDemoApp\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
