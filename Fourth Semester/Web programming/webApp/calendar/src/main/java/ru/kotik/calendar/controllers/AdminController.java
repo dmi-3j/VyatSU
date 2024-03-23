@@ -169,4 +169,10 @@ public class AdminController {
         model.addAttribute("valid", valid);
         return "manageVaccine";
     }
+    @GetMapping("/manage/vaccine/info/{id}")
+    public String vaccineInfo(Model model, @PathVariable(value = "id") UUID id) {
+        Vaccine vaccine = vaccineService.getVaccineById(id);
+        model.addAttribute("vaccine", vaccine);
+        return "vaccineinfo";
+    }
 }

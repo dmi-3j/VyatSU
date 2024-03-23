@@ -9,6 +9,7 @@ import ru.kotik.calendar.repositories.VaccineRepository;
 import ru.kotik.calendar.specifications.VaccineSpecification;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class VaccineService {
@@ -29,5 +30,8 @@ public class VaccineService {
                 .and(VaccineSpecification.hasCountry(country))
                 .and(VaccineSpecification.hasValidPeriod(valid));
         return repository.findAll(specification);
+    }
+    public Vaccine getVaccineById(UUID id) {
+        return repository.findById(id);
     }
 }

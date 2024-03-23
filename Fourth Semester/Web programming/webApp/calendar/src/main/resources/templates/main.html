@@ -37,7 +37,7 @@
             <div class="modal-body">
                 <div class="tab-content" id="loginRegisterTabsContent">
                     <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-                        <form class="align-middle" th:action="@{/authenticateTheUser}" method="POST">
+                        <form class="align-middle" th:action="@{/authenticateTheUser}" method="POST" onsubmit="return validateLoginForm()">
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Логин" name="username" aria-describedby="inputGroup-sizing-sm">
                             </div>
@@ -52,7 +52,7 @@
                     </div>
                     <!-- Вкладка для регистрации -->
                     <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-                        <form th:action="@{/register}" method="post" th:object="${user}">
+                        <form th:action="@{/register}" method="post" th:object="${user}" onsubmit="return validateRegistrationForm()">
                             <div class="form-group">
                                 <label for="firstname">Имя</label>
                                 <input th:field="*{firstname}" required class="form-control" id="firstname"/>
@@ -104,6 +104,43 @@
             $('#loginRegisterModal').modal('show');
         }
     });
+    function validateLoginForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username.trim() === '' || password.trim() === '') {
+            alert('Логин и пароль не могут быть пустыми!');
+            return false;
+        }
+
+        return true;
+    }
+
+    function validateRegistrationForm() {
+        var phoneNumber = document.getElementById("phonenumber").value;
+        var insuranceNumber = document.getElementById("insurancenumber").value;
+        var password = document.getElementById("password").value;
+
+        var phoneRegex = /^\+7\d{10}$/;
+        var insuranceNumberRegex = /^\d{16}$/;
+
+        if (!phoneRegex.test(phoneNumber)) {
+            alert('Номер телефона должен быть в формате +7XXXXXXXXXX!');
+            return false;
+        }
+
+        if (!insuranceNumberRegex.test(insuranceNumber)) {
+            alert('Номер полиса должен содержать 16 цифр!');
+            return false;
+        }
+
+        if (password.length < 6) {
+            alert('Пароль должен содержать минимум 6 символов!');
+            return false;
+        }
+
+        return true;
+    }
 </script>
 </body>
 </html>
