@@ -23,6 +23,7 @@ public class User {
     private String middlename;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @Temporal(TemporalType.DATE)
     private Date dateofbirth;
     private String phonenumber;
     private String address;

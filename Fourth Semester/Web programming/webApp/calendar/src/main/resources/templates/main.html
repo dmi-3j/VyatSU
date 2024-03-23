@@ -37,7 +37,7 @@
             <div class="modal-body">
                 <div class="tab-content" id="loginRegisterTabsContent">
                     <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-                        <form class="align-middle" th:action="@{/authenticateTheUser}" method="POST" onsubmit="return validateLoginForm()">
+                        <form class="align-middle" th:action="@{/authenticateTheUser}" method="POST">
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Логин" name="username" aria-describedby="inputGroup-sizing-sm">
                             </div>
@@ -52,42 +52,49 @@
                     </div>
                     <!-- Вкладка для регистрации -->
                     <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-                        <form th:action="@{/register}" method="post" th:object="${user}" onsubmit="return validateRegistrationForm()">
+                        <form th:action="@{/register}" method="post" th:object="${user}">
                             <div class="form-group">
                                 <label for="firstname">Имя</label>
                                 <input th:field="*{firstname}" required class="form-control" id="firstname"/>
                             </div>
                             <div class="form-group">
                                 <label for="lastname">Фамилия</label>
-                                <input type="text" class="form-control" id="lastname" th:field="*{lastname}">
+                                <input type="text" required class="form-control" id="lastname" th:field="*{lastname}">
                             </div>
                             <div class="form-group">
                                 <label for="middlename">Отчество</label>
                                 <input type="text" class="form-control" id="middlename" th:field="*{middlename}">
                             </div>
+<!--                            <div class="form-group">-->
+<!--                                <label for="dateofbirth">Дата рождения</label>-->
+<!--                                <input type="text" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}">-->
+<!--                            </div>-->
                             <div class="form-group">
                                 <label for="dateofbirth">Дата рождения</label>
-                                <input type="text" class="form-control" id="dateofbirth" th:field="*{dateofbirth}">
+                                <input type="date" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}" min="1900-01-01">
                             </div>
                             <div class="form-group">
                                 <label for="address">Адрес</label>
-                                <input type="text" class="form-control" id="address" th:field="*{address}">
+                                <input type="text" required class="form-control" id="address" th:field="*{address}">
                             </div>
                             <div class="form-group">
                                 <label for="phonenumber">Номер телефона</label>
-                                <input type="text" class="form-control" id="phonenumber" th:field="*{phonenumber}">
+                                <input type="text" required class="form-control" id="phonenumber" th:field="*{phonenumber}">
+                                <div class="error-message text-danger"></div> <!-- Сообщение об ошибке для номера телефона -->
                             </div>
                             <div class="form-group">
                                 <label for="insuranceNumber">Номер полиса</label>
-                                <input type="text" class="form-control" id="insurancenumber" th:field="*{inshurancenumber}">
+                                <input type="text" required class="form-control" id="insurancenumber" th:field="*{inshurancenumber}">
+                                <div class="error-message text-danger"></div> <!-- Сообщение об ошибке для номера полиса -->
                             </div>
                             <div class="form-group">
                                 <label for="username">Логин</label>
-                                <input type="text" class="form-control" id="username" th:field="*{username}">
+                                <input type="text" required class="form-control" id="username" th:field="*{username}">
                             </div>
                             <div class="form-group">
                                 <label for="password">Пароль</label>
-                                <input type="password" class="form-control" id="password" th:field="*{password}">
+                                <input type="password" required class="form-control" id="password" th:field="*{password}">
+                                <div class="error-message text-danger"></div> <!-- Сообщение об ошибке для пароля -->
                             </div>
                             <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
                         </form>
@@ -97,6 +104,8 @@
         </div>
     </div>
 </div>
+<script
+
 <script th:inline="javascript">
     $(document).ready(function() {
         var isError = /*[[${param.error}]]*/ false;
@@ -104,43 +113,73 @@
             $('#loginRegisterModal').modal('show');
         }
     });
-    function validateLoginForm() {
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-
-        if (username.trim() === '' || password.trim() === '') {
-            alert('Логин и пароль не могут быть пустыми!');
-            return false;
+    $(document).ready(function() {
+        // Функция для проверки формата номера телефона
+        function validatePhoneNumber(phoneNumber) {
+            var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
+            return phoneRegex.test(phoneNumber);
         }
 
-        return true;
-    }
-
-    function validateRegistrationForm() {
-        var phoneNumber = document.getElementById("phonenumber").value;
-        var insuranceNumber = document.getElementById("insurancenumber").value;
-        var password = document.getElementById("password").value;
-
-        var phoneRegex = /^\+7\d{10}$/;
-        var insuranceNumberRegex = /^\d{16}$/;
-
-        if (!phoneRegex.test(phoneNumber)) {
-            alert('Номер телефона должен быть в формате +7XXXXXXXXXX!');
-            return false;
+        // Функция для проверки формата номера полиса
+        function validateInsuranceNumber(insuranceNumber) {
+            var insuranceRegex = /^\d{16}$/; // 16 цифр
+            return insuranceRegex.test(insuranceNumber);
         }
 
-        if (!insuranceNumberRegex.test(insuranceNumber)) {
-            alert('Номер полиса должен содержать 16 цифр!');
-            return false;
+        // Функция для проверки длины пароля
+        function validatePassword(password) {
+            return password.length >= 6; // Пароль должен быть не менее 6 символов
         }
 
-        if (password.length < 6) {
-            alert('Пароль должен содержать минимум 6 символов!');
-            return false;
+        // Функция для обновления сообщения об ошибке
+        function updateErrorMessage(element, message) {
+            var errorElement = element.next('.error-message');
+            if (!errorElement.length) {
+                errorElement = $('<div class="error-message text-danger"></div>').insertAfter(element);
+            }
+            errorElement.text(message);
         }
 
-        return true;
-    }
+        // Функция для удаления сообщения об ошибке
+        function clearErrorMessage(element) {
+            element.next('.error-message').remove();
+        }
+
+        // Функция для обработки изменений в поле номера телефона
+        $('#phonenumber').on('input', function() {
+            var phoneNumber = $(this).val();
+            var isValid = validatePhoneNumber(phoneNumber);
+            if (!isValid) {
+                updateErrorMessage($(this), 'Номер телефона должен быть в формате +7xxxxxxxxxx');
+            } else {
+                clearErrorMessage($(this));
+            }
+        });
+
+        // Функция для обработки изменений в поле номера полиса
+        $('#insurancenumber').on('input', function() {
+            var insuranceNumber = $(this).val();
+            var isValid = validateInsuranceNumber(insuranceNumber);
+            if (!isValid) {
+                updateErrorMessage($(this), 'Номер полиса должен состоять из 16 цифр');
+            } else {
+                clearErrorMessage($(this));
+            }
+        });
+
+        // Функция для обработки изменений в поле пароля
+        $('#password').on('input', function() {
+            var password = $(this).val();
+            var isValid = validatePassword(password);
+            if (!isValid) {
+                updateErrorMessage($(this), 'Пароль должен содержать не менее 6 символов');
+            } else {
+                clearErrorMessage($(this));
+            }
+        });
+    });
+    var today = new Date().toISOString().split('T')[0];
+    document.getElementById('dateofbirth').setAttribute('max', today);
 </script>
 </body>
 </html>
