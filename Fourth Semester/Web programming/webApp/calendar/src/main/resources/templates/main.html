@@ -90,6 +90,7 @@
                             <div class="form-group">
                                 <label for="username">Логин</label>
                                 <input type="text" required class="form-control" id="username" th:field="*{username}">
+                                <div class="error-message text-danger"></div>
                             </div>
                             <div class="form-group">
                                 <label for="password">Пароль</label>
@@ -104,8 +105,6 @@
         </div>
     </div>
 </div>
-<script
-
 <script th:inline="javascript">
     $(document).ready(function() {
         var isError = /*[[${param.error}]]*/ false;
@@ -114,24 +113,86 @@
         }
     });
     $(document).ready(function() {
-        // Функция для проверки формата номера телефона
+        var usernameError = false; // Флаг для отслеживания ошибки при проверке логина
+
+        $('#username').on('input', function() {
+            var username = $(this).val();
+            $.ajax({
+                url: '/checkUsernameAvailability?username=' + username,
+                type: 'GET',
+                success: function(data) {
+                    if (!data) {
+                        // Если логин уже занят, установить флаг ошибки в true
+                        usernameError = true;
+                        $('#username').next('.error-message').text('Этот логин уже занят');
+                    } else {
+                        // Очистить сообщение об ошибке и сбросить флаг ошибки, если логин доступен
+                        usernameError = false;
+                        $('#username').next('.error-message').text('');
+                    }
+                },
+                error: function() {
+                    // В случае ошибки также установить флаг ошибки в true и вывести сообщение
+                    usernameError = true;
+                    $('#username').next('.error-message').text('Ошибка проверки доступности логина');
+                }
+            });
+        });
+
+        // Перехватываем отправку формы и проверяем, была ли ошибка при проверке логина
+        $('form').submit(function(event) {
+            if (usernameError) {
+                event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+            }
+        });
+    });
+    $(document).ready(function() {
+        var insuranceNumberError = false; // Флаг для отслеживания ошибки при проверке номера полиса
+
+        $('form').submit(function(event) {
+            var insuranceNumber = $('#insurancenumber').val();
+            $.ajax({
+                url: '/checkInsuranceNumberAvailability?insuranceNumber=' + insuranceNumber,
+                type: 'GET',
+                async: false, // Устанавливаем синхронный режим, чтобы дождаться ответа от сервера перед продолжением отправки формы
+                success: function(data) {
+                    if (!data) {
+                        insuranceNumberError = true;
+                        $('#insurancenumber').next('.error-message').text('Этот номер полиса уже занят');
+                    } else {
+                        // Очистить сообщение об ошибке и сбросить флаг ошибки, если номер полиса доступен
+                        insuranceNumberError = false;
+                        $('#insurancenumber').next('.error-message').text('');
+                    }
+                },
+                error: function() {
+                    // В случае ошибки также установить флаг ошибки в true и вывести сообщение
+                    insuranceNumberError = true;
+                    $('#insurancenumber').next('.error-message').text('Ошибка проверки доступности номера полиса');
+                }
+            });
+
+            // Отменяем отправку формы, если есть ошибка
+            if (insuranceNumberError) {
+                event.preventDefault();
+              alert('Этот номер полиса уже занят');
+            }
+        });
+    });
+
+
+    $(document).ready(function() {
         function validatePhoneNumber(phoneNumber) {
             var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
             return phoneRegex.test(phoneNumber);
         }
-
-        // Функция для проверки формата номера полиса
         function validateInsuranceNumber(insuranceNumber) {
             var insuranceRegex = /^\d{16}$/; // 16 цифр
             return insuranceRegex.test(insuranceNumber);
         }
-
-        // Функция для проверки длины пароля
         function validatePassword(password) {
-            return password.length >= 6; // Пароль должен быть не менее 6 символов
+            return password.length >= 6;
         }
-
-        // Функция для обновления сообщения об ошибке
         function updateErrorMessage(element, message) {
             var errorElement = element.next('.error-message');
             if (!errorElement.length) {
@@ -139,44 +200,77 @@
             }
             errorElement.text(message);
         }
-
-        // Функция для удаления сообщения об ошибке
         function clearErrorMessage(element) {
             element.next('.error-message').remove();
         }
+        $(document).ready(function() {
+            var phoneNumberError = false; // Флаг для отслеживания ошибки при проверке номера телефона
 
-        // Функция для обработки изменений в поле номера телефона
-        $('#phonenumber').on('input', function() {
-            var phoneNumber = $(this).val();
-            var isValid = validatePhoneNumber(phoneNumber);
-            if (!isValid) {
-                updateErrorMessage($(this), 'Номер телефона должен быть в формате +7xxxxxxxxxx');
-            } else {
-                clearErrorMessage($(this));
-            }
+            $('#phonenumber').on('input', function() {
+                var phoneNumber = $(this).val();
+                var isValid = validatePhoneNumber(phoneNumber);
+                if (!isValid) {
+                    phoneNumberError = true;
+                    updateErrorMessage($(this), 'Номер телефона должен быть в формате +7xxxxxxxxxx');
+                } else {
+                    phoneNumberError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function(event) {
+                // Проверяем, есть ли ошибка при проверке номера телефона
+                if (phoneNumberError) {
+                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                }
+            });
+        });
+        $(document).ready(function() {
+            var insuranceNumberError = false; // Флаг для отслеживания ошибки при проверке номера полиса
+
+            $('#insurancenumber').on('input', function() {
+                var insuranceNumber = $(this).val();
+                var isValid = validateInsuranceNumber(insuranceNumber);
+                if (!isValid) {
+                    insuranceNumberError = true;
+                    updateErrorMessage($(this), 'Номер полиса должен состоять из 16 цифр');
+                } else {
+                    insuranceNumberError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function(event) {
+                // Проверяем, есть ли ошибка при проверке номера полиса
+                if (insuranceNumberError) {
+                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                }
+            });
         });
 
-        // Функция для обработки изменений в поле номера полиса
-        $('#insurancenumber').on('input', function() {
-            var insuranceNumber = $(this).val();
-            var isValid = validateInsuranceNumber(insuranceNumber);
-            if (!isValid) {
-                updateErrorMessage($(this), 'Номер полиса должен состоять из 16 цифр');
-            } else {
-                clearErrorMessage($(this));
-            }
+        $(document).ready(function() {
+            var passwordError = false; // Флаг для отслеживания ошибки при проверке пароля
+
+            $('#password').on('input', function() {
+                var password = $(this).val();
+                var isValid = validatePassword(password);
+                if (!isValid) {
+                    passwordError = true;
+                    updateErrorMessage($(this), 'Пароль должен содержать не менее 6 символов');
+                } else {
+                    passwordError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function(event) {
+                // Проверяем, есть ли ошибка при проверке пароля
+                if (passwordError) {
+                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                }
+            });
         });
 
-        // Функция для обработки изменений в поле пароля
-        $('#password').on('input', function() {
-            var password = $(this).val();
-            var isValid = validatePassword(password);
-            if (!isValid) {
-                updateErrorMessage($(this), 'Пароль должен содержать не менее 6 символов');
-            } else {
-                clearErrorMessage($(this));
-            }
-        });
     });
     var today = new Date().toISOString().split('T')[0];
     document.getElementById('dateofbirth').setAttribute('max', today);

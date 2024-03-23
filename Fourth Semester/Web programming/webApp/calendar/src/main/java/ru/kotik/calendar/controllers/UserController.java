@@ -5,6 +5,7 @@ import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -112,5 +113,15 @@ public class UserController {
             randomString.append(randomChar);
         }
         return randomString.toString();
+    }
+    @GetMapping("/checkUsernameAvailability")
+    public ResponseEntity<?> checkUsernameAvailability(@RequestParam String username) {
+        boolean isAvailable = !userService.existsByUsername(username);
+        return ResponseEntity.ok(isAvailable);
+    }
+    @GetMapping("/checkInsuranceNumberAvailability")
+    public ResponseEntity<?> checkInsuranceNumberAvailability(@RequestParam String insuranceNumber) {
+        boolean isAvailable = !userService.existsByInsuranceNumber(insuranceNumber);
+        return ResponseEntity.ok(isAvailable);
     }
 }

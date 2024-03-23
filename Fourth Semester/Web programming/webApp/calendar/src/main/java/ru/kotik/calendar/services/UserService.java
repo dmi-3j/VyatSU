@@ -27,7 +27,12 @@ public class UserService {
         if (user == null) throw  new UsernameNotFoundException(username);
         return user;
     }
-
+    public  boolean existsByUsername(String username) {
+        return userRepository.existsByUsername(username);
+    }
+    public boolean existsByInsuranceNumber(String inshurancenumber) {
+        return  userRepository.existsByInshurancenumber(inshurancenumber);
+    }
 
     public List<User> getAllUsers() {
         return userRepository.findAll();

@@ -12,4 +12,7 @@ import java.util.List;
 public interface UserRepository extends JpaRepository<User, Integer>, JpaSpecificationExecutor<User> {
     User findByusername(String username);
     List<User> findUsersByAuthority_Authority(String authority);
+
+    boolean existsByUsername(String username);
+    boolean existsByInshurancenumber(String insuranceNumber);
 }
