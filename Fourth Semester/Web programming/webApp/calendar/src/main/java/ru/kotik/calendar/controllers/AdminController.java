@@ -148,9 +148,12 @@ public class AdminController {
     }
 
     @GetMapping("/manage/vaccine/add")
-    public String showAddNewVaccinePage(Model model) {
+    public String showAddNewVaccinePage(Model model,
+                                        HttpServletRequest request) {
         model.addAttribute("vaccine", new Vaccine());
         model.addAttribute("component", new VaccineComponent());
+        String referer = request.getHeader("referer");
+        model.addAttribute("referer", referer);
         return "addNewVaccineWithComponents";
     }
 
@@ -178,9 +181,13 @@ public class AdminController {
         return "manageVaccine";
     }
     @GetMapping("/manage/vaccine/info/{id}")
-    public String vaccineInfo(Model model, @PathVariable(value = "id") UUID id) {
+    public String vaccineInfo(Model model,
+                              @PathVariable(value = "id") UUID id,
+                              HttpServletRequest request) {
         Vaccine vaccine = vaccineService.getVaccineById(id);
         model.addAttribute("vaccine", vaccine);
+        String referer = request.getHeader("referer");
+        model.addAttribute("referer", referer);
         return "vaccineinfo";
     }
 }
