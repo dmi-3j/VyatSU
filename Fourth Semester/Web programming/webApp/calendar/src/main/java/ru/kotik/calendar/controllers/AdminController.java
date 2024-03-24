@@ -1,5 +1,6 @@
 package ru.kotik.calendar.controllers;
 
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -74,9 +75,13 @@ public class AdminController {
 
     @GetMapping("/manage/edit/{username}")
     public String editMedUser(Model model,
-                              @PathVariable(value = "username") String username) {
+                              @PathVariable(value = "username") String username,
+                              HttpServletRequest request) {
         User user = userService.getUserByUserName(username);
         model.addAttribute("user", user);
+        String referer = request.getHeader("referer");
+        model.addAttribute("referer", referer);
+
         return "edit";
     }
 
@@ -118,9 +123,12 @@ public class AdminController {
 
     @GetMapping("/manage/organization/edit/{id}")
     public String editMedOrg(Model model,
-                             @PathVariable(value = "id") UUID id) {
+                             @PathVariable(value = "id") UUID id,
+                             HttpServletRequest request) {
         MedicalOrganization medicalOrganization = organizationService.getMedicalOrganizationById(id);
         model.addAttribute("medorg", medicalOrganization);
+        String referer = request.getHeader("referer");
+        model.addAttribute("referer", referer);
         return "editMedOrg";
     }
 

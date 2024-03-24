@@ -46,15 +46,16 @@
         <form th:action="@{/manage/organization/filterOrganization}" method="get">
             <div class="form-group">
                 <label for="name">Название</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Название" th:value="${name}">
+                <input type="text" required class="form-control" id="name" name="name" placeholder="Название" th:value="${name}">
             </div>
             <div class="form-group">
                 <label for="adr">Адрес</label>
-                <input type="text" class="form-control" id="adr" name="address" placeholder="Адрес" th:value="${address}">
+                <input type="text" required class="form-control" id="adr" name="address" placeholder="Адрес" th:value="${address}">
             </div>
             <div class="form-group">
                 <label for="phone">Номер телефона:</label>
-                <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
+                <input type="text" required class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
+                <div class="error-message text-danger"></div>
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
@@ -103,11 +104,11 @@
                     </div>
                     <div class="form-group">
                         <label for="address">Адрес</label>
-                        <input type="text" class="form-control" id="address" th:field="*{address}">
+                        <input type="text" required class="form-control" id="address" th:field="*{address}">
                     </div>
                     <div class="form-group">
                         <label for="phonenumber">Номер телефона</label>
-                        <input type="text" class="form-control" id="phonenumber" th:field="*{phoneNumber}">
+                        <input type="text" required class="form-control" id="phonenumber" th:field="*{phoneNumber}">
                     </div>
                     <button type="submit" class="btn btn-primary">Добавить организацию</button>
                 </form>
@@ -130,6 +131,48 @@
         });
 
     });
+    $(document).ready(function() {
+        function updateErrorMessage(element, message) {
+            var errorElement = element.next('.error-message');
+            if (!errorElement.length) {
+                errorElement = $('<div class="error-message text-danger"></div>').insertAfter(element);
+            }
+            errorElement.text(message);
+        }
+        function validatePhoneNumber(phoneNumber) {
+            var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
+            return phoneRegex.test(phoneNumber);
+        }
+
+        function clearErrorMessage(element) {
+            element.next('.error-message').remove();
+        }
+
+        $(document).ready(function () {
+            var phoneNumberError = false; // Флаг для отслеживания ошибки при проверке номера телефона
+
+            $('#phonenumber').on('input', function () {
+                var phoneNumber = $(this).val();
+                var isValid = validatePhoneNumber(phoneNumber);
+                if (!isValid) {
+                    phoneNumberError = true;
+                    updateErrorMessage($(this), 'Номер телефона должен быть в формате +7xxxxxxxxxx');
+                } else {
+                    phoneNumberError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function (event) {
+                // Проверяем, есть ли ошибка при проверке номера телефона
+                if (phoneNumberError) {
+                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                }
+            });
+        });
+    });
+
+
 </script>
 
 </body>
