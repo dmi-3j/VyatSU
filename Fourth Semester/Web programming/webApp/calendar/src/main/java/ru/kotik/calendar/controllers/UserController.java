@@ -5,7 +5,14 @@ import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties;
+import org.springframework.boot.autoconfigure.security.saml2.Saml2RelyingPartyProperties;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,7 +41,6 @@ public class UserController {
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
-
 
     @PostMapping("profile/uploadPhoto")
     public String uploadPhoto(@RequestParam("username") String username,
@@ -75,7 +81,7 @@ public class UserController {
                 e.printStackTrace();
             }
         }
-        return "redirect:/"; //сделать редирект на профиль снова
+        return "redirect:/profile";
     }
     //https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg
 

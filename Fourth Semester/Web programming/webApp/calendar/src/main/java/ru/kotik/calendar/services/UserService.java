@@ -10,6 +10,7 @@ import ru.kotik.calendar.entities.Authority;
 import ru.kotik.calendar.repositories.UserRepository;
 import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.specifications.MedUserSpecification;
+import ru.kotik.calendar.specifications.UserSpecification;
 
 import java.util.List;
 
@@ -39,6 +40,17 @@ public class UserService {
     }
     public List<User> getAllMedUsers() {
         return userRepository.findUsersByAuthority_Authority("ROLE_MED");
+    }
+    public List<User> getUsers() {
+        return userRepository.findUsersByAuthority_Authority("ROLE_USER");
+    }
+
+    public List<User> getUsers(String lastname, String firstname, String insNum) {
+        Specification<User> specification = Specification
+                .where(UserSpecification.hasLastName(lastname))
+                .and(UserSpecification.hasFirstName(firstname))
+                .and(UserSpecification.hasInsNum(insNum));
+        return userRepository.findAll(specification);
     }
     public List<User> getAllMedUsers(String lastname, String username, String phone, String firstname) {
         Specification<User> specification = Specification

@@ -35,4 +35,5 @@ public class MainController {
         model.addAttribute("error", true);
         return "main";
     }
+
 }

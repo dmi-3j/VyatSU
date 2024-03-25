@@ -40,6 +40,10 @@
                     th:classappend="${activeTab == 'Products' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/manage/vaccine}">Управление прививками</a>
                 </li>
+                <li sec:authorize="hasRole('MED')" class="nav-item"
+                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    <a class="nav-link" th:href="@{/med/users}">Поиск пользователей</a>
+                </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li sec:authorize="isAuthenticated()" class="nav-item dropdown" style="padding: 0">
