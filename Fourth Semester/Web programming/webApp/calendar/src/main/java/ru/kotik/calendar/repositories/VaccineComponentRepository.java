@@ -12,4 +12,6 @@ import java.util.UUID;
 public interface VaccineComponentRepository extends JpaRepository<VaccineComponent, Integer> {
 
     List<VaccineComponent> getVaccineComponentsByVaccineId(int id);
+
+    VaccineComponent getVaccineComponentById(int id);
 }

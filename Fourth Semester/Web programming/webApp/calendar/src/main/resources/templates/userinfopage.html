@@ -33,25 +33,35 @@
             </div>
             <div class="modal-body">
                 <!-- Форма для ввода данных о вакцинации -->
-                <form id="addVaccinationForm" action="/med/users/addVaccination" method="post">
+                <form id="addVaccinationForm" th:action="@{/med/users/addVaccination}" method="post">
+
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" id="user" name="username" required th:value="${user.username}">
+                    </div>
                     <div class="form-group">
                         <label for="serial">Серия вакцинации:</label>
                         <input type="text" class="form-control" id="serial" name="serial" required>
                     </div>
                     <div class="form-group">
                         <label for="vaccineName">Прививка:</label>
-                        <select class="form-control" id="vaccineName" name="vaccineName" required>
-                            <option value="">Выберите прививку</option> <!-- Пустой option -->
+                        <select class="form-control" id="vaccineName" name="vaccineId" required>
+                            <option value="">Выберите прививку</option>
                             <option th:each="vaccine : ${vaccines}" th:value="${vaccine.id}" th:text="${vaccine.vaccineName}"></option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="componentName">Название компонента:</label>
-                        <select class="form-control" id="componentName" name="componentName" required>
-                            <!-- Опции будут добавлены динамически с помощью JavaScript -->
+                        <label for="componentName">Компонент прививки:</label>
+                        <select class="form-control" id="componentName" name="componentId" required>
+
                         </select>
                     </div>
-                    <!-- Добавьте другие поля, если необходимо -->
+                    <div class="form-group">
+                        <label for="organizationName">Медицинская организация:</label>
+                        <select class="form-control" id="organizationName" name="organizationId" required>
+                            <option value="">Выберите организацию</option>
+                            <option th:each=" organization: ${organizations}" th:value="${organization.id}" th:text="${organization.organizationName}"></option>
+                        </select>
+                    </div>
                     <button type="submit" class="btn btn-primary">Добавить</button>
                 </form>
             </div>
@@ -62,18 +72,13 @@
 
 <script th:inline="javascript">
     $(document).ready(function () {
-        // Функция для загрузки компонентов в выпадающий список при выборе вакцины
         $('#vaccineName').change(function () {
             var vaccineId = $(this).val();
-            // Очищаем список компонентов при выборе новой вакцины
             $('#componentName').empty();
-
-            // Выполняем AJAX-запрос для получения компонентов по выбранной вакцине
             $.ajax({
                 type: 'GET',
                 url: '/med/vaccine/components/' + vaccineId,
                 success: function (data) {
-                    // Добавляем полученные компоненты в выпадающий список
                     $.each(data, function (index, component) {
                         $('#componentName').append('<option value="' + component.id + '">' + component.componentName + '</option>');
                     });
@@ -81,11 +86,9 @@
             });
         });
 
-
-        // Отправка данных формы
         $('#addVaccinationForm').submit(function (event) {
-            event.preventDefault(); // Предотвратить отправку формы по умолчанию
-            var formData = $(this).serialize(); // Получить данные формы
+            event.preventDefault();
+            var formData = $(this).serialize();
             $.ajax({
                 type: 'POST',
                 url: '/med/users/addVaccination',
@@ -95,7 +98,6 @@
                     $('#addVaccinationModal').modal('hide');
                 },
                 error: function (error) {
-                    // Обработать ошибку (если необходимо)
                     console.log(error);
                 }
             });

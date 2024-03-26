@@ -20,4 +20,7 @@ public class VaccineComponentService {
     public List<VaccineComponent> getComponentsByVaccineId(int id) {
         return vaccineComponentRepository.getVaccineComponentsByVaccineId(id);
     }
+    public VaccineComponent getComponentById(int id) {
+        return vaccineComponentRepository.getVaccineComponentById(id);
+    }
 }

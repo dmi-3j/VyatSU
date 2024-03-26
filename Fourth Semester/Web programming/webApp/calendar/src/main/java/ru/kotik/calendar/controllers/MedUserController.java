@@ -6,12 +6,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import ru.kotik.calendar.entities.MedicalOrganization;
 import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.entities.Vaccine;
 import ru.kotik.calendar.entities.VaccineComponent;
-import ru.kotik.calendar.services.UserService;
-import ru.kotik.calendar.services.VaccineComponentService;
-import ru.kotik.calendar.services.VaccineService;
+import ru.kotik.calendar.services.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,6 +29,12 @@ public class MedUserController {
 
     @Autowired
     VaccineComponentService vaccineComponentService;
+
+    @Autowired
+    OrganizationService organizationService;
+
+    @Autowired
+    VaccinationService vaccinationService;
     @GetMapping("/med/users")
     public String showMedUserPage(Model model) {
         model.addAttribute("user", new User());
@@ -53,18 +58,26 @@ public class MedUserController {
     public String userInfoPage(@PathVariable String username,
                                Model model) {
         User user = userService.getUserByUserName(username);
-        List<Vaccine> vaccines = vaccineService.getAllVaccines(); // Получаем список вакцин
+        List<Vaccine> vaccines = vaccineService.getAllVaccines();
         model.addAttribute("user", user);
         model.addAttribute("vaccines", vaccines);
+        List<MedicalOrganization> organizations = organizationService.getAllOrganizations();
+        model.addAttribute("organizations", organizations);
         return "userinfopage";
     }
     @PostMapping("/med/users/addVaccination")
-    public String addVaccination(@RequestParam("serial") String serial,
-                                 @RequestParam("vaccineName") String vaccineName,
-                                 @RequestParam("componentName") UUID componentName,
+    public String addVaccination(@RequestParam("username") String username,
+                                 @RequestParam("serial") String serial,
+                                 @RequestParam("vaccineId") int vaccineId,
+                                 @RequestParam("componentId") int componentId,
+                                 @RequestParam("organizationId") int organizationId,
                                  Model model) {
-        // Ваш код для добавления вакцинации
-        return "redirect:/med/users/info/{username}"; // Перенаправление на страницу информации о пользователе
+        User user = userService.getUserByUserName(username);
+        Vaccine vaccine = vaccineService.getVaccineById(vaccineId);
+        VaccineComponent component = vaccineComponentService.getComponentById(componentId);
+        MedicalOrganization organization = organizationService.getMedicalOrganizationById(organizationId);
+        vaccinationService.saveVaccination(serial, user, vaccine, component, organization);
+        return "redirect:/med/users/info/" + username;
     }
     @GetMapping("/med/vaccine/components/{vaccineId}")
     public ResponseEntity<?> getComponentsByVaccineId(@PathVariable int vaccineId) {
