@@ -22,6 +22,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/profile/**").authenticated()
                         .requestMatchers("/manage/**").hasRole("ADMIN")
+                        .requestMatchers("/med/**").hasRole("MED")
                         .anyRequest().permitAll())
                 .formLogin((form) -> form
                         .loginPage("/")

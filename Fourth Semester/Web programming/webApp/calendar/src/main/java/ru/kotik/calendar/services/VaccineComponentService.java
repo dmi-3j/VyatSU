@@ -5,6 +5,9 @@ import org.springframework.stereotype.Service;
 import ru.kotik.calendar.entities.VaccineComponent;
 import ru.kotik.calendar.repositories.VaccineComponentRepository;
 
+import java.util.List;
+import java.util.UUID;
+
 @Service
 public class VaccineComponentService {
 
@@ -13,5 +16,8 @@ public class VaccineComponentService {
 
     public void saveVaccineComponent(VaccineComponent vaccineComponent) {
         vaccineComponentRepository.save(vaccineComponent);
+    }
+    public List<VaccineComponent> getComponentsByVaccineId(int id) {
+        return vaccineComponentRepository.getVaccineComponentsByVaccineId(id);
     }
 }

@@ -17,7 +17,7 @@ public class OrganizationService {
     @Autowired
     private OrganizationRepository organizationRepository;
 
-    public MedicalOrganization getMedicalOrganizationById(UUID id) {
+    public MedicalOrganization getMedicalOrganizationById(int id) {
         return organizationRepository.findMedicalOrganizationById(id);
     }
 

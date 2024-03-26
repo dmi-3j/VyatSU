@@ -1,10 +1,10 @@
 package ru.kotik.calendar.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.UUID;
 
 @NoArgsConstructor
 @Data
@@ -13,8 +13,8 @@ import java.util.UUID;
 public class VaccineComponent {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     private String componentName;
 
@@ -24,7 +24,7 @@ public class VaccineComponent {
 
     private String intervalOfComponent;
 
+    @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "vaccine_id")
     private Vaccine vaccine;
 }

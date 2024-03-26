@@ -10,54 +10,98 @@
 </head>
 <body>
 <div th:replace="~{navigation :: navi('Home')}"></div>
-
 <div id="userDisplayContainer" class="user-display-container">
-    <div class="filter-form">
-        <h3>Найти вакцинацию</h3>
-        <form th:action="@{/med/users/filterUsers}" method="get">
-            <div class="form-group">
-                <label for="serial">Серия вакцинации:</label>
-                <input type="text" class="form-control" id="serial" name="serial" placeholder="Серия" th:value="${lastname}">
-            </div>
-            <div class="form-group">
-                <label for="vaccinename">Имя:</label>
-                <input type="text" class="form-control" id="vaccinename" name="vaccinename" placeholder="Прививка" th:value="${firstname}">
-            </div>
-            <button type="submit" class="btn btn-primary">Найти</button>
-        </form>
-        <form th:action="@{/med/users}">
-            <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
-        </form>
+    <div class="user-info">
+        <h3 th:text="'Информация о пользователе:'"></h3>
+        <p th:text="'Фамилия: ' + ${user.lastname}"></p>
+        <p th:text="'Имя: ' + ${user.firstname}"></p>
+        <p th:text="'Дата рождения: ' + ${user.dateofbirth}"></p>
+        <p th:text="'Номер полиса: ' + ${user.inshurancenumber}"></p>
     </div>
-
-    <div class="table-container">
-        <h3>Пользователи</h3>
-        <table>
-            <thead>
-            <tr>
-                <th>Фамилия</th>
-                <th>Имя</th>
-                <th>Дата рождения</th>
-                <th>Номер полиса</th>
-                <th>Действия</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="user : ${users}">
-                <td th:text="${user.lastname}"></td>
-                <td th:text="${user.firstname}"></td>
-                <td th:text="${user.dateofbirth}"></td>
-                <td th:text="${user.inshurancenumber}"></td>
-                <td>
-                    <a th:href="@{'/med/users/info/' + ${user.username}}" th:text="'Подробная '+ 'информация'" class="text-info"></a>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+</div>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addVaccinationModal">
+    Добавить вакцинацию
+</button>
+<div class="modal fade" id="addVaccinationModal" tabindex="-1" role="dialog" aria-labelledby="addVaccinationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addVaccinationModalLabel">Добавить вакцинацию</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Форма для ввода данных о вакцинации -->
+                <form id="addVaccinationForm" action="/med/users/addVaccination" method="post">
+                    <div class="form-group">
+                        <label for="serial">Серия вакцинации:</label>
+                        <input type="text" class="form-control" id="serial" name="serial" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vaccineName">Прививка:</label>
+                        <select class="form-control" id="vaccineName" name="vaccineName" required>
+                            <option value="">Выберите прививку</option> <!-- Пустой option -->
+                            <option th:each="vaccine : ${vaccines}" th:value="${vaccine.id}" th:text="${vaccine.vaccineName}"></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="componentName">Название компонента:</label>
+                        <select class="form-control" id="componentName" name="componentName" required>
+                            <!-- Опции будут добавлены динамически с помощью JavaScript -->
+                        </select>
+                    </div>
+                    <!-- Добавьте другие поля, если необходимо -->
+                    <button type="submit" class="btn btn-primary">Добавить</button>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 
 
+<script th:inline="javascript">
+    $(document).ready(function () {
+        // Функция для загрузки компонентов в выпадающий список при выборе вакцины
+        $('#vaccineName').change(function () {
+            var vaccineId = $(this).val();
+            // Очищаем список компонентов при выборе новой вакцины
+            $('#componentName').empty();
+
+            // Выполняем AJAX-запрос для получения компонентов по выбранной вакцине
+            $.ajax({
+                type: 'GET',
+                url: '/med/vaccine/components/' + vaccineId,
+                success: function (data) {
+                    // Добавляем полученные компоненты в выпадающий список
+                    $.each(data, function (index, component) {
+                        $('#componentName').append('<option value="' + component.id + '">' + component.componentName + '</option>');
+                    });
+                }
+            });
+        });
+
+
+        // Отправка данных формы
+        $('#addVaccinationForm').submit(function (event) {
+            event.preventDefault(); // Предотвратить отправку формы по умолчанию
+            var formData = $(this).serialize(); // Получить данные формы
+            $.ajax({
+                type: 'POST',
+                url: '/med/users/addVaccination',
+                data: formData,
+                success: function (response) {
+                    console.log(response);
+                    $('#addVaccinationModal').modal('hide');
+                },
+                error: function (error) {
+                    // Обработать ошибку (если необходимо)
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
 
 </body>
 </html>

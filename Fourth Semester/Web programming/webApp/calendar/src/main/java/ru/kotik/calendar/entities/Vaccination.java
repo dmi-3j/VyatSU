@@ -14,14 +14,13 @@ import java.util.UUID;
 public class Vaccination {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     private String serial;
 
     private boolean flagisdone;
 
-    private String timeinterval;
 
     @ManyToOne
     @JoinColumn(name = "vaccine_id") // имя столбца в таблице vaccinations, который ссылается на таблицу vaccines

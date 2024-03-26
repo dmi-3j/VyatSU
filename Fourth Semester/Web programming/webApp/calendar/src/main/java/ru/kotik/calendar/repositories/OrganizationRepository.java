@@ -9,5 +9,5 @@ import java.util.UUID;
 
 @Repository
 public interface OrganizationRepository extends JpaRepository<MedicalOrganization, Integer>, JpaSpecificationExecutor<MedicalOrganization> {
-    MedicalOrganization findMedicalOrganizationById(UUID id);
+    MedicalOrganization findMedicalOrganizationById(int id);
 }

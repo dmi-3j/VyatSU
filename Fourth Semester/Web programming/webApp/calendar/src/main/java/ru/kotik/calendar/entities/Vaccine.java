@@ -14,8 +14,8 @@ import java.util.UUID;
 public class Vaccine {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     private String vaccineName;
 
@@ -25,4 +25,9 @@ public class Vaccine {
 
     @OneToMany(mappedBy = "vaccine", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<VaccineComponent> components;
+
+    @Override
+    public String toString() {
+        return "Vaccine";
+    }
 }

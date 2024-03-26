@@ -123,7 +123,7 @@ public class AdminController {
 
     @GetMapping("/manage/organization/edit/{id}")
     public String editMedOrg(Model model,
-                             @PathVariable(value = "id") UUID id,
+                             @PathVariable(value = "id") int id,
                              HttpServletRequest request) {
         MedicalOrganization medicalOrganization = organizationService.getMedicalOrganizationById(id);
         model.addAttribute("medorg", medicalOrganization);
@@ -182,7 +182,7 @@ public class AdminController {
     }
     @GetMapping("/manage/vaccine/info/{id}")
     public String vaccineInfo(Model model,
-                              @PathVariable(value = "id") UUID id,
+                              @PathVariable(value = "id") int id,
                               HttpServletRequest request) {
         Vaccine vaccine = vaccineService.getVaccineById(id);
         model.addAttribute("vaccine", vaccine);

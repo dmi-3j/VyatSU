@@ -5,6 +5,7 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.entities.Vaccine;
+import ru.kotik.calendar.entities.VaccineComponent;
 import ru.kotik.calendar.repositories.VaccineRepository;
 import ru.kotik.calendar.specifications.VaccineSpecification;
 
@@ -31,7 +32,8 @@ public class VaccineService {
                 .and(VaccineSpecification.hasValidPeriod(valid));
         return repository.findAll(specification);
     }
-    public Vaccine getVaccineById(UUID id) {
-        return repository.findById(id);
+    public Vaccine getVaccineById(int id) {
+        return repository.getVaccinesById(id);
     }
+
 }
