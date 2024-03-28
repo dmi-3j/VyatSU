@@ -1,12 +1,17 @@
 package ru.kotik.calendar.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import ru.kotik.calendar.entities.*;
 import ru.kotik.calendar.repositories.VaccinationRepository;
+import ru.kotik.calendar.specifications.VaccinationSpecification;
+import ru.kotik.calendar.specifications.VaccineSpecification;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Date;
+import java.util.List;
 
 @Service
 public class VaccinationService {
@@ -36,6 +41,25 @@ public class VaccinationService {
         vaccination.getCompleteComponents().add(completeVaccineComponent);
         vaccinationRepository.save(vaccination);
     }
+
+    public List<Vaccination> getVaccinationsByUser(User user) {
+        List<Vaccination>  vaccinations = vaccinationRepository.getVaccinationsByUser(user);
+        for (Vaccination v : vaccinations) {
+            v.getCompleteComponents().sort(Comparator.comparing(CompleteVaccineComponent::getVaccinationdate).reversed());
+        }
+        return vaccinations;
+    }
+    public List<Vaccination> getVaccinationsByUser(User user, String serial, String vaccineName) {
+        Specification<Vaccination> specification = Specification
+                .where(VaccinationSpecification.hasUserAndSerial(user, serial))
+                .and(VaccinationSpecification.hasUserAndVaccineName(user, vaccineName));
+        List<Vaccination>  vaccinations = vaccinationRepository.findAll(specification);
+        for (Vaccination v : vaccinations) {
+            v.getCompleteComponents().sort(Comparator.comparing(CompleteVaccineComponent::getVaccinationdate).reversed());
+        }
+        return vaccinations;
+    }
+
 
 
 

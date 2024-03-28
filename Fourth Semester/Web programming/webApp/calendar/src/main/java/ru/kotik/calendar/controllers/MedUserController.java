@@ -6,10 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.kotik.calendar.entities.MedicalOrganization;
-import ru.kotik.calendar.entities.User;
-import ru.kotik.calendar.entities.Vaccine;
-import ru.kotik.calendar.entities.VaccineComponent;
+import ru.kotik.calendar.entities.*;
 import ru.kotik.calendar.services.*;
 
 import java.util.ArrayList;
@@ -63,8 +60,38 @@ public class MedUserController {
         model.addAttribute("vaccines", vaccines);
         List<MedicalOrganization> organizations = organizationService.getAllOrganizations();
         model.addAttribute("organizations", organizations);
+        List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user);
+        model.addAttribute("vaccinations", vaccinations);
+        model.addAttribute("vaccination", new Vaccination());
         return "userinfopage";
     }
+    @GetMapping("/med/users/filterVaccination")
+    public String filterVaccination(@RequestParam("usr") String username,
+                                    @RequestParam("seria") String seria,
+                                    @RequestParam("vcc") String vaccineName,
+                                    Model model) {
+        User user = userService.getUserByUserName(username);
+        List<Vaccine> vaccines = vaccineService.getAllVaccines();
+        model.addAttribute("user", user);
+        model.addAttribute("vaccines", vaccines);
+        List<MedicalOrganization> organizations = organizationService.getAllOrganizations();
+        model.addAttribute("organizations", organizations);
+        List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user, seria, vaccineName);
+        model.addAttribute("vaccinations", vaccinations);
+        model.addAttribute("vaccination", new Vaccination());
+
+
+        model.addAttribute("username", username);
+        model.addAttribute("seria", seria);
+        model.addAttribute("vaccineName", vaccineName);
+
+        // Возвращаем имя представления (например, "resultView")
+        return "userinfopage";
+    }
+
+
+
+
     @PostMapping("/med/users/addVaccination")
     public String addVaccination(@RequestParam("username") String username,
                                  @RequestParam("serial") String serial,
