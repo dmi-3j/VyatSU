@@ -20,15 +20,18 @@ public class Vaccination {
     private String serial;
 
     @ManyToOne
-    @JoinColumn(name = "vaccine_id") // имя столбца в таблице vaccinations, который ссылается на таблицу vaccines
+    @JoinColumn(name = "vaccine_id")
     private Vaccine vaccine;
 
     @OneToMany(mappedBy = "vaccination", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<CompleteVaccineComponent> completeComponents;
 
     @ManyToOne
-    @JoinColumn(name = "username") // имя столбца в таблице vaccinations, который ссылается на таблицу users
+    @JoinColumn(name = "username")
     private User user;
+
+    @OneToMany(mappedBy = "vaccination", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Reaction> reactions;
 
     @Override
     public String toString() {
