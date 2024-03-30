@@ -58,14 +58,14 @@ public class UserController {
 
                 String bucketName = "webuploads";
 
-                if (previousPhotoPath != null && !previousPhotoPath.isEmpty()) {
+
+                if (previousPhotoPath != null && !previousPhotoPath.isEmpty() && !previousPhotoPath.equals("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg\n")) {
                     String previousFileName = previousPhotoPath.substring(previousPhotoPath.lastIndexOf("/") + 1);
                     System.out.println(previousFileName);
                     DeleteObjectRequest deleteObjectRequest = new DeleteObjectRequest(bucketName, previousFileName);
                     s3Client.deleteObject(deleteObjectRequest);
                 }
 
-                System.out.println(previousPhotoPath);
 
                 String randomString = generateRandomString(8);
                 String fileName = username + randomString;

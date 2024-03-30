@@ -28,6 +28,4 @@ public class MedOrgSpecification {
             return criteriaBuilder.like(root.get("phoneNumber"), "%" + phone + "%");
         });
     }
-
-
 }

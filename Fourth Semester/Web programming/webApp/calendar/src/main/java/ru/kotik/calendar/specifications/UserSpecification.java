@@ -41,5 +41,4 @@ public class UserSpecification {
             return predicate;
         });
     }
-
 }

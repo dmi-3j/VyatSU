@@ -73,8 +73,4 @@ public class VaccinationService {
         return vaccinationRepository.findById(id).orElse(null);
     }
 
-
-
-
-
 }
