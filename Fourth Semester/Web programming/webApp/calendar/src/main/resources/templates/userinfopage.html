@@ -85,7 +85,7 @@
                 <td th:text="${vaccination.vaccine.vaccineName}"></td>
                 <td th:text="${vaccination.completeComponents.get(0).getVaccinationdate()}"></td>
                 <td>
-                    <a th:href="@{'/manage/organization/edit/' + ${vaccination.getSerial()}}" th:text="Подробнее" class="text-info"></a>
+                    <a th:href="@{'/med/vaccination/info/' + ${vaccination.id}}" th:text="Подробнее" class="text-info"></a>
                 </td>
             </tr>
             </tbody>
@@ -104,7 +104,6 @@
                 </button>
             </div>
             <div class="modal-body">
-                <!-- Форма для ввода данных о вакцинации -->
                 <form id="addVaccinationForm" th:action="@{/med/users/addVaccination}" method="post">
 
                     <div class="form-group">

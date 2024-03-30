@@ -59,6 +59,9 @@ public class VaccinationService {
         }
         return vaccinations;
     }
+    public Vaccination getById(int id) {
+        return vaccinationRepository.findById(id).orElse(null);
+    }
 
 
 

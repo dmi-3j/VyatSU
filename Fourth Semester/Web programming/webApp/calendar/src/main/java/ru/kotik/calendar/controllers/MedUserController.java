@@ -1,5 +1,6 @@
 package ru.kotik.calendar.controllers;
 
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -63,6 +64,7 @@ public class MedUserController {
         List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user);
         model.addAttribute("vaccinations", vaccinations);
         model.addAttribute("vaccination", new Vaccination());
+
         return "userinfopage";
     }
     @GetMapping("/med/users/filterVaccination")
@@ -80,17 +82,12 @@ public class MedUserController {
         model.addAttribute("vaccinations", vaccinations);
         model.addAttribute("vaccination", new Vaccination());
 
-
         model.addAttribute("username", username);
         model.addAttribute("seria", seria);
         model.addAttribute("vaccineName", vaccineName);
 
-        // Возвращаем имя представления (например, "resultView")
         return "userinfopage";
     }
-
-
-
 
     @PostMapping("/med/users/addVaccination")
     public String addVaccination(@RequestParam("username") String username,
@@ -115,7 +112,16 @@ public class MedUserController {
             return ResponseEntity.notFound().build();
         }
     }
-
+    @GetMapping("/med/vaccination/info/{id}")
+    public String vaccinationInfo(Model model,
+                              @PathVariable(value = "id") int id,
+                              HttpServletRequest request) {
+        Vaccination vaccination = vaccinationService.getById(id);
+        model.addAttribute("vaccination", vaccination);
+        String referer = request.getHeader("referer");
+        model.addAttribute("referer", referer);
+        return "vaccinationinfopage";
+    }
 
 }
 
