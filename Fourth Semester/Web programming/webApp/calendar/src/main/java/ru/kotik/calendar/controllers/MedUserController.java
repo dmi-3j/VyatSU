@@ -127,6 +127,9 @@ public class MedUserController {
         model.addAttribute("referer", referer);
         List<MedicalOrganization> organizations = organizationService.getAllOrganizations();
         model.addAttribute("organizations", organizations);
+        List<Reaction> reactions = vaccination.getReactions();
+        model.addAttribute("reactions", reactions);
+        model.addAttribute("reaction", new Reaction());
         return "vaccinationinfopage";
     }
     @PostMapping("/med/users/addComponentToVaccination")

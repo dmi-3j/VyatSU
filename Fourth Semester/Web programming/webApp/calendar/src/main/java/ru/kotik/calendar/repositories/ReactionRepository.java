@@ -6,5 +6,5 @@ import ru.kotik.calendar.entities.Reaction;
 
 @Repository
 public interface ReactionRepository extends JpaRepository<Reaction, Integer> {
-
+    Reaction getReactionById(int id);
 }

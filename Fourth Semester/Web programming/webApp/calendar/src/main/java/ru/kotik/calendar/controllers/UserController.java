@@ -21,10 +21,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-import ru.kotik.calendar.entities.MedicalOrganization;
-import ru.kotik.calendar.entities.User;
-import ru.kotik.calendar.entities.Vaccination;
-import ru.kotik.calendar.entities.Vaccine;
+import ru.kotik.calendar.entities.*;
+import ru.kotik.calendar.services.ReactionService;
 import ru.kotik.calendar.services.UserService;
 
 import java.io.IOException;
@@ -52,6 +50,9 @@ public class UserController {
 
     @Autowired
     private VaccinationService vaccinationService;
+
+    @Autowired
+    private ReactionService reactionService;
 
     @PostMapping("profile/uploadPhoto")
     public String uploadPhoto(@RequestParam("username") String username,
@@ -163,6 +164,9 @@ public class UserController {
             return "error/403";
         }
         model.addAttribute("vaccination", vaccination);
+        List<Reaction> reactions = vaccination.getReactions();
+        model.addAttribute("reactions", reactions);
+        model.addAttribute("reaction", new Reaction());
         return "uservaccinationinfopage";
     }
     private int parseId(String id) {
@@ -171,5 +175,21 @@ public class UserController {
         } catch (NumberFormatException e) {
             return -1;
         }
+    }
+
+    @PostMapping("/addreaction")
+    public String addReaction(@RequestParam("id") int id,
+                              @RequestParam("reaction") String reaction) {
+
+        Vaccination vaccination = vaccinationService.getById(id);
+        reactionService.saveReaction(vaccination, reaction);
+        return "redirect:/";
+    }
+    @GetMapping("/user/reaction/del/{id}")
+    public String deleteReaction(@PathVariable(value = "id") int id,
+                                 @RequestParam(value = "vaccinationId") int vaccinationId) {
+        Reaction reaction = reactionService.getById(id);
+        reactionService.deleteReaction(reaction);
+        return "redirect:/user/vaccination/info/" + vaccinationId;
     }
 }

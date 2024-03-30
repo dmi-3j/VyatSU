@@ -52,6 +52,24 @@
         </tr>
         </tbody>
     </table>
+</div>
+<div class="container-fluid">
+    <div class="divider"></div>
+    <h3>Реакции пользователя:</h3>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Дата реакции</th>
+            <th>Текст реакции</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="reaction : ${reactions}">
+            <td th:text="${reaction.dateofreaction}"></td>
+            <td th:text="${reaction.textOfReaction}"></td>
+        </tr>
+        </tbody>
+    </table>
     <button type="button" id="backButton" class="btn btn-secondary btn-back">Назад</button>
 </div>
 <div class="modal fade" id="addComponentModal" tabindex="-1" role="dialog" aria-labelledby="addComponentModalLabel" aria-hidden="true">
