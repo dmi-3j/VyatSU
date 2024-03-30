@@ -4,6 +4,7 @@ import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties;
 import org.springframework.boot.autoconfigure.security.saml2.Saml2RelyingPartyProperties;
@@ -16,15 +17,20 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+import ru.kotik.calendar.entities.MedicalOrganization;
 import ru.kotik.calendar.entities.User;
+import ru.kotik.calendar.entities.Vaccination;
+import ru.kotik.calendar.entities.Vaccine;
 import ru.kotik.calendar.services.UserService;
 
 import java.io.IOException;
 import java.security.Principal;
 import java.text.SimpleDateFormat;
+import java.util.List;
 import java.util.Random;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -32,15 +38,20 @@ import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.PutObjectRequest;
+import ru.kotik.calendar.services.VaccinationService;
 
 @Controller
 public class UserController {
 
     private UserService userService;
+
     @Autowired
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
+
+    @Autowired
+    private VaccinationService vaccinationService;
 
     @PostMapping("profile/uploadPhoto")
     public String uploadPhoto(@RequestParam("username") String username,
@@ -53,29 +64,21 @@ public class UserController {
                         .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("https://hb.ru-msk.vkcs.cloud", "ru-msk"))
                         .build();
                 User user = userService.getUserByUserName(username);
-
                 String previousPhotoPath = user.getPhotopath();
-
                 String bucketName = "webuploads";
-
-
                 if (previousPhotoPath != null && !previousPhotoPath.isEmpty() && !previousPhotoPath.equals("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg\n")) {
                     String previousFileName = previousPhotoPath.substring(previousPhotoPath.lastIndexOf("/") + 1);
                     System.out.println(previousFileName);
                     DeleteObjectRequest deleteObjectRequest = new DeleteObjectRequest(bucketName, previousFileName);
                     s3Client.deleteObject(deleteObjectRequest);
                 }
-
-
                 String randomString = generateRandomString(8);
                 String fileName = username + randomString;
                 ObjectMetadata metadata = new ObjectMetadata();
                 metadata.setContentLength(file.getSize());
                 s3Client.putObject(new PutObjectRequest(bucketName, fileName, file.getInputStream(), metadata).withCannedAcl(CannedAccessControlList.PublicRead));
-
                 user.setPhotopath(s3Client.getUrl(bucketName, fileName).toString());
                 userService.saveUser(user);
-
                 return "redirect:/profile";
             } catch (IOException e) {
                 e.printStackTrace();
@@ -83,13 +86,13 @@ public class UserController {
         }
         return "redirect:/profile";
     }
-    //https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg
 
     @PostMapping("/register")
     public String registerUser(User user) {
         userService.regUser(user);
         return "redirect:/";
     }
+
     @GetMapping("/profile")
     public String getProfile(Model model, Principal principal) {
         String username = principal.getName();
@@ -120,14 +123,53 @@ public class UserController {
         }
         return randomString.toString();
     }
-    @GetMapping("/checkUsernameAvailability")
-    public ResponseEntity<?> checkUsernameAvailability(@RequestParam String username) {
-        boolean isAvailable = !userService.existsByUsername(username);
-        return ResponseEntity.ok(isAvailable);
+
+    @GetMapping("/user/vaccinations")
+    public String showMainUserPage(Principal principal, Model model) {
+
+        User user = userService.getUserByUserName(principal.getName());
+        model.addAttribute("user", user);
+        List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user);
+        model.addAttribute("vaccinations", vaccinations);
+        model.addAttribute("vaccination", new Vaccination());
+        return "mainuserpage";
     }
-    @GetMapping("/checkInsuranceNumberAvailability")
-    public ResponseEntity<?> checkInsuranceNumberAvailability(@RequestParam String insuranceNumber) {
-        boolean isAvailable = !userService.existsByInsuranceNumber(insuranceNumber);
-        return ResponseEntity.ok(isAvailable);
+    @GetMapping("/user/filterVaccination")
+    public String filterVaccination(@RequestParam("usr") String username,
+                                    @RequestParam("seria") String seria,
+                                    @RequestParam("vcc") String vaccineName,
+                                    Model model) {
+        User user = userService.getUserByUserName(username);
+        model.addAttribute("user", user);
+        List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user, seria, vaccineName);
+        model.addAttribute("vaccinations", vaccinations);
+        model.addAttribute("vaccination", new Vaccination());
+        model.addAttribute("username", username);
+        model.addAttribute("seria", seria);
+        model.addAttribute("vaccineName", vaccineName);
+
+        return "mainuserpage";
+    }
+    @GetMapping("/user/vaccination/info/{id}")
+    public String vaccinationInfo(Model model,
+                                  @PathVariable(value = "id") String id,
+                                  Principal principal) {
+        String username = principal.getName();
+        int parseId = parseId(id);
+        if (parseId == -1) return "error/404";
+        Vaccination vaccination = vaccinationService.getById(parseId);
+        if (vaccination == null) return "error/404";
+        if (!vaccination.getUser().getUsername().equals(username)) {
+            return "error/403";
+        }
+        model.addAttribute("vaccination", vaccination);
+        return "uservaccinationinfopage";
+    }
+    private int parseId(String id) {
+        try {
+            return Integer.parseInt(id);
+        } catch (NumberFormatException e) {
+            return -1;
+        }
     }
 }

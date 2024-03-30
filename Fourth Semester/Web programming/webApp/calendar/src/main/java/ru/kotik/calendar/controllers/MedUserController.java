@@ -114,9 +114,14 @@ public class MedUserController {
     }
     @GetMapping("/med/vaccination/info/{id}")
     public String vaccinationInfo(Model model,
-                              @PathVariable(value = "id") int id,
+                              @PathVariable(value = "id") String id,
                               HttpServletRequest request) {
-        Vaccination vaccination = vaccinationService.getById(id);
+        int parseId = parseId(id);
+        if (parseId == 1) {
+            return "error/404";
+        }
+        Vaccination vaccination = vaccinationService.getById(parseId);
+        if (vaccination == null) return "error/404";
         model.addAttribute("vaccination", vaccination);
         String referer = request.getHeader("referer");
         model.addAttribute("referer", referer);
@@ -133,5 +138,12 @@ public class MedUserController {
         VaccineComponent vc = vaccineComponentService.getComponentById(componentId);
         vaccinationService.addCompleteComponentToVaccination(v, vc, mo);
         return "redirect:/med/vaccination/info/" + vaccinationId;
+    }
+    private int parseId(String id) {
+        try {
+            return Integer.parseInt(id);
+        } catch (NumberFormatException e) {
+            return -1;
+        }
     }
 }

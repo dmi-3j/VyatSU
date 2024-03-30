@@ -23,6 +23,7 @@ public class SecurityConfig {
                         .requestMatchers("/profile/**").authenticated()
                         .requestMatchers("/manage/**").hasRole("ADMIN")
                         .requestMatchers("/med/**").hasRole("MED")
+                        .requestMatchers("/user/**").hasRole("USER")
                         .anyRequest().permitAll())
                 .formLogin((form) -> form
                         .loginPage("/")

@@ -123,9 +123,12 @@ public class AdminController {
 
     @GetMapping("/manage/organization/edit/{id}")
     public String editMedOrg(Model model,
-                             @PathVariable(value = "id") int id,
+                             @PathVariable(value = "id") String id,
                              HttpServletRequest request) {
-        MedicalOrganization medicalOrganization = organizationService.getMedicalOrganizationById(id);
+        int parseId = parseId(id);
+        if (parseId == -1) return "error/404";
+        MedicalOrganization medicalOrganization = organizationService.getMedicalOrganizationById(parseId);
+        if (medicalOrganization == null) return "error/404";
         model.addAttribute("medorg", medicalOrganization);
         String referer = request.getHeader("referer");
         model.addAttribute("referer", referer);
@@ -182,12 +185,22 @@ public class AdminController {
     }
     @GetMapping("/manage/vaccine/info/{id}")
     public String vaccineInfo(Model model,
-                              @PathVariable(value = "id") int id,
+                              @PathVariable(value = "id") String id,
                               HttpServletRequest request) {
-        Vaccine vaccine = vaccineService.getVaccineById(id);
+        int parseId = parseId(id);
+        if (parseId == -1) return "error/404";
+        Vaccine vaccine = vaccineService.getVaccineById(parseId);
+        if (vaccine == null) return "error/404";
         model.addAttribute("vaccine", vaccine);
         String referer = request.getHeader("referer");
         model.addAttribute("referer", referer);
         return "vaccineinfo";
+    }
+    private int parseId(String id) {
+        try {
+            return Integer.parseInt(id);
+        } catch (NumberFormatException e) {
+            return -1;
+        }
     }
 }
