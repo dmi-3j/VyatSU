@@ -120,9 +120,18 @@ public class MedUserController {
         model.addAttribute("vaccination", vaccination);
         String referer = request.getHeader("referer");
         model.addAttribute("referer", referer);
+        List<MedicalOrganization> organizations = organizationService.getAllOrganizations();
+        model.addAttribute("organizations", organizations);
         return "vaccinationinfopage";
     }
-
+    @PostMapping("/med/users/addComponentToVaccination")
+    public String addComponentToVaccination(@RequestParam("id") int vaccinationId,
+                                            @RequestParam("componentId") int componentId,
+                                            @RequestParam("organizationId") int organizationId) {
+        Vaccination v = vaccinationService.getById(vaccinationId);
+        MedicalOrganization mo = organizationService.getMedicalOrganizationById(organizationId);
+        VaccineComponent vc = vaccineComponentService.getComponentById(componentId);
+        vaccinationService.addCompleteComponentToVaccination(v, vc, mo);
+        return "redirect:/med/vaccination/info/" + vaccinationId;
+    }
 }
-
-

@@ -33,7 +33,9 @@
 </div>
 <div class="container-fluid">
     <div class="divider"></div>
-    <h3>Компоненты:</h3>
+    <h3>Поставленные компоненты: <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addComponentModal">
+        Добавить компонент
+    </button> </h3>
     <table class="table">
         <thead>
         <tr>
@@ -50,7 +52,64 @@
         </tr>
         </tbody>
     </table>
-    <a th:href="${referer}" class="btn btn-secondary btn-back">Назад</a>
+    <button type="button" id="backButton" class="btn btn-secondary btn-back">Назад</button>
 </div>
+<div class="modal fade" id="addComponentModal" tabindex="-1" role="dialog" aria-labelledby="addComponentModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addComponentModalLabel">Добавить компонент</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addComponentForm" th:action="@{/med/users/addComponentToVaccination}" method="post">
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" id="id" name="id" required th:value="${vaccination.id}">
+                    </div>
+                    <div class="form-group">
+                        <label for="componentSelect">Выберите компонент:</label>
+                        <select class="form-control" id="componentSelect" name="componentId">
+                            <option th:each="component : ${vaccination.vaccine.components}" th:value="${component.id}" th:text="${component.componentName}"></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="organizationName">Медицинская организация:</label>
+                        <select class="form-control" id="organizationName" name="organizationId" required>
+                            <option value="">Выберите организацию</option>
+                            <option th:each=" organization: ${organizations}" th:value="${organization.id}" th:text="${organization.organizationName}"></option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Добавить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $('#addComponentForm').submit(function (event) {
+            event.preventDefault();
+            var formData = $(this).serialize();
+            $.ajax({
+                type: 'POST',
+                url: '/med/users/addComponentToVaccination',
+                data: formData,
+                success: function (response) {
+                    console.log(response);
+                    $('#addVaccinationModal').modal('hide');
+                    location.reload();
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+    document.getElementById("backButton").addEventListener("click", function() {
+        window.history.back();
+    });
+</script>
 </body>
 </html>

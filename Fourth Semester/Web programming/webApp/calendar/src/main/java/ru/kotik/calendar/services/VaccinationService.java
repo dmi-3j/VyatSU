@@ -23,6 +23,8 @@ public class VaccinationService {
 
     @Autowired
     private CompleteComponentService completeComponentService;
+
+
     public void saveVaccination(String serial, User user, Vaccine vaccine, VaccineComponent component, MedicalOrganization organization) {
         Vaccination vaccination = new Vaccination();
         vaccination.setSerial(serial);
@@ -40,6 +42,14 @@ public class VaccinationService {
         completeComponentService.saveCompleteVaccineComponent(completeVaccineComponent);
         vaccination.getCompleteComponents().add(completeVaccineComponent);
         vaccinationRepository.save(vaccination);
+    }
+    public void addCompleteComponentToVaccination(Vaccination vaccination, VaccineComponent component, MedicalOrganization medicalOrganization) {
+        CompleteVaccineComponent completeVaccineComponent = new CompleteVaccineComponent();
+        completeVaccineComponent.setVaccination(vaccination);
+        completeVaccineComponent.setVaccineComponent(component);
+        completeVaccineComponent.setMedicalOrganization(medicalOrganization);
+        completeVaccineComponent.setVaccinationdate(new Date());
+        completeComponentService.saveCompleteVaccineComponent(completeVaccineComponent);
     }
 
     public List<Vaccination> getVaccinationsByUser(User user) {
