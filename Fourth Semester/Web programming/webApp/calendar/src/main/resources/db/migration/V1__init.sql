@@ -43,15 +43,3 @@ INSERT INTO authorities(username, authority)
 VALUES ('admin', 'ROLE_ADMIN'),
        ('user', 'ROLE_USER'),
        ('med', 'ROLE_MED');
-
-CREATE TABLE medicalorganization
-(
-    id               int not null primary key,
-    address          varchar(200),
-    organization_name varchar(200),
-    phone_number      varchar(14)
-);
-INSERT INTO medicalorganization(id, address, organization_name, phone_number)
-VALUES (1, 'Ленина 1', 'Больница №1', '+78332881188'),
-       (2, 'Московская 11', 'Поликлиника №18', '+78332999101'),
-       (3, 'Рыбова 66', 'Поликлиника №9', '+78332657793');
