@@ -17,6 +17,7 @@ public class VaccineService {
 
     @Autowired
     private VaccineRepository repository;
+
     public void saveVaccine(Vaccine vaccine) {
         repository.save(vaccine);
     }
@@ -32,6 +33,7 @@ public class VaccineService {
                 .and(VaccineSpecification.hasValidPeriod(valid));
         return repository.findAll(specification);
     }
+
     public Vaccine getVaccineById(int id) {
         return repository.getVaccinesById(id);
     }

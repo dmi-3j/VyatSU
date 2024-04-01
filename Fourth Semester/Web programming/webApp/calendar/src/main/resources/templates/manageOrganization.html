@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: row;
         }
+
         .filter-form {
             width: 30%;
             height: 500px;
@@ -19,6 +20,7 @@
             padding: 10px;
             margin-right: 20px;
         }
+
         .table-container {
             flex: 1;
             overflow: auto;
@@ -26,10 +28,12 @@
             padding: 10px;
             height: 500px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -46,15 +50,18 @@
         <form th:action="@{/manage/organization/filterOrganization}" method="get">
             <div class="form-group">
                 <label for="name">Название</label>
-                <input type="text" required class="form-control" id="name" name="name" placeholder="Название" th:value="${name}">
+                <input type="text" required class="form-control" id="name" name="name" placeholder="Название"
+                       th:value="${name}">
             </div>
             <div class="form-group">
                 <label for="adr">Адрес</label>
-                <input type="text" required class="form-control" id="adr" name="address" placeholder="Адрес" th:value="${address}">
+                <input type="text" required class="form-control" id="adr" name="address" placeholder="Адрес"
+                       th:value="${address}">
             </div>
             <div class="form-group">
                 <label for="phone">Номер телефона:</label>
-                <input type="text" required class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
+                <input type="text" required class="form-control" id="phone" name="phone" placeholder="Номер телефона"
+                       th:value="${phone}">
                 <div class="error-message text-danger"></div>
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
@@ -65,7 +72,9 @@
     </div>
 
     <div class="table-container">
-        <h3>Медицинские организации  <button id="openAddMedorgModal" class="btn btn-primary">Добавить организацию</button></h3>
+        <h3>Медицинские организации
+            <button id="openAddMedorgModal" class="btn btn-primary">Добавить организацию</button>
+        </h3>
         <table>
             <thead>
             <tr>
@@ -81,7 +90,8 @@
                 <td th:text="${organization.address}"></td>
                 <td th:text="${organization.phoneNumber}"></td>
                 <td>
-                    <a th:href="@{'/manage/organization/edit/' + ${organization.id}}" th:text="Редактировать" class="text-info"></a>
+                    <a th:href="@{'/manage/organization/edit/' + ${organization.id}}" th:text="Редактировать"
+                       class="text-info"></a>
                 </td>
             </tr>
             </tbody>
@@ -118,20 +128,18 @@
 </div>
 
 
-
-
 <script>
-    $(document).ready(function() {
-        $('#toggleUserManagement').click(function() {
+    $(document).ready(function () {
+        $('#toggleUserManagement').click(function () {
             $('#medorgManagementContainer').toggleClass('show');
         });
 
-        $('#openAddMedorgModal').click(function() {
+        $('#openAddMedorgModal').click(function () {
             $('#addMedOrgModal').modal('show');
         });
 
     });
-    $(document).ready(function() {
+    $(document).ready(function () {
         function updateErrorMessage(element, message) {
             var errorElement = element.next('.error-message');
             if (!errorElement.length) {
@@ -139,6 +147,7 @@
             }
             errorElement.text(message);
         }
+
         function validatePhoneNumber(phoneNumber) {
             var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
             return phoneRegex.test(phoneNumber);
@@ -149,7 +158,7 @@
         }
 
         $(document).ready(function () {
-            var phoneNumberError = false; // Флаг для отслеживания ошибки при проверке номера телефона
+            var phoneNumberError = false;
 
             $('#phonenumber').on('input', function () {
                 var phoneNumber = $(this).val();
@@ -164,9 +173,8 @@
             });
 
             $('form').submit(function (event) {
-                // Проверяем, есть ли ошибка при проверке номера телефона
                 if (phoneNumberError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });

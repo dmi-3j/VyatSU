@@ -13,6 +13,7 @@
             display: flex;
             flex-direction: row;
         }
+
         .filter-form {
             width: 30%;
             height: 500px;
@@ -20,6 +21,7 @@
             padding: 10px;
             margin-right: 20px;
         }
+
         .table-container {
             flex: 1;
             overflow: auto;
@@ -27,10 +29,12 @@
             padding: 10px;
             height: 500px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -48,19 +52,23 @@
         <form th:action="@{/manage/filterUsers}" method="get">
             <div class="form-group">
                 <label for="name">Фамилия</label>
-                <input type="text" class="form-control" id="name" name="lastname" placeholder="Фамилия" th:value="${lastname}">
+                <input type="text" class="form-control" id="name" name="lastname" placeholder="Фамилия"
+                       th:value="${lastname}">
             </div>
             <div class="form-group">
                 <label for="fname">Имя</label>
-                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Имя" th:value="${firstname}">
+                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Имя"
+                       th:value="${firstname}">
             </div>
             <div class="form-group">
                 <label for="phone">Номер телефона:</label>
-                <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона" th:value="${phone}">
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона"
+                       th:value="${phone}">
             </div>
             <div class="form-group">
                 <label for="usr">Логин:</label>
-                <input type="text" class="form-control" id="usr" name="username" placeholder="Логин" th:value="${username}">
+                <input type="text" class="form-control" id="usr" name="username" placeholder="Логин"
+                       th:value="${username}">
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
@@ -70,7 +78,9 @@
     </div>
 
     <div class="table-container">
-        <h3>Пользователи  <button id="openAddUserModal" class="btn btn-primary">Добавить пользователя</button></h3>
+        <h3>Пользователи
+            <button id="openAddUserModal" class="btn btn-primary">Добавить пользователя</button>
+        </h3>
         <table>
             <thead>
             <tr>
@@ -90,11 +100,13 @@
                 <td th:text="${user.phonenumber}"></td>
                 <td th:text="${user.username}"></td>
                 <td>
-<!--                    <a href="#" onclick="openEditModal"@{'/manage/edit/username' + ${user.username}}")" id="openEditModal" th:text="Редактировать" class="text-info"></a>-->
+                    <!--                    <a href="#" onclick="openEditModal"@{'/manage/edit/username' + ${user.username}}")" id="openEditModal" th:text="Редактировать" class="text-info"></a>-->
                     <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>
-<!--                                        <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>-->
-                    <a th:if="${user.enabled == true}" th:href="@{'/manage/disable/'  + ${user.username}}" th:text="'Отключить аккаунт'" class="text-danger" style="margin-left: 15px"></a>
-                    <a th:if="${user.enabled == false}" th:href="@{'/manage/enable/'  + ${user.username}}" th:text="'Включить аккаунт'" class="text-success" style="margin-left: 15px"></a>
+                    <!--                                        <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>-->
+                    <a th:if="${user.enabled == true}" th:href="@{'/manage/disable/'  + ${user.username}}"
+                       th:text="'Отключить аккаунт'" class="text-danger" style="margin-left: 15px"></a>
+                    <a th:if="${user.enabled == false}" th:href="@{'/manage/enable/'  + ${user.username}}"
+                       th:text="'Включить аккаунт'" class="text-success" style="margin-left: 15px"></a>
                 </td>
             </tr>
             </tbody>
@@ -119,14 +131,15 @@
                         <label for="lastname">Фамилия</label>
                         <input type="text" required class="form-control" id="lastname" th:field="*{lastname}">
                     </div>
-<!--                    <div class="form-group">-->
-<!--                        <label for="dateofbirth">Дата рождения</label>-->
-<!--                        <input type="text" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}">-->
-<!--                        <div class="error-message text-danger"></div>-->
-<!--                    </div>-->
+                    <!--                    <div class="form-group">-->
+                    <!--                        <label for="dateofbirth">Дата рождения</label>-->
+                    <!--                        <input type="text" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}">-->
+                    <!--                        <div class="error-message text-danger"></div>-->
+                    <!--                    </div>-->
                     <div class="form-group">
                         <label for="dateofbirth">Дата рождения</label>
-                        <input type="date" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}" min="1900-01-01">
+                        <input type="date" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}"
+                               min="1900-01-01">
                     </div>
                     <div class="form-group">
                         <label for="phonenumber">Номер телефона</label>
@@ -151,12 +164,12 @@
 </div>
 
 <script>
-    $(document).ready(function() {
-        $('#toggleUserManagement').click(function() {
+    $(document).ready(function () {
+        $('#toggleUserManagement').click(function () {
             $('#userManagementContainer').toggleClass('show');
         });
 
-        $('#openAddUserModal').click(function() {
+        $('#openAddUserModal').click(function () {
             $('#addUserModal').modal('show');
         });
     });
@@ -164,7 +177,7 @@
     var today = new Date().toISOString().split('T')[0];
     document.getElementById('dateofbirth').setAttribute('max', today);
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         function updateErrorMessage(element, message) {
             var errorElement = element.next('.error-message');
             if (!errorElement.length) {
@@ -172,10 +185,12 @@
             }
             errorElement.text(message);
         }
+
         function validatePhoneNumber(phoneNumber) {
             var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
             return phoneRegex.test(phoneNumber);
         }
+
         function validatePassword(password) {
             return password.length >= 6;
         }
@@ -185,7 +200,7 @@
         }
 
         $(document).ready(function () {
-            var phoneNumberError = false; // Флаг для отслеживания ошибки при проверке номера телефона
+            var phoneNumberError = false;
 
             $('#phonenumber').on('input', function () {
                 var phoneNumber = $(this).val();
@@ -200,14 +215,13 @@
             });
 
             $('form').submit(function (event) {
-                // Проверяем, есть ли ошибка при проверке номера телефона
                 if (phoneNumberError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });
         $(document).ready(function () {
-            var passwordError = false; // Флаг для отслеживания ошибки при проверке пароля
+            var passwordError = false;
 
             $('#password').on('input', function () {
                 var password = $(this).val();
@@ -222,14 +236,14 @@
             });
 
             $('form').submit(function (event) {
-                // Проверяем, есть ли ошибка при проверке пароля
+
                 if (passwordError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });
         $(document).ready(function () {
-            var usernameError = false; // Флаг для отслеживания ошибки при проверке логина
+            var usernameError = false;
 
             $('#username').on('input', function () {
                 var username = $(this).val();
@@ -238,27 +252,26 @@
                     type: 'GET',
                     success: function (data) {
                         if (!data) {
-                            // Если логин уже занят, установить флаг ошибки в true
+
                             usernameError = true;
                             $('#username').next('.error-message').text('Этот логин уже занят');
                         } else {
-                            // Очистить сообщение об ошибке и сбросить флаг ошибки, если логин доступен
+
                             usernameError = false;
                             $('#username').next('.error-message').text('');
                         }
                     },
                     error: function () {
-                        // В случае ошибки также установить флаг ошибки в true и вывести сообщение
+
                         usernameError = true;
                         $('#username').next('.error-message').text('Ошибка проверки доступности логина');
                     }
                 });
             });
 
-            // Перехватываем отправку формы и проверяем, была ли ошибка при проверке логина
             $('form').submit(function (event) {
                 if (usernameError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });

@@ -41,11 +41,13 @@ public class MainController {
         model.addAttribute("error", true);
         return "main";
     }
+
     @GetMapping("/checkUsernameAvailability")
     public ResponseEntity<?> checkUsernameAvailability(@RequestParam String username) {
         boolean isAvailable = !userService.existsByUsername(username);
         return ResponseEntity.ok(isAvailable);
     }
+
     @GetMapping("/checkInsuranceNumberAvailability")
     public ResponseEntity<?> checkInsuranceNumberAvailability(@RequestParam String insuranceNumber) {
         boolean isAvailable = !userService.existsByInsuranceNumber(insuranceNumber);

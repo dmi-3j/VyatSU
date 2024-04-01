@@ -33,25 +33,28 @@ public class MedUserController {
 
     @Autowired
     VaccinationService vaccinationService;
+
     @GetMapping("/med/users")
     public String showMedUserPage(Model model) {
         model.addAttribute("user", new User());
         model.addAttribute("users", userService.getUsers());
         return "medUserPage";
     }
+
     @GetMapping("/med/users/filterUsers")
     public String filterUsers(Model model,
-                                @RequestParam(value = "lastname", required = false) String lastname,
-                                @RequestParam(value = "firstname", required = false) String firstname,
-                                @RequestParam(value = "insnum", required = false) String insnum) {
+                              @RequestParam(value = "lastname", required = false) String lastname,
+                              @RequestParam(value = "firstname", required = false) String firstname,
+                              @RequestParam(value = "insnum", required = false) String insnum) {
         List<User> filteredUsers = userService.getUsers(lastname, firstname, insnum);
         model.addAttribute("users", filteredUsers);
         model.addAttribute("user", new User());
         model.addAttribute("lastname", lastname);
-        model.addAttribute("firstname",  firstname);
+        model.addAttribute("firstname", firstname);
         model.addAttribute("insnum", insnum);
         return "medUserPage";
     }
+
     @GetMapping("/med/users/info/{username}")
     public String userInfoPage(@PathVariable String username,
                                Model model) {
@@ -67,6 +70,7 @@ public class MedUserController {
 
         return "userinfopage";
     }
+
     @GetMapping("/med/users/filterVaccination")
     public String filterVaccination(@RequestParam("usr") String username,
                                     @RequestParam("seria") String seria,
@@ -81,7 +85,6 @@ public class MedUserController {
         List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user, seria, vaccineName);
         model.addAttribute("vaccinations", vaccinations);
         model.addAttribute("vaccination", new Vaccination());
-
         model.addAttribute("username", username);
         model.addAttribute("seria", seria);
         model.addAttribute("vaccineName", vaccineName);
@@ -103,6 +106,7 @@ public class MedUserController {
         vaccinationService.saveVaccination(serial, user, vaccine, component, organization);
         return "redirect:/med/users/info/" + username;
     }
+
     @GetMapping("/med/vaccine/components/{vaccineId}")
     public ResponseEntity<?> getComponentsByVaccineId(@PathVariable int vaccineId) {
         List<VaccineComponent> components = vaccineComponentService.getComponentsByVaccineId(vaccineId);
@@ -112,10 +116,11 @@ public class MedUserController {
             return ResponseEntity.notFound().build();
         }
     }
+
     @GetMapping("/med/vaccination/info/{id}")
     public String vaccinationInfo(Model model,
-                              @PathVariable(value = "id") String id,
-                              HttpServletRequest request) {
+                                  @PathVariable(value = "id") String id,
+                                  HttpServletRequest request) {
         int parseId = parseId(id);
         if (parseId == 1) {
             return "error/404";
@@ -132,6 +137,7 @@ public class MedUserController {
         model.addAttribute("reaction", new Reaction());
         return "vaccinationinfopage";
     }
+
     @PostMapping("/med/users/addComponentToVaccination")
     public String addComponentToVaccination(@RequestParam("id") int vaccinationId,
                                             @RequestParam("componentId") int componentId,
@@ -142,6 +148,7 @@ public class MedUserController {
         vaccinationService.addCompleteComponentToVaccination(v, vc, mo);
         return "redirect:/med/vaccination/info/" + vaccinationId;
     }
+
     private int parseId(String id) {
         try {
             return Integer.parseInt(id);

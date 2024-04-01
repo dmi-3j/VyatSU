@@ -81,13 +81,11 @@ public class AdminController {
         model.addAttribute("user", user);
         String referer = request.getHeader("referer");
         model.addAttribute("referer", referer);
-
         return "edit";
     }
 
     @PostMapping("/manage/edit")
     public String editMedUserP(@ModelAttribute(value = "user") User updateuser) {
-        System.out.println(updateuser);
         User user = userService.getUserByUserName(updateuser.getUsername());
         userService.update(user, updateuser);
         return "redirect:/manage";
@@ -97,7 +95,7 @@ public class AdminController {
     public String showAdminOrganizationPage(Model model) {
         model.addAttribute("organization", new MedicalOrganization());
         model.addAttribute("organizations", organizationService.getAllOrganizations());
-        model.addAttribute("medorg", new MedicalOrganization()); //убрать одно из двух
+        model.addAttribute("medorg", new MedicalOrganization());
         return "manageOrganization";
     }
 
@@ -170,11 +168,12 @@ public class AdminController {
         }
         return "redirect:/manage/vaccine";
     }
+
     @GetMapping("/manage/vaccine/filterVaccine")
     public String filterVaccine(Model model,
-                                     @RequestParam(value = "name", required = false) String name,
-                                     @RequestParam(value = "country", required = false) String country,
-                                     @RequestParam(value = "valid", required = false) String valid) {
+                                @RequestParam(value = "name", required = false) String name,
+                                @RequestParam(value = "country", required = false) String country,
+                                @RequestParam(value = "valid", required = false) String valid) {
         List<Vaccine> filteredVaccine = vaccineService.getAllVaccines(name, country, valid);
         model.addAttribute("vaccines", filteredVaccine);
         model.addAttribute("vaccine", new Vaccine());
@@ -183,6 +182,7 @@ public class AdminController {
         model.addAttribute("valid", valid);
         return "manageVaccine";
     }
+
     @GetMapping("/manage/vaccine/info/{id}")
     public String vaccineInfo(Model model,
                               @PathVariable(value = "id") String id,
@@ -196,6 +196,7 @@ public class AdminController {
         model.addAttribute("referer", referer);
         return "vaccineinfo";
     }
+
     private int parseId(String id) {
         try {
             return Integer.parseInt(id);

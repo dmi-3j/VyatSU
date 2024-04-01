@@ -23,24 +23,29 @@ public class UserService {
     public User getUserById(Integer id) {
         return userRepository.findById(id).orElse(null);
     }
+
     public User getUserByUserName(String username) {
         User user = userRepository.findByusername(username);
-        if (user == null) throw  new UsernameNotFoundException(username);
+        if (user == null) throw new UsernameNotFoundException(username);
         return user;
     }
-    public  boolean existsByUsername(String username) {
+
+    public boolean existsByUsername(String username) {
         return userRepository.existsByUsername(username);
     }
+
     public boolean existsByInsuranceNumber(String inshurancenumber) {
-        return  userRepository.existsByInshurancenumber(inshurancenumber);
+        return userRepository.existsByInshurancenumber(inshurancenumber);
     }
 
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
+
     public List<User> getAllMedUsers() {
         return userRepository.findUsersByAuthority_Authority("ROLE_MED");
     }
+
     public List<User> getUsers() {
         return userRepository.findUsersByAuthority_Authority("ROLE_USER");
     }
@@ -52,6 +57,7 @@ public class UserService {
                 .and(UserSpecification.hasInsNum(insNum));
         return userRepository.findAll(specification);
     }
+
     public List<User> getAllMedUsers(String lastname, String username, String phone, String firstname) {
         Specification<User> specification = Specification
                 .where(MedUserSpecification.hasLastName(lastname))
@@ -60,11 +66,13 @@ public class UserService {
                 .and(MedUserSpecification.hasFirstName(firstname));
         return userRepository.findAll(specification);
     }
+
     public void disableAccount(String username) {
         User user = userRepository.findByusername(username);
         user.setEnabled(false);
         saveUser(user);
     }
+
     public void enableAccount(String username) {
         User user = userRepository.findByusername(username);
         user.setEnabled(true);
@@ -81,6 +89,7 @@ public class UserService {
         user.setPhotopath("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg");
         saveUser(user);
     }
+
     public void regMedUser(User user) {
         user.setEnabled(true);
         encodePassword(user);
@@ -91,6 +100,7 @@ public class UserService {
         user.setPhotopath("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg");
         saveUser(user);
     }
+
     public void saveUser(User user) {
         userRepository.save(user);
     }
@@ -103,22 +113,32 @@ public class UserService {
         User user = userRepository.findByusername(username);
         return (user != null) ? user.getFirstname() : "";
     }
+
     public String getAuthorityByusername(String username) {
         User user = userRepository.findByusername(username);
         return (user != null && user.getAuthority() != null) ? user.getAuthority().getAuthority() : null;
     }
+
     public void encodePassword(User user) {
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String encodedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
         userRepository.save(user);
     }
+
     public void update(User exist, User updated) {
-        if (!(updated.getFirstname() == null) && !updated.getFirstname().isBlank()) exist.setFirstname(updated.getFirstname());
-        if(!(updated.getLastname() == null) && !updated.getLastname().isBlank()) exist.setLastname(updated.getLastname());
-        if (!(updated.getPhonenumber() == null) && !updated.getPhonenumber().isBlank()) exist.setPhonenumber(updated.getPhonenumber());
-        if (!(updated.getPassword()==null) && !updated.getPassword().isBlank()) exist.setPassword(updated.getPassword());
-        encodePassword(exist);
+        if (!(updated.getFirstname() == null) && !updated.getFirstname().isBlank())
+            exist.setFirstname(updated.getFirstname());
+        if (!(updated.getLastname() == null) && !updated.getLastname().isBlank())
+            exist.setLastname(updated.getLastname());
+        if (!(updated.getPhonenumber() == null) && !updated.getPhonenumber().isBlank())
+            exist.setPhonenumber(updated.getPhonenumber());
+        if (!(updated.getPassword() == null) && !updated.getPassword().isBlank()) {
+            exist.setPassword(updated.getPassword());
+            encodePassword(exist);
+        }
+        if (!(updated.getAddress() == null) && !updated.getAddress().isBlank())
+            exist.setAddress((updated.getAddress()));
         userRepository.save(exist);
     }
 }

@@ -36,10 +36,13 @@ public class OrganizationService {
     public void saveMedicalOrganization(MedicalOrganization medicalOrganization) {
         organizationRepository.save(medicalOrganization);
     }
+
     public void update(MedicalOrganization exist, MedicalOrganization updated) {
-        if (!(updated.getOrganizationName() == null) && !updated.getOrganizationName().isBlank()) exist.setOrganizationName(updated.getOrganizationName());
-        if(!(updated.getAddress() == null) && !updated.getAddress().isBlank()) exist.setAddress(updated.getAddress());
-        if (!(updated.getPhoneNumber() == null) && !updated.getPhoneNumber().isBlank()) exist.setPhoneNumber(updated.getPhoneNumber());
+        if (!(updated.getOrganizationName() == null) && !updated.getOrganizationName().isBlank())
+            exist.setOrganizationName(updated.getOrganizationName());
+        if (!(updated.getAddress() == null) && !updated.getAddress().isBlank()) exist.setAddress(updated.getAddress());
+        if (!(updated.getPhoneNumber() == null) && !updated.getPhoneNumber().isBlank())
+            exist.setPhoneNumber(updated.getPhoneNumber());
         organizationRepository.save(exist);
     }
 }

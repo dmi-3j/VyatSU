@@ -55,9 +55,11 @@
 
 <div class="container-fluid">
     <div class="divider"></div>
-    <h3>Мои реакции:   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addReactionModal">
-        Добавить реакцию
-    </button> </h3>
+    <h3>Мои реакции:
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addReactionModal">
+            Добавить реакцию
+        </button>
+    </h3>
     <table class="table">
         <thead>
         <tr>
@@ -71,7 +73,8 @@
             <td th:text="${reaction.dateofreaction}"></td>
             <td th:text="${reaction.textOfReaction}"></td>
             <td>
-                <a th:href="@{'/user/reaction/del/' + ${reaction.id} + '?vaccinationId=' + ${vaccination.id}}" th:text="Удалить" class="text-danger"></a>
+                <a th:href="@{'/user/reaction/del/' + ${reaction.id} + '?vaccinationId=' + ${vaccination.id}}"
+                   th:text="Удалить" class="text-danger"></a>
 
             </td>
         </tr>

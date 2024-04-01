@@ -16,10 +16,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import ru.kotik.calendar.entities.*;
 import ru.kotik.calendar.services.ReactionService;
@@ -67,9 +64,8 @@ public class UserController {
                 User user = userService.getUserByUserName(username);
                 String previousPhotoPath = user.getPhotopath();
                 String bucketName = "webuploads";
-                if (previousPhotoPath != null && !previousPhotoPath.isEmpty() && !previousPhotoPath.equals("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg\n")) {
+                if (previousPhotoPath != null && !previousPhotoPath.isEmpty() && !previousPhotoPath.equals("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg")) {
                     String previousFileName = previousPhotoPath.substring(previousPhotoPath.lastIndexOf("/") + 1);
-                    System.out.println(previousFileName);
                     DeleteObjectRequest deleteObjectRequest = new DeleteObjectRequest(bucketName, previousFileName);
                     s3Client.deleteObject(deleteObjectRequest);
                 }
@@ -191,5 +187,21 @@ public class UserController {
         Reaction reaction = reactionService.getById(id);
         reactionService.deleteReaction(reaction);
         return "redirect:/user/vaccination/info/" + vaccinationId;
+    }
+    @PostMapping("/profile/edit")
+    public String editProfileP(@ModelAttribute(value = "user") User updateuser) {
+        User user = userService.getUserByUserName(updateuser.getUsername());
+        userService.update(user, updateuser);
+        return "redirect:/profile";
+    }
+    @GetMapping("/profile/editProfile")
+    public String editMedUser(Model model, Principal principal,
+                              HttpServletRequest request) {
+        User user = userService.getUserByUserName(principal.getName());
+        model.addAttribute("user", user);
+        String referer = request.getHeader("referer");
+        model.addAttribute("referer", referer);
+
+        return "editProfile";
     }
 }

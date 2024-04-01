@@ -13,6 +13,7 @@
             flex-direction: row;
             margin-top: 50px;
         }
+
         .filter-form {
             width: 30%;
             height: 500px;
@@ -20,6 +21,7 @@
             padding: 10px;
             margin-right: 20px;
         }
+
         .table-container {
             flex: 1;
             overflow: auto;
@@ -27,10 +29,12 @@
             padding: 10px;
             height: 500px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -56,20 +60,26 @@
             </div>
             <div class="form-group">
                 <label for="seria">Серия вакцинации:</label>
-                <input type="text"  class="form-control" id="seria" name="seria" placeholder="Серия" th:value="${seria}">
+                <input type="text" class="form-control" id="seria" name="seria" placeholder="Серия" th:value="${seria}">
             </div>
             <div class="form-group">
                 <label for="vacc">Название вакцины:</label>
-                <input type="text"  class="form-control" id="vacc" name="vcc" placeholder="Вакцина" th:value="${vaccineName}">
+                <input type="text" class="form-control" id="vacc" name="vcc" placeholder="Вакцина"
+                       th:value="${vaccineName}">
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
-            <a th:href= "@{'/med/users/info/' + ${user.username}}" style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</a>
+        <a th:href="@{'/med/users/info/' + ${user.username}}" style='margin-top: 10px' type="submit"
+           class="btn btn-danger">Сбросить</a>
 
     </div>
 
     <div class="table-container">
-        <h3>Вакцинации пользователя <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addVaccinationModal">Добавить вакцинацию</button></h3>
+        <h3>Вакцинации пользователя
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addVaccinationModal">
+                Добавить вакцинацию
+            </button>
+        </h3>
         <table>
             <thead>
             <tr>
@@ -85,7 +95,8 @@
                 <td th:text="${vaccination.vaccine.vaccineName}"></td>
                 <td th:text="${vaccination.completeComponents.get(0).getVaccinationdate()}"></td>
                 <td>
-                    <a th:href="@{'/med/vaccination/info/' + ${vaccination.id}}" th:text="Подробнее" class="text-info"></a>
+                    <a th:href="@{'/med/vaccination/info/' + ${vaccination.id}}" th:text="Подробнее"
+                       class="text-info"></a>
                 </td>
             </tr>
             </tbody>
@@ -94,7 +105,8 @@
 </div>
 
 
-<div class="modal fade" id="addVaccinationModal" tabindex="-1" role="dialog" aria-labelledby="addVaccinationModalLabel" aria-hidden="true">
+<div class="modal fade" id="addVaccinationModal" tabindex="-1" role="dialog" aria-labelledby="addVaccinationModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -107,7 +119,8 @@
                 <form id="addVaccinationForm" th:action="@{/med/users/addVaccination}" method="post">
 
                     <div class="form-group">
-                        <input type="hidden" class="form-control" id="user" name="username" required th:value="${user.username}">
+                        <input type="hidden" class="form-control" id="user" name="username" required
+                               th:value="${user.username}">
                     </div>
                     <div class="form-group">
                         <label for="serial">Серия вакцинации:</label>
@@ -117,7 +130,8 @@
                         <label for="vaccineName">Прививка:</label>
                         <select class="form-control" id="vaccineName" name="vaccineId" required>
                             <option value="">Выберите прививку</option>
-                            <option th:each="vaccine : ${vaccines}" th:value="${vaccine.id}" th:text="${vaccine.vaccineName}"></option>
+                            <option th:each="vaccine : ${vaccines}" th:value="${vaccine.id}"
+                                    th:text="${vaccine.vaccineName}"></option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -130,7 +144,8 @@
                         <label for="organizationName">Медицинская организация:</label>
                         <select class="form-control" id="organizationName" name="organizationId" required>
                             <option value="">Выберите организацию</option>
-                            <option th:each=" organization: ${organizations}" th:value="${organization.id}" th:text="${organization.organizationName}"></option>
+                            <option th:each=" organization: ${organizations}" th:value="${organization.id}"
+                                    th:text="${organization.organizationName}"></option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary">Добавить</button>

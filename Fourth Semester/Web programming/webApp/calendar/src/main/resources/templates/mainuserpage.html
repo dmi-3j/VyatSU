@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: row;
         }
+
         .filter-form {
             width: 30%;
             height: 500px;
@@ -19,6 +20,7 @@
             padding: 10px;
             margin-right: 20px;
         }
+
         .table-container {
             flex: 1;
             overflow: auto;
@@ -26,10 +28,12 @@
             padding: 10px;
             height: 500px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -49,15 +53,16 @@
             </div>
             <div class="form-group">
                 <label for="seria">Серия вакцинации:</label>
-                <input type="text"  class="form-control" id="seria" name="seria" placeholder="Серия" th:value="${seria}">
+                <input type="text" class="form-control" id="seria" name="seria" placeholder="Серия" th:value="${seria}">
             </div>
             <div class="form-group">
                 <label for="vacc">Название вакцины:</label>
-                <input type="text"  class="form-control" id="vacc" name="vcc" placeholder="Вакцина" th:value="${vaccineName}">
+                <input type="text" class="form-control" id="vacc" name="vcc" placeholder="Вакцина"
+                       th:value="${vaccineName}">
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
-        <a th:href= "@{/user/vaccinations}" style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</a>
+        <a th:href="@{/user/vaccinations}" style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</a>
     </div>
     <div class="table-container">
         <h3>Мои вакцинации</h3>
@@ -76,7 +81,8 @@
                 <td th:text="${vaccination.vaccine.vaccineName}"></td>
                 <td th:text="${vaccination.completeComponents.get(0).getVaccinationdate()}"></td>
                 <td>
-                    <a th:href="@{'/user/vaccination/info/' + ${vaccination.id}}" th:text="Подробнее" class="text-info"></a>
+                    <a th:href="@{'/user/vaccination/info/' + ${vaccination.id}}" th:text="Подробнее"
+                       class="text-info"></a>
                 </td>
             </tr>
             </tbody>

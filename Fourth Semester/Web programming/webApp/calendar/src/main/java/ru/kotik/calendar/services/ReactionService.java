@@ -17,9 +17,11 @@ public class ReactionService {
     public void deleteReaction(Reaction reaction) {
         reactionRepository.delete(reaction);
     }
+
     public Reaction getById(int id) {
         return reactionRepository.getReactionById(id);
     }
+
     public void saveReaction(Vaccination vaccination, String text) {
         Reaction reaction = new Reaction();
         reaction.setTextOfReaction(text);

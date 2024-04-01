@@ -10,7 +10,7 @@ import java.util.UUID;
 import java.util.List;
 
 @Repository
-public interface VaccineRepository  extends JpaRepository<Vaccine, Integer>, JpaSpecificationExecutor<Vaccine> {
+public interface VaccineRepository extends JpaRepository<Vaccine, Integer>, JpaSpecificationExecutor<Vaccine> {
 
     Vaccine getVaccinesById(int id);
 }

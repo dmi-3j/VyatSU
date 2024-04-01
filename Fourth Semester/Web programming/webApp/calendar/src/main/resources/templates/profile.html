@@ -18,8 +18,7 @@
             cursor: pointer;
         }
 
-        .upload-form,
-        .upload-button {
+        .upload-form {
             display: none;
         }
 
@@ -27,6 +26,7 @@
             margin-bottom: 20px;
             font-size: 18px;
         }
+
         /* General styles */
         body {
             font-family: 'Arial', sans-serif;
@@ -42,12 +42,15 @@
 
         .upload-form,
         .upload-button {
-            display: none; /* Initially hidden */
             text-align: center; /* Center the form elements */
         }
 
         .upload-form input[type="file"] {
             margin-bottom: 10px;
+        }
+
+        .edit {
+            margin-top: 10px;
         }
 
     </style>
@@ -59,11 +62,11 @@
 
 <div class="container">
     <div class="text-center">
-        <img class="profile-photo" th:src="${photoPath}" alt="User Photo" title="Загрузка фото" onclick="toggleUploadForm()">
+        <img class="profile-photo" th:src="${photoPath}" alt="User Photo" title="Загрузка фото">
     </div>
 
     <div class="upload-button text-center">
-        <button type="button" class="btn btn-primary" onclick="toggleUploadForm()">Загрузить фото</button>
+        <button type="button" class="btn btn-primary" onclick="toggleUploadForm()">Изменить фото</button>
     </div>
 
     <form th:action="@{/profile/uploadPhoto}" method="post" enctype="multipart/form-data" class="upload-form">
@@ -71,6 +74,9 @@
         <input type="file" name="file" accept="image/jpeg, image/png">
         <button type="submit" class="btn btn-success">Загрузить</button>
     </form>
+    <div class="edit text-center">
+        <a type="button" th:href="@{/profile/editProfile}" class="btn btn-primary">Редактировать данные</a>
+    </div>
 
     <div class="profile-info">
         <p><strong>Имя:</strong> <span th:text="${username}"></span></p>
@@ -86,14 +92,8 @@
     function toggleUploadForm() {
         var uploadForm = document.querySelector('.upload-form');
         var uploadButton = document.querySelector('.upload-button');
-
-        if (uploadForm.style.display === 'none') {
-            uploadForm.style.display = 'block';
-            uploadButton.style.display = 'none';
-        } else {
-            uploadForm.style.display = 'none';
-            uploadButton.style.display = 'block';
-        }
+        uploadForm.style.display = 'block';
+        uploadButton.style.display = 'none';
     }
 </script>
 </body>

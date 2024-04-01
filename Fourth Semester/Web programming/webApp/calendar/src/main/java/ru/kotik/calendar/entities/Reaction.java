@@ -11,7 +11,7 @@ import java.util.Date;
 @Entity
 @Data
 @NoArgsConstructor
-@Table (name = "reactions")
+@Table(name = "reactions")
 public class Reaction {
 
     @Id

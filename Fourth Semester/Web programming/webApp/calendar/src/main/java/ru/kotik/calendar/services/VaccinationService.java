@@ -43,6 +43,7 @@ public class VaccinationService {
         vaccination.getCompleteComponents().add(completeVaccineComponent);
         vaccinationRepository.save(vaccination);
     }
+
     public void addCompleteComponentToVaccination(Vaccination vaccination, VaccineComponent component, MedicalOrganization medicalOrganization) {
         CompleteVaccineComponent completeVaccineComponent = new CompleteVaccineComponent();
         completeVaccineComponent.setVaccination(vaccination);
@@ -53,22 +54,24 @@ public class VaccinationService {
     }
 
     public List<Vaccination> getVaccinationsByUser(User user) {
-        List<Vaccination>  vaccinations = vaccinationRepository.getVaccinationsByUser(user);
+        List<Vaccination> vaccinations = vaccinationRepository.getVaccinationsByUser(user);
         for (Vaccination v : vaccinations) {
             v.getCompleteComponents().sort(Comparator.comparing(CompleteVaccineComponent::getVaccinationdate).reversed());
         }
         return vaccinations;
     }
+
     public List<Vaccination> getVaccinationsByUser(User user, String serial, String vaccineName) {
         Specification<Vaccination> specification = Specification
                 .where(VaccinationSpecification.hasUserAndSerial(user, serial))
                 .and(VaccinationSpecification.hasUserAndVaccineName(user, vaccineName));
-        List<Vaccination>  vaccinations = vaccinationRepository.findAll(specification);
+        List<Vaccination> vaccinations = vaccinationRepository.findAll(specification);
         for (Vaccination v : vaccinations) {
             v.getCompleteComponents().sort(Comparator.comparing(CompleteVaccineComponent::getVaccinationdate).reversed());
         }
         return vaccinations;
     }
+
     public Vaccination getById(int id) {
         return vaccinationRepository.findById(id).orElse(null);
     }

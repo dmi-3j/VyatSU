@@ -11,12 +11,14 @@
         .half-width {
             width: 50%;
         }
+
         .form-border {
             border: 1px solid #ced4da;
             padding: 20px;
             border-radius: 5px;
             margin-top: 20px;
         }
+
         .btn-back {
             margin-right: 10px;
         }
@@ -53,7 +55,7 @@
     </form>
 </div>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         function updateErrorMessage(element, message) {
             var errorElement = element.next('.error-message');
             if (!errorElement.length) {
@@ -61,10 +63,12 @@
             }
             errorElement.text(message);
         }
+
         function validatePhoneNumber(phoneNumber) {
             var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
             return phoneRegex.test(phoneNumber);
         }
+
         function validatePassword(password) {
             return password.length >= 6;
         }
@@ -74,7 +78,7 @@
         }
 
         $(document).ready(function () {
-            var phoneNumberError = false; // Флаг для отслеживания ошибки при проверке номера телефона
+            var phoneNumberError = false;
 
             $('#editPhone').on('input', function () {
                 var phoneNumber = $(this).val();
@@ -89,14 +93,13 @@
             });
 
             $('form').submit(function (event) {
-                // Проверяем, есть ли ошибка при проверке номера телефона
                 if (phoneNumberError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });
         $(document).ready(function () {
-            var passwordError = false; // Флаг для отслеживания ошибки при проверке пароля
+            var passwordError = false;
 
             $('#editPassword').on('input', function () {
                 var password = $(this).val();
@@ -110,9 +113,8 @@
                 }
             });
             $('form').submit(function (event) {
-                // Проверяем, есть ли ошибка при проверке пароля
                 if (passwordError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });

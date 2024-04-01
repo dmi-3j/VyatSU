@@ -13,21 +13,27 @@
 
 <div class="jumbotron text-center">
     <h1 class="display-4">Добро пожаловать в Календарь Прививок!</h1>
-    <p class="lead">Здесь вы можете получить информацию о ваших прививках, записаться на прием и быть в курсе актуальных рекомендаций по вакцинации.</p>
+    <p class="lead">Здесь вы можете получить информацию о ваших прививках, записаться на прием и быть в курсе актуальных
+        рекомендаций по вакцинации.</p>
     <hr class="my-4">
     <p>Не упустите возможность защитить себя и своих близких от опасных инфекционных заболеваний.</p>
-    <button th:if="${#authorization.expression('isAnonymous()')}" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginRegisterModal">Войти или зарегистрироваться</button>
+    <button th:if="${#authorization.expression('isAnonymous()')}" type="button" class="btn btn-primary btn-lg"
+            data-toggle="modal" data-target="#loginRegisterModal">Войти или зарегистрироваться
+    </button>
 </div>
-<div class="modal fade" id="loginRegisterModal" tabindex="-1" role="dialog" aria-labelledby="loginRegisterModalLabel" aria-hidden="true">
+<div class="modal fade" id="loginRegisterModal" tabindex="-1" role="dialog" aria-labelledby="loginRegisterModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <ul class="nav nav-tabs" id="loginRegisterTabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Вход</a>
+                        <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab"
+                           aria-controls="login" aria-selected="true">Вход</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Регистрация</a>
+                        <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab"
+                           aria-controls="register" aria-selected="false">Регистрация</a>
                     </li>
                 </ul>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -39,10 +45,12 @@
                     <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
                         <form class="align-middle" th:action="@{/authenticateTheUser}" method="POST">
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Логин" name="username" aria-describedby="inputGroup-sizing-sm">
+                                <input class="form-control" type="text" placeholder="Логин" name="username"
+                                       aria-describedby="inputGroup-sizing-sm">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="password" placeholder="Пароль" name="password" aria-describedby="inputGroup-sizing-sm">
+                                <input class="form-control" type="password" placeholder="Пароль" name="password"
+                                       aria-describedby="inputGroup-sizing-sm">
                             </div>
                             <button class="btn btn-primary btn-block" type="submit">Войти</button>
                         </form>
@@ -50,7 +58,6 @@
                             Неправильное имя пользователя или пароль.
                         </div>
                     </div>
-                    <!-- Вкладка для регистрации -->
                     <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
                         <form th:action="@{/register}" method="post" th:object="${user}">
                             <div class="form-group">
@@ -67,7 +74,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="dateofbirth">Дата рождения</label>
-                                <input type="date" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}" min="1900-01-01">
+                                <input type="date" required class="form-control" id="dateofbirth"
+                                       th:field="*{dateofbirth}" min="1900-01-01">
                             </div>
                             <div class="form-group">
                                 <label for="address">Адрес</label>
@@ -75,13 +83,17 @@
                             </div>
                             <div class="form-group">
                                 <label for="phonenumber">Номер телефона</label>
-                                <input type="text" required class="form-control" id="phonenumber" th:field="*{phonenumber}">
-                                <div class="error-message text-danger"></div> <!-- Сообщение об ошибке для номера телефона -->
+                                <input type="text" required class="form-control" id="phonenumber"
+                                       th:field="*{phonenumber}">
+                                <div class="error-message text-danger"></div>
+                                <!-- Сообщение об ошибке для номера телефона -->
                             </div>
                             <div class="form-group">
                                 <label for="insuranceNumber">Номер полиса</label>
-                                <input type="text" required class="form-control" id="insurancenumber" th:field="*{inshurancenumber}">
-                                <div class="error-message text-danger"></div> <!-- Сообщение об ошибке для номера полиса -->
+                                <input type="text" required class="form-control" id="insurancenumber"
+                                       th:field="*{inshurancenumber}">
+                                <div class="error-message text-danger"></div>
+                                <!-- Сообщение об ошибке для номера полиса -->
                             </div>
                             <div class="form-group">
                                 <label for="username">Логин</label>
@@ -90,7 +102,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="password">Пароль</label>
-                                <input type="password" required class="form-control" id="password" th:field="*{password}">
+                                <input type="password" required class="form-control" id="password"
+                                       th:field="*{password}">
                                 <div class="error-message text-danger"></div> <!-- Сообщение об ошибке для пароля -->
                             </div>
                             <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
@@ -102,93 +115,91 @@
     </div>
 </div>
 <script th:inline="javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
         var isError = /*[[${param.error}]]*/ false;
         if (isError) {
             $('#loginRegisterModal').modal('show');
         }
     });
-    $(document).ready(function() {
-        var usernameError = false; // Флаг для отслеживания ошибки при проверке логина
+    $(document).ready(function () {
+        var usernameError = false;
 
-        $('#username').on('input', function() {
+        $('#username').on('input', function () {
             var username = $(this).val();
             $.ajax({
                 url: '/checkUsernameAvailability?username=' + username,
                 type: 'GET',
-                success: function(data) {
+                success: function (data) {
                     if (!data) {
-                        // Если логин уже занят, установить флаг ошибки в true
                         usernameError = true;
                         $('#username').next('.error-message').text('Этот логин уже занят');
                     } else {
-                        // Очистить сообщение об ошибке и сбросить флаг ошибки, если логин доступен
                         usernameError = false;
                         $('#username').next('.error-message').text('');
                     }
                 },
-                error: function() {
-                    // В случае ошибки также установить флаг ошибки в true и вывести сообщение
+                error: function () {
+
                     usernameError = true;
                     $('#username').next('.error-message').text('Ошибка проверки доступности логина');
                 }
             });
         });
 
-        // Перехватываем отправку формы и проверяем, была ли ошибка при проверке логина
-        $('form').submit(function(event) {
+
+        $('form').submit(function (event) {
             if (usernameError) {
-                event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                event.preventDefault();
             }
         });
     });
-    $(document).ready(function() {
-        var insuranceNumberError = false; // Флаг для отслеживания ошибки при проверке номера полиса
+    $(document).ready(function () {
+        var insuranceNumberError = false;
 
-        $('form').submit(function(event) {
+        $('form').submit(function (event) {
             var insuranceNumber = $('#insurancenumber').val();
             $.ajax({
                 url: '/checkInsuranceNumberAvailability?insuranceNumber=' + insuranceNumber,
                 type: 'GET',
-                async: false, // Устанавливаем синхронный режим, чтобы дождаться ответа от сервера перед продолжением отправки формы
-                success: function(data) {
+                async: false,
+                success: function (data) {
                     if (!data) {
                         insuranceNumberError = true;
                         $('#insurancenumber').next('.error-message').text('Этот номер полиса уже занят');
                     } else {
-                        // Очистить сообщение об ошибке и сбросить флаг ошибки, если номер полиса доступен
                         insuranceNumberError = false;
                         $('#insurancenumber').next('.error-message').text('');
                     }
                 },
-                error: function() {
-                    // В случае ошибки также установить флаг ошибки в true и вывести сообщение
+                error: function () {
                     insuranceNumberError = true;
                     $('#insurancenumber').next('.error-message').text('Ошибка проверки доступности номера полиса');
                 }
             });
 
-            // Отменяем отправку формы, если есть ошибка
             if (insuranceNumberError) {
                 event.preventDefault();
-              alert('Этот номер полиса уже занят');
+                alert('Этот номер полиса уже занят');
             }
         });
     });
 
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         function validatePhoneNumber(phoneNumber) {
             var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
             return phoneRegex.test(phoneNumber);
         }
+
         function validateInsuranceNumber(insuranceNumber) {
             var insuranceRegex = /^\d{16}$/; // 16 цифр
             return insuranceRegex.test(insuranceNumber);
         }
+
         function validatePassword(password) {
             return password.length >= 6;
         }
+
         function updateErrorMessage(element, message) {
             var errorElement = element.next('.error-message');
             if (!errorElement.length) {
@@ -196,13 +207,15 @@
             }
             errorElement.text(message);
         }
+
         function clearErrorMessage(element) {
             element.next('.error-message').remove();
         }
-        $(document).ready(function() {
-            var phoneNumberError = false; // Флаг для отслеживания ошибки при проверке номера телефона
 
-            $('#phonenumber').on('input', function() {
+        $(document).ready(function () {
+            var phoneNumberError = false;
+
+            $('#phonenumber').on('input', function () {
                 var phoneNumber = $(this).val();
                 var isValid = validatePhoneNumber(phoneNumber);
                 if (!isValid) {
@@ -214,17 +227,17 @@
                 }
             });
 
-            $('form').submit(function(event) {
-                // Проверяем, есть ли ошибка при проверке номера телефона
+            $('form').submit(function (event) {
+
                 if (phoneNumberError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });
-        $(document).ready(function() {
-            var insuranceNumberError = false; // Флаг для отслеживания ошибки при проверке номера полиса
+        $(document).ready(function () {
+            var insuranceNumberError = false;
 
-            $('#insurancenumber').on('input', function() {
+            $('#insurancenumber').on('input', function () {
                 var insuranceNumber = $(this).val();
                 var isValid = validateInsuranceNumber(insuranceNumber);
                 if (!isValid) {
@@ -236,18 +249,17 @@
                 }
             });
 
-            $('form').submit(function(event) {
-                // Проверяем, есть ли ошибка при проверке номера полиса
+            $('form').submit(function (event) {
                 if (insuranceNumberError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });
 
-        $(document).ready(function() {
-            var passwordError = false; // Флаг для отслеживания ошибки при проверке пароля
+        $(document).ready(function () {
+            var passwordError = false;
 
-            $('#password').on('input', function() {
+            $('#password').on('input', function () {
                 var password = $(this).val();
                 var isValid = validatePassword(password);
                 if (!isValid) {
@@ -259,10 +271,10 @@
                 }
             });
 
-            $('form').submit(function(event) {
-                // Проверяем, есть ли ошибка при проверке пароля
+            $('form').submit(function (event) {
+
                 if (passwordError) {
-                    event.preventDefault(); // Отменяем отправку формы, если есть ошибка
+                    event.preventDefault();
                 }
             });
         });

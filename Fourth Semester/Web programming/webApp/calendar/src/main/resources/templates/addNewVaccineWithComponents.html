@@ -13,29 +13,32 @@
 
 <div class="container mt-5" style="margin-left: 0;">
     <h2>Добавление прививки</h2>
-    <form id="vaccineForm" th:action="@{/manage/vaccine/add}" method="post" th:object="${vaccine}" style="margin-left: 0;">
+    <form id="vaccineForm" th:action="@{/manage/vaccine/add}" method="post" th:object="${vaccine}"
+          style="margin-left: 0;">
         <div class="form-group">
             <label for="vaccineName">Название прививки:</label>
-            <input type="text" required class="form-control" id="vaccineName" name="vaccineName" th:field="*{vaccineName}">
+            <input type="text" required class="form-control" id="vaccineName" name="vaccineName"
+                   th:field="*{vaccineName}">
         </div>
         <div class="form-group">
             <label for="manufactorCountry">Страна-производитель:</label>
-            <input type="text" required class="form-control" id="manufactorCountry" name="manufactorCountry" th:field="*{manufactorCountry}">
+            <input type="text" required class="form-control" id="manufactorCountry" name="manufactorCountry"
+                   th:field="*{manufactorCountry}">
         </div>
         <div class="form-group">
             <label for="validPeriod">Срок годности:</label>
-            <input type="text" required class="form-control" id="validPeriod" name="validPeriod" th:field="*{validPeriod}">
+            <input type="text" required class="form-control" id="validPeriod" name="validPeriod"
+                   th:field="*{validPeriod}">
         </div>
 
-        <hr> <!-- Разделитель между прививкой и компонентами -->
+        <hr>
 
         <h3>Компоненты прививки:</h3>
         <div id="components">
-            <!-- Здесь будут добавлены компоненты динамически -->
         </div>
         <button type="button" class="btn btn-primary mt-3" id="addComponentBtn">Добавить компонент</button>
 
-        <!-- Область для отображения введенных компонентов -->
+
         <button type="submit" class="btn btn-success mt-3">Сохранить</button>
         <p id="error-message" style="color: red; margin-top: 10px; display: none;">Добавьте хотя бы один компонент</p>
 
@@ -44,7 +47,7 @@
 </div>
 
 <script th:inline="javascript">
-    /* Добавление динамических полей для компонентов */
+
     $(document).ready(function () {
         var componentIndex = 0;
 
@@ -82,7 +85,7 @@
         $("#vaccineForm").submit(function () {
             if (componentIndex === 0) {
                 $("#error-message").show();
-                return false; // Отмена отправки формы
+                return false;
             }
         });
     });

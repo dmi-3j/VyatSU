@@ -6,6 +6,7 @@ import org.springframework.data.jpa.domain.Specification;
 import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.entities.Vaccination;
 import ru.kotik.calendar.entities.Vaccine;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +26,7 @@ public class VaccinationSpecification {
             return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
         };
     }
+
     public static Specification<Vaccination> hasUserAndVaccineName(User user, String vaccineName) {
         return (root, query, criteriaBuilder) -> {
             if (user == null && (vaccineName == null || vaccineName.isBlank())) {

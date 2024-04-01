@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: row;
         }
+
         .filter-form {
             width: 30%;
             height: 500px;
@@ -19,6 +20,7 @@
             padding: 10px;
             margin-right: 20px;
         }
+
         .table-container {
             flex: 1;
             overflow: auto;
@@ -26,10 +28,12 @@
             padding: 10px;
             height: 500px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -45,15 +49,18 @@
         <form th:action="@{/med/users/filterUsers}" method="get">
             <div class="form-group">
                 <label for="lastname">Фамилия:</label>
-                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Фамилия" th:value="${lastname}">
+                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Фамилия"
+                       th:value="${lastname}">
             </div>
             <div class="form-group">
                 <label for="firstname">Имя:</label>
-                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Имя" th:value="${firstname}">
+                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Имя"
+                       th:value="${firstname}">
             </div>
             <div class="form-group">
                 <label for="insnum">Номер полиса:</label>
-                <input type="text" class="form-control" id="insnum" name="insnum" placeholder="Полис ОМС" th:value="${insnum}">
+                <input type="text" class="form-control" id="insnum" name="insnum" placeholder="Полис ОМС"
+                       th:value="${insnum}">
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
@@ -81,7 +88,8 @@
                 <td th:text="${user.dateofbirth}"></td>
                 <td th:text="${user.inshurancenumber}"></td>
                 <td>
-                    <a th:href="@{'/med/users/info/' + ${user.username}}" th:text="'Подробная '+ 'информация'" class="text-info"></a>
+                    <a th:href="@{'/med/users/info/' + ${user.username}}" th:text="'Подробная '+ 'информация'"
+                       class="text-info"></a>
                 </td>
             </tr>
             </tbody>
