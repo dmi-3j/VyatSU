@@ -1,0 +1,25 @@
+package ru.kotik.calendar.entities;
+
+import jakarta.persistence.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.UUID;
+
+@Data
+@NoArgsConstructor
+@Entity
+@Table(name = "authorities")
+public class Authority {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String authority;
+
+    @OneToOne
+    @JoinColumn(name = "username", referencedColumnName = "username")
+    private User user;
+
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактирование данных</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .half-width {
+            width: 50%;
+        }
+
+        .form-border {
+            border: 1px solid #ced4da;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn-back {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<div class="form-border">
+    <h2>Редактирование данных профиля</h2>
+    <form th:action="@{/profile/edit}" method="post" th:object="${user}">
+        <input type="hidden" id="editUsername" name="username" th:field="*{username}">
+        <div class="form-group">
+            <label for="editLName">Фамилия</label>
+            <input type="text" class="form-control half-width" id="editLName" th:field="*{lastname}"/>
+        </div>
+        <div class="form-group">
+            <label for="editFname">Имя</label>
+            <input type="text" class="form-control half-width" id="editFname" th:field="*{firstname}"/>
+        </div>
+        <div class="form-group">
+            <label for="editPhone">Номер телефона</label>
+            <input type="text" class="form-control half-width" id="editPhone" th:field="*{phonenumber}"/>
+            <div class="error-message text-danger"></div>
+        </div>
+        <div class="form-group">
+            <label for="editAddress">Адрес</label>
+            <input type="text" class="form-control half-width" id="editAddress" th:field="*{address}"/>
+        </div>
+        <div class="form-group">
+            <label for="editPassword">Пароль</label>
+            <input type="password" class="form-control half-width" id="editPassword" th:field="*{password}"/>
+            <div class="error-message text-danger"></div>
+        </div>
+        <div style="margin-top: 10px" class="form-group">
+            <a th:href="${referer}" class="btn btn-secondary btn-back">Назад</a>
+            <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+        </div>
+    </form>
+</div>
+<script>
+    $(document).ready(function () {
+        function updateErrorMessage(element, message) {
+            var errorElement = element.next('.error-message');
+            if (!errorElement.length) {
+                errorElement = $('<div class="error-message text-danger"></div>').insertAfter(element);
+            }
+            errorElement.text(message);
+        }
+
+        function validatePhoneNumber(phoneNumber) {
+            var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
+            return phoneRegex.test(phoneNumber);
+        }
+
+        function validatePassword(password) {
+            return password.length >= 6;
+        }
+
+        function clearErrorMessage(element) {
+            element.next('.error-message').remove();
+        }
+
+        $(document).ready(function () {
+            var phoneNumberError = false;
+
+            $('#editPhone').on('input', function () {
+                var phoneNumber = $(this).val();
+                var isValid = validatePhoneNumber(phoneNumber);
+                if (!isValid) {
+                    phoneNumberError = true;
+                    updateErrorMessage($(this), 'Номер телефона должен быть в формате +7xxxxxxxxxx');
+                } else {
+                    phoneNumberError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function (event) {
+                if (phoneNumberError) {
+                    event.preventDefault();
+                }
+            });
+        });
+        $(document).ready(function () {
+            var passwordError = false;
+
+            $('#editPassword').on('input', function () {
+                var password = $(this).val();
+                var isValid = validatePassword(password);
+                if (!isValid) {
+                    passwordError = true;
+                    updateErrorMessage($(this), 'Пароль должен содержать не менее 6 символов');
+                } else {
+                    passwordError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+            $('form').submit(function (event) {
+                if (passwordError) {
+                    event.preventDefault();
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

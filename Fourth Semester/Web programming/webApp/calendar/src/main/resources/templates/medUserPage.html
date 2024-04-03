@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск пользователя</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .user-display-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .filter-form {
+            width: 30%;
+            height: 500px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-right: 20px;
+        }
+
+        .table-container {
+            flex: 1;
+            overflow: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<div id="userDisplayContainer" class="user-display-container">
+    <div class="filter-form">
+        <h3>Фильтр</h3>
+        <form th:action="@{/med/users/filterUsers}" method="get">
+            <div class="form-group">
+                <label for="lastname">Фамилия:</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Фамилия"
+                       th:value="${lastname}">
+            </div>
+            <div class="form-group">
+                <label for="firstname">Имя:</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Имя"
+                       th:value="${firstname}">
+            </div>
+            <div class="form-group">
+                <label for="insnum">Номер полиса:</label>
+                <input type="text" class="form-control" id="insnum" name="insnum" placeholder="Полис ОМС"
+                       th:value="${insnum}">
+            </div>
+            <button type="submit" class="btn btn-primary">Найти</button>
+        </form>
+        <form th:action="@{/med/users}">
+            <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
+        </form>
+    </div>
+
+    <div class="table-container">
+        <h3>Пользователи</h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Фамилия</th>
+                <th>Имя</th>
+                <th>Дата рождения</th>
+                <th>Номер полиса</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.lastname}"></td>
+                <td th:text="${user.firstname}"></td>
+                <td th:text="${user.dateofbirth}"></td>
+                <td th:text="${user.inshurancenumber}"></td>
+                <td>
+                    <a th:href="@{'/med/users/info/' + ${user.username}}" th:text="'Подробная '+ 'информация'"
+                       class="text-info"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

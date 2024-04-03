@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление прививки</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+
+<div class="container mt-5" style="margin-left: 0;">
+    <h2>Добавление прививки</h2>
+    <form id="vaccineForm" th:action="@{/manage/vaccine/add}" method="post" th:object="${vaccine}"
+          style="margin-left: 0;">
+        <div class="form-group">
+            <label for="vaccineName">Название прививки:</label>
+            <input type="text" required class="form-control" id="vaccineName" name="vaccineName"
+                   th:field="*{vaccineName}">
+        </div>
+        <div class="form-group">
+            <label for="manufactorCountry">Страна-производитель:</label>
+            <input type="text" required class="form-control" id="manufactorCountry" name="manufactorCountry"
+                   th:field="*{manufactorCountry}">
+        </div>
+        <div class="form-group">
+            <label for="validPeriod">Срок годности:</label>
+            <input type="text" required class="form-control" id="validPeriod" name="validPeriod"
+                   th:field="*{validPeriod}">
+        </div>
+
+        <hr>
+
+        <h3>Компоненты прививки:</h3>
+        <div id="components">
+        </div>
+        <button type="button" class="btn btn-primary mt-3" id="addComponentBtn">Добавить компонент</button>
+
+
+        <button type="submit" class="btn btn-success mt-3">Сохранить</button>
+        <p id="error-message" style="color: red; margin-top: 10px; display: none;">Добавьте хотя бы один компонент</p>
+
+    </form>
+    <a th:href="${referer}" class="btn btn-secondary btn-back" style="margin-top: 20px">Назад</a>
+</div>
+
+<script th:inline="javascript">
+
+    $(document).ready(function () {
+        var componentIndex = 0;
+
+        $("#addComponentBtn").click(function () {
+            var componentHtml = '<div class="component" id="component-' + componentIndex + '">' +
+                '<h4>Компонент ' + (componentIndex + 1) + '</h4>' +
+                '<div class="form-group">' +
+                '<label for="components[' + componentIndex + '].componentName">Название компонента:</label>' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].componentName" name="components[' + componentIndex + '].componentName">' +
+                '</div>' +
+                '<div class="form-group">' +
+                '<label for="components[' + componentIndex + '].structure">Состав:</label>' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].structure" name="components[' + componentIndex + '].structure">' +
+                '</div>' +
+                '<div class="form-group">' +
+                '<label for="components[' + componentIndex + '].type">Тип:</label>' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].type" name="components[' + componentIndex + '].type">' +
+                '</div>' +
+                '<div class="form-group">' +
+                '<label for="components[' + componentIndex + '].intervalOfComponent">Интервал компонента:</label>' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].intervalOfComponent" name="components[' + componentIndex + '].intervalOfComponent">' +
+                '</div>' +
+                '</div>' +
+                '<hr>';
+
+            $("#components").append(componentHtml);
+
+            if (componentIndex === 0) {
+                $("#addComponentBtn").text("Добавить еще компонент");
+            }
+
+            componentIndex++;
+        });
+
+        $("#vaccineForm").submit(function () {
+            if (componentIndex === 0) {
+                $("#error-message").show();
+                return false;
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

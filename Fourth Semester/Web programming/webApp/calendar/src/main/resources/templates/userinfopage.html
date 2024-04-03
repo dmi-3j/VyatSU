@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о пользователе</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .vaccination-management-container {
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+        }
+
+        .filter-form {
+            width: 30%;
+            height: 500px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-right: 20px;
+        }
+
+        .table-container {
+            flex: 1;
+            overflow: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<div id="userDisplayContainer" class="user-display-container">
+    <div class="user-info">
+        <h3 th:text="'Информация о пользователе: ' + ${user.lastname} + ' ' +${user.firstname} "></h3>
+        <h4 th:text="'Дата рождения: ' + ${user.dateofbirth}"></h4>
+        <h4 th:text="'Номер полиса: ' + ${user.inshurancenumber}"></h4>
+    </div>
+</div>
+<div id="vaccinationManagementContainer" class="vaccination-management-container">
+    <div class="filter-form">
+        <h3>Фильтр</h3>
+        <form th:action="@{/med/users/filterVaccination}" method="get">
+            <div class="form-group">
+                <input type="hidden" required class="form-control" id="usr" name="usr" th:value="${user.username}">
+            </div>
+            <div class="form-group">
+                <label for="seria">Серия вакцинации:</label>
+                <input type="text" class="form-control" id="seria" name="seria" placeholder="Серия" th:value="${seria}">
+            </div>
+            <div class="form-group">
+                <label for="vacc">Название вакцины:</label>
+                <input type="text" class="form-control" id="vacc" name="vcc" placeholder="Вакцина"
+                       th:value="${vaccineName}">
+            </div>
+            <button type="submit" class="btn btn-primary">Найти</button>
+        </form>
+        <a th:href="@{'/med/users/info/' + ${user.username}}" style='margin-top: 10px' type="submit"
+           class="btn btn-danger">Сбросить</a>
+
+    </div>
+
+    <div class="table-container">
+        <h3>Вакцинации пользователя
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addVaccinationModal">
+                Добавить вакцинацию
+            </button>
+        </h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Серия</th>
+                <th>Вакцина</th>
+                <th>Дата последней вакцинации</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="vaccination : ${vaccinations}">
+                <td th:text="${vaccination.serial}"></td>
+                <td th:text="${vaccination.vaccine.vaccineName}"></td>
+                <td th:text="${vaccination.completeComponents.get(0).getVaccinationdate()}"></td>
+                <td>
+                    <a th:href="@{'/med/vaccination/info/' + ${vaccination.id}}" th:text="Подробнее"
+                       class="text-info"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="modal fade" id="addVaccinationModal" tabindex="-1" role="dialog" aria-labelledby="addVaccinationModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addVaccinationModalLabel">Добавить вакцинацию</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addVaccinationForm" th:action="@{/med/users/addVaccination}" method="post">
+
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" id="user" name="username" required
+                               th:value="${user.username}">
+                    </div>
+                    <div class="form-group">
+                        <label for="serial">Серия вакцинации:</label>
+                        <input type="text" class="form-control" id="serial" name="serial" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vaccineName">Прививка:</label>
+                        <select class="form-control" id="vaccineName" name="vaccineId" required>
+                            <option value="">Выберите прививку</option>
+                            <option th:each="vaccine : ${vaccines}" th:value="${vaccine.id}"
+                                    th:text="${vaccine.vaccineName}"></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="componentName">Компонент прививки:</label>
+                        <select class="form-control" id="componentName" name="componentId" required>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="organizationName">Медицинская организация:</label>
+                        <select class="form-control" id="organizationName" name="organizationId" required>
+                            <option value="">Выберите организацию</option>
+                            <option th:each=" organization: ${organizations}" th:value="${organization.id}"
+                                    th:text="${organization.organizationName}"></option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Добавить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script th:inline="javascript">
+    $(document).ready(function () {
+        $('#vaccineName').change(function () {
+            var vaccineId = $(this).val();
+            $('#componentName').empty();
+            $.ajax({
+                type: 'GET',
+                url: '/med/vaccine/components/' + vaccineId,
+                success: function (data) {
+                    $.each(data, function (index, component) {
+                        $('#componentName').append('<option value="' + component.id + '">' + component.componentName + '</option>');
+                    });
+                }
+            });
+        });
+
+        $('#addVaccinationForm').submit(function (event) {
+            event.preventDefault();
+            var formData = $(this).serialize();
+            $.ajax({
+                type: 'POST',
+                url: '/med/users/addVaccination',
+                data: formData,
+                success: function (response) {
+                    console.log(response);
+                    $('#addVaccinationModal').modal('hide');
+                    location.reload();
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
