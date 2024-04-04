@@ -36,5 +36,13 @@ namespace App
             Close();
             loginForm.Show();
         }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            addInventoryForm addInventoryForm = new addInventoryForm(username);
+            addInventoryForm.MdiParent = MdiParent;
+            Hide();
+            addInventoryForm.Show();
+        }
     }
 }

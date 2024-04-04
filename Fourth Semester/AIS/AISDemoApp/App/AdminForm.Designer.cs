@@ -28,22 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             panel1 = new Panel();
             logoutButton = new Button();
             usernameLabel = new Label();
+            addButton = new Button();
+            textBox1 = new TextBox();
+            button2 = new Button();
+            dataGridView1 = new DataGridView();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(457, 276);
-            label1.Name = "label1";
-            label1.Size = new Size(166, 25);
-            label1.TabIndex = 0;
-            label1.Text = "ФОРМА АДМИНА";
             // 
             // panel1
             // 
@@ -52,7 +46,7 @@
             panel1.Controls.Add(usernameLabel);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1207, 36);
+            panel1.Size = new Size(1125, 36);
             panel1.TabIndex = 1;
             // 
             // logoutButton
@@ -76,13 +70,53 @@
             usernameLabel.Text = "username";
             usernameLabel.Click += usernameLabel_Click;
             // 
+            // addButton
+            // 
+            addButton.Location = new Point(929, 515);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(161, 60);
+            addButton.TabIndex = 2;
+            addButton.Text = "Добавить ";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += addButton_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            textBox1.Location = new Point(44, 73);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Название инвентаря";
+            textBox1.Size = new Size(319, 29);
+            textBox1.TabIndex = 3;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(405, 73);
+            button2.Name = "button2";
+            button2.Size = new Size(89, 29);
+            button2.TabIndex = 4;
+            button2.Text = "Найти";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = SystemColors.Control;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(48, 130);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(1034, 351);
+            dataGridView1.TabIndex = 5;
+            // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(dataGridView1);
+            Controls.Add(button2);
+            Controls.Add(textBox1);
+            Controls.Add(addButton);
             Controls.Add(panel1);
-            Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -90,15 +124,18 @@
             Load += AdminForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private Panel panel1;
         private Label usernameLabel;
         private Button logoutButton;
+        private Button addButton;
+        private TextBox textBox1;
+        private Button button2;
+        private DataGridView dataGridView1;
     }
 }
