@@ -34,7 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(934, 511);
+            ClientSize = new Size(1134, 611);
             IsMdiContainer = true;
             Name = "ParentForm";
             Load += ParentForm_Load;

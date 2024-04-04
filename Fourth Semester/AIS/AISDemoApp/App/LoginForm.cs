@@ -23,7 +23,7 @@ namespace App
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void loginProcessButton_Click(object sender, EventArgs e)
@@ -39,14 +39,14 @@ namespace App
             {
                 if(user.UserRoles.Any(a => a.Role == "USER"))
                 {
-                    UserForm uf = new UserForm();
+                    UserForm uf = new UserForm(username);
                     uf.MdiParent = this.MdiParent;
                     this.Close();
                     uf.Show();
                 }
                 if (user.UserRoles.Any(a => a.Role == "ADMIN"))
                 {
-                    AdminForm af = new AdminForm();
+                    AdminForm af = new AdminForm(username);
                     af.MdiParent = this.MdiParent;
                     this.Close();
                     af.Show();

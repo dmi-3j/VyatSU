@@ -12,9 +12,29 @@ namespace App
 {
     public partial class AdminForm : Form
     {
-        public AdminForm()
+        public AdminForm(string username)
         {
             InitializeComponent();
+            this.username = username;
+        }
+        private string username;
+
+        private void usernameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AdminForm_Load(object sender, EventArgs e)
+        {
+            usernameLabel.Text = username;
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.MdiParent = this.MdiParent;
+            Close();
+            loginForm.Show();
         }
     }
 }

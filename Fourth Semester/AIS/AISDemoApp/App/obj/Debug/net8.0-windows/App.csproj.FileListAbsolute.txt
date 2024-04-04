@@ -93,7 +93,6 @@ D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-w
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.AssemblyInfo.cs
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.csproj.CoreCompileInputs.cache
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.sourcelink.json
-D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.csproj.CopyComplete
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.dll
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\refint\App.dll
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.pdb
@@ -103,3 +102,5 @@ D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-w
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.UserForm.resources
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\bin\Debug\net8.0-windows\AISDemoApp.dll
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\bin\Debug\net8.0-windows\AISDemoApp.pdb
+D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.csproj.Up2Date
+D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.Properties.Resources.resources

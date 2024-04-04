@@ -40,7 +40,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(367, 81);
+            label1.Location = new Point(442, 120);
             label1.Name = "label1";
             label1.Size = new Size(179, 37);
             label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(214, 203);
+            label2.Location = new Point(289, 235);
             label2.Name = "label2";
             label2.Size = new Size(76, 30);
             label2.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label3.Location = new Point(200, 258);
+            label3.Location = new Point(275, 295);
             label3.Name = "label3";
             label3.Size = new Size(90, 30);
             label3.TabIndex = 2;
@@ -69,7 +69,7 @@
             // loginTextBox
             // 
             loginTextBox.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            loginTextBox.Location = new Point(354, 198);
+            loginTextBox.Location = new Point(429, 235);
             loginTextBox.Name = "loginTextBox";
             loginTextBox.Size = new Size(352, 35);
             loginTextBox.TabIndex = 3;
@@ -77,7 +77,7 @@
             // passwoedTextBox
             // 
             passwoedTextBox.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            passwoedTextBox.Location = new Point(354, 258);
+            passwoedTextBox.Location = new Point(429, 295);
             passwoedTextBox.Name = "passwoedTextBox";
             passwoedTextBox.Size = new Size(352, 35);
             passwoedTextBox.TabIndex = 4;
@@ -86,7 +86,7 @@
             // loginProcessButton
             // 
             loginProcessButton.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            loginProcessButton.Location = new Point(367, 335);
+            loginProcessButton.Location = new Point(442, 372);
             loginProcessButton.Name = "loginProcessButton";
             loginProcessButton.Size = new Size(179, 65);
             loginProcessButton.TabIndex = 5;
@@ -99,7 +99,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(930, 500);
+            BackColor = SystemColors.Control;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1100, 600);
             Controls.Add(loginProcessButton);
             Controls.Add(passwoedTextBox);
             Controls.Add(loginTextBox);

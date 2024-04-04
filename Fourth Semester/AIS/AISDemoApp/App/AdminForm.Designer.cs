@@ -29,27 +29,67 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            panel1 = new Panel();
+            logoutButton = new Button();
+            usernameLabel = new Label();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(345, 144);
+            label1.Location = new Point(457, 276);
             label1.Name = "label1";
             label1.Size = new Size(166, 25);
             label1.TabIndex = 0;
             label1.Text = "ФОРМА АДМИНА";
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ButtonShadow;
+            panel1.Controls.Add(logoutButton);
+            panel1.Controls.Add(usernameLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1207, 36);
+            panel1.TabIndex = 1;
+            // 
+            // logoutButton
+            // 
+            logoutButton.Location = new Point(1041, 5);
+            logoutButton.Name = "logoutButton";
+            logoutButton.Size = new Size(75, 23);
+            logoutButton.TabIndex = 2;
+            logoutButton.Text = "Выйти";
+            logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
+            // 
+            // usernameLabel
+            // 
+            usernameLabel.AutoSize = true;
+            usernameLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            usernameLabel.Location = new Point(963, 5);
+            usernameLabel.Name = "usernameLabel";
+            usernameLabel.Size = new Size(79, 21);
+            usernameLabel.TabIndex = 2;
+            usernameLabel.Text = "username";
+            usernameLabel.Click += usernameLabel_Click;
+            // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 461);
+            ClientSize = new Size(1125, 605);
+            Controls.Add(panel1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "AdminForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminForm";
-            WindowState = FormWindowState.Maximized;
+            Load += AdminForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -57,5 +97,8 @@
         #endregion
 
         private Label label1;
+        private Panel panel1;
+        private Label usernameLabel;
+        private Button logoutButton;
     }
 }

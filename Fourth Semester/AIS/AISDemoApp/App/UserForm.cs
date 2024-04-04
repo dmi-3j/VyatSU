@@ -12,9 +12,33 @@ namespace App
 {
     public partial class UserForm : Form
     {
-        public UserForm()
+        public UserForm(string username)
         {
             InitializeComponent();
+            this.username = username;
+        }
+        private string username;
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserForm_Load(object sender, EventArgs e)
+        {
+            usernameLabel.Text = username;
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.MdiParent = this.MdiParent;
+            Close();
+            loginForm.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
