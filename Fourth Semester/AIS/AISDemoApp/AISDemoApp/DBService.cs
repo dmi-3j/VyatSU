@@ -20,6 +20,11 @@ namespace AISDemoApp
             _context.Inventory.Add(inventory);
             _context.SaveChanges();
         }
+        public void deleteInventory(Inventory inventory)
+        {
+            _context.Inventory.Remove(inventory);
+            _context.SaveChanges();
+        }
         public static string HashPassword(string password)
         {
             using (var sha256 = SHA256.Create())

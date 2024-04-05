@@ -19,6 +19,7 @@ namespace App
             this.username = username;
         }
         private string username;
+        string find;
 
         private void usernameLabel_Click(object sender, EventArgs e)
         {
@@ -49,6 +50,7 @@ namespace App
 
         private void InitTable()
         {
+            dataGridView1.Rows.Clear();
             using Context context = new();
             {
                 List<Inventory> inventory = context.Inventory.ToList();
@@ -76,7 +78,7 @@ namespace App
         private void button2_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-            string find = textBox1.Text;
+            find = textBox1.Text;
             if (find == null || find.Trim().Length == 0)
             {
                 InitTable();
@@ -84,6 +86,30 @@ namespace App
             else
             {
                 InitTable(find);
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex == dataGridView1.Columns["actionDel"].Index)
+            {
+                if (dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
+                {
+                    using (var context = new Context())
+                    {
+                        Inventory? inv = context.Inventory
+                            .Where(v => v.Id == Guid.Parse(dataGridView1.Rows[e.RowIndex].Cells["Id"].Value.ToString()))
+                            .FirstOrDefault();
+                        DialogResult result = MessageBox.Show("Вы уверены, что хотите удалить?", "Подтверждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (result == DialogResult.Yes)
+                        {
+                            DBService service = new(context);
+                            service.deleteInventory(inv);
+                            if (find != null && find.Trim().Length != 0) InitTable(find);
+                            else InitTable();
+                        }
+                    }
+                }
             }
         }
     }
