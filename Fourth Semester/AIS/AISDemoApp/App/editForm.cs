@@ -24,7 +24,7 @@ namespace App
             this.id = id;
         }
         private string username;
-        private Guid id;    
+        private Guid id;
 
         private void editForm_Load(object sender, EventArgs e)
         {
@@ -72,6 +72,14 @@ namespace App
                 MessageBox.Show("Успешно обновлено!");
                 backButton_Click(sender, e);
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            profile p = new profile(username);
+            p.MdiParent = MdiParent;
+            Close();
+            p.Show();
         }
     }
 }

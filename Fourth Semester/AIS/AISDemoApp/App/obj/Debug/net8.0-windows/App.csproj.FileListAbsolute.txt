@@ -106,3 +106,4 @@ D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-w
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.Properties.Resources.resources
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.addInventoryForm.resources
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.editForm.resources
+D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.profile.resources

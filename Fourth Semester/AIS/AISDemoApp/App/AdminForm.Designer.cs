@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             panel1 = new Panel();
             logoutButton = new Button();
             usernameLabel = new Label();
@@ -45,6 +45,7 @@
             price = new DataGridViewTextBoxColumn();
             actionRed = new DataGridViewButtonColumn();
             actionDel = new DataGridViewButtonColumn();
+            linkLabel1 = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -52,6 +53,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonShadow;
+            panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(logoutButton);
             panel1.Controls.Add(usernameLabel);
             panel1.Location = new Point(0, 0);
@@ -169,9 +171,9 @@
             // 
             // actionRed
             // 
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.SelectionBackColor = Color.Green;
-            actionRed.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.SelectionBackColor = Color.Green;
+            actionRed.DefaultCellStyle = dataGridViewCellStyle3;
             actionRed.HeaderText = "";
             actionRed.Name = "actionRed";
             actionRed.ReadOnly = true;
@@ -180,15 +182,30 @@
             // 
             // actionDel
             // 
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.ForeColor = Color.Red;
-            dataGridViewCellStyle2.SelectionBackColor = Color.Red;
-            actionDel.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.ForeColor = Color.Red;
+            dataGridViewCellStyle4.SelectionBackColor = Color.Red;
+            actionDel.DefaultCellStyle = dataGridViewCellStyle4;
             actionDel.HeaderText = "";
             actionDel.Name = "actionDel";
             actionDel.ReadOnly = true;
             actionDel.Text = "Удалить";
             actionDel.UseColumnTextForButtonValue = true;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.ActiveLinkColor = Color.Blue;
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            linkLabel1.LinkColor = Color.Blue;
+            linkLabel1.Location = new Point(44, 5);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 21);
+            linkLabel1.TabIndex = 6;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Профиль";
+            linkLabel1.VisitedLinkColor = Color.Blue;
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // AdminForm
             // 
@@ -228,5 +245,6 @@
         private DataGridViewTextBoxColumn price;
         private DataGridViewButtonColumn actionRed;
         private DataGridViewButtonColumn actionDel;
+        private LinkLabel linkLabel1;
     }
 }

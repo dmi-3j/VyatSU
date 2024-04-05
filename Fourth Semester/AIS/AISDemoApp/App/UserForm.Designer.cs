@@ -32,6 +32,7 @@
             panel1 = new Panel();
             logoutButton = new Button();
             usernameLabel = new Label();
+            linkLabel1 = new LinkLabel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonShadow;
+            panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(logoutButton);
             panel1.Controls.Add(usernameLabel);
             panel1.Location = new Point(-25, 0);
@@ -77,6 +79,20 @@
             usernameLabel.TabIndex = 4;
             usernameLabel.Text = "username";
             // 
+            // linkLabel1
+            // 
+            linkLabel1.ActiveLinkColor = Color.Blue;
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            linkLabel1.LinkColor = Color.Blue;
+            linkLabel1.Location = new Point(45, 5);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 21);
+            linkLabel1.TabIndex = 7;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Профиль";
+            linkLabel1.VisitedLinkColor = Color.Blue;
+            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -101,5 +117,6 @@
         private Panel panel1;
         private Button logoutButton;
         private Label usernameLabel;
+        private LinkLabel linkLabel1;
     }
 }

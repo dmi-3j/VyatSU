@@ -131,5 +131,13 @@ namespace App
 
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            profile p = new profile(username);
+            p.MdiParent = MdiParent;
+            Close();
+            p.Show();
+        }
     }
 }

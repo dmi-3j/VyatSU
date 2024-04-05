@@ -45,6 +45,7 @@
             backButton = new Button();
             numericUpDown2 = new NumericUpDown();
             label5 = new Label();
+            linkLabel1 = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -54,6 +55,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonShadow;
+            panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(logoutButton);
             panel1.Controls.Add(usernameLabel);
             panel1.Location = new Point(0, -1);
@@ -211,6 +213,21 @@
             label5.TabIndex = 17;
             label5.Text = "Размер:";
             // 
+            // linkLabel1
+            // 
+            linkLabel1.ActiveLinkColor = Color.Blue;
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            linkLabel1.LinkColor = Color.Blue;
+            linkLabel1.Location = new Point(45, 5);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 21);
+            linkLabel1.TabIndex = 7;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Профиль";
+            linkLabel1.VisitedLinkColor = Color.Blue;
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
             // addInventoryForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -263,5 +280,6 @@
         private Button backButton;
         private NumericUpDown numericUpDown2;
         private Label label5;
+        private LinkLabel linkLabel1;
     }
 }

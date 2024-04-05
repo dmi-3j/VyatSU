@@ -88,6 +88,12 @@ namespace App
             backButton_Click(sender, e);
         }
 
-       
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            profile p = new profile(username);
+            p.MdiParent = MdiParent;
+            Close();
+            p.Show();
+        }
     }
 }
