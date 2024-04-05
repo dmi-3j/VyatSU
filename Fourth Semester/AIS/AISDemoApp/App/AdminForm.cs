@@ -45,7 +45,7 @@ namespace App
             addInventoryForm addInventoryForm = new addInventoryForm(username);
             addInventoryForm.MdiParent = MdiParent;
             addInventoryForm.Show();
-            this.Close();
+            //this.Close();
         }
 
         private void InitTable()
@@ -122,7 +122,7 @@ namespace App
                             .FirstOrDefault();
                         editForm ef = new editForm(username, inv.Id);
                         ef.MdiParent = MdiParent;
-                        Close();
+                       // Close();
                         ef.Show();
                     }
                 }
@@ -136,7 +136,7 @@ namespace App
         {
             profile p = new profile(username);
             p.MdiParent = MdiParent;
-            Close();
+           // Close();
             p.Show();
         }
     }

@@ -45,9 +45,9 @@ namespace App
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            AdminForm af = new AdminForm(username);
-            af.MdiParent = MdiParent;
-            af.Show();
+            //AdminForm af = new AdminForm(username);
+            //af.MdiParent = MdiParent;
+            //af.Show();
             this.Close();
         }
 
@@ -78,7 +78,7 @@ namespace App
         {
             profile p = new profile(username);
             p.MdiParent = MdiParent;
-            Close();
+           // Close();
             p.Show();
         }
     }
