@@ -41,8 +41,8 @@ namespace App
         {
             addInventoryForm addInventoryForm = new addInventoryForm(username);
             addInventoryForm.MdiParent = MdiParent;
-            Hide();
             addInventoryForm.Show();
+            this.Close();
         }
     }
 }

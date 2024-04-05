@@ -32,7 +32,7 @@
             logoutButton = new Button();
             usernameLabel = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
+            titleTextBox = new TextBox();
             label2 = new Label();
             label3 = new Label();
             numericUpDown1 = new NumericUpDown();
@@ -41,7 +41,8 @@
             openFileDialog1 = new OpenFileDialog();
             uploadPhotoButton = new Button();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
+            addButton = new Button();
+            backButton = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -86,14 +87,14 @@
             label1.TabIndex = 3;
             label1.Text = "Добавление инвентаря";
             // 
-            // textBox1
+            // titleTextBox
             // 
-            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBox1.Location = new Point(46, 150);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Лыжи беговые";
-            textBox1.Size = new Size(292, 29);
-            textBox1.TabIndex = 4;
+            titleTextBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            titleTextBox.Location = new Point(46, 150);
+            titleTextBox.Name = "titleTextBox";
+            titleTextBox.PlaceholderText = "Лыжи беговые";
+            titleTextBox.Size = new Size(292, 29);
+            titleTextBox.TabIndex = 4;
             // 
             // label2
             // 
@@ -119,6 +120,7 @@
             // 
             numericUpDown1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             numericUpDown1.Location = new Point(46, 285);
+            numericUpDown1.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(292, 29);
             numericUpDown1.TabIndex = 9;
@@ -135,8 +137,10 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Лыжи", "Лыжные ботинки", "Лыжные палки" });
             comboBox1.Location = new Point(46, 216);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(292, 29);
@@ -165,21 +169,33 @@
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
-            // button1
+            // addButton
             // 
-            button1.Location = new Point(922, 507);
-            button1.Name = "button1";
-            button1.Size = new Size(156, 60);
-            button1.TabIndex = 14;
-            button1.Text = "Добавить";
-            button1.UseVisualStyleBackColor = true;
+            addButton.Location = new Point(922, 507);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(156, 60);
+            addButton.TabIndex = 14;
+            addButton.Text = "Добавить";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += addButton_Click;
+            // 
+            // backButton
+            // 
+            backButton.Location = new Point(38, 520);
+            backButton.Name = "backButton";
+            backButton.Size = new Size(116, 47);
+            backButton.TabIndex = 15;
+            backButton.Text = "Назад";
+            backButton.UseVisualStyleBackColor = true;
+            backButton.Click += backButton_Click;
             // 
             // addInventoryForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
-            Controls.Add(button1);
+            Controls.Add(backButton);
+            Controls.Add(addButton);
             Controls.Add(pictureBox1);
             Controls.Add(uploadPhotoButton);
             Controls.Add(comboBox1);
@@ -187,7 +203,7 @@
             Controls.Add(numericUpDown1);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(titleTextBox);
             Controls.Add(label1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
@@ -209,7 +225,7 @@
         private Button logoutButton;
         private Label usernameLabel;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox titleTextBox;
         private Label label2;
         private Label label3;
         private NumericUpDown numericUpDown1;
@@ -218,6 +234,7 @@
         private OpenFileDialog openFileDialog1;
         private Button uploadPhotoButton;
         private PictureBox pictureBox1;
-        private Button button1;
+        private Button addButton;
+        private Button backButton;
     }
 }

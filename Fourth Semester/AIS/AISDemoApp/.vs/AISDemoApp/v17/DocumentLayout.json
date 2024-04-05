@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\app\\addinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|solutionrelative:app\\addinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\app\\addinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|solutionrelative:app\\addinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\app\\addinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|solutionrelative:app\\addinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\app\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|solutionrelative:app\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\app\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|solutionrelative:app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\Migrations\\20240404192837_add_inventory_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AISDemoApp\\Migrations\\20240404192837_add_inventory_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +59,16 @@
       "RelativeMoniker": "D:0:0:{4D75574E-479A-44EE-B2A4-A0E39F8E4C85}|App\\App.csproj|solutionrelative:app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\migrations\\20240318174214_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\migrations\\20240318174214_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|d:\\documents\\github\\vyatsu\\fourth semester\\ais\\aisdemoapp\\aisdemoapp\\migrations\\20240404192837_add_inventory_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE684EE-72AD-4412-8930-2793D88978D7}|AISDemoApp\\AISDemoApp.csproj|solutionrelative:aisdemoapp\\migrations\\20240404192837_add_inventory_entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,20 +86,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "addInventoryForm.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\addInventoryForm.cs",
               "RelativeDocumentMoniker": "App\\addInventoryForm.cs",
               "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\addInventoryForm.cs",
               "RelativeToolTip": "App\\addInventoryForm.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIAwwCYAAAABAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwEIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T20:04:19.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "addInventoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\addInventoryForm.cs",
               "RelativeDocumentMoniker": "App\\addInventoryForm.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\Inventory.cs",
               "RelativeDocumentMoniker": "AISDemoApp\\Inventory.cs",
@@ -124,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdminForm.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\AdminForm.cs",
               "RelativeDocumentMoniker": "App\\AdminForm.cs",
               "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\AdminForm.cs",
               "RelativeToolTip": "App\\AdminForm.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAIAwwBwAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:46:24.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\AdminForm.cs",
               "RelativeDocumentMoniker": "App\\AdminForm.cs",
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\LoginForm.cs",
               "RelativeDocumentMoniker": "App\\LoginForm.cs",
@@ -161,7 +161,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "DBService.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\DBService.cs",
+              "RelativeDocumentMoniker": "AISDemoApp\\DBService.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\DBService.cs",
+              "RelativeToolTip": "AISDemoApp\\DBService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:17:01.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "20240404192837_add_inventory_entity.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\Migrations\\20240404192837_add_inventory_entity.cs",
               "RelativeDocumentMoniker": "AISDemoApp\\Migrations\\20240404192837_add_inventory_entity.cs",
@@ -169,8 +182,7 @@
               "RelativeToolTip": "AISDemoApp\\Migrations\\20240404192837_add_inventory_entity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:28:37.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T19:28:37.587Z"
             },
             {
               "$type": "Document",
@@ -218,8 +230,7 @@
               "RelativeToolTip": "App\\LoginForm.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAvwDAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:50:45.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:50:45.659Z"
             },
             {
               "$type": "Document",
@@ -259,19 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DBService.cs",
-              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\DBService.cs",
-              "RelativeDocumentMoniker": "AISDemoApp\\DBService.cs",
-              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\DBService.cs",
-              "RelativeToolTip": "AISDemoApp\\DBService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T18:17:01.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "20240318174214_init.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\Migrations\\20240318174214_init.cs",
               "RelativeDocumentMoniker": "AISDemoApp\\Migrations\\20240318174214_init.cs",
@@ -283,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\UserRole.cs",
               "RelativeDocumentMoniker": "AISDemoApp\\UserRole.cs",
