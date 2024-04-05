@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             panel1 = new Panel();
             logoutButton = new Button();
             usernameLabel = new Label();
@@ -35,6 +37,14 @@
             textBox1 = new TextBox();
             button2 = new Button();
             dataGridView1 = new DataGridView();
+            Id = new DataGridViewTextBoxColumn();
+            photo = new DataGridViewImageColumn();
+            name = new DataGridViewTextBoxColumn();
+            type = new DataGridViewTextBoxColumn();
+            size = new DataGridViewTextBoxColumn();
+            price = new DataGridViewTextBoxColumn();
+            actionRed = new DataGridViewButtonColumn();
+            actionDel = new DataGridViewButtonColumn();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -97,15 +107,87 @@
             button2.TabIndex = 4;
             button2.Text = "Найти";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             dataGridView1.BackgroundColor = SystemColors.Control;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Id, photo, name, type, size, price, actionRed, actionDel });
             dataGridView1.Location = new Point(48, 130);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
             dataGridView1.Size = new Size(1034, 351);
             dataGridView1.TabIndex = 5;
+            // 
+            // Id
+            // 
+            Id.FillWeight = 200F;
+            Id.HeaderText = "";
+            Id.Name = "Id";
+            Id.ReadOnly = true;
+            Id.Visible = false;
+            Id.Width = 200;
+            // 
+            // photo
+            // 
+            photo.HeaderText = "";
+            photo.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            photo.Name = "photo";
+            photo.ReadOnly = true;
+            photo.Width = 200;
+            // 
+            // name
+            // 
+            name.HeaderText = "Название";
+            name.Name = "name";
+            name.ReadOnly = true;
+            name.Width = 250;
+            // 
+            // type
+            // 
+            type.HeaderText = "Тип";
+            type.Name = "type";
+            type.ReadOnly = true;
+            type.Width = 120;
+            // 
+            // size
+            // 
+            size.HeaderText = "Размер";
+            size.Name = "size";
+            size.ReadOnly = true;
+            // 
+            // price
+            // 
+            price.HeaderText = "Цена аренды";
+            price.Name = "price";
+            price.ReadOnly = true;
+            // 
+            // actionRed
+            // 
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Green;
+            actionRed.DefaultCellStyle = dataGridViewCellStyle1;
+            actionRed.HeaderText = "";
+            actionRed.Name = "actionRed";
+            actionRed.ReadOnly = true;
+            actionRed.Text = "Редактировать";
+            actionRed.UseColumnTextForButtonValue = true;
+            // 
+            // actionDel
+            // 
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.ForeColor = Color.Red;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Red;
+            actionDel.DefaultCellStyle = dataGridViewCellStyle2;
+            actionDel.HeaderText = "";
+            actionDel.Name = "actionDel";
+            actionDel.ReadOnly = true;
+            actionDel.Text = "Удалить";
+            actionDel.UseColumnTextForButtonValue = true;
             // 
             // AdminForm
             // 
@@ -137,5 +219,13 @@
         private TextBox textBox1;
         private Button button2;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Id;
+        private DataGridViewImageColumn photo;
+        private DataGridViewTextBoxColumn name;
+        private DataGridViewTextBoxColumn type;
+        private DataGridViewTextBoxColumn size;
+        private DataGridViewTextBoxColumn price;
+        private DataGridViewButtonColumn actionRed;
+        private DataGridViewButtonColumn actionDel;
     }
 }

@@ -11,6 +11,7 @@ namespace AISDemoApp
         public Guid Id { get; set; }
         public string InventoryName { get; set; } = null!;
         public string InventoryType { get; set; } = null!;
+        public decimal Size { get; set; }
         public decimal RentPrice { get; set; }
         public string? PhotoPath { get; set; }
     }

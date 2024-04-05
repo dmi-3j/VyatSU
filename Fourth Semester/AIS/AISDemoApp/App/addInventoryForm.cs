@@ -29,8 +29,8 @@ namespace App
             {
                 path = openFileDialog.FileName;
                 pictureBox1.Image = Image.FromFile(path);
-                string destinationDirectory = Path.Combine(Application.StartupPath, "Images");
-                string fileName = Path.GetFileName(path);
+                string destinationDirectory = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName, "Images");
+                string fileName = Guid.NewGuid() + ".jpg";
 
                 if (!Directory.Exists(destinationDirectory))
                 {
@@ -65,8 +65,12 @@ namespace App
                 return;
             }
             decimal price = numericUpDown1.Value;
-            string type = comboBox1.SelectedText;
-
+            string type = comboBox1.SelectedItem.ToString();
+            decimal size = numericUpDown2.Value;
+            if (path == null)
+            {
+                path = "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\bin\\Images\\default.jpg";
+            }
             using Context context = new();
             {
                 Inventory inv = new Inventory()
@@ -74,7 +78,8 @@ namespace App
                     InventoryName = title,
                     InventoryType = type,
                     RentPrice = price,
-                    PhotoPath = path
+                    PhotoPath = path,
+                    Size = size
                 };
                 DBService db = new DBService(context);
                 db.saveInventory(inv);
@@ -83,6 +88,6 @@ namespace App
             backButton_Click(sender, e);
         }
 
-        
+       
     }
 }

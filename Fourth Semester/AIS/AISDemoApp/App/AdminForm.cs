@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AISDemoApp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,7 @@ namespace App
         private void AdminForm_Load(object sender, EventArgs e)
         {
             usernameLabel.Text = username;
+            InitTable();
         }
 
         private void logoutButton_Click(object sender, EventArgs e)
@@ -43,6 +45,46 @@ namespace App
             addInventoryForm.MdiParent = MdiParent;
             addInventoryForm.Show();
             this.Close();
+        }
+
+        private void InitTable()
+        {
+            using Context context = new();
+            {
+                List<Inventory> inventory = context.Inventory.ToList();
+                foreach (Inventory item in inventory)
+                {
+                    Image image = Image.FromFile(item.PhotoPath);
+                    dataGridView1.Rows.Add(item.Id, image, item.InventoryName, item.InventoryType, item.Size, item.RentPrice);
+                }
+            }
+        }
+        private void InitTable(string find)
+        {
+            dataGridView1.Rows.Clear();
+            using Context context = new();
+            {
+                List<Inventory> inventory = context.Inventory.Where(a => a.InventoryName.ToLower().Contains(find.ToLower())).ToList();
+                foreach (Inventory item in inventory)
+                {
+                    Image image = Image.FromFile(item.PhotoPath);
+                    dataGridView1.Rows.Add(item.Id, image, item.InventoryName, item.InventoryType, item.Size, item.RentPrice);
+                }
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            string find = textBox1.Text;
+            if (find == null || find.Trim().Length == 0)
+            {
+                InitTable();
+            }
+            else
+            {
+                InitTable(find);
+            }
         }
     }
 }

@@ -43,9 +43,12 @@
             pictureBox1 = new PictureBox();
             addButton = new Button();
             backButton = new Button();
+            numericUpDown2 = new NumericUpDown();
+            label5 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -110,7 +113,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label3.Location = new Point(46, 261);
+            label3.Location = new Point(46, 321);
             label3.Name = "label3";
             label3.Size = new Size(108, 21);
             label3.TabIndex = 8;
@@ -119,7 +122,7 @@
             // numericUpDown1
             // 
             numericUpDown1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            numericUpDown1.Location = new Point(46, 285);
+            numericUpDown1.Location = new Point(46, 345);
             numericUpDown1.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(292, 29);
@@ -129,7 +132,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label4.Location = new Point(46, 192);
+            label4.Location = new Point(46, 254);
             label4.Name = "label4";
             label4.Size = new Size(118, 21);
             label4.TabIndex = 10;
@@ -141,7 +144,7 @@
             comboBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Лыжи", "Лыжные ботинки", "Лыжные палки" });
-            comboBox1.Location = new Point(46, 216);
+            comboBox1.Location = new Point(46, 278);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(292, 29);
             comboBox1.TabIndex = 11;
@@ -152,7 +155,7 @@
             // 
             // uploadPhotoButton
             // 
-            uploadPhotoButton.Location = new Point(599, 330);
+            uploadPhotoButton.Location = new Point(659, 358);
             uploadPhotoButton.Name = "uploadPhotoButton";
             uploadPhotoButton.Size = new Size(140, 35);
             uploadPhotoButton.TabIndex = 12;
@@ -162,7 +165,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(539, 117);
+            pictureBox1.Location = new Point(599, 145);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(258, 197);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -171,9 +174,9 @@
             // 
             // addButton
             // 
-            addButton.Location = new Point(922, 507);
+            addButton.Location = new Point(38, 456);
             addButton.Name = "addButton";
-            addButton.Size = new Size(156, 60);
+            addButton.Size = new Size(116, 47);
             addButton.TabIndex = 14;
             addButton.Text = "Добавить";
             addButton.UseVisualStyleBackColor = true;
@@ -189,11 +192,32 @@
             backButton.UseVisualStyleBackColor = true;
             backButton.Click += backButton_Click;
             // 
+            // numericUpDown2
+            // 
+            numericUpDown2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            numericUpDown2.Location = new Point(46, 216);
+            numericUpDown2.Maximum = new decimal(new int[] { 250, 0, 0, 0 });
+            numericUpDown2.Name = "numericUpDown2";
+            numericUpDown2.Size = new Size(292, 29);
+            numericUpDown2.TabIndex = 16;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label5.Location = new Point(46, 192);
+            label5.Name = "label5";
+            label5.Size = new Size(65, 21);
+            label5.TabIndex = 17;
+            label5.Text = "Размер:";
+            // 
             // addInventoryForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(label5);
+            Controls.Add(numericUpDown2);
             Controls.Add(backButton);
             Controls.Add(addButton);
             Controls.Add(pictureBox1);
@@ -215,6 +239,7 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -236,5 +261,7 @@
         private PictureBox pictureBox1;
         private Button addButton;
         private Button backButton;
+        private NumericUpDown numericUpDown2;
+        private Label label5;
     }
 }
