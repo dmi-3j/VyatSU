@@ -111,6 +111,25 @@ namespace App
                     }
                 }
             }
+            if (e.RowIndex >= 0 && e.ColumnIndex == dataGridView1.Columns["actionRed"].Index)
+            {
+                if (dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex] is DataGridViewButtonCell)
+                {
+                    using (var context = new Context())
+                    {
+                        Inventory? inv = context.Inventory
+                            .Where(v => v.Id == Guid.Parse(dataGridView1.Rows[e.RowIndex].Cells["Id"].Value.ToString()))
+                            .FirstOrDefault();
+                        editForm ef = new editForm(username, inv.Id);
+                        ef.MdiParent = MdiParent;
+                        Close();
+                        ef.Show();
+                    }
+                }
+            }
+
+
+
         }
     }
 }
