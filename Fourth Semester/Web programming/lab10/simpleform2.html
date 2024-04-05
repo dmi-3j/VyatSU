@@ -1,0 +1,63 @@
+<!--task 2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Простая форма</title>
+</head>
+<body>
+<FORM>
+    <P>Пожалуйста, введите ваши данные:</P>
+    <table>
+        <tr>
+            <td>Имя:</td>
+            <td><INPUT name="name" type="text" size="35"></td>
+        </tr>
+        <tr>
+            <td>Фамилия:</td>
+            <td><input name="lname" type="text" size="35"></td>
+        </tr>
+        <tr>
+            <td>Улица:</td>
+            <td><INPUT name="street" type="text" size="35"></td>
+        </tr>
+        <tr>
+            <td>Город:</td>
+            <td><input name="city" type="text" size="20"></td>
+        </tr>
+        <tr>
+            <td>Индекс:</td>
+            <td><input name="postcode" type="number" max="999999" minlength="6" value="999999"></td>
+        </tr>
+        <tr>
+            <td>Какой поисковой системой вы чаще всего пользуетесь?</td>
+            <td>
+                <input type="radio" name="search_engine" value="nigma" checked> Nigma<br>
+                <input type="radio" name="search_engine" value="rambler"> Rambler<br>
+                <input type="radio" name="search_engine" value="google"> Google<br>
+                <input type="radio" name="search_engine" value="yandex"> Yandex<br>
+            </td>
+        </tr>
+        <tr>
+            <td>На каком почтовом сервере вы зарегистрированы?</td>
+            <td>
+                <input type="checkbox" name="mail_server" value="mail"> Mail<br>
+                <input type="checkbox" name="mail_server" value="rambler"> Rambler<br>
+                <input type="checkbox" name="mail_server" value="inbox"> Inbox<br>
+                <input type="checkbox" name="mail_server" value="yandex"> Yandex<br>
+            </td>
+        </tr>
+        <tr>
+            <td>У вас есть постоянный доступ в Интернет?</td>
+            <td>
+                <select name="internet_access">
+                    <option value="yes">Да</option>
+                    <option value="no">Нет</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Отправить данные">
+</FORM>
+</body>
+</html>

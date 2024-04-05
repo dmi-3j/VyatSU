@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = ["воз", "киборг", "корсет", "ЗОВ","гробик", "костер", "сектор"];
+    function aclean(arr) {
+        var claenWords = [];
+        for (i = 0; i < arr.length; i++) {
+            var sortedWord = arr[i].toLowerCase().split('').sort().join('');
+            claenWords[sortedWord] = arr[i];
+        }
+        return Object.values(claenWords);
+    }
+    alert(aclean(arr));
+</script>
+</body>
+</html>

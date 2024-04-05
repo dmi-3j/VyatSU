@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const data =
+        [
+            {"name": "Alex", "age":30, "from": "Moscow"},
+            {"name": "Sofa", "age":22, "from": "Kazan"},
+            {"name": "Ilya", "age":26, "from": "Piter"},
+            {"name": "Kolya", "age":30, "from": "Kirov"}
+        ];
+    function avgAge() {
+        var sum = 0;
+        for (i=0; i<data.length; i++) {
+            sum += data[i].age;
+        }
+        return sum/data.length;
+    }
+    console.log(avgAge(data));
+
+</script>
+</body>
+</html>

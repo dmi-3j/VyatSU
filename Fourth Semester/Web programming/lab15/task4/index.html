@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const data =
+        [{
+            "title": "Приглашаем на День открытых дверей.",
+            "source": "vyatsu"
+        },
+            {
+                "title": "Искусство против коррупции.",
+                "source": "vyatsu"
+            },
+            {
+                "title": "Научно-практическая конференция «Управленческие образовательные практики в студенческих исследованиях» собрала около 80 участников.",
+                "source": "vyatsu"
+            },
+            {
+                "title": "Искусство против коррупции.",
+                "source": "vyatsu"
+            },
+            {
+                "title": "Приглашаем к участию во Всероссийском социологическом диктанте.",
+                "source": "vyatsu"
+            },
+            {
+                "title": "Улицы в кировском Урванцево построены на 75%.",
+                "source": "yandex"
+            },
+            {
+                "title": "В Кирове за 69 миллионов рублей отремонтируют автовокзал.",
+                "source": "yandex"
+            },
+            {
+                "title": "Шульгинов: власти обсуждают снятие запрета на экспорт Аи-92 и Аи95.",
+                "source": "yandex"
+            },
+            {
+                "title": "Православные верующие отмечают 8 ноября Дмитриев день.",
+                "source": "yandex"
+            }];
+
+    console.log(data);
+
+    const newData = data.filter(item =>
+    {
+       const words = item.title.split(/[\w\s]+/);
+       const cnt = words.length;
+       return cnt <= 5;
+    });
+    console.log(newData);
+
+</script>
+</body>
+</html>

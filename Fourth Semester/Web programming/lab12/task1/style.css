@@ -1,0 +1,15 @@
+.c1{
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 5;
+    position: absolute;
+}
+.c2 {
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 1;
+    color: grey;
+    margin-left: 20px;
+    top: 15px;
+    position: absolute;
+}

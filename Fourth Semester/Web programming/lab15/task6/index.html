@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const data = [{
+        model: "Bert",
+        architecture: "encoder",
+        application: ["classification", "masked prediction", "embedding"]
+    },
+        {
+            model: "GPT",
+            architecture: "decoder",
+            application: ["text generation", "question answering", "instructed generation", "classification"]
+        },
+        {
+            model: "T5",
+            architecture: "encoder-decoder",
+            application: ["classification", "summarization", "question answering"]
+        }];
+    const unq = [new Set(data.flatMap(item => item.application))];
+    console.log(unq);
+</script>
+</body>
+</html>

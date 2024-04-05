@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список продуктов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Список продуктов</h1>
+<div class="inputGroup">
+<label for="productName">Название продукта:</label>
+<input type="text" id="productName" placeholder="Название продукта" >
+<label for="productPrice">Стоимость:</label>
+<input type="number" id="productPrice" placeholder="Цена, например, 10">
+<button class="add" onclick="addProduct()">Добавить</button>
+</div>
+<div class="list" id="listContainer">
+<ul id="products"></ul>
+</div>
+<button class="totalSum" onclick="calculateTotal()">Общая стоимость</button>
+<div id="totalPrice"></div>
+<script src="script.js"></script>
+</body>
+</html>

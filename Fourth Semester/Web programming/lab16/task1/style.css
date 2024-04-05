@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+    width: 720px;
+}
+#products {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.add {
+    background-color: lightgray;
+    border-radius: 7px;
+    margin-left: 10px;
+    width: 100px;
+    border-color: brown;
+}
+.totalSum {
+    background-color: lightgray;
+    border-radius: 7px;
+    float: right;
+    border-color: brown;
+}
+.inputGroup {
+    border: 1px solid brown;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+.list {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+.bordered {
+    border: 1px solid brown;
+    background-color: aliceblue;
+}

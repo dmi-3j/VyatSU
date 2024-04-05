@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    str = prompt("Введите первое число:", "0")
+    x = parseInt(str)
+    op = prompt("Введите операцию (+ или - или / или *)")
+    str = prompt("Введите второе число:", "0")
+    y = parseInt(str)
+    switch (op) {
+        case '+':
+            s = x + y
+            alert("Результат равен "+s);
+            break;
+        case '-':
+            s = x - y
+            alert("Результат равен "+s);
+            break;
+        case '*':
+            s = x * y
+            alert("Результат равен "+s);
+            break;
+        case '/':
+            s = x / y
+            alert("Результат равен "+s);
+            break;
+        default:
+            alert("Некорректная операция");
+            break;
+    }
+</script>
+</body>
+</html>
