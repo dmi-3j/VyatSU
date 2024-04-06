@@ -35,8 +35,12 @@ namespace App
         private void logoutButton_Click(object sender, EventArgs e)
         {
             LoginForm loginForm = new LoginForm();
-            loginForm.MdiParent = this.MdiParent;
-            Close();
+            loginForm.MdiParent = MdiParent;
+            Form[] openFormsCopy = Application.OpenForms.Cast<Form>().ToArray();
+            foreach (Form form in openFormsCopy)
+            {
+                if (form.MdiParent == MdiParent) form.Close();
+            }
             loginForm.Show();
         }
 

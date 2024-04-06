@@ -12,13 +12,15 @@ namespace AISDemoApp
         public DbSet<User> Users { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<Inventory> Inventory { get; set; }
-
+        public DbSet<Cart> Cart {  get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=ais;Username=postgres;Password=1");
         }
+        
 
 
     }

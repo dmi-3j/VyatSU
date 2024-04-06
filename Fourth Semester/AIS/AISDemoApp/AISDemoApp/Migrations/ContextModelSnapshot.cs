@@ -22,6 +22,44 @@ namespace AISDemoApp.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("AISDemoApp.Cart", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Cart");
+                });
+
+            modelBuilder.Entity("AISDemoApp.CartItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CartId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("InventoryId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CartId");
+
+                    b.HasIndex("InventoryId");
+
+                    b.ToTable("CartItems");
+                });
+
             modelBuilder.Entity("AISDemoApp.Inventory", b =>
                 {
                     b.Property<Guid>("Id")
@@ -102,6 +140,36 @@ namespace AISDemoApp.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("AISDemoApp.Cart", b =>
+                {
+                    b.HasOne("AISDemoApp.User", "User")
+                        .WithOne("Cart")
+                        .HasForeignKey("AISDemoApp.Cart", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("AISDemoApp.CartItem", b =>
+                {
+                    b.HasOne("AISDemoApp.Cart", "Cart")
+                        .WithMany("CartItems")
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AISDemoApp.Inventory", "Inventory")
+                        .WithMany("CartItems")
+                        .HasForeignKey("InventoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cart");
+
+                    b.Navigation("Inventory");
+                });
+
             modelBuilder.Entity("AISDemoApp.UserRole", b =>
                 {
                     b.HasOne("AISDemoApp.User", null)
@@ -111,8 +179,21 @@ namespace AISDemoApp.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("AISDemoApp.Cart", b =>
+                {
+                    b.Navigation("CartItems");
+                });
+
+            modelBuilder.Entity("AISDemoApp.Inventory", b =>
+                {
+                    b.Navigation("CartItems");
+                });
+
             modelBuilder.Entity("AISDemoApp.User", b =>
                 {
+                    b.Navigation("Cart")
+                        .IsRequired();
+
                     b.Navigation("UserRoles");
                 });
 #pragma warning restore 612, 618

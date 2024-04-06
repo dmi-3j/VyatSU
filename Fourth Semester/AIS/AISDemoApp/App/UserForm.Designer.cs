@@ -30,6 +30,7 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             linkLabel1 = new LinkLabel();
             logoutButton = new Button();
             usernameLabel = new Label();
@@ -52,6 +53,7 @@
             priceTo = new TextBox();
             priceFrom = new TextBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -59,6 +61,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonShadow;
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(logoutButton);
             panel1.Controls.Add(usernameLabel);
@@ -66,6 +69,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1125, 36);
             panel1.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources._55b0e24786591999792c3f0b66b33b36_fit;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(921, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(36, 28);
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // linkLabel1
             // 
@@ -115,6 +129,7 @@
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.Size = new Size(1034, 400);
             dataGridView1.TabIndex = 6;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Id
             // 
@@ -286,6 +301,7 @@
             Load += UserForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -316,5 +332,6 @@
         private TextBox priceFrom;
         private Button resBut;
         private Button filterButton;
+        private PictureBox pictureBox1;
     }
 }

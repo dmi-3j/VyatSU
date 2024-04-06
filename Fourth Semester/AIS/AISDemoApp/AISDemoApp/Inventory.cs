@@ -14,5 +14,7 @@ namespace AISDemoApp
         public decimal Size { get; set; }
         public decimal RentPrice { get; set; }
         public string? PhotoPath { get; set; }
+        public ICollection<CartItem> CartItems { get; set; }
+
     }
 }

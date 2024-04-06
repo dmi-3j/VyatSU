@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AISDemoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63772a9ef33dee48363d7ac42576049a3180ed11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ff1a821bd368f2ae60b609cbb6218e6b6330899")]
 [assembly: System.Reflection.AssemblyProductAttribute("AISDemoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AISDemoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
