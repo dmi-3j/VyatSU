@@ -95,5 +95,17 @@ namespace App
             //Close();
             p.Show();
         }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.MdiParent = MdiParent;
+            Form[] openFormsCopy = Application.OpenForms.Cast<Form>().ToArray();
+            foreach (Form form in openFormsCopy)
+            {
+                if (form.MdiParent == MdiParent) form.Close();
+            }
+            loginForm.Show();
+        }
     }
 }

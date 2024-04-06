@@ -31,6 +31,7 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             panel1 = new Panel();
+            linkLabel1 = new LinkLabel();
             logoutButton = new Button();
             usernameLabel = new Label();
             addButton = new Button();
@@ -45,7 +46,7 @@
             price = new DataGridViewTextBoxColumn();
             actionRed = new DataGridViewButtonColumn();
             actionDel = new DataGridViewButtonColumn();
-            linkLabel1 = new LinkLabel();
+            clearButton = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -60,6 +61,21 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1125, 36);
             panel1.TabIndex = 1;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.ActiveLinkColor = Color.Blue;
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            linkLabel1.LinkColor = Color.Blue;
+            linkLabel1.Location = new Point(44, 5);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 21);
+            linkLabel1.TabIndex = 6;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Профиль";
+            linkLabel1.VisitedLinkColor = Color.Blue;
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // logoutButton
             // 
@@ -192,26 +208,22 @@
             actionDel.Text = "Удалить";
             actionDel.UseColumnTextForButtonValue = true;
             // 
-            // linkLabel1
+            // clearButton
             // 
-            linkLabel1.ActiveLinkColor = Color.Blue;
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            linkLabel1.LinkColor = Color.Blue;
-            linkLabel1.Location = new Point(44, 5);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(75, 21);
-            linkLabel1.TabIndex = 6;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Профиль";
-            linkLabel1.VisitedLinkColor = Color.Blue;
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            clearButton.Location = new Point(500, 73);
+            clearButton.Name = "clearButton";
+            clearButton.Size = new Size(89, 29);
+            clearButton.TabIndex = 6;
+            clearButton.Text = "Сбросить";
+            clearButton.UseVisualStyleBackColor = true;
+            clearButton.Click += clearButton_Click;
             // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(clearButton);
             Controls.Add(dataGridView1);
             Controls.Add(button2);
             Controls.Add(textBox1);
@@ -246,5 +258,6 @@
         private DataGridViewButtonColumn actionRed;
         private DataGridViewButtonColumn actionDel;
         private LinkLabel linkLabel1;
+        private Button clearButton;
     }
 }

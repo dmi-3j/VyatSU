@@ -122,7 +122,7 @@ namespace App
                             .FirstOrDefault();
                         editForm ef = new editForm(username, inv.Id);
                         ef.MdiParent = MdiParent;
-                       // Close();
+                        // Close();
                         ef.Show();
                     }
                 }
@@ -136,8 +136,14 @@ namespace App
         {
             profile p = new profile(username);
             p.MdiParent = MdiParent;
-           // Close();
+            //Close();
             p.Show();
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            InitTable();
         }
     }
 }

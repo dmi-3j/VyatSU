@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            linkLabel1 = new LinkLabel();
             logoutButton = new Button();
             usernameLabel = new Label();
             label1 = new Label();
@@ -45,7 +46,6 @@
             backButton = new Button();
             numericUpDown2 = new NumericUpDown();
             label5 = new Label();
-            linkLabel1 = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -63,6 +63,21 @@
             panel1.Size = new Size(1125, 36);
             panel1.TabIndex = 2;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.ActiveLinkColor = Color.Blue;
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            linkLabel1.LinkColor = Color.Blue;
+            linkLabel1.Location = new Point(45, 5);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 21);
+            linkLabel1.TabIndex = 7;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Профиль";
+            linkLabel1.VisitedLinkColor = Color.Blue;
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
             // logoutButton
             // 
             logoutButton.Location = new Point(1041, 5);
@@ -71,6 +86,7 @@
             logoutButton.TabIndex = 2;
             logoutButton.Text = "Выйти";
             logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
             // 
             // usernameLabel
             // 
@@ -212,21 +228,6 @@
             label5.Size = new Size(65, 21);
             label5.TabIndex = 17;
             label5.Text = "Размер:";
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.ActiveLinkColor = Color.Blue;
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            linkLabel1.LinkColor = Color.Blue;
-            linkLabel1.Location = new Point(45, 5);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(75, 21);
-            linkLabel1.TabIndex = 7;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Профиль";
-            linkLabel1.VisitedLinkColor = Color.Blue;
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // addInventoryForm
             // 

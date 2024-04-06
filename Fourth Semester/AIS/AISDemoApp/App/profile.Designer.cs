@@ -77,6 +77,7 @@
             logoutButton.TabIndex = 2;
             logoutButton.Text = "Выйти";
             logoutButton.UseVisualStyleBackColor = true;
+            logoutButton.Click += logoutButton_Click;
             // 
             // usernameLabel
             // 

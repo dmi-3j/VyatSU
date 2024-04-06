@@ -32,7 +32,7 @@ namespace App
                 User? user = context.Users.FirstOrDefault(x => x.Username == username);
                 fnameTB.Text = user.FirstName;
                 lNmaeTB.Text = user.LastName;
-                dobTB.Text = user.DateOfBirth.ToString();
+                dobTB.Text = user.DateOfBirth.ToString("dd-MM-yyyy");
                 phoneTB.Text = user.PhoneNumber;
             }
         }
@@ -48,6 +48,18 @@ namespace App
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.MdiParent = MdiParent;
+            Form[] openFormsCopy = Application.OpenForms.Cast<Form>().ToArray();
+            foreach (Form form in openFormsCopy)
+            {
+                if (form.MdiParent == MdiParent) form.Close();
+            }
+            loginForm.Show();
         }
     }
 }
