@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="addInventoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ParentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reloadDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
