@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             linkLabel1 = new LinkLabel();
@@ -52,6 +52,7 @@
             checkBox2 = new CheckBox();
             checkBox3 = new CheckBox();
             backButton = new Button();
+            orderButton = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -176,9 +177,9 @@
             // 
             // actiondel
             // 
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.SelectionBackColor = Color.Red;
-            actiondel.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Red;
+            actiondel.DefaultCellStyle = dataGridViewCellStyle2;
             actiondel.HeaderText = "";
             actiondel.Name = "actiondel";
             actiondel.ReadOnly = true;
@@ -284,11 +285,23 @@
             backButton.UseVisualStyleBackColor = true;
             backButton.Click += backButton_Click;
             // 
+            // orderButton
+            // 
+            orderButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            orderButton.Location = new Point(879, 503);
+            orderButton.Name = "orderButton";
+            orderButton.Size = new Size(163, 64);
+            orderButton.TabIndex = 19;
+            orderButton.Text = "Оформить заказ";
+            orderButton.UseVisualStyleBackColor = true;
+            orderButton.Click += orderButton_Click;
+            // 
             // cart
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(orderButton);
             Controls.Add(backButton);
             Controls.Add(checkBox3);
             Controls.Add(checkBox2);
@@ -340,5 +353,6 @@
         private CheckBox checkBox2;
         private CheckBox checkBox3;
         private Button backButton;
+        private Button orderButton;
     }
 }

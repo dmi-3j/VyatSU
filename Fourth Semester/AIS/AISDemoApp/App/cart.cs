@@ -175,5 +175,22 @@ namespace App
         {
             Close();
         }
+
+        private void orderButton_Click(object sender, EventArgs e)
+        {
+            using (var context = new Context())
+            {
+                User user = context.Users.FirstOrDefault(u => u.Username == username);
+                Cart cart = context.Cart.FirstOrDefault(c => c.User == user);
+                List<CartItem> ci = context.CartItems.Where(c => c.Cart == cart).ToList();
+                if (ci.Count == 0) 
+                {
+                    MessageBox.Show("Ваша корзина пуста. Добавьте инвентарь в корзину, чтобы продолжиьть.");
+                    return;
+                }
+
+            }
+
+        }
     }
 }

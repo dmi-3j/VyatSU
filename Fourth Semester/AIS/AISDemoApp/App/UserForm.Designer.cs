@@ -271,7 +271,7 @@
             // 
             priceTo.Location = new Point(122, 22);
             priceTo.Name = "priceTo";
-            priceTo.PlaceholderText = "Цена от";
+            priceTo.PlaceholderText = "Цена до";
             priceTo.Size = new Size(100, 23);
             priceTo.TabIndex = 1;
             // 
