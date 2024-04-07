@@ -100,6 +100,7 @@
             backButton.TabIndex = 16;
             backButton.Text = "Назад";
             backButton.UseVisualStyleBackColor = true;
+            backButton.Click += backButton_Click;
             // 
             // groupBox1
             // 

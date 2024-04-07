@@ -50,7 +50,7 @@ namespace App
                 int count = context.Orders.Count(o => o.OrderDate >= startDate);
                 decimal totalMoney = context.Orders.Where(o => o.OrderDate >= startDate).Sum(o => o.TotalAmount);
                 decimal avgOrd = Math.Round(context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.TotalAmount), 2);
-                double avgCart = context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.OrderItems.Count());
+                double avgCart = Math.Round(context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.OrderItems.Count()), 2);
                 MessageBox.Show($"Статистика за неделю:\n Количество заказов: {count}\n Общая выручка: {totalMoney}\n Среднее количество товаров в корзине: {avgCart}\n Средний чек: {avgOrd}");
             }
         }
@@ -62,7 +62,7 @@ namespace App
                 int count = context.Orders.Count();
                 decimal totalMoney = context.Orders.Sum(o => o.TotalAmount);
                 decimal avgOrd = Math.Round(context.Orders.Average(o => o.TotalAmount), 2);
-                double avgCart = context.Orders.Average(o => o.OrderItems.Count());
+                double avgCart = Math.Round(context.Orders.Average(o => o.OrderItems.Count()), 2);
                 MessageBox.Show($"Статистика за всё время:\n Количество заказов: {count}\n Общая выручка: {totalMoney}\n Среднее количество товаров в корзине: {avgCart}\n Средний чек: {avgOrd}");
             }
         }
@@ -76,7 +76,7 @@ namespace App
                 int count = context.Orders.Count(o => o.OrderDate >= startDate);
                 decimal totalMoney = context.Orders.Where(o => o.OrderDate >= startDate).Sum(o => o.TotalAmount);
                 decimal avgOrd = Math.Round(context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.TotalAmount), 2);
-                double avgCart = context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.OrderItems.Count());
+                double avgCart = Math.Round(context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.OrderItems.Count()), 2);
                 MessageBox.Show($"Статистика за месяц:\n Количество заказов: {count}\n Общая выручка: {totalMoney}\n Среднее количество товаров в корзине: {avgCart}\n Средний чек: {avgOrd}");
             }
         }
@@ -199,6 +199,11 @@ namespace App
                     MessageBox.Show("Экспорт отменен.");
                 }
             }
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
