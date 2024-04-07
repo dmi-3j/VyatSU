@@ -14,6 +14,8 @@ namespace AISDemoApp
         public DbSet<Inventory> Inventory { get; set; }
         public DbSet<Cart> Cart {  get; set; }
         public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

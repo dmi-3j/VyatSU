@@ -1,4 +1,5 @@
 ﻿using AISDemoApp;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -188,6 +189,34 @@ namespace App
                     MessageBox.Show("Ваша корзина пуста. Добавьте инвентарь в корзину, чтобы продолжиьть.");
                     return;
                 }
+                string services = "";
+                if (checkBox1.Checked) services += "Смазка лыж, ";
+                if (checkBox2.Checked) services += "Горячий чай, ";
+                if (checkBox3.Checked) services += "Страхование жизни ";
+
+                Order order = new Order
+                {
+                    UserId = user.Id,
+                    User = user,
+                    OrderDate = DateTime.Now.Date,
+                    Services = services
+                };
+                foreach (var cartItem in ci)
+                {
+                    OrderItem orderItem = new OrderItem
+                    {
+                        InventoryId = cartItem.InventoryId,
+                        Inventory = cartItem.Inventory
+                    };
+                    order.OrderItems.Add(orderItem);
+                }
+                context.Orders.Add(order);
+                context.CartItems.RemoveRange(context.CartItems.Where(c => c.Cart == cart));
+                context.SaveChanges();
+
+                MessageBox.Show("Ваш заказ успешно оформлен!");
+                InitData();
+
 
             }
 
