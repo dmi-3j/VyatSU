@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  const data = [{
+    id:1,
+    values:[-1, 3, 4, 3, 6, 9],
+  },
+    {
+      id:10,
+      values:[-1, 2, 4, 3, -16, 7],
+    },
+    {
+      id:12,
+      values:[5, -2, 7, -9, 2, 1],
+    },
+    {
+      id:16,
+      values:[-3, 3, 5, -6, -9, 9],
+    },
+    {
+      id:21,
+      values:[0, 9, 4, -7, 1, 2],
+    }];
+  const newData = data.map(item => {
+    const arr = item.values;
+    var sum = 0;
+    for (i = 0; i < arr.length; i++) {
+      sum += arr[i];
+    }
+    const sqrt_avr = Math.sqrt(sum/arr.length)
+    return{item, sqrt_avr};
+  });
+  console.log(newData);
+  console.log("-----");
+  const sqrt_avr_val = newData.map(item => item.sqrt_avr);
+
+  function chkVal(arr, value) {
+      return arr.includes(value);
+  }
+  val = parseInt(prompt("Введите число для проверки:"));
+  console.log("Проверка на наличие значения: " + chkVal(sqrt_avr_val, val));
+  console.log("Проверка на наличие NaN: " + chkVal(sqrt_avr_val, NaN));
+</script>
+</body>
+</html>

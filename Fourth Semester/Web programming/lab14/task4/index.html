@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var n = 10;
+    var s;
+    document.write("<div class='d1'>");
+    document.write("<table>");
+    for (i = 1; i <= n; i++)
+    {
+        document.write("<tr>")
+        for (j = 1; j <= n; j++)
+        {
+            if (j > (n-1) - i) s = "class ='r2'";
+            else s = "class ='r1'";
+            document.write("<td " + s + "></td>");
+        }
+        document.write("</tr>")
+    }
+    document.write("</table>");
+    document.write("<br>")
+    document.write("<table>");
+    for (i = 1; i <= n; i++)
+    {
+        document.write("<tr>")
+        for (j = 1; j <= n; j++)
+        {
+            if (i < j) s = "class ='r2'";
+            else s = "class ='r3'";
+            document.write("<td " + s + "></td>");
+        }
+        document.write("</tr>")
+    }
+    document.write("</table>");
+    document.write("<br>")
+    document.write("<table>");
+    for (i = 1; i <= n; i++)
+    {
+        document.write("<tr>")
+        for (j = 1; j <= n; j++)
+        {
+            if ((j == (n-6) - i) || (j == (n-2) - i) || (j == (n+2) - i) || (j == (n+6) - i) || (j == (n+10) - i)) s = "class ='r5'";
+            else s = "class ='r4'";
+            document.write("<td " + s + "></td>");
+        }
+        document.write("</tr>")
+    }
+    document.write("</table>");
+    document.write("</div>");
+</script>
+</body>
+</html>

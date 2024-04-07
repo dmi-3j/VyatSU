@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация о прививке</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .table {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 50%;
+        }
+
+        .divider {
+            border-top: 2px solid #ccc;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<div class="container">
+    <h2>Информация о прививке</h2>
+    <p><strong>Название прививки:</strong> <span th:text="${vaccine.vaccineName}"></span></p>
+    <p><strong>Страна-производитель:</strong> <span th:text="${vaccine.manufactorCountry}"></span></p>
+    <p><strong>Срок действия:</strong> <span th:text="${vaccine.validPeriod}"></span></p>
+</div>
+<div class="container-fluid">
+    <div class="divider"></div>
+    <h3>Компоненты:</h3>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Название</th>
+            <th>Состав</th>
+            <th>Тип</th>
+            <th>Интервал</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="component : ${vaccine.components}">
+            <td th:text="${component.componentName}"></td>
+            <td th:text="${component.structure}"></td>
+            <td th:text="${component.type}"></td>
+            <td th:text="${component.intervalOfComponent}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <a th:href="${referer}" class="btn btn-secondary btn-back">Назад</a>
+</div>
+</body>
+</html>

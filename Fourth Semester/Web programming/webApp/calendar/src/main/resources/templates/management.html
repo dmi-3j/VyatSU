@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Управление пользователями</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .user-management-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .filter-form {
+            width: 30%;
+            height: 500px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-right: 20px;
+        }
+
+        .table-container {
+            flex: 1;
+            overflow: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+
+<!-- Блок управления пользователями -->
+<div id="userManagementContainer" class="user-management-container">
+    <div class="filter-form">
+        <h3>Фильтр</h3>
+        <form th:action="@{/manage/filterUsers}" method="get">
+            <div class="form-group">
+                <label for="name">Фамилия</label>
+                <input type="text" class="form-control" id="name" name="lastname" placeholder="Фамилия"
+                       th:value="${lastname}">
+            </div>
+            <div class="form-group">
+                <label for="fname">Имя</label>
+                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Имя"
+                       th:value="${firstname}">
+            </div>
+            <div class="form-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона"
+                       th:value="${phone}">
+            </div>
+            <div class="form-group">
+                <label for="usr">Логин:</label>
+                <input type="text" class="form-control" id="usr" name="username" placeholder="Логин"
+                       th:value="${username}">
+            </div>
+            <button type="submit" class="btn btn-primary">Найти</button>
+        </form>
+        <form th:action="@{/manage}">
+            <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
+        </form>
+    </div>
+
+    <div class="table-container">
+        <h3>Пользователи
+            <button id="openAddUserModal" class="btn btn-primary">Добавить пользователя</button>
+        </h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Дата рождения</th>
+                <th>Номер телефона</th>
+                <th>Логин</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.firstname}"></td>
+                <td th:text="${user.lastname}"></td>
+                <td th:text="${user.dateofbirth}"></td>
+                <td th:text="${user.phonenumber}"></td>
+                <td th:text="${user.username}"></td>
+                <td>
+                    <!--                    <a href="#" onclick="openEditModal"@{'/manage/edit/username' + ${user.username}}")" id="openEditModal" th:text="Редактировать" class="text-info"></a>-->
+                    <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>
+                    <!--                                        <a th:href="@{'/manage/edit/' + ${user.username}}" th:text="Редактировать" class="text-info"></a>-->
+                    <a th:if="${user.enabled == true}" th:href="@{'/manage/disable/'  + ${user.username}}"
+                       th:text="'Отключить аккаунт'" class="text-danger" style="margin-left: 15px"></a>
+                    <a th:if="${user.enabled == false}" th:href="@{'/manage/enable/'  + ${user.username}}"
+                       th:text="'Включить аккаунт'" class="text-success" style="margin-left: 15px"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal" id="addUserModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Добавление пользователя</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form th:action="@{/manage/regMedUser}" method="post" th:object="${user}">
+                    <div class="form-group">
+                        <label for="firstname">Имя</label>
+                        <input th:field="*{firstname}" required class="form-control" id="firstname"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Фамилия</label>
+                        <input type="text" required class="form-control" id="lastname" th:field="*{lastname}">
+                    </div>
+                    <!--                    <div class="form-group">-->
+                    <!--                        <label for="dateofbirth">Дата рождения</label>-->
+                    <!--                        <input type="text" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}">-->
+                    <!--                        <div class="error-message text-danger"></div>-->
+                    <!--                    </div>-->
+                    <div class="form-group">
+                        <label for="dateofbirth">Дата рождения</label>
+                        <input type="date" required class="form-control" id="dateofbirth" th:field="*{dateofbirth}"
+                               min="1900-01-01">
+                    </div>
+                    <div class="form-group">
+                        <label for="phonenumber">Номер телефона</label>
+                        <input type="text" required class="form-control" id="phonenumber" th:field="*{phonenumber}">
+                        <div class="error-message text-danger"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Логин</label>
+                        <input type="text" required class="form-control" id="username" th:field="*{username}">
+                        <div class="error-message text-danger"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" required class="form-control" id="password" th:field="*{password}">
+                        <div class="error-message text-danger"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Создать учетную запись</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#toggleUserManagement').click(function () {
+            $('#userManagementContainer').toggleClass('show');
+        });
+
+        $('#openAddUserModal').click(function () {
+            $('#addUserModal').modal('show');
+        });
+    });
+
+    var today = new Date().toISOString().split('T')[0];
+    document.getElementById('dateofbirth').setAttribute('max', today);
+
+    $(document).ready(function () {
+        function updateErrorMessage(element, message) {
+            var errorElement = element.next('.error-message');
+            if (!errorElement.length) {
+                errorElement = $('<div class="error-message text-danger"></div>').insertAfter(element);
+            }
+            errorElement.text(message);
+        }
+
+        function validatePhoneNumber(phoneNumber) {
+            var phoneRegex = /^\+7\d{10}$/; // Формат: +7хххххххххх
+            return phoneRegex.test(phoneNumber);
+        }
+
+        function validatePassword(password) {
+            return password.length >= 6;
+        }
+
+        function clearErrorMessage(element) {
+            element.next('.error-message').remove();
+        }
+
+        $(document).ready(function () {
+            var phoneNumberError = false;
+
+            $('#phonenumber').on('input', function () {
+                var phoneNumber = $(this).val();
+                var isValid = validatePhoneNumber(phoneNumber);
+                if (!isValid) {
+                    phoneNumberError = true;
+                    updateErrorMessage($(this), 'Номер телефона должен быть в формате +7xxxxxxxxxx');
+                } else {
+                    phoneNumberError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function (event) {
+                if (phoneNumberError) {
+                    event.preventDefault();
+                }
+            });
+        });
+        $(document).ready(function () {
+            var passwordError = false;
+
+            $('#password').on('input', function () {
+                var password = $(this).val();
+                var isValid = validatePassword(password);
+                if (!isValid) {
+                    passwordError = true;
+                    updateErrorMessage($(this), 'Пароль должен содержать не менее 6 символов');
+                } else {
+                    passwordError = false;
+                    clearErrorMessage($(this));
+                }
+            });
+
+            $('form').submit(function (event) {
+
+                if (passwordError) {
+                    event.preventDefault();
+                }
+            });
+        });
+        $(document).ready(function () {
+            var usernameError = false;
+
+            $('#username').on('input', function () {
+                var username = $(this).val();
+                $.ajax({
+                    url: '/checkUsernameAvailability?username=' + username,
+                    type: 'GET',
+                    success: function (data) {
+                        if (!data) {
+
+                            usernameError = true;
+                            $('#username').next('.error-message').text('Этот логин уже занят');
+                        } else {
+
+                            usernameError = false;
+                            $('#username').next('.error-message').text('');
+                        }
+                    },
+                    error: function () {
+
+                        usernameError = true;
+                        $('#username').next('.error-message').text('Ошибка проверки доступности логина');
+                    }
+                });
+            });
+
+            $('form').submit(function (event) {
+                if (usernameError) {
+                    event.preventDefault();
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

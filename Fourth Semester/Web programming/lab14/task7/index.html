@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    arr = ["test", 2, 1.5, false];
+    function find(arr, value) {
+        for (i = 0; i < arr.length; i++) {
+            if (arr[i] === value) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    alert(find(arr, 2));
+</script>
+</body>
+</html>

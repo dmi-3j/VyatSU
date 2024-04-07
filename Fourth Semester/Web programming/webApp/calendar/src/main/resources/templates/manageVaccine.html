@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Управление прививками</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .vaccine-management-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .filter-form {
+            width: 30%;
+            height: 500px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-right: 20px;
+        }
+
+        .table-container {
+            flex: 1;
+            overflow: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{navigation :: navi('Home')}"></div>
+<div id="vaccineManagementContainer" class="vaccine-management-container">
+    <div class="filter-form">
+        <h3>Фильтр</h3>
+        <form th:action="@{/manage/vaccine/filterVaccine}" method="get">
+            <div class="form-group">
+                <label for="name">Название</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Название" th:value="${name}">
+            </div>
+            <div class="form-group">
+                <label for="adr">Страна-производитель:</label>
+                <input type="text" class="form-control" id="adr" name="country" placeholder="Страна-производитель"
+                       th:value="${country}">
+            </div>
+            <div class="form-group">
+                <label for="phone">Срок действия:</label>
+                <input type="text" class="form-control" id="phone" name="valid" placeholder="Срок действия:"
+                       th:value="${valid}">
+            </div>
+            <button type="submit" class="btn btn-primary">Найти</button>
+        </form>
+        <form th:action="@{/manage/vaccine}">
+            <button style='margin-top: 10px' type="submit" class="btn btn-danger">Сбросить</button>
+        </form>
+    </div>
+
+    <div class="table-container">
+        <h3>Прививки
+            <form th:action="@{/manage/vaccine/add}" method="get">
+                <button type="submit" class="btn btn-primary">Добавить прививку</button>
+            </form>
+        </h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Название</th>
+                <th>Страна производитель</th>
+                <th>Период действия</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="vaccine : ${vaccines}">
+                <td th:text="${vaccine.vaccineName}"></td>
+                <td th:text="${vaccine.manufactorCountry}"></td>
+                <td th:text="${vaccine.validPeriod}"></td>
+                <td>
+                    <a th:href="@{'/manage/vaccine/info/' + ${vaccine.id}}" th:text="Подробнее" class="text-info"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+</body>
+</html>

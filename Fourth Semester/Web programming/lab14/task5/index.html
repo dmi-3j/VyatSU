@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var users = [{
+        name: "Вася",
+        surname: 'Иванов',
+        age: 20,
+        balance: 0
+    }, {
+        name: "Петя",
+        surname: 'Чапаев',
+        age: 25,
+        balance: 50000
+    }, {
+        name: "Маша",
+        surname: 'Медведева',
+        age: 18,
+        balance: 23036
+    }];
+    function sortByField(arr, field){
+        arr.sort(function (a, b)
+        {
+            if (a[field] > b[field]) {
+                return 1;
+            }
+            if (a[field] < b[field]) {
+                return -1;
+            }
+            return 0;
+        });
+    }
+    sortByField(users, 'balance');
+    for (i = 0; i < users.length; i++) {
+        var user = users[i];
+        var message = "Имя: " + user.name + "\nФамилия: " + user.surname + "\nВозраст: " + user.age + "\nБаланс: " + user.balance;
+        console.log(message);
+    }
+</script>
+</body>
+</html>

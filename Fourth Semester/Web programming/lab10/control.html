@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3 align="center">Анкета пользователя</h3>
+<form>
+    <p>Ответьте, пожалуйста, на вопросы:</p>
+    <table>
+        <tr>
+            <td>Ваша фамилия:</td>
+            <td><INPUT name="name" type="text" size="35"></td>
+        </tr>
+        <tr>
+            <td>Ваше имя:</td>
+            <td><input name="lname" type="text" size="35"></td>
+        </tr>
+        <tr>
+            <td>Ваше отчество:</td>
+            <td><INPUT name="street" type="text" size="35"></td>
+        </tr>
+    </table>
+    <hr>
+    <p>Ваш пол: <br>
+        <input type="radio" name="gender" value="man">Мужчина<br>
+        <input type="radio" name="gender" value="woman">Женщина<br>
+    </p><hr>
+    <p>Семейное положение: <br>
+        <input type="radio" name="sp" value="yes">Женат/замужем<br>
+        <input type="radio" name="sp" value="no">Холост/Не замужем<br><br>
+        Количество детей:<input type="number" min="0" max="99" name="cntchild" size="20">
+    </p><hr>
+    <P>Место жительства:</P>
+    <table>
+        <tr>
+            <td>Страна:</td>
+            <td>
+                <select name="country">
+                    <option value="Russia">Россия</option>
+                    <option value="Belarus">Республика Беларусь</option>
+                    <option value="Kazakhstan">Казахстан</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Другая</td>
+            <td>
+                <input type="text" name="othercont">
+            </td>
+        </tr>
+        <tr>
+            <td>Индекс:</td>
+            <td>
+                <input name="postcode" type="number" max="999999" minlength="6" value="999999">
+            </td>
+        </tr>
+        <tr>
+            <td>Город:</td>
+            <td>
+                <input type="text" name="city" size="35">
+            </td>
+        </tr>
+        <tr>
+            <td>Улица:</td>
+            <td>
+                <input type="text" name="street" size="40">
+            </td>
+        </tr>
+        <tr>
+            <td>Дом</td>
+            <td>
+                <input type="text" name="house" size="3"> Квартира:  <input type="number" name="kvart" maxlength="3" min="0" style="width: 25px">
+            </td>
+        </tr>
+    </table><hr>
+    Электронный адрес: <input type="email" name="mail" style="width: 250px"><hr>
+    Отзыв о заполненной анкете: <br>
+    <textarea name="feedback" rows="6" cols="64">Благодарим за заполнение анкеты! Мы будем рады услышать ваш отзыв.</textarea><br><br>
+    <input type="submit" value="Подача запроса">
+    <input type="reset" value="Сброс">
+</form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const data = [{
+        name: "Alice",
+        code: 5005,
+        home: {roof:"yellow", door:"yellow", wall:"yellow"}
+    },
+        {
+            name: "Bob",
+            code: 5105,
+            home: {roof:"green", door:"grey", wall:"grey"}
+        },
+        {
+            name: "Carol",
+            code: 5015,
+            home: {roof:"yellow", door:"white", wall:"yellow"}
+        },
+        {
+            name: "Dave",
+            code: 5115,
+            home: {roof:"pink", door:"red", wall:"yellow"}
+        }];
+    const userColor = prompt("Введите цвет для удаления:");
+    if (userColor !== null && userColor.trim() !== '') {
+        let found = false;
+        const filterData = data.filter(item => {
+            const  {roof, door, wall} = item.home;
+            if (roof === userColor || door === userColor || wall === userColor) {
+                found = true;
+                return false;
+            }
+            return true;
+        });
+        if (found) {
+            console.log("Объекты были удалены");
+            console.log(filterData);
+        }
+        else {
+           alert("Таких объектов в массиве нет")
+        }
+    }
+    else {
+        alert("Введите цвет для удаления");
+    }
+</script>
+</body>
+</html>

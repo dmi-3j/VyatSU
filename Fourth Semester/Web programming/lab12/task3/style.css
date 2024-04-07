@@ -1,0 +1,106 @@
+body {
+    width: 700px;
+}
+.rectangle {
+    width: 170px;
+    height: 25px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: solid black 1px;
+    vertical-align: top;
+}
+#r1 {
+    margin-left: 100px;
+    background-color: gray;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+}
+.HTML {
+    margin-left: 55px;
+}
+#r2 {
+    background-color: rgb(0, 51,0);
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 2;
+    margin-left: -40px;
+    margin-top: 40px;
+}
+.CSS {
+    margin-left: 62px;
+}
+.JS {
+    margin-left: 35px;
+}
+#r3 {
+    background-color: gray;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 3;
+    margin-left: -30px;
+    margin-top: 70px;
+}
+.back_css {
+    font-weight: bold;
+    color: lightgray;
+    font-size: 220px;
+    font-family: Arial, sans-serif;
+    margin-left: 120px;
+    z-index: 1;
+}
+.main_text {
+    width: 500px;
+    font-size: 20px;
+    margin-top: -250px;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+}
+.sp1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+.sp2 {
+    color: red;
+    font-weight: bold;
+    border-bottom: 4px solid;
+}
+.sp3 {
+    color: red;
+    font-weight: bold;
+    border-bottom: 4px solid;
+}
+.sp4 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.ucss {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    position: relative;
+}
+.ucss::before, .ucss::after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 2px;
+    background: red;
+    left: -20px;
+}
+.ucss::before {
+    top: 30%;
+}
+.ucss::after {
+    top: 60%;
+}
