@@ -34,6 +34,9 @@
             loginTextBox = new TextBox();
             passwoedTextBox = new TextBox();
             loginProcessButton = new Button();
+            label4 = new Label();
+            dblabel = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -95,13 +98,43 @@
             loginProcessButton.UseVisualStyleBackColor = true;
             loginProcessButton.Click += loginProcessButton_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 576);
+            label4.Name = "label4";
+            label4.Size = new Size(128, 15);
+            label4.TabIndex = 6;
+            label4.Text = "Текущая база данных:";
+            // 
+            // dblabel
+            // 
+            dblabel.AutoSize = true;
+            dblabel.Location = new Point(146, 576);
+            dblabel.Name = "dblabel";
+            dblabel.Size = new Size(0, 15);
+            dblabel.TabIndex = 7;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(191, 572);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 8;
+            button1.Text = "Сменить";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1100, 600);
+            ClientSize = new Size(1125, 605);
+            Controls.Add(button1);
+            Controls.Add(dblabel);
+            Controls.Add(label4);
             Controls.Add(loginProcessButton);
             Controls.Add(passwoedTextBox);
             Controls.Add(loginTextBox);
@@ -125,5 +158,8 @@
         private TextBox loginTextBox;
         private TextBox passwoedTextBox;
         private Button loginProcessButton;
+        private Label label4;
+        private Label dblabel;
+        private Button button1;
     }
 }

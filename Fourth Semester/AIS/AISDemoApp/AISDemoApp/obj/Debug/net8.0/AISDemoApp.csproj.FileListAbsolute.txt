@@ -13,3 +13,4 @@ D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\AISDemoApp\obj\Debug\n
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\AISDemoApp\obj\Debug\net8.0\AISDemoApp.pdb
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\AISDemoApp\obj\Debug\net8.0\AISDemoApp.genruntimeconfig.cache
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\AISDemoApp\obj\Debug\net8.0\ref\AISDemoApp.dll
+D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\AISDemoApp\bin\Debug\net8.0\AISDemoApp.dll.config

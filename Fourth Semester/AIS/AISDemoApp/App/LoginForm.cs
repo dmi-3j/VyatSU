@@ -18,12 +18,15 @@ namespace App
         {
             InitializeComponent();
         }
-        private Context  db = new Context();
+        private Context db = new Context();
 
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-           
+            using (var context = new Context())
+            {
+                dblabel.Text = context.Database.GetDbConnection().Database;
+            }
         }
 
         private void loginProcessButton_Click(object sender, EventArgs e)
@@ -37,7 +40,7 @@ namespace App
                     .FirstOrDefault(u => u.Username == username && u.Password == hashPassword);
             if (user != null)
             {
-                if(user.UserRoles.Any(a => a.Role == "USER"))
+                if (user.UserRoles.Any(a => a.Role == "USER"))
                 {
                     UserForm uf = new UserForm(username);
                     uf.MdiParent = this.MdiParent;
@@ -56,6 +59,13 @@ namespace App
             {
                 MessageBox.Show("Неверные учётные данные. Повторите попытку.");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            reloadDB reload = new reloadDB();
+            reload.MdiParent = MdiParent;
+            reload.Show();
         }
     }
 }

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Menu;
 
 namespace App
 {
@@ -194,31 +195,32 @@ namespace App
                 if (checkBox2.Checked) services += "Горячий чай, ";
                 if (checkBox3.Checked) services += "Страхование жизни ";
 
-                Order order = new Order
+                DialogResult result = MessageBox.Show("Оформить заказ?", "Подтверждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
                 {
-                    UserId = user.Id,
-                    User = user,
-                    OrderDate = DateTime.Now.Date,
-                    Services = services,
-                    TotalAmount = total
-                };
-                foreach (var cartItem in ci)
-                {
-                    OrderItem orderItem = new OrderItem
+                    Order order = new Order
                     {
-                        InventoryId = cartItem.InventoryId,
-                        Inventory = cartItem.Inventory
+                        UserId = user.Id,
+                        User = user,
+                        OrderDate = DateTime.Now.Date,
+                        Services = services,
+                        TotalAmount = total
                     };
-                    order.OrderItems.Add(orderItem);
+                    foreach (var cartItem in ci)
+                    {
+                        OrderItem orderItem = new OrderItem
+                        {
+                            InventoryId = cartItem.InventoryId,
+                            Inventory = cartItem.Inventory
+                        };
+                        order.OrderItems.Add(orderItem);
+                    }
+                    context.Orders.Add(order);
+                    context.CartItems.RemoveRange(context.CartItems.Where(c => c.Cart == cart));
+                    context.SaveChanges();
+                    MessageBox.Show("Ваш заказ успешно оформлен!");
+                    InitData();
                 }
-                context.Orders.Add(order);
-                context.CartItems.RemoveRange(context.CartItems.Where(c => c.Cart == cart));
-                context.SaveChanges();
-
-                MessageBox.Show("Ваш заказ успешно оформлен!");
-                InitData();
-
-
             }
 
         }

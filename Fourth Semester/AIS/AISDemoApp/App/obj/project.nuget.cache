@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZLKYTBzf05qr1a9s1YGPr2NTcI2CxTbx+5TVZAmd/omfjcoTixDBD/JvAITTWqvTDnaeHdoWthEy6vguG2yXqg==",
+  "dgSpecHash": "CvnhEE6MFIS0I2F+uQKpEKjAqJrihio/jzNBkjYUxdqxMevEQcDQOYtBSMLguH0od6kaAtvHqzek1D8i6p9TZw==",
   "success": true,
   "projectFilePath": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\App\\App.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.3\\microsoft.entityframeworkcore.tools.8.0.3.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\dmitry\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

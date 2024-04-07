@@ -11,6 +11,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.Design": "8.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2"
         },
         "runtime": {
@@ -330,6 +332,18 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
@@ -668,6 +682,13 @@
       "sha512": "sha512-7pqivmrZDzo1ADPkRwjy+8jtRKWRCPag9qPI+p7sgu7Q4QreWhcvbiWXsbhP+yY8XSiDvZpu2/LWdBv7PnmOpQ==",
       "path": "microsoft.extensions.caching.memory/8.0.0",
       "hashPath": "microsoft.extensions.caching.memory.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
+      "path": "microsoft.extensions.configuration/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "type": "package",
