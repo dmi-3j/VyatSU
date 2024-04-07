@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             panel1 = new Panel();
             linkLabel1 = new LinkLabel();
             logoutButton = new Button();
@@ -47,6 +47,7 @@
             actionRed = new DataGridViewButtonColumn();
             actionDel = new DataGridViewButtonColumn();
             clearButton = new Button();
+            statButton = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -111,7 +112,7 @@
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            textBox1.Location = new Point(44, 73);
+            textBox1.Location = new Point(48, 72);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Название инвентаря";
             textBox1.Size = new Size(319, 29);
@@ -187,9 +188,9 @@
             // 
             // actionRed
             // 
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.SelectionBackColor = Color.Green;
-            actionRed.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Green;
+            actionRed.DefaultCellStyle = dataGridViewCellStyle1;
             actionRed.HeaderText = "";
             actionRed.Name = "actionRed";
             actionRed.ReadOnly = true;
@@ -198,10 +199,10 @@
             // 
             // actionDel
             // 
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.ForeColor = Color.Red;
-            dataGridViewCellStyle4.SelectionBackColor = Color.Red;
-            actionDel.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.ForeColor = Color.Red;
+            dataGridViewCellStyle2.SelectionBackColor = Color.Red;
+            actionDel.DefaultCellStyle = dataGridViewCellStyle2;
             actionDel.HeaderText = "";
             actionDel.Name = "actionDel";
             actionDel.ReadOnly = true;
@@ -218,11 +219,22 @@
             clearButton.UseVisualStyleBackColor = true;
             clearButton.Click += clearButton_Click;
             // 
+            // statButton
+            // 
+            statButton.Location = new Point(48, 527);
+            statButton.Name = "statButton";
+            statButton.Size = new Size(109, 36);
+            statButton.TabIndex = 7;
+            statButton.Text = "Статистика";
+            statButton.UseVisualStyleBackColor = true;
+            statButton.Click += statButton_Click;
+            // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(statButton);
             Controls.Add(clearButton);
             Controls.Add(dataGridView1);
             Controls.Add(button2);
@@ -259,5 +271,6 @@
         private DataGridViewButtonColumn actionDel;
         private LinkLabel linkLabel1;
         private Button clearButton;
+        private Button statButton;
     }
 }

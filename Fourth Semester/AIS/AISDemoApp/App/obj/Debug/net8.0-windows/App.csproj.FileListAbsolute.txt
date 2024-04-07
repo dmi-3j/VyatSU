@@ -108,3 +108,4 @@ D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-w
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.editForm.resources
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.profile.resources
 D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.cart.resources
+D:\Documents\GitHub\VyatSu\Fourth Semester\AIS\AISDemoApp\App\obj\Debug\net8.0-windows\App.stats.resources

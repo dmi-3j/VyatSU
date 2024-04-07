@@ -18,7 +18,7 @@ namespace AISDemoApp
         public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
         public string Services { get; set; }
-        
+        public decimal TotalAmount { get; set; }
 
     }
 }

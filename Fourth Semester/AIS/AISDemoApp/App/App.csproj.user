@@ -22,6 +22,9 @@
     <Compile Update="profile.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UserForm.cs">
       <SubType>Form</SubType>
     </Compile>

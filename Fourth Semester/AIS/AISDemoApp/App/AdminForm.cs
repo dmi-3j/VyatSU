@@ -149,5 +149,12 @@ namespace App
             textBox1.Text = "";
             InitTable();
         }
+
+        private void statButton_Click(object sender, EventArgs e)
+        {
+            stats stats = new stats(username);
+            stats.MdiParent = MdiParent;
+            stats.Show();
+        }
     }
 }

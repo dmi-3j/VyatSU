@@ -199,7 +199,8 @@ namespace App
                     UserId = user.Id,
                     User = user,
                     OrderDate = DateTime.Now.Date,
-                    Services = services
+                    Services = services,
+                    TotalAmount = total
                 };
                 foreach (var cartItem in ci)
                 {
