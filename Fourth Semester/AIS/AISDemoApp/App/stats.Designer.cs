@@ -37,8 +37,13 @@
             statsall = new Button();
             statsmonth = new Button();
             stasweek = new Button();
+            groupBox2 = new GroupBox();
+            exportMonth = new Button();
+            exportWeek = new Button();
+            exportDay = new Button();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -107,7 +112,7 @@
             groupBox1.Size = new Size(503, 145);
             groupBox1.TabIndex = 17;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Статистика";
+            groupBox1.Text = "Статистика заказов";
             // 
             // statsall
             // 
@@ -139,11 +144,55 @@
             stasweek.UseVisualStyleBackColor = true;
             stasweek.Click += stasweek_Click;
             // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(exportMonth);
+            groupBox2.Controls.Add(exportWeek);
+            groupBox2.Controls.Add(exportDay);
+            groupBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            groupBox2.Location = new Point(56, 288);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(503, 143);
+            groupBox2.TabIndex = 18;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Экспорт данных о заказах";
+            // 
+            // exportMonth
+            // 
+            exportMonth.Location = new Point(316, 80);
+            exportMonth.Name = "exportMonth";
+            exportMonth.Size = new Size(127, 32);
+            exportMonth.TabIndex = 2;
+            exportMonth.Text = "За месяц";
+            exportMonth.UseVisualStyleBackColor = true;
+            exportMonth.Click += exportMonth_Click;
+            // 
+            // exportWeek
+            // 
+            exportWeek.Location = new Point(169, 80);
+            exportWeek.Name = "exportWeek";
+            exportWeek.Size = new Size(127, 32);
+            exportWeek.TabIndex = 1;
+            exportWeek.Text = "За неделю";
+            exportWeek.UseVisualStyleBackColor = true;
+            exportWeek.Click += exportWeek_Click;
+            // 
+            // exportDay
+            // 
+            exportDay.Location = new Point(15, 80);
+            exportDay.Name = "exportDay";
+            exportDay.Size = new Size(127, 32);
+            exportDay.TabIndex = 0;
+            exportDay.Text = "За сегодня";
+            exportDay.UseVisualStyleBackColor = true;
+            exportDay.Click += exportDay_Click;
+            // 
             // stats
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(backButton);
             Controls.Add(panel1);
@@ -154,6 +203,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             groupBox1.ResumeLayout(false);
+            groupBox2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -168,5 +218,9 @@
         private Button stasweek;
         private Button statsall;
         private Button statsmonth;
+        private GroupBox groupBox2;
+        private Button exportMonth;
+        private Button exportWeek;
+        private Button exportDay;
     }
 }

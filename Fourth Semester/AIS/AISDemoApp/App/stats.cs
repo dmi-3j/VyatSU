@@ -1,4 +1,5 @@
 ﻿using AISDemoApp;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -77,6 +78,126 @@ namespace App
                 decimal avgOrd = Math.Round(context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.TotalAmount), 2);
                 double avgCart = context.Orders.Where(o => o.OrderDate >= startDate).Average(o => o.OrderItems.Count());
                 MessageBox.Show($"Статистика за месяц:\n Количество заказов: {count}\n Общая выручка: {totalMoney}\n Среднее количество товаров в корзине: {avgCart}\n Средний чек: {avgOrd}");
+            }
+        }
+
+        private void exportDay_Click(object sender, EventArgs e)
+        {
+            using (var context = new Context())
+            {
+                var orders = context.Orders
+                                   .Include(o => o.User)
+                                   .Include(o => o.OrderItems)
+                                       .ThenInclude(oi => oi.Inventory)
+                                   .Where(o => o.OrderDate.Date == DateTime.Now.Date)
+                                   .ToList();
+
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+                saveFileDialog.FilterIndex = 1;
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = saveFileDialog.FileName;
+                    string csvContent = "OrderID, Order Date, Customer Name, Phone, Inventory Name, Services, Total Amount\n";
+                    foreach (var order in orders)
+                    {
+                        string customerName = $"{order.User.LastName} {order.User.FirstName}";
+
+                        foreach (var orderItem in order.OrderItems)
+                        {
+                            csvContent += $"{order.Id}, {order.OrderDate.Date}, {customerName}, {order.User.PhoneNumber}, {orderItem.Inventory.InventoryName}, {order.Services}, {order.TotalAmount}\n";
+                        }
+                    }
+                    File.WriteAllText(filePath, csvContent);
+                    MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
+                }
+                else
+                {
+                    MessageBox.Show("Экспорт отменен.");
+                }
+            }
+
+        }
+
+        private void exportWeek_Click(object sender, EventArgs e)
+        {
+            using (var context = new Context())
+            {
+                DateTime startDate = DateTime.Today.AddDays(-6).Date;
+                var orders = context.Orders
+                                   .Include(o => o.User)
+                                   .Include(o => o.OrderItems)
+                                       .ThenInclude(oi => oi.Inventory)
+                                   .Where(o => o.OrderDate.Date >= startDate)
+                                   .ToList();
+
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+                saveFileDialog.FilterIndex = 1;
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = saveFileDialog.FileName;
+                    string csvContent = "OrderID, Order Date, Customer Name, Phone, Inventory Name, Services, Total Amount\n";
+                    foreach (var order in orders)
+                    {
+                        string customerName = $"{order.User.LastName} {order.User.FirstName}";
+
+                        foreach (var orderItem in order.OrderItems)
+                        {
+                            csvContent += $"{order.Id}, {order.OrderDate.Date}, {customerName}, {order.User.PhoneNumber}, {orderItem.Inventory.InventoryName}, {order.Services}, {order.TotalAmount}\n";
+                        }
+                    }
+                    File.WriteAllText(filePath, csvContent);
+                    MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
+                }
+                else
+                {
+                    MessageBox.Show("Экспорт отменен.");
+                }
+            }
+        }
+
+        private void exportMonth_Click(object sender, EventArgs e)
+        {
+            using (var context = new Context())
+            {
+                DateTime startDate = DateTime.Today.AddMonths(-1).Date;
+                var orders = context.Orders
+                                   .Include(o => o.User)
+                                   .Include(o => o.OrderItems)
+                                       .ThenInclude(oi => oi.Inventory)
+                                   .Where(o => o.OrderDate.Date >= startDate)
+                                   .ToList();
+
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+                saveFileDialog.FilterIndex = 1;
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = saveFileDialog.FileName;
+                    string csvContent = "OrderID, Order Date, Customer Name, Phone, Inventory Name, Services, Total Amount\n";
+                    foreach (var order in orders)
+                    {
+                        string customerName = $"{order.User.LastName} {order.User.FirstName}";
+
+                        foreach (var orderItem in order.OrderItems)
+                        {
+                            csvContent += $"{order.Id}, {order.OrderDate.Date}, {customerName}, {order.User.PhoneNumber}, {orderItem.Inventory.InventoryName}, {order.Services}, {order.TotalAmount}\n";
+                        }
+                    }
+                    File.WriteAllText(filePath, csvContent);
+                    MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
+                }
+                else
+                {
+                    MessageBox.Show("Экспорт отменен.");
+                }
             }
         }
     }
