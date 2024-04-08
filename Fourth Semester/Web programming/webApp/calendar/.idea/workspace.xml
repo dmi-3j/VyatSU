@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="" />
+    <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.projects.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MedUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MedUserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,15 +40,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "AISDemoApp",
+    "Spring Boot.CalendarApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/GitHub/web-health_diary",
+    "last_opened_file_path": "D:/Documents/GitHub/VyatSu/Fourth Semester/Web programming/webApp/calendar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -70,6 +83,7 @@
       <updated>1710787507362</updated>
       <workItem from="1710787512072" duration="621000" />
       <workItem from="1712353258980" duration="67000" />
+      <workItem from="1712606977110" duration="1458000" />
     </task>
     <servers />
   </component>

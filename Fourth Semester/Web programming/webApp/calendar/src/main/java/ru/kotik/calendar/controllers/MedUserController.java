@@ -122,7 +122,7 @@ public class MedUserController {
                                   @PathVariable(value = "id") String id,
                                   HttpServletRequest request) {
         int parseId = parseId(id);
-        if (parseId == 1) {
+        if (parseId == -1) {
             return "error/404";
         }
         Vaccination vaccination = vaccinationService.getById(parseId);
