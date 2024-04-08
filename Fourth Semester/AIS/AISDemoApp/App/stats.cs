@@ -205,5 +205,10 @@ namespace App
         {
             Close();
         }
+
+        private void stats_Load(object sender, EventArgs e)
+        {
+            usernameLabel.Text = username;
+        }
     }
 }

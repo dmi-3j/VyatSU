@@ -201,6 +201,7 @@
             Name = "stats";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "stats";
+            Load += stats_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             groupBox1.ResumeLayout(false);
