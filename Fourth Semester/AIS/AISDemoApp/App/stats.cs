@@ -88,7 +88,7 @@ namespace App
                                    .Include(o => o.User)
                                    .Include(o => o.OrderItems)
                                        .ThenInclude(oi => oi.Inventory)
-                                   .Where(o => o.OrderDate.Date == DateTime.Now.Date).OrderByDescending(o => o.OrderDate)
+                                   .Where(o => o.OrderDate.Date == DateTime.Now.Date)
                                    .ToList();
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();

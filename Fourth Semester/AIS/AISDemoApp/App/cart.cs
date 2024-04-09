@@ -222,6 +222,9 @@ namespace App
                     context.CartItems.RemoveRange(context.CartItems.Where(c => c.Cart == cart));
                     context.SaveChanges();
                     MessageBox.Show("Ваш заказ успешно оформлен!");
+                    checkBox1.Checked = false;
+                    checkBox2.Checked = false;
+                    checkBox3.Checked = false;
                     InitData();
                 }
             }
