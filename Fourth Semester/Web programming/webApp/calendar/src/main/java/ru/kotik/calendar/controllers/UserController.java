@@ -132,16 +132,17 @@ public class UserController {
         return "mainuserpage";
     }
     @GetMapping("/user/filterVaccination")
-    public String filterVaccination(@RequestParam("usr") String username,
-                                    @RequestParam("seria") String seria,
+    public String filterVaccination(@RequestParam("seria") String seria,
                                     @RequestParam("vcc") String vaccineName,
-                                    Model model) {
-        User user = userService.getUserByUserName(username);
+                                    Model model,
+                                    Principal principal) {
+        String u = principal.getName();
+        User user = userService.getUserByUserName(u);
         model.addAttribute("user", user);
         List<Vaccination> vaccinations = vaccinationService.getVaccinationsByUser(user, seria, vaccineName);
         model.addAttribute("vaccinations", vaccinations);
         model.addAttribute("vaccination", new Vaccination());
-        model.addAttribute("username", username);
+        model.addAttribute("username", u);
         model.addAttribute("seria", seria);
         model.addAttribute("vaccineName", vaccineName);
 

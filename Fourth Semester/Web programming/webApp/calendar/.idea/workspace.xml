@@ -6,36 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="update controller (fix first vaccination)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mainuserpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mainuserpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Vaccine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Vaccine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/VaccineComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/VaccineComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/OrganizationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/OrganizationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/VaccineComponentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/VaccineComponentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/VaccineRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/VaccineRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedOrgSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedOrgSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/VaccineSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/VaccineSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/addNewVaccineWithComponents.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addNewVaccineWithComponents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/editMedOrg.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editMedOrg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,31 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CalendarApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/GitHub/VyatSu/Fourth Semester/Web programming/webApp/calendar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CalendarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/VyatSu/Fourth Semester/Web programming/webApp/calendar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CalendarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="calendar" />
@@ -113,6 +86,7 @@
       <workItem from="1710787512072" duration="621000" />
       <workItem from="1712353258980" duration="67000" />
       <workItem from="1712606977110" duration="2455000" />
+      <workItem from="1712685240199" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="update controller (fix first vaccination)">
       <option name="closed" value="true" />
