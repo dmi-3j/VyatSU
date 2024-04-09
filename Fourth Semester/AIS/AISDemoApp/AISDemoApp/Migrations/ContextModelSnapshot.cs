@@ -97,6 +97,10 @@ namespace AISDemoApp.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("date");
 
+                    b.Property<string>("RentDuaration")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Services")
                         .IsRequired()
                         .HasColumnType("text");

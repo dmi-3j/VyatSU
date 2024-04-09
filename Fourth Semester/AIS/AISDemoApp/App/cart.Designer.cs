@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             linkLabel1 = new LinkLabel();
@@ -53,6 +53,8 @@
             checkBox3 = new CheckBox();
             backButton = new Button();
             orderButton = new Button();
+            comboBox1 = new ComboBox();
+            label7 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -177,9 +179,9 @@
             // 
             // actiondel
             // 
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.SelectionBackColor = Color.Red;
-            actiondel.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.SelectionBackColor = Color.Red;
+            actiondel.DefaultCellStyle = dataGridViewCellStyle1;
             actiondel.HeaderText = "";
             actiondel.Name = "actiondel";
             actiondel.ReadOnly = true;
@@ -190,7 +192,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(45, 448);
+            label2.Location = new Point(570, 451);
             label2.Name = "label2";
             label2.Size = new Size(67, 25);
             label2.TabIndex = 9;
@@ -200,7 +202,7 @@
             // 
             labelTotal.AutoSize = true;
             labelTotal.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            labelTotal.Location = new Point(137, 448);
+            labelTotal.Location = new Point(662, 451);
             labelTotal.Name = "labelTotal";
             labelTotal.Size = new Size(0, 25);
             labelTotal.TabIndex = 10;
@@ -296,11 +298,34 @@
             orderButton.UseVisualStyleBackColor = true;
             orderButton.Click += orderButton_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "1 час", "2 часа", "3 часа" });
+            comboBox1.Location = new Point(269, 453);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(95, 23);
+            comboBox1.TabIndex = 20;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label7.Location = new Point(45, 451);
+            label7.Name = "label7";
+            label7.Size = new Size(218, 21);
+            label7.TabIndex = 21;
+            label7.Text = "Продолжительность аренды:";
+            // 
             // cart
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1125, 605);
+            Controls.Add(label7);
+            Controls.Add(comboBox1);
             Controls.Add(orderButton);
             Controls.Add(backButton);
             Controls.Add(checkBox3);
@@ -354,5 +379,7 @@
         private CheckBox checkBox3;
         private Button backButton;
         private Button orderButton;
+        private ComboBox comboBox1;
+        private Label label7;
     }
 }

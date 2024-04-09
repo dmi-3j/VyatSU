@@ -26,7 +26,6 @@ namespace App
         {
             profile p = new profile(username);
             p.MdiParent = MdiParent;
-            //Close();
             p.Show();
         }
 
@@ -89,7 +88,7 @@ namespace App
                                    .Include(o => o.User)
                                    .Include(o => o.OrderItems)
                                        .ThenInclude(oi => oi.Inventory)
-                                   .Where(o => o.OrderDate.Date == DateTime.Now.Date)
+                                   .Where(o => o.OrderDate.Date == DateTime.Now.Date).OrderByDescending(o => o.OrderDate)
                                    .ToList();
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
@@ -109,7 +108,7 @@ namespace App
                         {
                             csvContent += $"{orderItem.Inventory.InventoryName}\n";
                         }
-                        csvContent += $"Services: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
+                        csvContent += $"Rent Duration: {order.RentDuaration}\nServices: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
                     File.WriteAllText(filePath, csvContent);
                     MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
@@ -131,7 +130,7 @@ namespace App
                                    .Include(o => o.User)
                                    .Include(o => o.OrderItems)
                                        .ThenInclude(oi => oi.Inventory)
-                                   .Where(o => o.OrderDate.Date >= startDate)
+                                   .Where(o => o.OrderDate.Date >= startDate).OrderByDescending(o => o.OrderDate)
                                    .ToList();
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
@@ -151,7 +150,7 @@ namespace App
                         {
                             csvContent += $"{orderItem.Inventory.InventoryName}\n";
                         }
-                        csvContent += $"Services: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
+                        csvContent += $"Rent Duration: {order.RentDuaration}\nServices: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
                     File.WriteAllText(filePath, csvContent);
                     MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
@@ -172,7 +171,7 @@ namespace App
                                    .Include(o => o.User)
                                    .Include(o => o.OrderItems)
                                        .ThenInclude(oi => oi.Inventory)
-                                   .Where(o => o.OrderDate.Date >= startDate)
+                                   .Where(o => o.OrderDate.Date >= startDate).OrderByDescending(o => o.OrderDate)
                                    .ToList();
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
@@ -192,7 +191,7 @@ namespace App
                         {
                             csvContent += $"{orderItem.Inventory.InventoryName}\n";
                         }
-                        csvContent += $"Services: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
+                        csvContent += $"Rent Duration: {order.RentDuaration}\nServices: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
                     File.WriteAllText(filePath, csvContent);
                     MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");

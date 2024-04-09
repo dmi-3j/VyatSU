@@ -25,6 +25,7 @@ namespace App
         private void cart_Load(object sender, EventArgs e)
         {
             usernameLabel.Text = username;
+            comboBox1.SelectedIndex = 0;
             InitData();
         }
         private void InitData()
@@ -50,9 +51,12 @@ namespace App
                     total += item.RentPrice;
                     dataGridView1.Rows.Add(item.Id, item.InventoryName, item.InventoryType, item.Size, item.RentPrice);
                 }
+                if (comboBox1.SelectedIndex == 1) total *= 2;
+                if (comboBox1.SelectedIndex == 2) total *= 3;
+                if (checkBox1.Checked) total += 150;
+                if (checkBox2.Checked) total += 100;
+                if (checkBox3.Checked) total += 500;
                 labelTotal.Text = total.ToString() + "р";
-
-
 
             }
         }
@@ -156,9 +160,7 @@ namespace App
                             context.CartItems.Remove(cartItem);
                             context.SaveChanges();
                             InitData();
-                            if (checkBox1.Checked) total += 150;
-                            if (checkBox2.Checked) total += 100;
-                            if (checkBox3.Checked) total += 500;
+                           
                             labelTotal.Text = total.ToString() + "р";
                         }
                     }
@@ -185,7 +187,7 @@ namespace App
                 User user = context.Users.FirstOrDefault(u => u.Username == username);
                 Cart cart = context.Cart.FirstOrDefault(c => c.User == user);
                 List<CartItem> ci = context.CartItems.Where(c => c.Cart == cart).ToList();
-                if (ci.Count == 0) 
+                if (ci.Count == 0)
                 {
                     MessageBox.Show("Ваша корзина пуста. Добавьте инвентарь в корзину, чтобы продолжиьть.");
                     return;
@@ -204,6 +206,7 @@ namespace App
                         User = user,
                         OrderDate = DateTime.Now.Date,
                         Services = services,
+                        RentDuaration = comboBox1.SelectedItem.ToString(),
                         TotalAmount = total
                     };
                     foreach (var cartItem in ci)
@@ -223,6 +226,11 @@ namespace App
                 }
             }
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            InitData();
         }
     }
 }
