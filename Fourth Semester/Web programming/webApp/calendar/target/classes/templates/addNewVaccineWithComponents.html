@@ -11,69 +11,82 @@
 <body>
 <div th:replace="~{navigation :: navi('Home')}"></div>
 
-<div class="container mt-5">
+<div class="container mt-5" style="margin-left: 0;">
     <h2>Добавление прививки</h2>
-    <form th:action="@{/manage/vaccine/add}" method="post" th:object="${vaccine}">
+    <form id="vaccineForm" th:action="@{/manage/vaccine/add}" method="post" th:object="${vaccine}"
+          style="margin-left: 0;">
         <div class="form-group">
             <label for="vaccineName">Название прививки:</label>
-            <input type="text" class="form-control" id="vaccineName" name="vaccineName" th:field="*{vaccineName}">
+            <input type="text" required class="form-control" id="vaccineName" name="vaccineName"
+                   th:field="*{vaccineName}">
         </div>
         <div class="form-group">
             <label for="manufactorCountry">Страна-производитель:</label>
-            <input type="text" class="form-control" id="manufactorCountry" name="manufactorCountry" th:field="*{manufactorCountry}">
+            <input type="text" required class="form-control" id="manufactorCountry" name="manufactorCountry"
+                   th:field="*{manufactorCountry}">
         </div>
         <div class="form-group">
             <label for="validPeriod">Срок годности:</label>
-            <input type="text" class="form-control" id="validPeriod" name="validPeriod" th:field="*{validPeriod}">
+            <input type="text" required class="form-control" id="validPeriod" name="validPeriod"
+                   th:field="*{validPeriod}">
         </div>
 
-        <hr> <!-- Разделитель между прививкой и компонентами -->
+        <hr>
 
         <h3>Компоненты прививки:</h3>
-        <!-- Добавление компонентов -->
         <div id="components">
-            <!-- Здесь будут добавлены компоненты динамически -->
         </div>
-        <button type="button" class="btn btn-primary" id="addComponentBtn">Добавить компонент</button>
+        <button type="button" class="btn btn-primary mt-3" id="addComponentBtn">Добавить компонент</button>
 
-        <!-- Область для отображения введенных компонентов -->
-        <div id="displayComponents">
-            <h4>Добавленные компоненты:</h4>
-            <!-- Здесь будут отображаться добавленные компоненты -->
-        </div>
 
         <button type="submit" class="btn btn-success mt-3">Сохранить</button>
+        <p id="error-message" style="color: red; margin-top: 10px; display: none;">Добавьте хотя бы один компонент</p>
+
     </form>
+    <a th:href="${referer}" class="btn btn-secondary btn-back" style="margin-top: 20px">Назад</a>
 </div>
 
 <script th:inline="javascript">
-    /* Добавление динамических полей для компонентов */
+
     $(document).ready(function () {
         var componentIndex = 0;
 
         $("#addComponentBtn").click(function () {
             var componentHtml = '<div class="component" id="component-' + componentIndex + '">' +
+                '<h4>Компонент ' + (componentIndex + 1) + '</h4>' +
                 '<div class="form-group">' +
                 '<label for="components[' + componentIndex + '].componentName">Название компонента:</label>' +
-                '<input type="text" class="form-control" id="components[' + componentIndex + '].componentName" name="components[' + componentIndex + '].componentName">' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].componentName" name="components[' + componentIndex + '].componentName">' +
                 '</div>' +
                 '<div class="form-group">' +
-                '<label for="components[' + componentIndex + '].structure">Структура:</label>' +
-                '<input type="text" class="form-control" id="components[' + componentIndex + '].structure" name="components[' + componentIndex + '].structure">' +
+                '<label for="components[' + componentIndex + '].structure">Состав:</label>' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].structure" name="components[' + componentIndex + '].structure">' +
                 '</div>' +
                 '<div class="form-group">' +
                 '<label for="components[' + componentIndex + '].type">Тип:</label>' +
-                '<input type="text" class="form-control" id="components[' + componentIndex + '].type" name="components[' + componentIndex + '].type">' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].type" name="components[' + componentIndex + '].type">' +
                 '</div>' +
                 '<div class="form-group">' +
                 '<label for="components[' + componentIndex + '].intervalOfComponent">Интервал компонента:</label>' +
-                '<input type="text" class="form-control" id="components[' + componentIndex + '].intervalOfComponent" name="components[' + componentIndex + '].intervalOfComponent">' +
+                '<input type="text" required class="form-control" id="components[' + componentIndex + '].intervalOfComponent" name="components[' + componentIndex + '].intervalOfComponent">' +
                 '</div>' +
-                '</div>';
+                '</div>' +
+                '<hr>';
 
             $("#components").append(componentHtml);
 
+            if (componentIndex === 0) {
+                $("#addComponentBtn").text("Добавить еще компонент");
+            }
+
             componentIndex++;
+        });
+
+        $("#vaccineForm").submit(function () {
+            if (componentIndex === 0) {
+                $("#error-message").show();
+                return false;
+            }
         });
     });
 </script>

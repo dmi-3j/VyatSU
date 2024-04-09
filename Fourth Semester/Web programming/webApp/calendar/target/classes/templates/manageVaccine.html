@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: row;
         }
+
         .filter-form {
             width: 30%;
             height: 500px;
@@ -19,6 +20,7 @@
             padding: 10px;
             margin-right: 20px;
         }
+
         .table-container {
             flex: 1;
             overflow: auto;
@@ -26,10 +28,12 @@
             padding: 10px;
             height: 500px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -49,11 +53,13 @@
             </div>
             <div class="form-group">
                 <label for="adr">Страна-производитель:</label>
-                <input type="text" class="form-control" id="adr" name="country" placeholder="Страна-производитель" th:value="${country}">
+                <input type="text" class="form-control" id="adr" name="country" placeholder="Страна-производитель"
+                       th:value="${country}">
             </div>
             <div class="form-group">
                 <label for="phone">Срок действия:</label>
-                <input type="text" class="form-control" id="phone" name="valid" placeholder="Срок действия:" th:value="${valid}">
+                <input type="text" class="form-control" id="phone" name="valid" placeholder="Срок действия:"
+                       th:value="${valid}">
             </div>
             <button type="submit" class="btn btn-primary">Найти</button>
         </form>
@@ -63,9 +69,10 @@
     </div>
 
     <div class="table-container">
-        <h3>Прививки  <form th:action="@{/manage/vaccine/add}" method="get">
-            <button type="submit" class="btn btn-primary">Добавить прививку</button>
-        </form>
+        <h3>Прививки
+            <form th:action="@{/manage/vaccine/add}" method="get">
+                <button type="submit" class="btn btn-primary">Добавить прививку</button>
+            </form>
         </h3>
         <table>
             <thead>

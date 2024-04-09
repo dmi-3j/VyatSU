@@ -100,15 +100,16 @@ namespace App
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     string filePath = saveFileDialog.FileName;
-                    string csvContent = "OrderID, Order Date, Customer Name, Phone, Inventory Name, Services, Total Amount\n";
+                    string csvContent = "";
                     foreach (var order in orders)
                     {
                         string customerName = $"{order.User.LastName} {order.User.FirstName}";
-
+                        csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name:\n";
                         foreach (var orderItem in order.OrderItems)
                         {
-                            csvContent += $"{order.Id}, {order.OrderDate.Date}, {customerName}, {order.User.PhoneNumber}, {orderItem.Inventory.InventoryName}, {order.Services}, {order.TotalAmount}\n";
+                            csvContent += $"{orderItem.Inventory.InventoryName}\n";
                         }
+                        csvContent += $"Services: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
                     File.WriteAllText(filePath, csvContent);
                     MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
@@ -141,15 +142,16 @@ namespace App
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     string filePath = saveFileDialog.FileName;
-                    string csvContent = "OrderID, Order Date, Customer Name, Phone, Inventory Name, Services, Total Amount\n";
+                    string csvContent = "";
                     foreach (var order in orders)
                     {
                         string customerName = $"{order.User.LastName} {order.User.FirstName}";
-
+                        csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name:\n";
                         foreach (var orderItem in order.OrderItems)
                         {
-                            csvContent += $"{order.Id}, {order.OrderDate.Date}, {customerName}, {order.User.PhoneNumber}, {orderItem.Inventory.InventoryName}, {order.Services}, {order.TotalAmount}\n";
+                            csvContent += $"{orderItem.Inventory.InventoryName}\n";
                         }
+                        csvContent += $"Services: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
                     File.WriteAllText(filePath, csvContent);
                     MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");
@@ -181,15 +183,16 @@ namespace App
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     string filePath = saveFileDialog.FileName;
-                    string csvContent = "OrderID, Order Date, Customer Name, Phone, Inventory Name, Services, Total Amount\n";
+                    string csvContent = "";
                     foreach (var order in orders)
                     {
                         string customerName = $"{order.User.LastName} {order.User.FirstName}";
-
+                        csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name:\n";
                         foreach (var orderItem in order.OrderItems)
                         {
-                            csvContent += $"{order.Id}, {order.OrderDate.Date}, {customerName}, {order.User.PhoneNumber}, {orderItem.Inventory.InventoryName}, {order.Services}, {order.TotalAmount}\n";
+                            csvContent += $"{orderItem.Inventory.InventoryName}\n";
                         }
+                        csvContent += $"Services: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
                     File.WriteAllText(filePath, csvContent);
                     MessageBox.Show($"Данные успешно экспортированы в файл: {filePath}");

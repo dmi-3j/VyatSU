@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added for responsiveness -->
     <title>Профиль</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" th:href="@{/icon.ico}"/>
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <style>
@@ -16,27 +17,56 @@
             margin-bottom: 20px;
             cursor: pointer;
         }
-        .upload-form, .upload-button {
+
+        .upload-form {
             display: none;
         }
+
         .profile-info {
             margin-bottom: 20px;
             font-size: 18px;
         }
+
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0; /* Remove default browser margins */
+        }
+
+        .container {
+            max-width: 960px; /* Set a maximum width for the content */
+            margin: 0 auto; /* Center the content horizontally */
+            padding: 20px;
+        }
+
+        .upload-form,
+        .upload-button {
+            text-align: center; /* Center the form elements */
+        }
+
+        .upload-form input[type="file"] {
+            margin-bottom: 10px;
+        }
+
+        .edit {
+            margin-top: 10px;
+        }
+
     </style>
 </head>
 <body>
 <div th:replace="~{navigation :: navi('Home')}"></div>
 
 <h2 class="text-center">Профиль пользователя</h2>
-<div class="container">
 
+<div class="container">
     <div class="text-center">
-        <img class="profile-photo" th:src="${photoPath}" alt="User Photo" title="Загрузка фото" onclick="toggleUploadForm()">
+        <img class="profile-photo" th:src="${photoPath}" alt="User Photo" title="Загрузка фото">
     </div>
 
     <div class="upload-button text-center">
-        <button type="button" class="btn btn-primary" onclick="toggleUploadForm()">Загрузить фото</button>
+        <button type="button" class="btn btn-primary" onclick="toggleUploadForm()">Изменить фото</button>
     </div>
 
     <form th:action="@{/profile/uploadPhoto}" method="post" enctype="multipart/form-data" class="upload-form">
@@ -44,6 +74,9 @@
         <input type="file" name="file" accept="image/jpeg, image/png">
         <button type="submit" class="btn btn-success">Загрузить</button>
     </form>
+    <div class="edit text-center">
+        <a type="button" th:href="@{/profile/editProfile}" class="btn btn-primary">Редактировать данные</a>
+    </div>
 
     <div class="profile-info">
         <p><strong>Имя:</strong> <span th:text="${username}"></span></p>
@@ -59,14 +92,8 @@
     function toggleUploadForm() {
         var uploadForm = document.querySelector('.upload-form');
         var uploadButton = document.querySelector('.upload-button');
-
-        if (uploadForm.style.display === 'none') {
-            uploadForm.style.display = 'block';
-            uploadButton.style.display = 'none'; // Скрываем кнопку "Загрузить фото"
-        } else {
-            uploadForm.style.display = 'none';
-            uploadButton.style.display = 'block'; // Показываем кнопку "Загрузить фото"
-        }
+        uploadForm.style.display = 'block';
+        uploadButton.style.display = 'none';
     }
 </script>
 </body>
