@@ -49,6 +49,18 @@ namespace App
             addInventoryForm addInventoryForm = new addInventoryForm(username);
             addInventoryForm.MdiParent = MdiParent;
             addInventoryForm.Show();
+            addInventoryForm.FormClosed += (s, ev) =>
+            {
+                if (find == null || find.Trim().Length == 0)
+                {
+                    InitTable();
+                }
+                else
+                {
+                    InitTable(find);
+                }
+            };
+
             //this.Close();
         }
 
@@ -126,8 +138,19 @@ namespace App
                             .FirstOrDefault();
                         editForm ef = new editForm(username, inv.Id);
                         ef.MdiParent = MdiParent;
-                        // Close();
                         ef.Show();
+                        ef.FormClosed += (s, ev) =>
+                        {
+                            if (find == null || find.Trim().Length == 0)
+                            {
+                                InitTable();
+                            }
+                            else
+                            {
+                                InitTable(find);
+                            }
+                        };
+
                     }
                 }
             }
