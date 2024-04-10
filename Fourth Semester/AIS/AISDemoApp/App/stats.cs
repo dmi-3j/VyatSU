@@ -106,7 +106,7 @@ namespace App
                         csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name:\n";
                         foreach (var orderItem in order.OrderItems)
                         {
-                            csvContent += $"{orderItem.Inventory.InventoryName}\n";
+                            csvContent += $"{orderItem.Inventory.InventoryName}, {orderItem.Inventory.RentPrice}\n";
                         }
                         csvContent += $"Rent Duration: {order.RentDuaration}\nServices: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
@@ -148,7 +148,7 @@ namespace App
                         csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name:\n";
                         foreach (var orderItem in order.OrderItems)
                         {
-                            csvContent += $"{orderItem.Inventory.InventoryName}\n";
+                            csvContent += $"{orderItem.Inventory.InventoryName}, {orderItem.Inventory.RentPrice}\n";
                         }
                         csvContent += $"Rent Duration: {order.RentDuaration}\nServices: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
@@ -186,10 +186,10 @@ namespace App
                     foreach (var order in orders)
                     {
                         string customerName = $"{order.User.LastName} {order.User.FirstName}";
-                        csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name:\n";
+                        csvContent += $"OrderID: {order.Id}\nOrder Date: {order.OrderDate.ToString("dd.MM.yyyy")}\nCustomer: {customerName}\nPhone: {order.User.PhoneNumber}\nInventory Name, Rent Price:\n";
                         foreach (var orderItem in order.OrderItems)
                         {
-                            csvContent += $"{orderItem.Inventory.InventoryName}\n";
+                            csvContent += $"{orderItem.Inventory.InventoryName}, {orderItem.Inventory.RentPrice}\n";
                         }
                         csvContent += $"Rent Duration: {order.RentDuaration}\nServices: {order.Services}\nTotalAmount: {order.TotalAmount}\n\n";
                     }
