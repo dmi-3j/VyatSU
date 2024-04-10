@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="update controller (fix first vaccination)">
+    <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="fix user filters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addNewVaccineWithComponents.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addNewVaccineWithComponents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editMedOrg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editMedOrg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mainuserpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mainuserpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manageOrganization.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manageOrganization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manageVaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manageVaccine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/medUserPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/medUserPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userinfopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userinfopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uservaccinationinfopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/uservaccinationinfopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vaccinationinfopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vaccinationinfopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vaccineinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vaccineinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/navigation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +59,7 @@
     &quot;Spring Boot.CalendarApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/VyatSu/Fourth Semester/Web programming/webApp/calendar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/WEB_kursach-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -86,7 +100,8 @@
       <workItem from="1710787512072" duration="621000" />
       <workItem from="1712353258980" duration="67000" />
       <workItem from="1712606977110" duration="2455000" />
-      <workItem from="1712685240199" duration="1264000" />
+      <workItem from="1712685240199" duration="2066000" />
+      <workItem from="1712693035229" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="update controller (fix first vaccination)">
       <option name="closed" value="true" />
@@ -96,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712609046806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix user filters">
+      <option name="closed" value="true" />
+      <created>1712687259891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712687259892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update controller (fix first vaccination)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update controller (fix first vaccination)" />
+    <MESSAGE value="fix user filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix user filters" />
   </component>
 </project>

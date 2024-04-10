@@ -29,23 +29,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li sec:authorize="hasRole('ADMIN')" class="nav-item"
-                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    th:classappend="${activeTab == 'ManageUsers' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/manage}">Управление пользователями</a>
                 </li>
                 <li sec:authorize="hasRole('ADMIN')" class="nav-item"
-                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    th:classappend="${activeTab == 'ManageOrganizations' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/manage/organization}">Управление организациями</a>
                 </li>
                 <li sec:authorize="hasRole('ADMIN')" class="nav-item"
-                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    th:classappend="${activeTab == 'ManageVaccine' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/manage/vaccine}">Управление прививками</a>
                 </li>
                 <li sec:authorize="hasRole('MED')" class="nav-item"
-                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    th:classappend="${activeTab == 'MedFindUser' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/med/users}">Поиск пользователей</a>
                 </li>
                 <li sec:authorize="hasRole('USER')" class="nav-item"
-                    th:classappend="${activeTab == 'Products' ? 'active' : ''}">
+                    th:classappend="${activeTab == 'MyVacc' ? 'active' : ''}">
                     <a class="nav-link" th:href="@{/user/vaccinations}">Мои вакцинации</a>
                 </li>
             </ul>

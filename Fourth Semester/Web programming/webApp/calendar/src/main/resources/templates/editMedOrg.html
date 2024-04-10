@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-<div th:replace="~{navigation :: navi('Home')}"></div>
+<div th:replace="~{navigation :: navi('ManageOrganizations')}"></div>
 <div class="form-border">
     <h2>Редактирование данных организации</h2>
     <form th:action="@{/manage/organization/edit}" method="post" th:object="${medorg}">
