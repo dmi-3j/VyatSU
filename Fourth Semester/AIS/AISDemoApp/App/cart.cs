@@ -160,7 +160,7 @@ namespace App
                             context.CartItems.Remove(cartItem);
                             context.SaveChanges();
                             InitData();
-                           
+
                             labelTotal.Text = total.ToString() + "р";
                         }
                     }
@@ -200,36 +200,50 @@ namespace App
                 DialogResult result = MessageBox.Show("Оформить заказ?", "Подтверждение", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
-                    Order order = new Order
+                    using (var transaction = context.Database.BeginTransaction())
                     {
-                        UserId = user.Id,
-                        User = user,
-                        OrderDate = DateTime.Now.Date,
-                        Services = services,
-                        RentDuaration = comboBox1.SelectedItem.ToString(),
-                        TotalAmount = total
-                    };
-                    foreach (var cartItem in ci)
-                    {
-                        OrderItem orderItem = new OrderItem
+                        try
                         {
-                            InventoryId = cartItem.InventoryId,
-                            Inventory = cartItem.Inventory
-                        };
-                        order.OrderItems.Add(orderItem);
+                            Order order = new Order
+                            {
+                                UserId = user.Id,
+                                User = user,
+                                OrderDate = DateTime.Now.Date,
+                                Services = services,
+                                RentDuaration = comboBox1.SelectedItem.ToString(),
+                                TotalAmount = total
+                            };
+                            foreach (var cartItem in ci)
+                            {
+                                OrderItem orderItem = new OrderItem
+                                {
+                                    InventoryId = cartItem.InventoryId,
+                                    Inventory = cartItem.Inventory
+                                };
+                                order.OrderItems.Add(orderItem);
+                            }
+                            context.Orders.Add(order);
+                            context.CartItems.RemoveRange(context.CartItems.Where(c => c.Cart == cart));
+                            context.SaveChanges();
+                            transaction.Commit();
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+                            MessageBox.Show($"Ошибка при оформлении заказа: {ex.Message}");
+                        }
                     }
-                    context.Orders.Add(order);
-                    context.CartItems.RemoveRange(context.CartItems.Where(c => c.Cart == cart));
-                    context.SaveChanges();
                     MessageBox.Show("Ваш заказ успешно оформлен!");
                     checkBox1.Checked = false;
                     checkBox2.Checked = false;
                     checkBox3.Checked = false;
                     InitData();
                 }
-            }
 
+            }
         }
+
+
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

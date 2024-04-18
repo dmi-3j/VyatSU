@@ -25,9 +25,5 @@ namespace AISDemoApp
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseNpgsql(ConnectionString);
         }
-
-
-
     }
-
 }
