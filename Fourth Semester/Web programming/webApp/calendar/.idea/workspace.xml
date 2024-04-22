@@ -5,39 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="fix displaying navbar active tab">
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/FileContentIndex/7ce40294-d3dd-4f8c-a45a-ae04cc107d47.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/FileContentIndex/c320894d-bc34-4d37-98c4-36fd0aba365d.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.metadata.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.projects.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/bin/Debug/net8.0/AISDemoApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/bin/Debug/net8.0/AISDemoApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/bin/Debug/net8.0/AISDemoApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/bin/Debug/net8.0/AISDemoApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/AISDemoApp.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/ref/AISDemoApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/ref/AISDemoApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/refint/AISDemoApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/AISDemoApp/obj/Debug/net8.0/refint/AISDemoApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/AISDemoApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/AISDemoApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/AISDemoApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/AISDemoApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/App.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/App.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/bin/Debug/net8.0-windows/App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/cart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/cart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/App.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/ref/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/ref/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/refint/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/App/obj/Debug/net8.0-windows/refint/App.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/livereload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MedUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MedUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/MedicalOrganization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/MedicalOrganization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/OrganizationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/OrganizationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineComponentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineComponentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/OrganizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/OrganizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccinationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineComponentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineComponentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/specifications/MedUserSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/specifications/MedUserSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Authority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Authority.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dmi-3j"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dmi-3j/VyatSU.git",
+    "accountId": "62c6bbbf-7b2c-4ab4-9c8a-c8df36eadb7d"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,32 +74,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.calendar [deploy].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CalendarApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/GitHub/web-health_diary",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.calendar [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CalendarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/web-health_diary&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\VyatSu\Fourth Semester\Web programming\webApp\calendar\src\main\resources\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CalendarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="calendar" />
@@ -101,7 +117,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -121,6 +138,7 @@
       <workItem from="1712858620032" duration="42000" />
       <workItem from="1713427630257" duration="1152000" />
       <workItem from="1713458807466" duration="209000" />
+      <workItem from="1713777819446" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="update controller (fix first vaccination)">
       <option name="closed" value="true" />

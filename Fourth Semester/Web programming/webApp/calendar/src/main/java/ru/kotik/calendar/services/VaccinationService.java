@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import ru.kotik.calendar.entities.*;
 import ru.kotik.calendar.repositories.VaccinationRepository;
 import ru.kotik.calendar.specifications.VaccinationSpecification;
-import ru.kotik.calendar.specifications.VaccineSpecification;
+
 
 import java.util.ArrayList;
 import java.util.Comparator;

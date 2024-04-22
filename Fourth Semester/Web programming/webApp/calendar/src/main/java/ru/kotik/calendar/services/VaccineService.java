@@ -3,14 +3,12 @@ package ru.kotik.calendar.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
-import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.entities.Vaccine;
-import ru.kotik.calendar.entities.VaccineComponent;
 import ru.kotik.calendar.repositories.VaccineRepository;
 import ru.kotik.calendar.specifications.VaccineSpecification;
 
 import java.util.List;
-import java.util.UUID;
+
 
 @Service
 public class VaccineService {

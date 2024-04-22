@@ -1,9 +1,7 @@
 package ru.kotik.calendar.specifications;
 
-import jakarta.persistence.criteria.Join;
 import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.jpa.domain.Specification;
-import ru.kotik.calendar.entities.Authority;
 import ru.kotik.calendar.entities.User;
 
 public class MedUserSpecification {

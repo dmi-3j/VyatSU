@@ -15,7 +15,6 @@ import ru.kotik.calendar.services.VaccineComponentService;
 import ru.kotik.calendar.services.VaccineService;
 
 import java.util.List;
-import java.util.UUID;
 
 @Controller
 public class AdminController {
