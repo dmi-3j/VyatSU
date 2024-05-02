@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>ru.kotik</groupId>
 	<artifactId>calendar</artifactId>
-	<version>3.1.1</version>
+	<version>3.1.7</version>
 	<name>calendar</name>
 	<description>Vaccine Calendar Web App</description>
 	<properties>

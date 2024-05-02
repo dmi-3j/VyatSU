@@ -4,39 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="fix displaying navbar active tab">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/livereload.js" afterDir="false" />
+    <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="update project version before deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MedUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MedUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Authority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/MedicalOrganization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/MedicalOrganization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/entities/Vaccine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/OrganizationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/OrganizationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineComponentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineComponentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/repositories/VaccineRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/OrganizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/OrganizationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccinationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineComponentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineComponentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/services/VaccineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/specifications/MedUserSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/specifications/MedUserSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Authority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Authority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addNewVaccineWithComponents.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addNewVaccineWithComponents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editMedOrg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editMedOrg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editProfile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mainuserpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mainuserpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manageOrganization.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manageOrganization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manageVaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manageVaccine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/medUserPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/medUserPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userinfopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userinfopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/uservaccinationinfopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/uservaccinationinfopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vaccinationinfopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vaccinationinfopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vaccineinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vaccineinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addNewVaccineWithComponents.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addNewVaccineWithComponents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editMedOrg.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editMedOrg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/management.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dmi-3j"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dmi-3j&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dmi-3j/VyatSU.git",
-    "accountId": "62c6bbbf-7b2c-4ab4-9c8a-c8df36eadb7d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dmi-3j/VyatSU.git&quot;,
+    &quot;accountId&quot;: &quot;62c6bbbf-7b2c-4ab4-9c8a-c8df36eadb7d&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -85,8 +76,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.CalendarApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/web-health_diary&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/demo_task14&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -138,7 +130,13 @@
       <workItem from="1712858620032" duration="42000" />
       <workItem from="1713427630257" duration="1152000" />
       <workItem from="1713458807466" duration="209000" />
-      <workItem from="1713777819446" duration="3114000" />
+      <workItem from="1713777819446" duration="4378000" />
+      <workItem from="1713873904693" duration="23000" />
+      <workItem from="1713986650252" duration="1101000" />
+      <workItem from="1714123183815" duration="34000" />
+      <workItem from="1714123612236" duration="379000" />
+      <workItem from="1714401298401" duration="940000" />
+      <workItem from="1714666704173" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="update controller (fix first vaccination)">
       <option name="closed" value="true" />
@@ -164,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712744575769</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove unused imports">
+      <option name="closed" value="true" />
+      <created>1713781104933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713781104934</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update project version before deploy">
+      <option name="closed" value="true" />
+      <created>1713781318004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713781318004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +199,8 @@
     <MESSAGE value="update controller (fix first vaccination)" />
     <MESSAGE value="fix user filters" />
     <MESSAGE value="fix displaying navbar active tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix displaying navbar active tab" />
+    <MESSAGE value="remove unused imports" />
+    <MESSAGE value="update project version before deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project version before deploy" />
   </component>
 </project>
