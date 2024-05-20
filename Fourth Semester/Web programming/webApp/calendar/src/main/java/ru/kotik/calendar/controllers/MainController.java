@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ru.kotik.calendar.entities.User;
 import ru.kotik.calendar.services.UserService;
 
+import java.security.Principal;
+
 @Controller
 public class MainController {
 
@@ -21,8 +23,19 @@ public class MainController {
     private UserService userService;
 
     @GetMapping("")
-    public String mainPage(Model model) {
+    public String mainPage(Model model, Principal principal) {
         model.addAttribute("user", new User());
+        if (principal != null) {
+            if (userService.getAuthorityByusername(principal.getName()).equals("ROLE_ADMIN")) {
+                return "redirect:/manage";
+            }
+            if (userService.getAuthorityByusername(principal.getName()).equals("ROLE_USER")) {
+                return "redirect:/user/vaccinations";
+            }
+            if (userService.getAuthorityByusername(principal.getName()).equals("ROLE_MED")) {
+                return "redirect:/med/users";
+            }
+        }
         return "main";
     }
 
