@@ -178,8 +178,7 @@
               "RelativeToolTip": "App\\AdminForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAKkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T18:46:24.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T18:46:24.291Z"
             },
             {
               "$type": "Document",
@@ -191,8 +190,7 @@
               "RelativeToolTip": "App\\cart.cs",
               "ViewState": "AQIAALMAAAAAAAAAAADwv+oAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T20:14:01.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T20:14:01.565Z"
             },
             {
               "$type": "Document",
@@ -204,8 +202,7 @@
               "RelativeToolTip": "App\\editForm.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:05:18.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T19:05:18.888Z"
             },
             {
               "$type": "Document",
@@ -217,8 +214,7 @@
               "RelativeToolTip": "App\\LoginForm.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwDIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:50:45.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:50:45.659Z"
             },
             {
               "$type": "Document",
@@ -230,8 +226,7 @@
               "RelativeToolTip": "App\\ParentForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:52:15.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:52:15.307Z"
             },
             {
               "$type": "Document",
@@ -243,8 +238,7 @@
               "RelativeToolTip": "App\\profile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:54:28.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T19:54:28.761Z"
             },
             {
               "$type": "Document",
@@ -256,8 +250,7 @@
               "RelativeToolTip": "AISDemoApp\\Cart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T19:05:11.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T19:05:11.735Z"
             },
             {
               "$type": "Document",
@@ -269,8 +262,7 @@
               "RelativeToolTip": "AISDemoApp\\Inventory.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:59:43.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:59:43.69Z"
             },
             {
               "$type": "Document",
@@ -282,8 +274,7 @@
               "RelativeToolTip": "AISDemoApp\\OrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:11:54.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T14:11:54.811Z"
             },
             {
               "$type": "Document",
@@ -295,8 +286,7 @@
               "RelativeToolTip": "AISDemoApp\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:09:43.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T14:09:43.085Z"
             },
             {
               "$type": "Document",
@@ -308,8 +298,7 @@
               "RelativeToolTip": "AISDemoApp\\CartItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:27:56.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:27:56.882Z"
             },
             {
               "$type": "Document",
@@ -319,7 +308,7 @@
               "RelativeDocumentMoniker": "AISDemoApp\\User.cs",
               "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Fourth Semester\\AIS\\AISDemoApp\\AISDemoApp\\User.cs",
               "RelativeToolTip": "AISDemoApp\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T17:33:04.663Z",
               "EditorCaption": ""
@@ -334,8 +323,7 @@
               "RelativeToolTip": "App\\addInventoryForm.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAYwG8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T20:04:19.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T20:04:19.724Z"
             },
             {
               "$type": "Document",
@@ -347,8 +335,7 @@
               "RelativeToolTip": "App\\UserForm.cs",
               "ViewState": "AQIAALwAAAAAAAAAAAAgwG0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T18:42:57.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T18:42:57.94Z"
             },
             {
               "$type": "Document",
@@ -372,8 +359,7 @@
               "RelativeToolTip": "App\\stats.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:37:11.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T14:37:11.371Z"
             },
             {
               "$type": "Document",
@@ -385,8 +371,7 @@
               "RelativeToolTip": "App\\reloadDB.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:16:20.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T16:16:20.769Z"
             },
             {
               "$type": "Document",
@@ -398,8 +383,7 @@
               "RelativeToolTip": "AISDemoApp\\UserRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:38:47.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:38:47.13Z"
             },
             {
               "$type": "Document",
@@ -411,8 +395,7 @@
               "RelativeToolTip": "AISDemoApp\\DBService.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAACcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T18:17:01.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T18:17:01.015Z"
             },
             {
               "$type": "Document",
@@ -424,8 +407,7 @@
               "RelativeToolTip": "AISDemoApp\\Context.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T18:51:19.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T18:51:19.148Z"
             },
             {
               "$type": "Document",

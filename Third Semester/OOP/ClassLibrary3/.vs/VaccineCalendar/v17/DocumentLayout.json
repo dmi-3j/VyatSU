@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\updateuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\updateuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\recordsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\recordsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\userinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\userinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\addrecordtovaccinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\addrecordtovaccinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\addvaccinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\addvaccinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\addvaccineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\addvaccineform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\userinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\userinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\vaccinationinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\vaccinationinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{077F2D89-D5EB-4370-841C-5AE34A91A236}|ClassLibrary3\\vaccinecalend.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\classlibrary3\\vaccinecalendarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{077F2D89-D5EB-4370-841C-5AE34A91A236}|ClassLibrary3\\vaccinecalend.csproj|solutionrelative:classlibrary3\\vaccinecalendarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|d:\\documents\\github\\vyatsu\\third semester\\oop\\classlibrary3\\app\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9BF69D8-BAC4-489E-8BC6-68E3502CAD9B}|App\\App.csproj|solutionrelative:app\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecordsForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\RecordsForm.cs",
+              "RelativeDocumentMoniker": "App\\RecordsForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\RecordsForm.cs",
+              "RelativeToolTip": "App\\RecordsForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:22:36.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UpdateUserForm.cs",
+              "RelativeDocumentMoniker": "App\\UpdateUserForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UpdateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "App\\UpdateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:22:21.888Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddRecordToVaccinationForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddRecordToVaccinationForm.cs",
+              "RelativeDocumentMoniker": "App\\AddRecordToVaccinationForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddRecordToVaccinationForm.cs",
+              "RelativeToolTip": "App\\AddRecordToVaccinationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:21:25.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddUserForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddUserForm.cs",
+              "RelativeDocumentMoniker": "App\\AddUserForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddUserForm.cs",
+              "RelativeToolTip": "App\\AddUserForm.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:21:17.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddUserForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddUserForm.cs",
+              "RelativeDocumentMoniker": "App\\AddUserForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddUserForm.cs",
+              "RelativeToolTip": "App\\AddUserForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:21:09.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddVaccinationForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddVaccinationForm.cs",
+              "RelativeDocumentMoniker": "App\\AddVaccinationForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddVaccinationForm.cs",
+              "RelativeToolTip": "App\\AddVaccinationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:20:57.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddVaccineForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddVaccineForm.cs",
+              "RelativeDocumentMoniker": "App\\AddVaccineForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\AddVaccineForm.cs",
+              "RelativeToolTip": "App\\AddVaccineForm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:20:49.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserInfoForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserInfoForm.cs",
+              "RelativeDocumentMoniker": "App\\UserInfoForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserInfoForm.cs",
+              "RelativeToolTip": "App\\UserInfoForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:20:29.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserInfoForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserInfoForm.cs",
+              "RelativeDocumentMoniker": "App\\UserInfoForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserInfoForm.cs",
+              "RelativeToolTip": "App\\UserInfoForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:20:26.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserForm.cs",
+              "RelativeDocumentMoniker": "App\\UserForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserForm.cs",
+              "RelativeToolTip": "App\\UserForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:52:04.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VaccinationInfoForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\VaccinationInfoForm.cs",
+              "RelativeDocumentMoniker": "App\\VaccinationInfoForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\VaccinationInfoForm.cs",
+              "RelativeToolTip": "App\\VaccinationInfoForm.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:20:16.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\LoginForm.cs",
+              "RelativeDocumentMoniker": "App\\LoginForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\LoginForm.cs",
+              "RelativeToolTip": "App\\LoginForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:19:31.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VaccineCalendarContext.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\VaccineCalendarContext.cs",
+              "RelativeDocumentMoniker": "ClassLibrary3\\VaccineCalendarContext.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\VaccineCalendarContext.cs",
+              "RelativeToolTip": "ClassLibrary3\\VaccineCalendarContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:35:28.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserForm.cs",
+              "RelativeDocumentMoniker": "App\\UserForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\App\\UserForm.cs",
+              "RelativeToolTip": "App\\UserForm.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T19:49:28.499Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

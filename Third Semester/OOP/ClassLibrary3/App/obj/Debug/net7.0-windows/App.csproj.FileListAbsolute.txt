@@ -109,9 +109,9 @@ D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.AssemblyInfo.cs
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.csproj.CoreCompileInputs.cache
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.sourcelink.json
-D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.csproj.CopyComplete
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.dll
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\refint\App.dll
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.pdb
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.genruntimeconfig.cache
 D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\ref\App.dll
+D:\Documents\GitHub\VyatSu\Third Semester\OOP\ClassLibrary3\App\obj\Debug\net7.0-windows\App.csproj.Up2Date
