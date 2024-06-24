@@ -1,9 +1,7 @@
 package ru.kotik.calendar.controllers;
 
 import com.amazonaws.client.builder.AwsClientBuilder;
-import com.amazonaws.services.s3.model.CannedAccessControlList;
-import com.amazonaws.services.s3.model.DeleteObjectRequest;
-import com.amazonaws.services.s3.model.ObjectMetadata;
+import com.amazonaws.services.s3.model.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,7 +22,6 @@ import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
-import com.amazonaws.services.s3.model.PutObjectRequest;
 import ru.kotik.calendar.services.VaccinationService;
 
 @Controller
@@ -48,15 +45,19 @@ public class UserController {
                               @RequestParam("file") MultipartFile file) {
         if (!file.isEmpty()) {
             try {
-                BasicAWSCredentials awsCreds = new BasicAWSCredentials("r64QBDrKHTb7kZXsuRwEHy", "bVDPh71kQTgx2ZbaHYDM1A5fPsaafLDDwSaVuWMadyir");
+                BasicAWSCredentials awsCreds = new BasicAWSCredentials("03307e84ecab4d02ca9ed044", "f21fd124c92cae909ea30a4d505be9e0a6fbee11d3030614eb9ceee2019c80c7");
                 AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                         .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
-                        .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("https://hb.ru-msk.vkcs.cloud", "ru-msk"))
+                        .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("http://127.0.0.1:1112", "us-west-2"))
+                        .withPathStyleAccessEnabled(true)
                         .build();
                 User user = userService.getUserByUserName(username);
                 String previousPhotoPath = user.getPhotopath();
                 String bucketName = "webuploads";
-                if (previousPhotoPath != null && !previousPhotoPath.isEmpty() && !previousPhotoPath.equals("https://webuploads.hb.ru-msk.vkcs.cloud/default.jpg")) {
+                if (!s3Client.doesBucketExistV2(bucketName)) {
+                    s3Client.createBucket(new CreateBucketRequest(bucketName));
+                }
+                if (previousPhotoPath != null && !previousPhotoPath.isEmpty() && !previousPhotoPath.equals("https://127.0.0.1:1112/webuploads/default.jpg")) {
                     String previousFileName = previousPhotoPath.substring(previousPhotoPath.lastIndexOf("/") + 1);
                     DeleteObjectRequest deleteObjectRequest = new DeleteObjectRequest(bucketName, previousFileName);
                     s3Client.deleteObject(deleteObjectRequest);
@@ -123,6 +124,7 @@ public class UserController {
         model.addAttribute("vaccination", new Vaccination());
         return "mainuserpage";
     }
+
     @GetMapping("/user/filterVaccination")
     public String filterVaccination(@RequestParam("seria") String seria,
                                     @RequestParam("vcc") String vaccineName,
@@ -140,6 +142,7 @@ public class UserController {
 
         return "mainuserpage";
     }
+
     @GetMapping("/user/vaccination/info/{id}")
     public String vaccinationInfo(Model model,
                                   @PathVariable(value = "id") String id,
@@ -158,6 +161,7 @@ public class UserController {
         model.addAttribute("reaction", new Reaction());
         return "uservaccinationinfopage";
     }
+
     private int parseId(String id) {
         try {
             return Integer.parseInt(id);
@@ -174,6 +178,7 @@ public class UserController {
         reactionService.saveReaction(vaccination, reaction);
         return "redirect:/";
     }
+
     @GetMapping("/user/reaction/del/{id}")
     public String deleteReaction(@PathVariable(value = "id") int id,
                                  @RequestParam(value = "vaccinationId") int vaccinationId) {
@@ -181,12 +186,14 @@ public class UserController {
         reactionService.deleteReaction(reaction);
         return "redirect:/user/vaccination/info/" + vaccinationId;
     }
+
     @PostMapping("/profile/edit")
     public String editProfileP(@ModelAttribute(value = "user") User updateuser) {
         User user = userService.getUserByUserName(updateuser.getUsername());
         userService.update(user, updateuser);
         return "redirect:/profile";
     }
+
     @GetMapping("/profile/editProfile")
     public String editMedUser(Model model, Principal principal,
                               HttpServletRequest request) {

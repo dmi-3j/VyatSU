@@ -10,106 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1129fff-4859-4d7c-944b-416dc6bfb86c" name="Changes" comment="add test adaptation for mobile devices">
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/AISDemoApp/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.metadata.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AIS/AISDemoApp/.vs/ProjectEvaluation/aisdemoapp.projects.v7.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practice/awstest/src/main/java/ru/kotik/awstest/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practice/awstest/src/main/java/ru/kotik/awstest/controllers/S3TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practice/awstest/src/main/resources/templates/testS3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__init.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/CalendarApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/configuration/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Authority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/MedicalOrganization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/Vaccine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/entities/VaccineComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/OrganizationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/VaccineComponentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/repositories/VaccineRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/OrganizationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineComponentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/services/VaccineService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedOrgSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/MedUserSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kotik/calendar/specifications/VaccineSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/addNewVaccineWithComponents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/editMedOrg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/403.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageOrganization.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageVaccine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/navigation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/kotik/calendar/CalendarApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/ProjectEvaluation/vaccinecalendar.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/ProjectEvaluation/vaccinecalendar.metadata.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/ProjectEvaluation/vaccinecalendar.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/ProjectEvaluation/vaccinecalendar.projects.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/FileContentIndex/66fd2b28-868b-48ef-863b-764765b0ba72.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/.vs/VaccineCalendar/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/App.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/App.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/vaccinecalend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/vaccinecalend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/vaccinecalend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/bin/Debug/net7.0-windows/vaccinecalend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/App.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/App.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/App.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/ref/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/ref/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/refint/App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/Debug/net7.0-windows/refint/App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/App/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/bin/Debug/net7.0/vaccinecalend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/bin/Debug/net7.0/vaccinecalend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/bin/Debug/net7.0/vaccinecalend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/bin/Debug/net7.0/vaccinecalend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/ref/vaccinecalend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/ref/vaccinecalend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/refint/vaccinecalend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/refint/vaccinecalend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/Debug/net7.0/vaccinecalend.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/vaccinecalend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/vaccinecalend.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/vaccinecalend.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/ClassLibrary3/obj/vaccinecalend.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Debug/net7.0/Test.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Test.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/Test.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/OOP/ClassLibrary3/Test/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kotik/calendar/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Third Semester/JAVA TP/Task 11/Task11(1)/lr11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Third Semester/JAVA TP/Task 11/Task11(1)/lr11/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -156,8 +65,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Maven.calendar [clean].executor": "Run",
     "Maven.calendar [deploy].executor": "Run",
+    "Maven.calendar [org.apache.maven.plugins:maven-deploy-plugin:3.1.1:deploy].executor": "Run",
     "Maven.calendar [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -207,8 +118,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -240,6 +151,11 @@
       <workItem from="1714825704855" duration="3639000" />
       <workItem from="1715109628742" duration="4371000" />
       <workItem from="1716137382385" duration="4430000" />
+      <workItem from="1717423351464" duration="187000" />
+      <workItem from="1717675087306" duration="950000" />
+      <workItem from="1718889034566" duration="10000000" />
+      <workItem from="1718915528671" duration="21679000" />
+      <workItem from="1719143174943" duration="26056000" />
     </task>
     <task id="LOCAL-00001" summary="update controller (fix first vaccination)">
       <option name="closed" value="true" />
