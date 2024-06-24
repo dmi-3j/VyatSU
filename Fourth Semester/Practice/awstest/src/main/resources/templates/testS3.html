@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added for responsiveness -->
+    <title>Тест S3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" th:href="@{/icon.ico}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .table-container {
+            flex: 1;
+            overflow: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 500px;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<form th:action="@{/manage/uploadFile}" method="post" enctype="multipart/form-data" class="upload-form" style="margin-top: 50px;margin-left: 10px">
+    <input type="file" name="file">
+    <button type="submit" class="btn btn-success">Загрузить</button>
+</form>
+
+<div class="table-container">
+    <table>
+        <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Размер</th>
+            <th>Действия</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="file : ${files.getObjectSummaries()}">
+            <td th:text="${file.key}"></td>
+            <td th:text="${file.size} + ' bytes'"></td>
+            <td>
+                <a th:href="@{'/manage/downloadFile/' + ${file.key}}" th:text="Скачать" class="text-info"></a>
+                <a th:href="@{'/manage/deleteFile/' + ${file.key}}" th:text="Удалить" class="text-danger"
+                   style="margin-left: 15px"></a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
