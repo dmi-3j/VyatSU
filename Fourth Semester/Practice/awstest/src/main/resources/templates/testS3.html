@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added for responsiveness -->
     <title>Тест S3</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" th:href="@{/icon.ico}">
+    <link rel="icon" type="image/png" th:href="@{/favicon.ico}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <style>
@@ -14,7 +14,9 @@
             overflow: auto;
             border: 1px solid #ccc;
             padding: 10px;
-            height: 500px;
+            height: 90%;
+            margin-top: 10px;
+
         }
 
         table {
@@ -27,22 +29,27 @@
             padding: 8px;
             text-align: left;
         }
+        h2 {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-
+<h2>Тест локального S3 хранилища</h2>
 <form th:action="@{/manage/uploadFile}" method="post" enctype="multipart/form-data" class="upload-form" style="margin-top: 50px;margin-left: 10px">
+    <h4>Загрузить новый файл:</h4>
     <input type="file" name="file">
     <button type="submit" class="btn btn-success">Загрузить</button>
 </form>
 
 <div class="table-container">
+    <h4>Список файлов:</h4>
     <table>
         <thead>
         <tr>
             <th>Имя</th>
             <th>Размер</th>
-            <th>Действия</th>
+            <th>Действия с файлом</th>
         </tr>
         </thead>
         <tbody>
