@@ -32,7 +32,7 @@ public class AppConfig {
     public AmazonS3 s3Client() {
         AmazonS3 s3Client =  AmazonS3ClientBuilder.standard()
                 .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(accessKeyId, secretKey)))
-                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(s3ServiceEndpoint, "ru-msk-1"))
+                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(s3ServiceEndpoint, "us-east-1"))
                 .withPathStyleAccessEnabled(true)
                 .build();
 
