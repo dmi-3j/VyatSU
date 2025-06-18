@@ -1,0 +1,32 @@
+2025-06-13 17:00:26.080 +03:00 [INF] Started OrderClient Application
+2025-06-13 17:00:27.561 +03:00 [INF] gRPC client initialized for https://10.8.1.1:9080
+2025-06-13 17:00:27.577 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 17:00:28.198 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 17:00:31.851 +03:00 [INF] Loaded 2 orders
+2025-06-13 17:00:32.029 +03:00 [INF] Loaded 2 orders
+2025-06-13 17:01:20.264 +03:00 [DBG] Starting order creation
+2025-06-13 17:01:21.874 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-06-13 17:01:21.949 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-06-13 17:01:21.952 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 17:01:22.132 +03:00 [INF] Loaded 3 orders
+2025-06-13 17:03:02.528 +03:00 [DBG] Starting order creation
+2025-06-13 17:03:02.907 +03:00 [INF] Order created for  Алексей Бондаренко, Ипхон 12
+2025-06-13 17:03:02.957 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-06-13 17:03:02.958 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 17:03:03.096 +03:00 [INF] Loaded 4 orders
+2025-06-13 17:59:26.401 +03:00 [DBG] Starting order creation
+2025-06-13 17:59:26.406 +03:00 [WRN] Order creation validation failed - missing required fields
+2025-06-13 17:59:26.459 +03:00 [DBG] $Notification shown: - Пожалуйста, заполните все поля.
+2025-06-13 17:59:35.337 +03:00 [DBG] Starting order creation
+2025-06-13 17:59:35.655 +03:00 [INF] Order created for  Даня, АСУС
+2025-06-13 17:59:35.698 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-06-13 17:59:35.701 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 17:59:35.888 +03:00 [INF] Loaded 5 orders
+2025-06-13 18:03:32.886 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 18:03:33.192 +03:00 [INF] Loaded 4 orders
+2025-06-13 18:03:36.860 +03:00 [DBG] Loading orders. Filter: Ready, Search: 
+2025-06-13 18:03:37.149 +03:00 [INF] Loaded 1 orders
+2025-06-13 18:03:48.316 +03:00 [DBG] Loading orders. Filter: Delivered, Search: 
+2025-06-13 18:03:48.667 +03:00 [INF] Loaded 4 orders
+2025-06-13 18:04:03.769 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-06-13 18:04:04.007 +03:00 [INF] Loaded 4 orders

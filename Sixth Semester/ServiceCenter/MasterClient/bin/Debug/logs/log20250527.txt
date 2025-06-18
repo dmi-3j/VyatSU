@@ -1,0 +1,346 @@
+2025-05-27 14:34:39.438 +03:00 [INF] LoginForm initialization started
+2025-05-27 14:34:39.490 +03:00 [DBG] Initializing gRPC client
+2025-05-27 14:34:39.522 +03:00 [INF] gRPC client initialized successfully
+2025-05-27 14:34:39.522 +03:00 [INF] LoginForm initialized successfully
+2025-05-27 14:34:50.919 +03:00 [INF] Login attempt for user: 1
+2025-05-27 14:34:50.955 +03:00 [DBG] Sending authentication request
+2025-05-27 14:35:06.762 +03:00 [INF] Login attempt for user: 1
+2025-05-27 14:35:06.763 +03:00 [DBG] Sending authentication request
+2025-05-27 14:35:12.215 +03:00 [ERR] Authentication error for user: 1
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в MasterClient.LoginForm.<btnLogin_Click>d__8.MoveNext() в D:\Desktop\ServiceCenter test\MasterClient\LoginForm.cs:строка 82
+2025-05-27 14:35:12.261 +03:00 [DBG] Showing notification: Ошибка - Ошибка при авторизации: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-27 14:35:21.240 +03:00 [INF] Login attempt for user: 1
+2025-05-27 14:35:21.240 +03:00 [DBG] Sending authentication request
+2025-05-27 14:35:23.159 +03:00 [INF] LoginForm closing
+2025-05-27 14:36:07.063 +03:00 [INF] LoginForm initialization started
+2025-05-27 14:36:07.112 +03:00 [DBG] Initializing gRPC client
+2025-05-27 14:36:07.144 +03:00 [INF] gRPC client initialized successfully
+2025-05-27 14:36:07.144 +03:00 [INF] LoginForm initialized successfully
+2025-05-27 14:36:10.236 +03:00 [INF] Login attempt for user: 1
+2025-05-27 14:36:10.242 +03:00 [DBG] Sending authentication request
+2025-05-27 14:36:10.793 +03:00 [INF] Authentication successful for user: 1
+2025-05-27 14:36:10.793 +03:00 [INF] LoginForm closing
+2025-05-27 14:36:10.886 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-05-27 14:36:10.887 +03:00 [DBG] Initializing gRPC client
+2025-05-27 14:36:10.887 +03:00 [INF] gRPC client initialized successfully with address https://10.8.1.1:9080
+2025-05-27 14:36:10.891 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:36:10.897 +03:00 [INF] MasterForm initialized successfully
+2025-05-27 14:36:11.123 +03:00 [DBG] Received 1 orders from server
+2025-05-27 14:36:11.128 +03:00 [INF] No orders found for master
+2025-05-27 14:36:11.129 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:36:13.842 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:36:13.842 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:36:13.842 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:36:13.844 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:36:13.910 +03:00 [ERR] Failed to subscribe to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.IO.IOException: connection.start was never received, likely due to a network timeout ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   в RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   в RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   в RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   в RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   в MasterClient.MasterForm.SubscribeToQueue() в D:\Desktop\ServiceCenter test\MasterClient\MasterForm.cs:строка 499
+2025-05-27 14:36:14.801 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:36:14.801 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:36:14.801 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 14:36:14.801 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:36:14.907 +03:00 [DBG] Received 1 orders from server
+2025-05-27 14:36:14.907 +03:00 [INF] No orders found for master
+2025-05-27 14:36:14.907 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:36:15.335 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:36:15.336 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:36:15.336 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:36:15.336 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:36:15.341 +03:00 [ERR] Failed to subscribe to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.IO.IOException: connection.start was never received, likely due to a network timeout ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   в RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   в RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   в RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   в RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   в MasterClient.MasterForm.SubscribeToQueue() в D:\Desktop\ServiceCenter test\MasterClient\MasterForm.cs:строка 499
+2025-05-27 14:36:16.101 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:36:16.101 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:36:16.101 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 14:36:16.101 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:36:16.390 +03:00 [DBG] Received 1 orders from server
+2025-05-27 14:36:16.390 +03:00 [INF] No orders found for master
+2025-05-27 14:36:16.390 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:36:17.127 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:36:17.127 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:36:17.127 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:36:17.127 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:36:17.133 +03:00 [ERR] Failed to subscribe to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.IO.IOException: connection.start was never received, likely due to a network timeout ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   в RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   в RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   в RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   в RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   в MasterClient.MasterForm.SubscribeToQueue() в D:\Desktop\ServiceCenter test\MasterClient\MasterForm.cs:строка 499
+2025-05-27 14:36:37.698 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:36:37.698 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:36:37.698 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 14:36:37.698 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:36:38.082 +03:00 [DBG] Received 2 orders from server
+2025-05-27 14:36:38.082 +03:00 [INF] No orders found for master
+2025-05-27 14:36:38.083 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:36:39.064 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:36:39.064 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:36:39.064 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:36:39.064 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:36:41.090 +03:00 [ERR] Failed to subscribe to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: Произошла одна или несколько ошибок. ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 10.8.1.1:5672
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   в RabbitMQ.Client.TcpClientAdapter.<>c__DisplayClass2_0.<ConnectAsync>b__0()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в RabbitMQ.Client.TcpClientAdapter.<ConnectAsync>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в RabbitMQ.Client.Impl.TaskExtensions.<TimeoutAfter>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   в RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   в RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   в RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   в MasterClient.MasterForm.SubscribeToQueue() в D:\Desktop\ServiceCenter test\MasterClient\MasterForm.cs:строка 499
+2025-05-27 14:36:41.142 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:36:41.142 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:36:41.142 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 14:36:41.142 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:36:41.166 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:36:41.167 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:36:41.167 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:36:41.167 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:36:43.183 +03:00 [ERR] Failed to subscribe to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: Произошла одна или несколько ошибок. ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 10.8.1.1:5672
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   в RabbitMQ.Client.TcpClientAdapter.<>c__DisplayClass2_0.<ConnectAsync>b__0()
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в RabbitMQ.Client.TcpClientAdapter.<ConnectAsync>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в RabbitMQ.Client.Impl.TaskExtensions.<TimeoutAfter>d__0.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   в RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   в RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   в RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   в RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   в MasterClient.MasterForm.SubscribeToQueue() в D:\Desktop\ServiceCenter test\MasterClient\MasterForm.cs:строка 499
+2025-05-27 14:36:43.185 +03:00 [DBG] Received 2 orders from server
+2025-05-27 14:36:43.185 +03:00 [INF] No orders found for master
+2025-05-27 14:36:43.185 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:38:13.025 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:38:13.026 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:38:13.026 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 14:38:13.026 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:38:13.216 +03:00 [DBG] Received 3 orders from server
+2025-05-27 14:38:13.216 +03:00 [INF] No orders found for master
+2025-05-27 14:38:13.216 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:38:13.853 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:38:13.853 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:38:13.853 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:38:13.853 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:38:13.990 +03:00 [INF] Successfully subscribed to queue
+2025-05-27 14:38:14.874 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:38:14.874 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:38:14.875 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-05-27 14:38:14.891 +03:00 [DBG] Queue connection closed successfully
+2025-05-27 14:38:14.892 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:38:15.188 +03:00 [DBG] Received 3 orders from server
+2025-05-27 14:38:15.188 +03:00 [INF] No orders found for master
+2025-05-27 14:38:15.188 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:38:15.516 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:38:15.516 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:38:15.516 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:38:15.516 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:38:15.544 +03:00 [INF] Successfully subscribed to queue
+2025-05-27 14:38:15.988 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 14:38:15.988 +03:00 [INF] Switched to Orders tab
+2025-05-27 14:38:15.988 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-05-27 14:38:15.992 +03:00 [DBG] Queue connection closed successfully
+2025-05-27 14:38:15.992 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 14:38:16.191 +03:00 [DBG] Received 3 orders from server
+2025-05-27 14:38:16.191 +03:00 [INF] No orders found for master
+2025-05-27 14:38:16.191 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 14:38:16.376 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 14:38:16.376 +03:00 [INF] Switched to Queue tab
+2025-05-27 14:38:16.376 +03:00 [DBG] Establishing new queue connection
+2025-05-27 14:38:16.376 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 14:38:16.393 +03:00 [INF] Successfully subscribed to queue
+2025-05-27 14:38:59.073 +03:00 [DBG] Received order from queue: a3f9a21e-6d3d-439d-86ec-ab6201d4f0f0
+2025-05-27 15:24:44.810 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-05-27 15:24:44.813 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:24:44.874 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:24:44.874 +03:00 [INF] No orders found for master
+2025-05-27 15:24:44.874 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:24:46.482 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:24:46.482 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:24:46.482 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:24:46.482 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:24:46.523 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:24:46.523 +03:00 [INF] No orders found for master
+2025-05-27 15:24:46.523 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:24:47.269 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:24:47.270 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:24:49.286 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:24:49.286 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:24:49.286 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:24:49.286 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:24:49.326 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:24:49.326 +03:00 [INF] No orders found for master
+2025-05-27 15:24:49.326 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:24:49.746 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:24:49.746 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:24:50.250 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:24:50.250 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:24:50.250 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:24:50.250 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:24:50.291 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:24:50.291 +03:00 [INF] No orders found for master
+2025-05-27 15:24:50.291 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:24:50.608 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:24:50.608 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:24:51.138 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:24:51.138 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:24:51.138 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:24:51.138 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:24:51.178 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:24:51.178 +03:00 [INF] No orders found for master
+2025-05-27 15:24:51.178 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:24:51.799 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:24:51.799 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:24:52.242 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:24:52.242 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:24:52.242 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:24:52.243 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:24:52.286 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:24:52.286 +03:00 [INF] No orders found for master
+2025-05-27 15:24:52.286 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:24:52.687 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:24:52.687 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:26:44.573 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:26:44.573 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:26:44.573 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:26:44.573 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:26:44.618 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:26:44.618 +03:00 [INF] No orders found for master
+2025-05-27 15:26:44.618 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:26:45.220 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:26:45.221 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:26:48.788 +03:00 [DBG] Tab changed to index: 0
+2025-05-27 15:26:48.788 +03:00 [INF] Switched to Orders tab
+2025-05-27 15:26:48.788 +03:00 [DBG] No active queue connection to disconnect
+2025-05-27 15:26:48.788 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:26:48.829 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:26:48.829 +03:00 [INF] No orders found for master
+2025-05-27 15:26:48.829 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:26:59.213 +03:00 [INF] LoginForm initialization started
+2025-05-27 15:26:59.234 +03:00 [DBG] Initializing gRPC client
+2025-05-27 15:26:59.247 +03:00 [INF] gRPC client initialized successfully
+2025-05-27 15:26:59.247 +03:00 [INF] LoginForm initialized successfully
+2025-05-27 15:27:01.293 +03:00 [INF] Login attempt for user: 1
+2025-05-27 15:27:01.298 +03:00 [DBG] Sending authentication request
+2025-05-27 15:27:01.453 +03:00 [INF] Authentication successful for user: 1
+2025-05-27 15:27:01.453 +03:00 [INF] LoginForm closing
+2025-05-27 15:27:01.490 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-05-27 15:27:01.491 +03:00 [DBG] Initializing gRPC client
+2025-05-27 15:27:01.491 +03:00 [INF] gRPC client initialized successfully with address https://10.8.1.1:9080
+2025-05-27 15:27:01.493 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-27 15:27:01.496 +03:00 [INF] MasterForm initialized successfully
+2025-05-27 15:27:01.561 +03:00 [DBG] Received 4 orders from server
+2025-05-27 15:27:01.563 +03:00 [INF] No orders found for master
+2025-05-27 15:27:01.564 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-27 15:27:02.730 +03:00 [DBG] Tab changed to index: 1
+2025-05-27 15:27:02.730 +03:00 [INF] Switched to Queue tab
+2025-05-27 15:27:02.730 +03:00 [DBG] Establishing new queue connection
+2025-05-27 15:27:02.731 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-27 15:27:02.787 +03:00 [INF] Successfully subscribed to queue
+2025-05-27 15:27:02.812 +03:00 [DBG] Received order from queue: a3f9a21e-6d3d-439d-86ec-ab6201d4f0f0
+2025-05-27 15:27:02.854 +03:00 [DBG] Received order from queue: 5c9a0ef1-263a-40d1-9b5a-77d7a56bffbb
+2025-05-27 15:27:02.888 +03:00 [DBG] Received order from queue: 171571ad-5061-44c9-9614-23c30a887f6f

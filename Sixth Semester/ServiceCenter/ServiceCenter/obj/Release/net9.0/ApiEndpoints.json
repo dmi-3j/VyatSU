@@ -1,0 +1,20 @@
+[
+  {
+    "ContainingType": "ServiceCenterServer.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CCreateHostBuilder\u003Eb__1_7",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

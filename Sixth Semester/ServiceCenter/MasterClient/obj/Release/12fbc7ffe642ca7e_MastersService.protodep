@@ -1,0 +1,2 @@
+obj\Release\Protos/MastersService.cs \
+obj\Release\Protos/MastersServiceGrpc.cs: Protos/MastersService.proto

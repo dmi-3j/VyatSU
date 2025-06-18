@@ -1,0 +1,2 @@
+obj\Release\Protos/AssignmentService.cs \
+obj\Release\Protos/AssignmentServiceGrpc.cs: Protos/AssignmentService.proto

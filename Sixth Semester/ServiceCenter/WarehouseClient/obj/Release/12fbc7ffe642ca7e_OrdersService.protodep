@@ -1,0 +1,2 @@
+obj\Release\Protos/OrdersService.cs \
+obj\Release\Protos/OrdersServiceGrpc.cs: Protos/OrdersService.proto

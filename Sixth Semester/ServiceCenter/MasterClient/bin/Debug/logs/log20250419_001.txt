@@ -1,0 +1,2269 @@
+2025-04-19 02:37:22.612 +03:00 [INF] LoginForm initialization started
+2025-04-19 02:37:22.675 +03:00 [DBG] Initializing gRPC client
+2025-04-19 02:37:22.692 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 02:37:22.692 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 02:37:24.795 +03:00 [INF] LoginForm closing
+2025-04-19 03:07:19.859 +03:00 [INF] LoginForm initialization started
+2025-04-19 03:07:19.887 +03:00 [DBG] Initializing gRPC client
+2025-04-19 03:07:19.907 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 03:07:19.907 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 03:07:22.320 +03:00 [INF] Login attempt for user: 1
+2025-04-19 03:07:22.325 +03:00 [DBG] Sending authentication request
+2025-04-19 03:07:22.598 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 03:07:22.599 +03:00 [INF] LoginForm closing
+2025-04-19 03:07:22.688 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:22.689 +03:00 [DBG] Initializing gRPC client
+2025-04-19 03:07:22.689 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 03:07:22.693 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:22.697 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 03:07:22.799 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:22.837 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:07:24.513 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:07:24.513 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:07:24.514 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:07:24.516 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:07:24.717 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:07:24.762 +03:00 [DBG] Received order from queue: f8d9444a-3e5d-4875-8784-220b8520a87b
+2025-04-19 03:07:24.827 +03:00 [DBG] Received order from queue: 9b6a5d93-e38d-4a58-b5a6-db7faeca0b19
+2025-04-19 03:07:24.949 +03:00 [DBG] Received order from queue: bfadbe1d-00c8-48b7-8b14-fd07e994ce7e
+2025-04-19 03:07:25.110 +03:00 [DBG] Received order from queue: 54810d18-251a-4c85-94e5-e2aa7fcfa5b5
+2025-04-19 03:07:27.272 +03:00 [DBG] Accepting order ID: 54810d18-251a-4c85-94e5-e2aa7fcfa5b5
+2025-04-19 03:07:27.390 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:27.390 +03:00 [INF] Order accepted successfully
+2025-04-19 03:07:27.390 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:07:27.537 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:07:27.539 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:07:27.539 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:07:27.555 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:07:27.555 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:27.555 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:27.569 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:27.569 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:27.584 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:29.221 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:07:29.222 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:07:29.222 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:07:29.222 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:07:29.266 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:07:29.267 +03:00 [DBG] Received order from queue: f8d9444a-3e5d-4875-8784-220b8520a87b
+2025-04-19 03:07:29.345 +03:00 [DBG] Received order from queue: 9b6a5d93-e38d-4a58-b5a6-db7faeca0b19
+2025-04-19 03:07:29.411 +03:00 [DBG] Received order from queue: bfadbe1d-00c8-48b7-8b14-fd07e994ce7e
+2025-04-19 03:07:31.639 +03:00 [DBG] Accepting order ID: bfadbe1d-00c8-48b7-8b14-fd07e994ce7e
+2025-04-19 03:07:31.798 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:31.798 +03:00 [INF] Order accepted successfully
+2025-04-19 03:07:31.798 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:07:31.934 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:07:31.934 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:07:31.934 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:07:31.956 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:07:31.957 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:31.957 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:31.994 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:31.994 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:32.010 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:33.353 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:07:33.353 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:07:33.353 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:07:33.353 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:07:33.411 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:07:33.411 +03:00 [DBG] Received order from queue: f8d9444a-3e5d-4875-8784-220b8520a87b
+2025-04-19 03:07:33.484 +03:00 [DBG] Received order from queue: 9b6a5d93-e38d-4a58-b5a6-db7faeca0b19
+2025-04-19 03:07:35.446 +03:00 [DBG] Accepting order ID: 9b6a5d93-e38d-4a58-b5a6-db7faeca0b19
+2025-04-19 03:07:35.539 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:35.539 +03:00 [INF] Order accepted successfully
+2025-04-19 03:07:35.539 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:07:35.694 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:07:35.694 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:07:35.694 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:07:35.705 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:07:35.705 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:35.706 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:35.728 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:35.729 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:35.743 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:36.877 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:07:36.877 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:07:36.877 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:07:36.877 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:07:36.919 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:07:36.919 +03:00 [DBG] Received order from queue: f8d9444a-3e5d-4875-8784-220b8520a87b
+2025-04-19 03:07:38.332 +03:00 [DBG] Accepting order ID: f8d9444a-3e5d-4875-8784-220b8520a87b
+2025-04-19 03:07:38.387 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:38.387 +03:00 [INF] Order accepted successfully
+2025-04-19 03:07:38.387 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:07:38.491 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:07:38.491 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:07:38.491 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:07:38.524 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:07:38.524 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:07:38.524 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:38.539 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:07:38.539 +03:00 [DBG] Received 3 orders from server
+2025-04-19 03:07:38.553 +03:00 [INF] Displaying 3 orders
+2025-04-19 03:42:00.812 +03:00 [INF] LoginForm initialization started
+2025-04-19 03:42:00.840 +03:00 [DBG] Initializing gRPC client
+2025-04-19 03:42:00.856 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 03:42:00.856 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 03:42:03.437 +03:00 [INF] Login attempt for user: 1
+2025-04-19 03:42:03.443 +03:00 [DBG] Sending authentication request
+2025-04-19 03:42:03.774 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 03:42:03.775 +03:00 [INF] LoginForm closing
+2025-04-19 03:42:03.852 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:03.852 +03:00 [DBG] Initializing gRPC client
+2025-04-19 03:42:03.852 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 03:42:03.855 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:03.858 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 03:42:03.982 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:04.025 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:07.473 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:42:07.473 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:42:07.473 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:42:07.475 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:42:07.615 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:42:07.647 +03:00 [DBG] Received order from queue: a12be477-8e24-4385-8bb7-f59d00d5a6d9
+2025-04-19 03:42:07.700 +03:00 [DBG] Received order from queue: 94f7380e-ef20-4f9f-bf44-98acebf71aed
+2025-04-19 03:42:07.768 +03:00 [DBG] Received order from queue: b54e769f-1301-451b-b2e4-8debe4546988
+2025-04-19 03:42:07.816 +03:00 [DBG] Received order from queue: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:42:13.160 +03:00 [DBG] Accepting order ID: b54e769f-1301-451b-b2e4-8debe4546988
+2025-04-19 03:42:13.400 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:13.400 +03:00 [INF] Order accepted successfully
+2025-04-19 03:42:13.400 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:42:13.575 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:42:13.575 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:42:13.575 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:42:13.877 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:42:13.877 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:13.877 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:13.892 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:13.980 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:13.987 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:14.619 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:42:14.619 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:42:14.619 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:42:14.619 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:42:14.631 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:42:14.631 +03:00 [DBG] Received order from queue: a12be477-8e24-4385-8bb7-f59d00d5a6d9
+2025-04-19 03:42:14.667 +03:00 [DBG] Received order from queue: 94f7380e-ef20-4f9f-bf44-98acebf71aed
+2025-04-19 03:42:14.730 +03:00 [DBG] Received order from queue: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:42:16.063 +03:00 [DBG] Accepting order ID: a12be477-8e24-4385-8bb7-f59d00d5a6d9
+2025-04-19 03:42:16.244 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:16.244 +03:00 [INF] Order accepted successfully
+2025-04-19 03:42:16.244 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:42:16.427 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:42:16.427 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:42:16.427 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:42:16.532 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:42:16.532 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:16.532 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:16.547 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:16.913 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:16.932 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:37.456 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:42:37.456 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:42:37.456 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:42:37.456 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:42:37.487 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:42:37.487 +03:00 [DBG] Received order from queue: 94f7380e-ef20-4f9f-bf44-98acebf71aed
+2025-04-19 03:42:37.536 +03:00 [DBG] Received order from queue: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:42:39.842 +03:00 [DBG] Accepting order ID: 94f7380e-ef20-4f9f-bf44-98acebf71aed
+2025-04-19 03:42:40.100 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:40.101 +03:00 [INF] Order accepted successfully
+2025-04-19 03:42:40.101 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:42:40.217 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:42:40.218 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:42:40.218 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:42:40.223 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:42:40.224 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:40.224 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:40.234 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:40.307 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:40.322 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:42:42.320 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:42:42.321 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:42:42.321 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:42:42.321 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:42:42.377 +03:00 [DBG] Received order from queue: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:42:42.377 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:42:43.715 +03:00 [DBG] Accepting order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:42:44.047 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:44.047 +03:00 [INF] Order accepted successfully
+2025-04-19 03:42:44.047 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:42:44.187 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:42:44.187 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:42:44.187 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:42:44.189 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:42:44.190 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:42:44.190 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:44.197 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:42:44.312 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:42:44.327 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:42:51.546 +03:00 [DBG] Loading parts for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:42:51.680 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 03:46:47.526 +03:00 [DBG] Attempting to add part to order
+2025-04-19 03:46:47.530 +03:00 [DBG] Adding part: Дисплей, Model: RH3-001, Quantity: 1
+2025-04-19 03:46:47.531 +03:00 [DBG] Added new part to order
+2025-04-19 03:46:47.547 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 03:46:49.517 +03:00 [DBG] Updating order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:46:49.544 +03:00 [DBG] Updating order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:46:49.710 +03:00 [INF] Order updated successfully
+2025-04-19 03:46:49.710 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 03:46:49.746 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:46:49.841 +03:00 [INF] Order updated successfully
+2025-04-19 03:46:49.841 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 03:46:49.867 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:46:49.867 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:46:49.875 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:46:49.991 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:46:50.003 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:46:54.411 +03:00 [DBG] Loading parts for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:46:54.507 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:46:58.232 +03:00 [DBG] Sending warehouse request for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:46:58.426 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 03:46:58.426 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 03:46:58.470 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:46:58.509 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:46:58.518 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:47:45.888 +03:00 [DBG] Loading parts for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:47:46.036 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:47:47.250 +03:00 [DBG] Sending warehouse request for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:47:47.391 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 03:47:47.391 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 03:47:47.417 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:47:47.504 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:47:47.513 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:47:51.585 +03:00 [DBG] Loading parts for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:47:51.659 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:47:54.962 +03:00 [DBG] Attempting to add part to order
+2025-04-19 03:47:54.964 +03:00 [WRN] No part type selected
+2025-04-19 03:47:54.964 +03:00 [DBG] Showing notification: Предупреждение - Выберите комплектующее.
+2025-04-19 03:48:55.967 +03:00 [DBG] Attempting to add part to order
+2025-04-19 03:48:55.968 +03:00 [DBG] Adding part: Дисплей, Model: RH3-001, Quantity: 1
+2025-04-19 03:48:55.970 +03:00 [DBG] Updated existing part quantity to 2
+2025-04-19 03:48:56.000 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 03:48:57.333 +03:00 [DBG] Sending warehouse request for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:48:57.441 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 03:48:57.441 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 03:48:57.476 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:48:57.567 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:48:57.582 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:48:59.524 +03:00 [WRN] Order update attempted without selection
+2025-04-19 03:48:59.524 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите заказ.
+2025-04-19 03:48:59.602 +03:00 [WRN] Order update attempted without selection
+2025-04-19 03:48:59.602 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите заказ.
+2025-04-19 03:49:01.889 +03:00 [DBG] Loading parts for order ID: 786a66d7-9467-41b5-9eb3-09f77e30e073
+2025-04-19 03:49:02.071 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:50:39.018 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 03:50:39.019 +03:00 [INF] Switched to Queue tab
+2025-04-19 03:50:39.019 +03:00 [DBG] Establishing new queue connection
+2025-04-19 03:50:39.019 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 03:50:39.043 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 03:50:39.043 +03:00 [DBG] Received order from queue: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:50:40.462 +03:00 [DBG] Accepting order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:50:40.663 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:50:40.665 +03:00 [INF] Order accepted successfully
+2025-04-19 03:50:40.665 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 03:50:40.740 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 03:50:40.740 +03:00 [INF] Switched to Orders tab
+2025-04-19 03:50:40.740 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 03:50:40.745 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 03:50:40.745 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:50:40.745 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:50:40.756 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:50:40.888 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:50:40.896 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:50:43.961 +03:00 [DBG] Loading parts for order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:50:44.137 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 03:50:56.610 +03:00 [DBG] Attempting to add part to order
+2025-04-19 03:50:56.611 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 03:50:56.611 +03:00 [DBG] Added new part to order
+2025-04-19 03:50:56.624 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 03:50:57.759 +03:00 [DBG] Updating order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:50:57.759 +03:00 [DBG] Updating order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:50:57.826 +03:00 [INF] Order updated successfully
+2025-04-19 03:50:57.826 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 03:50:57.867 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:50:57.869 +03:00 [INF] Order updated successfully
+2025-04-19 03:50:57.869 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 03:50:57.970 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:50:57.997 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:50:58.009 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:50:58.243 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:50:58.252 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:51:00.501 +03:00 [DBG] Loading parts for order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:51:00.666 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:51:01.642 +03:00 [DBG] Sending warehouse request for order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:51:01.706 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 03:51:01.707 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 03:51:01.735 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:51:01.791 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:51:01.803 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:51:06.440 +03:00 [DBG] Loading parts for order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:51:06.553 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:51:07.410 +03:00 [DBG] Sending warehouse request for order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:51:07.446 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 03:51:07.446 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 03:51:07.484 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:51:07.670 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:51:07.684 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:51:58.782 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 03:51:58.784 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:51:58.897 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:51:58.909 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:52:01.828 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 03:52:01.828 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:52:01.897 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:52:01.913 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:52:02.049 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 03:52:02.049 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:52:02.097 +03:00 [DBG] Received 2 orders from server
+2025-04-19 03:52:02.107 +03:00 [INF] Displaying 2 orders
+2025-04-19 03:52:04.305 +03:00 [DBG] Loading parts for order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:52:04.360 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 03:52:08.469 +03:00 [DBG] Updating order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:52:08.469 +03:00 [DBG] Updating order ID: 96f0f181-8894-4eb5-beca-97455242087f
+2025-04-19 03:52:08.570 +03:00 [INF] Order updated successfully
+2025-04-19 03:52:08.570 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 03:52:08.597 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:52:08.597 +03:00 [INF] Order updated successfully
+2025-04-19 03:52:08.597 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 03:52:08.624 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 03:52:08.646 +03:00 [DBG] Received 1 orders from server
+2025-04-19 03:52:08.655 +03:00 [INF] Displaying 1 orders
+2025-04-19 03:52:08.731 +03:00 [DBG] Received 1 orders from server
+2025-04-19 03:52:08.763 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:00:27.307 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:00:27.341 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:00:27.359 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:00:27.359 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:00:34.299 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:00:34.303 +03:00 [DBG] Sending authentication request
+2025-04-19 04:00:34.589 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:00:34.590 +03:00 [INF] LoginForm closing
+2025-04-19 04:00:34.652 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:00:34.653 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:00:34.653 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:00:34.657 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:00:34.660 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:00:34.791 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:00:34.826 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:00:44.313 +03:00 [DBG] Loading parts for order ID: 0d1f7150-02ae-4fbd-a079-623b4612f5bd
+2025-04-19 04:00:44.364 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:01:04.305 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:01:04.306 +03:00 [DBG] Adding part: Дисплей, Model: RH3-001, Quantity: 1
+2025-04-19 04:01:04.306 +03:00 [DBG] Added new part to order
+2025-04-19 04:01:04.315 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:01:05.745 +03:00 [DBG] Updating order ID: 0d1f7150-02ae-4fbd-a079-623b4612f5bd
+2025-04-19 04:01:05.783 +03:00 [DBG] Updating order ID: 0d1f7150-02ae-4fbd-a079-623b4612f5bd
+2025-04-19 04:01:05.854 +03:00 [INF] Order updated successfully
+2025-04-19 04:01:05.855 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:01:05.883 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:01:05.883 +03:00 [INF] Order updated successfully
+2025-04-19 04:01:05.883 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:01:05.923 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:01:05.947 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:01:05.959 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:01:06.067 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:01:06.111 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:01:07.136 +03:00 [DBG] Loading parts for order ID: 0d1f7150-02ae-4fbd-a079-623b4612f5bd
+2025-04-19 04:01:07.173 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:01:08.408 +03:00 [DBG] Sending warehouse request for order ID: 0d1f7150-02ae-4fbd-a079-623b4612f5bd
+2025-04-19 04:01:08.460 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:01:08.460 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:01:08.489 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:01:08.526 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:01:08.533 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:01:40.785 +03:00 [DBG] Loading parts for order ID: 0d1f7150-02ae-4fbd-a079-623b4612f5bd
+2025-04-19 04:01:40.895 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:01:44.321 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:01:44.326 +03:00 [WRN] Attempt to remove parts after warehouse request was sent
+2025-04-19 04:01:44.326 +03:00 [DBG] Showing notification: Предупреждение - Невозможно удалить комплектующие, так как заявка на склад уже отправлена.
+2025-04-19 04:01:45.843 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:01:45.843 +03:00 [WRN] Attempt to remove parts after warehouse request was sent
+2025-04-19 04:01:45.843 +03:00 [DBG] Showing notification: Предупреждение - Невозможно удалить комплектующие, так как заявка на склад уже отправлена.
+2025-04-19 04:02:28.660 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:02:28.661 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:02:28.813 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:02:28.813 +03:00 [INF] No orders found for master
+2025-04-19 04:02:28.813 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-04-19 04:02:29.978 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:02:29.979 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:02:29.979 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:02:29.984 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:02:30.077 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:02:30.136 +03:00 [DBG] Received order from queue: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:30.237 +03:00 [DBG] Received order from queue: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:02:30.304 +03:00 [DBG] Received order from queue: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:02:30.385 +03:00 [DBG] Received order from queue: 8bd00b43-7957-4eec-878a-7f523a6973d8
+2025-04-19 04:02:33.245 +03:00 [DBG] Accepting order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:33.411 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:02:33.411 +03:00 [INF] Order accepted successfully
+2025-04-19 04:02:33.411 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:02:33.683 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:02:33.683 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:02:33.683 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:02:33.701 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:02:33.701 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:02:33.702 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:02:33.716 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:02:33.824 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:02:33.869 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:02:35.207 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:35.253 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:02:50.457 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:02:50.457 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 04:02:50.457 +03:00 [DBG] Added new part to order
+2025-04-19 04:02:50.468 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:02:51.551 +03:00 [DBG] Updating order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:51.551 +03:00 [DBG] Updating order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:51.627 +03:00 [INF] Order updated successfully
+2025-04-19 04:02:51.627 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:02:51.661 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:02:51.694 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:02:51.704 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:02:51.797 +03:00 [INF] Order updated successfully
+2025-04-19 04:02:51.797 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:02:51.831 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:02:51.871 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:02:51.884 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:02:52.951 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:53.113 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:02:53.948 +03:00 [DBG] Sending warehouse request for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:02:54.001 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:02:54.001 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:02:54.025 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:02:54.068 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:02:54.077 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:03:26.903 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:27.048 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:03:39.032 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:03:39.032 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 04:03:39.034 +03:00 [DBG] Updated existing part quantity to 2
+2025-04-19 04:03:39.039 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:03:40.711 +03:00 [DBG] Sending warehouse request for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:40.806 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:03:40.806 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:03:40.842 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:03:40.913 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:03:40.938 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:03:45.037 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:45.162 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:03:54.852 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:03:54.852 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 04:03:54.852 +03:00 [DBG] Updated existing part quantity to 2
+2025-04-19 04:03:54.884 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:03:56.124 +03:00 [DBG] Updating order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:56.124 +03:00 [DBG] Updating order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:56.193 +03:00 [INF] Order updated successfully
+2025-04-19 04:03:56.193 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:03:56.229 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:03:56.229 +03:00 [INF] Order updated successfully
+2025-04-19 04:03:56.229 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:03:56.267 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:03:56.296 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:03:56.312 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:03:56.423 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:03:56.436 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:03:57.335 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:57.618 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:03:58.404 +03:00 [DBG] Sending warehouse request for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:03:58.457 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:03:58.457 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:03:58.487 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:03:58.541 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:03:58.554 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:04:22.157 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:04:22.220 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:04:32.595 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:04:32.596 +03:00 [DBG] Adding part: Дисплей, Model: RH-o-1, Quantity: 1
+2025-04-19 04:04:32.596 +03:00 [DBG] Added new part to order
+2025-04-19 04:04:32.628 +03:00 [INF] Parts list updated. Total parts: 2
+2025-04-19 04:04:33.695 +03:00 [DBG] Updating order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:04:33.696 +03:00 [DBG] Updating order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:04:33.799 +03:00 [INF] Order updated successfully
+2025-04-19 04:04:33.799 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:04:33.828 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:04:33.892 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:04:33.901 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:04:33.997 +03:00 [INF] Order updated successfully
+2025-04-19 04:04:33.997 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:04:34.029 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:04:34.177 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:04:34.185 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:04:35.496 +03:00 [DBG] Loading parts for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:04:35.536 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:04:39.487 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:04:39.487 +03:00 [INF] Removing part: Аккумулятор (Model: BL-4C, Qty: 2)
+2025-04-19 04:04:39.496 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:04:43.289 +03:00 [DBG] Sending warehouse request for order ID: d80ef541-2316-4e12-915f-031e30c1e110
+2025-04-19 04:04:43.386 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:04:43.386 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:04:43.427 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:04:43.521 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:04:43.530 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:05:12.736 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:05:12.736 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:05:12.867 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:05:12.893 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:05:13.158 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:05:13.158 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:05:13.158 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:05:13.158 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:05:13.265 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:05:13.274 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:05:13.274 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:05:13.280 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:19:20.342 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:19:20.370 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:19:20.394 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:19:20.394 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:19:34.844 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:19:34.853 +03:00 [DBG] Sending authentication request
+2025-04-19 04:19:35.232 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:19:35.233 +03:00 [INF] LoginForm closing
+2025-04-19 04:19:35.320 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:19:35.322 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:19:35.322 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:19:35.330 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:19:35.340 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:19:35.452 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:19:35.456 +03:00 [INF] No orders found for master
+2025-04-19 04:19:35.456 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-04-19 04:19:40.722 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:19:40.722 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:19:40.722 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:19:40.726 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:19:40.834 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:19:40.892 +03:00 [DBG] Received order from queue: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:19:40.967 +03:00 [DBG] Received order from queue: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:19:41.026 +03:00 [DBG] Received order from queue: 8bd00b43-7957-4eec-878a-7f523a6973d8
+2025-04-19 04:19:41.207 +03:00 [DBG] Received order from queue: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:19:45.741 +03:00 [DBG] Accepting order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:19:46.129 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:19:46.129 +03:00 [INF] Order accepted successfully
+2025-04-19 04:19:46.129 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:19:46.248 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:19:46.249 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:19:46.249 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:19:46.264 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:19:46.264 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:19:46.264 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:19:46.284 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:19:46.347 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:19:46.361 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:22:56.993 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:22:57.039 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:22:57.061 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:22:57.061 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:23:07.689 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:23:07.698 +03:00 [DBG] Sending authentication request
+2025-04-19 04:23:07.993 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:23:07.993 +03:00 [INF] LoginForm closing
+2025-04-19 04:23:08.062 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:08.062 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:23:08.063 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:23:08.065 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:08.069 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:23:08.179 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:08.213 +03:00 [INF] Displaying 1 orders
+2025-04-19 04:23:09.892 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:23:09.892 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:23:09.892 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:23:09.894 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:23:09.972 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:23:10.003 +03:00 [DBG] Received order from queue: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:23:10.049 +03:00 [DBG] Received order from queue: 8bd00b43-7957-4eec-878a-7f523a6973d8
+2025-04-19 04:23:10.203 +03:00 [DBG] Received order from queue: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:23:10.247 +03:00 [DBG] Received order from queue: 7e7cb5df-8212-47b6-94c3-aba05711332c
+2025-04-19 04:23:12.377 +03:00 [DBG] Accepting order ID: 7e7cb5df-8212-47b6-94c3-aba05711332c
+2025-04-19 04:23:12.547 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:12.548 +03:00 [INF] Order accepted successfully
+2025-04-19 04:23:12.548 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:23:12.777 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:23:12.778 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:23:12.778 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:23:12.789 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:23:12.789 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:12.790 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:12.802 +03:00 [INF] Displaying 2 orders
+2025-04-19 04:23:12.968 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:12.980 +03:00 [INF] Displaying 2 orders
+2025-04-19 04:23:13.512 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:23:13.512 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:23:13.513 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:23:13.513 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:23:13.585 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:23:13.585 +03:00 [DBG] Received order from queue: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:23:13.639 +03:00 [DBG] Received order from queue: 8bd00b43-7957-4eec-878a-7f523a6973d8
+2025-04-19 04:23:13.714 +03:00 [DBG] Received order from queue: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:23:16.083 +03:00 [DBG] Accepting order ID: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:23:16.319 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:16.319 +03:00 [INF] Order accepted successfully
+2025-04-19 04:23:16.319 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:23:16.491 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:23:16.491 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:23:16.491 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:23:16.501 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:23:16.502 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:16.502 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:16.512 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:23:16.854 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:16.865 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:23:17.667 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:23:17.667 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:23:17.667 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:23:17.667 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:23:17.681 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:23:17.681 +03:00 [DBG] Received order from queue: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:23:17.734 +03:00 [DBG] Received order from queue: 8bd00b43-7957-4eec-878a-7f523a6973d8
+2025-04-19 04:23:20.286 +03:00 [DBG] Accepting order ID: 8bd00b43-7957-4eec-878a-7f523a6973d8
+2025-04-19 04:23:20.476 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:20.477 +03:00 [INF] Order accepted successfully
+2025-04-19 04:23:20.477 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:23:20.584 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:23:20.584 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:23:20.584 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:23:20.590 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:23:20.590 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:20.590 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:20.608 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:23:20.739 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:20.751 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:23:22.633 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:23:22.633 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:23:22.633 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:23:22.633 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:23:22.657 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:23:22.657 +03:00 [DBG] Received order from queue: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:23:24.319 +03:00 [DBG] Accepting order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:23:24.434 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:24.434 +03:00 [INF] Order accepted successfully
+2025-04-19 04:23:24.434 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:23:24.542 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:23:24.542 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:23:24.542 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:23:24.554 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:23:24.554 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:23:24.554 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:24.565 +03:00 [INF] Displaying 4 orders
+2025-04-19 04:23:24.744 +03:00 [DBG] Received 4 orders from server
+2025-04-19 04:23:24.755 +03:00 [INF] Displaying 4 orders
+2025-04-19 04:27:31.752 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:27:31.753 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:27:31.900 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:27:31.954 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:27:31.955 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:27:31.955 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:27:32.236 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:27:32.245 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:27:32.246 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:27:32.246 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:27:32.246 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:27:32.246 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:27:32.418 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:27:32.426 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:27:32.426 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:27:32.433 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:27:33.847 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:27:33.847 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:27:33.847 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:27:33.847 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:27:33.881 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:27:33.881 +03:00 [DBG] Received order from queue: e76a7543-7c47-41f0-8b72-213b4a7fd585
+2025-04-19 04:27:35.689 +03:00 [DBG] Accepting order ID: e76a7543-7c47-41f0-8b72-213b4a7fd585
+2025-04-19 04:27:35.859 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:27:35.859 +03:00 [INF] Order accepted successfully
+2025-04-19 04:27:35.859 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:27:35.921 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:27:35.921 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:27:35.921 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:27:35.926 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:27:35.927 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:27:35.927 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:27:35.938 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:27:36.136 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:27:36.147 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:28:07.832 +03:00 [DBG] Loading parts for order ID: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:28:07.938 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:28:41.236 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:28:41.240 +03:00 [DBG] Adding part: Дисплей, Model: RH-o-1, Quantity: 1
+2025-04-19 04:28:41.242 +03:00 [DBG] Added new part to order
+2025-04-19 04:28:41.276 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:28:42.781 +03:00 [DBG] Updating order ID: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:28:42.790 +03:00 [DBG] Updating order ID: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:28:42.914 +03:00 [INF] Order updated successfully
+2025-04-19 04:28:42.914 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:28:42.941 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:28:42.941 +03:00 [INF] Order updated successfully
+2025-04-19 04:28:42.941 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:28:42.979 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:28:43.001 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:28:43.009 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:28:43.324 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:28:43.336 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:28:45.062 +03:00 [DBG] Loading parts for order ID: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:28:45.246 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:28:53.885 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:28:53.906 +03:00 [INF] Removing part: Дисплей (Model: RH-o-1, Qty: 1)
+2025-04-19 04:28:53.914 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:28:55.712 +03:00 [DBG] Sending warehouse request for order ID: 56e99a9a-7de5-4d9e-81f2-b584a1064970
+2025-04-19 04:28:55.784 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:28:55.784 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:28:55.814 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:28:55.914 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:28:55.923 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:29:42.992 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:29:42.994 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:29:43.094 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:29:43.102 +03:00 [INF] Displaying 2 orders
+2025-04-19 04:29:43.535 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:29:43.535 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:29:43.537 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:29:43.538 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:29:43.784 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:29:43.797 +03:00 [INF] Displaying 2 orders
+2025-04-19 04:29:43.797 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:29:43.812 +03:00 [INF] Displaying 2 orders
+2025-04-19 04:29:44.648 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:29:44.648 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:29:44.648 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:29:44.648 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:29:44.711 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:29:44.711 +03:00 [DBG] Received order from queue: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:29:46.628 +03:00 [DBG] Accepting order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:29:46.752 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:29:46.752 +03:00 [INF] Order accepted successfully
+2025-04-19 04:29:46.752 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:29:46.827 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:29:46.827 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:29:46.827 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:29:46.830 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:29:46.831 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:29:46.831 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:29:46.843 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:29:46.931 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:29:46.948 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:30:01.227 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:30:01.229 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:30:01.229 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:30:06.375 +03:00 [DBG] Loading parts for order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:06.421 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:30:07.910 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:30:07.910 +03:00 [DBG] Adding part: Дисплей, Model: RH-o-1, Quantity: 1
+2025-04-19 04:30:07.910 +03:00 [DBG] Added new part to order
+2025-04-19 04:30:07.921 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:30:09.865 +03:00 [DBG] Updating order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:09.866 +03:00 [DBG] Updating order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:09.991 +03:00 [INF] Order updated successfully
+2025-04-19 04:30:09.991 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:30:10.016 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:30:10.017 +03:00 [INF] Order updated successfully
+2025-04-19 04:30:10.017 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:30:10.052 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:30:10.084 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:30:10.094 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:30:10.252 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:30:10.268 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:30:11.906 +03:00 [DBG] Loading parts for order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:11.963 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:30:18.452 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:30:18.453 +03:00 [INF] Removing part: Дисплей (Model: RH-o-1, Qty: 1)
+2025-04-19 04:30:18.459 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:30:20.422 +03:00 [DBG] Updating order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:20.423 +03:00 [DBG] Updating order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:20.575 +03:00 [INF] Order updated successfully
+2025-04-19 04:30:20.575 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:30:20.601 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:30:20.601 +03:00 [INF] Order updated successfully
+2025-04-19 04:30:20.601 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:30:20.636 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:30:20.667 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:30:20.678 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:30:20.835 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:30:20.854 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:30:21.996 +03:00 [DBG] Loading parts for order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:22.047 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:30:23.035 +03:00 [DBG] Sending warehouse request for order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:23.149 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:30:23.149 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:30:23.177 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:30:23.267 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:30:23.277 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:30:27.409 +03:00 [DBG] Loading parts for order ID: ebda7a93-81b3-4b7f-9827-8f281de5f473
+2025-04-19 04:30:27.568 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:31:49.208 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 04:31:49.209 +03:00 [INF] Switched to Queue tab
+2025-04-19 04:31:49.209 +03:00 [DBG] Establishing new queue connection
+2025-04-19 04:31:49.209 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 04:31:49.240 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 04:31:49.240 +03:00 [DBG] Received order from queue: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:31:50.565 +03:00 [DBG] Accepting order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:31:50.753 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:31:50.755 +03:00 [INF] Order accepted successfully
+2025-04-19 04:31:50.755 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 04:31:50.851 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 04:31:50.851 +03:00 [INF] Switched to Orders tab
+2025-04-19 04:31:50.851 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 04:31:50.857 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 04:31:50.857 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:31:50.857 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:31:50.867 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:31:51.011 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:31:51.021 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:31:58.105 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:31:58.106 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:31:58.106 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:32:02.401 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:02.586 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:32:03.333 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:32:03.333 +03:00 [DBG] Adding part: Дисплей, Model: RH3, Quantity: 1
+2025-04-19 04:32:03.333 +03:00 [DBG] Added new part to order
+2025-04-19 04:32:03.341 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:32:04.290 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:04.291 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:04.509 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:04.509 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:04.542 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:04.542 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:04.542 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:04.573 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:04.584 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:04.590 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:04.722 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:04.747 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:07.166 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:07.335 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:32:14.752 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:32:14.752 +03:00 [DBG] Adding part: Аккумулятор, Model: 11, Quantity: 1
+2025-04-19 04:32:14.752 +03:00 [DBG] Added new part to order
+2025-04-19 04:32:14.778 +03:00 [INF] Parts list updated. Total parts: 3
+2025-04-19 04:32:15.986 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:15.986 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:16.135 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:16.135 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:16.165 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:16.165 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:16.165 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:16.197 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:16.214 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:16.225 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:16.322 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:16.337 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:18.307 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:18.355 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:32:24.251 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:24.252 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:32:24.301 +03:00 [DBG] Part removed successfully. Remaining parts: 2
+2025-04-19 04:32:24.518 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:24.519 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:32:24.577 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:32:24.593 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:24.593 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:32:24.622 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:32:24.704 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:24.705 +03:00 [WRN] No part selected for removal
+2025-04-19 04:32:24.705 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите комплектующее для удаления.
+2025-04-19 04:32:26.375 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:26.549 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:32:29.657 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:29.658 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:32:29.674 +03:00 [DBG] Part removed successfully. Remaining parts: 2
+2025-04-19 04:32:29.785 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:29.785 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:32:29.795 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:32:29.916 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:29.916 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:32:29.951 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:32:30.116 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:30.117 +03:00 [WRN] No part selected for removal
+2025-04-19 04:32:30.117 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите комплектующее для удаления.
+2025-04-19 04:32:32.899 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:32.899 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:33.093 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:33.093 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:33.130 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:33.130 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:33.130 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:33.162 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:33.442 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:33.449 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:33.449 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:33.455 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:34.755 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:34.792 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:32:37.023 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:37.023 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:32:37.058 +03:00 [DBG] Part removed successfully. Remaining parts: 2
+2025-04-19 04:32:37.202 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:37.202 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:32:37.247 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:32:37.367 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:37.367 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:32:37.389 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:32:37.589 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:32:37.590 +03:00 [WRN] No part selected for removal
+2025-04-19 04:32:37.590 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите комплектующее для удаления.
+2025-04-19 04:32:38.812 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:38.813 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:38.956 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:38.956 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:38.985 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:38.986 +03:00 [INF] Order updated successfully
+2025-04-19 04:32:38.986 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:32:39.036 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:39.087 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:39.095 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:39.217 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:39.233 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:41.392 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:32:41.392 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:41.423 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:41.431 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:41.709 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 04:32:41.710 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:32:41.814 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:32:41.831 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:32:44.303 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:32:44.428 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:32:54.130 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:32:54.186 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:33:02.444 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:33:02.446 +03:00 [DBG] Adding part: Аккумулятор, Model: 11, Quantity: 1
+2025-04-19 04:33:02.446 +03:00 [DBG] Added new part to order
+2025-04-19 04:33:02.495 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:33:03.810 +03:00 [DBG] Updating order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:33:03.810 +03:00 [DBG] Updating order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:33:04.027 +03:00 [INF] Order updated successfully
+2025-04-19 04:33:04.027 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:33:04.059 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:33:04.059 +03:00 [INF] Order updated successfully
+2025-04-19 04:33:04.059 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:33:04.102 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:33:04.104 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:33:04.111 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:33:04.284 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:33:04.294 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:33:05.546 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:33:05.691 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:34:07.056 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:34:07.084 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:34:07.100 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:34:07.100 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:34:09.606 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:34:09.615 +03:00 [DBG] Sending authentication request
+2025-04-19 04:34:09.991 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:34:09.991 +03:00 [INF] LoginForm closing
+2025-04-19 04:34:10.068 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:34:10.069 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:34:10.069 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:34:10.071 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:34:10.075 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:34:10.223 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:34:10.259 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:34:12.919 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:34:12.993 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:34:14.147 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:34:14.162 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:34:14.168 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:34:14.372 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:34:14.372 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:34:14.401 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:34:15.716 +03:00 [DBG] Updating order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:34:15.758 +03:00 [DBG] Updating order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:34:15.894 +03:00 [INF] Order updated successfully
+2025-04-19 04:34:15.895 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:34:15.947 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:34:16.012 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:34:16.020 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:34:16.142 +03:00 [INF] Order updated successfully
+2025-04-19 04:34:16.142 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:34:16.212 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:34:16.268 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:34:16.281 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:34:17.524 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:34:17.635 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:34:19.896 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:34:20.064 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:34:23.375 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:34:23.376 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:34:23.395 +03:00 [DBG] Part removed successfully. Remaining parts: 2
+2025-04-19 04:34:23.518 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:34:23.519 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:34:23.538 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:34:23.651 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:34:23.651 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:34:23.681 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:34:23.870 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:34:23.870 +03:00 [WRN] No part selected for removal
+2025-04-19 04:34:23.870 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите комплектующее для удаления.
+2025-04-19 04:34:24.981 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:34:24.982 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:34:25.157 +03:00 [INF] Order updated successfully
+2025-04-19 04:34:25.157 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:34:25.216 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:34:25.325 +03:00 [INF] Order updated successfully
+2025-04-19 04:34:25.334 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:34:25.368 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:34:25.368 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:34:25.382 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:34:25.525 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:34:25.537 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:34:27.629 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:34:27.696 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:38:10.287 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:38:10.315 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:38:10.334 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:38:10.334 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:38:12.982 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:38:12.992 +03:00 [DBG] Sending authentication request
+2025-04-19 04:38:13.294 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:38:13.294 +03:00 [INF] LoginForm closing
+2025-04-19 04:38:13.382 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:38:13.383 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:38:13.383 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:38:13.387 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:38:13.392 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:38:13.505 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:38:13.540 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:38:16.001 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:38:16.054 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:38:17.486 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:38:17.518 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:38:17.525 +03:00 [DBG] Part removed successfully. Remaining parts: 2
+2025-04-19 04:38:17.707 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:38:17.708 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:38:17.748 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:38:17.824 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:38:17.824 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:38:17.839 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:38:19.081 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:38:19.098 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:38:19.163 +03:00 [INF] Order updated successfully
+2025-04-19 04:38:19.164 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:38:19.199 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:38:19.241 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:38:19.254 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:38:19.412 +03:00 [INF] Order updated successfully
+2025-04-19 04:38:19.413 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:38:19.512 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:38:19.648 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:38:19.671 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:38:20.842 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:38:20.960 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:39:18.642 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:39:18.711 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:39:18.756 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:39:18.756 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:39:20.872 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:39:20.877 +03:00 [DBG] Sending authentication request
+2025-04-19 04:39:22.411 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:39:22.412 +03:00 [INF] LoginForm closing
+2025-04-19 04:39:22.475 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:39:22.476 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:39:22.476 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:39:22.478 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:39:22.482 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:39:22.798 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:39:22.858 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:39:25.059 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:25.200 +03:00 [DBG] Loaded 3 parts for order
+2025-04-19 04:39:26.403 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:39:26.420 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:39:26.428 +03:00 [DBG] Part removed successfully. Remaining parts: 2
+2025-04-19 04:39:26.906 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:39:26.906 +03:00 [INF] Removing part: Дисплей (Model: RH3, Qty: 1)
+2025-04-19 04:39:26.913 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:39:27.126 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:39:27.126 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:39:27.146 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:39:28.355 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:28.401 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:28.666 +03:00 [INF] Order updated successfully
+2025-04-19 04:39:28.668 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:39:28.750 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:39:28.938 +03:00 [ERR] Failed to update order
+Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в MasterClient.MasterForm.<BtnUpdateOrder_Click>d__17.MoveNext() в C:\Users\user\Desktop\ServiceCenter\MasterClient\MasterForm.cs:строка 290
+2025-04-19 04:39:28.969 +03:00 [DBG] Showing notification: Ошибка - Ошибка при обновлении заказа: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+2025-04-19 04:39:29.006 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:39:29.016 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:39:31.124 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:31.276 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:39:42.759 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:39:42.759 +03:00 [DBG] Adding part: Дисплей, Model: 111, Quantity: 1
+2025-04-19 04:39:42.759 +03:00 [DBG] Added new part to order
+2025-04-19 04:39:42.765 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:39:44.032 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:44.040 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:44.463 +03:00 [INF] Order updated successfully
+2025-04-19 04:39:44.464 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:39:44.535 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:39:44.538 +03:00 [INF] Order updated successfully
+2025-04-19 04:39:44.538 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:39:44.622 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:39:44.660 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:39:44.685 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:39:44.781 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:39:44.796 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:39:49.279 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:49.371 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:39:52.790 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:39:52.790 +03:00 [INF] Removing part: Дисплей (Model: 111, Qty: 1)
+2025-04-19 04:39:52.800 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:39:53.021 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:39:53.021 +03:00 [INF] Removing part: Дисплей (Model: 111, Qty: 1)
+2025-04-19 04:39:53.032 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:39:54.906 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:54.906 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:55.056 +03:00 [INF] Order updated successfully
+2025-04-19 04:39:55.056 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:39:55.103 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:39:55.103 +03:00 [ERR] Failed to update order
+Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в MasterClient.MasterForm.<BtnUpdateOrder_Click>d__17.MoveNext() в C:\Users\user\Desktop\ServiceCenter\MasterClient\MasterForm.cs:строка 290
+2025-04-19 04:39:55.103 +03:00 [DBG] Showing notification: Ошибка - Ошибка при обновлении заказа: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+2025-04-19 04:39:55.297 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:39:55.307 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:39:58.706 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:39:58.853 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:40:04.421 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:40:04.422 +03:00 [DBG] Adding part: Дисплей, Model: 11, Quantity: 1
+2025-04-19 04:40:04.422 +03:00 [DBG] Added new part to order
+2025-04-19 04:40:04.445 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:40:05.941 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:40:05.941 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:40:06.011 +03:00 [INF] Order updated successfully
+2025-04-19 04:40:06.011 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:40:06.072 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:40:06.172 +03:00 [INF] Order updated successfully
+2025-04-19 04:40:06.172 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:40:06.203 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:40:06.203 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:40:06.211 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:40:06.386 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:40:06.417 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:40:07.625 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:40:07.783 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:42:43.647 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:42:43.671 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:42:43.689 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:42:43.689 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:42:46.191 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:42:46.201 +03:00 [DBG] Sending authentication request
+2025-04-19 04:42:47.798 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:42:47.798 +03:00 [INF] LoginForm closing
+2025-04-19 04:42:47.863 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:42:47.865 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:42:47.865 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:42:47.867 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:42:47.870 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:42:48.130 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:42:48.162 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:42:49.848 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:42:50.037 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:42:51.203 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:42:51.232 +03:00 [INF] Removing part: Дисплей (Model: 11, Qty: 1)
+2025-04-19 04:42:51.287 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:42:51.414 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:42:51.414 +03:00 [INF] Removing part: Дисплей (Model: 11, Qty: 1)
+2025-04-19 04:42:51.424 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:42:52.658 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:42:52.659 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:42:52.668 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:42:52.668 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:42:52.998 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:42:53.000 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:42:53.049 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:42:53.174 +03:00 [ERR] Unexpected error during order update
+Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в MasterClient.MasterForm.<BtnUpdateOrder_Click>d__17.MoveNext() в C:\Users\user\Desktop\ServiceCenter\MasterClient\MasterForm.cs:строка 311
+2025-04-19 04:42:53.191 +03:00 [DBG] Showing notification: Ошибка - Ошибка при обновлении заказа: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+2025-04-19 04:42:53.219 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:42:53.228 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:42:58.362 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:42:58.363 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:42:58.363 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:42:59.987 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:42:59.988 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:42:59.988 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:02.267 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:02.267 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:43:02.268 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:03.060 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:03.060 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:43:03.060 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:03.444 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:03.444 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:43:03.444 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:03.792 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:03.793 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:43:03.793 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:05.426 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:05.427 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:43:05.427 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:05.766 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:05.766 +03:00 [WRN] Attempt to add parts to order with invalid status: null
+2025-04-19 04:43:05.766 +03:00 [DBG] Showing notification: Предупреждение - Комплектующие можно добавлять только для заказов в статусе 'В работе'.
+2025-04-19 04:43:06.389 +03:00 [DBG] Escape key pressed - clearing selection and inputs
+2025-04-19 04:43:06.397 +03:00 [DBG] Escape key pressed - clearing selection and inputs
+2025-04-19 04:43:06.397 +03:00 [DBG] Escape key pressed - clearing selection and inputs
+2025-04-19 04:43:08.454 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:08.499 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:43:13.704 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:13.705 +03:00 [DBG] Adding part: Дисплей, Model: 11, Quantity: 1
+2025-04-19 04:43:13.705 +03:00 [DBG] Added new part to order
+2025-04-19 04:43:13.719 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:43:17.190 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:17.190 +03:00 [DBG] Current parts selection: Дисплей (x1)
+2025-04-19 04:43:17.190 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:17.190 +03:00 [DBG] Current parts selection: Дисплей (x1)
+2025-04-19 04:43:17.317 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:43:17.317 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:17.351 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:17.384 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:17.394 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:17.587 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:43:17.587 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:17.640 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:17.671 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:17.680 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:19.657 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:19.709 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:43:25.619 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:25.767 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:43:36.148 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:43:36.148 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:43:36.155 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:43:36.372 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:43:36.372 +03:00 [INF] Removing part: Аккумулятор (Model: 11, Qty: 1)
+2025-04-19 04:43:36.379 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:43:37.767 +03:00 [DBG] Starting update for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:37.768 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:43:37.769 +03:00 [DBG] Starting update for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:37.769 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:43:37.880 +03:00 [INF] Order ID 27e487fa-0416-43e2-af6f-e0ca6d626482 updated successfully
+2025-04-19 04:43:37.880 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:37.911 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:37.911 +03:00 [INF] Order ID 27e487fa-0416-43e2-af6f-e0ca6d626482 updated successfully
+2025-04-19 04:43:37.911 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:37.946 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:37.957 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:37.965 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:38.087 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:38.099 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:39.894 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:40.038 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:43:40.899 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:43:40.899 +03:00 [INF] Removing part: Дисплей (Model: 11, Qty: 1)
+2025-04-19 04:43:40.906 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:43:41.121 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:43:41.121 +03:00 [INF] Removing part: Дисплей (Model: 11, Qty: 1)
+2025-04-19 04:43:41.128 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:43:42.102 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:42.103 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:43:42.104 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:43:42.104 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:43:42.297 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:43:42.298 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:42.326 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:42.356 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:42.366 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:42.552 +03:00 [ERR] Unexpected error during order update
+Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в MasterClient.MasterForm.<BtnUpdateOrder_Click>d__17.MoveNext() в C:\Users\user\Desktop\ServiceCenter\MasterClient\MasterForm.cs:строка 311
+2025-04-19 04:43:42.553 +03:00 [DBG] Showing notification: Ошибка - Ошибка при обновлении заказа: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+2025-04-19 04:43:43.563 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:43.708 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:43:48.737 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:43:48.737 +03:00 [DBG] Adding part: Дисплей, Model: 4, Quantity: 1
+2025-04-19 04:43:48.737 +03:00 [DBG] Added new part to order
+2025-04-19 04:43:48.753 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:43:50.702 +03:00 [DBG] Starting update for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:50.703 +03:00 [DBG] Current parts selection: Дисплей (x1)
+2025-04-19 04:43:50.703 +03:00 [DBG] Starting update for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:50.703 +03:00 [DBG] Current parts selection: Дисплей (x1)
+2025-04-19 04:43:50.881 +03:00 [INF] Order ID 27e487fa-0416-43e2-af6f-e0ca6d626482 updated successfully
+2025-04-19 04:43:50.881 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:50.918 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:50.918 +03:00 [INF] Order ID 27e487fa-0416-43e2-af6f-e0ca6d626482 updated successfully
+2025-04-19 04:43:50.918 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:50.954 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:51.038 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:51.047 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:51.228 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:51.247 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:43:52.890 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:53.058 +03:00 [DBG] Loaded 2 parts for order
+2025-04-19 04:43:54.797 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:43:54.797 +03:00 [INF] Removing part: Дисплей (Model: 4, Qty: 1)
+2025-04-19 04:43:54.851 +03:00 [DBG] Part removed successfully. Remaining parts: 1
+2025-04-19 04:43:55.295 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:43:55.295 +03:00 [INF] Removing part: Дисплей (Model: 4, Qty: 1)
+2025-04-19 04:43:55.343 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:43:56.436 +03:00 [DBG] Starting update for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:56.437 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:43:56.437 +03:00 [DBG] Starting update for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:43:56.438 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:43:56.621 +03:00 [ERR] Unexpected error during order update
+Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в MasterClient.MasterForm.<BtnUpdateOrder_Click>d__17.MoveNext() в C:\Users\user\Desktop\ServiceCenter\MasterClient\MasterForm.cs:строка 311
+2025-04-19 04:43:56.621 +03:00 [DBG] Showing notification: Ошибка - Ошибка при обновлении заказа: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+2025-04-19 04:43:56.645 +03:00 [INF] Order ID 27e487fa-0416-43e2-af6f-e0ca6d626482 updated successfully
+2025-04-19 04:43:56.645 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:43:56.689 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:43:56.791 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:43:56.802 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:47:05.709 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:47:05.753 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:47:05.779 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:47:05.779 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:47:11.170 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:47:11.179 +03:00 [DBG] Sending authentication request
+2025-04-19 04:47:12.556 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:47:12.557 +03:00 [INF] LoginForm closing
+2025-04-19 04:47:12.633 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:47:12.633 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:47:12.633 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:47:12.637 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:47:12.640 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:47:12.904 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:47:12.931 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:47:15.522 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:15.786 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:47:20.497 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:47:20.501 +03:00 [DBG] Adding part: Дисплей, Model: 1, Quantity: 1
+2025-04-19 04:47:20.502 +03:00 [DBG] Added new part to order
+2025-04-19 04:47:20.527 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:47:21.927 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:21.927 +03:00 [DBG] Current parts selection: Дисплей (x1)
+2025-04-19 04:47:21.952 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:21.953 +03:00 [DBG] Current parts selection: Дисплей (x1)
+2025-04-19 04:47:22.251 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:47:22.256 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:47:22.353 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:47:22.355 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:47:22.355 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:47:22.491 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:47:22.534 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:47:22.547 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:47:22.689 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:47:22.697 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:47:24.345 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:24.441 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:47:32.471 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:47:32.486 +03:00 [INF] Removing part: Дисплей (Model: 1, Qty: 1)
+2025-04-19 04:47:32.494 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:47:33.706 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:33.706 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:47:33.706 +03:00 [DBG] Starting update for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:33.706 +03:00 [DBG] Current parts selection: 
+2025-04-19 04:47:33.845 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:47:33.845 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:47:33.877 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:47:33.959 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:47:33.966 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:47:34.424 +03:00 [INF] Order ID bd7d9131-a69a-4379-974b-a8cd4baf87b2 updated successfully
+2025-04-19 04:47:34.424 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:47:34.461 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:47:34.544 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:47:34.553 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:47:36.115 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:47:36.225 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:48:13.582 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:48:13.612 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:48:13.627 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:48:13.628 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:48:15.834 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:48:15.841 +03:00 [DBG] Sending authentication request
+2025-04-19 04:48:16.133 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:48:16.133 +03:00 [INF] LoginForm closing
+2025-04-19 04:48:16.199 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:48:16.200 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:48:16.200 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:48:16.203 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:48:16.206 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:48:16.325 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:48:16.368 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:48:19.127 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:48:19.164 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:48:23.303 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:48:23.306 +03:00 [DBG] Adding part: Дисплей, Model: 22, Quantity: 1
+2025-04-19 04:48:23.308 +03:00 [DBG] Added new part to order
+2025-04-19 04:48:23.331 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:48:24.707 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:48:24.729 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:48:24.846 +03:00 [INF] Order updated successfully
+2025-04-19 04:48:24.846 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:48:24.875 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:48:24.955 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:48:24.964 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:48:25.098 +03:00 [INF] Order updated successfully
+2025-04-19 04:48:25.098 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:48:25.148 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:48:25.209 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:48:25.227 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:48:27.048 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:48:27.252 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:48:28.950 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:48:28.991 +03:00 [INF] Removing part: Дисплей (Model: 22, Qty: 1)
+2025-04-19 04:48:29.004 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:48:30.000 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:48:30.001 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:48:30.068 +03:00 [INF] Order updated successfully
+2025-04-19 04:48:30.068 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:48:30.091 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:48:30.143 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:48:30.151 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:48:30.319 +03:00 [INF] Order updated successfully
+2025-04-19 04:48:30.319 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:48:30.346 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:48:30.396 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:48:30.410 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:51:18.934 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:51:18.970 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:51:18.989 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:51:18.990 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:51:20.953 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:51:20.969 +03:00 [DBG] Sending authentication request
+2025-04-19 04:51:22.443 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:51:22.443 +03:00 [INF] LoginForm closing
+2025-04-19 04:51:22.547 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:51:22.547 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:51:22.548 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:51:22.551 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:51:22.557 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:51:22.768 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:51:22.793 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:51:24.145 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:51:24.303 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:51:28.931 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:51:28.934 +03:00 [DBG] Adding part: Дисплей, Model: 111, Quantity: 1
+2025-04-19 04:51:28.935 +03:00 [DBG] Added new part to order
+2025-04-19 04:51:28.958 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:51:30.305 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:51:30.328 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:51:30.550 +03:00 [INF] Order updated successfully
+2025-04-19 04:51:30.552 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:51:30.582 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:51:30.651 +03:00 [INF] Order updated successfully
+2025-04-19 04:51:30.651 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:51:30.679 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:51:30.679 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:51:30.687 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:51:30.797 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:51:30.804 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:51:33.951 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:51:34.029 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:52:56.776 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:52:56.822 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:52:56.842 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:52:56.842 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:52:59.159 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:52:59.164 +03:00 [DBG] Sending authentication request
+2025-04-19 04:53:00.620 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:53:00.621 +03:00 [INF] LoginForm closing
+2025-04-19 04:53:00.692 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:00.692 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:53:00.693 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:53:00.696 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:00.699 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:53:00.944 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:00.993 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:03.488 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:03.654 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:53:07.960 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:53:07.965 +03:00 [DBG] Adding part: Дисплей, Model: й11, Quantity: 1
+2025-04-19 04:53:07.967 +03:00 [DBG] Added new part to order
+2025-04-19 04:53:08.014 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:53:09.168 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:09.204 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:09.719 +03:00 [INF] Order updated successfully
+2025-04-19 04:53:09.720 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:53:09.751 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:09.810 +03:00 [INF] Order updated successfully
+2025-04-19 04:53:09.810 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:53:09.842 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:09.842 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:09.849 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:09.965 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:09.974 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:11.840 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:11.973 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:53:13.994 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 04:53:14.029 +03:00 [INF] Removing part: Дисплей (Model: й11, Qty: 1)
+2025-04-19 04:53:14.038 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 04:53:15.155 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:15.156 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:15.225 +03:00 [INF] Order updated successfully
+2025-04-19 04:53:15.226 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:53:15.255 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:15.294 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:15.306 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:15.527 +03:00 [INF] Order updated successfully
+2025-04-19 04:53:15.527 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:53:15.559 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:15.654 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:15.667 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:28.987 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:29.136 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:53:30.115 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:53:30.115 +03:00 [DBG] Adding part: Дисплей, Model: RH3, Quantity: 1
+2025-04-19 04:53:30.115 +03:00 [DBG] Added new part to order
+2025-04-19 04:53:30.124 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:53:33.897 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:33.898 +03:00 [DBG] Updating order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:34.068 +03:00 [INF] Order updated successfully
+2025-04-19 04:53:34.068 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:53:34.119 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:34.192 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:34.204 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:34.343 +03:00 [INF] Order updated successfully
+2025-04-19 04:53:34.343 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:53:34.393 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:34.660 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:34.677 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:53:36.886 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:36.989 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:53:38.733 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:53:38.816 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:53:38.816 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:53:38.835 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:53:38.872 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:53:38.879 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:54:00.222 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:54:00.268 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:54:20.862 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:54:21.012 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:54:35.434 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:54:35.598 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:54:36.220 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:54:36.343 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:54:36.995 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:54:37.134 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:54:50.969 +03:00 [INF] LoginForm initialization started
+2025-04-19 04:54:50.994 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:54:51.014 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:54:51.014 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 04:54:53.384 +03:00 [INF] Login attempt for user: 1
+2025-04-19 04:54:53.403 +03:00 [DBG] Sending authentication request
+2025-04-19 04:54:53.666 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 04:54:53.666 +03:00 [INF] LoginForm closing
+2025-04-19 04:54:53.733 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 04:54:53.734 +03:00 [DBG] Initializing gRPC client
+2025-04-19 04:54:53.734 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 04:54:53.736 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:54:53.739 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 04:54:53.847 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:54:53.882 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:54:56.290 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:54:56.467 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:55:02.667 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:55:02.672 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 04:55:02.672 +03:00 [DBG] Added new part to order
+2025-04-19 04:55:02.724 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:55:03.985 +03:00 [DBG] Updating order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:55:04.025 +03:00 [DBG] Updating order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:55:04.198 +03:00 [INF] Order updated successfully
+2025-04-19 04:55:04.199 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:55:04.234 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:55:04.234 +03:00 [INF] Order updated successfully
+2025-04-19 04:55:04.234 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:55:04.275 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:55:04.342 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:55:04.351 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:55:04.351 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:55:04.364 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:55:12.926 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:55:12.973 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:55:14.554 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:55:14.611 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:55:14.611 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:55:14.650 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:55:14.774 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:55:14.787 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:55:22.458 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:55:22.522 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:55:23.772 +03:00 [DBG] Sending warehouse request for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:55:23.923 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:55:23.923 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:55:23.954 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:55:24.056 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:55:24.066 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:55:39.706 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:55:39.783 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 04:55:56.707 +03:00 [DBG] Attempting to add part to order
+2025-04-19 04:55:56.707 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 04:55:56.708 +03:00 [DBG] Added new part to order
+2025-04-19 04:55:56.758 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 04:55:58.614 +03:00 [DBG] Updating order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:55:58.614 +03:00 [DBG] Updating order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:55:58.765 +03:00 [INF] Order updated successfully
+2025-04-19 04:55:58.765 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:55:58.800 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:55:58.864 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:55:58.872 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:55:59.022 +03:00 [INF] Order updated successfully
+2025-04-19 04:55:59.022 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 04:55:59.071 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:55:59.143 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:55:59.151 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:56:02.903 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:56:03.070 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:56:04.223 +03:00 [DBG] Sending warehouse request for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:56:04.260 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:56:04.260 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:56:04.293 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:56:04.380 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:56:04.391 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:56:13.686 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:56:13.748 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:56:15.098 +03:00 [DBG] Sending warehouse request for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:56:15.254 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 04:56:15.254 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 04:56:15.288 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 04:56:15.528 +03:00 [DBG] Received 3 orders from server
+2025-04-19 04:56:15.537 +03:00 [INF] Displaying 3 orders
+2025-04-19 04:56:35.555 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 04:56:35.722 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:56:36.253 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 04:56:36.461 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 04:56:37.159 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 04:56:37.273 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:00:20.862 +03:00 [INF] LoginForm initialization started
+2025-04-19 05:00:20.893 +03:00 [DBG] Initializing gRPC client
+2025-04-19 05:00:20.917 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 05:00:20.917 +03:00 [INF] LoginForm initialized successfully
+2025-04-19 05:00:23.246 +03:00 [INF] Login attempt for user: 1
+2025-04-19 05:00:23.253 +03:00 [DBG] Sending authentication request
+2025-04-19 05:00:24.645 +03:00 [INF] Authentication successful for user: 1
+2025-04-19 05:00:24.646 +03:00 [INF] LoginForm closing
+2025-04-19 05:00:24.750 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-19 05:00:24.750 +03:00 [DBG] Initializing gRPC client
+2025-04-19 05:00:24.750 +03:00 [INF] gRPC client initialized successfully
+2025-04-19 05:00:24.752 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:00:24.757 +03:00 [INF] MasterForm initialized successfully
+2025-04-19 05:00:25.016 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:00:25.057 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:00:40.252 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:00:40.414 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:00:42.294 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:00:42.476 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:00:42.477 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:00:42.523 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:00:42.634 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:00:42.657 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:00:44.204 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 05:00:44.311 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:00:45.329 +03:00 [DBG] Sending warehouse request for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 05:00:45.571 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:00:45.572 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:00:45.608 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:00:45.753 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:00:45.763 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:00:47.037 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:00:47.104 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:00:48.215 +03:00 [DBG] Sending warehouse request for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:00:48.310 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:00:48.310 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:00:48.347 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:00:48.558 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:00:48.572 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:04:01.662 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:04:01.664 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:04:01.811 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:04:01.811 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:04:02.786 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:04:02.798 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:04:02.798 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:04:02.812 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:09:19.189 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:09:19.344 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:09:22.826 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:09:22.994 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:09:22.994 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:09:23.030 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:09:23.082 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:09:23.117 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:09:35.093 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 05:09:35.217 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:09:36.697 +03:00 [DBG] Sending warehouse request for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 05:09:36.790 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:09:36.790 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:09:36.818 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:09:36.854 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:09:36.865 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:09:38.111 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:09:38.220 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:09:39.414 +03:00 [DBG] Sending warehouse request for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:09:39.598 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:09:39.598 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:09:39.643 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:09:39.698 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:09:39.715 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:09:52.049 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:09:52.113 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:09:53.583 +03:00 [DBG] Sending warehouse request for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:09:53.632 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:09:53.632 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:09:53.653 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:09:53.720 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:09:53.730 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:10:04.969 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:10:05.053 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:10:06.058 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:10:06.134 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:10:06.134 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:10:06.164 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:10:06.255 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:10:06.271 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:10:31.178 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:10:31.179 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:10:31.329 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:10:31.347 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:10:31.348 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:10:31.348 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:10:31.641 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:10:31.669 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:10:35.308 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:10:35.429 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:10:37.251 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 05:10:37.267 +03:00 [INF] Removing part: Аккумулятор (Model: BL-4C, Qty: 1)
+2025-04-19 05:10:37.313 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 05:10:53.184 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:10:53.249 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:10:54.666 +03:00 [DBG] Attempting to remove part from order
+2025-04-19 05:10:54.666 +03:00 [INF] Removing part: Аккумулятор (Model: BL-4C, Qty: 1)
+2025-04-19 05:10:54.674 +03:00 [DBG] Part removed successfully. Remaining parts: 0
+2025-04-19 05:11:05.521 +03:00 [DBG] Attempting to add part to order
+2025-04-19 05:11:05.521 +03:00 [DBG] Adding part: Дисплей, Model: RH3, Quantity: 1
+2025-04-19 05:11:05.521 +03:00 [DBG] Added new part to order
+2025-04-19 05:11:05.525 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 05:11:06.746 +03:00 [DBG] Updating order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:11:06.762 +03:00 [DBG] Updating order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:11:06.970 +03:00 [INF] Order updated successfully
+2025-04-19 05:11:06.970 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:11:07.013 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:07.098 +03:00 [INF] Order updated successfully
+2025-04-19 05:11:07.098 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:11:07.131 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:07.131 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:07.141 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:07.310 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:07.321 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:15.494 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:11:15.741 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:11:19.446 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:11:19.545 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:11:20.653 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:11:20.748 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:11:20.749 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:11:20.784 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:20.822 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:20.835 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:45.718 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:11:45.718 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:45.932 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:11:45.932 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:46.046 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:11:46.046 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:46.283 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:11:46.283 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:47.114 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:47.132 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:47.132 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:47.157 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:47.384 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:47.397 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:47.397 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:47.416 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:47.557 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:11:47.557 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:47.669 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:47.682 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:11:50.443 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:11:50.576 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:11:53.910 +03:00 [DBG] Sending warehouse request for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:11:54.121 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:11:54.121 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:11:54.154 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:11:54.199 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:11:54.207 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:12:02.122 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:12:02.171 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:12:04.370 +03:00 [DBG] Loading parts for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 05:12:04.444 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:12:05.607 +03:00 [DBG] Sending warehouse request for order ID: 27e487fa-0416-43e2-af6f-e0ca6d626482
+2025-04-19 05:12:05.698 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:12:05.698 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:12:05.729 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:12:05.767 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:12:05.774 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:12:09.846 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:12:09.886 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:12:11.633 +03:00 [DBG] Sending warehouse request for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:12:11.751 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:12:11.751 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:12:11.778 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:12:11.997 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:12:12.008 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:12:16.450 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:12:16.564 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:12:44.411 +03:00 [DBG] Loading parts for order ID: bd7d9131-a69a-4379-974b-a8cd4baf87b2
+2025-04-19 05:12:44.474 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:12:52.108 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:12:52.256 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:13:25.992 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:13:25.992 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:13:26.138 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:13:26.158 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:13:26.159 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:13:26.159 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:13:26.532 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:13:26.553 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:13:26.555 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:13:26.555 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:13:26.685 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:13:26.698 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:13:31.367 +03:00 [DBG] Loading parts for order ID: 15d7191a-362b-42ec-af8f-af3dca90a316
+2025-04-19 05:13:31.529 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:16:56.559 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:16:56.560 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:16:56.719 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:16:56.719 +03:00 [INF] No orders found for master
+2025-04-19 05:16:56.721 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-04-19 05:16:59.317 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 05:16:59.317 +03:00 [INF] Switched to Queue tab
+2025-04-19 05:16:59.317 +03:00 [DBG] Establishing new queue connection
+2025-04-19 05:16:59.319 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 05:16:59.462 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 05:16:59.539 +03:00 [DBG] Received order from queue: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:16:59.587 +03:00 [DBG] Received order from queue: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:16:59.856 +03:00 [DBG] Received order from queue: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:01.101 +03:00 [DBG] Accepting order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:17:01.381 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:01.381 +03:00 [INF] Order accepted successfully
+2025-04-19 05:17:01.381 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 05:17:01.515 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 05:17:01.515 +03:00 [INF] Switched to Orders tab
+2025-04-19 05:17:01.515 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 05:17:01.530 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 05:17:01.530 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:01.530 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:01.551 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:17:01.705 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:01.753 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:17:02.226 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 05:17:02.226 +03:00 [INF] Switched to Queue tab
+2025-04-19 05:17:02.226 +03:00 [DBG] Establishing new queue connection
+2025-04-19 05:17:02.226 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 05:17:02.255 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 05:17:02.255 +03:00 [DBG] Received order from queue: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:17:02.294 +03:00 [DBG] Received order from queue: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:04.221 +03:00 [DBG] Accepting order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:04.305 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:04.306 +03:00 [INF] Order accepted successfully
+2025-04-19 05:17:04.306 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 05:17:04.455 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 05:17:04.455 +03:00 [INF] Switched to Orders tab
+2025-04-19 05:17:04.455 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 05:17:04.458 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 05:17:04.458 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:04.458 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:04.469 +03:00 [INF] Displaying 2 orders
+2025-04-19 05:17:04.587 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:04.611 +03:00 [INF] Displaying 2 orders
+2025-04-19 05:17:05.255 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 05:17:05.256 +03:00 [INF] Switched to Queue tab
+2025-04-19 05:17:05.256 +03:00 [DBG] Establishing new queue connection
+2025-04-19 05:17:05.256 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 05:17:05.276 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 05:17:05.276 +03:00 [DBG] Received order from queue: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:17:06.761 +03:00 [DBG] Accepting order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:17:06.973 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:06.973 +03:00 [INF] Order accepted successfully
+2025-04-19 05:17:06.974 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 05:17:07.057 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 05:17:07.057 +03:00 [INF] Switched to Orders tab
+2025-04-19 05:17:07.057 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 05:17:07.066 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 05:17:07.067 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:07.067 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:07.089 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:07.276 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:07.285 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:08.319 +03:00 [DBG] Loading parts for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:08.584 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 05:17:18.213 +03:00 [DBG] Attempting to add part to order
+2025-04-19 05:17:18.213 +03:00 [DBG] Adding part: Дисплей, Model: RH3, Quantity: 1
+2025-04-19 05:17:18.213 +03:00 [DBG] Added new part to order
+2025-04-19 05:17:18.253 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 05:17:19.169 +03:00 [DBG] Updating order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:19.170 +03:00 [DBG] Updating order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:19.557 +03:00 [INF] Order updated successfully
+2025-04-19 05:17:19.557 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:17:19.645 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:19.738 +03:00 [INF] Order updated successfully
+2025-04-19 05:17:19.738 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:17:19.779 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:19.779 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:19.787 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:19.946 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:19.957 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:22.876 +03:00 [DBG] Loading parts for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:17:22.969 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:17:24.442 +03:00 [DBG] Loading parts for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:17:24.572 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 05:17:39.427 +03:00 [DBG] Attempting to add part to order
+2025-04-19 05:17:39.428 +03:00 [DBG] Adding part: Дисплей, Model: RH, Quantity: 1
+2025-04-19 05:17:39.428 +03:00 [DBG] Added new part to order
+2025-04-19 05:17:39.469 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 05:17:40.970 +03:00 [DBG] Updating order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:17:40.971 +03:00 [DBG] Updating order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:17:41.201 +03:00 [INF] Order updated successfully
+2025-04-19 05:17:41.201 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:17:41.244 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:41.368 +03:00 [INF] Order updated successfully
+2025-04-19 05:17:41.368 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:17:41.398 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:41.407 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:41.421 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:41.559 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:41.573 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:42.586 +03:00 [DBG] Loading parts for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:17:42.836 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 05:17:52.547 +03:00 [DBG] Attempting to add part to order
+2025-04-19 05:17:52.548 +03:00 [DBG] Adding part: Аккумулятор, Model: BL-4C, Quantity: 1
+2025-04-19 05:17:52.548 +03:00 [DBG] Added new part to order
+2025-04-19 05:17:52.582 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 05:17:54.283 +03:00 [DBG] Updating order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:17:54.284 +03:00 [DBG] Updating order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:17:54.393 +03:00 [INF] Order updated successfully
+2025-04-19 05:17:54.393 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:17:54.427 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:54.498 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:54.516 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:54.685 +03:00 [INF] Order updated successfully
+2025-04-19 05:17:54.685 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:17:54.723 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:54.807 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:54.847 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:17:57.910 +03:00 [DBG] Loading parts for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:17:58.005 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:17:58.942 +03:00 [DBG] Sending warehouse request for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:17:59.057 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:17:59.057 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:17:59.102 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:17:59.256 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:17:59.265 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:00.363 +03:00 [DBG] Loading parts for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:18:00.494 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:18:01.487 +03:00 [DBG] Sending warehouse request for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:18:01.624 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:18:01.624 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:18:01.671 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:01.740 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:01.753 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:03.084 +03:00 [DBG] Loading parts for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:18:03.188 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:18:04.191 +03:00 [DBG] Sending warehouse request for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:18:04.242 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:18:04.242 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:18:04.277 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:04.359 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:04.367 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:43.745 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:18:43.746 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:43.849 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:43.858 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:48.225 +03:00 [DBG] Loading parts for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:18:48.310 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:18:49.527 +03:00 [DBG] Sending warehouse request for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:18:49.681 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:18:49.681 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:18:49.726 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:49.776 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:49.785 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:51.488 +03:00 [DBG] Loading parts for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:18:51.566 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:18:52.818 +03:00 [DBG] Sending warehouse request for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:18:52.940 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:18:52.940 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:18:52.976 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:53.024 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:53.037 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:56.703 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:18:56.703 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:56.792 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:56.804 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:57.035 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:18:57.035 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:57.035 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:18:57.035 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:57.075 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:18:57.075 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:18:57.387 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:57.399 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:57.399 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:57.410 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:18:57.410 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:18:57.424 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:19:15.894 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:19:15.894 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:19:16.016 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:19:16.027 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:35.971 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:35.971 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:36.098 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:36.098 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:36.197 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:36.197 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:36.215 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:36.224 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:36.379 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:36.387 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:36.387 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:36.393 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:37.727 +03:00 [DBG] Loading parts for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:21:37.834 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:21:39.182 +03:00 [DBG] Sending warehouse request for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:21:39.499 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:21:39.499 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:21:39.524 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:39.647 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:39.672 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:50.671 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:50.672 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:50.818 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:50.834 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:51.288 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:51.288 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:51.290 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:51.291 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:51.292 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:21:51.293 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:21:51.432 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:51.451 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:51.451 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:51.461 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:21:51.461 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:21:51.474 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:27:56.554 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:27:56.556 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:27:56.694 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:27:56.722 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:27:56.723 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:27:56.723 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:27:57.143 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:27:57.202 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:27:58.338 +03:00 [DBG] Loading parts for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:27:58.387 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:27:59.847 +03:00 [DBG] Sending warehouse request for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:27:59.974 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:27:59.974 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:28:00.001 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:00.056 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:00.067 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:28:53.240 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:28:53.241 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:54.684 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:28:54.685 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:54.838 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:28:54.839 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:54.940 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:54.951 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:28:54.951 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:54.961 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:28:54.962 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:28:54.962 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:55.115 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:55.155 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:28:55.156 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:55.186 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:28:55.187 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:28:55.188 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:55.420 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:55.454 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:28:56.620 +03:00 [DBG] Loading parts for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:28:56.742 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:28:58.017 +03:00 [DBG] Sending warehouse request for order ID: 34144f5b-daee-4e8a-8c0e-37894da670d9
+2025-04-19 05:28:58.184 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:28:58.184 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:28:58.214 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:28:58.276 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:28:58.287 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:32:26.346 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:32:26.347 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:32:26.571 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:32:26.571 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:32:27.763 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:32:27.786 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:32:27.787 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:32:27.810 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:32:31.947 +03:00 [DBG] Loading parts for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:32:32.279 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:32:32.987 +03:00 [DBG] Sending warehouse request for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:32:33.224 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:32:33.224 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:32:33.261 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:32:33.330 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:32:33.342 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:32:43.381 +03:00 [DBG] Loading parts for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:32:43.504 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:32:44.539 +03:00 [DBG] Sending warehouse request for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:32:44.584 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:32:44.584 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:32:44.610 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:32:44.686 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:32:44.694 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:32:45.551 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:32:45.551 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:32:45.781 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:32:45.792 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:32:59.774 +03:00 [DBG] Loading parts for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:33:00.136 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:33:01.348 +03:00 [DBG] Sending warehouse request for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:33:01.421 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:33:01.421 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:33:01.451 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:33:01.524 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:33:01.531 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:33:41.408 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:33:41.408 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:33:42.731 +03:00 [DBG] Loading parts for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:33:42.899 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:33:42.914 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:33:43.099 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:33:44.161 +03:00 [WRN] Warehouse request attempted without order selection
+2025-04-19 05:33:44.162 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите заказ.
+2025-04-19 05:33:47.339 +03:00 [DBG] Loading parts for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:33:47.486 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:33:48.865 +03:00 [DBG] Sending warehouse request for order ID: a44644c4-2240-4ed4-8c61-0c1bbff2bb5b
+2025-04-19 05:33:49.159 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:33:49.160 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:33:49.190 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:33:49.234 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:33:49.246 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:33:52.629 +03:00 [DBG] Loading parts for order ID: 8bac8353-5665-4167-9c06-af53a68e07ea
+2025-04-19 05:33:52.684 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:35:14.104 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:35:14.104 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:15.578 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:15.585 +03:00 [INF] Displaying 3 orders
+2025-04-19 05:35:39.986 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:35:39.986 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:40.162 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:40.162 +03:00 [INF] No orders found for master
+2025-04-19 05:35:40.162 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-04-19 05:35:41.075 +03:00 [DBG] Tab changed to index: 1
+2025-04-19 05:35:41.076 +03:00 [INF] Switched to Queue tab
+2025-04-19 05:35:41.076 +03:00 [DBG] Establishing new queue connection
+2025-04-19 05:35:41.076 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-19 05:35:41.091 +03:00 [INF] Successfully subscribed to queue
+2025-04-19 05:35:41.091 +03:00 [DBG] Received order from queue: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:41.173 +03:00 [DBG] Received order from queue: 6340bcdb-d02b-4ad8-8a73-0df73d1c069d
+2025-04-19 05:35:41.246 +03:00 [DBG] Received order from queue: 2a897238-7062-471e-8825-ca11f3f06efb
+2025-04-19 05:35:42.433 +03:00 [DBG] Accepting order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:42.651 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:42.651 +03:00 [INF] Order accepted successfully
+2025-04-19 05:35:42.651 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-19 05:35:42.907 +03:00 [DBG] Tab changed to index: 0
+2025-04-19 05:35:42.907 +03:00 [INF] Switched to Orders tab
+2025-04-19 05:35:42.907 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-19 05:35:42.912 +03:00 [DBG] Queue connection closed successfully
+2025-04-19 05:35:42.912 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:42.913 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:42.923 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:35:43.041 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:43.065 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:35:44.640 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:44.689 +03:00 [DBG] Loaded 0 parts for order
+2025-04-19 05:35:56.269 +03:00 [DBG] Attempting to add part to order
+2025-04-19 05:35:56.269 +03:00 [DBG] Adding part: Дисплей, Model: RH3, Quantity: 1
+2025-04-19 05:35:56.269 +03:00 [DBG] Added new part to order
+2025-04-19 05:35:56.277 +03:00 [INF] Parts list updated. Total parts: 1
+2025-04-19 05:35:57.080 +03:00 [DBG] Updating order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:57.080 +03:00 [DBG] Updating order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:57.195 +03:00 [INF] Order updated successfully
+2025-04-19 05:35:57.195 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:35:57.229 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:57.284 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:57.294 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:35:57.430 +03:00 [INF] Order updated successfully
+2025-04-19 05:35:57.430 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-04-19 05:35:57.456 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:57.513 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:57.537 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:35:58.738 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:58.798 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:35:59.530 +03:00 [DBG] Sending warehouse request for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:35:59.626 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:35:59.626 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:35:59.704 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:35:59.919 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:35:59.930 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:44:38.252 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:44:38.255 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:44:39.238 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:44:39.366 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:44:39.366 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:44:39.378 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:44:41.688 +03:00 [WRN] Warehouse request attempted without order selection
+2025-04-19 05:44:41.688 +03:00 [DBG] Showing notification: Предупреждение - Пожалуйста, выберите заказ.
+2025-04-19 05:44:42.582 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:44:42.677 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:44:43.305 +03:00 [DBG] Sending warehouse request for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:44:43.552 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:44:43.552 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:44:43.593 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:44:43.677 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:44:43.697 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:44:44.555 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:44:44.555 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:44:44.653 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:44:44.663 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:44:57.416 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:44:57.504 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:46:16.499 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:46:16.711 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:46:17.092 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:46:17.092 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:46:17.147 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:46:17.158 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:46:17.734 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:46:17.847 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:46:19.144 +03:00 [DBG] Sending warehouse request for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:46:19.287 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:46:19.287 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:46:19.317 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:46:19.417 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:46:19.436 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:46:36.201 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:46:36.202 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:46:36.256 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:46:36.281 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:46:36.435 +03:00 [DBG] F5 key pressed - refreshing orders
+2025-04-19 05:46:36.435 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:46:36.503 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:46:36.522 +03:00 [INF] Displaying 1 orders
+2025-04-19 05:46:37.663 +03:00 [DBG] Loading parts for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:46:37.750 +03:00 [DBG] Loaded 1 parts for order
+2025-04-19 05:46:38.513 +03:00 [DBG] Sending warehouse request for order ID: f74fd244-1358-49ba-a57a-b153a554a22e
+2025-04-19 05:46:38.702 +03:00 [INF] Warehouse request sent successfully
+2025-04-19 05:46:38.702 +03:00 [DBG] Showing notification: Успех - Заявка на склад отправлена.
+2025-04-19 05:46:38.736 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-19 05:46:38.821 +03:00 [DBG] Received 3 orders from server
+2025-04-19 05:46:38.830 +03:00 [INF] Displaying 1 orders

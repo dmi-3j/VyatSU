@@ -1,0 +1,68 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+      - xpack.security.enabled=false
+    volumes:
+      - ./elasticsearch/data:/usr/share/elasticsearch/data  
+    ports:
+      - 9200:9200
+    networks:
+      - elastic
+    restart: unless-stopped
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.12.0
+    container_name: kibana
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    volumes:
+      - ./kibana/data:/usr/share/kibana/data 
+    ports:
+      - 5601:5601
+    networks:
+      - elastic
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:management
+    hostname: rabbitmq
+    restart: always
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest2
+      - RABBITMQ_DEFAULT_PASS=guest2
+      - RABBITMQ_FEATURE_FLAGS_FILE=/var/lib/rabbitmq/feature_flags
+      - RABBITMQ_FEATURE_FLAGS=quorum_queue,stream_queue
+      - RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS=-rabbit log_levels [{connection,error},{default,error}] disk_free_limit 2147483648
+    volumes:
+      - ./rabbitmq:/var/lib/rabbitmq
+    ports:
+      - 15672:15672
+      - 5672:5672
+    networks:
+      - elastic
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.48
+    container_name: jaeger
+    ports:
+      - "16686:16686"    # Web UI
+      - "6831:6831/udp"  # Прием трейсов
+      - "14268:14268"    # HTTP endpoint
+    environment:
+      - COLLECTOR_ZIPKIN_HOST_PORT=:9411
+      - COLLECTOR_OTLP_ENABLED=true
+    volumes:
+      - ./jaeger/data:/var/lib/jaeger
+    networks:
+      - elastic
+    restart: unless-stopped
+
+networks:
+  elastic:
+    driver: bridge

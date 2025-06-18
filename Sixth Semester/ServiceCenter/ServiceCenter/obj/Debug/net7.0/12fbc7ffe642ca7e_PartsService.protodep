@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/PartsService.cs \
+obj\Debug\net7.0\Protos/PartsServiceGrpc.cs: Protos/PartsService.proto

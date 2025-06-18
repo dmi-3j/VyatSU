@@ -1,0 +1,67 @@
+2025-04-11 09:55:36.750 +03:00 [INF] Initializing AdminForm
+2025-04-11 09:55:36.861 +03:00 [INF] gRPC clients initialized successfully
+2025-04-11 09:55:36.863 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 09:55:36.928 +03:00 [DBG] Loading masters list
+2025-04-11 09:55:36.929 +03:00 [DBG] Clearing master input fields
+2025-04-11 09:55:36.933 +03:00 [DBG] AdminForm initialization completed
+2025-04-11 09:55:37.429 +03:00 [INF] Successfully loaded 30 orders
+2025-04-11 09:55:37.433 +03:00 [DBG] Configured master grid columns
+2025-04-11 09:55:37.433 +03:00 [INF] Successfully loaded 5 masters
+2025-04-11 09:55:45.963 +03:00 [INF] Initializing AdminForm
+2025-04-11 09:55:46.040 +03:00 [INF] gRPC clients initialized successfully
+2025-04-11 09:55:46.047 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 09:55:46.125 +03:00 [DBG] Loading masters list
+2025-04-11 09:55:46.125 +03:00 [DBG] Clearing master input fields
+2025-04-11 09:55:46.133 +03:00 [DBG] AdminForm initialization completed
+2025-04-11 09:55:46.379 +03:00 [DBG] Configured master grid columns
+2025-04-11 09:55:46.382 +03:00 [INF] Successfully loaded 5 masters
+2025-04-11 09:55:46.664 +03:00 [INF] Successfully loaded 30 orders
+2025-04-11 09:55:51.079 +03:00 [INF] Initializing AdminForm
+2025-04-11 09:55:51.131 +03:00 [INF] gRPC clients initialized successfully
+2025-04-11 09:55:51.135 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 09:55:51.181 +03:00 [DBG] Loading masters list
+2025-04-11 09:55:51.181 +03:00 [DBG] Clearing master input fields
+2025-04-11 09:55:51.186 +03:00 [DBG] AdminForm initialization completed
+2025-04-11 09:55:51.371 +03:00 [DBG] Configured master grid columns
+2025-04-11 09:55:51.371 +03:00 [INF] Successfully loaded 5 masters
+2025-04-11 09:55:51.580 +03:00 [INF] Successfully loaded 30 orders
+2025-04-11 10:24:37.295 +03:00 [DBG] Order selected: 1a5d4e1c-9a4a-4b45-b30e-b0e6f8406ca3
+2025-04-11 10:24:37.323 +03:00 [DBG] Loading parts for order: 1a5d4e1c-9a4a-4b45-b30e-b0e6f8406ca3
+2025-04-11 10:24:37.334 +03:00 [DBG] Order selected: 1a5d4e1c-9a4a-4b45-b30e-b0e6f8406ca3
+2025-04-11 10:24:37.396 +03:00 [DBG] Loaded 0 parts for order
+2025-04-11 10:24:37.944 +03:00 [DBG] Starting order creation
+2025-04-11 10:24:37.945 +03:00 [INF] Creating new order for customer: Дмитрий Субботин
+2025-04-11 10:24:38.014 +03:00 [INF] Order created successfully
+2025-04-11 10:24:38.014 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-11 10:24:38.049 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 10:24:38.147 +03:00 [INF] Successfully loaded 33 orders
+2025-04-11 10:24:38.572 +03:00 [DBG] Order selected: 1a5d4e1c-9a4a-4b45-b30e-b0e6f8406ca3
+2025-04-11 10:24:38.577 +03:00 [DBG] Loading parts for order: 1a5d4e1c-9a4a-4b45-b30e-b0e6f8406ca3
+2025-04-11 10:24:38.577 +03:00 [DBG] Order selected: 1a5d4e1c-9a4a-4b45-b30e-b0e6f8406ca3
+2025-04-11 10:24:38.609 +03:00 [DBG] Loaded 0 parts for order
+2025-04-11 10:24:39.129 +03:00 [DBG] Starting order creation
+2025-04-11 10:24:39.129 +03:00 [INF] Creating new order for customer: Дмитрий Субботин
+2025-04-11 10:24:39.189 +03:00 [INF] Order created successfully
+2025-04-11 10:24:39.189 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-11 10:24:39.225 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 10:24:39.305 +03:00 [INF] Successfully loaded 34 orders
+2025-04-11 10:24:39.506 +03:00 [DBG] Order selected: 1a63bc11-c21f-46a6-88fe-a1ee5b2601d5
+2025-04-11 10:24:39.511 +03:00 [DBG] Loading parts for order: 1a63bc11-c21f-46a6-88fe-a1ee5b2601d5
+2025-04-11 10:24:39.511 +03:00 [DBG] Order selected: 1a63bc11-c21f-46a6-88fe-a1ee5b2601d5
+2025-04-11 10:24:39.563 +03:00 [DBG] Loaded 0 parts for order
+2025-04-11 10:24:39.883 +03:00 [DBG] Starting order creation
+2025-04-11 10:24:39.883 +03:00 [INF] Creating new order for customer: Дмитрий Субботин
+2025-04-11 10:24:39.959 +03:00 [INF] Order created successfully
+2025-04-11 10:24:39.959 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-11 10:24:39.987 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 10:24:40.117 +03:00 [INF] Successfully loaded 35 orders
+2025-04-11 10:24:40.358 +03:00 [DBG] Order selected: 4119194d-0338-4336-81fa-1ae36626ffcd
+2025-04-11 10:24:40.363 +03:00 [DBG] Loading parts for order: 4119194d-0338-4336-81fa-1ae36626ffcd
+2025-04-11 10:24:40.363 +03:00 [DBG] Order selected: 4119194d-0338-4336-81fa-1ae36626ffcd
+2025-04-11 10:24:40.403 +03:00 [DBG] Loaded 0 parts for order
+2025-04-11 10:24:40.839 +03:00 [DBG] Starting order creation
+2025-04-11 10:24:40.839 +03:00 [INF] Creating new order for customer: Александр Юркин
+2025-04-11 10:24:40.898 +03:00 [INF] Order created successfully
+2025-04-11 10:24:40.898 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-11 10:24:40.932 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 10:24:41.042 +03:00 [INF] Successfully loaded 36 orders

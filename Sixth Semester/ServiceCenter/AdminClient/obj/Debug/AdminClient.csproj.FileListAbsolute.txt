@@ -1,0 +1,1484 @@
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter (Чуть допиленный Мастер Полный Комплект) — копия\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы) — копия\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter (Три формы)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter (Три формы ГОТОВО)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter (Три формы ГОТОВО УВЕДОМЛЕГНИЯ)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\obj\Debug\AdminClient.pdb
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\AdminClient.exe.config
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\AdminClient.exe
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\AdminClient.pdb
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Buffers.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Memory.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Buffers.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Memory.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.exe
+D:\Desktop\!1!ServiceCenter\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(НОВЕЙШАЯ)\AdminClient\obj\Debug\AdminClient.pdb
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\AdminClient.exe
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\AdminClient.pdb
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Buffers.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Memory.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Buffers.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Memory.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.exe
+D:\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter(Добавление сотрудников)\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\obj\Debug\AdminClient.pdb
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\AdminClient.exe
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\AdminClient.pdb
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Buffers.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Memory.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Buffers.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Memory.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.exe.config
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.exe
+D:\Desktop\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.SuggestedBindingRedirects.cache
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.exe.config
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(Поиск и отчет)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\ServiceCenter(Брокер)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.csproj.SuggestedBindingRedirects.cache
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.exe.config
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(Брокер)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.csproj.SuggestedBindingRedirects.cache
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.exe.config
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(Брокер + Автосайз)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\DotNetEnv.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Sprache.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\Sprache.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(Брокер + Автосайз + Переменные среды)\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\DotNetEnv.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\RabbitMQ.Client.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Sprache.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\RabbitMQ.Client.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\Sprache.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\user\Desktop\ServiceCenter — копия\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\DotNetEnv.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\RabbitMQ.Client.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Sprache.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\RabbitMQ.Client.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\Sprache.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\user\Desktop\ServiceCenter1\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\DotNetEnv.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\RabbitMQ.Client.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Sprache.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\RabbitMQ.Client.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\Sprache.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter2\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\DotNetEnv.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Options.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.AspNetCore.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Extensions.Hosting.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Extensions.Logging.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Formatting.Compact.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Settings.Configuration.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.Console.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.Debug.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.File.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Sprache.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Text.Encodings.Web.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Text.Json.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.ValueTuple.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Options.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.AspNetCore.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Extensions.Hosting.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Extensions.Logging.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Formatting.Compact.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Settings.Configuration.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.Console.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.Debug.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.File.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Sprache.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Text.Encodings.Web.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Text.Json.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\System.ValueTuple.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\obj\Debug\AdminClient.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Elasticsearch.Net.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Elasticsearch.Net.pdb
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Elasticsearch.Net.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.xml
+D:\ServiceCenter(ПОЧТИ ИТОГ)\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\AdminClient.exe.config
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\AdminClient.exe
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\AdminClient.pdb
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\DotNetEnv.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Elasticsearch.Net.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Options.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.AspNetCore.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Extensions.Hosting.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Extensions.Logging.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Formatting.Compact.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Settings.Configuration.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.Console.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.Debug.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.File.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Sprache.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Buffers.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Memory.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Text.Encodings.Web.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Text.Json.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.ValueTuple.dll
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Elasticsearch.Net.pdb
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Elasticsearch.Net.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Options.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.AspNetCore.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Extensions.Hosting.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Extensions.Logging.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Formatting.Compact.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Settings.Configuration.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.Console.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.Debug.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.File.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\Sprache.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Buffers.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Memory.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Text.Encodings.Web.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Text.Json.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\bin\Debug\System.ValueTuple.xml
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.exe
+D:\ServiceCenter(ЛОГИРОВАНИЕ)\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\DotNetEnv.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Elasticsearch.Net.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\RabbitMQ.Client.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.AspNetCore.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Extensions.Hosting.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Extensions.Logging.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Formatting.Compact.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Settings.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.Console.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.Debug.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.File.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Sprache.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Elasticsearch.Net.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Elasticsearch.Net.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\RabbitMQ.Client.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.AspNetCore.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Extensions.Hosting.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Extensions.Logging.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Formatting.Compact.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Settings.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.Console.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.Debug.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.File.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\Sprache.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Text.Json.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\AdminClient.exe.config
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\DotNetEnv.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Elasticsearch.Net.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\RabbitMQ.Client.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.AspNetCore.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Hosting.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Logging.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Compact.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Settings.Configuration.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Console.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Debug.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.File.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Sprache.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Elasticsearch.Net.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Elasticsearch.Net.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\RabbitMQ.Client.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.AspNetCore.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Hosting.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Logging.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Compact.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Settings.Configuration.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Console.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Debug.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.File.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\Sprache.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Json.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.exe
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.pdb
+C:\Users\user\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.exe.config
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\AdminClient.exe.config
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\AdminClient.exe
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\AdminClient.pdb
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\DotNetEnv.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Elasticsearch.Net.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Google.Protobuf.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Core.Api.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Client.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Common.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\RabbitMQ.Client.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.AspNetCore.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Hosting.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Logging.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Compact.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Settings.Configuration.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Console.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Debug.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.File.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Sprache.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Buffers.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.IO.Pipelines.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Memory.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Encodings.Web.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Json.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Channels.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.RateLimiting.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.ValueTuple.dll
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Elasticsearch.Net.pdb
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Elasticsearch.Net.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Google.Protobuf.pdb
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Google.Protobuf.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Core.Api.pdb
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Core.Api.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Client.pdb
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Client.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Common.pdb
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Grpc.Net.Common.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.DependencyModel.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\RabbitMQ.Client.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.AspNetCore.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Hosting.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Extensions.Logging.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Compact.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Formatting.Elasticsearch.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Settings.Configuration.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Console.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Debug.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.Elasticsearch.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.File.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\Sprache.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Buffers.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.IO.Pipelines.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Memory.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Encodings.Web.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Text.Json.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Channels.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.RateLimiting.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\ServiceCenter test\AdminClient\bin\Debug\System.ValueTuple.xml
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.csproj.AssemblyReference.cache
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.AdminForm.resources
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.Properties.Resources.resources
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.csproj.GenerateResource.cache
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.csproj.CoreCompileInputs.cache
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminCli.8CCBC6A1.Up2Date
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.exe
+D:\Desktop\ServiceCenter test\AdminClient\obj\Debug\AdminClient.pdb

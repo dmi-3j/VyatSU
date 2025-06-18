@@ -1,0 +1,2 @@
+obj\Release\Protos/PartsService.cs \
+obj\Release\Protos/PartsServiceGrpc.cs: Protos/PartsService.proto

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NbHGjk3xK9M7UpD1QFRWaCReVJCP+TjBwpB45YnzPHk=",
+  "Source": "ServiceCenter",
+  "BasePath": "_content/ServiceCenter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,2 @@
+obj\Debug\Protos/MastersService.cs \
+obj\Debug\Protos/MastersServiceGrpc.cs: Protos/MastersService.proto

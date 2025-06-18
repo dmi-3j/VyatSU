@@ -1,0 +1,501 @@
+2025-04-22 12:11:18.569 +03:00 [INF] Started OrderClient Application
+2025-04-22 12:11:19.421 +03:00 [INF] gRPC client initialized for https://10.8.1.2:9080
+2025-04-22 12:11:19.430 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:11:20.174 +03:00 [INF] Loaded 3 orders
+2025-04-22 12:11:45.292 +03:00 [DBG] Starting order creation
+2025-04-22 12:11:48.061 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:11:48.105 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:11:48.107 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:11:48.151 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:17:33.214 +03:00 [INF] Attempting to delete order ID: d61b62e5-e599-4fe9-99de-fdd65ba61f5d
+2025-04-22 12:17:33.285 +03:00 [INF] Order d61b62e5-e599-4fe9-99de-fdd65ba61f5d successfully deleted
+2025-04-22 12:17:33.287 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:17:33.321 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 12:17:33.372 +03:00 [INF] Loaded 3 orders
+2025-04-22 12:17:36.243 +03:00 [DBG] Starting order creation
+2025-04-22 12:17:36.400 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:17:36.424 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:17:36.426 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:17:36.458 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:18:18.555 +03:00 [DBG] Starting order creation
+2025-04-22 12:18:18.614 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:18:18.634 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:18:18.636 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:18:18.660 +03:00 [INF] Loaded 5 orders
+2025-04-22 12:22:50.655 +03:00 [INF] Started OrderClient Application
+2025-04-22 12:22:50.833 +03:00 [INF] gRPC client initialized for https://10.8.1.2:9080
+2025-04-22 12:22:50.842 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:22:51.070 +03:00 [INF] Loaded 5 orders
+2025-04-22 12:22:54.157 +03:00 [INF] Attempting to delete order ID: c745cabe-9d4e-478d-aa33-89722898322f
+2025-04-22 12:22:54.193 +03:00 [INF] Order c745cabe-9d4e-478d-aa33-89722898322f successfully deleted
+2025-04-22 12:22:54.195 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:22:54.220 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 12:22:54.264 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:22:57.689 +03:00 [INF] Attempting to delete order ID: b5e75ae1-c481-4205-911d-ce427341d65c
+2025-04-22 12:22:57.718 +03:00 [INF] Order b5e75ae1-c481-4205-911d-ce427341d65c successfully deleted
+2025-04-22 12:22:57.724 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:22:57.750 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 12:22:57.799 +03:00 [INF] Loaded 3 orders
+2025-04-22 12:23:00.249 +03:00 [DBG] Starting order creation
+2025-04-22 12:23:00.308 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:23:00.339 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:23:00.343 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:23:00.363 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:24:48.833 +03:00 [INF] Attempting to delete order ID: 68d09fe7-0ecd-49e1-8078-a4fa765ae619
+2025-04-22 12:24:48.889 +03:00 [INF] Order 68d09fe7-0ecd-49e1-8078-a4fa765ae619 successfully deleted
+2025-04-22 12:24:48.890 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:24:48.918 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 12:24:48.918 +03:00 [INF] Loaded 3 orders
+2025-04-22 12:25:12.473 +03:00 [DBG] Starting order creation
+2025-04-22 12:25:12.561 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:25:12.595 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:25:12.598 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:25:12.634 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:26:13.857 +03:00 [INF] Attempting to delete order ID: 56559021-bcea-4752-a9f8-5411dd166db8
+2025-04-22 12:26:14.879 +03:00 [INF] Order 56559021-bcea-4752-a9f8-5411dd166db8 successfully deleted
+2025-04-22 12:26:14.881 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:26:14.908 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 12:26:14.991 +03:00 [INF] Loaded 3 orders
+2025-04-22 12:26:20.208 +03:00 [DBG] Starting order creation
+2025-04-22 12:26:20.601 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:26:20.626 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:26:20.627 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:26:20.658 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:31:23.643 +03:00 [INF] Attempting to delete order ID: 5c401b1b-7e9d-4965-8852-75110524d0d9
+2025-04-22 12:31:23.698 +03:00 [INF] Order 5c401b1b-7e9d-4965-8852-75110524d0d9 successfully deleted
+2025-04-22 12:31:23.705 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:31:23.734 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 12:31:23.735 +03:00 [INF] Loaded 3 orders
+2025-04-22 12:31:25.817 +03:00 [DBG] Starting order creation
+2025-04-22 12:31:25.886 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:31:25.906 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:31:25.912 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:31:25.954 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:32:19.299 +03:00 [INF] Started OrderClient Application
+2025-04-22 12:32:19.451 +03:00 [INF] gRPC client initialized for https://10.8.1.2:9080
+2025-04-22 12:32:19.462 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:32:20.821 +03:00 [INF] Loaded 4 orders
+2025-04-22 12:32:25.869 +03:00 [DBG] Starting order creation
+2025-04-22 12:32:26.191 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 12:32:26.209 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 12:32:26.219 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 12:32:26.299 +03:00 [INF] Loaded 5 orders
+2025-04-22 13:46:02.528 +03:00 [INF] Started OrderClient Application
+2025-04-22 13:46:04.152 +03:00 [INF] gRPC client initialized for https://10.8.1.2:9080
+2025-04-22 13:46:04.176 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 13:46:09.246 +03:00 [INF] Loaded 5 orders
+2025-04-22 13:46:14.436 +03:00 [DBG] Starting order creation
+2025-04-22 13:46:15.608 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 13:46:15.644 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 13:46:15.646 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 13:46:15.853 +03:00 [INF] Loaded 6 orders
+2025-04-22 14:00:43.508 +03:00 [INF] Started OrderClient Application
+2025-04-22 14:00:45.036 +03:00 [INF] gRPC client initialized for https://10.8.1.2:9080
+2025-04-22 14:00:45.053 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 14:00:50.322 +03:00 [INF] Loaded 6 orders
+2025-04-22 14:01:20.578 +03:00 [DBG] Starting order creation
+2025-04-22 14:01:21.686 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 14:01:21.747 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 14:01:21.751 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 14:01:21.926 +03:00 [INF] Loaded 7 orders
+2025-04-22 14:04:19.207 +03:00 [DBG] Starting order creation
+2025-04-22 14:04:19.934 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 14:04:19.987 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 14:04:19.991 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 14:04:20.059 +03:00 [INF] Loaded 8 orders
+2025-04-22 14:07:02.086 +03:00 [DBG] Starting order creation
+2025-04-22 14:07:05.756 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 14:07:05.787 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 14:07:05.793 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 14:07:06.068 +03:00 [INF] Loaded 9 orders
+2025-04-22 14:12:16.330 +03:00 [DBG] Starting order creation
+2025-04-22 14:12:17.764 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 14:12:17.802 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 14:12:17.805 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 14:12:18.051 +03:00 [INF] Loaded 10 orders
+2025-04-22 15:39:51.616 +03:00 [DBG] Starting order creation
+2025-04-22 15:39:53.574 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 15:39:53.616 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 15:39:53.619 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 15:39:53.933 +03:00 [INF] Loaded 11 orders
+2025-04-22 15:40:15.621 +03:00 [DBG] Starting order creation
+2025-04-22 15:40:15.911 +03:00 [INF] Order created for  Дмитрий Субботин, Redmi Book Pro 16
+2025-04-22 15:40:15.942 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 15:40:15.946 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 15:40:16.065 +03:00 [INF] Loaded 12 orders
+2025-04-22 15:48:15.420 +03:00 [DBG] Starting order creation
+2025-04-22 15:48:23.506 +03:00 [DBG] Starting order creation
+2025-04-22 15:48:36.494 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:48:37.221 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:48:37.223 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 15:48:37.292 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+2025-04-22 15:48:44.543 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:48:44.543 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:48:44.543 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 15:48:44.602 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+2025-04-22 15:48:47.414 +03:00 [DBG] Starting order creation
+2025-04-22 15:49:19.465 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:49:19.467 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:49:19.467 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 15:49:19.509 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+2025-04-22 15:54:27.161 +03:00 [DBG] Starting order creation
+2025-04-22 15:54:34.182 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:54:34.182 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:54:34.182 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 15:54:34.205 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12030 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Соединение с сервером было неожиданно прервано'.
+2025-04-22 15:54:40.287 +03:00 [DBG] Starting order creation
+2025-04-22 15:55:11.472 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:55:11.474 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:55:11.474 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Суббртин","PhoneNumber":"+7 (999) 999-99-99","DeviceType":"Смартфон","DeviceModel":"Ахуенная","RepairType":"Замена комплектующих","Description":"ЕЕЕЕЕ","Price":4000}
+2025-04-22 15:55:11.511 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+2025-04-22 15:57:02.421 +03:00 [DBG] Starting order creation
+2025-04-22 15:57:35.470 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:57:35.471 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 15:57:35.472 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 15:57:35.507 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+2025-04-22 16:01:26.945 +03:00 [DBG] Starting order creation
+2025-04-22 16:01:29.009 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 16:01:29.018 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 16:01:29.018 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 16:01:29.067 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+2025-04-22 16:01:38.727 +03:00 [DBG] Starting order creation
+2025-04-22 16:02:11.464 +03:00 [ERR] gRPC error. Status: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 16:02:11.464 +03:00 [ERR] gRPC communication failure while creating order. Status: Internal, Detail: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.. 
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnCreateOrder_Click>d__12.MoveNext() в D:\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 216
+2025-04-22 16:02:11.464 +03:00 [ERR] Order data that failed: {"CustomerName":"Дмитрий Субботин","PhoneNumber":"+7 (912) 828-57-95","DeviceType":"Ноутбук","DeviceModel":"Redmi Book Pro 16","RepairType":"Замена комплектующих","Description":"Аккум умер","Price":4000}
+2025-04-22 16:02:11.505 +03:00 [DBG] $Notification shown: - Ошибка при создании заказа: Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12002 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Время ожидания операции истекло'.
+2025-04-22 16:07:59.347 +03:00 [DBG] Starting order creation
+2025-04-22 16:08:04.110 +03:00 [INF] Order created for  Дмитрий Суббртин, Ахуенная
+2025-04-22 16:08:04.148 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 16:08:04.153 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 16:08:04.539 +03:00 [INF] Loaded 17 orders
+2025-04-22 16:11:41.633 +03:00 [DBG] Starting order creation
+2025-04-22 16:11:41.634 +03:00 [WRN] Order creation validation failed - missing required fields
+2025-04-22 16:11:41.673 +03:00 [DBG] $Notification shown: - Пожалуйста, заполните все поля.
+2025-04-22 16:11:43.055 +03:00 [DBG] Starting order creation
+2025-04-22 16:11:43.553 +03:00 [INF] Order created for  Дмитрий Суббртин, Ахуенная
+2025-04-22 16:11:43.586 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 16:11:43.589 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 16:11:43.733 +03:00 [INF] Loaded 18 orders
+2025-04-22 16:21:31.091 +03:00 [DBG] Starting order creation
+2025-04-22 16:21:31.929 +03:00 [INF] Order created for  Лехааа, MacПук Про 13
+2025-04-22 16:21:31.972 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 16:21:31.974 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 16:21:32.107 +03:00 [INF] Loaded 19 orders
+2025-04-22 16:49:38.660 +03:00 [DBG] Starting order creation
+2025-04-22 16:49:38.856 +03:00 [INF] Order created for  Лехааа, MacПук Про 13
+2025-04-22 16:49:38.895 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 16:49:38.899 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 16:49:38.985 +03:00 [INF] Loaded 20 orders
+2025-04-22 17:04:22.971 +03:00 [INF] Attempting to delete order ID: e82d6c16-c331-4b4c-9d51-c0a35132c104
+2025-04-22 17:04:23.211 +03:00 [INF] Order e82d6c16-c331-4b4c-9d51-c0a35132c104 successfully deleted
+2025-04-22 17:04:23.211 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:23.266 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:23.266 +03:00 [INF] Loaded 19 orders
+2025-04-22 17:04:30.153 +03:00 [INF] Attempting to delete order ID: e42c7686-457f-4224-be00-d5b01d057af0
+2025-04-22 17:04:30.214 +03:00 [INF] Order e42c7686-457f-4224-be00-d5b01d057af0 successfully deleted
+2025-04-22 17:04:30.218 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:30.267 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:30.267 +03:00 [INF] Loaded 18 orders
+2025-04-22 17:04:33.628 +03:00 [INF] Attempting to delete order ID: d3967db0-55b9-45bf-8581-d09d2d6f6ee1
+2025-04-22 17:04:33.736 +03:00 [INF] Order d3967db0-55b9-45bf-8581-d09d2d6f6ee1 successfully deleted
+2025-04-22 17:04:33.739 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:33.789 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:33.801 +03:00 [INF] Loaded 17 orders
+2025-04-22 17:04:38.026 +03:00 [INF] Attempting to delete order ID: c9e1810b-e821-4143-8e6c-705ad58539d7
+2025-04-22 17:04:38.122 +03:00 [INF] Order c9e1810b-e821-4143-8e6c-705ad58539d7 successfully deleted
+2025-04-22 17:04:38.126 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:38.170 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:38.185 +03:00 [INF] Loaded 16 orders
+2025-04-22 17:04:44.728 +03:00 [INF] Attempting to delete order ID: c376ced5-9e7e-4e69-9e32-53439e393861
+2025-04-22 17:04:44.849 +03:00 [INF] Order c376ced5-9e7e-4e69-9e32-53439e393861 successfully deleted
+2025-04-22 17:04:44.849 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:44.906 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:44.925 +03:00 [INF] Loaded 15 orders
+2025-04-22 17:04:51.934 +03:00 [INF] Attempting to delete order ID: bf37f159-d928-462d-843d-601aff317920
+2025-04-22 17:04:51.993 +03:00 [INF] Order bf37f159-d928-462d-843d-601aff317920 successfully deleted
+2025-04-22 17:04:51.994 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:52.043 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:52.043 +03:00 [INF] Loaded 14 orders
+2025-04-22 17:04:59.137 +03:00 [INF] Attempting to delete order ID: be0db30b-394e-4c7e-a483-6fab704495dd
+2025-04-22 17:04:59.216 +03:00 [INF] Order be0db30b-394e-4c7e-a483-6fab704495dd successfully deleted
+2025-04-22 17:04:59.223 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:04:59.265 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:04:59.347 +03:00 [INF] Loaded 13 orders
+2025-04-22 17:05:03.940 +03:00 [INF] Attempting to delete order ID: a5fe7a2a-c9f3-4bf0-bd44-5c702fee1dab
+2025-04-22 17:05:04.024 +03:00 [INF] Order a5fe7a2a-c9f3-4bf0-bd44-5c702fee1dab successfully deleted
+2025-04-22 17:05:04.035 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:04.081 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:04.174 +03:00 [INF] Loaded 12 orders
+2025-04-22 17:05:10.739 +03:00 [INF] Attempting to delete order ID: 4fce3951-0265-489f-8a5c-0336f4db5c55
+2025-04-22 17:05:10.828 +03:00 [INF] Order 4fce3951-0265-489f-8a5c-0336f4db5c55 successfully deleted
+2025-04-22 17:05:10.830 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:10.876 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:10.934 +03:00 [INF] Loaded 11 orders
+2025-04-22 17:05:12.931 +03:00 [INF] Attempting to delete order ID: 418efb10-9a01-4ac5-b714-6437ad9c4fbe
+2025-04-22 17:05:13.064 +03:00 [INF] Order 418efb10-9a01-4ac5-b714-6437ad9c4fbe successfully deleted
+2025-04-22 17:05:13.068 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:13.111 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:13.157 +03:00 [INF] Loaded 10 orders
+2025-04-22 17:05:15.996 +03:00 [INF] Attempting to delete order ID: 2aa1c993-2199-43ae-9278-5c61391529a3
+2025-04-22 17:05:16.090 +03:00 [INF] Order 2aa1c993-2199-43ae-9278-5c61391529a3 successfully deleted
+2025-04-22 17:05:16.092 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:16.133 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:16.158 +03:00 [INF] Loaded 9 orders
+2025-04-22 17:05:17.564 +03:00 [INF] Starting to mark order 8695e553-0e7d-44e6-84e4-aff89a877e20 as delivered
+2025-04-22 17:05:17.572 +03:00 [DBG] Sending mark as delivered request for order 8695e553-0e7d-44e6-84e4-aff89a877e20
+2025-04-22 17:05:17.720 +03:00 [INF] Successfully marked order 8695e553-0e7d-44e6-84e4-aff89a877e20 as delivered
+2025-04-22 17:05:17.753 +03:00 [DBG] $Notification shown: - Заказ успешно выдан.
+2025-04-22 17:05:17.753 +03:00 [DBG] Reloading orders list after marking as delivered
+2025-04-22 17:05:17.753 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:17.812 +03:00 [INF] Loaded 8 orders
+2025-04-22 17:05:19.789 +03:00 [INF] Attempting to delete order ID: 827fc7f3-8178-4af0-a280-fddd1a22c068
+2025-04-22 17:05:19.846 +03:00 [INF] Order 827fc7f3-8178-4af0-a280-fddd1a22c068 successfully deleted
+2025-04-22 17:05:19.848 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:19.889 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:19.903 +03:00 [INF] Loaded 7 orders
+2025-04-22 17:05:21.834 +03:00 [INF] Attempting to delete order ID: 9d93ef28-6c00-4a33-bb0e-0e6c93c64e29
+2025-04-22 17:05:21.938 +03:00 [INF] Order 9d93ef28-6c00-4a33-bb0e-0e6c93c64e29 successfully deleted
+2025-04-22 17:05:21.946 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:21.994 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:22.036 +03:00 [INF] Loaded 6 orders
+2025-04-22 17:05:25.337 +03:00 [INF] Attempting to delete order ID: 90ca8dc9-44ca-459d-b8ea-0141b2c7dd23
+2025-04-22 17:05:25.499 +03:00 [INF] Order 90ca8dc9-44ca-459d-b8ea-0141b2c7dd23 successfully deleted
+2025-04-22 17:05:25.499 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:25.547 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:25.598 +03:00 [INF] Loaded 5 orders
+2025-04-22 17:05:27.901 +03:00 [INF] Attempting to delete order ID: 7df9e517-842f-4742-a445-439d71f005c5
+2025-04-22 17:05:28.066 +03:00 [INF] Order 7df9e517-842f-4742-a445-439d71f005c5 successfully deleted
+2025-04-22 17:05:28.067 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:05:28.114 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:05:28.173 +03:00 [INF] Loaded 4 orders
+2025-04-22 17:06:04.148 +03:00 [DBG] Starting order creation
+2025-04-22 17:06:04.311 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-04-22 17:06:04.348 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 17:06:04.349 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:06:04.401 +03:00 [INF] Loaded 5 orders
+2025-04-22 17:06:10.477 +03:00 [INF] Attempting to delete order ID: be0bbd59-8e73-4536-8b18-d36b678b5801
+2025-04-22 17:06:10.652 +03:00 [INF] Order be0bbd59-8e73-4536-8b18-d36b678b5801 successfully deleted
+2025-04-22 17:06:10.652 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:06:10.693 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-04-22 17:06:10.749 +03:00 [INF] Loaded 4 orders
+2025-04-22 17:07:33.884 +03:00 [DBG] Starting order creation
+2025-04-22 17:07:33.969 +03:00 [DBG] $Notification shown: - Пожалуйста, введите корректную цену.
+2025-04-22 17:07:49.923 +03:00 [DBG] Starting order creation
+2025-04-22 17:07:50.095 +03:00 [INF] Order created for  Александр Юркин, Iphone 13
+2025-04-22 17:07:50.128 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-04-22 17:07:50.136 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:07:50.239 +03:00 [INF] Loaded 5 orders
+2025-04-22 17:07:58.432 +03:00 [DBG] Starting update for order ID: 90942adb-3570-43bc-ae5f-8d29e32d384b
+2025-04-22 17:07:58.440 +03:00 [INF] Updating order with 0 parts
+2025-04-22 17:07:58.555 +03:00 [INF] Order 90942adb-3570-43bc-ae5f-8d29e32d384b successfully updated
+2025-04-22 17:07:58.595 +03:00 [DBG] $Notification shown: - Заказ успешно обновлен.
+2025-04-22 17:07:58.598 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-22 17:07:58.720 +03:00 [INF] Loaded 5 orders

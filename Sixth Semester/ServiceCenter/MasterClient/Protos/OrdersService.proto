@@ -1,0 +1,94 @@
+﻿syntax = "proto3";
+
+service OrdersService {
+    rpc CreateOrder (OrderRequest) returns (OrderResponse);
+    rpc UpdateOrder (OrderRequest) returns (OrderResponse);
+    rpc GetOrder (OrderRequest) returns (OrderResponse);
+    rpc GetOrders (GetOrdersRequest) returns (OrderListResponse);
+    rpc DeleteOrder (OrderRequest) returns (OrderResponse);
+    rpc GetOrderParts (OrderRequest) returns (OrderPartsResponse);
+    rpc UpdateWarehouseRequestStatus (OrderRequest) returns (OrderResponse);
+    rpc AddPartsToWarehouse (AddPartsRequest) returns (Empty);
+    rpc GetWarehouseParts (Empty) returns (WarehousePartsResponse);
+    rpc MarkOrderAsDelivered (OrderRequest) returns (OrderResponse);
+    rpc DeletePartFromWarehouse(DeletePartRequest) returns (Empty);
+        rpc UpdateOrderPrice (UpdateOrderPriceRequest) returns (Empty);
+            rpc ProcessWarehouseRequest (OrderRequest) returns (OrderResponse); 
+
+}
+
+message OrderRequest {
+    string order_id = 1;
+    string customerName = 2;
+    string description = 3;
+    string phoneNumber = 4;
+    string deviceType = 5;
+    string deviceModel = 6;
+    string repairType = 7;
+    string status = 8;
+    string warehouseRequestStatus = 9;
+    repeated Part parts = 10;
+    string order_date = 11;
+    string responsible_master = 12;
+    double price = 13;
+
+}
+
+message OrderResponse {
+    string order_id = 1;
+    string customerName = 2;
+    string description = 3;
+    string phoneNumber = 4;
+    string deviceType = 5;
+    string deviceModel = 6;
+    string repairType = 7;
+    string status = 8;
+    string warehouseRequestStatus = 9;
+    repeated Part parts = 10;
+    string order_date = 11;
+    string responsible_master = 12;
+    double price = 13;
+}
+
+message GetOrdersRequest {
+    string status_filter = 1;
+    string search_query = 2; 
+
+}
+
+message OrderListResponse {
+    repeated OrderResponse orders = 1;
+}
+
+message OrderPartsResponse {
+    repeated Part parts = 1;
+}
+
+message AddPartsRequest {
+    string partName = 1;
+    string model = 2;
+    int32 quantity = 3;
+    double price = 4;
+}
+
+message Part {
+    string name = 1;
+    string model = 2;
+    int32 quantity = 3;
+    double price = 4;
+}
+
+message WarehousePartsResponse {
+    repeated Part parts = 1;
+}
+
+message DeletePartRequest {
+    string partName = 1;
+    string model = 2;
+}
+
+message UpdateOrderPriceRequest {
+    string order_id = 1;
+        double new_price = 2;
+}
+message Empty {}

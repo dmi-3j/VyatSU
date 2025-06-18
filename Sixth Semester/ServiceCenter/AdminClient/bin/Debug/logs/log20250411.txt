@@ -1,0 +1,19 @@
+2025-04-11 09:55:30.653 +03:00 [INF] Initializing AdminForm
+2025-04-11 09:55:31.428 +03:00 [INF] gRPC clients initialized successfully
+2025-04-11 09:55:31.434 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 09:55:32.029 +03:00 [DBG] Loading masters list
+2025-04-11 09:55:32.030 +03:00 [DBG] Clearing master input fields
+2025-04-11 09:55:32.033 +03:00 [DBG] AdminForm initialization completed
+2025-04-11 09:55:34.308 +03:00 [DBG] Configured master grid columns
+2025-04-11 09:55:34.308 +03:00 [INF] Successfully loaded 5 masters
+2025-04-11 09:55:34.851 +03:00 [INF] Successfully loaded 30 orders
+2025-04-11 10:14:49.320 +03:00 [DBG] Order selected: 3aafb55e-4fca-48f0-aff4-8fdf682d3ad7
+2025-04-11 10:14:49.350 +03:00 [DBG] Loading parts for order: 3aafb55e-4fca-48f0-aff4-8fdf682d3ad7
+2025-04-11 10:14:49.356 +03:00 [DBG] Order selected: 3aafb55e-4fca-48f0-aff4-8fdf682d3ad7
+2025-04-11 10:14:49.475 +03:00 [DBG] Loaded 0 parts for order
+2025-04-11 10:14:51.231 +03:00 [DBG] Starting order update
+2025-04-11 10:14:51.236 +03:00 [INF] Updating order ID: 3aafb55e-4fca-48f0-aff4-8fdf682d3ad7
+2025-04-11 10:14:51.276 +03:00 [INF] Order updated successfully
+2025-04-11 10:14:51.276 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно обновлен.
+2025-04-11 10:14:51.306 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-11 10:14:51.403 +03:00 [INF] Successfully loaded 31 orders

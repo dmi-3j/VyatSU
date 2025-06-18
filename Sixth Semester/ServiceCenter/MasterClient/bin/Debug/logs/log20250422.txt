@@ -1,0 +1,41 @@
+2025-04-22 17:39:44.382 +03:00 [INF] LoginForm initialization started
+2025-04-22 17:39:44.799 +03:00 [DBG] Initializing gRPC client
+2025-04-22 17:39:45.427 +03:00 [INF] gRPC client initialized successfully
+2025-04-22 17:39:45.427 +03:00 [INF] LoginForm initialized successfully
+2025-04-22 17:39:48.344 +03:00 [INF] Login attempt for user: 1
+2025-04-22 17:39:48.349 +03:00 [DBG] Sending authentication request
+2025-04-22 17:39:49.243 +03:00 [INF] Authentication successful for user: 1
+2025-04-22 17:39:49.243 +03:00 [INF] LoginForm closing
+2025-04-22 17:39:49.374 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-04-22 17:39:49.374 +03:00 [DBG] Initializing gRPC client
+2025-04-22 17:39:49.374 +03:00 [INF] gRPC client initialized successfully
+2025-04-22 17:39:49.379 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-22 17:39:49.385 +03:00 [INF] MasterForm initialized successfully
+2025-04-22 17:39:49.552 +03:00 [DBG] Received 5 orders from server
+2025-04-22 17:39:49.559 +03:00 [INF] No orders found for master
+2025-04-22 17:39:49.559 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-04-22 17:39:56.555 +03:00 [DBG] Tab changed to index: 1
+2025-04-22 17:39:56.555 +03:00 [INF] Switched to Queue tab
+2025-04-22 17:39:56.555 +03:00 [DBG] Establishing new queue connection
+2025-04-22 17:39:56.555 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-04-22 17:39:56.716 +03:00 [INF] Successfully subscribed to queue
+2025-04-22 17:39:56.987 +03:00 [DBG] Received order from queue: 9d93ef28-6c00-4a33-bb0e-0e6c93c64e29
+2025-04-22 17:39:57.086 +03:00 [DBG] Received order from queue: 2aa1c993-2199-43ae-9278-5c61391529a3
+2025-04-22 17:39:57.211 +03:00 [DBG] Received order from queue: c376ced5-9e7e-4e69-9e32-53439e393861
+2025-04-22 17:39:57.355 +03:00 [DBG] Received order from queue: be0bbd59-8e73-4536-8b18-d36b678b5801
+2025-04-22 17:39:57.521 +03:00 [DBG] Received order from queue: 827fc7f3-8178-4af0-a280-fddd1a22c068
+2025-04-22 17:39:57.730 +03:00 [DBG] Received order from queue: eced8a6f-bf42-4ea1-b6d7-0471d2f80ad6
+2025-04-22 17:39:57.958 +03:00 [DBG] Received order from queue: 90942adb-3570-43bc-ae5f-8d29e32d384b
+2025-04-22 17:40:02.114 +03:00 [DBG] Accepting order ID: eced8a6f-bf42-4ea1-b6d7-0471d2f80ad6
+2025-04-22 17:40:02.482 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-22 17:40:02.482 +03:00 [INF] Order accepted successfully
+2025-04-22 17:40:02.482 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-04-22 17:40:02.757 +03:00 [DBG] Tab changed to index: 0
+2025-04-22 17:40:02.757 +03:00 [INF] Switched to Orders tab
+2025-04-22 17:40:02.757 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-04-22 17:40:02.777 +03:00 [DBG] Queue connection closed successfully
+2025-04-22 17:40:02.777 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-04-22 17:40:02.778 +03:00 [DBG] Received 5 orders from server
+2025-04-22 17:40:02.797 +03:00 [INF] Displaying 1 orders
+2025-04-22 17:40:02.882 +03:00 [DBG] Received 5 orders from server
+2025-04-22 17:40:02.899 +03:00 [INF] Displaying 1 orders

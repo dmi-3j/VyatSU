@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\ServiceCenter test\MasterTest\obj\Debug\net6.0\MasterTest.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter test\MasterTest\obj\Debug\net6.0\MasterTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ServiceCenter test\MasterTest\obj\Debug\net6.0\MasterTest.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ServiceCenter test\MasterTest\obj\Debug\net6.0\MasterTest.AssemblyInfo.cs
+C:\Users\user\Desktop\ServiceCenter test\MasterTest\obj\Debug\net6.0\MasterTest.csproj.CoreCompileInputs.cache

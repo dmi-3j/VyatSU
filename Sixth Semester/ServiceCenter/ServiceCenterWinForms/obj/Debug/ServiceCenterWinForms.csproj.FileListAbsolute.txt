@@ -1,0 +1,387 @@
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.OrderForm.resources
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+C:\Users\user\Desktop\ServiceCenter почти работает\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.OrderForm.resources
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+D:\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.OrderForm.resources
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.OrderForm.resources
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterClient.OrderForm.resources
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\ServiceCenter (вин форма с сервером запускается) — копия — копия\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterClient.OrderForm.resources
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+D:\Desktop\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterClient.OrderForm.resources
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterClient.OrderForm.resources
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe.config
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\ServiceCenterWinForms.pdb
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.pdb
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Google.Protobuf.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.pdb
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Core.Api.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.pdb
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Client.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.pdb
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Grpc.Net.Common.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Buffers.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Memory.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Net.Http.WinHttpHandler.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Numerics.Vectors.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.AssemblyReference.cache
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterClient.OrderForm.resources
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.Properties.Resources.resources
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.GenerateResource.cache
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.csproj.CoreCompileInputs.cache
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceC.04A3B9B0.Up2Date
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.exe
+D:\ServiceCenter (Теперь Точно Готовая форма заказа)\ServiceCenterWinForms\obj\Debug\ServiceCenterWinForms.pdb

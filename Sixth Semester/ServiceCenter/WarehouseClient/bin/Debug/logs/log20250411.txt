@@ -1,0 +1,18 @@
+2025-04-11 09:58:36.352 +03:00 [INF] gRPC client initialized successfully
+2025-04-11 09:58:36.391 +03:00 [INF] Initializing WarehouseForm...
+2025-04-11 09:58:36.391 +03:00 [INF] Loading initial data...
+2025-04-11 09:58:36.583 +03:00 [INF] Loading orders from server...
+2025-04-11 09:58:37.223 +03:00 [INF] Loading warehouse parts...
+2025-04-11 09:58:37.225 +03:00 [DBG] Initializing report DataGridView
+2025-04-11 09:58:37.226 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-11 09:58:37.417 +03:00 [INF] Loaded 0 orders
+2025-04-11 09:58:37.420 +03:00 [DBG] Updating missing parts report
+2025-04-11 09:58:37.531 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-11 09:58:37.545 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-11 10:14:59.280 +03:00 [DBG] Part selected: Дисплей (RH3-001)
+2025-04-11 10:15:00.211 +03:00 [INF] Add part to warehouse button clicked
+2025-04-11 10:15:00.212 +03:00 [INF] Updating existing part: Дисплей (RH3-001)
+2025-04-11 10:15:00.277 +03:00 [INF] Part Дисплей (RH3-001) quantity updated by 9
+2025-04-11 10:15:00.277 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-04-11 10:15:00.294 +03:00 [INF] Loading warehouse parts...
+2025-04-11 10:15:00.394 +03:00 [INF] Loaded 4 warehouse parts

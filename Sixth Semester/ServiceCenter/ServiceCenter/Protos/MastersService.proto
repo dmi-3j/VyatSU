@@ -1,0 +1,65 @@
+﻿syntax = "proto3";
+
+package ServiceCenter;
+
+service MastersService {
+    rpc CreateMaster(CreateMasterRequest) returns (CreateMasterResponse);
+    rpc GetMasters(GetMastersRequest) returns (GetMastersResponse);
+    rpc UpdateMaster(UpdateMasterRequest) returns (UpdateMasterResponse);
+    rpc DeleteMaster(DeleteMasterRequest) returns (DeleteMasterResponse);
+    rpc AuthenticateMaster(AuthenticateMasterRequest) returns (AuthenticateMasterResponse);
+}
+
+message Master {
+    string master_id = 1;
+    string full_name = 2;
+    string specialization = 3;
+    string birth_date = 4;
+    string contact_info = 5;
+    string login = 6;
+    string password = 7;
+}
+
+message AuthenticateMasterRequest {
+    string login = 1;
+    string password = 2;
+}
+
+message AuthenticateMasterResponse {
+    bool success = 1;
+    string message = 2;
+    optional Master master = 3;
+}
+
+message CreateMasterRequest {
+    Master master = 1;
+}
+
+message CreateMasterResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message GetMastersRequest {}
+
+message GetMastersResponse {
+    repeated Master masters = 1;
+}
+
+message UpdateMasterRequest {
+    Master master = 1;
+}
+
+message UpdateMasterResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message DeleteMasterRequest {
+    string master_id = 1;
+}
+
+message DeleteMasterResponse {
+    bool success = 1;
+    string message = 2;
+}

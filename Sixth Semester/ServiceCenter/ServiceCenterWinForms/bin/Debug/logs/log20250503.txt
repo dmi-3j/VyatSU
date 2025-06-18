@@ -1,0 +1,9 @@
+2025-05-03 19:38:17.321 +03:00 [INF] Started OrderClient Application
+2025-05-03 19:38:18.564 +03:00 [INF] gRPC client initialized for https://10.8.1.2:9080
+2025-05-03 19:38:18.568 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-03 19:38:22.479 +03:00 [INF] Loaded 5 orders
+2025-05-03 19:43:29.671 +03:00 [DBG] Starting order creation
+2025-05-03 19:43:30.976 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-03 19:43:31.015 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-03 19:43:31.018 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-03 19:43:31.189 +03:00 [INF] Loaded 6 orders

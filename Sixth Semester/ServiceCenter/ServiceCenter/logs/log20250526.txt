@@ -1,0 +1,400 @@
+2025-05-26 22:15:12.774 +03:00 [INF] Starting gRPC server
+2025-05-26 22:15:12.982 +03:00 [DBG] Hosting starting
+2025-05-26 22:15:13.148 +03:00 [DBG] Middleware loaded
+2025-05-26 22:15:13.154 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:15:13.159 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:15:13.210 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:15:13.215 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:15:13.219 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:15:13.228 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:15:13.265 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:15:13.269 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:15:13.273 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:15:13.276 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:15:13.277 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:15:13.284 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:15:13.290 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:15:13.355 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:15:13.357 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:15:13.358 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:15:13.360 +03:00 [DBG] Hosting started
+2025-05-26 22:15:20.810 +03:00 [INF] Starting gRPC server
+2025-05-26 22:15:21.002 +03:00 [DBG] Hosting starting
+2025-05-26 22:15:21.151 +03:00 [DBG] Middleware loaded
+2025-05-26 22:15:21.160 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:15:21.167 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:15:21.216 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:15:21.221 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:15:21.225 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:15:21.233 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:15:21.268 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:15:21.271 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:15:21.274 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:15:21.286 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:15:21.291 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:15:21.305 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:15:21.311 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:15:21.408 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:15:21.410 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:15:21.414 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:15:21.423 +03:00 [DBG] Hosting started
+2025-05-26 22:16:42.947 +03:00 [INF] Starting gRPC server
+2025-05-26 22:16:43.127 +03:00 [DBG] Hosting starting
+2025-05-26 22:16:43.280 +03:00 [DBG] Middleware loaded
+2025-05-26 22:16:43.287 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:16:43.296 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:16:43.342 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:16:43.347 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:16:43.351 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:16:43.361 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:16:43.399 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:16:43.405 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:16:43.409 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:16:43.411 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:16:43.421 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:16:43.431 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:16:43.436 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:16:43.503 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:16:43.510 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:16:43.514 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:16:43.517 +03:00 [DBG] Hosting started
+2025-05-26 22:16:58.196 +03:00 [INF] Starting gRPC server
+2025-05-26 22:16:58.390 +03:00 [DBG] Hosting starting
+2025-05-26 22:16:58.536 +03:00 [DBG] Middleware loaded
+2025-05-26 22:16:58.546 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:16:58.559 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:16:58.615 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:16:58.623 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:16:58.630 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:16:58.641 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:16:58.688 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:16:58.694 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:16:58.697 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:16:58.700 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:16:58.703 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:16:58.714 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:16:58.721 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:16:58.799 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:16:58.804 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:16:58.810 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:16:58.816 +03:00 [DBG] Hosting started
+2025-05-26 22:17:34.526 +03:00 [INF] Starting gRPC server
+2025-05-26 22:17:34.731 +03:00 [DBG] Hosting starting
+2025-05-26 22:17:34.890 +03:00 [DBG] Middleware loaded
+2025-05-26 22:17:34.895 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:17:34.900 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:17:34.941 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:17:34.946 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:17:34.949 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:17:34.958 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:17:34.995 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:17:34.997 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:17:35.000 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:17:35.001 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:17:35.003 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:17:35.009 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:17:35.013 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:17:35.078 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:17:35.081 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:17:35.082 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:17:35.085 +03:00 [DBG] Hosting started
+2025-05-26 22:17:52.521 +03:00 [INF] Starting gRPC server
+2025-05-26 22:17:52.695 +03:00 [DBG] Hosting starting
+2025-05-26 22:17:52.826 +03:00 [DBG] Middleware loaded
+2025-05-26 22:17:52.831 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:17:52.839 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:17:52.878 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:17:52.881 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:17:52.887 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:17:52.893 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:17:52.928 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:17:52.940 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:17:52.942 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:17:52.943 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:17:52.944 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:17:52.953 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:17:52.956 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:17:53.023 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:17:53.026 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:17:53.028 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:17:53.032 +03:00 [DBG] Hosting started
+2025-05-26 22:18:08.180 +03:00 [INF] Starting gRPC server
+2025-05-26 22:18:08.380 +03:00 [DBG] Hosting starting
+2025-05-26 22:18:08.539 +03:00 [DBG] Middleware loaded
+2025-05-26 22:18:08.545 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:18:08.550 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:18:08.596 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:18:08.604 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:18:08.610 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:18:08.618 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:18:08.655 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:18:08.657 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:18:08.659 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:18:08.661 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:18:08.663 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:18:08.671 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:18:08.677 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:18:08.753 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:18:08.755 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:18:08.758 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:18:08.761 +03:00 [DBG] Hosting started
+2025-05-26 22:20:28.320 +03:00 [INF] Starting gRPC server
+2025-05-26 22:20:29.315 +03:00 [DBG] Hosting starting
+2025-05-26 22:20:29.611 +03:00 [DBG] Middleware loaded
+2025-05-26 22:20:29.625 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:20:29.640 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:20:29.771 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:20:29.787 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:20:29.809 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:20:29.835 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:20:29.924 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:20:29.926 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:20:29.934 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:20:29.937 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:20:29.939 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:20:29.950 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:20:29.956 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:20:30.086 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:20:30.091 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:20:30.093 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:20:30.097 +03:00 [DBG] Hosting started
+2025-05-26 22:20:52.488 +03:00 [INF] Starting gRPC server
+2025-05-26 22:20:52.669 +03:00 [DBG] Hosting starting
+2025-05-26 22:20:52.811 +03:00 [DBG] Middleware loaded
+2025-05-26 22:20:52.817 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:20:52.824 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:20:52.870 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:20:52.877 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:20:52.882 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:20:52.899 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:20:52.944 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:20:52.950 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:20:52.958 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:20:52.964 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:20:52.968 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:20:52.976 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:20:52.980 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:20:53.050 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:20:53.053 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:20:53.056 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:20:53.059 +03:00 [DBG] Hosting started
+2025-05-26 22:21:08.112 +03:00 [INF] Starting gRPC server
+2025-05-26 22:21:08.301 +03:00 [DBG] Hosting starting
+2025-05-26 22:21:08.453 +03:00 [DBG] Middleware loaded
+2025-05-26 22:21:08.458 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:21:08.464 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:21:08.512 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:21:08.515 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:21:08.519 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:21:08.523 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:21:08.595 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:21:08.600 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:21:08.605 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:21:08.609 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:21:08.613 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:21:08.623 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:21:08.628 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:21:08.703 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:21:08.706 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:21:08.711 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:21:08.714 +03:00 [DBG] Hosting started
+2025-05-26 22:21:24.950 +03:00 [INF] Starting gRPC server
+2025-05-26 22:21:25.147 +03:00 [DBG] Hosting starting
+2025-05-26 22:21:25.307 +03:00 [DBG] Middleware loaded
+2025-05-26 22:21:25.313 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:21:25.320 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:21:25.366 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:21:25.371 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:21:25.376 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:21:25.383 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:21:25.418 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:21:25.420 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:21:25.422 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:21:25.424 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:21:25.426 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:21:25.434 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:21:25.439 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:21:25.508 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:21:25.512 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:21:25.515 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:21:25.517 +03:00 [DBG] Hosting started
+2025-05-26 22:26:07.100 +03:00 [INF] Starting gRPC server
+2025-05-26 22:26:07.306 +03:00 [DBG] Hosting starting
+2025-05-26 22:26:07.449 +03:00 [DBG] Middleware loaded
+2025-05-26 22:26:07.455 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:26:07.460 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:26:07.501 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:26:07.507 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:26:07.512 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:26:07.518 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:26:07.559 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:26:07.562 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:26:07.565 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:26:07.568 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:26:07.571 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:26:07.577 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:26:07.583 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:26:07.653 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:26:07.658 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:26:07.662 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:26:07.666 +03:00 [DBG] Hosting started
+2025-05-26 22:26:33.369 +03:00 [INF] Starting gRPC server
+2025-05-26 22:26:33.560 +03:00 [DBG] Hosting starting
+2025-05-26 22:26:33.721 +03:00 [DBG] Middleware loaded
+2025-05-26 22:26:33.727 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:26:33.737 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:26:33.789 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:26:33.795 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:26:33.800 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:26:33.808 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:26:33.850 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:26:33.876 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:26:33.879 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:26:33.880 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:26:33.881 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:26:33.887 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:26:33.891 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:26:33.962 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:26:33.965 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:26:33.967 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:26:33.968 +03:00 [DBG] Hosting started
+2025-05-26 22:26:49.665 +03:00 [INF] Starting gRPC server
+2025-05-26 22:26:49.837 +03:00 [DBG] Hosting starting
+2025-05-26 22:26:49.996 +03:00 [DBG] Middleware loaded
+2025-05-26 22:26:50.008 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:26:50.017 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:26:50.063 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:26:50.069 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:26:50.077 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:26:50.083 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:26:50.134 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:26:50.146 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:26:50.149 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:26:50.157 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:26:50.159 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:26:50.168 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:26:50.173 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:26:50.265 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:26:50.268 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:26:50.270 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:26:50.272 +03:00 [DBG] Hosting started
+2025-05-26 22:27:54.135 +03:00 [INF] Starting gRPC server
+2025-05-26 22:27:54.331 +03:00 [DBG] Hosting starting
+2025-05-26 22:27:54.490 +03:00 [DBG] Middleware loaded
+2025-05-26 22:27:54.498 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:27:54.505 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:27:54.554 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:27:54.558 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:27:54.561 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:27:54.567 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:27:54.601 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:27:54.614 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:27:54.621 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:27:54.624 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:27:54.627 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:27:54.641 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:27:54.649 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:27:54.715 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:27:54.720 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:27:54.729 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:27:54.732 +03:00 [DBG] Hosting started
+2025-05-26 22:28:59.991 +03:00 [INF] Starting gRPC server
+2025-05-26 22:29:00.174 +03:00 [DBG] Hosting starting
+2025-05-26 22:29:00.330 +03:00 [DBG] Middleware loaded
+2025-05-26 22:29:00.336 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:29:00.341 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:29:00.380 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:29:00.383 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:29:00.387 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:29:00.392 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:29:00.431 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:29:00.433 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:29:00.435 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:29:00.436 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:29:00.438 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:29:00.445 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:29:00.449 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:29:00.511 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:29:00.514 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:29:00.515 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:29:00.517 +03:00 [DBG] Hosting started
+2025-05-26 22:31:42.091 +03:00 [INF] Starting gRPC server
+2025-05-26 22:31:42.283 +03:00 [DBG] Hosting starting
+2025-05-26 22:31:42.450 +03:00 [DBG] Middleware loaded
+2025-05-26 22:31:42.456 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:31:42.461 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:31:42.504 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:31:42.508 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:31:42.511 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:31:42.516 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:31:42.550 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:31:42.553 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:31:42.555 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:31:42.556 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:31:42.557 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:31:42.564 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:31:42.568 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:31:42.633 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:31:42.637 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:31:42.638 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:31:42.639 +03:00 [DBG] Hosting started
+2025-05-26 22:34:55.983 +03:00 [INF] Starting gRPC server
+2025-05-26 22:34:56.196 +03:00 [DBG] Hosting starting
+2025-05-26 22:34:56.358 +03:00 [DBG] Middleware loaded
+2025-05-26 22:34:56.374 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:34:56.382 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:34:56.436 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:34:56.445 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:34:56.451 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:34:56.457 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:34:56.496 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:34:56.498 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:34:56.500 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:34:56.501 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:34:56.502 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:34:56.508 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:34:56.513 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:34:56.583 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:34:56.589 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:34:56.590 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:34:56.592 +03:00 [DBG] Hosting started
+2025-05-26 22:38:24.855 +03:00 [INF] Starting gRPC server
+2025-05-26 22:38:25.052 +03:00 [DBG] Hosting starting
+2025-05-26 22:38:25.239 +03:00 [DBG] Middleware loaded
+2025-05-26 22:38:25.246 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:38:25.255 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:38:25.301 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:38:25.315 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:38:25.323 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:38:25.331 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:38:25.375 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:38:25.378 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:38:25.379 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:38:25.380 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:38:25.382 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:38:25.388 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:38:25.392 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:38:25.457 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:38:25.462 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:38:25.463 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:38:25.464 +03:00 [DBG] Hosting started
+2025-05-26 22:39:38.184 +03:00 [INF] Starting gRPC server
+2025-05-26 22:39:38.373 +03:00 [DBG] Hosting starting
+2025-05-26 22:39:38.538 +03:00 [DBG] Middleware loaded
+2025-05-26 22:39:38.547 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-26 22:39:38.555 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-26 22:39:38.602 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-26 22:39:38.606 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-26 22:39:38.610 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-26 22:39:38.616 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-26 22:39:38.652 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-26 22:39:38.654 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-26 22:39:38.657 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-26 22:39:38.658 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-26 22:39:38.660 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-26 22:39:38.667 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-26 22:39:38.671 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-26 22:39:38.735 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 22:39:38.739 +03:00 [INF] Hosting environment: Development
+2025-05-26 22:39:38.742 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\ServiceCenter
+2025-05-26 22:39:38.747 +03:00 [DBG] Hosting started

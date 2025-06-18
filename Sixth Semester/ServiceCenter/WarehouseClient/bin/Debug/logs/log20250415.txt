@@ -1,0 +1,533 @@
+2025-04-15 00:00:25.061 +03:00 [DBG] Part selected: Аккумулятор (BL-4C)
+2025-04-15 00:00:50.674 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:00:50.674 +03:00 [INF] Loading orders from server...
+2025-04-15 00:00:50.674 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:00:50.872 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:00:50.882 +03:00 [INF] Loaded 2 orders
+2025-04-15 00:00:50.882 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:00:51.132 +03:00 [DBG] Missing part detected: Аккумулятор (BL-4C), missing: 1
+2025-04-15 00:00:51.210 +03:00 [INF] Missing parts report updated with 1 entries
+2025-04-15 00:00:53.540 +03:00 [INF] Showing notification: Ошибка - Неверный формат данных заказа.
+2025-04-15 00:01:02.516 +03:00 [DBG] Part selected: Аккумулятор (BL-4C)
+2025-04-15 00:01:05.497 +03:00 [INF] Add part to warehouse button clicked
+2025-04-15 00:01:05.498 +03:00 [INF] Updating existing part: Аккумулятор (BL-4C)
+2025-04-15 00:01:05.565 +03:00 [INF] Part Аккумулятор (BL-4C) quantity updated by 1
+2025-04-15 00:01:05.565 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-04-15 00:01:05.586 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:01:05.720 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:01:06.953 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:01:06.953 +03:00 [INF] Loading orders from server...
+2025-04-15 00:01:06.953 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:01:07.193 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:01:07.196 +03:00 [INF] Loaded 2 orders
+2025-04-15 00:01:07.196 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:01:07.350 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:01:08.389 +03:00 [INF] Showing notification: Ошибка - Неверный формат данных заказа.
+2025-04-15 00:01:25.434 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 00:01:25.460 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 00:01:25.460 +03:00 [INF] Loading initial data...
+2025-04-15 00:01:25.465 +03:00 [INF] Loading orders from server...
+2025-04-15 00:01:25.520 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:01:25.528 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 00:01:25.528 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 00:01:25.736 +03:00 [INF] Loaded 2 orders
+2025-04-15 00:01:25.738 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:01:25.864 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:01:26.017 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:01:27.322 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:01:27.375 +03:00 [INF] Processing order f73921ab-a3a8-451b-9aab-d4e42233cf82 for status update
+2025-04-15 00:01:27.461 +03:00 [INF] All parts available for order f73921ab-a3a8-451b-9aab-d4e42233cf82. Total price: 5
+2025-04-15 00:01:27.546 +03:00 [INF] Order f73921ab-a3a8-451b-9aab-d4e42233cf82 status updated to 'Комплектующие выданы'
+2025-04-15 00:01:27.546 +03:00 [INF] Showing notification: Успех - Статус заявки обновлен: Комплектующие выданы.
+2025-04-15 00:01:27.572 +03:00 [INF] Loading orders from server...
+2025-04-15 00:01:27.627 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:01:27.627 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:01:27.775 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:01:31.898 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:01:31.898 +03:00 [INF] Loading orders from server...
+2025-04-15 00:01:31.898 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:01:32.281 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:01:32.447 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:01:32.448 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:01:32.567 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:02:06.733 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:02:06.735 +03:00 [INF] Loading orders from server...
+2025-04-15 00:02:06.735 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:02:07.035 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:02:07.036 +03:00 [INF] Loaded 0 orders
+2025-04-15 00:02:07.036 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:02:07.098 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:09:25.940 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:09:25.942 +03:00 [INF] Loading orders from server...
+2025-04-15 00:09:25.943 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:09:26.222 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:09:26.227 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:09:26.227 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:09:26.448 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:09:27.823 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:09:27.823 +03:00 [INF] Processing order a19e75d1-0ecd-4e80-ad9c-1728e3511c28 for status update
+2025-04-15 00:09:27.954 +03:00 [INF] All parts available for order a19e75d1-0ecd-4e80-ad9c-1728e3511c28. Total price: 100
+2025-04-15 00:09:27.992 +03:00 [WRN] Failed to update status for order a19e75d1-0ecd-4e80-ad9c-1728e3511c28. Status: Заявка отправлена
+2025-04-15 00:09:27.992 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:09:34.978 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:09:34.978 +03:00 [INF] Processing order a19e75d1-0ecd-4e80-ad9c-1728e3511c28 for status update
+2025-04-15 00:09:35.058 +03:00 [INF] All parts available for order a19e75d1-0ecd-4e80-ad9c-1728e3511c28. Total price: 100
+2025-04-15 00:09:35.089 +03:00 [WRN] Failed to update status for order a19e75d1-0ecd-4e80-ad9c-1728e3511c28. Status: Заявка отправлена
+2025-04-15 00:09:35.089 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:09:42.074 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:09:42.074 +03:00 [INF] Loading orders from server...
+2025-04-15 00:09:42.074 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:09:42.292 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:09:42.298 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:09:42.298 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:09:42.451 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:09:43.449 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:09:43.449 +03:00 [INF] Loading orders from server...
+2025-04-15 00:09:43.449 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:09:43.595 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:09:43.606 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:09:43.606 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:09:43.975 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:09:52.748 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:09:52.749 +03:00 [INF] Processing order a19e75d1-0ecd-4e80-ad9c-1728e3511c28 for status update
+2025-04-15 00:09:52.870 +03:00 [INF] All parts available for order a19e75d1-0ecd-4e80-ad9c-1728e3511c28. Total price: 100
+2025-04-15 00:09:52.944 +03:00 [WRN] Failed to update status for order a19e75d1-0ecd-4e80-ad9c-1728e3511c28. Status: Заявка отправлена
+2025-04-15 00:09:52.944 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:11:06.606 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:11:06.606 +03:00 [INF] Loading orders from server...
+2025-04-15 00:11:06.607 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:11:06.913 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:11:06.919 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:11:06.919 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:11:07.227 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:11:07.670 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:11:07.670 +03:00 [INF] Loading orders from server...
+2025-04-15 00:11:07.670 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:11:07.824 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:11:07.828 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:11:07.828 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:11:08.124 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:11:10.076 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:11:10.076 +03:00 [INF] Processing order 25b25151-fc7f-4d78-abb8-72f32f435865 for status update
+2025-04-15 00:11:10.201 +03:00 [INF] All parts available for order 25b25151-fc7f-4d78-abb8-72f32f435865. Total price: 100
+2025-04-15 00:11:10.285 +03:00 [WRN] Failed to update status for order 25b25151-fc7f-4d78-abb8-72f32f435865. Status: Заявка отправлена
+2025-04-15 00:11:10.285 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:11:16.168 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:11:16.168 +03:00 [INF] Loading orders from server...
+2025-04-15 00:11:16.168 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:11:16.511 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:11:16.512 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:11:16.512 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:11:16.632 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:12:40.991 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:12:40.992 +03:00 [INF] Loading orders from server...
+2025-04-15 00:12:40.993 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:12:41.212 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:12:41.216 +03:00 [INF] Loaded 2 orders
+2025-04-15 00:12:41.217 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:12:41.399 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:12:44.098 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:12:44.098 +03:00 [INF] Processing order ed981605-8b5e-4d20-b939-74c210b93d61 for status update
+2025-04-15 00:12:44.192 +03:00 [INF] All parts available for order ed981605-8b5e-4d20-b939-74c210b93d61. Total price: 100
+2025-04-15 00:12:44.228 +03:00 [WRN] Failed to update status for order ed981605-8b5e-4d20-b939-74c210b93d61. Status: Заявка отправлена
+2025-04-15 00:12:44.229 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:13:30.341 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:13:30.341 +03:00 [INF] Loading orders from server...
+2025-04-15 00:13:30.341 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:13:30.468 +03:00 [INF] Loaded 3 orders
+2025-04-15 00:13:30.468 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:13:30.534 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:13:30.802 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:13:35.955 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:13:35.955 +03:00 [INF] Processing order ed981605-8b5e-4d20-b939-74c210b93d61 for status update
+2025-04-15 00:13:36.091 +03:00 [INF] All parts available for order ed981605-8b5e-4d20-b939-74c210b93d61. Total price: 100
+2025-04-15 00:13:36.129 +03:00 [WRN] Failed to update status for order ed981605-8b5e-4d20-b939-74c210b93d61. Status: Заявка отправлена
+2025-04-15 00:13:36.129 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:13:39.541 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:13:39.541 +03:00 [INF] Processing order ad845753-377e-4d2a-a0ab-80fcf1db9fe8 for status update
+2025-04-15 00:13:39.620 +03:00 [INF] All parts available for order ad845753-377e-4d2a-a0ab-80fcf1db9fe8. Total price: 100
+2025-04-15 00:13:39.650 +03:00 [WRN] Failed to update status for order ad845753-377e-4d2a-a0ab-80fcf1db9fe8. Status: Заявка отправлена
+2025-04-15 00:13:39.650 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:13:45.103 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:13:45.103 +03:00 [INF] Processing order 25b25151-fc7f-4d78-abb8-72f32f435865 for status update
+2025-04-15 00:13:45.179 +03:00 [INF] All parts available for order 25b25151-fc7f-4d78-abb8-72f32f435865. Total price: 100
+2025-04-15 00:13:45.236 +03:00 [WRN] Failed to update status for order 25b25151-fc7f-4d78-abb8-72f32f435865. Status: Заявка отправлена
+2025-04-15 00:13:45.236 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:13:45.338 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:13:45.338 +03:00 [INF] Processing order 25b25151-fc7f-4d78-abb8-72f32f435865 for status update
+2025-04-15 00:13:45.402 +03:00 [INF] All parts available for order 25b25151-fc7f-4d78-abb8-72f32f435865. Total price: 100
+2025-04-15 00:13:45.436 +03:00 [WRN] Failed to update status for order 25b25151-fc7f-4d78-abb8-72f32f435865. Status: Заявка отправлена
+2025-04-15 00:13:45.436 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:13:45.505 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:13:45.505 +03:00 [INF] Processing order 25b25151-fc7f-4d78-abb8-72f32f435865 for status update
+2025-04-15 00:13:45.569 +03:00 [INF] All parts available for order 25b25151-fc7f-4d78-abb8-72f32f435865. Total price: 100
+2025-04-15 00:13:45.607 +03:00 [WRN] Failed to update status for order 25b25151-fc7f-4d78-abb8-72f32f435865. Status: Заявка отправлена
+2025-04-15 00:13:45.607 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:16:06.896 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 00:16:06.924 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 00:16:06.924 +03:00 [INF] Loading initial data...
+2025-04-15 00:16:06.928 +03:00 [INF] Loading orders from server...
+2025-04-15 00:16:06.972 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:16:06.973 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 00:16:06.973 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 00:16:07.247 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:16:07.264 +03:00 [INF] Loaded 3 orders
+2025-04-15 00:16:07.267 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:16:07.594 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:16:09.426 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:16:13.577 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:19:48.965 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 00:19:48.998 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 00:19:48.998 +03:00 [INF] Loading initial data...
+2025-04-15 00:19:49.002 +03:00 [INF] Loading orders from server...
+2025-04-15 00:19:49.037 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:19:49.038 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 00:19:49.038 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 00:19:49.398 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:19:49.463 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:19:49.472 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:19:49.638 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:19:52.483 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:19:52.499 +03:00 [INF] Processing order e61644dc-7496-499c-ba68-aa4d60ab61ef for status update
+2025-04-15 00:19:52.717 +03:00 [INF] All parts available for order e61644dc-7496-499c-ba68-aa4d60ab61ef. Total price: 100
+2025-04-15 00:19:52.841 +03:00 [WRN] Failed to update status for order e61644dc-7496-499c-ba68-aa4d60ab61ef. Status: Заявка отправлена
+2025-04-15 00:19:52.841 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:21:36.754 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:21:36.756 +03:00 [INF] Loading orders from server...
+2025-04-15 00:21:36.757 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:21:37.025 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:21:37.027 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:21:37.027 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:21:37.205 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:21:37.497 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:21:37.497 +03:00 [INF] Loading orders from server...
+2025-04-15 00:21:37.497 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:21:37.737 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:21:37.742 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:21:37.742 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:21:37.901 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:21:39.221 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:21:39.221 +03:00 [INF] Processing order 50165fea-3ba2-442a-9dae-1da0ec551b70 for status update
+2025-04-15 00:21:39.328 +03:00 [INF] All parts available for order 50165fea-3ba2-442a-9dae-1da0ec551b70. Total price: 100
+2025-04-15 00:21:39.378 +03:00 [WRN] Failed to update status for order 50165fea-3ba2-442a-9dae-1da0ec551b70. Status: Заявка отправлена
+2025-04-15 00:21:39.378 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:21:40.446 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:21:40.446 +03:00 [INF] Processing order 50165fea-3ba2-442a-9dae-1da0ec551b70 for status update
+2025-04-15 00:21:40.594 +03:00 [INF] All parts available for order 50165fea-3ba2-442a-9dae-1da0ec551b70. Total price: 100
+2025-04-15 00:21:40.698 +03:00 [WRN] Failed to update status for order 50165fea-3ba2-442a-9dae-1da0ec551b70. Status: Заявка отправлена
+2025-04-15 00:21:40.699 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:25:10.557 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 00:25:10.595 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 00:25:10.595 +03:00 [INF] Loading initial data...
+2025-04-15 00:25:10.600 +03:00 [INF] Loading orders from server...
+2025-04-15 00:25:10.645 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:25:10.648 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 00:25:10.648 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 00:25:10.876 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:25:10.879 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:25:10.980 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:25:11.036 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:25:12.621 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:25:12.621 +03:00 [INF] Loading orders from server...
+2025-04-15 00:25:12.621 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:25:12.898 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:25:12.899 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:25:12.899 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:25:13.036 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:25:13.294 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:25:13.294 +03:00 [INF] Loading orders from server...
+2025-04-15 00:25:13.294 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:25:13.360 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:25:13.360 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:25:13.677 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:25:13.798 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:25:14.864 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:25:14.899 +03:00 [INF] Processing order b46e052c-f3cb-49aa-81aa-6154d632159b for status update
+2025-04-15 00:25:14.999 +03:00 [INF] All parts available for order b46e052c-f3cb-49aa-81aa-6154d632159b. Total price: 100
+2025-04-15 00:25:15.029 +03:00 [WRN] Failed to update status for order b46e052c-f3cb-49aa-81aa-6154d632159b. Status: Заявка отправлена
+2025-04-15 00:25:15.030 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:31:00.055 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 00:31:00.089 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 00:31:00.090 +03:00 [INF] Loading initial data...
+2025-04-15 00:31:00.094 +03:00 [INF] Loading orders from server...
+2025-04-15 00:31:00.135 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:31:00.137 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 00:31:00.137 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 00:31:00.498 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:31:00.553 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:31:00.560 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:31:00.694 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 00:31:02.080 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:31:02.081 +03:00 [INF] Processing order b46e052c-f3cb-49aa-81aa-6154d632159b for status update
+2025-04-15 00:31:02.179 +03:00 [INF] All parts available for order b46e052c-f3cb-49aa-81aa-6154d632159b. Total price: 100
+2025-04-15 00:31:02.237 +03:00 [WRN] Failed to update status for order b46e052c-f3cb-49aa-81aa-6154d632159b. Status: Заявка отправлена
+2025-04-15 00:31:02.237 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:31:09.528 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:31:09.528 +03:00 [INF] Processing order b46e052c-f3cb-49aa-81aa-6154d632159b for status update
+2025-04-15 00:31:09.599 +03:00 [INF] All parts available for order b46e052c-f3cb-49aa-81aa-6154d632159b. Total price: 100
+2025-04-15 00:31:09.657 +03:00 [WRN] Failed to update status for order b46e052c-f3cb-49aa-81aa-6154d632159b. Status: Заявка отправлена
+2025-04-15 00:31:09.657 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:31:40.235 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 00:31:40.235 +03:00 [INF] Processing order b46e052c-f3cb-49aa-81aa-6154d632159b for status update
+2025-04-15 00:31:40.328 +03:00 [INF] All parts available for order b46e052c-f3cb-49aa-81aa-6154d632159b. Total price: 100
+2025-04-15 00:31:40.385 +03:00 [WRN] Failed to update status for order b46e052c-f3cb-49aa-81aa-6154d632159b. Status: Заявка отправлена
+2025-04-15 00:31:40.385 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 00:34:52.251 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:34:52.251 +03:00 [INF] Loading orders from server...
+2025-04-15 00:34:52.252 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:34:52.465 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:34:52.465 +03:00 [INF] Loading orders from server...
+2025-04-15 00:34:52.465 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:34:52.629 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 00:34:52.629 +03:00 [INF] Loading orders from server...
+2025-04-15 00:34:52.629 +03:00 [INF] Loading warehouse parts...
+2025-04-15 00:34:53.520 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:34:53.520 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:34:53.520 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 00:34:53.520 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:34:53.520 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:34:53.520 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:34:53.520 +03:00 [DBG] Updating missing parts report
+2025-04-15 00:34:53.520 +03:00 [INF] Loaded 1 orders
+2025-04-15 00:34:53.520 +03:00 [DBG] Updating missing parts report
+2025-04-15 01:59:13.136 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 01:59:13.169 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 01:59:13.169 +03:00 [INF] Loading initial data...
+2025-04-15 01:59:13.176 +03:00 [INF] Loading orders from server...
+2025-04-15 01:59:13.224 +03:00 [INF] Loading warehouse parts...
+2025-04-15 01:59:13.225 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 01:59:13.227 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 01:59:14.446 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 01:59:14.489 +03:00 [WRN] No order selected for status update
+2025-04-15 01:59:14.489 +03:00 [INF] Showing notification: Предупреждение - Выберите заказ для обновления статуса.
+2025-04-15 01:59:14.874 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 01:59:14.882 +03:00 [INF] Loaded 1 orders
+2025-04-15 01:59:14.883 +03:00 [DBG] Updating missing parts report
+2025-04-15 01:59:15.344 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 01:59:16.596 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 01:59:16.610 +03:00 [INF] Processing order eafda020-54c4-4fc0-93c0-76c51e5db02f for status update
+2025-04-15 01:59:16.730 +03:00 [INF] All parts available for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Total price: 100
+2025-04-15 01:59:16.820 +03:00 [WRN] Failed to update status for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Status: Заявка отправлена
+2025-04-15 01:59:16.820 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 02:02:21.545 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:02:21.549 +03:00 [INF] Loading orders from server...
+2025-04-15 02:02:21.549 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:02:21.817 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:02:21.817 +03:00 [INF] Loading orders from server...
+2025-04-15 02:02:21.817 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:02:22.053 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:02:22.053 +03:00 [INF] Loading orders from server...
+2025-04-15 02:02:22.053 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:02:22.978 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:02:22.978 +03:00 [INF] Loading orders from server...
+2025-04-15 02:02:22.978 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:02:23.243 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:02:23.312 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:02:23.380 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:02:23.382 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:02:23.382 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:02:23.385 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:02:23.386 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:02:23.389 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:02:23.389 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:02:23.488 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:02:23.489 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:02:23.489 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:02:23.715 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:02:23.720 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:02:23.725 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:02:23.729 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:02:24.370 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 02:02:24.370 +03:00 [INF] Processing order eafda020-54c4-4fc0-93c0-76c51e5db02f for status update
+2025-04-15 02:02:24.461 +03:00 [INF] All parts available for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Total price: 100
+2025-04-15 02:02:24.551 +03:00 [WRN] Failed to update status for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Status: Заявка отправлена
+2025-04-15 02:02:24.551 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 02:02:33.838 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:02:33.868 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:02:33.868 +03:00 [INF] Loading initial data...
+2025-04-15 02:02:33.876 +03:00 [INF] Loading orders from server...
+2025-04-15 02:02:33.975 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:02:33.980 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:02:33.981 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:02:34.261 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:02:34.267 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:02:34.418 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:02:34.544 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:02:35.895 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 02:02:35.918 +03:00 [INF] Processing order eafda020-54c4-4fc0-93c0-76c51e5db02f for status update
+2025-04-15 02:02:36.000 +03:00 [INF] All parts available for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Total price: 100
+2025-04-15 02:02:36.041 +03:00 [WRN] Failed to update status for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Status: Заявка отправлена
+2025-04-15 02:02:36.041 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 02:03:24.360 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:03:24.390 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:03:24.390 +03:00 [INF] Loading initial data...
+2025-04-15 02:03:24.397 +03:00 [INF] Loading orders from server...
+2025-04-15 02:03:24.434 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:03:24.435 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:03:24.436 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:03:25.798 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:03:25.800 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:03:25.919 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:03:26.035 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:03:27.316 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 02:03:27.337 +03:00 [INF] Processing order eafda020-54c4-4fc0-93c0-76c51e5db02f for status update
+2025-04-15 02:03:27.441 +03:00 [INF] All parts available for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Total price: 100
+2025-04-15 02:03:27.560 +03:00 [WRN] Failed to update status for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Status: Заявка отправлена
+2025-04-15 02:03:27.561 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 02:04:44.119 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:04:44.172 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:04:44.172 +03:00 [INF] Loading initial data...
+2025-04-15 02:04:44.176 +03:00 [INF] Loading orders from server...
+2025-04-15 02:04:44.281 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:04:44.283 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:04:44.283 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:04:44.517 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:04:44.519 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:04:44.637 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:04:44.701 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:05:13.277 +03:00 [INF] Add part to warehouse button clicked
+2025-04-15 02:05:13.279 +03:00 [INF] Updating existing part: Дисплей (123)
+2025-04-15 02:05:13.439 +03:00 [INF] Part Дисплей (123) quantity updated by 1
+2025-04-15 02:05:13.440 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-04-15 02:05:13.468 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:05:13.603 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:05:16.354 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 02:05:16.372 +03:00 [INF] Processing order eafda020-54c4-4fc0-93c0-76c51e5db02f for status update
+2025-04-15 02:05:16.500 +03:00 [INF] All parts available for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Total price: 1
+2025-04-15 02:05:16.555 +03:00 [WRN] Failed to update status for order eafda020-54c4-4fc0-93c0-76c51e5db02f. Status: Заявка отправлена
+2025-04-15 02:05:16.555 +03:00 [INF] Showing notification: Ошибка - Ошибка обновления статуса заявки. Статус: Заявка отправлена
+2025-04-15 02:06:30.629 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:06:30.670 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:06:30.670 +03:00 [INF] Loading initial data...
+2025-04-15 02:06:30.679 +03:00 [INF] Loading orders from server...
+2025-04-15 02:06:30.780 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:06:30.787 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:06:30.789 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:06:31.136 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:06:31.170 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:06:31.173 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:06:31.417 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:07:34.946 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:07:34.967 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:07:34.967 +03:00 [INF] Loading initial data...
+2025-04-15 02:07:34.971 +03:00 [INF] Loading orders from server...
+2025-04-15 02:07:35.013 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:07:35.015 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:07:35.015 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:07:36.137 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:07:36.156 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:07:36.158 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:07:36.561 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:08:08.067 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:08:08.067 +03:00 [INF] Loading orders from server...
+2025-04-15 02:08:08.067 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:08:08.430 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:08:08.433 +03:00 [INF] Loaded 2 orders
+2025-04-15 02:08:08.433 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:08:08.640 +03:00 [DBG] Missing part detected: Аккумулятор (BL-4C), missing: 1
+2025-04-15 02:08:08.737 +03:00 [INF] Missing parts report updated with 1 entries
+2025-04-15 02:08:33.115 +03:00 [INF] Add part to warehouse button clicked
+2025-04-15 02:08:33.116 +03:00 [INF] Updating existing part: Аккумулятор (BL-4C)
+2025-04-15 02:08:33.197 +03:00 [INF] Part Аккумулятор (BL-4C) quantity updated by 1
+2025-04-15 02:08:33.198 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-04-15 02:08:33.221 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:08:33.464 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:08:36.082 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:08:36.082 +03:00 [INF] Loading orders from server...
+2025-04-15 02:08:36.084 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:08:36.294 +03:00 [INF] Loaded 5 warehouse parts
+2025-04-15 02:08:36.297 +03:00 [INF] Loaded 2 orders
+2025-04-15 02:08:36.297 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:08:36.472 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:08:38.477 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 02:08:38.496 +03:00 [INF] Processing order d6992b03-9943-4d44-a34f-f8302f92db69 for status update
+2025-04-15 02:08:38.800 +03:00 [INF] All parts available for order d6992b03-9943-4d44-a34f-f8302f92db69. Total price: 1
+2025-04-15 02:08:39.125 +03:00 [INF] Order d6992b03-9943-4d44-a34f-f8302f92db69 status updated to 'Комплектующие выданы'
+2025-04-15 02:08:39.125 +03:00 [INF] Showing notification: Успех - Статус заявки обновлен: Комплектующие выданы.
+2025-04-15 02:08:39.157 +03:00 [INF] Loading orders from server...
+2025-04-15 02:08:39.330 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:08:39.330 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:08:39.638 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:08:49.429 +03:00 [INF] Delete part button clicked
+2025-04-15 02:08:50.858 +03:00 [INF] Deleting part: Дисплей (123)
+2025-04-15 02:08:50.994 +03:00 [INF] Part Дисплей (123) deleted successfully
+2025-04-15 02:08:50.994 +03:00 [INF] Showing notification: Успех - Комплектующее удалено.
+2025-04-15 02:08:51.033 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:08:51.179 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:09:58.346 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:09:58.372 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:09:58.372 +03:00 [INF] Loading initial data...
+2025-04-15 02:09:58.377 +03:00 [INF] Loading orders from server...
+2025-04-15 02:09:58.422 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:09:58.423 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:09:58.423 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:09:58.945 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:09:58.968 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:09:58.973 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:09:59.201 +03:00 [DBG] Missing part detected: Дисплей (123), missing: 1
+2025-04-15 02:09:59.239 +03:00 [INF] Missing parts report updated with 1 entries
+2025-04-15 02:11:20.393 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:11:20.417 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:11:20.417 +03:00 [INF] Loading initial data...
+2025-04-15 02:11:20.419 +03:00 [INF] Loading orders from server...
+2025-04-15 02:11:20.475 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:11:20.477 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:11:20.477 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:11:20.817 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:11:20.830 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:11:20.833 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:11:21.061 +03:00 [DBG] Missing part detected: Дисплей (123), missing: 1
+2025-04-15 02:11:21.075 +03:00 [INF] Missing parts report updated with 1 entries
+2025-04-15 02:13:06.675 +03:00 [INF] gRPC client initialized successfully
+2025-04-15 02:13:06.695 +03:00 [INF] Initializing WarehouseForm...
+2025-04-15 02:13:06.695 +03:00 [INF] Loading initial data...
+2025-04-15 02:13:06.698 +03:00 [INF] Loading orders from server...
+2025-04-15 02:13:06.729 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:13:06.730 +03:00 [DBG] Initializing report DataGridView
+2025-04-15 02:13:06.730 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-15 02:13:06.921 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:13:06.923 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:13:07.051 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:13:07.121 +03:00 [DBG] Missing part detected: Дисплей (123), missing: 1
+2025-04-15 02:13:07.136 +03:00 [INF] Missing parts report updated with 1 entries
+2025-04-15 02:13:07.729 +03:00 [DBG] Part selected: Дисплей (RH3-o-1)
+2025-04-15 02:14:56.719 +03:00 [DBG] Part selected: Аккумулятор (BL-4C)
+2025-04-15 02:15:08.998 +03:00 [DBG] Part selected: Дисплей (RH3-001)
+2025-04-15 02:15:18.313 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:15:18.317 +03:00 [INF] Loading orders from server...
+2025-04-15 02:15:18.317 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:15:18.752 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:15:18.760 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:15:18.761 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:15:18.991 +03:00 [DBG] Missing part detected: Аккумулятор (BL-4C), missing: 1
+2025-04-15 02:15:19.002 +03:00 [INF] Missing parts report updated with 1 entries
+2025-04-15 02:15:25.624 +03:00 [DBG] Part selected: Аккумулятор (BL-4C)
+2025-04-15 02:15:27.309 +03:00 [INF] Add part to warehouse button clicked
+2025-04-15 02:15:27.309 +03:00 [INF] Updating existing part: Аккумулятор (BL-4C)
+2025-04-15 02:15:27.374 +03:00 [INF] Part Аккумулятор (BL-4C) quantity updated by 2
+2025-04-15 02:15:27.374 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-04-15 02:15:27.393 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:15:27.462 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:15:29.513 +03:00 [DBG] Part selected: Дисплей (RH-o-1)
+2025-04-15 02:15:31.504 +03:00 [INF] Add part to warehouse button clicked
+2025-04-15 02:15:31.504 +03:00 [INF] Updating existing part: Дисплей (RH-o-1)
+2025-04-15 02:15:31.569 +03:00 [INF] Part Дисплей (RH-o-1) quantity updated by 4
+2025-04-15 02:15:31.569 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-04-15 02:15:31.594 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:15:31.699 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:15:33.169 +03:00 [DBG] F5 key pressed - refreshing data
+2025-04-15 02:15:33.169 +03:00 [INF] Loading orders from server...
+2025-04-15 02:15:33.169 +03:00 [INF] Loading warehouse parts...
+2025-04-15 02:15:33.350 +03:00 [INF] Loaded 1 orders
+2025-04-15 02:15:33.350 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:15:33.417 +03:00 [INF] Loaded 4 warehouse parts
+2025-04-15 02:15:33.566 +03:00 [INF] Missing parts report updated with 0 entries
+2025-04-15 02:15:34.397 +03:00 [INF] Update warehouse status button clicked
+2025-04-15 02:15:34.421 +03:00 [INF] Processing order ab7d3dc4-7877-4174-bea8-70c793a9dfe2 for status update
+2025-04-15 02:15:34.546 +03:00 [INF] All parts available for order ab7d3dc4-7877-4174-bea8-70c793a9dfe2. Total price: 7877
+2025-04-15 02:15:34.930 +03:00 [INF] Order ab7d3dc4-7877-4174-bea8-70c793a9dfe2 status updated to 'Комплектующие выданы'
+2025-04-15 02:15:34.930 +03:00 [INF] Showing notification: Успех - Статус заявки обновлен: Комплектующие выданы.
+2025-04-15 02:15:34.955 +03:00 [INF] Loading orders from server...
+2025-04-15 02:15:34.981 +03:00 [INF] Loaded 0 orders
+2025-04-15 02:15:34.981 +03:00 [DBG] Updating missing parts report
+2025-04-15 02:15:35.012 +03:00 [INF] Missing parts report updated with 0 entries

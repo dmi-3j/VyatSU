@@ -1,0 +1,997 @@
+2025-05-27 14:39:48.764 +03:00 [INF] Starting application...
+2025-05-27 14:39:49.033 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'.
+2025-05-27 14:39:49.043 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_ValidationScriptsPartial.cshtml'.
+2025-05-27 14:39:49.048 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Status.cshtml'.
+2025-05-27 14:39:49.051 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2025-05-27 14:39:49.053 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2025-05-27 14:39:49.056 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2025-05-27 14:39:49.080 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-27 14:39:49.126 +03:00 [INF] User profile is available. Using 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-27 14:39:49.179 +03:00 [INF] Application started successfully
+2025-05-27 14:39:49.183 +03:00 [DBG] Hosting starting
+2025-05-27 14:39:49.193 +03:00 [DBG] Reading data from file 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys\key-eedb84b4-bf93-4a4b-8081-0bced896799c.xml'.
+2025-05-27 14:39:49.239 +03:00 [DBG] Found key {eedb84b4-bf93-4a4b-8081-0bced896799c}.
+2025-05-27 14:39:49.259 +03:00 [DBG] Considering key {eedb84b4-bf93-4a4b-8081-0bced896799c} with expiration date 2025-06-20 10:31:28Z as default key.
+2025-05-27 14:39:49.264 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-27 14:39:49.268 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-27 14:39:49.270 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-27 14:39:49.277 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-27 14:39:49.281 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-27 14:39:49.284 +03:00 [DBG] Using key {eedb84b4-bf93-4a4b-8081-0bced896799c} as the default key.
+2025-05-27 14:39:49.287 +03:00 [DBG] Key ring with default key {eedb84b4-bf93-4a4b-8081-0bced896799c} was loaded during application startup.
+2025-05-27 14:39:49.295 +03:00 [DBG] Middleware loaded
+2025-05-27 14:39:49.300 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16513 B).
+2025-05-27 14:39:49.303 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-27 14:39:49.330 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-27 14:39:49.331 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-27 14:39:49.333 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-27 14:39:49.338 +03:00 [WRN] Overriding address(es) 'https://localhost:7283, https://localhost:5005'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-27 14:39:49.374 +03:00 [INF] Now listening on: https://[::]:7283
+2025-05-27 14:39:49.375 +03:00 [DBG] Loaded hosting startup assembly WebApplication
+2025-05-27 14:39:49.377 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-27 14:39:49.378 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-27 14:39:49.381 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-27 14:39:49.391 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-27 14:39:49.400 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-27 14:39:49.421 +03:00 [DBG] Connection id "0HNCT2CO2BSCG" accepted.
+2025-05-27 14:39:49.426 +03:00 [DBG] Connection id "0HNCT2CO2BSCG" started.
+2025-05-27 14:39:49.429 +03:00 [DBG] Connection id "0HNCT2CO2BSCH" accepted.
+2025-05-27 14:39:49.433 +03:00 [DBG] Connection id "0HNCT2CO2BSCH" started.
+2025-05-27 14:39:49.447 +03:00 [DBG] Connection id "0HNCT2CO2BSCH" received FIN.
+2025-05-27 14:39:49.447 +03:00 [DBG] Connection id "0HNCT2CO2BSCG" received FIN.
+2025-05-27 14:39:49.452 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-27 14:39:49.454 +03:00 [INF] Hosting environment: Development
+2025-05-27 14:39:49.453 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-27 14:39:49.453 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-27 14:39:49.457 +03:00 [INF] Content root path: D:\Desktop\ServiceCenter test\WebApplication
+2025-05-27 14:39:49.474 +03:00 [DBG] Connection id "0HNCT2CO2BSCH" stopped.
+2025-05-27 14:39:49.476 +03:00 [DBG] Connection id "0HNCT2CO2BSCG" stopped.
+2025-05-27 14:39:49.477 +03:00 [DBG] Hosting started
+2025-05-27 14:39:49.483 +03:00 [DBG] Connection id "0HNCT2CO2BSCH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:39:49.484 +03:00 [DBG] Connection id "0HNCT2CO2BSCG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:39:49.851 +03:00 [DBG] Connection id "0HNCT2CO2BSCI" accepted.
+2025-05-27 14:39:49.857 +03:00 [DBG] Connection id "0HNCT2CO2BSCI" started.
+2025-05-27 14:39:49.862 +03:00 [DBG] Connection id "0HNCT2CO2BSCJ" accepted.
+2025-05-27 14:39:49.869 +03:00 [DBG] Connection id "0HNCT2CO2BSCJ" started.
+2025-05-27 14:39:49.888 +03:00 [DBG] Connection id "0HNCT2CO2BSCJ" received FIN.
+2025-05-27 14:39:49.888 +03:00 [DBG] Connection id "0HNCT2CO2BSCI" received FIN.
+2025-05-27 14:39:49.891 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-27 14:39:49.894 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-27 14:39:49.907 +03:00 [DBG] Connection id "0HNCT2CO2BSCJ" stopped.
+2025-05-27 14:39:49.910 +03:00 [DBG] Connection id "0HNCT2CO2BSCI" stopped.
+2025-05-27 14:39:49.913 +03:00 [DBG] Connection id "0HNCT2CO2BSCJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:39:49.917 +03:00 [DBG] Connection id "0HNCT2CO2BSCI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:40:10.901 +03:00 [DBG] Connection id "0HNCT2CO2BSCK" accepted.
+2025-05-27 14:40:10.908 +03:00 [DBG] Connection id "0HNCT2CO2BSCK" started.
+2025-05-27 14:40:10.908 +03:00 [DBG] Connection id "0HNCT2CO2BSCL" accepted.
+2025-05-27 14:40:10.916 +03:00 [DBG] Connection id "0HNCT2CO2BSCK" received FIN.
+2025-05-27 14:40:10.916 +03:00 [DBG] Connection id "0HNCT2CO2BSCL" started.
+2025-05-27 14:40:10.919 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-27 14:40:10.926 +03:00 [DBG] Connection id "0HNCT2CO2BSCL" received FIN.
+2025-05-27 14:40:10.929 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" accepted.
+2025-05-27 14:40:10.929 +03:00 [DBG] Connection id "0HNCT2CO2BSCK" stopped.
+2025-05-27 14:40:10.933 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-27 14:40:10.937 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" started.
+2025-05-27 14:40:10.943 +03:00 [DBG] Connection id "0HNCT2CO2BSCK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:40:10.949 +03:00 [DBG] Connection id "0HNCT2CO2BSCL" stopped.
+2025-05-27 14:40:10.963 +03:00 [DBG] Connection id "0HNCT2CO2BSCL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:40:10.968 +03:00 [DBG] Connection 0HNCT2CO2BSCM established using the following protocol: "Tls13"
+2025-05-27 14:40:11.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/ - null null
+2025-05-27 14:40:11.114 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-05-27 14:40:11.119 +03:00 [DBG] Endpoint '/Status' with route pattern '' is valid for the request path '/'
+2025-05-27 14:40:11.125 +03:00 [DBG] Request matched endpoint '/Status'
+2025-05-27 14:40:11.136 +03:00 [INF] Incoming HTTP Request: GET /
+2025-05-27 14:40:11.148 +03:00 [INF] Executing endpoint '/Status'
+2025-05-27 14:40:11.177 +03:00 [INF] Route matched with {page = "/Status", action = "", controller = ""}. Executing page /Status
+2025-05-27 14:40:11.180 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter"]
+2025-05-27 14:40:11.182 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-27 14:40:11.187 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-05-27 14:40:11.190 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-27 14:40:11.194 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-27 14:40:11.200 +03:00 [DBG] Executing page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-05-27 14:40:11.246 +03:00 [DBG] Executed page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-05-27 14:40:11.258 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-05-27 14:40:11.271 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' using the name '' in request data ...
+2025-05-27 14:40:11.285 +03:00 [DBG] Could not find a value in the request with name '' for binding property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:11.299 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:11.302 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:11.304 +03:00 [DBG] Attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-05-27 14:40:11.316 +03:00 [DBG] Done attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:11.323 +03:00 [INF] Executing handler method StatusModel.OnGetAsync - ModelState is "Invalid"
+2025-05-27 14:40:11.327 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-27 14:40:11.332 +03:00 [INF] Executing an implicit handler method - ModelState is "Invalid"
+2025-05-27 14:40:11.333 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-27 14:40:11.364 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'null'.
+2025-05-27 14:40:11.399 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-27 14:40:11.406 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-27 14:40:11.425 +03:00 [INF] Executed page /Status in 224.9855ms
+2025-05-27 14:40:11.432 +03:00 [INF] Executed endpoint '/Status'
+2025-05-27 14:40:11.434 +03:00 [INF] HTTP Response: 200
+2025-05-27 14:40:11.439 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-27 14:40:11.444 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-27 14:40:11.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/ - 200 null text/html; charset=utf-8 433.1485ms
+2025-05-27 14:40:11.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-05-27 14:40:11.535 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-05-27 14:40:11.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - null null
+2025-05-27 14:40:11.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-27 14:40:11.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - null null
+2025-05-27 14:40:11.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-05-27 14:40:11.540 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-05-27 14:40:11.545 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-05-27 14:40:11.548 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-05-27 14:40:11.554 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_vs/browserLink - null null
+2025-05-27 14:40:11.555 +03:00 [DBG] No candidates found for the request path '/WebApplication.styles.css'
+2025-05-27 14:40:11.565 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-05-27 14:40:11.571 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-05-27 14:40:11.577 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-05-27 14:40:11.583 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-05-27 14:40:11.585 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:11.587 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:11.599 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:11.603 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 63.8982ms
+2025-05-27 14:40:11.607 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:11.611 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:11.615 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:11.618 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2025-05-27 14:40:11.622 +03:00 [INF] Incoming HTTP Request: GET /css/site.css
+2025-05-27 14:40:11.623 +03:00 [INF] Incoming HTTP Request: GET /WebApplication.styles.css
+2025-05-27 14:40:11.634 +03:00 [INF] Incoming HTTP Request: GET /lib/jquery/dist/jquery.min.js
+2025-05-27 14:40:11.636 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2025-05-27 14:40:11.639 +03:00 [INF] Incoming HTTP Request: GET /js/site.js
+2025-05-27 14:40:11.642 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:11.647 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:11.650 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:11.654 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:11.657 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:11.662 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:11.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 132.8604ms
+2025-05-27 14:40:11.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 132.4249ms
+2025-05-27 14:40:11.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - 404 0 null 135.2471ms
+2025-05-27 14:40:11.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - 404 0 null 135.2511ms
+2025-05-27 14:40:11.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 138.2704ms
+2025-05-27 14:40:11.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.2379ms
+2025-05-27 14:40:11.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 140.9265ms
+2025-05-27 14:40:11.692 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-05-27 14:40:11.703 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/css/site.css, Response status code: 404
+2025-05-27 14:40:11.712 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/WebApplication.styles.css, Response status code: 404
+2025-05-27 14:40:11.721 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-05-27 14:40:11.730 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-05-27 14:40:11.745 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/js/site.js, Response status code: 404
+2025-05-27 14:40:12.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/favicon.ico - null null
+2025-05-27 14:40:12.800 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-05-27 14:40:12.804 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:12.806 +03:00 [INF] Incoming HTTP Request: GET /favicon.ico
+2025-05-27 14:40:12.812 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:12.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/favicon.ico - 404 0 null 25.4022ms
+2025-05-27 14:40:12.830 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/favicon.ico, Response status code: 404
+2025-05-27 14:40:17.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/?phoneNumber=%2B7+%28912%29+828-57-95 - null null
+2025-05-27 14:40:17.579 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-05-27 14:40:17.582 +03:00 [DBG] Endpoint '/Status' with route pattern '' is valid for the request path '/'
+2025-05-27 14:40:17.587 +03:00 [DBG] Request matched endpoint '/Status'
+2025-05-27 14:40:17.591 +03:00 [INF] Incoming HTTP Request: GET /
+2025-05-27 14:40:17.596 +03:00 [INF] Executing endpoint '/Status'
+2025-05-27 14:40:17.600 +03:00 [INF] Route matched with {page = "/Status", action = "", controller = ""}. Executing page /Status
+2025-05-27 14:40:17.603 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter"]
+2025-05-27 14:40:17.608 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-27 14:40:17.613 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-05-27 14:40:17.616 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-27 14:40:17.620 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-27 14:40:17.625 +03:00 [DBG] Executing page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-05-27 14:40:17.633 +03:00 [DBG] Executed page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-05-27 14:40:17.642 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-05-27 14:40:17.648 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' using the name 'PhoneNumber' in request data ...
+2025-05-27 14:40:17.652 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:17.656 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:17.659 +03:00 [DBG] Attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-05-27 14:40:17.663 +03:00 [DBG] Done attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-05-27 14:40:17.668 +03:00 [INF] Executing handler method StatusModel.OnGetAsync - ModelState is "Valid"
+2025-05-27 14:40:17.673 +03:00 [INF] Starting order search for phone: +7 (912) 828-57-95
+2025-05-27 14:40:17.678 +03:00 [DBG] Sending gRPC request: {"StatusFilter":"Все","SearchQuery":"+7 (912) 828-57-95","$type":"GetOrdersRequest"}
+2025-05-27 14:40:17.706 +03:00 [DBG] Starting gRPC call. Method type: '"Unary"', URI: '"https://10.8.1.1:9080/OrdersService/GetOrders"'.
+2025-05-27 14:40:17.722 +03:00 [DBG] Subchannel id '1-1' created with addresses: 10.8.1.1:9080
+2025-05-27 14:40:17.729 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:40:17.735 +03:00 [DBG] Subchannel id '1-1' state changed to "Connecting". Detail: 'Connection requested.'.
+2025-05-27 14:40:17.742 +03:00 [DBG] Channel state updated to "Connecting".
+2025-05-27 14:40:17.746 +03:00 [DBG] Picked queued.
+2025-05-27 14:40:17.747 +03:00 [DBG] Subchannel id '1-1' connecting to transport.
+2025-05-27 14:40:17.759 +03:00 [DBG] Subchannel id '1-1' connected to socket 10.8.1.1:9080.
+2025-05-27 14:40:17.761 +03:00 [DBG] Subchannel id '1-1' state changed to "Ready". Detail: 'Successfully connected to socket.'.
+2025-05-27 14:40:17.766 +03:00 [DBG] Channel state updated to "Ready".
+2025-05-27 14:40:17.769 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:40:17.776 +03:00 [DBG] Successfully picked subchannel id '1-1' with address 10.8.1.1:9080. Transport status: "InitialSocket"
+2025-05-27 14:40:17.783 +03:00 [INF] Start processing HTTP request POST https://10.8.1.1:9080/OrdersService/GetOrders
+2025-05-27 14:40:17.787 +03:00 [INF] Sending HTTP request POST https://10.8.1.1:9080/OrdersService/GetOrders
+2025-05-27 14:40:17.841 +03:00 [DBG] Sending message.
+2025-05-27 14:40:19.427 +03:00 [INF] Received HTTP response headers after 1634.1218ms - 200
+2025-05-27 14:40:19.429 +03:00 [INF] End processing HTTP request after 1646.4295ms - 200
+2025-05-27 14:40:19.437 +03:00 [DBG] Reading message.
+2025-05-27 14:40:19.457 +03:00 [DBG] Finished gRPC call.
+2025-05-27 14:40:19.460 +03:00 [DBG] Received gRPC response with 1 orders
+2025-05-27 14:40:19.463 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-27 14:40:19.468 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-27 14:40:19.470 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-27 14:40:19.480 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'null'.
+2025-05-27 14:40:19.502 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-27 14:40:19.506 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-27 14:40:19.512 +03:00 [INF] Executed page /Status in 1887.5318ms
+2025-05-27 14:40:19.516 +03:00 [INF] Executed endpoint '/Status'
+2025-05-27 14:40:19.519 +03:00 [INF] HTTP Response: 200
+2025-05-27 14:40:19.529 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-27 14:40:19.533 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-27 14:40:19.536 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/?phoneNumber=%2B7+%28912%29+828-57-95 - 200 null text/html; charset=utf-8 1969.1166ms
+2025-05-27 14:40:19.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-05-27 14:40:19.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-05-27 14:40:19.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - null null
+2025-05-27 14:40:19.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - null null
+2025-05-27 14:40:19.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-27 14:40:19.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-05-27 14:40:19.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-05-27 14:40:19.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_vs/browserLink - null null
+2025-05-27 14:40:19.613 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-05-27 14:40:19.618 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-05-27 14:40:19.628 +03:00 [DBG] No candidates found for the request path '/WebApplication.styles.css'
+2025-05-27 14:40:19.634 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-05-27 14:40:19.640 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-05-27 14:40:19.645 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-05-27 14:40:19.651 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-05-27 14:40:19.659 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:19.660 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:19.664 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:19.667 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:19.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2846ms
+2025-05-27 14:40:19.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 63.3704ms
+2025-05-27 14:40:19.674 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:19.677 +03:00 [DBG] Request did not match any endpoints
+2025-05-27 14:40:19.679 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2025-05-27 14:40:19.680 +03:00 [INF] Incoming HTTP Request: GET /css/site.css
+2025-05-27 14:40:19.683 +03:00 [INF] Incoming HTTP Request: GET /WebApplication.styles.css
+2025-05-27 14:40:19.685 +03:00 [INF] Incoming HTTP Request: GET /lib/jquery/dist/jquery.min.js
+2025-05-27 14:40:19.701 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2025-05-27 14:40:19.714 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:19.716 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 109.4467ms
+2025-05-27 14:40:19.707 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:19.709 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:19.711 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:19.703 +03:00 [INF] Incoming HTTP Request: GET /js/site.js
+2025-05-27 14:40:19.705 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:19.728 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-05-27 14:40:19.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 124.3068ms
+2025-05-27 14:40:19.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - 404 0 null 126.6328ms
+2025-05-27 14:40:19.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - 404 0 null 128.1506ms
+2025-05-27 14:40:19.738 +03:00 [INF] HTTP Response: 404
+2025-05-27 14:40:19.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 136.1806ms
+2025-05-27 14:40:19.753 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/css/site.css, Response status code: 404
+2025-05-27 14:40:19.769 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/WebApplication.styles.css, Response status code: 404
+2025-05-27 14:40:19.775 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-05-27 14:40:19.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 166.4726ms
+2025-05-27 14:40:19.787 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-05-27 14:40:19.818 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/js/site.js, Response status code: 404
+2025-05-27 14:41:32.829 +03:00 [DBG] Subchannel id '1-1' state changed to "Idle". Detail: 'Disconnected.'.
+2025-05-27 14:41:32.834 +03:00 [DBG] Channel state updated to "Idle".
+2025-05-27 14:41:32.836 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:42:11.233 +03:00 [DBG] HttpMessageHandler expired after 120000ms for client 'OrdersServiceClient'
+2025-05-27 14:42:21.251 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:42:21.263 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0551ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:42:31.281 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:42:31.287 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0092ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:42:31.910 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" is closing.
+2025-05-27 14:42:31.918 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" is closed. The last processed stream ID was 37.
+2025-05-27 14:42:31.924 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" received FIN.
+2025-05-27 14:42:31.926 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:42:31.928 +03:00 [DBG] The connection queue processing loop for 0HNCT2CO2BSCM completed.
+2025-05-27 14:42:31.937 +03:00 [DBG] Connection id "0HNCT2CO2BSCM" stopped.
+2025-05-27 14:42:41.293 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:42:41.301 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:42:51.308 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:42:51.313 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0142ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:43:01.329 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:43:01.336 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0117ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:43:11.341 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:43:11.353 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0123ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:43:21.367 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:43:21.369 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0083ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:43:31.378 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:43:31.384 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0098ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:43:41.392 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:43:41.397 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0126ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:43:51.411 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:43:51.415 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0453ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:44:01.431 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:44:01.434 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0095ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:44:11.438 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:44:11.441 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0113ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:44:21.452 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:44:21.456 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0108ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:44:31.472 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:44:31.476 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0096ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:44:41.486 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:44:41.490 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0111ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:44:51.511 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:44:51.514 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0097ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:45:01.520 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:45:01.522 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0383ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:45:11.533 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:45:11.537 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0112ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:45:12.182 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" accepted.
+2025-05-27 14:45:12.185 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" started.
+2025-05-27 14:45:12.196 +03:00 [DBG] Connection 0HNCT2CO2BSCN established using the following protocol: "Tls13"
+2025-05-27 14:45:12.219 +03:00 [INF] Request starting HTTP/1.1 GET https://10.8.1.1:7283/api/orders?phoneNumber=%2B7%20%28912%29%20828-57-95 - null null
+2025-05-27 14:45:12.232 +03:00 [DBG] 1 candidate(s) found for the request path '/api/orders'
+2025-05-27 14:45:12.236 +03:00 [DBG] Endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)' with route pattern 'api/Orders' is valid for the request path '/api/orders'
+2025-05-27 14:45:12.243 +03:00 [DBG] Request matched endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)'
+2025-05-27 14:45:12.256 +03:00 [INF] Incoming HTTP Request: GET /api/orders
+2025-05-27 14:45:12.257 +03:00 [INF] Executing endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)'
+2025-05-27 14:45:12.269 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Orders", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders(System.String) on controller WebApplication.OrdersController (WebApplication).
+2025-05-27 14:45:12.272 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-27 14:45:12.277 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-27 14:45:12.284 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-27 14:45:12.289 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-27 14:45:12.294 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-27 14:45:12.298 +03:00 [DBG] Executing controller factory for controller WebApplication.OrdersController (WebApplication)
+2025-05-27 14:45:12.300 +03:00 [DBG] Executed controller factory for controller WebApplication.OrdersController (WebApplication)
+2025-05-27 14:45:12.303 +03:00 [DBG] Attempting to bind parameter 'phoneNumber' of type 'System.String' ...
+2025-05-27 14:45:12.305 +03:00 [DBG] Attempting to bind parameter 'phoneNumber' of type 'System.String' using the name 'phoneNumber' in request data ...
+2025-05-27 14:45:12.307 +03:00 [DBG] Done attempting to bind parameter 'phoneNumber' of type 'System.String'.
+2025-05-27 14:45:12.309 +03:00 [DBG] Done attempting to bind parameter 'phoneNumber' of type 'System.String'.
+2025-05-27 14:45:12.310 +03:00 [DBG] Attempting to validate the bound parameter 'phoneNumber' of type 'System.String' ...
+2025-05-27 14:45:12.312 +03:00 [DBG] Done attempting to validate the bound parameter 'phoneNumber' of type 'System.String'.
+2025-05-27 14:45:12.316 +03:00 [INF] API: Starting order search for phone: +7 (912) 828-57-95
+2025-05-27 14:45:12.317 +03:00 [DBG] Starting gRPC call. Method type: '"Unary"', URI: '"https://10.8.1.1:9080/OrdersService/GetOrders"'.
+2025-05-27 14:45:12.318 +03:00 [DBG] Subchannel id '1-1' state changed to "Connecting". Detail: 'Connection requested.'.
+2025-05-27 14:45:12.320 +03:00 [DBG] Channel state updated to "Connecting".
+2025-05-27 14:45:12.321 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:45:12.322 +03:00 [DBG] Picked subchannel id '1-1' doesn't have a current address.
+2025-05-27 14:45:12.322 +03:00 [DBG] Subchannel id '1-1' connecting to transport.
+2025-05-27 14:45:12.323 +03:00 [DBG] Picked queued.
+2025-05-27 14:45:12.325 +03:00 [DBG] Subchannel id '1-1' connected to socket 10.8.1.1:9080.
+2025-05-27 14:45:12.326 +03:00 [DBG] Subchannel id '1-1' state changed to "Ready". Detail: 'Successfully connected to socket.'.
+2025-05-27 14:45:12.327 +03:00 [DBG] Channel state updated to "Ready".
+2025-05-27 14:45:12.328 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:45:12.330 +03:00 [DBG] Successfully picked subchannel id '1-1' with address 10.8.1.1:9080. Transport status: "InitialSocket"
+2025-05-27 14:45:12.332 +03:00 [INF] Start processing HTTP request POST https://10.8.1.1:9080/OrdersService/GetOrders
+2025-05-27 14:45:12.333 +03:00 [INF] Sending HTTP request POST https://10.8.1.1:9080/OrdersService/GetOrders
+2025-05-27 14:45:12.342 +03:00 [DBG] Sending message.
+2025-05-27 14:45:12.541 +03:00 [INF] Received HTTP response headers after 206.7888ms - 200
+2025-05-27 14:45:12.544 +03:00 [INF] End processing HTTP request after 212.2035ms - 200
+2025-05-27 14:45:12.546 +03:00 [DBG] Reading message.
+2025-05-27 14:45:12.550 +03:00 [DBG] Finished gRPC call.
+2025-05-27 14:45:12.553 +03:00 [DBG] API: Successfully processed request for phone: +7 (912) 828-57-95
+2025-05-27 14:45:12.558 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-27 14:45:12.599 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-27 14:45:12.606 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-27 14:45:12.608 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-27 14:45:12.614 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-27 14:45:12.617 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType2`5[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], WebApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-27 14:45:12.633 +03:00 [INF] Executed action WebApplication.OrdersController.GetOrders (WebApplication) in 336.3324ms
+2025-05-27 14:45:12.635 +03:00 [INF] Executed endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)'
+2025-05-27 14:45:12.637 +03:00 [INF] HTTP Response: 200
+2025-05-27 14:45:12.638 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" completed keep alive response.
+2025-05-27 14:45:12.641 +03:00 [INF] Request finished HTTP/1.1 GET https://10.8.1.1:7283/api/orders?phoneNumber=%2B7%20%28912%29%20828-57-95 - 200 null application/json; charset=utf-8 421.8735ms
+2025-05-27 14:45:20.542 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" reset.
+2025-05-27 14:45:20.547 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:45:20.553 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" disconnecting.
+2025-05-27 14:45:20.579 +03:00 [DBG] Connection id "0HNCT2CO2BSCN" stopped.
+2025-05-27 14:45:21.547 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:45:21.552 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0124ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:45:31.562 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:45:31.564 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0077ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:45:41.569 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:45:41.575 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0085ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:45:51.584 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:45:51.587 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0099ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:46:01.592 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:46:01.594 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0084ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:46:11.608 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:46:11.612 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0095ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:46:21.625 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:46:21.629 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0082ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:46:27.388 +03:00 [DBG] Subchannel id '1-1' state changed to "Idle". Detail: 'Disconnected.'.
+2025-05-27 14:46:27.393 +03:00 [DBG] Channel state updated to "Idle".
+2025-05-27 14:46:27.398 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:46:31.637 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:46:31.641 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:46:41.649 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:46:41.651 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0076ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:46:51.658 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:46:51.662 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1943ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:47:01.674 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:47:01.676 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0074ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:47:11.695 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:47:11.697 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0071ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:47:21.652 +03:00 [DBG] Connection id "0HNCT2CO2BSCO" accepted.
+2025-05-27 14:47:21.664 +03:00 [DBG] Connection id "0HNCT2CO2BSCO" started.
+2025-05-27 14:47:21.676 +03:00 [DBG] Connection 0HNCT2CO2BSCO established using the following protocol: "Tls13"
+2025-05-27 14:47:21.681 +03:00 [INF] Request starting HTTP/1.1 GET https://10.8.1.1:7283/api/orders?phoneNumber=%2B7%20%28912%29%20723-17-25 - null null
+2025-05-27 14:47:21.687 +03:00 [DBG] 1 candidate(s) found for the request path '/api/orders'
+2025-05-27 14:47:21.691 +03:00 [DBG] Endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)' with route pattern 'api/Orders' is valid for the request path '/api/orders'
+2025-05-27 14:47:21.695 +03:00 [DBG] Request matched endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)'
+2025-05-27 14:47:21.697 +03:00 [INF] Incoming HTTP Request: GET /api/orders
+2025-05-27 14:47:21.704 +03:00 [INF] Executing endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)'
+2025-05-27 14:47:21.705 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:47:21.706 +03:00 [INF] Route matched with {action = "GetOrders", controller = "Orders", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOrders(System.String) on controller WebApplication.OrdersController (WebApplication).
+2025-05-27 14:47:21.708 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:47:21.712 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-27 14:47:21.717 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-27 14:47:21.719 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-27 14:47:21.723 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-27 14:47:21.725 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-27 14:47:21.728 +03:00 [DBG] Executing controller factory for controller WebApplication.OrdersController (WebApplication)
+2025-05-27 14:47:21.731 +03:00 [DBG] Executed controller factory for controller WebApplication.OrdersController (WebApplication)
+2025-05-27 14:47:21.734 +03:00 [DBG] Attempting to bind parameter 'phoneNumber' of type 'System.String' ...
+2025-05-27 14:47:21.737 +03:00 [DBG] Attempting to bind parameter 'phoneNumber' of type 'System.String' using the name 'phoneNumber' in request data ...
+2025-05-27 14:47:21.739 +03:00 [DBG] Done attempting to bind parameter 'phoneNumber' of type 'System.String'.
+2025-05-27 14:47:21.742 +03:00 [DBG] Done attempting to bind parameter 'phoneNumber' of type 'System.String'.
+2025-05-27 14:47:21.744 +03:00 [DBG] Attempting to validate the bound parameter 'phoneNumber' of type 'System.String' ...
+2025-05-27 14:47:21.745 +03:00 [DBG] Done attempting to validate the bound parameter 'phoneNumber' of type 'System.String'.
+2025-05-27 14:47:21.747 +03:00 [INF] API: Starting order search for phone: +7 (912) 723-17-25
+2025-05-27 14:47:21.749 +03:00 [DBG] Starting gRPC call. Method type: '"Unary"', URI: '"https://10.8.1.1:9080/OrdersService/GetOrders"'.
+2025-05-27 14:47:21.751 +03:00 [DBG] Subchannel id '1-1' state changed to "Connecting". Detail: 'Connection requested.'.
+2025-05-27 14:47:21.755 +03:00 [DBG] Channel state updated to "Connecting".
+2025-05-27 14:47:21.760 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:47:21.766 +03:00 [DBG] Picked subchannel id '1-1' doesn't have a current address.
+2025-05-27 14:47:21.766 +03:00 [DBG] Subchannel id '1-1' connecting to transport.
+2025-05-27 14:47:21.769 +03:00 [DBG] Picked queued.
+2025-05-27 14:47:21.772 +03:00 [DBG] Subchannel id '1-1' connected to socket 10.8.1.1:9080.
+2025-05-27 14:47:21.779 +03:00 [DBG] Subchannel id '1-1' state changed to "Ready". Detail: 'Successfully connected to socket.'.
+2025-05-27 14:47:21.784 +03:00 [DBG] Channel state updated to "Ready".
+2025-05-27 14:47:21.786 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:47:21.789 +03:00 [DBG] Successfully picked subchannel id '1-1' with address 10.8.1.1:9080. Transport status: "InitialSocket"
+2025-05-27 14:47:21.792 +03:00 [INF] Start processing HTTP request POST https://10.8.1.1:9080/OrdersService/GetOrders
+2025-05-27 14:47:21.794 +03:00 [INF] Sending HTTP request POST https://10.8.1.1:9080/OrdersService/GetOrders
+2025-05-27 14:47:21.807 +03:00 [DBG] Sending message.
+2025-05-27 14:47:22.101 +03:00 [INF] Received HTTP response headers after 303.7985ms - 200
+2025-05-27 14:47:22.103 +03:00 [INF] End processing HTTP request after 311.4548ms - 200
+2025-05-27 14:47:22.106 +03:00 [DBG] Reading message.
+2025-05-27 14:47:22.108 +03:00 [DBG] Finished gRPC call.
+2025-05-27 14:47:22.109 +03:00 [DBG] API: Successfully processed request for phone: +7 (912) 723-17-25
+2025-05-27 14:47:22.112 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-27 14:47:22.116 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-27 14:47:22.118 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-27 14:47:22.119 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-27 14:47:22.121 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-27 14:47:22.123 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[<>f__AnonymousType2`5[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], WebApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-27 14:47:22.127 +03:00 [INF] Executed action WebApplication.OrdersController.GetOrders (WebApplication) in 398.6742ms
+2025-05-27 14:47:22.129 +03:00 [INF] Executed endpoint 'WebApplication.OrdersController.GetOrders (WebApplication)'
+2025-05-27 14:47:22.131 +03:00 [INF] HTTP Response: 200
+2025-05-27 14:47:22.133 +03:00 [DBG] Connection id "0HNCT2CO2BSCO" completed keep alive response.
+2025-05-27 14:47:22.136 +03:00 [INF] Request finished HTTP/1.1 GET https://10.8.1.1:7283/api/orders?phoneNumber=%2B7%20%28912%29%20723-17-25 - 200 null application/json; charset=utf-8 454.6436ms
+2025-05-27 14:47:31.727 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:47:31.729 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0057ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:47:41.744 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:47:41.747 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:47:51.759 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:47:51.762 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0062ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:48:01.768 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:48:01.771 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0076ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:48:11.790 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:48:11.795 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:48:21.812 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:48:21.817 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0057ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:48:31.836 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:48:31.839 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:48:36.844 +03:00 [DBG] Subchannel id '1-1' state changed to "Idle". Detail: 'Disconnected.'.
+2025-05-27 14:48:36.850 +03:00 [DBG] Channel state updated to "Idle".
+2025-05-27 14:48:36.854 +03:00 [DBG] Channel picker updated.
+2025-05-27 14:48:41.856 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:48:41.859 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:48:51.875 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:48:51.879 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:49:01.887 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:49:01.892 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0068ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:49:11.908 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:49:11.911 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:49:21.921 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:49:21.925 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:49:31.936 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:49:31.940 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.008ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:49:33.622 +03:00 [DBG] Connection id "0HNCT2CO2BSCO" disconnecting.
+2025-05-27 14:49:33.627 +03:00 [DBG] Connection id "0HNCT2CO2BSCO" stopped.
+2025-05-27 14:49:33.630 +03:00 [DBG] Connection id "0HNCT2CO2BSCO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-27 14:49:41.948 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:49:41.966 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:49:51.980 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:49:51.982 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:50:01.996 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:50:02.001 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:50:12.017 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:50:12.020 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0079ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:50:22.028 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:50:22.033 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:50:32.051 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:50:32.056 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0069ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:50:42.078 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:50:42.080 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0068ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:50:52.085 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:50:52.087 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0065ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:51:02.092 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:51:02.097 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:51:12.115 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:51:12.119 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:51:22.125 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:51:22.132 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0068ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:51:32.155 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:51:32.159 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1984ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:51:42.169 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:51:42.175 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:51:52.190 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:51:52.195 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:52:02.200 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:52:02.204 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0047ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:52:12.222 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:52:12.228 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:52:22.242 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:52:22.246 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:52:32.251 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:52:32.255 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:52:42.264 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:52:42.267 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:52:52.280 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:52:52.282 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:53:02.298 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:53:02.302 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:53:12.319 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:53:12.322 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:53:22.332 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:53:22.335 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:53:32.338 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:53:32.340 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:53:42.355 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:53:42.357 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:53:52.366 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:53:52.368 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:54:02.375 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:54:02.378 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:54:12.392 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:54:12.396 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:54:22.409 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:54:22.412 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:54:32.416 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:54:32.420 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:54:42.434 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:54:42.438 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:54:52.440 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:54:52.442 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:55:02.455 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:55:02.457 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:55:12.474 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:55:12.476 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:55:22.480 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:55:22.483 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:55:32.501 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:55:32.510 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:55:42.523 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:55:42.525 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:55:52.529 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:55:52.533 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:56:02.551 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:56:02.555 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:56:12.571 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:56:12.574 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:56:22.585 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:56:22.588 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:56:32.599 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:56:32.613 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:56:42.628 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:56:42.633 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:56:52.651 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:56:52.653 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:57:02.674 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:57:02.677 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:57:12.689 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:57:12.692 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:57:22.703 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:57:22.706 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:57:32.718 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:57:32.722 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:57:42.739 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:57:42.743 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:57:52.752 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:57:52.769 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:58:02.781 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:58:02.786 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:58:12.793 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:58:12.795 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:58:22.800 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:58:22.805 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:58:32.823 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:58:32.836 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:58:42.854 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:58:42.857 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:58:52.874 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:58:52.880 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:59:02.899 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:59:02.902 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:59:12.906 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:59:12.918 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:59:22.930 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:59:22.935 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:59:32.948 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:59:32.951 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:59:42.961 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:59:42.965 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 14:59:52.981 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 14:59:52.985 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:00:02.997 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:00:03.000 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:00:13.018 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:00:13.021 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:00:23.031 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:00:23.050 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:00:33.065 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:00:33.069 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:00:43.077 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:00:43.080 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:00:53.096 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:00:53.098 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:01:03.111 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:01:03.115 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:01:13.137 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:01:13.139 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:01:23.149 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:01:23.153 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:01:33.159 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:01:33.161 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:01:43.165 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:01:43.168 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:01:53.183 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:01:53.187 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:02:03.199 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:02:03.202 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:02:13.213 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:02:13.216 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:02:23.227 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:02:23.229 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:02:33.248 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:02:33.252 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:02:43.273 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:02:43.276 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:02:53.283 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:02:53.287 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:03:03.289 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:03:03.293 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:03:13.305 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:03:13.314 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:03:23.332 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:03:23.335 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:03:33.344 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:03:33.348 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:03:43.350 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:03:43.354 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:03:53.358 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:03:53.361 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:04:03.374 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:04:03.378 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:04:13.396 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:04:13.400 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:04:23.414 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:04:23.418 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:04:33.427 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:04:33.430 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:04:43.443 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:04:43.451 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:04:53.465 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:04:53.469 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:05:03.478 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:05:03.481 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:05:13.483 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:05:13.487 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:05:23.505 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:05:23.510 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:05:33.522 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:05:33.531 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:05:43.541 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:05:43.546 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:05:53.565 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:05:53.568 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:06:03.572 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:06:03.576 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:06:13.579 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:06:13.584 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:06:23.601 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:06:23.604 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:06:33.614 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:06:33.619 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:06:43.637 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:06:43.649 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:06:53.673 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:06:53.676 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:07:03.692 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:07:03.696 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:07:13.711 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:07:13.716 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:07:23.737 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:07:23.748 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:07:33.757 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:07:33.759 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:07:43.767 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:07:43.789 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:07:53.800 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:07:53.804 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:08:03.818 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:08:03.822 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:08:13.843 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:08:13.845 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:08:23.857 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:08:23.875 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:08:33.884 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:08:33.888 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:08:43.904 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:08:43.907 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:08:53.917 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:08:53.919 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:09:03.941 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:09:03.944 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:09:13.956 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:09:13.959 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:09:23.964 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:09:23.970 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:09:33.987 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:09:33.990 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:09:44.007 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:09:44.015 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:09:54.031 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:09:54.034 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:10:04.038 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:10:04.043 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:10:14.058 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:10:14.062 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:10:24.078 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:10:24.080 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:10:34.093 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:10:34.096 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:10:44.104 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:10:44.107 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:10:54.120 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:10:54.123 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:11:04.139 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:11:04.143 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:11:14.163 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:11:14.167 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:11:24.182 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:11:24.188 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:11:34.203 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:11:34.210 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:11:44.218 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:11:44.221 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:11:54.255 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:11:54.259 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:12:04.272 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:12:04.276 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:12:14.284 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:12:14.287 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:12:24.296 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:12:24.300 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:12:34.312 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:12:34.315 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:12:44.322 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:12:44.325 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:12:54.357 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:12:54.359 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:13:04.377 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:13:04.382 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0048ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:13:14.393 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:13:14.396 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0313ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:13:24.413 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:13:24.416 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:13:34.432 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:13:34.436 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:13:44.453 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:13:44.456 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:13:54.474 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:13:54.477 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:14:04.490 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:14:04.496 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:14:14.500 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:14:14.504 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:14:24.515 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:14:24.518 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:14:34.541 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:14:34.544 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:14:44.547 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:14:44.550 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:14:54.565 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:14:54.566 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:15:04.581 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:15:04.582 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:15:14.583 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:15:14.585 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:15:24.587 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:15:24.588 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0233ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:15:34.597 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:15:34.598 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:15:44.606 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:15:44.607 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:15:54.613 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:15:54.614 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:16:04.630 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:16:04.632 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:16:14.635 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:16:14.637 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:16:24.641 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:16:24.642 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:16:34.654 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:16:34.656 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:16:44.661 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:16:44.662 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:16:54.671 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:16:54.672 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:17:04.687 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:17:04.687 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:17:14.695 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:17:14.697 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:17:24.702 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:17:24.704 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:17:34.714 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:17:34.715 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:17:44.731 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:17:44.733 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:17:54.739 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:17:54.741 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:18:04.756 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:18:04.757 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:18:14.775 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:18:14.776 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:18:24.785 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:18:24.786 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:18:34.790 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:18:34.791 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:18:44.793 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:18:44.795 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:18:54.803 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:18:54.804 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:19:04.819 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:19:04.820 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:19:14.829 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:19:14.830 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:19:24.831 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:19:24.832 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:19:34.844 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:19:34.845 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0166ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:19:44.851 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:19:44.852 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:19:54.863 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:19:54.863 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:20:04.877 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:20:04.878 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.001ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:20:14.888 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:20:14.889 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:20:24.894 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:20:24.895 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:20:34.910 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:20:34.911 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:20:44.914 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:20:44.914 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:20:54.917 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:20:54.918 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:21:04.927 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:21:04.928 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:21:14.936 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:21:14.937 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:21:24.949 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:21:24.950 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:21:34.953 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:21:34.955 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:21:44.967 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:21:44.968 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:21:54.981 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:21:54.983 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:22:04.989 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:22:04.990 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:22:14.992 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:22:14.994 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:22:24.997 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:22:24.997 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:22:35.004 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:22:35.005 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:22:45.007 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:22:45.009 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:22:55.022 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:22:55.023 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:23:05.028 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:23:05.029 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:23:15.044 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:23:15.045 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:23:25.051 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:23:25.053 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:23:35.065 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:23:35.066 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:23:45.078 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:23:45.079 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:23:55.080 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:23:55.081 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:24:05.084 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:24:05.085 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:24:15.101 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:24:15.102 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:24:25.106 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:24:25.108 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:24:35.121 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:24:35.122 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:24:45.135 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:24:45.136 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:24:55.148 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:24:55.150 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:25:05.157 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:25:05.158 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:25:15.172 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:25:15.172 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:25:25.183 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:25:25.184 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:25:35.199 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:25:35.200 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:25:45.207 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:25:45.209 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:25:55.226 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:25:55.228 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:26:05.245 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:26:05.246 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:26:15.262 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:26:15.262 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:26:25.273 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:26:25.275 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:26:35.278 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:26:35.280 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:26:45.289 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:26:45.290 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:26:55.301 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:26:55.301 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:27:05.309 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:27:05.310 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:27:15.322 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:27:15.323 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:27:25.324 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:27:25.325 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:27:35.340 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:27:35.341 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:27:45.350 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:27:45.352 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:27:55.353 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:27:55.354 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:28:05.355 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:28:05.356 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:28:15.361 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:28:15.362 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:28:25.375 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:28:25.376 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:28:35.390 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:28:35.392 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:28:45.405 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:28:45.406 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:28:55.419 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:28:55.421 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:29:05.436 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:29:05.437 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:29:15.445 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:29:15.446 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:29:25.455 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:29:25.456 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:29:35.458 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:29:35.460 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:29:45.462 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:29:45.462 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-05-27 15:29:55.465 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-05-27 15:29:55.466 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items

@@ -1,0 +1,291 @@
+2025-04-11 11:24:39.283 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:26:05.781 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:37:14.451 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:38:48.705 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:39:54.147 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:42:42.374 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:43:11.637 +03:00 [INF] Connecting to gRPC server
+2025-04-11 11:45:20.826 +03:00 [INF] Starting application...
+2025-04-11 11:45:20.971 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Error.cshtml'.
+2025-04-11 11:45:20.974 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-11 11:45:20.976 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Status.cshtml'.
+2025-04-11 11:45:20.977 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2025-04-11 11:45:20.978 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2025-04-11 11:45:20.979 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2025-04-11 11:45:20.985 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-11 11:45:21.007 +03:00 [INF] User profile is available. Using 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-11 11:45:21.041 +03:00 [INF] Application started successfully
+2025-04-11 11:45:21.044 +03:00 [DBG] Hosting starting
+2025-04-11 11:45:21.055 +03:00 [DBG] Reading data from file 'C:\Users\dmitr\AppData\Local\ASP.NET\DataProtection-Keys\key-eedb84b4-bf93-4a4b-8081-0bced896799c.xml'.
+2025-04-11 11:45:21.063 +03:00 [DBG] Found key {eedb84b4-bf93-4a4b-8081-0bced896799c}.
+2025-04-11 11:45:21.071 +03:00 [DBG] Considering key {eedb84b4-bf93-4a4b-8081-0bced896799c} with expiration date 2025-06-20 10:31:28Z as default key.
+2025-04-11 11:45:21.075 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-11 11:45:21.078 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-11 11:45:21.080 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-11 11:45:21.087 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-11 11:45:21.090 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-11 11:45:21.093 +03:00 [DBG] Using key {eedb84b4-bf93-4a4b-8081-0bced896799c} as the default key.
+2025-04-11 11:45:21.098 +03:00 [DBG] Key ring with default key {eedb84b4-bf93-4a4b-8081-0bced896799c} was loaded during application startup.
+2025-04-11 11:45:21.105 +03:00 [DBG] Middleware loaded
+2025-04-11 11:45:21.108 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16513 B).
+2025-04-11 11:45:21.110 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-11 11:45:21.123 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-11 11:45:21.127 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-11 11:45:21.129 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-11 11:45:21.135 +03:00 [WRN] Overriding address(es) 'https://localhost:7283, https://localhost:5005'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-04-11 11:45:21.156 +03:00 [INF] Now listening on: https://[::]:7283
+2025-04-11 11:45:21.157 +03:00 [DBG] Loaded hosting startup assembly WebApplication
+2025-04-11 11:45:21.159 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-11 11:45:21.160 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-11 11:45:21.161 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-11 11:45:21.165 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-11 11:45:21.168 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-11 11:45:21.197 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-11 11:45:21.199 +03:00 [INF] Hosting environment: Development
+2025-04-11 11:45:21.201 +03:00 [INF] Content root path: D:\ServiceCenter(ЛОГИРОВАНИЕ)\WebApplication
+2025-04-11 11:45:21.202 +03:00 [DBG] Hosting started
+2025-04-11 11:45:21.474 +03:00 [DBG] Connection id "0HNBOQKOS707I" accepted.
+2025-04-11 11:45:21.477 +03:00 [DBG] Connection id "0HNBOQKOS707I" started.
+2025-04-11 11:45:21.485 +03:00 [DBG] Connection id "0HNBOQKOS707J" accepted.
+2025-04-11 11:45:21.491 +03:00 [DBG] Connection id "0HNBOQKOS707J" started.
+2025-04-11 11:45:21.501 +03:00 [DBG] Connection id "0HNBOQKOS707I" received FIN.
+2025-04-11 11:45:21.501 +03:00 [DBG] Connection id "0HNBOQKOS707J" received FIN.
+2025-04-11 11:45:21.522 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 11:45:21.521 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 11:45:21.539 +03:00 [DBG] Connection id "0HNBOQKOS707I" stopped.
+2025-04-11 11:45:21.542 +03:00 [DBG] Connection id "0HNBOQKOS707J" stopped.
+2025-04-11 11:45:21.545 +03:00 [DBG] Connection id "0HNBOQKOS707I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-11 11:45:21.545 +03:00 [DBG] Connection id "0HNBOQKOS707J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-11 11:45:21.798 +03:00 [DBG] Connection id "0HNBOQKOS707K" accepted.
+2025-04-11 11:45:21.801 +03:00 [DBG] Connection id "0HNBOQKOS707K" started.
+2025-04-11 11:45:21.826 +03:00 [DBG] Connection id "0HNBOQKOS707K" received FIN.
+2025-04-11 11:45:21.828 +03:00 [DBG] Connection id "0HNBOQKOS707L" accepted.
+2025-04-11 11:45:21.829 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 11:45:21.831 +03:00 [DBG] Connection id "0HNBOQKOS707L" started.
+2025-04-11 11:45:21.840 +03:00 [DBG] Connection id "0HNBOQKOS707K" stopped.
+2025-04-11 11:45:21.843 +03:00 [DBG] Connection id "0HNBOQKOS707K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-11 11:45:21.851 +03:00 [DBG] Connection 0HNBOQKOS707L established using the following protocol: "Tls13"
+2025-04-11 11:45:21.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/?phoneNumber=%2B7+%28123%29+456-78-90 - null null
+2025-04-11 11:45:21.913 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-11 11:45:21.917 +03:00 [DBG] Endpoint '/Status' with route pattern '' is valid for the request path '/'
+2025-04-11 11:45:21.920 +03:00 [DBG] Request matched endpoint '/Status'
+2025-04-11 11:45:21.930 +03:00 [INF] Incoming HTTP Request: GET /
+2025-04-11 11:45:21.933 +03:00 [INF] Executing endpoint '/Status'
+2025-04-11 11:45:21.950 +03:00 [INF] Route matched with {page = "/Status"}. Executing page /Status
+2025-04-11 11:45:21.953 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter"]
+2025-04-11 11:45:21.957 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-11 11:45:21.960 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-11 11:45:21.963 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-11 11:45:21.967 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-11 11:45:21.973 +03:00 [DBG] Executing page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-04-11 11:45:21.992 +03:00 [DBG] Executed page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-04-11 11:45:21.999 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-04-11 11:45:22.003 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' using the name 'PhoneNumber' in request data ...
+2025-04-11 11:45:22.007 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-04-11 11:45:22.010 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-04-11 11:45:22.012 +03:00 [DBG] Attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-04-11 11:45:22.017 +03:00 [DBG] Done attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-04-11 11:45:22.025 +03:00 [INF] Executing handler method StatusModel.OnGetAsync - ModelState is "Valid"
+2025-04-11 11:45:22.028 +03:00 [INF] Starting order search for phone: +7 (123) 456-78-90
+2025-04-11 11:45:22.030 +03:00 [DBG] Sending gRPC request: {"StatusFilter":"Все","SearchQuery":"+7 (123) 456-78-90","$type":"GetOrdersRequest"}
+2025-04-11 11:45:22.049 +03:00 [DBG] Starting gRPC call. Method type: '"Unary"', URI: '"https://10.8.1.2:9080/OrdersService/GetOrders"'.
+2025-04-11 11:45:22.061 +03:00 [DBG] Subchannel id '1-1' created with addresses: 10.8.1.2:9080
+2025-04-11 11:45:22.068 +03:00 [DBG] Channel picker updated.
+2025-04-11 11:45:22.072 +03:00 [DBG] Subchannel id '1-1' state changed to "Connecting". Detail: 'Connection requested.'.
+2025-04-11 11:45:22.078 +03:00 [DBG] Channel state updated to "Connecting".
+2025-04-11 11:45:22.081 +03:00 [DBG] Subchannel id '1-1' connecting to transport.
+2025-04-11 11:45:22.082 +03:00 [DBG] Picked queued.
+2025-04-11 11:45:22.603 +03:00 [DBG] Subchannel id '1-1' connected to socket 10.8.1.2:9080.
+2025-04-11 11:45:22.605 +03:00 [DBG] Subchannel id '1-1' state changed to "Ready". Detail: 'Successfully connected to socket.'.
+2025-04-11 11:45:22.607 +03:00 [DBG] Channel state updated to "Ready".
+2025-04-11 11:45:22.608 +03:00 [DBG] Channel picker updated.
+2025-04-11 11:45:22.612 +03:00 [DBG] Successfully picked subchannel id '1-1' with address 10.8.1.2:9080. Transport status: "InitialSocket"
+2025-04-11 11:45:22.616 +03:00 [INF] Start processing HTTP request POST https://10.8.1.2:9080/OrdersService/GetOrders
+2025-04-11 11:45:22.626 +03:00 [INF] Sending HTTP request POST https://10.8.1.2:9080/OrdersService/GetOrders
+2025-04-11 11:45:22.669 +03:00 [DBG] Sending message.
+2025-04-11 11:45:23.568 +03:00 [INF] Received HTTP response headers after 938.7974ms - 200
+2025-04-11 11:45:23.589 +03:00 [INF] End processing HTTP request after 973.3871ms - 200
+2025-04-11 11:45:23.603 +03:00 [DBG] Reading message.
+2025-04-11 11:45:23.625 +03:00 [DBG] Finished gRPC call.
+2025-04-11 11:45:23.638 +03:00 [DBG] Received gRPC response with 1 orders
+2025-04-11 11:45:23.651 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-04-11 11:45:23.661 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-04-11 11:45:23.665 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-04-11 11:45:23.702 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'null'.
+2025-04-11 11:45:23.766 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-11 11:45:23.772 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-11 11:45:23.787 +03:00 [INF] Executed page /Status in 1814.9702ms
+2025-04-11 11:45:23.793 +03:00 [INF] Executed endpoint '/Status'
+2025-04-11 11:45:23.797 +03:00 [INF] HTTP Response: 200
+2025-04-11 11:45:23.801 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-11 11:45:23.804 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-11 11:45:23.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/?phoneNumber=%2B7+%28123%29+456-78-90 - 200 null text/html; charset=utf-8 1930.0279ms
+2025-04-11 11:45:23.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-11 11:45:23.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-11 11:45:23.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - null null
+2025-04-11 11:45:23.830 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-04-11 11:45:23.838 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-04-11 11:45:23.846 +03:00 [DBG] No candidates found for the request path '/WebApplication.styles.css'
+2025-04-11 11:45:23.848 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:23.852 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:23.856 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:23.859 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2025-04-11 11:45:23.862 +03:00 [INF] Incoming HTTP Request: GET /css/site.css
+2025-04-11 11:45:23.864 +03:00 [INF] Incoming HTTP Request: GET /WebApplication.styles.css
+2025-04-11 11:45:23.870 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:23.875 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:23.878 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:23.880 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 62.332ms
+2025-04-11 11:45:23.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 66.6132ms
+2025-04-11 11:45:23.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - 404 0 null 67.8163ms
+2025-04-11 11:45:23.890 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:45:23.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - null null
+2025-04-11 11:45:23.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-11 11:45:23.899 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-04-11 11:45:23.906 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/css/site.css, Response status code: 404
+2025-04-11 11:45:23.917 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/WebApplication.styles.css, Response status code: 404
+2025-04-11 11:45:23.926 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-11 11:45:23.934 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-04-11 11:45:23.940 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-04-11 11:45:23.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 59.6248ms
+2025-04-11 11:45:23.951 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:23.952 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:23.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-11 11:45:23.964 +03:00 [INF] Incoming HTTP Request: GET /lib/jquery/dist/jquery.min.js
+2025-04-11 11:45:23.966 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2025-04-11 11:45:23.970 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-04-11 11:45:23.972 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:23.973 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:23.974 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:23.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - 404 0 null 85.1377ms
+2025-04-11 11:45:23.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 86.1408ms
+2025-04-11 11:45:23.978 +03:00 [INF] Incoming HTTP Request: GET /js/site.js
+2025-04-11 11:45:23.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_vs/browserLink - null null
+2025-04-11 11:45:23.983 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-04-11 11:45:23.986 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-04-11 11:45:23.988 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:23.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 45.3541ms
+2025-04-11 11:45:24.004 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/js/site.js, Response status code: 404
+2025-04-11 11:45:24.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5305ms
+2025-04-11 11:45:45.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/?phoneNumber=%2B7+%28123%29+456-78-90 - null null
+2025-04-11 11:45:45.064 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-11 11:45:45.066 +03:00 [DBG] Endpoint '/Status' with route pattern '' is valid for the request path '/'
+2025-04-11 11:45:45.068 +03:00 [DBG] Request matched endpoint '/Status'
+2025-04-11 11:45:45.070 +03:00 [INF] Incoming HTTP Request: GET /
+2025-04-11 11:45:45.073 +03:00 [INF] Executing endpoint '/Status'
+2025-04-11 11:45:45.075 +03:00 [INF] Route matched with {page = "/Status"}. Executing page /Status
+2025-04-11 11:45:45.077 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter"]
+2025-04-11 11:45:45.079 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-11 11:45:45.081 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-11 11:45:45.084 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-11 11:45:45.085 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-11 11:45:45.087 +03:00 [DBG] Executing page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-04-11 11:45:45.090 +03:00 [DBG] Executed page model factory for page WebApplication.Pages.Pages_Status (WebApplication)
+2025-04-11 11:45:45.093 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-04-11 11:45:45.096 +03:00 [DBG] Attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String' using the name 'PhoneNumber' in request data ...
+2025-04-11 11:45:45.098 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-04-11 11:45:45.100 +03:00 [DBG] Done attempting to bind property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-04-11 11:45:45.103 +03:00 [DBG] Attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String' ...
+2025-04-11 11:45:45.105 +03:00 [DBG] Done attempting to validate the bound property 'StatusModel.PhoneNumber' of type 'System.String'.
+2025-04-11 11:45:45.107 +03:00 [INF] Executing handler method StatusModel.OnGetAsync - ModelState is "Valid"
+2025-04-11 11:45:45.109 +03:00 [INF] Starting order search for phone: +7 (123) 456-78-90
+2025-04-11 11:45:45.110 +03:00 [DBG] Sending gRPC request: {"StatusFilter":"Все","SearchQuery":"+7 (123) 456-78-90","$type":"GetOrdersRequest"}
+2025-04-11 11:45:45.114 +03:00 [DBG] Starting gRPC call. Method type: '"Unary"', URI: '"https://10.8.1.2:9080/OrdersService/GetOrders"'.
+2025-04-11 11:45:45.117 +03:00 [DBG] Successfully picked subchannel id '1-1' with address 10.8.1.2:9080. Transport status: "ActiveStream"
+2025-04-11 11:45:45.121 +03:00 [INF] Start processing HTTP request POST https://10.8.1.2:9080/OrdersService/GetOrders
+2025-04-11 11:45:45.123 +03:00 [INF] Sending HTTP request POST https://10.8.1.2:9080/OrdersService/GetOrders
+2025-04-11 11:45:45.125 +03:00 [DBG] Sending message.
+2025-04-11 11:45:45.188 +03:00 [INF] Received HTTP response headers after 63.3523ms - 200
+2025-04-11 11:45:45.189 +03:00 [INF] End processing HTTP request after 68.679ms - 200
+2025-04-11 11:45:45.191 +03:00 [DBG] Reading message.
+2025-04-11 11:45:45.193 +03:00 [DBG] Finished gRPC call.
+2025-04-11 11:45:45.194 +03:00 [DBG] Received gRPC response with 1 orders
+2025-04-11 11:45:45.195 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-04-11 11:45:45.197 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-04-11 11:45:45.199 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-04-11 11:45:45.204 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'null'.
+2025-04-11 11:45:45.206 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-11 11:45:45.208 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-11 11:45:45.209 +03:00 [INF] Executed page /Status in 122.0401ms
+2025-04-11 11:45:45.211 +03:00 [INF] Executed endpoint '/Status'
+2025-04-11 11:45:45.213 +03:00 [INF] HTTP Response: 200
+2025-04-11 11:45:45.216 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-11 11:45:45.218 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-11 11:45:45.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/?phoneNumber=%2B7+%28123%29+456-78-90 - 200 null text/html; charset=utf-8 165.3224ms
+2025-04-11 11:45:45.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-11 11:45:45.245 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-04-11 11:45:45.246 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:45.247 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-11 11:45:45.247 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-11 11:45:45.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - null null
+2025-04-11 11:45:45.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - null null
+2025-04-11 11:45:45.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-11 11:45:45.249 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-11 11:45:45.249 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2025-04-11 11:45:45.253 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-04-11 11:45:45.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7283/_vs/browserLink - null null
+2025-04-11 11:45:45.258 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-11 11:45:45.263 +03:00 [DBG] No candidates found for the request path '/WebApplication.styles.css'
+2025-04-11 11:45:45.270 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-04-11 11:45:45.275 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-04-11 11:45:45.280 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-04-11 11:45:45.281 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:45.283 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:45.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 40.7815ms
+2025-04-11 11:45:45.291 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:45.293 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:45.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.4915ms
+2025-04-11 11:45:45.295 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:45.296 +03:00 [DBG] Request did not match any endpoints
+2025-04-11 11:45:45.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 56.9017ms
+2025-04-11 11:45:45.298 +03:00 [INF] Incoming HTTP Request: GET /css/site.css
+2025-04-11 11:45:45.304 +03:00 [INF] Incoming HTTP Request: GET /WebApplication.styles.css
+2025-04-11 11:45:45.305 +03:00 [INF] Incoming HTTP Request: GET /lib/jquery/dist/jquery.min.js
+2025-04-11 11:45:45.311 +03:00 [INF] Incoming HTTP Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2025-04-11 11:45:45.312 +03:00 [INF] Incoming HTTP Request: GET /js/site.js
+2025-04-11 11:45:45.315 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-04-11 11:45:45.316 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:45.318 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:45.319 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:45.320 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:45.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 83.2808ms
+2025-04-11 11:45:45.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 77.57ms
+2025-04-11 11:45:45.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/WebApplication.styles.css?v=LpITJL5u92lu0uvYxl_XxyeCHF3S9U2gyjWPPDf_AxY - 404 0 null 79.1704ms
+2025-04-11 11:45:45.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/lib/jquery/dist/jquery.min.js - 404 0 null 81.245ms
+2025-04-11 11:45:45.322 +03:00 [INF] HTTP Response: 404
+2025-04-11 11:45:45.340 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-04-11 11:45:45.345 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/css/site.css, Response status code: 404
+2025-04-11 11:45:45.349 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/WebApplication.styles.css, Response status code: 404
+2025-04-11 11:45:45.352 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-04-11 11:45:45.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7283/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 104.7284ms
+2025-04-11 11:45:45.370 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7283/js/site.js, Response status code: 404
+2025-04-11 11:46:52.659 +03:00 [DBG] Subchannel id '1-1' state changed to "Idle". Detail: 'Disconnected.'.
+2025-04-11 11:46:52.663 +03:00 [DBG] Channel state updated to "Idle".
+2025-04-11 11:46:52.665 +03:00 [DBG] Channel picker updated.
+2025-04-11 11:47:21.987 +03:00 [DBG] HttpMessageHandler expired after 120000ms for client 'OrdersServiceClient'
+2025-04-11 11:47:32.006 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-04-11 11:47:32.013 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0391ms - processed: 0 items - remaining: 1 items
+2025-04-11 11:47:42.036 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-04-11 11:47:42.048 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1858ms - processed: 0 items - remaining: 1 items
+2025-04-11 11:47:52.065 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-04-11 11:47:52.083 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0092ms - processed: 0 items - remaining: 1 items
+2025-04-11 11:47:56.734 +03:00 [DBG] Connection id "0HNBOQKOS707L" is closing.
+2025-04-11 11:47:56.743 +03:00 [DBG] Connection id "0HNBOQKOS707L" is closed. The last processed stream ID was 35.
+2025-04-11 11:47:56.747 +03:00 [DBG] Connection id "0HNBOQKOS707L" received FIN.
+2025-04-11 11:47:56.748 +03:00 [DBG] The connection queue processing loop for 0HNBOQKOS707L completed.
+2025-04-11 11:47:56.750 +03:00 [DBG] Connection id "0HNBOQKOS707L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-11 11:47:56.755 +03:00 [DBG] Connection id "0HNBOQKOS707L" stopped.
+2025-04-11 11:48:02.099 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-04-11 11:48:02.100 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0075ms - processed: 0 items - remaining: 1 items

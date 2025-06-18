@@ -1,0 +1,143 @@
+2025-05-22 22:05:00.562 +03:00 [INF] Initializing AdminForm
+2025-05-22 22:05:00.767 +03:00 [INF] gRPC clients initialized successfully
+2025-05-22 22:05:00.773 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:05:00.839 +03:00 [DBG] Loading masters list
+2025-05-22 22:05:00.839 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:05:00.850 +03:00 [DBG] AdminForm initialization completed
+2025-05-22 22:05:01.294 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:05:01.299 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:05:01.299 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:05:02.621 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:05:02.622 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:05:02.721 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:05:02.732 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:05:02.732 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:14:59.735 +03:00 [INF] Initializing AdminForm
+2025-05-22 22:14:59.786 +03:00 [INF] gRPC clients initialized successfully
+2025-05-22 22:14:59.789 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:14:59.840 +03:00 [DBG] Loading masters list
+2025-05-22 22:14:59.840 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:14:59.848 +03:00 [DBG] AdminForm initialization completed
+2025-05-22 22:15:00.195 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:15:00.195 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:15:00.305 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:15:04.669 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:15:04.670 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:15:04.746 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:15:04.757 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:15:04.757 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:09.012 +03:00 [INF] Initializing AdminForm
+2025-05-22 22:35:09.122 +03:00 [INF] gRPC clients initialized successfully
+2025-05-22 22:35:09.135 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:09.261 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:09.261 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:09.278 +03:00 [DBG] AdminForm initialization completed
+2025-05-22 22:35:09.636 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:09.637 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:09.797 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:11.886 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:11.888 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:11.987 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:12.003 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:12.003 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:44.860 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:44.861 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:44.862 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:44.862 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:44.950 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:44.961 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:44.961 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:44.965 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:44.965 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:44.966 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:44.979 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:45.476 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:45.476 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:45.476 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:45.476 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:45.632 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:45.639 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:45.640 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:45.646 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:45.646 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:45.647 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:46.169 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:46.169 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:46.170 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:46.170 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:46.324 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:46.329 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:46.329 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:46.333 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:46.333 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:46.334 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:46.782 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:46.782 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:46.782 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:46.782 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.061 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.061 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:47.069 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:47.069 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.071 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:47.104 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:47.295 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:47.295 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:47.295 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:47.295 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.715 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:47.724 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.724 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:47.728 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:47.730 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.730 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:47.887 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:47.887 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:47.887 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:47.887 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.971 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:47.981 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.981 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:47.991 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:47.991 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:47.992 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:48.597 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:48.597 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:48.597 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:48.597 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:48.727 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:35:48.738 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:48.739 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:48.749 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:48.749 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:48.751 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:49.596 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:35:49.596 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:35:49.596 +03:00 [DBG] Loading masters list
+2025-05-22 22:35:49.596 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:49.661 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:49.661 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:35:49.667 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:35:49.667 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:35:49.668 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:35:49.688 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:36:24.844 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:36:24.845 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:36:24.845 +03:00 [DBG] Loading masters list
+2025-05-22 22:36:24.845 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:36:25.075 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:36:25.121 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:36:25.121 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:36:25.127 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:36:25.127 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:36:25.127 +03:00 [INF] Successfully loaded 5 masters
+2025-05-22 22:36:25.304 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 22:36:25.304 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-22 22:36:25.304 +03:00 [DBG] Loading masters list
+2025-05-22 22:36:25.304 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:36:25.438 +03:00 [INF] Successfully loaded 1 orders
+2025-05-22 22:36:25.527 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:36:25.528 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-22 22:36:25.535 +03:00 [DBG] Configured master grid columns
+2025-05-22 22:36:25.535 +03:00 [DBG] Clearing master input fields
+2025-05-22 22:36:25.537 +03:00 [INF] Successfully loaded 5 masters

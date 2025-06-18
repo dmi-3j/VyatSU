@@ -1,0 +1,132 @@
+2025-04-10 22:05:50.556 +03:00 [INF] Initializing AdminForm
+2025-04-10 22:05:51.679 +03:00 [INF] gRPC clients initialized successfully
+2025-04-10 22:05:51.683 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:05:52.690 +03:00 [DBG] Loading masters list
+2025-04-10 22:05:52.691 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:05:52.726 +03:00 [DBG] AdminForm initialization completed
+2025-04-10 22:05:58.565 +03:00 [INF] Initializing AdminForm
+2025-04-10 22:05:58.654 +03:00 [INF] gRPC clients initialized successfully
+2025-04-10 22:05:58.661 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:05:58.757 +03:00 [DBG] Loading masters list
+2025-04-10 22:05:58.757 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:05:58.772 +03:00 [DBG] AdminForm initialization completed
+2025-04-10 22:05:59.013 +03:00 [DBG] Configured master grid columns
+2025-04-10 22:05:59.014 +03:00 [INF] Successfully loaded 5 masters
+2025-04-10 22:05:59.223 +03:00 [INF] Successfully loaded 27 orders
+2025-04-10 22:06:19.800 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:06:19.801 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-04-10 22:06:19.939 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:06:19.959 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:06:19.960 +03:00 [DBG] Master selected: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-04-10 22:06:23.531 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:06:23.534 +03:00 [DBG] Master selected: 1984967b-7eb5-49ae-a374-ff26fa58fe7a
+2025-04-10 22:06:42.158 +03:00 [DBG] Order selected: 4119194d-0338-4336-81fa-1ae36626ffcd
+2025-04-10 22:06:42.202 +03:00 [DBG] Loading parts for order: 4119194d-0338-4336-81fa-1ae36626ffcd
+2025-04-10 22:06:42.216 +03:00 [DBG] Order selected: 4119194d-0338-4336-81fa-1ae36626ffcd
+2025-04-10 22:06:42.420 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:06:44.871 +03:00 [DBG] Order selected: 28a2aefa-ebc5-4073-a10c-e294aab98618
+2025-04-10 22:06:44.882 +03:00 [DBG] Loading parts for order: 28a2aefa-ebc5-4073-a10c-e294aab98618
+2025-04-10 22:06:44.882 +03:00 [DBG] Order selected: 28a2aefa-ebc5-4073-a10c-e294aab98618
+2025-04-10 22:06:44.935 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:06:51.057 +03:00 [DBG] Starting order creation
+2025-04-10 22:06:51.059 +03:00 [INF] Creating new order for customer: Дмитрий Субботин
+2025-04-10 22:06:51.812 +03:00 [DBG] Starting order creation
+2025-04-10 22:06:51.812 +03:00 [INF] Creating new order for customer: Дмитрий Субботин
+2025-04-10 22:06:51.986 +03:00 [DBG] Starting order creation
+2025-04-10 22:06:51.986 +03:00 [INF] Creating new order for customer: Дмитрий Субботин
+2025-04-10 22:06:52.011 +03:00 [INF] Order created successfully
+2025-04-10 22:06:52.011 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-10 22:06:52.050 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:06:52.051 +03:00 [INF] Order created successfully
+2025-04-10 22:06:52.051 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-10 22:06:52.076 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:06:52.077 +03:00 [INF] Order created successfully
+2025-04-10 22:06:52.077 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно создан.
+2025-04-10 22:06:52.097 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:06:52.163 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:06:52.214 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:06:52.281 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:06:52.284 +03:00 [DBG] Starting order creation
+2025-04-10 22:06:52.284 +03:00 [WRN] Order creation validation failed - missing required fields
+2025-04-10 22:06:52.284 +03:00 [DBG] Showing notification. Type: Предупреждение, Message: Пожалуйста, заполните все поля.
+2025-04-10 22:06:52.310 +03:00 [DBG] Starting order creation
+2025-04-10 22:06:52.310 +03:00 [WRN] Order creation validation failed - missing required fields
+2025-04-10 22:06:52.310 +03:00 [DBG] Showing notification. Type: Предупреждение, Message: Пожалуйста, заполните все поля.
+2025-04-10 22:06:52.466 +03:00 [DBG] Starting order creation
+2025-04-10 22:06:52.466 +03:00 [WRN] Order creation validation failed - missing required fields
+2025-04-10 22:06:52.466 +03:00 [DBG] Showing notification. Type: Предупреждение, Message: Пожалуйста, заполните все поля.
+2025-04-10 22:06:53.980 +03:00 [DBG] Order selected: 1708acc2-0e0a-4bbe-a45b-abbf3e6fac85
+2025-04-10 22:06:53.989 +03:00 [DBG] Loading parts for order: 1708acc2-0e0a-4bbe-a45b-abbf3e6fac85
+2025-04-10 22:06:53.989 +03:00 [DBG] Order selected: 1708acc2-0e0a-4bbe-a45b-abbf3e6fac85
+2025-04-10 22:06:54.051 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:07:40.409 +03:00 [INF] Initializing AdminForm
+2025-04-10 22:07:40.509 +03:00 [INF] gRPC clients initialized successfully
+2025-04-10 22:07:40.516 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:07:40.620 +03:00 [DBG] Loading masters list
+2025-04-10 22:07:40.622 +03:00 [DBG] Clearing master input fields
+2025-04-10 22:07:40.629 +03:00 [DBG] AdminForm initialization completed
+2025-04-10 22:07:40.856 +03:00 [DBG] Configured master grid columns
+2025-04-10 22:07:40.857 +03:00 [INF] Successfully loaded 5 masters
+2025-04-10 22:07:41.172 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:07:42.055 +03:00 [DBG] Searching orders with query: 
+2025-04-10 22:07:42.055 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:07:42.163 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:07:45.931 +03:00 [DBG] Searching orders with query: Су
+2025-04-10 22:07:45.931 +03:00 [DBG] Loading orders. Filter: All, Search: Су
+2025-04-10 22:07:46.025 +03:00 [INF] Successfully loaded 18 orders
+2025-04-10 22:08:17.024 +03:00 [DBG] Order selected: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:17.073 +03:00 [DBG] Loading parts for order: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:17.085 +03:00 [DBG] Order selected: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:17.152 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:19.974 +03:00 [DBG] Adding part: Аккумулятор, Quantity: 1
+2025-04-10 22:08:19.974 +03:00 [DBG] Added new part
+2025-04-10 22:08:22.078 +03:00 [DBG] Starting order update
+2025-04-10 22:08:22.082 +03:00 [INF] Updating order ID: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:22.230 +03:00 [INF] Order updated successfully
+2025-04-10 22:08:22.231 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно обновлен.
+2025-04-10 22:08:22.274 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:08:22.400 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:08:34.704 +03:00 [DBG] Order selected: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:34.713 +03:00 [DBG] Loading parts for order: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:34.713 +03:00 [DBG] Order selected: d2af31ec-43d9-49cd-9e4a-9d4acc1bfabe
+2025-04-10 22:08:34.762 +03:00 [DBG] Loaded 1 parts for order
+2025-04-10 22:08:43.508 +03:00 [DBG] Order selected: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:43.517 +03:00 [DBG] Loading parts for order: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:43.518 +03:00 [DBG] Order selected: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:43.582 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:44.594 +03:00 [DBG] Order selected: dc21072a-de06-4590-9fc8-b0b7f50a3e02
+2025-04-10 22:08:44.594 +03:00 [DBG] Loading parts for order: dc21072a-de06-4590-9fc8-b0b7f50a3e02
+2025-04-10 22:08:44.594 +03:00 [DBG] Order selected: dc21072a-de06-4590-9fc8-b0b7f50a3e02
+2025-04-10 22:08:44.643 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:50.208 +03:00 [DBG] Order selected: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:50.210 +03:00 [DBG] Loading parts for order: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:50.210 +03:00 [DBG] Order selected: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:50.277 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:51.115 +03:00 [DBG] Order selected: bde0128e-78c2-4942-9498-28192f0e4d7b
+2025-04-10 22:08:51.126 +03:00 [DBG] Loading parts for order: bde0128e-78c2-4942-9498-28192f0e4d7b
+2025-04-10 22:08:51.126 +03:00 [DBG] Order selected: bde0128e-78c2-4942-9498-28192f0e4d7b
+2025-04-10 22:08:51.184 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:51.975 +03:00 [DBG] Order selected: d2e00ef0-90d3-4195-a306-bbf482ee6a05
+2025-04-10 22:08:51.979 +03:00 [DBG] Loading parts for order: d2e00ef0-90d3-4195-a306-bbf482ee6a05
+2025-04-10 22:08:51.979 +03:00 [DBG] Order selected: d2e00ef0-90d3-4195-a306-bbf482ee6a05
+2025-04-10 22:08:52.019 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:53.161 +03:00 [DBG] Order selected: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:53.167 +03:00 [DBG] Loading parts for order: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:53.167 +03:00 [DBG] Order selected: d6992b03-9943-4d44-a34f-f8302f92db69
+2025-04-10 22:08:53.221 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:08:55.255 +03:00 [DBG] Order selected: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:08:55.262 +03:00 [DBG] Loading parts for order: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:08:55.262 +03:00 [DBG] Order selected: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:08:55.321 +03:00 [DBG] Loaded 0 parts for order
+2025-04-10 22:09:04.571 +03:00 [DBG] Adding part: Материнская плата, Quantity: 1
+2025-04-10 22:09:04.571 +03:00 [DBG] Added new part
+2025-04-10 22:09:18.433 +03:00 [DBG] Starting order update
+2025-04-10 22:09:18.433 +03:00 [INF] Updating order ID: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:09:18.506 +03:00 [INF] Order updated successfully
+2025-04-10 22:09:18.507 +03:00 [DBG] Showing notification. Type: Успех, Message: Заказ успешно обновлен.
+2025-04-10 22:09:18.546 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-04-10 22:09:18.670 +03:00 [INF] Successfully loaded 30 orders
+2025-04-10 22:09:27.883 +03:00 [DBG] Order selected: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:09:27.893 +03:00 [DBG] Loading parts for order: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:09:27.893 +03:00 [DBG] Order selected: d75ed004-232c-4a73-84c0-aa67449eade7
+2025-04-10 22:09:27.943 +03:00 [DBG] Loaded 1 parts for order

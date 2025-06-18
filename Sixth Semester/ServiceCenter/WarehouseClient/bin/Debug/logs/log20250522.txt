@@ -1,0 +1,69 @@
+2025-05-22 17:29:16.005 +03:00 [INF] gRPC client initialized successfully
+2025-05-22 17:29:16.053 +03:00 [INF] Initializing WarehouseForm...
+2025-05-22 17:29:16.053 +03:00 [INF] Loading initial data...
+2025-05-22 17:29:16.065 +03:00 [INF] Loading orders from server...
+2025-05-22 17:29:16.115 +03:00 [INF] Loading warehouse parts...
+2025-05-22 17:29:16.119 +03:00 [DBG] Initializing report DataGridView
+2025-05-22 17:29:16.132 +03:00 [INF] WarehouseForm initialized successfully
+2025-05-22 17:29:18.030 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 17:29:18.039 +03:00 [INF] Loaded 0 orders
+2025-05-22 17:29:18.041 +03:00 [DBG] Updating missing parts report
+2025-05-22 17:29:18.213 +03:00 [INF] Missing parts report updated with 0 entries
+2025-05-22 17:29:40.197 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 17:29:40.197 +03:00 [INF] Loading orders from server...
+2025-05-22 17:29:40.197 +03:00 [INF] Loading warehouse parts...
+2025-05-22 17:29:41.229 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 17:29:41.231 +03:00 [INF] Loaded 0 orders
+2025-05-22 17:29:41.231 +03:00 [DBG] Updating missing parts report
+2025-05-22 17:29:41.334 +03:00 [INF] Missing parts report updated with 0 entries
+2025-05-22 20:14:12.678 +03:00 [INF] gRPC client initialized successfully
+2025-05-22 20:14:12.707 +03:00 [INF] Initializing WarehouseForm...
+2025-05-22 20:14:12.707 +03:00 [INF] Loading initial data...
+2025-05-22 20:14:12.715 +03:00 [INF] Loading orders from server...
+2025-05-22 20:14:12.806 +03:00 [INF] Loading warehouse parts...
+2025-05-22 20:14:12.813 +03:00 [DBG] Initializing report DataGridView
+2025-05-22 20:14:12.841 +03:00 [INF] WarehouseForm initialized successfully
+2025-05-22 20:14:13.245 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 20:14:13.256 +03:00 [INF] Loaded 0 orders
+2025-05-22 20:14:13.258 +03:00 [DBG] Updating missing parts report
+2025-05-22 20:14:13.345 +03:00 [INF] Missing parts report updated with 0 entries
+2025-05-22 20:14:27.720 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 20:14:27.722 +03:00 [INF] Loading orders from server...
+2025-05-22 20:14:27.722 +03:00 [INF] Loading warehouse parts...
+2025-05-22 20:14:27.883 +03:00 [INF] Loaded 0 orders
+2025-05-22 20:14:27.883 +03:00 [DBG] Updating missing parts report
+2025-05-22 20:14:27.994 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 20:14:28.055 +03:00 [INF] Missing parts report updated with 0 entries
+2025-05-22 20:14:29.652 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 20:14:29.652 +03:00 [INF] Loading orders from server...
+2025-05-22 20:14:29.652 +03:00 [INF] Loading warehouse parts...
+2025-05-22 20:14:29.866 +03:00 [INF] Loaded 0 orders
+2025-05-22 20:14:29.866 +03:00 [DBG] Updating missing parts report
+2025-05-22 20:14:30.003 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 20:14:30.037 +03:00 [INF] Missing parts report updated with 0 entries
+2025-05-22 20:14:33.944 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 20:14:33.944 +03:00 [INF] Loading orders from server...
+2025-05-22 20:14:33.944 +03:00 [INF] Loading warehouse parts...
+2025-05-22 20:14:34.047 +03:00 [INF] Loaded 1 orders
+2025-05-22 20:14:34.047 +03:00 [DBG] Updating missing parts report
+2025-05-22 20:14:34.116 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 20:14:34.172 +03:00 [DBG] Missing part detected: Дисплей (RH), missing: 1
+2025-05-22 20:14:34.225 +03:00 [INF] Missing parts report updated with 1 entries
+2025-05-22 20:14:40.355 +03:00 [INF] Add part to warehouse button clicked
+2025-05-22 20:14:40.355 +03:00 [INF] Updating existing part: Дисплей (RH)
+2025-05-22 20:14:40.440 +03:00 [INF] Part Дисплей (RH) quantity updated by 2
+2025-05-22 20:14:40.440 +03:00 [INF] Showing notification: Успех - Количество комплектующего обновлено на складе.
+2025-05-22 20:14:40.483 +03:00 [INF] Loading warehouse parts...
+2025-05-22 20:14:40.556 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 20:14:42.473 +03:00 [DBG] F5 key pressed - refreshing data
+2025-05-22 20:14:42.473 +03:00 [INF] Loading orders from server...
+2025-05-22 20:14:42.474 +03:00 [INF] Loading warehouse parts...
+2025-05-22 20:14:42.703 +03:00 [INF] Loaded 1 orders
+2025-05-22 20:14:42.703 +03:00 [DBG] Updating missing parts report
+2025-05-22 20:14:42.817 +03:00 [INF] Loaded 2 warehouse parts
+2025-05-22 20:14:42.878 +03:00 [INF] Missing parts report updated with 0 entries
+2025-05-22 20:14:45.919 +03:00 [INF] Showing notification: Успех - Комплектующие выданы со склада
+2025-05-22 20:14:45.946 +03:00 [INF] Loading orders from server...
+2025-05-22 20:14:45.978 +03:00 [INF] Loaded 0 orders
+2025-05-22 20:14:45.978 +03:00 [DBG] Updating missing parts report
+2025-05-22 20:14:46.026 +03:00 [INF] Missing parts report updated with 0 entries

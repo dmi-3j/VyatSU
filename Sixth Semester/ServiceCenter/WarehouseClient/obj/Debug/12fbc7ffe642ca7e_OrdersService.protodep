@@ -1,0 +1,2 @@
+obj\Debug\Protos/OrdersService.cs \
+obj\Debug\Protos/OrdersServiceGrpc.cs: Protos/OrdersService.proto

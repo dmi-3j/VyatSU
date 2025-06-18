@@ -1,0 +1,88 @@
+2025-05-04 19:34:31.733 +03:00 [INF] LoginForm initialization started
+2025-05-04 19:34:31.790 +03:00 [DBG] Initializing gRPC client
+2025-05-04 19:34:31.871 +03:00 [INF] gRPC client initialized successfully
+2025-05-04 19:34:31.872 +03:00 [INF] LoginForm initialized successfully
+2025-05-04 19:34:42.047 +03:00 [INF] Login attempt for user: 1
+2025-05-04 19:34:42.058 +03:00 [DBG] Sending authentication request
+2025-05-04 19:34:42.433 +03:00 [INF] Authentication successful for user: 1
+2025-05-04 19:34:42.438 +03:00 [INF] LoginForm closing
+2025-05-04 19:34:42.668 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-05-04 19:34:42.669 +03:00 [DBG] Initializing gRPC client
+2025-05-04 19:34:42.670 +03:00 [INF] gRPC client initialized successfully
+2025-05-04 19:34:42.675 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-04 19:34:42.684 +03:00 [INF] MasterForm initialized successfully
+2025-05-04 19:34:42.876 +03:00 [DBG] Received 4 orders from server
+2025-05-04 19:34:43.039 +03:00 [INF] Displaying 1 orders
+2025-05-04 19:34:45.524 +03:00 [DBG] Tab changed to index: 1
+2025-05-04 19:34:45.524 +03:00 [INF] Switched to Queue tab
+2025-05-04 19:34:45.524 +03:00 [DBG] Establishing new queue connection
+2025-05-04 19:34:45.525 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-04 19:34:45.646 +03:00 [ERR] Failed to subscribe to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   в RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   в RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   в RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   в RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   в MasterClient.MasterForm.SubscribeToQueue() в C:\Users\user\Desktop\ServiceCenter\MasterClient\MasterForm.cs:строка 486
+2025-05-04 20:38:18.902 +03:00 [INF] LoginForm initialization started
+2025-05-04 20:38:18.978 +03:00 [DBG] Initializing gRPC client
+2025-05-04 20:38:19.029 +03:00 [INF] gRPC client initialized successfully
+2025-05-04 20:38:19.029 +03:00 [INF] LoginForm initialized successfully
+2025-05-04 20:38:21.454 +03:00 [INF] Login attempt for user: 1
+2025-05-04 20:38:21.465 +03:00 [DBG] Sending authentication request
+2025-05-04 20:38:21.902 +03:00 [INF] Authentication successful for user: 1
+2025-05-04 20:38:21.903 +03:00 [INF] LoginForm closing
+2025-05-04 20:38:22.083 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-05-04 20:38:22.083 +03:00 [DBG] Initializing gRPC client
+2025-05-04 20:38:22.084 +03:00 [INF] gRPC client initialized successfully
+2025-05-04 20:38:22.088 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-04 20:38:22.093 +03:00 [INF] MasterForm initialized successfully
+2025-05-04 20:38:22.215 +03:00 [DBG] Received 4 orders from server
+2025-05-04 20:38:22.219 +03:00 [INF] No orders found for master
+2025-05-04 20:38:22.219 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-05-04 20:38:23.683 +03:00 [DBG] Tab changed to index: 1
+2025-05-04 20:38:23.683 +03:00 [INF] Switched to Queue tab
+2025-05-04 20:38:23.683 +03:00 [DBG] Establishing new queue connection
+2025-05-04 20:38:23.684 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-04 20:38:23.785 +03:00 [INF] Successfully subscribed to queue
+2025-05-04 20:38:24.006 +03:00 [DBG] Received order from queue: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:38:24.183 +03:00 [DBG] Received order from queue: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-04 20:38:26.025 +03:00 [DBG] Accepting order ID: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-04 20:38:26.280 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-04 20:38:26.280 +03:00 [INF] Order accepted successfully
+2025-05-04 20:38:26.280 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-05-04 20:38:26.379 +03:00 [DBG] Tab changed to index: 0
+2025-05-04 20:38:26.379 +03:00 [INF] Switched to Orders tab
+2025-05-04 20:38:26.379 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-05-04 20:38:26.399 +03:00 [DBG] Queue connection closed successfully
+2025-05-04 20:38:26.400 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-04 20:38:26.400 +03:00 [DBG] Received 4 orders from server
+2025-05-04 20:38:26.431 +03:00 [INF] Displaying 1 orders
+2025-05-04 20:38:26.528 +03:00 [DBG] Received 4 orders from server
+2025-05-04 20:38:26.546 +03:00 [INF] Displaying 1 orders
+2025-05-04 20:38:27.563 +03:00 [DBG] Tab changed to index: 1
+2025-05-04 20:38:27.563 +03:00 [INF] Switched to Queue tab
+2025-05-04 20:38:27.563 +03:00 [DBG] Establishing new queue connection
+2025-05-04 20:38:27.563 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-05-04 20:38:27.573 +03:00 [INF] Successfully subscribed to queue
+2025-05-04 20:38:27.574 +03:00 [DBG] Received order from queue: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:38:28.619 +03:00 [DBG] Accepting order ID: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:38:28.747 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-04 20:38:28.749 +03:00 [INF] Order accepted successfully
+2025-05-04 20:38:28.749 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-05-04 20:38:28.815 +03:00 [DBG] Tab changed to index: 0
+2025-05-04 20:38:28.815 +03:00 [INF] Switched to Orders tab
+2025-05-04 20:38:28.815 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-05-04 20:38:28.819 +03:00 [DBG] Queue connection closed successfully
+2025-05-04 20:38:28.819 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-05-04 20:38:28.819 +03:00 [DBG] Received 4 orders from server
+2025-05-04 20:38:28.837 +03:00 [INF] Displaying 2 orders
+2025-05-04 20:38:28.945 +03:00 [DBG] Received 4 orders from server
+2025-05-04 20:38:28.957 +03:00 [INF] Displaying 2 orders

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {}
+    "D:\\Documents\\GitHub\\VyatSUi\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
+    "D:\\Documents\\GitHub\\VyatSUi\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\VyatSUi\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
         "projectName": "vaccinecalend",
-        "projectPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
-        "packagesPath": "C:\\Users\\dmitry\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\VyatSu\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\obj\\",
+        "projectPath": "D:\\Documents\\GitHub\\VyatSUi\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\vaccinecalend.csproj",
+        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\VyatSUi\\Third Semester\\OOP\\ClassLibrary3\\ClassLibrary3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -77,12 +82,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

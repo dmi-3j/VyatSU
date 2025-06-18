@@ -1,0 +1,149 @@
+2025-06-13 17:01:51.162 +03:00 [INF] LoginForm initialization started
+2025-06-13 17:01:51.693 +03:00 [DBG] Initializing gRPC client
+2025-06-13 17:01:52.339 +03:00 [INF] gRPC client initialized successfully
+2025-06-13 17:01:52.340 +03:00 [INF] LoginForm initialized successfully
+2025-06-13 17:01:54.903 +03:00 [INF] Login attempt for user: 1
+2025-06-13 17:01:54.912 +03:00 [DBG] Sending authentication request
+2025-06-13 17:01:56.078 +03:00 [INF] Authentication successful for user: 1
+2025-06-13 17:01:56.078 +03:00 [INF] LoginForm closing
+2025-06-13 17:01:56.190 +03:00 [INF] MasterForm initialization started for master: Субботин Дмитрий Леонидович
+2025-06-13 17:01:56.191 +03:00 [DBG] Initializing gRPC client
+2025-06-13 17:01:56.192 +03:00 [INF] gRPC client initialized successfully with address https://10.8.1.1:9080
+2025-06-13 17:01:56.196 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:01:56.204 +03:00 [INF] MasterForm initialized successfully
+2025-06-13 17:01:56.472 +03:00 [DBG] Received 3 orders from server
+2025-06-13 17:01:56.478 +03:00 [INF] No orders found for master
+2025-06-13 17:01:56.479 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-06-13 17:01:59.452 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:01:59.453 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:01:59.453 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:01:59.459 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:01:59.603 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:01:59.921 +03:00 [DBG] Received order from queue: 69cc531f-457d-4cc2-8721-d5b88afa656b
+2025-06-13 17:02:08.572 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:02:08.572 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:02:08.573 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:02:08.616 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:02:08.616 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:02:08.918 +03:00 [DBG] Received 3 orders from server
+2025-06-13 17:02:08.918 +03:00 [INF] No orders found for master
+2025-06-13 17:02:08.918 +03:00 [DBG] Showing notification: Предупреждение - Нет заказов для отображения.
+2025-06-13 17:02:15.050 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:02:15.051 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:02:15.051 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:02:15.051 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:02:15.098 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:02:15.099 +03:00 [DBG] Received order from queue: 69cc531f-457d-4cc2-8721-d5b88afa656b
+2025-06-13 17:02:18.024 +03:00 [DBG] Accepting order ID: 69cc531f-457d-4cc2-8721-d5b88afa656b
+2025-06-13 17:02:18.848 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:02:18.849 +03:00 [INF] Order accepted successfully
+2025-06-13 17:02:18.849 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-06-13 17:02:19.010 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:02:19.010 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:02:19.010 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:02:19.018 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:02:19.018 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:02:19.160 +03:00 [DBG] Received 3 orders from server
+2025-06-13 17:02:19.186 +03:00 [INF] Displaying 1 orders
+2025-06-13 17:02:19.347 +03:00 [DBG] Received 3 orders from server
+2025-06-13 17:02:19.363 +03:00 [INF] Displaying 1 orders
+2025-06-13 17:03:04.443 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:03:04.444 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:03:04.444 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:03:04.444 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:03:04.466 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:03:04.466 +03:00 [DBG] Received order from queue: 2bea6d8e-f8ec-4a60-bb9c-9ae98b779be3
+2025-06-13 17:05:14.032 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:05:14.035 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:05:14.035 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:05:14.045 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:05:14.048 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:05:14.319 +03:00 [DBG] Received 4 orders from server
+2025-06-13 17:05:14.359 +03:00 [INF] Displaying 1 orders
+2025-06-13 17:05:14.720 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:05:14.721 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:05:14.721 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:05:14.721 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:05:14.739 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:05:14.739 +03:00 [DBG] Received order from queue: 2bea6d8e-f8ec-4a60-bb9c-9ae98b779be3
+2025-06-13 17:05:15.961 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:05:15.961 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:05:15.961 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:05:15.968 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:05:15.969 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:05:16.249 +03:00 [DBG] Received 4 orders from server
+2025-06-13 17:05:16.269 +03:00 [INF] Displaying 1 orders
+2025-06-13 17:05:50.360 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:05:50.360 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:05:50.360 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:05:50.360 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:05:50.395 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:05:50.396 +03:00 [DBG] Received order from queue: 2bea6d8e-f8ec-4a60-bb9c-9ae98b779be3
+2025-06-13 17:05:54.008 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:05:54.008 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:05:54.008 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:05:54.015 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:05:54.016 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:05:54.372 +03:00 [DBG] Received 4 orders from server
+2025-06-13 17:05:54.390 +03:00 [INF] Displaying 1 orders
+2025-06-13 17:06:06.229 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:06:06.229 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:06:06.229 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:06:06.229 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:06:06.266 +03:00 [DBG] Received order from queue: 2bea6d8e-f8ec-4a60-bb9c-9ae98b779be3
+2025-06-13 17:06:06.266 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:06:11.163 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:06:11.163 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:06:11.163 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:06:11.170 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:06:11.172 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:06:11.373 +03:00 [DBG] Received 4 orders from server
+2025-06-13 17:06:11.388 +03:00 [INF] Displaying 1 orders
+2025-06-13 17:59:49.084 +03:00 [DBG] Tab changed to index: 1
+2025-06-13 17:59:49.087 +03:00 [INF] Switched to Queue tab
+2025-06-13 17:59:49.087 +03:00 [DBG] Establishing new queue connection
+2025-06-13 17:59:49.087 +03:00 [INF] Subscribing to RabbitMQ queue
+2025-06-13 17:59:49.106 +03:00 [INF] Successfully subscribed to queue
+2025-06-13 17:59:49.106 +03:00 [DBG] Received order from queue: 2bea6d8e-f8ec-4a60-bb9c-9ae98b779be3
+2025-06-13 17:59:49.183 +03:00 [DBG] Received order from queue: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 17:59:51.949 +03:00 [DBG] Accepting order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 17:59:52.309 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:59:52.309 +03:00 [INF] Order accepted successfully
+2025-06-13 17:59:52.309 +03:00 [DBG] Showing notification: Успех - Заказ успешно принят.
+2025-06-13 17:59:52.491 +03:00 [DBG] Tab changed to index: 0
+2025-06-13 17:59:52.492 +03:00 [INF] Switched to Orders tab
+2025-06-13 17:59:52.492 +03:00 [INF] Disconnecting from RabbitMQ queue
+2025-06-13 17:59:52.631 +03:00 [DBG] Queue connection closed successfully
+2025-06-13 17:59:52.631 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 17:59:52.631 +03:00 [DBG] Received 5 orders from server
+2025-06-13 17:59:52.648 +03:00 [INF] Displaying 2 orders
+2025-06-13 17:59:52.878 +03:00 [DBG] Received 5 orders from server
+2025-06-13 17:59:52.896 +03:00 [INF] Displaying 2 orders
+2025-06-13 17:59:54.344 +03:00 [DBG] Loading parts for order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 17:59:54.557 +03:00 [DBG] Loaded 0 parts for order
+2025-06-13 18:00:03.890 +03:00 [DBG] Updating order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 18:00:03.909 +03:00 [DBG] Updating order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 18:00:04.308 +03:00 [INF] Order updated successfully
+2025-06-13 18:00:04.308 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-06-13 18:00:04.354 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 18:00:04.418 +03:00 [INF] Order updated successfully
+2025-06-13 18:00:04.418 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-06-13 18:00:04.456 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 18:00:04.654 +03:00 [DBG] Received 5 orders from server
+2025-06-13 18:00:04.673 +03:00 [INF] Displaying 2 orders
+2025-06-13 18:00:04.910 +03:00 [DBG] Received 5 orders from server
+2025-06-13 18:00:04.927 +03:00 [INF] Displaying 2 orders
+2025-06-13 18:00:18.066 +03:00 [DBG] Loading parts for order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 18:00:18.201 +03:00 [DBG] Loaded 0 parts for order
+2025-06-13 18:00:21.955 +03:00 [DBG] Updating order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 18:00:21.955 +03:00 [DBG] Updating order ID: a9c493ad-e461-41f7-ac85-ffbef3880d47
+2025-06-13 18:00:22.353 +03:00 [INF] Order updated successfully
+2025-06-13 18:00:22.353 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-06-13 18:00:22.395 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 18:00:22.434 +03:00 [INF] Order updated successfully
+2025-06-13 18:00:22.434 +03:00 [DBG] Showing notification: Успех - Заказ успешно обновлён.
+2025-06-13 18:00:22.473 +03:00 [DBG] Loading orders for master: Субботин Дмитрий Леонидович
+2025-06-13 18:00:22.593 +03:00 [DBG] Received 4 orders from server
+2025-06-13 18:00:22.613 +03:00 [INF] Displaying 1 orders
+2025-06-13 18:00:22.783 +03:00 [DBG] Received 4 orders from server
+2025-06-13 18:00:22.808 +03:00 [INF] Displaying 1 orders

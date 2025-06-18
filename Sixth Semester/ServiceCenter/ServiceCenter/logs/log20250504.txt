@@ -1,0 +1,1233 @@
+2025-05-04 18:52:17.900 +03:00 [INF] Starting gRPC server
+2025-05-04 18:52:21.366 +03:00 [DBG] Hosting starting
+2025-05-04 18:52:21.514 +03:00 [DBG] Middleware loaded
+2025-05-04 18:52:21.521 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 18:52:21.526 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 18:52:21.589 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 18:52:21.593 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 18:52:21.600 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 18:52:21.605 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 18:52:21.643 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 18:52:21.646 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 18:52:21.647 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 18:52:21.649 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 18:52:21.651 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 18:52:21.666 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 18:52:21.671 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 18:52:21.782 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 18:52:21.785 +03:00 [INF] Hosting environment: Development
+2025-05-04 18:52:21.787 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 18:52:21.789 +03:00 [DBG] Hosting started
+2025-05-04 18:53:15.447 +03:00 [INF] Starting gRPC server
+2025-05-04 18:53:15.656 +03:00 [DBG] Hosting starting
+2025-05-04 18:53:15.759 +03:00 [DBG] Middleware loaded
+2025-05-04 18:53:15.766 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 18:53:15.770 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 18:53:15.795 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 18:53:15.802 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 18:53:15.810 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 18:53:15.817 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 18:53:15.846 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 18:53:15.848 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 18:53:15.849 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 18:53:15.850 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 18:53:15.851 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 18:53:15.866 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 18:53:15.873 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 18:53:15.936 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 18:53:15.939 +03:00 [INF] Hosting environment: Development
+2025-05-04 18:53:15.942 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 18:53:15.943 +03:00 [DBG] Hosting started
+2025-05-04 19:04:00.210 +03:00 [INF] Starting gRPC server
+2025-05-04 19:04:00.492 +03:00 [DBG] Hosting starting
+2025-05-04 19:04:00.661 +03:00 [DBG] Middleware loaded
+2025-05-04 19:04:00.665 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:04:00.670 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:04:00.725 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:04:00.727 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:04:00.735 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:04:00.740 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:04:00.775 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:04:00.776 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:04:00.778 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:04:00.779 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:04:00.781 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:04:00.790 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:04:00.796 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:04:00.910 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:04:00.911 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:04:00.912 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:04:00.913 +03:00 [DBG] Hosting started
+2025-05-04 19:04:49.789 +03:00 [INF] Starting gRPC server
+2025-05-04 19:04:50.041 +03:00 [DBG] Hosting starting
+2025-05-04 19:04:50.165 +03:00 [DBG] Middleware loaded
+2025-05-04 19:04:50.168 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:04:50.172 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:04:50.220 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:04:50.222 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:04:50.226 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:04:50.229 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:04:50.255 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:04:50.257 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:04:50.260 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:04:50.262 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:04:50.264 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:04:50.279 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:04:50.284 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:04:50.346 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:04:50.347 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:04:50.349 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:04:50.350 +03:00 [DBG] Hosting started
+2025-05-04 19:33:08.580 +03:00 [INF] Starting gRPC server
+2025-05-04 19:33:08.924 +03:00 [DBG] Hosting starting
+2025-05-04 19:33:09.111 +03:00 [DBG] Middleware loaded
+2025-05-04 19:33:09.119 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:33:09.126 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:33:09.184 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:33:09.188 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:33:09.193 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:33:09.198 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:33:09.244 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:33:09.246 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:33:09.248 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:33:09.249 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:33:09.251 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:33:09.260 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:33:09.266 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:33:09.366 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:33:09.367 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:33:09.368 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:33:09.370 +03:00 [DBG] Hosting started
+2025-05-04 19:33:29.067 +03:00 [DBG] Connection id "0HNCB55JCC89J" accepted.
+2025-05-04 19:33:29.075 +03:00 [DBG] Connection id "0HNCB55JCC89J" started.
+2025-05-04 19:33:29.190 +03:00 [DBG] Connection 0HNCB55JCC89J established using the following protocol: "Tls12"
+2025-05-04 19:33:29.274 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:33:29.339 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:29.347 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:29.359 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:29.366 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:29.398 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:29.409 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:29.431 +03:00 [DBG] Reading message.
+2025-05-04 19:33:29.439 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000001": started reading request body.
+2025-05-04 19:33:29.443 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000001": done reading request body.
+2025-05-04 19:33:31.367 +03:00 [DBG] Sending message.
+2025-05-04 19:33:31.379 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:31.392 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 2127.7907ms
+2025-05-04 19:33:36.517 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:33:36.541 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:36.545 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:36.548 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:36.554 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:36.560 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:36.566 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:36.572 +03:00 [DBG] Reading message.
+2025-05-04 19:33:36.575 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000003": started reading request body.
+2025-05-04 19:33:36.579 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000003": done reading request body.
+2025-05-04 19:33:36.779 +03:00 [INF] Order deleted: 301a687b-3fa5-40aa-a45a-a4ed76f4f467
+2025-05-04 19:33:36.842 +03:00 [DBG] Sending message.
+2025-05-04 19:33:36.845 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:36.850 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 332.5002ms
+2025-05-04 19:33:36.854 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:33:36.890 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:36.892 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:36.896 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:36.966 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:36.968 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:36.970 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:36.973 +03:00 [DBG] Reading message.
+2025-05-04 19:33:36.976 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000005": started reading request body.
+2025-05-04 19:33:36.979 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000005": done reading request body.
+2025-05-04 19:33:37.066 +03:00 [DBG] Sending message.
+2025-05-04 19:33:37.067 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:37.074 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 220.0821ms
+2025-05-04 19:33:38.355 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:33:38.361 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:38.364 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:38.366 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:38.370 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:38.373 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:38.375 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:38.377 +03:00 [DBG] Reading message.
+2025-05-04 19:33:38.378 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000007": started reading request body.
+2025-05-04 19:33:38.387 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000007": done reading request body.
+2025-05-04 19:33:38.417 +03:00 [INF] Order deleted: 17e33e5f-752f-4f89-a633-275a2381bce7
+2025-05-04 19:33:38.494 +03:00 [DBG] Sending message.
+2025-05-04 19:33:38.496 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:38.498 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 142.9944ms
+2025-05-04 19:33:38.500 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:33:38.515 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:38.517 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:38.522 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:38.529 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:38.534 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:38.536 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:38.538 +03:00 [DBG] Reading message.
+2025-05-04 19:33:38.540 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000009": started reading request body.
+2025-05-04 19:33:38.542 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000009": done reading request body.
+2025-05-04 19:33:38.549 +03:00 [DBG] Sending message.
+2025-05-04 19:33:38.550 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:38.552 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 51.4002ms
+2025-05-04 19:33:40.240 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:33:40.269 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:40.276 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:40.280 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:40.282 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:33:40.285 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:40.286 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:40.288 +03:00 [DBG] Reading message.
+2025-05-04 19:33:40.290 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:0000000B": started reading request body.
+2025-05-04 19:33:40.292 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:0000000B": done reading request body.
+2025-05-04 19:33:40.304 +03:00 [INF] Order deleted: 158295cd-c703-4db7-a6c1-36c9e77e1388
+2025-05-04 19:33:40.308 +03:00 [DBG] Sending message.
+2025-05-04 19:33:40.309 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:33:40.311 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 71.0416ms
+2025-05-04 19:33:40.314 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:33:40.341 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:40.344 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:40.347 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:40.349 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:40.351 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:40.353 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:40.354 +03:00 [DBG] Reading message.
+2025-05-04 19:33:40.356 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:0000000D": started reading request body.
+2025-05-04 19:33:40.359 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:0000000D": done reading request body.
+2025-05-04 19:33:40.367 +03:00 [DBG] Sending message.
+2025-05-04 19:33:40.369 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:40.371 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 56.853ms
+2025-05-04 19:33:47.853 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 154
+2025-05-04 19:33:47.866 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:33:47.871 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:33:47.873 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:33:47.879 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:33:47.883 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:33:47.886 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:33:47.889 +03:00 [DBG] Reading message.
+2025-05-04 19:33:47.892 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:0000000F": started reading request body.
+2025-05-04 19:33:47.895 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:0000000F": done reading request body.
+2025-05-04 19:33:47.904 +03:00 [INF] Creating new order [ID: 93906164-87b9-4302-85a2-c20304c2cd1d] for customer: Александр Юркин
+2025-05-04 19:33:47.951 +03:00 [INF] Order saved successfully. ID: 93906164-87b9-4302-85a2-c20304c2cd1d
+2025-05-04 19:33:48.406 +03:00 [ERR] Failed to send order to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServiceCenter.Services.OrdersServiceImpl.SendOrderToQueue(Order order) in C:\Users\user\Desktop\ServiceCenter\ServiceCenter\Services\OrdersServiceImpl.cs:line 309
+2025-05-04 19:33:48.432 +03:00 [INF] Order created successfully. ID: 93906164-87b9-4302-85a2-c20304c2cd1d
+2025-05-04 19:33:48.435 +03:00 [DBG] Sending message.
+2025-05-04 19:33:48.436 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:33:48.438 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 584.4419ms
+2025-05-04 19:33:48.474 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:33:48.488 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:48.490 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:48.493 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:48.496 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:33:48.499 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:48.500 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:48.502 +03:00 [DBG] Reading message.
+2025-05-04 19:33:48.503 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000011": started reading request body.
+2025-05-04 19:33:48.504 +03:00 [DBG] Connection id "0HNCB55JCC89J", Request id "0HNCB55JCC89J:00000011": done reading request body.
+2025-05-04 19:33:48.509 +03:00 [DBG] Sending message.
+2025-05-04 19:33:48.511 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:33:48.513 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 39.0333ms
+2025-05-04 19:34:42.162 +03:00 [DBG] Connection id "0HNCB55JCC89K" accepted.
+2025-05-04 19:34:42.167 +03:00 [DBG] Connection id "0HNCB55JCC89K" started.
+2025-05-04 19:34:42.203 +03:00 [DBG] Connection 0HNCB55JCC89K established using the following protocol: "Tls12"
+2025-05-04 19:34:42.212 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/ServiceCenter.MastersService/AuthenticateMaster - application/grpc 11
+2025-05-04 19:34:42.216 +03:00 [DBG] 3 candidate(s) found for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.218 +03:00 [DBG] Endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster' with route pattern '/ServiceCenter.MastersService/AuthenticateMaster' is valid for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.220 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for ServiceCenter.MastersService' with route pattern 'ServiceCenter.MastersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.221 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.223 +03:00 [DBG] Request matched endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.225 +03:00 [INF] Executing endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.226 +03:00 [DBG] Reading message.
+2025-05-04 19:34:42.227 +03:00 [DBG] Connection id "0HNCB55JCC89K", Request id "0HNCB55JCC89K:00000001": started reading request body.
+2025-05-04 19:34:42.229 +03:00 [DBG] Connection id "0HNCB55JCC89K", Request id "0HNCB55JCC89K:00000001": done reading request body.
+2025-05-04 19:34:42.233 +03:00 [INF] Authentication attempt for login: 1
+2025-05-04 19:34:42.291 +03:00 [INF] Authentication successful. Master ID: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-04 19:34:42.311 +03:00 [DBG] Sending message.
+2025-05-04 19:34:42.318 +03:00 [INF] Executed endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 19:34:42.343 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/ServiceCenter.MastersService/AuthenticateMaster - 200 null application/grpc 131.7265ms
+2025-05-04 19:34:42.686 +03:00 [DBG] Connection id "0HNCB55JCC89L" accepted.
+2025-05-04 19:34:42.713 +03:00 [DBG] Connection id "0HNCB55JCC89L" started.
+2025-05-04 19:34:42.722 +03:00 [DBG] Connection 0HNCB55JCC89L established using the following protocol: "Tls12"
+2025-05-04 19:34:42.726 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 5
+2025-05-04 19:34:42.731 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:34:42.733 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:34:42.736 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:34:42.739 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:34:42.742 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:34:42.744 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:34:42.746 +03:00 [DBG] Reading message.
+2025-05-04 19:34:42.747 +03:00 [DBG] Connection id "0HNCB55JCC89L", Request id "0HNCB55JCC89L:00000001": started reading request body.
+2025-05-04 19:34:42.749 +03:00 [DBG] Connection id "0HNCB55JCC89L", Request id "0HNCB55JCC89L:00000001": done reading request body.
+2025-05-04 19:34:42.755 +03:00 [DBG] Sending message.
+2025-05-04 19:34:42.756 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:34:42.758 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 32.1725ms
+2025-05-04 19:34:55.525 +03:00 [INF] Starting gRPC server
+2025-05-04 19:34:55.682 +03:00 [DBG] Hosting starting
+2025-05-04 19:34:55.785 +03:00 [DBG] Middleware loaded
+2025-05-04 19:34:55.791 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:34:55.795 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:34:55.827 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:34:55.829 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:34:55.832 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:34:55.838 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:34:55.864 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:34:55.865 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:34:55.867 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:34:55.868 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:34:55.868 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:34:55.872 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:34:55.874 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:34:55.930 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:34:55.932 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:34:55.934 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:34:55.935 +03:00 [DBG] Hosting started
+2025-05-04 19:42:25.286 +03:00 [INF] Starting gRPC server
+2025-05-04 19:42:25.521 +03:00 [DBG] Hosting starting
+2025-05-04 19:42:25.636 +03:00 [DBG] Middleware loaded
+2025-05-04 19:42:25.643 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:42:25.649 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:42:25.686 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:42:25.688 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:42:25.692 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:42:25.695 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:42:25.732 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:42:25.734 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:42:25.735 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:42:25.735 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:42:25.736 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:42:25.741 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:42:25.744 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:42:25.804 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:42:25.805 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:42:25.807 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:42:25.808 +03:00 [DBG] Hosting started
+2025-05-04 19:43:13.284 +03:00 [DBG] Connection id "0HNCB5B1FTAVL" accepted.
+2025-05-04 19:43:13.303 +03:00 [DBG] Connection id "0HNCB5B1FTAVL" started.
+2025-05-04 19:43:13.393 +03:00 [DBG] Connection 0HNCB5B1FTAVL established using the following protocol: "Tls12"
+2025-05-04 19:43:13.458 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:43:13.510 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:13.516 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:13.524 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:13.543 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:13.555 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:13.562 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:13.574 +03:00 [DBG] Reading message.
+2025-05-04 19:43:13.579 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000001": started reading request body.
+2025-05-04 19:43:13.582 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000001": done reading request body.
+2025-05-04 19:43:14.962 +03:00 [DBG] Sending message.
+2025-05-04 19:43:14.990 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:14.999 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 1563.6679ms
+2025-05-04 19:43:17.753 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:43:17.760 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:17.763 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:17.771 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:17.777 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:17.782 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:43:17.784 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:43:17.787 +03:00 [DBG] Reading message.
+2025-05-04 19:43:17.790 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000003": started reading request body.
+2025-05-04 19:43:17.794 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000003": done reading request body.
+2025-05-04 19:43:17.998 +03:00 [INF] Order deleted: 93906164-87b9-4302-85a2-c20304c2cd1d
+2025-05-04 19:43:18.002 +03:00 [DBG] Sending message.
+2025-05-04 19:43:18.005 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:43:18.008 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 254.8192ms
+2025-05-04 19:43:18.013 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:43:18.020 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:18.022 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:18.025 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:18.028 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:18.031 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:18.033 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:18.034 +03:00 [DBG] Reading message.
+2025-05-04 19:43:18.036 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000005": started reading request body.
+2025-05-04 19:43:18.039 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000005": done reading request body.
+2025-05-04 19:43:18.105 +03:00 [DBG] Sending message.
+2025-05-04 19:43:18.106 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:18.108 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 94.5817ms
+2025-05-04 19:43:19.697 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:43:19.702 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:19.704 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:19.706 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:19.709 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:43:19.712 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:43:19.714 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:43:19.716 +03:00 [DBG] Reading message.
+2025-05-04 19:43:19.717 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000007": started reading request body.
+2025-05-04 19:43:19.720 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000007": done reading request body.
+2025-05-04 19:43:19.735 +03:00 [INF] Order deleted: eced8a6f-bf42-4ea1-b6d7-0471d2f80ad6
+2025-05-04 19:43:19.739 +03:00 [DBG] Sending message.
+2025-05-04 19:43:19.740 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:43:19.742 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 44.4704ms
+2025-05-04 19:43:19.744 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:43:19.754 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:19.756 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:19.759 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:19.761 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:19.766 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:19.771 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:19.774 +03:00 [DBG] Reading message.
+2025-05-04 19:43:19.776 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000009": started reading request body.
+2025-05-04 19:43:19.778 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000009": done reading request body.
+2025-05-04 19:43:19.787 +03:00 [DBG] Sending message.
+2025-05-04 19:43:19.789 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:19.791 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 47.8031ms
+2025-05-04 19:43:21.845 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 154
+2025-05-04 19:43:21.854 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:21.859 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:21.867 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:21.873 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:21.878 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:43:21.881 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:43:21.883 +03:00 [DBG] Reading message.
+2025-05-04 19:43:21.884 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:0000000B": started reading request body.
+2025-05-04 19:43:21.888 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:0000000B": done reading request body.
+2025-05-04 19:43:21.897 +03:00 [INF] Creating new order [ID: 9bf1a949-9172-4690-b814-b03e0f834a57] for customer: Александр Юркин
+2025-05-04 19:43:21.917 +03:00 [INF] Order saved successfully. ID: 9bf1a949-9172-4690-b814-b03e0f834a57
+2025-05-04 19:43:22.021 +03:00 [ERR] Failed to send order to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServiceCenter.Services.OrdersServiceImpl.SendOrderToQueue(Order order) in C:\Users\user\Desktop\ServiceCenter\ServiceCenter\Services\OrdersServiceImpl.cs:line 309
+2025-05-04 19:43:22.039 +03:00 [INF] Order created successfully. ID: 9bf1a949-9172-4690-b814-b03e0f834a57
+2025-05-04 19:43:22.044 +03:00 [DBG] Sending message.
+2025-05-04 19:43:22.046 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:43:22.048 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 203.2166ms
+2025-05-04 19:43:22.080 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:43:22.085 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:22.087 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:22.091 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:22.093 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:22.098 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:22.100 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:22.103 +03:00 [DBG] Reading message.
+2025-05-04 19:43:22.104 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:0000000D": started reading request body.
+2025-05-04 19:43:22.107 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:0000000D": done reading request body.
+2025-05-04 19:43:22.115 +03:00 [DBG] Sending message.
+2025-05-04 19:43:22.117 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:22.118 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 38.8794ms
+2025-05-04 19:43:24.177 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 175
+2025-05-04 19:43:24.204 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:24.214 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:24.217 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:24.230 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:43:24.233 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:43:24.235 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:43:24.236 +03:00 [DBG] Reading message.
+2025-05-04 19:43:24.237 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:0000000F": started reading request body.
+2025-05-04 19:43:24.239 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:0000000F": done reading request body.
+2025-05-04 19:43:24.243 +03:00 [INF] Creating new order [ID: 46277006-566f-4a54-9930-f1329c4edb79] for customer: Алексей Бондаренко
+2025-05-04 19:43:24.251 +03:00 [INF] Order saved successfully. ID: 46277006-566f-4a54-9930-f1329c4edb79
+2025-05-04 19:43:24.261 +03:00 [ERR] Failed to send order to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServiceCenter.Services.OrdersServiceImpl.SendOrderToQueue(Order order) in C:\Users\user\Desktop\ServiceCenter\ServiceCenter\Services\OrdersServiceImpl.cs:line 309
+2025-05-04 19:43:24.268 +03:00 [INF] Order created successfully. ID: 46277006-566f-4a54-9930-f1329c4edb79
+2025-05-04 19:43:24.271 +03:00 [DBG] Sending message.
+2025-05-04 19:43:24.272 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:43:24.273 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 96.4413ms
+2025-05-04 19:43:24.296 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:43:24.301 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:24.303 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:24.306 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:24.309 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:43:24.312 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:24.313 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:24.315 +03:00 [DBG] Reading message.
+2025-05-04 19:43:24.316 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000011": started reading request body.
+2025-05-04 19:43:24.318 +03:00 [DBG] Connection id "0HNCB5B1FTAVL", Request id "0HNCB5B1FTAVL:00000011": done reading request body.
+2025-05-04 19:43:24.324 +03:00 [DBG] Sending message.
+2025-05-04 19:43:24.325 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:43:24.327 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 30.3464ms
+2025-05-04 19:44:09.239 +03:00 [DBG] Connection id "0HNCB5B1FTAVL" received FIN.
+2025-05-04 19:44:09.245 +03:00 [DBG] The connection queue processing loop for 0HNCB5B1FTAVL completed.
+2025-05-04 19:44:09.249 +03:00 [DBG] Connection id "0HNCB5B1FTAVL" is closed. The last processed stream ID was 17.
+2025-05-04 19:44:09.252 +03:00 [DBG] Connection id "0HNCB5B1FTAVL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 19:44:09.265 +03:00 [DBG] Connection id "0HNCB5B1FTAVL" stopped.
+2025-05-04 19:51:09.621 +03:00 [INF] Starting gRPC server
+2025-05-04 19:51:10.066 +03:00 [DBG] Hosting starting
+2025-05-04 19:51:10.538 +03:00 [DBG] Middleware loaded
+2025-05-04 19:51:10.567 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:51:10.590 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:51:10.739 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:51:10.781 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:51:10.814 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:51:10.871 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:51:10.954 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:51:10.968 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:51:10.972 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:51:10.991 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:51:10.998 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:51:11.018 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:51:11.027 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:51:11.204 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:51:11.217 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:51:11.229 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:51:11.248 +03:00 [DBG] Hosting started
+2025-05-04 19:52:04.084 +03:00 [INF] Starting gRPC server
+2025-05-04 19:52:04.378 +03:00 [DBG] Hosting starting
+2025-05-04 19:52:04.500 +03:00 [DBG] Middleware loaded
+2025-05-04 19:52:04.503 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 19:52:04.505 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 19:52:04.549 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 19:52:04.552 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 19:52:04.555 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 19:52:04.559 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 19:52:04.609 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 19:52:04.611 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 19:52:04.614 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 19:52:04.615 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 19:52:04.617 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 19:52:04.624 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 19:52:04.630 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 19:52:04.734 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 19:52:04.736 +03:00 [INF] Hosting environment: Development
+2025-05-04 19:52:04.737 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 19:52:04.738 +03:00 [DBG] Hosting started
+2025-05-04 19:52:27.254 +03:00 [DBG] Connection id "0HNCB5G6IVNS1" accepted.
+2025-05-04 19:52:27.258 +03:00 [DBG] Connection id "0HNCB5G6IVNS1" started.
+2025-05-04 19:52:27.328 +03:00 [DBG] Connection 0HNCB5G6IVNS1 established using the following protocol: "Tls12"
+2025-05-04 19:52:27.428 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:52:27.459 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:27.463 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:27.467 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:27.470 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:27.474 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:27.478 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:27.491 +03:00 [DBG] Reading message.
+2025-05-04 19:52:27.496 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000001": started reading request body.
+2025-05-04 19:52:27.497 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000001": done reading request body.
+2025-05-04 19:52:28.616 +03:00 [DBG] Sending message.
+2025-05-04 19:52:28.625 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:28.645 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 1225.9264ms
+2025-05-04 19:52:30.991 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:52:30.999 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:31.001 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:31.003 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:31.006 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:31.008 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:52:31.010 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:52:31.013 +03:00 [DBG] Reading message.
+2025-05-04 19:52:31.014 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000003": started reading request body.
+2025-05-04 19:52:31.016 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000003": done reading request body.
+2025-05-04 19:52:31.190 +03:00 [INF] Order deleted: 9bf1a949-9172-4690-b814-b03e0f834a57
+2025-05-04 19:52:31.195 +03:00 [DBG] Sending message.
+2025-05-04 19:52:31.197 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:52:31.198 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 207.7078ms
+2025-05-04 19:52:31.202 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:52:31.209 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:31.211 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:31.214 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:31.218 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:31.223 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:31.225 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:31.228 +03:00 [DBG] Reading message.
+2025-05-04 19:52:31.230 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000005": started reading request body.
+2025-05-04 19:52:31.232 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000005": done reading request body.
+2025-05-04 19:52:31.316 +03:00 [DBG] Sending message.
+2025-05-04 19:52:31.317 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:31.320 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 117.5606ms
+2025-05-04 19:52:33.014 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 19:52:33.019 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:33.022 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:33.024 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:33.026 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 19:52:33.029 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:52:33.030 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:52:33.032 +03:00 [DBG] Reading message.
+2025-05-04 19:52:33.033 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000007": started reading request body.
+2025-05-04 19:52:33.035 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000007": done reading request body.
+2025-05-04 19:52:33.045 +03:00 [INF] Order deleted: 46277006-566f-4a54-9930-f1329c4edb79
+2025-05-04 19:52:33.052 +03:00 [DBG] Sending message.
+2025-05-04 19:52:33.053 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 19:52:33.064 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 41.6952ms
+2025-05-04 19:52:33.069 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:52:33.082 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:33.085 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:33.087 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:33.091 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:33.094 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:33.096 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:33.099 +03:00 [DBG] Reading message.
+2025-05-04 19:52:33.101 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000009": started reading request body.
+2025-05-04 19:52:33.107 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:00000009": done reading request body.
+2025-05-04 19:52:33.121 +03:00 [DBG] Sending message.
+2025-05-04 19:52:33.123 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:33.126 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 57.533ms
+2025-05-04 19:52:34.468 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 154
+2025-05-04 19:52:34.472 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:52:34.474 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:52:34.478 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:52:34.480 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 19:52:34.483 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:52:34.486 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:52:34.489 +03:00 [DBG] Reading message.
+2025-05-04 19:52:34.491 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:0000000B": started reading request body.
+2025-05-04 19:52:34.493 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:0000000B": done reading request body.
+2025-05-04 19:52:34.501 +03:00 [INF] Creating new order [ID: 67f952d2-a2b1-4d84-8de8-41a94fc7a1b7] for customer: Александр Юркин
+2025-05-04 19:52:34.531 +03:00 [INF] Order saved successfully. ID: 67f952d2-a2b1-4d84-8de8-41a94fc7a1b7
+2025-05-04 19:52:34.635 +03:00 [ERR] Failed to send order to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServiceCenter.Services.OrdersServiceImpl.SendOrderToQueue(Order order) in C:\Users\user\Desktop\ServiceCenter\ServiceCenter\Services\OrdersServiceImpl.cs:line 309
+2025-05-04 19:52:34.655 +03:00 [INF] Order created successfully. ID: 67f952d2-a2b1-4d84-8de8-41a94fc7a1b7
+2025-05-04 19:52:34.661 +03:00 [DBG] Sending message.
+2025-05-04 19:52:34.663 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 19:52:34.667 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 198.8271ms
+2025-05-04 19:52:34.698 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 19:52:34.724 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:34.735 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:34.746 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:34.767 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 19:52:34.780 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:34.802 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:34.807 +03:00 [DBG] Reading message.
+2025-05-04 19:52:34.811 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:0000000D": started reading request body.
+2025-05-04 19:52:34.817 +03:00 [DBG] Connection id "0HNCB5G6IVNS1", Request id "0HNCB5G6IVNS1:0000000D": done reading request body.
+2025-05-04 19:52:34.829 +03:00 [DBG] Sending message.
+2025-05-04 19:52:34.831 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 19:52:34.835 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 137.1768ms
+2025-05-04 19:54:17.251 +03:00 [DBG] Connection id "0HNCB5G6IVNS1" received FIN.
+2025-05-04 19:54:17.283 +03:00 [DBG] The connection queue processing loop for 0HNCB5G6IVNS1 completed.
+2025-05-04 19:54:17.294 +03:00 [DBG] Connection id "0HNCB5G6IVNS1" is closed. The last processed stream ID was 13.
+2025-05-04 19:54:17.297 +03:00 [DBG] Connection id "0HNCB5G6IVNS1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 19:54:17.318 +03:00 [DBG] Connection id "0HNCB5G6IVNS1" stopped.
+2025-05-04 20:00:00.368 +03:00 [INF] Starting gRPC server
+2025-05-04 20:00:00.524 +03:00 [DBG] Hosting starting
+2025-05-04 20:00:00.621 +03:00 [DBG] Middleware loaded
+2025-05-04 20:00:00.625 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 20:00:00.627 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 20:00:00.659 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 20:00:00.662 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 20:00:00.667 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 20:00:00.670 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 20:00:00.695 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 20:00:00.697 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 20:00:00.698 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 20:00:00.699 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 20:00:00.700 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 20:00:00.708 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 20:00:00.711 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 20:00:00.759 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 20:00:00.760 +03:00 [INF] Hosting environment: Development
+2025-05-04 20:00:00.762 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 20:00:00.763 +03:00 [DBG] Hosting started
+2025-05-04 20:00:13.577 +03:00 [DBG] Connection id "0HNCB5KHI65SM" accepted.
+2025-05-04 20:00:13.582 +03:00 [DBG] Connection id "0HNCB5KHI65SM" started.
+2025-05-04 20:00:13.636 +03:00 [DBG] Connection 0HNCB5KHI65SM established using the following protocol: "Tls12"
+2025-05-04 20:00:13.672 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:00:13.700 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:13.703 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:13.706 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:13.708 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:13.711 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:00:13.714 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:00:13.734 +03:00 [DBG] Reading message.
+2025-05-04 20:00:13.739 +03:00 [DBG] Connection id "0HNCB5KHI65SM", Request id "0HNCB5KHI65SM:00000001": started reading request body.
+2025-05-04 20:00:13.743 +03:00 [DBG] Connection id "0HNCB5KHI65SM", Request id "0HNCB5KHI65SM:00000001": done reading request body.
+2025-05-04 20:00:14.884 +03:00 [DBG] Sending message.
+2025-05-04 20:00:14.901 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:00:14.916 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 1248.922ms
+2025-05-04 20:00:19.181 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 175
+2025-05-04 20:00:19.191 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:00:19.194 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:00:19.196 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:00:19.198 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:00:19.200 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:00:19.201 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:00:19.203 +03:00 [DBG] Reading message.
+2025-05-04 20:00:19.205 +03:00 [DBG] Connection id "0HNCB5KHI65SM", Request id "0HNCB5KHI65SM:00000003": started reading request body.
+2025-05-04 20:00:19.209 +03:00 [DBG] Connection id "0HNCB5KHI65SM", Request id "0HNCB5KHI65SM:00000003": done reading request body.
+2025-05-04 20:00:19.239 +03:00 [INF] Creating new order [ID: 4084ac93-705e-462f-821e-342801839b4f] for customer: Алексей Бондаренко
+2025-05-04 20:00:19.344 +03:00 [INF] Order saved successfully. ID: 4084ac93-705e-462f-821e-342801839b4f
+2025-05-04 20:00:19.438 +03:00 [ERR] Failed to send order to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServiceCenter.Services.OrdersServiceImpl.SendOrderToQueue(Order order) in C:\Users\user\Desktop\ServiceCenter\ServiceCenter\Services\OrdersServiceImpl.cs:line 309
+2025-05-04 20:00:19.482 +03:00 [INF] Order created successfully. ID: 4084ac93-705e-462f-821e-342801839b4f
+2025-05-04 20:00:19.492 +03:00 [DBG] Sending message.
+2025-05-04 20:00:19.495 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:00:19.504 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 322.6943ms
+2025-05-04 20:00:19.566 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:00:19.573 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:19.575 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:19.578 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:19.580 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:00:19.583 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:00:19.586 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:00:19.588 +03:00 [DBG] Reading message.
+2025-05-04 20:00:19.590 +03:00 [DBG] Connection id "0HNCB5KHI65SM", Request id "0HNCB5KHI65SM:00000005": started reading request body.
+2025-05-04 20:00:19.593 +03:00 [DBG] Connection id "0HNCB5KHI65SM", Request id "0HNCB5KHI65SM:00000005": done reading request body.
+2025-05-04 20:00:19.721 +03:00 [DBG] Sending message.
+2025-05-04 20:00:19.723 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:00:19.725 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 158.8415ms
+2025-05-04 20:00:30.231 +03:00 [DBG] Connection id "0HNCB5KHI65SM" received FIN.
+2025-05-04 20:00:30.236 +03:00 [DBG] The connection queue processing loop for 0HNCB5KHI65SM completed.
+2025-05-04 20:00:30.239 +03:00 [DBG] Connection id "0HNCB5KHI65SM" is closed. The last processed stream ID was 5.
+2025-05-04 20:00:30.243 +03:00 [DBG] Connection id "0HNCB5KHI65SM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 20:00:30.248 +03:00 [DBG] Connection id "0HNCB5KHI65SM" stopped.
+2025-05-04 20:05:53.274 +03:00 [INF] Starting gRPC server
+2025-05-04 20:05:53.409 +03:00 [DBG] Hosting starting
+2025-05-04 20:05:53.505 +03:00 [DBG] Middleware loaded
+2025-05-04 20:05:53.512 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 20:05:53.520 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 20:05:53.555 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 20:05:53.559 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 20:05:53.562 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 20:05:53.567 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 20:05:53.594 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 20:05:53.595 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 20:05:53.597 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 20:05:53.598 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 20:05:53.598 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 20:05:53.603 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 20:05:53.606 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 20:05:53.653 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 20:05:53.654 +03:00 [INF] Hosting environment: Development
+2025-05-04 20:05:53.655 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 20:05:53.656 +03:00 [DBG] Hosting started
+2025-05-04 20:06:30.798 +03:00 [DBG] Connection id "0HNCB5O1VKNS2" accepted.
+2025-05-04 20:06:30.804 +03:00 [DBG] Connection id "0HNCB5O1VKNS2" started.
+2025-05-04 20:06:30.874 +03:00 [DBG] Connection 0HNCB5O1VKNS2 established using the following protocol: "Tls12"
+2025-05-04 20:06:30.927 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:06:30.967 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:30.972 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:30.976 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:30.980 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:30.983 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:30.987 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:30.998 +03:00 [DBG] Reading message.
+2025-05-04 20:06:31.002 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000001": started reading request body.
+2025-05-04 20:06:31.004 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000001": done reading request body.
+2025-05-04 20:06:32.541 +03:00 [DBG] Sending message.
+2025-05-04 20:06:32.552 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:32.576 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 1659.3344ms
+2025-05-04 20:06:34.936 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 20:06:34.943 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:34.945 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:34.953 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:34.958 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:34.963 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:06:34.969 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:06:34.978 +03:00 [DBG] Reading message.
+2025-05-04 20:06:34.980 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000003": started reading request body.
+2025-05-04 20:06:34.983 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000003": done reading request body.
+2025-05-04 20:06:35.190 +03:00 [INF] Order deleted: 90942adb-3570-43bc-ae5f-8d29e32d384b
+2025-05-04 20:06:35.199 +03:00 [DBG] Sending message.
+2025-05-04 20:06:35.203 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:06:35.207 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 271.5165ms
+2025-05-04 20:06:35.218 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:06:35.225 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:35.227 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:35.230 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:35.233 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:35.235 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:35.237 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:35.243 +03:00 [DBG] Reading message.
+2025-05-04 20:06:35.244 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000005": started reading request body.
+2025-05-04 20:06:35.247 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000005": done reading request body.
+2025-05-04 20:06:35.313 +03:00 [DBG] Sending message.
+2025-05-04 20:06:35.315 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:35.317 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 99.469ms
+2025-05-04 20:06:36.533 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 20:06:36.540 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:36.543 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:36.546 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:36.549 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:06:36.553 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:06:36.555 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:06:36.556 +03:00 [DBG] Reading message.
+2025-05-04 20:06:36.558 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000007": started reading request body.
+2025-05-04 20:06:36.560 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000007": done reading request body.
+2025-05-04 20:06:36.569 +03:00 [INF] Order deleted: 42acf29f-7a20-49b2-acbc-5d5ef9bbcad1
+2025-05-04 20:06:36.572 +03:00 [DBG] Sending message.
+2025-05-04 20:06:36.573 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:06:36.575 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 41.7299ms
+2025-05-04 20:06:36.578 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:06:36.590 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:36.592 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:36.595 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:36.600 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:36.604 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:36.608 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:36.611 +03:00 [DBG] Reading message.
+2025-05-04 20:06:36.613 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000009": started reading request body.
+2025-05-04 20:06:36.617 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:00000009": done reading request body.
+2025-05-04 20:06:36.624 +03:00 [DBG] Sending message.
+2025-05-04 20:06:36.626 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:36.627 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 48.9864ms
+2025-05-04 20:06:37.843 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 154
+2025-05-04 20:06:37.847 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:06:37.848 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:06:37.851 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:06:37.853 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:06:37.855 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:06:37.856 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:06:37.858 +03:00 [DBG] Reading message.
+2025-05-04 20:06:37.859 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:0000000B": started reading request body.
+2025-05-04 20:06:37.860 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:0000000B": done reading request body.
+2025-05-04 20:06:37.866 +03:00 [INF] Creating new order [ID: c563234b-25dc-49f8-a7f7-2858e0ad160d] for customer: Александр Юркин
+2025-05-04 20:06:37.889 +03:00 [INF] Order saved successfully. ID: c563234b-25dc-49f8-a7f7-2858e0ad160d
+2025-05-04 20:06:38.027 +03:00 [INF] Order created successfully. ID: c563234b-25dc-49f8-a7f7-2858e0ad160d
+2025-05-04 20:06:38.055 +03:00 [DBG] Sending message.
+2025-05-04 20:06:38.058 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:06:38.061 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 218.3468ms
+2025-05-04 20:06:38.091 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:06:38.095 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:38.096 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:38.098 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:38.101 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:06:38.103 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:38.104 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:38.106 +03:00 [DBG] Reading message.
+2025-05-04 20:06:38.107 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:0000000D": started reading request body.
+2025-05-04 20:06:38.108 +03:00 [DBG] Connection id "0HNCB5O1VKNS2", Request id "0HNCB5O1VKNS2:0000000D": done reading request body.
+2025-05-04 20:06:38.116 +03:00 [DBG] Sending message.
+2025-05-04 20:06:38.118 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:06:38.120 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 28.8096ms
+2025-05-04 20:06:47.181 +03:00 [DBG] Connection id "0HNCB5O1VKNS2" received FIN.
+2025-05-04 20:06:47.189 +03:00 [DBG] The connection queue processing loop for 0HNCB5O1VKNS2 completed.
+2025-05-04 20:06:47.195 +03:00 [DBG] Connection id "0HNCB5O1VKNS2" is closed. The last processed stream ID was 13.
+2025-05-04 20:06:47.198 +03:00 [DBG] Connection id "0HNCB5O1VKNS2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 20:06:47.217 +03:00 [DBG] Connection id "0HNCB5O1VKNS2" stopped.
+2025-05-04 20:15:05.215 +03:00 [INF] Starting gRPC server
+2025-05-04 20:15:09.397 +03:00 [DBG] Hosting starting
+2025-05-04 20:15:09.572 +03:00 [DBG] Middleware loaded
+2025-05-04 20:15:09.596 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 20:15:09.619 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 20:15:09.688 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 20:15:09.693 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 20:15:09.699 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 20:15:09.713 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 20:15:09.760 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 20:15:09.765 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 20:15:09.770 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 20:15:09.773 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 20:15:09.774 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 20:15:09.793 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 20:15:09.803 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 20:15:09.923 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 20:15:09.925 +03:00 [INF] Hosting environment: Development
+2025-05-04 20:15:09.928 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 20:15:09.931 +03:00 [DBG] Hosting started
+2025-05-04 20:15:32.668 +03:00 [DBG] Connection id "0HNCB5T3FA5RG" accepted.
+2025-05-04 20:15:32.702 +03:00 [DBG] Connection id "0HNCB5T3FA5RG" started.
+2025-05-04 20:15:32.916 +03:00 [DBG] Connection 0HNCB5T3FA5RG established using the following protocol: "Tls12"
+2025-05-04 20:15:33.073 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:15:33.217 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:33.272 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:33.293 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:33.314 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:33.328 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:15:33.340 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:15:33.369 +03:00 [DBG] Reading message.
+2025-05-04 20:15:33.399 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000001": started reading request body.
+2025-05-04 20:15:33.422 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000001": done reading request body.
+2025-05-04 20:15:36.468 +03:00 [DBG] Sending message.
+2025-05-04 20:15:36.581 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:15:36.646 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 3584.96ms
+2025-05-04 20:15:39.135 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 175
+2025-05-04 20:15:39.290 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:15:39.297 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:15:39.337 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:15:39.346 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:15:39.355 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:15:39.366 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:15:39.431 +03:00 [DBG] Reading message.
+2025-05-04 20:15:39.438 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000003": started reading request body.
+2025-05-04 20:15:39.478 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000003": done reading request body.
+2025-05-04 20:15:39.568 +03:00 [INF] Creating new order [ID: abdc73fb-bded-4851-be56-492217045460] for customer: Алексей Бондаренко
+2025-05-04 20:15:39.727 +03:00 [INF] Order saved successfully. ID: abdc73fb-bded-4851-be56-492217045460
+2025-05-04 20:15:40.247 +03:00 [ERR] Failed to send order to queue
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> RabbitMQ.Client.Exceptions.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServiceCenter.Services.OrdersServiceImpl.SendOrderToQueue(Order order) in C:\Users\user\Desktop\ServiceCenter\ServiceCenter\Services\OrdersServiceImpl.cs:line 309
+2025-05-04 20:15:40.488 +03:00 [INF] Order created successfully. ID: abdc73fb-bded-4851-be56-492217045460
+2025-05-04 20:15:40.504 +03:00 [DBG] Sending message.
+2025-05-04 20:15:40.510 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:15:40.528 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 1393.6918ms
+2025-05-04 20:15:40.570 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:15:40.588 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:40.615 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:40.627 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:40.660 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:15:40.674 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:15:40.696 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:15:40.719 +03:00 [DBG] Reading message.
+2025-05-04 20:15:40.726 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000005": started reading request body.
+2025-05-04 20:15:40.738 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000005": done reading request body.
+2025-05-04 20:15:40.891 +03:00 [DBG] Sending message.
+2025-05-04 20:15:40.899 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:15:40.931 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 361.0108ms
+2025-05-04 20:16:17.289 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 20:16:17.310 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:17.312 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:17.315 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:17.319 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:17.323 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:16:17.325 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:16:17.330 +03:00 [DBG] Reading message.
+2025-05-04 20:16:17.348 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000007": started reading request body.
+2025-05-04 20:16:17.351 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000007": done reading request body.
+2025-05-04 20:16:17.444 +03:00 [INF] Order deleted: c563234b-25dc-49f8-a7f7-2858e0ad160d
+2025-05-04 20:16:17.448 +03:00 [DBG] Sending message.
+2025-05-04 20:16:17.449 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:16:17.451 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 162.3652ms
+2025-05-04 20:16:17.456 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:16:17.465 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:17.468 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:17.473 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:17.476 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:17.480 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:16:17.482 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:16:17.484 +03:00 [DBG] Reading message.
+2025-05-04 20:16:17.486 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000009": started reading request body.
+2025-05-04 20:16:17.489 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:00000009": done reading request body.
+2025-05-04 20:16:17.499 +03:00 [DBG] Sending message.
+2025-05-04 20:16:17.501 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:16:17.504 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 47.901ms
+2025-05-04 20:16:19.978 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - application/grpc 43
+2025-05-04 20:16:19.990 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:19.994 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/DeleteOrder' with route pattern '/OrdersService/DeleteOrder' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:20.003 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:20.008 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/DeleteOrder'
+2025-05-04 20:16:20.011 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:16:20.013 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:16:20.015 +03:00 [DBG] Reading message.
+2025-05-04 20:16:20.017 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:0000000B": started reading request body.
+2025-05-04 20:16:20.019 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:0000000B": done reading request body.
+2025-05-04 20:16:20.029 +03:00 [INF] Order deleted: abdc73fb-bded-4851-be56-492217045460
+2025-05-04 20:16:20.033 +03:00 [DBG] Sending message.
+2025-05-04 20:16:20.034 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/DeleteOrder'
+2025-05-04 20:16:20.035 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/DeleteOrder - 200 null application/grpc 57.98ms
+2025-05-04 20:16:20.038 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:16:20.046 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:20.050 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:20.053 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:20.056 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:16:20.059 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:16:20.061 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:16:20.063 +03:00 [DBG] Reading message.
+2025-05-04 20:16:20.065 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:0000000D": started reading request body.
+2025-05-04 20:16:20.067 +03:00 [DBG] Connection id "0HNCB5T3FA5RG", Request id "0HNCB5T3FA5RG:0000000D": done reading request body.
+2025-05-04 20:16:20.075 +03:00 [DBG] Sending message.
+2025-05-04 20:16:20.076 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:16:20.078 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 40.4228ms
+2025-05-04 20:17:22.648 +03:00 [DBG] Connection id "0HNCB5T3FA5RG" received FIN.
+2025-05-04 20:17:22.663 +03:00 [DBG] The connection queue processing loop for 0HNCB5T3FA5RG completed.
+2025-05-04 20:17:22.665 +03:00 [DBG] Connection id "0HNCB5T3FA5RG" is closed. The last processed stream ID was 13.
+2025-05-04 20:17:22.735 +03:00 [DBG] Connection id "0HNCB5T3FA5RG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 20:17:22.761 +03:00 [DBG] Connection id "0HNCB5T3FA5RG" stopped.
+2025-05-04 20:18:16.297 +03:00 [INF] Starting gRPC server
+2025-05-04 20:18:16.545 +03:00 [DBG] Hosting starting
+2025-05-04 20:18:16.702 +03:00 [DBG] Middleware loaded
+2025-05-04 20:18:16.706 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 20:18:16.709 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 20:18:16.767 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 20:18:16.771 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 20:18:16.776 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 20:18:16.782 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 20:18:16.824 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 20:18:16.825 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 20:18:16.827 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 20:18:16.828 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 20:18:16.829 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 20:18:16.833 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 20:18:16.836 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 20:18:16.894 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 20:18:16.895 +03:00 [INF] Hosting environment: Development
+2025-05-04 20:18:16.895 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 20:18:16.896 +03:00 [DBG] Hosting started
+2025-05-04 20:36:00.498 +03:00 [INF] Starting gRPC server
+2025-05-04 20:36:03.225 +03:00 [DBG] Hosting starting
+2025-05-04 20:36:03.411 +03:00 [DBG] Middleware loaded
+2025-05-04 20:36:03.418 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16511 B).
+2025-05-04 20:36:03.424 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-05-04 20:36:03.484 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-04 20:36:03.499 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-04 20:36:03.534 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-05-04 20:36:03.548 +03:00 [WRN] Overriding address(es) 'https://localhost:7242, http://localhost:5227'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-05-04 20:36:03.577 +03:00 [INF] Now listening on: https://[::]:9080
+2025-05-04 20:36:03.581 +03:00 [DBG] Loaded hosting startup assembly ServiceCenter
+2025-05-04 20:36:03.584 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-04 20:36:03.586 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-04 20:36:03.588 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-04 20:36:03.599 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-04 20:36:03.605 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-05-04 20:36:03.701 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 20:36:03.706 +03:00 [INF] Hosting environment: Development
+2025-05-04 20:36:03.723 +03:00 [INF] Content root path: C:\Users\user\Desktop\ServiceCenter\ServiceCenter
+2025-05-04 20:36:03.728 +03:00 [DBG] Hosting started
+2025-05-04 20:36:45.249 +03:00 [DBG] Connection id "0HNCB68UNJ6F0" accepted.
+2025-05-04 20:36:45.284 +03:00 [DBG] Connection id "0HNCB68UNJ6F0" started.
+2025-05-04 20:36:45.439 +03:00 [DBG] Connection 0HNCB68UNJ6F0 established using the following protocol: "Tls12"
+2025-05-04 20:36:45.558 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:36:45.607 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:45.670 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:45.685 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:45.694 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:45.701 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:36:45.707 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:36:45.718 +03:00 [DBG] Reading message.
+2025-05-04 20:36:45.724 +03:00 [DBG] Connection id "0HNCB68UNJ6F0", Request id "0HNCB68UNJ6F0:00000001": started reading request body.
+2025-05-04 20:36:45.726 +03:00 [DBG] Connection id "0HNCB68UNJ6F0", Request id "0HNCB68UNJ6F0:00000001": done reading request body.
+2025-05-04 20:36:47.427 +03:00 [DBG] Sending message.
+2025-05-04 20:36:47.445 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:36:47.477 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 1927.8787ms
+2025-05-04 20:36:56.899 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 154
+2025-05-04 20:36:56.909 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:36:56.911 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:36:56.916 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:36:56.919 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:36:56.922 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:36:56.924 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:36:56.927 +03:00 [DBG] Reading message.
+2025-05-04 20:36:56.929 +03:00 [DBG] Connection id "0HNCB68UNJ6F0", Request id "0HNCB68UNJ6F0:00000003": started reading request body.
+2025-05-04 20:36:56.931 +03:00 [DBG] Connection id "0HNCB68UNJ6F0", Request id "0HNCB68UNJ6F0:00000003": done reading request body.
+2025-05-04 20:36:56.987 +03:00 [INF] Creating new order [ID: a060eb64-1923-485b-b41a-7898ed0eb181] for customer: Александр Юркин
+2025-05-04 20:36:57.167 +03:00 [INF] Order saved successfully. ID: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:36:57.583 +03:00 [DBG] Order sent to queue: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:36:57.604 +03:00 [INF] Order created successfully. ID: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:36:57.610 +03:00 [DBG] Sending message.
+2025-05-04 20:36:57.616 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:36:57.620 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 721.3626ms
+2025-05-04 20:36:57.651 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:36:57.658 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:57.661 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:57.666 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:57.669 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:36:57.674 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:36:57.678 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:36:57.680 +03:00 [DBG] Reading message.
+2025-05-04 20:36:57.682 +03:00 [DBG] Connection id "0HNCB68UNJ6F0", Request id "0HNCB68UNJ6F0:00000005": started reading request body.
+2025-05-04 20:36:57.684 +03:00 [DBG] Connection id "0HNCB68UNJ6F0", Request id "0HNCB68UNJ6F0:00000005": done reading request body.
+2025-05-04 20:36:57.791 +03:00 [DBG] Sending message.
+2025-05-04 20:36:57.795 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:36:57.798 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 146.4511ms
+2025-05-04 20:38:04.929 +03:00 [DBG] Connection id "0HNCB68UNJ6F0" received FIN.
+2025-05-04 20:38:04.937 +03:00 [DBG] The connection queue processing loop for 0HNCB68UNJ6F0 completed.
+2025-05-04 20:38:04.937 +03:00 [DBG] Connection id "0HNCB68UNJ6F1" accepted.
+2025-05-04 20:38:04.941 +03:00 [DBG] Connection id "0HNCB68UNJ6F0" is closed. The last processed stream ID was 5.
+2025-05-04 20:38:04.946 +03:00 [DBG] Connection id "0HNCB68UNJ6F1" started.
+2025-05-04 20:38:04.950 +03:00 [DBG] Connection id "0HNCB68UNJ6F0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 20:38:04.958 +03:00 [DBG] Connection 0HNCB68UNJ6F1 established using the following protocol: "Tls12"
+2025-05-04 20:38:04.964 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - application/grpc 175
+2025-05-04 20:38:04.970 +03:00 [DBG] Connection id "0HNCB68UNJ6F0" stopped.
+2025-05-04 20:38:04.970 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:38:04.973 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/CreateOrder' with route pattern '/OrdersService/CreateOrder' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:38:04.975 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:38:04.978 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/CreateOrder'
+2025-05-04 20:38:04.980 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:38:04.982 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:38:04.984 +03:00 [DBG] Reading message.
+2025-05-04 20:38:04.985 +03:00 [DBG] Connection id "0HNCB68UNJ6F1", Request id "0HNCB68UNJ6F1:00000001": started reading request body.
+2025-05-04 20:38:04.987 +03:00 [DBG] Connection id "0HNCB68UNJ6F1", Request id "0HNCB68UNJ6F1:00000001": done reading request body.
+2025-05-04 20:38:04.991 +03:00 [INF] Creating new order [ID: c47fba04-cb46-46a8-a8d7-d5cd67c35aec] for customer: Алексей Бондаренко
+2025-05-04 20:38:04.999 +03:00 [INF] Order saved successfully. ID: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-04 20:38:05.017 +03:00 [DBG] Order sent to queue: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-04 20:38:05.032 +03:00 [INF] Order created successfully. ID: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-04 20:38:05.037 +03:00 [DBG] Sending message.
+2025-05-04 20:38:05.039 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/CreateOrder'
+2025-05-04 20:38:05.040 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/CreateOrder - 200 null application/grpc 76.5371ms
+2025-05-04 20:38:05.074 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 8
+2025-05-04 20:38:05.080 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:05.083 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:05.086 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:05.089 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:05.096 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:05.098 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:05.100 +03:00 [DBG] Reading message.
+2025-05-04 20:38:05.102 +03:00 [DBG] Connection id "0HNCB68UNJ6F1", Request id "0HNCB68UNJ6F1:00000003": started reading request body.
+2025-05-04 20:38:05.104 +03:00 [DBG] Connection id "0HNCB68UNJ6F1", Request id "0HNCB68UNJ6F1:00000003": done reading request body.
+2025-05-04 20:38:05.113 +03:00 [DBG] Sending message.
+2025-05-04 20:38:05.114 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:05.116 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 43.0017ms
+2025-05-04 20:38:21.666 +03:00 [DBG] Connection id "0HNCB68UNJ6F2" accepted.
+2025-05-04 20:38:21.672 +03:00 [DBG] Connection id "0HNCB68UNJ6F2" started.
+2025-05-04 20:38:21.716 +03:00 [DBG] Connection 0HNCB68UNJ6F2 established using the following protocol: "Tls12"
+2025-05-04 20:38:21.727 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/ServiceCenter.MastersService/AuthenticateMaster - application/grpc 11
+2025-05-04 20:38:21.732 +03:00 [DBG] 3 candidate(s) found for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.734 +03:00 [DBG] Endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster' with route pattern '/ServiceCenter.MastersService/AuthenticateMaster' is valid for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.736 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for ServiceCenter.MastersService' with route pattern 'ServiceCenter.MastersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.738 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.740 +03:00 [DBG] Request matched endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.742 +03:00 [INF] Executing endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.744 +03:00 [DBG] Reading message.
+2025-05-04 20:38:21.747 +03:00 [DBG] Connection id "0HNCB68UNJ6F2", Request id "0HNCB68UNJ6F2:00000001": started reading request body.
+2025-05-04 20:38:21.750 +03:00 [DBG] Connection id "0HNCB68UNJ6F2", Request id "0HNCB68UNJ6F2:00000001": done reading request body.
+2025-05-04 20:38:21.754 +03:00 [INF] Authentication attempt for login: 1
+2025-05-04 20:38:21.827 +03:00 [INF] Authentication successful. Master ID: f1700dae-ae2f-46e8-9b10-8a8bc21fa8a8
+2025-05-04 20:38:21.833 +03:00 [DBG] Sending message.
+2025-05-04 20:38:21.839 +03:00 [INF] Executed endpoint 'gRPC - /ServiceCenter.MastersService/AuthenticateMaster'
+2025-05-04 20:38:21.842 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/ServiceCenter.MastersService/AuthenticateMaster - 200 null application/grpc 115.5422ms
+2025-05-04 20:38:22.094 +03:00 [DBG] Connection id "0HNCB68UNJ6F3" accepted.
+2025-05-04 20:38:22.097 +03:00 [DBG] Connection id "0HNCB68UNJ6F3" started.
+2025-05-04 20:38:22.106 +03:00 [DBG] Connection 0HNCB68UNJ6F3 established using the following protocol: "Tls12"
+2025-05-04 20:38:22.109 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 5
+2025-05-04 20:38:22.115 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:22.118 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:22.120 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:22.123 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:22.125 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:22.126 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:22.127 +03:00 [DBG] Reading message.
+2025-05-04 20:38:22.129 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000001": started reading request body.
+2025-05-04 20:38:22.130 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000001": done reading request body.
+2025-05-04 20:38:22.137 +03:00 [DBG] Sending message.
+2025-05-04 20:38:22.138 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:22.140 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 30.4561ms
+2025-05-04 20:38:26.035 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/UpdateOrder - application/grpc 284
+2025-05-04 20:38:26.046 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:26.050 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/UpdateOrder' with route pattern '/OrdersService/UpdateOrder' is valid for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:26.060 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:26.073 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:26.083 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/UpdateOrder'
+2025-05-04 20:38:26.086 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/UpdateOrder'
+2025-05-04 20:38:26.089 +03:00 [DBG] Reading message.
+2025-05-04 20:38:26.092 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000003": started reading request body.
+2025-05-04 20:38:26.096 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000003": done reading request body.
+2025-05-04 20:38:26.221 +03:00 [INF] Order updated: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-04 20:38:26.226 +03:00 [DBG] Sending message.
+2025-05-04 20:38:26.227 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/UpdateOrder'
+2025-05-04 20:38:26.229 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/UpdateOrder - 200 null application/grpc 194.8203ms
+2025-05-04 20:38:26.282 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 5
+2025-05-04 20:38:26.291 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.293 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.300 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.304 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.307 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:26.309 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:26.310 +03:00 [DBG] Reading message.
+2025-05-04 20:38:26.312 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000005": started reading request body.
+2025-05-04 20:38:26.313 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000005": done reading request body.
+2025-05-04 20:38:26.320 +03:00 [DBG] Sending message.
+2025-05-04 20:38:26.322 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:26.324 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 41.6847ms
+2025-05-04 20:38:26.402 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 5
+2025-05-04 20:38:26.414 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.424 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.430 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.434 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:26.440 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:26.445 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:26.450 +03:00 [DBG] Reading message.
+2025-05-04 20:38:26.452 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000007": started reading request body.
+2025-05-04 20:38:26.456 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000007": done reading request body.
+2025-05-04 20:38:26.462 +03:00 [DBG] Sending message.
+2025-05-04 20:38:26.463 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:26.465 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 62.5561ms
+2025-05-04 20:38:28.620 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/UpdateOrder - application/grpc 263
+2025-05-04 20:38:28.648 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:28.651 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/UpdateOrder' with route pattern '/OrdersService/UpdateOrder' is valid for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:28.653 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:28.656 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/UpdateOrder'
+2025-05-04 20:38:28.658 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/UpdateOrder'
+2025-05-04 20:38:28.660 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/UpdateOrder'
+2025-05-04 20:38:28.662 +03:00 [DBG] Reading message.
+2025-05-04 20:38:28.663 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000009": started reading request body.
+2025-05-04 20:38:28.665 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:00000009": done reading request body.
+2025-05-04 20:38:28.697 +03:00 [INF] Order updated: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-04 20:38:28.700 +03:00 [DBG] Sending message.
+2025-05-04 20:38:28.702 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/UpdateOrder'
+2025-05-04 20:38:28.704 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/UpdateOrder - 200 null application/grpc 83.9114ms
+2025-05-04 20:38:28.750 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 5
+2025-05-04 20:38:28.754 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.758 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.764 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.767 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.770 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:28.772 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:28.774 +03:00 [DBG] Reading message.
+2025-05-04 20:38:28.775 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:0000000B": started reading request body.
+2025-05-04 20:38:28.777 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:0000000B": done reading request body.
+2025-05-04 20:38:28.784 +03:00 [DBG] Sending message.
+2025-05-04 20:38:28.785 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:28.787 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 37.8294ms
+2025-05-04 20:38:28.821 +03:00 [INF] Request starting HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - application/grpc 5
+2025-05-04 20:38:28.831 +03:00 [DBG] 3 candidate(s) found for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.835 +03:00 [DBG] Endpoint 'gRPC - /OrdersService/GetOrders' with route pattern '/OrdersService/GetOrders' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.838 +03:00 [DBG] Endpoint 'gRPC - Unimplemented method for OrdersService' with route pattern 'OrdersService/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.840 +03:00 [DBG] Endpoint 'gRPC - Unimplemented service' with route pattern '{unimplementedService}/{unimplementedMethod:grpcunimplemented}' is valid for the request path '/OrdersService/GetOrders'
+2025-05-04 20:38:28.843 +03:00 [DBG] Request matched endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:28.845 +03:00 [INF] Executing endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:28.847 +03:00 [DBG] Reading message.
+2025-05-04 20:38:28.848 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:0000000D": started reading request body.
+2025-05-04 20:38:28.852 +03:00 [DBG] Connection id "0HNCB68UNJ6F3", Request id "0HNCB68UNJ6F3:0000000D": done reading request body.
+2025-05-04 20:38:28.861 +03:00 [DBG] Sending message.
+2025-05-04 20:38:28.864 +03:00 [INF] Executed endpoint 'gRPC - /OrdersService/GetOrders'
+2025-05-04 20:38:28.867 +03:00 [INF] Request finished HTTP/2 POST https://10.8.1.5:9080/OrdersService/GetOrders - 200 null application/grpc 46.4778ms
+2025-05-04 20:38:32.519 +03:00 [DBG] Connection id "0HNCB68UNJ6F3" received FIN.
+2025-05-04 20:38:32.520 +03:00 [DBG] Connection id "0HNCB68UNJ6F2" received FIN.
+2025-05-04 20:38:32.524 +03:00 [DBG] Connection id "0HNCB68UNJ6F3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 20:38:32.524 +03:00 [DBG] Connection id "0HNCB68UNJ6F3" is closed. The last processed stream ID was 13.
+2025-05-04 20:38:32.526 +03:00 [DBG] Connection id "0HNCB68UNJ6F2" is closed. The last processed stream ID was 1.
+2025-05-04 20:38:32.528 +03:00 [DBG] The connection queue processing loop for 0HNCB68UNJ6F2 completed.
+2025-05-04 20:38:32.533 +03:00 [DBG] The connection queue processing loop for 0HNCB68UNJ6F3 completed.
+2025-05-04 20:38:32.535 +03:00 [DBG] Connection id "0HNCB68UNJ6F2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-04 20:38:32.539 +03:00 [DBG] Connection id "0HNCB68UNJ6F3" stopped.
+2025-05-04 20:38:32.552 +03:00 [DBG] Connection id "0HNCB68UNJ6F2" stopped.

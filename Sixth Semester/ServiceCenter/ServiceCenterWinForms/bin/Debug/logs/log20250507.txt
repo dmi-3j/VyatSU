@@ -1,0 +1,318 @@
+2025-05-07 13:05:09.128 +03:00 [INF] Started OrderClient Application
+2025-05-07 13:05:09.642 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 13:05:09.665 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:05:13.508 +03:00 [INF] Loaded 4 orders
+2025-05-07 13:05:17.310 +03:00 [DBG] Starting order creation
+2025-05-07 13:05:19.073 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 13:05:19.130 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 13:05:19.135 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:05:19.486 +03:00 [INF] Loaded 5 orders
+2025-05-07 13:12:54.014 +03:00 [INF] Started OrderClient Application
+2025-05-07 13:12:55.327 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 13:12:55.358 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:12:57.832 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:12:57.997 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:00.019 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:00.086 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:02.113 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:02.179 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:04.220 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:04.265 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:06.289 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:06.339 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:08.375 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:08.420 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:10.445 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:10.487 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:12.525 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:12.569 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:14.601 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:14.648 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:16.673 +03:00 [ERR] Failed to load orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<LoadOrders>d__7.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 78
+2025-05-07 13:13:16.714 +03:00 [DBG] $Notification shown: - Ошибка загрузки: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-05-07 13:13:23.095 +03:00 [INF] Loaded 5 orders
+2025-05-07 13:13:49.927 +03:00 [INF] Attempting to delete order ID: c47fba04-cb46-46a8-a8d7-d5cd67c35aec
+2025-05-07 13:13:50.563 +03:00 [INF] Order c47fba04-cb46-46a8-a8d7-d5cd67c35aec successfully deleted
+2025-05-07 13:13:50.563 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:13:50.651 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 13:13:50.936 +03:00 [INF] Loaded 4 orders
+2025-05-07 13:13:54.145 +03:00 [INF] Attempting to delete order ID: a060eb64-1923-485b-b41a-7898ed0eb181
+2025-05-07 13:13:54.299 +03:00 [INF] Order a060eb64-1923-485b-b41a-7898ed0eb181 successfully deleted
+2025-05-07 13:13:54.303 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:13:54.519 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 13:13:54.557 +03:00 [INF] Loaded 3 orders
+2025-05-07 13:13:58.952 +03:00 [INF] Attempting to delete order ID: 4084ac93-705e-462f-821e-342801839b4f
+2025-05-07 13:13:59.496 +03:00 [INF] Order 4084ac93-705e-462f-821e-342801839b4f successfully deleted
+2025-05-07 13:13:59.504 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:13:59.578 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 13:13:59.695 +03:00 [INF] Loaded 2 orders
+2025-05-07 13:14:03.140 +03:00 [DBG] Starting order creation
+2025-05-07 13:14:04.152 +03:00 [INF] Order created for  Александр Юркин, Iphone 13
+2025-05-07 13:14:04.209 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 13:14:04.213 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:14:04.513 +03:00 [INF] Loaded 3 orders
+2025-05-07 13:14:06.703 +03:00 [DBG] Starting order creation
+2025-05-07 13:14:06.983 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 13:14:07.033 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 13:14:07.033 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:14:07.227 +03:00 [INF] Loaded 4 orders
+2025-05-07 13:19:59.837 +03:00 [INF] Started OrderClient Application
+2025-05-07 13:20:01.045 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 13:20:01.054 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:20:04.844 +03:00 [INF] Loaded 4 orders
+2025-05-07 13:20:08.062 +03:00 [INF] Attempting to delete order ID: e9b20085-414e-4c95-83ab-0889751e695f
+2025-05-07 13:20:08.998 +03:00 [INF] Order e9b20085-414e-4c95-83ab-0889751e695f successfully deleted
+2025-05-07 13:20:09.002 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:20:09.086 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 13:20:09.497 +03:00 [INF] Loaded 3 orders
+2025-05-07 13:20:11.546 +03:00 [INF] Attempting to delete order ID: 37e9a481-40ca-47b5-a1af-864d115f66fb
+2025-05-07 13:20:11.744 +03:00 [INF] Order 37e9a481-40ca-47b5-a1af-864d115f66fb successfully deleted
+2025-05-07 13:20:11.744 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:20:11.827 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 13:20:11.894 +03:00 [INF] Loaded 2 orders
+2025-05-07 13:20:25.074 +03:00 [DBG] Starting order creation
+2025-05-07 13:20:25.934 +03:00 [INF] Order created for  Александр Юркин, Iphone 13
+2025-05-07 13:20:25.995 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 13:20:25.995 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:20:26.134 +03:00 [INF] Loaded 3 orders
+2025-05-07 13:21:13.007 +03:00 [DBG] Starting order creation
+2025-05-07 13:21:13.284 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 13:21:13.356 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 13:21:13.360 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:21:13.449 +03:00 [INF] Loaded 4 orders
+2025-05-07 13:31:01.613 +03:00 [INF] Started OrderClient Application
+2025-05-07 13:31:02.304 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 13:31:02.338 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 13:31:05.633 +03:00 [INF] Loaded 4 orders
+2025-05-07 14:06:12.420 +03:00 [INF] Started OrderClient Application
+2025-05-07 14:06:12.935 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 14:06:12.943 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:06:14.985 +03:00 [INF] Loaded 4 orders
+2025-05-07 14:06:36.101 +03:00 [INF] Attempting to delete order ID: 67f952d2-a2b1-4d84-8de8-41a94fc7a1b7
+2025-05-07 14:06:36.433 +03:00 [INF] Order 67f952d2-a2b1-4d84-8de8-41a94fc7a1b7 successfully deleted
+2025-05-07 14:06:36.434 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:06:36.488 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 14:06:36.636 +03:00 [INF] Loaded 3 orders
+2025-05-07 14:06:38.739 +03:00 [INF] Attempting to delete order ID: d34be4a9-b61d-48ed-b1a5-c921356389bb
+2025-05-07 14:06:38.827 +03:00 [INF] Order d34be4a9-b61d-48ed-b1a5-c921356389bb successfully deleted
+2025-05-07 14:06:38.828 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:06:38.852 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 14:06:38.875 +03:00 [INF] Loaded 2 orders
+2025-05-07 14:06:39.968 +03:00 [WRN] Update order attempted without selection
+2025-05-07 14:06:39.986 +03:00 [DBG] $Notification shown: - Пожалуйста, выберите заказ для обновления.
+2025-05-07 14:06:42.746 +03:00 [DBG] Starting order creation
+2025-05-07 14:06:43.448 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 14:06:43.466 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 14:06:43.467 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:06:43.543 +03:00 [INF] Loaded 3 orders
+2025-05-07 14:37:22.574 +03:00 [INF] Started OrderClient Application
+2025-05-07 14:37:23.204 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 14:37:23.217 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:37:26.730 +03:00 [INF] Loaded 3 orders
+2025-05-07 14:37:29.771 +03:00 [INF] Attempting to delete order ID: 8cd188ea-42a7-428a-876d-a2cf2b2658cd
+2025-05-07 14:37:30.420 +03:00 [INF] Order 8cd188ea-42a7-428a-876d-a2cf2b2658cd successfully deleted
+2025-05-07 14:37:30.422 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:37:30.469 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 14:37:30.679 +03:00 [INF] Loaded 2 orders
+2025-05-07 14:37:36.828 +03:00 [INF] Attempting to delete order ID: 2a3bda1b-908b-4b6c-a617-c5f5df31fe2f
+2025-05-07 14:37:36.934 +03:00 [INF] Order 2a3bda1b-908b-4b6c-a617-c5f5df31fe2f successfully deleted
+2025-05-07 14:37:36.936 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:37:36.961 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 14:37:37.020 +03:00 [INF] Loaded 1 orders
+2025-05-07 14:37:39.162 +03:00 [DBG] Starting order creation
+2025-05-07 14:37:39.997 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 14:37:40.025 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 14:37:40.027 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:37:40.099 +03:00 [INF] Loaded 2 orders
+2025-05-07 14:40:01.512 +03:00 [INF] Attempting to delete order ID: e1265847-042c-4b3a-8972-6c145133985a
+2025-05-07 14:40:03.017 +03:00 [INF] Order e1265847-042c-4b3a-8972-6c145133985a successfully deleted
+2025-05-07 14:40:03.020 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:40:03.052 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 14:40:03.124 +03:00 [INF] Loaded 1 orders
+2025-05-07 14:40:05.438 +03:00 [DBG] Starting order creation
+2025-05-07 14:40:05.848 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 14:40:05.865 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 14:40:05.866 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 14:40:05.930 +03:00 [INF] Loaded 2 orders
+2025-05-07 15:43:26.012 +03:00 [INF] Started OrderClient Application
+2025-05-07 15:43:26.512 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 15:43:26.520 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 15:43:28.746 +03:00 [INF] Loaded 2 orders
+2025-05-07 15:43:30.760 +03:00 [INF] Attempting to delete order ID: ad9d5859-7fe3-4053-9dd5-bd907b15c57b
+2025-05-07 15:43:30.993 +03:00 [INF] Order ad9d5859-7fe3-4053-9dd5-bd907b15c57b successfully deleted
+2025-05-07 15:43:30.994 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 15:43:31.038 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 15:43:31.133 +03:00 [INF] Loaded 1 orders
+2025-05-07 15:43:32.619 +03:00 [DBG] Starting order creation
+2025-05-07 15:43:33.290 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 15:43:33.319 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 15:43:33.320 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 15:43:33.360 +03:00 [INF] Loaded 2 orders
+2025-05-07 15:45:33.384 +03:00 [INF] Attempting to delete order ID: 38dd0e6a-36b3-453e-9fb0-06c1ce127461
+2025-05-07 15:45:35.526 +03:00 [ERR] gRPC error deleting order. Status: "Internal", Order ID: 38dd0e6a-36b3-453e-9fb0-06c1ce127461
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnDeleteOrder_Click>d__15.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 375
+2025-05-07 15:45:35.674 +03:00 [DBG] $Notification shown: - Communication error (Order ID: 38dd0e6a-36b3-453e-9fb0-06c1ce127461): Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+2025-05-07 15:54:13.071 +03:00 [INF] Attempting to delete order ID: 38dd0e6a-36b3-453e-9fb0-06c1ce127461
+2025-05-07 15:54:16.666 +03:00 [INF] Attempting to delete order ID: 38dd0e6a-36b3-453e-9fb0-06c1ce127461
+2025-05-07 15:54:17.131 +03:00 [INF] Order 38dd0e6a-36b3-453e-9fb0-06c1ce127461 successfully deleted
+2025-05-07 15:54:17.132 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 15:54:17.164 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 15:54:17.342 +03:00 [INF] Loaded 1 orders
+2025-05-07 16:00:10.060 +03:00 [INF] Started OrderClient Application
+2025-05-07 16:00:10.591 +03:00 [INF] gRPC client initialized for https://10.8.1.8:9080
+2025-05-07 16:00:10.599 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 16:00:12.424 +03:00 [INF] Loaded 1 orders
+2025-05-07 16:00:15.366 +03:00 [DBG] Starting order creation
+2025-05-07 16:00:16.384 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-07 16:00:16.420 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-07 16:00:16.424 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 16:00:16.567 +03:00 [INF] Loaded 2 orders
+2025-05-07 16:00:56.398 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 16:00:56.828 +03:00 [INF] Loaded 2 orders
+2025-05-07 16:01:00.053 +03:00 [INF] Attempting to delete order ID: 23df8250-8947-4a46-94f3-abe0346ac065
+2025-05-07 16:01:00.140 +03:00 [INF] Order 23df8250-8947-4a46-94f3-abe0346ac065 successfully deleted
+2025-05-07 16:01:00.143 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-07 16:01:00.170 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-07 16:01:00.172 +03:00 [INF] Loaded 1 orders

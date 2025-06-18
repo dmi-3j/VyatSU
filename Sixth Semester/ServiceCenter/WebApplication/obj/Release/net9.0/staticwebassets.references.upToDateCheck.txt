@@ -1,0 +1,1 @@
+D:\ServiceCenter(ПОЧТИ ИТОГ)\ServiceCenter\obj\Release\net9.0\staticwebassets.build.json

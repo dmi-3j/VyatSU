@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/AssignmentService.cs \
+obj\Debug\net7.0\Protos/AssignmentServiceGrpc.cs: Protos/AssignmentService.proto

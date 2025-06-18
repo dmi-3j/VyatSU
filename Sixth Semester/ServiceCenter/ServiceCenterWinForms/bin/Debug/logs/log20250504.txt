@@ -1,0 +1,83 @@
+2025-05-04 19:33:28.268 +03:00 [INF] Started OrderClient Application
+2025-05-04 19:33:28.903 +03:00 [INF] gRPC client initialized for https://10.8.1.5:9080
+2025-05-04 19:33:28.914 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:33:31.483 +03:00 [INF] Loaded 6 orders
+2025-05-04 19:33:36.502 +03:00 [INF] Attempting to delete order ID: 301a687b-3fa5-40aa-a45a-a4ed76f4f467
+2025-05-04 19:33:36.851 +03:00 [INF] Order 301a687b-3fa5-40aa-a45a-a4ed76f4f467 successfully deleted
+2025-05-04 19:33:36.853 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:33:36.926 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:33:37.074 +03:00 [INF] Loaded 5 orders
+2025-05-04 19:33:38.352 +03:00 [INF] Attempting to delete order ID: 17e33e5f-752f-4f89-a633-275a2381bce7
+2025-05-04 19:33:38.498 +03:00 [INF] Order 17e33e5f-752f-4f89-a633-275a2381bce7 successfully deleted
+2025-05-04 19:33:38.498 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:33:38.530 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:33:38.552 +03:00 [INF] Loaded 4 orders
+2025-05-04 19:33:40.237 +03:00 [INF] Attempting to delete order ID: 158295cd-c703-4db7-a6c1-36c9e77e1388
+2025-05-04 19:33:40.311 +03:00 [INF] Order 158295cd-c703-4db7-a6c1-36c9e77e1388 successfully deleted
+2025-05-04 19:33:40.313 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:33:40.344 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:33:40.371 +03:00 [INF] Loaded 3 orders
+2025-05-04 19:33:47.851 +03:00 [DBG] Starting order creation
+2025-05-04 19:33:48.438 +03:00 [INF] Order created for  Александр Юркин, Iphone 13
+2025-05-04 19:33:48.470 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-04 19:33:48.473 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:33:48.513 +03:00 [INF] Loaded 4 orders
+2025-05-04 19:35:14.169 +03:00 [INF] Attempting to delete order ID: 90942adb-3570-43bc-ae5f-8d29e32d384b
+2025-05-04 19:35:16.237 +03:00 [ERR] gRPC error deleting order. Status: "Internal", Order ID: 90942adb-3570-43bc-ae5f-8d29e32d384b
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__123.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в OrderClient.OrderForm.<btnDeleteOrder_Click>d__15.MoveNext() в C:\Users\user\Desktop\ServiceCenter\ServiceCenterWinForms\OrderForm.cs:строка 375
+2025-05-04 19:35:16.394 +03:00 [DBG] $Notification shown: - Communication error (Order ID: 90942adb-3570-43bc-ae5f-8d29e32d384b): Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+2025-05-04 19:43:12.752 +03:00 [INF] Started OrderClient Application
+2025-05-04 19:43:13.175 +03:00 [INF] gRPC client initialized for https://10.8.1.5:9080
+2025-05-04 19:43:13.182 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:43:15.054 +03:00 [INF] Loaded 4 orders
+2025-05-04 19:43:17.744 +03:00 [INF] Attempting to delete order ID: 93906164-87b9-4302-85a2-c20304c2cd1d
+2025-05-04 19:43:18.011 +03:00 [INF] Order 93906164-87b9-4302-85a2-c20304c2cd1d successfully deleted
+2025-05-04 19:43:18.012 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:43:18.044 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:43:18.107 +03:00 [INF] Loaded 3 orders
+2025-05-04 19:43:19.695 +03:00 [INF] Attempting to delete order ID: eced8a6f-bf42-4ea1-b6d7-0471d2f80ad6
+2025-05-04 19:43:19.741 +03:00 [INF] Order eced8a6f-bf42-4ea1-b6d7-0471d2f80ad6 successfully deleted
+2025-05-04 19:43:19.742 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:43:19.771 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:43:19.792 +03:00 [INF] Loaded 2 orders
+2025-05-04 19:43:21.841 +03:00 [DBG] Starting order creation
+2025-05-04 19:43:22.047 +03:00 [INF] Order created for  Александр Юркин, Iphone 13
+2025-05-04 19:43:22.076 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-04 19:43:22.078 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:43:22.119 +03:00 [INF] Loaded 3 orders
+2025-05-04 19:43:24.173 +03:00 [DBG] Starting order creation
+2025-05-04 19:43:24.274 +03:00 [INF] Order created for  Алексей Бондаренко, MacБук Про 13
+2025-05-04 19:43:24.292 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-04 19:43:24.294 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:43:24.326 +03:00 [INF] Loaded 4 orders
+2025-05-04 19:52:26.621 +03:00 [INF] Started OrderClient Application
+2025-05-04 19:52:27.128 +03:00 [INF] gRPC client initialized for https://10.8.1.5:9080
+2025-05-04 19:52:27.140 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:52:28.693 +03:00 [INF] Loaded 4 orders
+2025-05-04 19:52:30.980 +03:00 [INF] Attempting to delete order ID: 9bf1a949-9172-4690-b814-b03e0f834a57
+2025-05-04 19:52:31.199 +03:00 [INF] Order 9bf1a949-9172-4690-b814-b03e0f834a57 successfully deleted
+2025-05-04 19:52:31.201 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:52:31.241 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:52:31.320 +03:00 [INF] Loaded 3 orders
+2025-05-04 19:52:33.011 +03:00 [INF] Attempting to delete order ID: 46277006-566f-4a54-9930-f1329c4edb79
+2025-05-04 19:52:33.065 +03:00 [INF] Order 46277006-566f-4a54-9930-f1329c4edb79 successfully deleted
+2025-05-04 19:52:33.067 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:52:33.093 +03:00 [DBG] $Notification shown: - Заказ успешно удален.
+2025-05-04 19:52:33.126 +03:00 [INF] Loaded 2 orders
+2025-05-04 19:52:34.465 +03:00 [DBG] Starting order creation
+2025-05-04 19:52:34.667 +03:00 [INF] Order created for  Александр Юркин, Iphone 13
+2025-05-04 19:52:34.692 +03:00 [DBG] $Notification shown: - Заказ успешно создан.
+2025-05-04 19:52:34.694 +03:00 [DBG] Loading orders. Filter: All, Search: 
+2025-05-04 19:52:34.836 +03:00 [INF] Loaded 3 orders

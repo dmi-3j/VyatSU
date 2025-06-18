@@ -1,0 +1,158 @@
+﻿@page "/"
+@model StatusModel
+@{
+    ViewData["Title"] = "Статус заказа";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            width: 90%;
+            max-width: 800px;
+            min-height: 500px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-bottom: 30px;
+        }
+
+        input {
+            padding: 12px;
+            width: 80%;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .no-orders {
+            color: red;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Проверка статуса заказа</h1>
+
+        <form method="get">
+            <label for="phoneNumber">Номер телефона:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" value="@Model.PhoneNumber" required />
+            <button type="submit"><i class="fas fa-search"></i> Проверить</button>
+        </form>
+
+        @if (Model.Orders.Any())
+        {
+            <h2>Найденные заказы:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Дата заказа</th>
+                        <th>Статус</th>
+                        <th>Тип устройства</th>
+                        <th>Модель устройства</th>
+                        <th>Тип ремонта</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.Orders)
+                    {
+                        <tr>
+                            <td>@order.OrderDate</td>
+                            <td>@order.Status</td>
+                            <td>@order.DeviceType</td>
+                            <td>@order.DeviceModel</td>
+                            <td>@order.RepairType</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else if (!string.IsNullOrEmpty(Model.PhoneNumber))
+        {
+            <p class="no-orders">Заказы для номера @Model.PhoneNumber не найдены.</p>
+        }
+    </div>
+
+    @section Scripts {
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#phoneNumber").inputmask({
+                    mask: "+7 (999) 999-99-99",
+                    showMaskOnHover: false,
+                    clearIncomplete: true
+                });
+            });
+        </script>
+    }
+</body>
+</html>

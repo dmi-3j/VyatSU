@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\servicecenter\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|solutionrelative:servicecenter\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\servicecenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|solutionrelative:servicecenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B77965-6718-4562-B432-FE1BC28F082B}|MasterClient\\MasterClient.csproj|D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\masterclient\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{86B77965-6718-4562-B432-FE1BC28F082B}|MasterClient\\MasterClient.csproj|solutionrelative:masterclient\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECA488B-56A3-4D76-B070-9CBB2B86BF2F}|ServiceCenterWinForms\\OrderClient.csproj|D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\servicecenterwinforms\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0ECA488B-56A3-4D76-B070-9CBB2B86BF2F}|ServiceCenterWinForms\\OrderClient.csproj|solutionrelative:servicecenterwinforms\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B68137-78A9-4AF9-A346-7D4960CE526F}|Test\\OrderTest.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\test\\orderformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B68137-78A9-4AF9-A346-7D4960CE526F}|Test\\OrderTest.csproj|solutionrelative:test\\orderformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD86F93-770F-4F28-9AEF-87D0A5A1A208}|MasterTest\\MasterTest.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\mastertest\\masterformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD86F93-770F-4F28-9AEF-87D0A5A1A208}|MasterTest\\MasterTest.csproj|solutionrelative:mastertest\\masterformtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A45C9D8-DDB4-458B-ADDC-5D4DDC9E8F31}|OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\ordersserviceintegationtests\\ordersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A45C9D8-DDB4-458B-ADDC-5D4DDC9E8F31}|OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj|solutionrelative:ordersserviceintegationtests\\ordersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E59C65-57B9-47B0-B3C1-5AD20E94D981}|WebApplication\\WebApplication.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\webapplication\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{14E59C65-57B9-47B0-B3C1-5AD20E94D981}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E59C65-57B9-47B0-B3C1-5AD20E94D981}|WebApplication\\WebApplication.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\webapplication\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E59C65-57B9-47B0-B3C1-5AD20E94D981}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E59C65-57B9-47B0-B3C1-5AD20E94D981}|WebApplication\\WebApplication.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\webapplication\\webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14E59C65-57B9-47B0-B3C1-5AD20E94D981}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A45C9D8-DDB4-458B-ADDC-5D4DDC9E8F31}|OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\ordersserviceintegationtests\\ordersserviceintegationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A45C9D8-DDB4-458B-ADDC-5D4DDC9E8F31}|OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj|solutionrelative:ordersserviceintegationtests\\ordersserviceintegationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\servicecenter\\services\\ordersserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|solutionrelative:servicecenter\\services\\ordersserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\servicecenter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|solutionrelative:servicecenter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\servicecenter\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|solutionrelative:servicecenter\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECA488B-56A3-4D76-B070-9CBB2B86BF2F}|ServiceCenterWinForms\\OrderClient.csproj|D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\servicecenterwinforms\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECA488B-56A3-4D76-B070-9CBB2B86BF2F}|ServiceCenterWinForms\\OrderClient.csproj|solutionrelative:servicecenterwinforms\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|d:\\documents\\github\\vyatsui\\sixth semester\\servicecenter\\servicecenter\\services\\mastersserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE9A382-1CF5-4CA3-8AE4-02B56C5CFD97}|ServiceCenter\\ServiceCenter.csproj|solutionrelative:servicecenter\\services\\mastersserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B77965-6718-4562-B432-FE1BC28F082B}|MasterClient\\MasterClient.csproj|D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\masterclient\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B77965-6718-4562-B432-FE1BC28F082B}|MasterClient\\MasterClient.csproj|solutionrelative:masterclient\\masterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\Program.cs",
+              "RelativeDocumentMoniker": "ServiceCenter\\Program.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\Program.cs",
+              "RelativeToolTip": "ServiceCenter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:48:52.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MasterFormTests.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\MasterTest\\MasterFormTests.cs",
+              "RelativeDocumentMoniker": "MasterTest\\MasterFormTests.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\MasterTest\\MasterFormTests.cs",
+              "RelativeToolTip": "MasterTest\\MasterFormTests.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAQwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:20:02.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\WebApplication\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\OrdersController.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\WebApplication\\OrdersController.cs",
+              "RelativeToolTip": "WebApplication\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:42:13.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\WebApplication\\.env",
+              "RelativeDocumentMoniker": "WebApplication\\.env",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\WebApplication\\.env",
+              "RelativeToolTip": "WebApplication\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T11:39:30.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebApplication.csproj",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\WebApplication\\WebApplication.csproj",
+              "RelativeDocumentMoniker": "WebApplication\\WebApplication.csproj",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\WebApplication\\WebApplication.csproj",
+              "RelativeToolTip": "WebApplication\\WebApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T11:39:24.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\MasterClient\\.env",
+              "RelativeDocumentMoniker": "MasterClient\\.env",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\MasterClient\\.env",
+              "RelativeToolTip": "MasterClient\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T11:34:01.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersServiceTests.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\OrdersServiceIntegationTests\\OrdersServiceTests.cs",
+              "RelativeDocumentMoniker": "OrdersServiceIntegationTests\\OrdersServiceTests.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\OrdersServiceIntegationTests\\OrdersServiceTests.cs",
+              "RelativeToolTip": "OrdersServiceIntegationTests\\OrdersServiceTests.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:17:19.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenterWinForms\\.env",
+              "RelativeDocumentMoniker": "ServiceCenterWinForms\\.env",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenterWinForms\\.env",
+              "RelativeToolTip": "ServiceCenterWinForms\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-25T20:00:04.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\.env",
+              "RelativeDocumentMoniker": "ServiceCenter\\.env",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\.env",
+              "RelativeToolTip": "ServiceCenter\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-25T19:46:35.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\DB\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ServiceCenter\\DB\\AppDbContext.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\DB\\AppDbContext.cs",
+              "RelativeToolTip": "ServiceCenter\\DB\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:40:07.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenterWinForms\\OrderForm.cs",
+              "RelativeDocumentMoniker": "ServiceCenterWinForms\\OrderForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenterWinForms\\OrderForm.cs",
+              "RelativeToolTip": "ServiceCenterWinForms\\OrderForm.cs",
+              "ViewState": "AgIAAA0CAAAAAAAAAAAowDICAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:24:48.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderFormTests.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\Test\\OrderFormTests.cs",
+              "RelativeDocumentMoniker": "Test\\OrderFormTests.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\Test\\OrderFormTests.cs",
+              "RelativeToolTip": "Test\\OrderFormTests.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAUwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:13:57.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\appsettings.json",
+              "RelativeDocumentMoniker": "ServiceCenter\\appsettings.json",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\appsettings.json",
+              "RelativeToolTip": "ServiceCenter\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T19:59:24.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdersServiceImpl.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\Services\\OrdersServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServiceCenter\\Services\\OrdersServiceImpl.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\Services\\OrdersServiceImpl.cs",
+              "RelativeToolTip": "ServiceCenter\\Services\\OrdersServiceImpl.cs",
+              "ViewState": "AgIAAHcCAAAAAAAAAAAUwJgCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:24:05.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MastersServiceImpl.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\Services\\MastersServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServiceCenter\\Services\\MastersServiceImpl.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\ServiceCenter\\Services\\MastersServiceImpl.cs",
+              "RelativeToolTip": "ServiceCenter\\Services\\MastersServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:24:03.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersServiceIntegationTests.csproj",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj",
+              "RelativeDocumentMoniker": "OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj",
+              "RelativeToolTip": "OrdersServiceIntegationTests\\OrdersServiceIntegationTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-25T19:13:51.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MasterForm.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\MasterClient\\MasterForm.cs",
+              "RelativeDocumentMoniker": "MasterClient\\MasterForm.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\VyatSUi\\Sixth Semester\\ServiceCenter\\MasterClient\\MasterForm.cs",
+              "RelativeToolTip": "MasterClient\\MasterForm.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T17:31:44.291Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

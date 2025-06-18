@@ -1,0 +1,169 @@
+2025-04-10 21:45:20.116 +03:00 [INF] gRPC client initialized successfully
+2025-04-10 21:45:20.175 +03:00 [INF] Initializing WarehouseForm...
+2025-04-10 21:45:20.175 +03:00 [INF] Loading initial data...
+2025-04-10 21:45:20.434 +03:00 [INF] Loading orders from server...
+2025-04-10 21:45:21.515 +03:00 [INF] Loading warehouse parts...
+2025-04-10 21:45:21.518 +03:00 [DBG] Initializing report DataGridView
+2025-04-10 21:45:21.519 +03:00 [INF] WarehouseForm initialized successfully
+2025-04-10 21:45:23.622 +03:00 [ERR] Error loading warehouse parts
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadWarehouseParts>d__11.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 328
+2025-04-10 21:45:23.675 +03:00 [INF] Showing notification: Ошибка - Ошибка загрузки комплектующих со склада: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.")
+2025-04-10 21:45:23.720 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:45:23.723 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:45:28.769 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:45:28.770 +03:00 [INF] Loading orders from server...
+2025-04-10 21:45:30.825 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:45:30.826 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:45:35.876 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:45:35.876 +03:00 [INF] Loading orders from server...
+2025-04-10 21:45:37.912 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:45:37.913 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:45:42.954 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:45:42.954 +03:00 [INF] Loading orders from server...
+2025-04-10 21:45:45.002 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:45:45.002 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:45:50.061 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:45:50.061 +03:00 [INF] Loading orders from server...
+2025-04-10 21:45:52.103 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:45:52.104 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:45:57.156 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:45:57.156 +03:00 [INF] Loading orders from server...
+2025-04-10 21:45:59.199 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:45:59.200 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:46:04.255 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:46:04.255 +03:00 [INF] Loading orders from server...
+2025-04-10 21:46:06.317 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:46:06.317 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:46:11.353 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:46:11.353 +03:00 [INF] Loading orders from server...
+2025-04-10 21:46:13.415 +03:00 [ERR] Error loading orders
+Grpc.Core.RpcException: Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: An error occurred while sending the request. WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.", DebugException="System.Net.Http.HttpRequestException: An error occurred while sending the request.") ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.Http.WinHttpException: Error 12029 calling WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, 'Не удается установить соединение с сервером'.
+   в System.Threading.Tasks.RendezvousAwaitable`1.GetResult()
+   в System.Net.Http.WinHttpHandler.<StartRequestAsync>d__122.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   в Grpc.Net.Client.Internal.GrpcCall`2.<RunCall>d__82.MoveNext() в /_/src/Grpc.Net.Client/Internal/GrpcCall.cs:строка 508
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в WarehouseClient.WarehouseForm.<LoadOrders>d__5.MoveNext() в D:\ServiceCenter(ПОЧТИ ИТОГ)\WarehouseClient\WarehouseForm.cs:строка 69
+2025-04-10 21:46:13.415 +03:00 [INF] Showing notification: Ошибка - Ошибка при загрузке заказов.
+Попытка переподключения через 5 секунд...
+2025-04-10 21:46:18.466 +03:00 [INF] Retrying to load orders...
+2025-04-10 21:46:18.466 +03:00 [INF] Loading orders from server...
+2025-04-10 21:46:23.153 +03:00 [INF] Loaded 0 orders
+2025-04-10 21:46:23.161 +03:00 [DBG] Updating missing parts report
+2025-04-10 21:46:23.281 +03:00 [INF] Missing parts report updated with 0 entries
